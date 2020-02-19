@@ -15,7 +15,7 @@
       </h1>
       
       {% if page.image %}
-      <img src="{{ page.image }}" />
+      <img src="{{ page.image | absolute_url }}" />
       {% endif %}
       
       {{ content }}

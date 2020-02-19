@@ -8,7 +8,7 @@ papers:
     authors: [Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhiyuan Liu, Juanzi Li, Jian Tang]
     links:
       arXiv: https://arxiv.org/pdf/1911.06136.pdf
-      BibTeX: /bibtex/kepler.bib
+      BibTeX: /bibtex/kepler.txt
 ---
 
 Info
