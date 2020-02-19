@@ -9,3 +9,6 @@ theme: jekyll-theme-primer
   
 title: Projects
 description: Project page of MilaGraph group
+
+url: "https://deepgraphlearning.github.io"
+baseurl: "/project"
