@@ -1,0 +1,11 @@
+include:
+  - _includes
+  - _pages
+
+sass:
+  style: :compressed
+
+theme: jekyll-theme-primer
+  
+title: Projects
+description: Project page of MilaGraph group
