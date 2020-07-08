@@ -1,6 +1,12 @@
 include:
   - _includes
   - _pages
+  - .doctrees
+  - _modules
+  - _sources
+  - _static
+keep_files:
+  - drugdiscovery/docs
 
 sass:
   style: :compressed

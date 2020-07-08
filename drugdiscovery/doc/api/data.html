@@ -1,0 +1,1507 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>drugdiscovery.data &mdash; Drugdiscovery 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="drugdiscovery.datasets" href="datasets.html" />
+    <link rel="prev" title="drugdiscovery.core" href="core.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Drugdiscovery
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes/conv.html">Customize Message Passing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Package Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="core.html">drugdiscovery.core</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">drugdiscovery.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">drugdiscovery.datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="layers.html">drugdiscovery.layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models.html">drugdiscovery.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tasks.html">drugdiscovery.tasks</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Drugdiscovery</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>drugdiscovery.data</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/data.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-drugdiscovery.data">
+<span id="drugdiscovery-data"></span><h1>drugdiscovery.data<a class="headerlink" href="#module-drugdiscovery.data" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="drugdiscovery.data.Graph">
+<em class="property">class </em><code class="descname">Graph</code><span class="sig-paren">(</span><em>edge_list=None</em>, <em>edge_weight=None</em>, <em>num_node=None</em>, <em>num_relation=None</em>, <em>node_feature=None</em>, <em>edge_feature=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic container for sparse graphs.</p>
+<p>To batch graphs with variadic sizes, use <code class="xref py py-meth docutils literal notranslate"><span class="pre">data.Graph.pack()</span></code>.
+This will return a PackedGraph object with the following block diagonal adjacency matrix.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{bmatrix}
+    A_1    &amp; \cdots &amp; 0      \\
+    \vdots &amp; \ddots &amp; \vdots \\
+    0      &amp; \cdots &amp; A_n
+\end{bmatrix}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(A_i\)</span> is the adjacency of i-th graph.</p>
+<p>You may register dynamic attributes for each graph.
+The registered attributes will be automatically processed during packing.</p>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">graph</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">2</span><span class="p">)))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">graph</span><span class="o">.</span><span class="n">node</span><span class="p">():</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="n">graph</span><span class="o">.</span><span class="n">my_node_attr</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>edge_list</strong> (<em>array_like</em><em>, </em><em>optional</em>) – list of edges of shape <span class="math notranslate nohighlight">\((|E|, 2)\)</span> or <span class="math notranslate nohighlight">\((|E|, 3)\)</span>.
+Each tuple is (node_out, node_in) or (node_out, node_in, relation).</li>
+<li><strong>edge_weight</strong> (<em>array_like</em><em>, </em><em>optional</em>) – edge weights of shape <span class="math notranslate nohighlight">\((|E|,)\)</span></li>
+<li><strong>num_node</strong> (<em>int</em><em>, </em><em>optional</em>) – number of nodes.
+By default, it will be inferred from the largest id in <cite>edge_list</cite></li>
+<li><strong>num_relation</strong> (<em>int</em><em>, </em><em>optional</em>) – number of relations</li>
+<li><strong>node_feature</strong> (<em>array_like</em><em>, </em><em>optional</em>) – node features of shape <span class="math notranslate nohighlight">\((|V|, ...)\)</span></li>
+<li><strong>edge_feature</strong> (<em>array_like</em><em>, </em><em>optional</em>) – edge features of shape <span class="math notranslate nohighlight">\((|E|, ...)\)</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.cpu">
+<code class="descname">cpu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.cpu"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.cpu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CPU memory.</p>
+<p>This is a non-op if the graph is already in CPU memory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.cuda">
+<code class="descname">cuda</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.cuda"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.cuda" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CUDA memory.</p>
+<p>This is a non-op if the graph is already on the correct device.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.edge">
+<code class="descname">edge</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.edge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for edge attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.edge_mask">
+<code class="descname">edge_mask</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.edge_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.edge_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked graph based on the specified edges.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – edge index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.Graph.from_dense">
+<em class="property">classmethod </em><code class="descname">from_dense</code><span class="sig-paren">(</span><em>adjacency</em>, <em>node_feature=None</em>, <em>edge_feature=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.from_dense"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.from_dense" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a sparse graph from a dense adjacency matrix.
+For zero entries in the adjacency matrix, their edge features will be ignored.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>adjacency</strong> (<em>array_like</em>) – adjacency matrix of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span></li>
+<li><strong>node_feature</strong> (<em>array_like</em>) – node features of shape <span class="math notranslate nohighlight">\((|V|, ...)\)</span></li>
+<li><strong>edge_feature</strong> (<em>array_like</em>) – edge features of shape <span class="math notranslate nohighlight">\((|V|, |V|, ...)\)</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.full">
+<code class="descname">full</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.full"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.full" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a fully connected graph over the nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.get_edge">
+<code class="descname">get_edge</code><span class="sig-paren">(</span><em>edge</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.get_edge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.get_edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the weight of of an edge.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>edge</strong> (<em>array_like</em>) – index of shape <span class="math notranslate nohighlight">\((2,)\)</span> or <span class="math notranslate nohighlight">\((3,)\)</span></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">weight of the edge</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Tensor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.graph">
+<code class="descname">graph</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.graph"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for graph attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.node">
+<code class="descname">node</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.node"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for node attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.node_mask">
+<code class="descname">node_mask</code><span class="sig-paren">(</span><em>index</em>, <em>compact=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.node_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.node_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked graph based on the specified nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>index</strong> (<em>array_like</em>) – node index</li>
+<li><strong>compact</strong> (<em>bool</em><em>, </em><em>optional</em>) – compact node ids or not</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Graph</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">graph</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Graph</span><span class="o">.</span><span class="n">from_dense</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">graph</span><span class="o">.</span><span class="n">node_mask</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span><span class="o">.</span><span class="n">adjacency</span><span class="o">.</span><span class="n">shape</span> <span class="o">==</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">graph</span><span class="o">.</span><span class="n">node_mask</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="n">compact</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">adjacency</span><span class="o">.</span><span class="n">shape</span> <span class="o">==</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.Graph.pack">
+<em class="property">classmethod </em><code class="descname">pack</code><span class="sig-paren">(</span><em>graphs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.pack"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.pack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pack a list of graphs into a PackedGraph object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>graphs</strong> (<em>list of Graph</em>) – list of graphs</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.repeat">
+<code class="descname">repeat</code><span class="sig-paren">(</span><em>count</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.repeat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Repeat this graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>count</strong> (<em>int</em>) – number of times</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Graph.subgraph">
+<code class="descname">subgraph</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.subgraph"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.subgraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subgraph based on the specified nodes. Equivalent to <code class="xref py py-attr docutils literal notranslate"><span class="pre">node_mask(index,</span> <span class="pre">compact=True)</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – node index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#drugdiscovery.data.Graph.node_mask" title="drugdiscovery.data.Graph.node_mask"><code class="xref py py-meth docutils literal notranslate"><span class="pre">Graph.node_mask()</span></code></a></p>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Graph.adjacency">
+<code class="descname">adjacency</code><a class="headerlink" href="#drugdiscovery.data.Graph.adjacency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adjacency matrix of this graph.</p>
+<p>If <code class="xref py py-attr docutils literal notranslate"><span class="pre">num_relation</span></code> is specified, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|, num\_relation)\)</span> will be
+returned.
+Otherwise, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span> will be returned.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Graph.device">
+<code class="descname">device</code><a class="headerlink" href="#drugdiscovery.data.Graph.device" title="Permalink to this definition">¶</a></dt>
+<dd><p>Device.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Graph.edge2graph">
+<code class="descname">edge2graph</code><a class="headerlink" href="#drugdiscovery.data.Graph.edge2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge id to graph id mapping.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Graph.edge_list">
+<code class="descname">edge_list</code><a class="headerlink" href="#drugdiscovery.data.Graph.edge_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of edges.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Graph.edge_weight">
+<code class="descname">edge_weight</code><a class="headerlink" href="#drugdiscovery.data.Graph.edge_weight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge weights.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Graph.node2graph">
+<code class="descname">node2graph</code><a class="headerlink" href="#drugdiscovery.data.Graph.node2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Node id to graph id mapping.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.data.PackedGraph">
+<em class="property">class </em><code class="descname">PackedGraph</code><span class="sig-paren">(</span><em>edge_list=None</em>, <em>edge_weight=None</em>, <em>num_nodes=None</em>, <em>num_edges=None</em>, <em>num_relation=None</em>, <em>offsets=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Container for sparse graphs with variadic sizes.</p>
+<p>To create a PackedGraph from Graph objects</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">batch</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Graph</span><span class="o">.</span><span class="n">pack</span><span class="p">(</span><span class="n">graphs</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>To retrieve Graph objects from a PackedGraph</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">graphs</span> <span class="o">=</span> <span class="n">batch</span><span class="o">.</span><span class="n">unpack</span><span class="p">()</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>edge_list</strong> (<em>array_like</em><em>, </em><em>optional</em>) – list of edges of shape <span class="math notranslate nohighlight">\((|E|, 2)\)</span> or <span class="math notranslate nohighlight">\((|E|, 3)\)</span>.
+Each tuple is (node_out, node_in) or (node_out, node_in, relation).</li>
+<li><strong>edge_weight</strong> (<em>array_like</em><em>, </em><em>optional</em>) – edge weights of shape <span class="math notranslate nohighlight">\((|E|,)\)</span></li>
+<li><strong>num_nodes</strong> (<em>array_like</em><em>, </em><em>optional</em>) – number of nodes in each graph
+By default, it will be inferred from the largest id in <cite>edge_list</cite></li>
+<li><strong>num_edges</strong> (<em>array_like</em><em>, </em><em>optional</em>) – number of edges in each graph</li>
+<li><strong>num_relation</strong> (<em>int</em><em>, </em><em>optional</em>) – number of relations</li>
+<li><strong>node_feature</strong> (<em>array_like</em><em>, </em><em>optional</em>) – node features of shape <span class="math notranslate nohighlight">\((|V|, ...)\)</span></li>
+<li><strong>edge_feature</strong> (<em>array_like</em><em>, </em><em>optional</em>) – edge features of shape <span class="math notranslate nohighlight">\((|E|, ...)\)</span></li>
+<li><strong>offsets</strong> (<em>array_like</em><em>, </em><em>optional</em>) – node id offsets of shape <span class="math notranslate nohighlight">\((|E|,)\)</span>.
+If not provided, nodes in <cite>edge_list</cite> should be relative index, i.e., the index in each graph.
+If provided, nodes in <cite>edge_list</cite> should be absolute index, i.e., the index in the packed graph.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.cpu">
+<code class="descname">cpu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.cpu"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.cpu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CPU memory.</p>
+<p>This is a non-op if the graph is already in CPU memory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.cuda">
+<code class="descname">cuda</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.cuda"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.cuda" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CUDA memory.</p>
+<p>This is a non-op if the graph is already on the correct device.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.edge">
+<code class="descname">edge</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for edge attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.edge_mask">
+<code class="descname">edge_mask</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.edge_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.edge_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked packed graph based on the specified edges.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – edge index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.PackedGraph.from_dense">
+<em class="property">classmethod </em><code class="descname">from_dense</code><span class="sig-paren">(</span><em>adjacency</em>, <em>node_feature=None</em>, <em>edge_feature=None</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.from_dense" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a sparse graph from a dense adjacency matrix.
+For zero entries in the adjacency matrix, their edge features will be ignored.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>adjacency</strong> (<em>array_like</em>) – adjacency matrix of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span></li>
+<li><strong>node_feature</strong> (<em>array_like</em>) – node features of shape <span class="math notranslate nohighlight">\((|V|, ...)\)</span></li>
+<li><strong>edge_feature</strong> (<em>array_like</em>) – edge features of shape <span class="math notranslate nohighlight">\((|V|, |V|, ...)\)</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.full">
+<code class="descname">full</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.full"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.full" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a pack of fully connected graphs.</p>
+<p>This is useful for computing node-pair-wise features.
+The computation can be implemented as message passing over a fully connected graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.get_edge">
+<code class="descname">get_edge</code><span class="sig-paren">(</span><em>edge</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.get_edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the weight of of an edge.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>edge</strong> (<em>array_like</em>) – index of shape <span class="math notranslate nohighlight">\((2,)\)</span> or <span class="math notranslate nohighlight">\((3,)\)</span></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">weight of the edge</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Tensor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.get_item">
+<code class="descname">get_item</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.get_item"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.get_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the i-th graph from this packed graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>int</em>) – graph index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.graph">
+<code class="descname">graph</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for graph attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.graph_mask">
+<code class="descname">graph_mask</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.graph_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.graph_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked packed graph based on the specified graphs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – graph index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.node">
+<code class="descname">node</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for node attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.node_mask">
+<code class="descname">node_mask</code><span class="sig-paren">(</span><em>index</em>, <em>compact=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.node_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.node_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked packed graph based on the specified nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>index</strong> (<em>array_like</em>) – node index</li>
+<li><strong>compact</strong> (<em>bool</em><em>, </em><em>optional</em>) – compact node ids or not</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">PackedGraph</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.PackedGraph.pack">
+<em class="property">classmethod </em><code class="descname">pack</code><span class="sig-paren">(</span><em>graphs</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.pack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pack a list of graphs into a PackedGraph object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>graphs</strong> (<em>list of Graph</em>) – list of graphs</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.repeat">
+<code class="descname">repeat</code><span class="sig-paren">(</span><em>count</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.repeat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Repeat this packed graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>count</strong> (<em>int</em>) – number of times</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.subgraph">
+<code class="descname">subgraph</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.subgraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subgraph based on the specified nodes. Equivalent to <code class="xref py py-attr docutils literal notranslate"><span class="pre">node_mask(index,</span> <span class="pre">compact=True)</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – node index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#drugdiscovery.data.Graph.node_mask" title="drugdiscovery.data.Graph.node_mask"><code class="xref py py-meth docutils literal notranslate"><span class="pre">Graph.node_mask()</span></code></a></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.unpack">
+<code class="descname">unpack</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.unpack"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.unpack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unpack this packed graph into a list of graphs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">list of Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedGraph.unpack_data">
+<code class="descname">unpack_data</code><span class="sig-paren">(</span><em>data</em>, <em>type='auto'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.unpack_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.unpack_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Deprecated) Unpack node or edge data according to the packed graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data</strong> (<em>Tensor</em>) – data to unpack</li>
+<li><strong>type</strong> (<em>str</em><em>, </em><em>optional</em>) – “auto”, “node”, or “edge”</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">list of Tensor</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.adjacency">
+<code class="descname">adjacency</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.adjacency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adjacency matrix of this graph.</p>
+<p>If <code class="xref py py-attr docutils literal notranslate"><span class="pre">num_relation</span></code> is specified, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|, num\_relation)\)</span> will be
+returned.
+Otherwise, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span> will be returned.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.batch_size">
+<code class="descname">batch_size</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.batch_size" title="Permalink to this definition">¶</a></dt>
+<dd><p>Batch size.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.device">
+<code class="descname">device</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.device" title="Permalink to this definition">¶</a></dt>
+<dd><p>Device.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.edge2graph">
+<code class="descname">edge2graph</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.edge2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge id to graph id mapping.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.edge_list">
+<code class="descname">edge_list</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.edge_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of edges.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.edge_weight">
+<code class="descname">edge_weight</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.edge_weight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge weights.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedGraph.node2graph">
+<code class="descname">node2graph</code><a class="headerlink" href="#drugdiscovery.data.PackedGraph.node2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Node id to graph id mapping.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.data.Molecule">
+<em class="property">class </em><code class="descname">Molecule</code><span class="sig-paren">(</span><em>edge_list=None</em>, <em>atom_type=None</em>, <em>bond_type=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Molecule graph with chemical features.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>edge_list</strong> (<em>array_like</em><em>, </em><em>optional</em>) – list of edges of shape <span class="math notranslate nohighlight">\((|E|, 3)\)</span>.
+Each tuple is (node_out, node_in, bond_type).</li>
+<li><strong>atom_type</strong> (<em>array_like</em><em>, </em><em>optional</em>) – atom types of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></li>
+<li><strong>bond_type</strong> (<em>array_like</em><em>, </em><em>optional</em>) – bond types of shape <span class="math notranslate nohighlight">\((|E|,)\)</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.cpu">
+<code class="descname">cpu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.cpu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CPU memory.</p>
+<p>This is a non-op if the graph is already in CPU memory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.cuda">
+<code class="descname">cuda</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.cuda" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CUDA memory.</p>
+<p>This is a non-op if the graph is already on the correct device.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.edge">
+<code class="descname">edge</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for edge attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.edge_mask">
+<code class="descname">edge_mask</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.edge_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked graph based on the specified edges.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – edge index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.Molecule.from_dense">
+<em class="property">classmethod </em><code class="descname">from_dense</code><span class="sig-paren">(</span><em>adjacency</em>, <em>node_feature=None</em>, <em>edge_feature=None</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.from_dense" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a sparse graph from a dense adjacency matrix.
+For zero entries in the adjacency matrix, their edge features will be ignored.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>adjacency</strong> (<em>array_like</em>) – adjacency matrix of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span></li>
+<li><strong>node_feature</strong> (<em>array_like</em>) – node features of shape <span class="math notranslate nohighlight">\((|V|, ...)\)</span></li>
+<li><strong>edge_feature</strong> (<em>array_like</em>) – edge features of shape <span class="math notranslate nohighlight">\((|V|, |V|, ...)\)</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.Molecule.from_molecule">
+<em class="property">classmethod </em><code class="descname">from_molecule</code><span class="sig-paren">(</span><em>mol</em>, <em>node_feature='default'</em>, <em>edge_feature='default'</em>, <em>graph_feature=None</em>, <em>with_hydrogen=False</em>, <em>kekulize=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.from_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.from_molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a molecule from a RDKit object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>mol</strong> (<em>rdchem.Mol</em>) – molecule</li>
+<li><strong>node_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – node features to extract</li>
+<li><strong>edge_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – edge features to extract</li>
+<li><strong>graph_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – graph features to extract</li>
+<li><strong>with_hydrogen</strong> (<em>bool</em><em>, </em><em>optional</em>) – store hydrogens in the molecule graph.
+By default, hydrogens are dropped</li>
+<li><strong>kekulize</strong> (<em>bool</em><em>, </em><em>optional</em>) – convert aromatic bonds to single/double bonds.
+By default, aromatic bonds are stored</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.Molecule.from_smiles">
+<em class="property">classmethod </em><code class="descname">from_smiles</code><span class="sig-paren">(</span><em>smiles</em>, <em>node_feature='default'</em>, <em>edge_feature='default'</em>, <em>graph_feature=None</em>, <em>with_hydrogen=False</em>, <em>kekulize=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.from_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.from_smiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a molecule from a SMILES string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>smiles</strong> (<em>str</em>) – SMILES string</li>
+<li><strong>node_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – node features to extract</li>
+<li><strong>edge_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – edge features to extract</li>
+<li><strong>graph_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – graph features to extract</li>
+<li><strong>with_hydrogen</strong> (<em>bool</em><em>, </em><em>optional</em>) – store hydrogens in the molecule graph.
+By default, hydrogens are dropped</li>
+<li><strong>kekulize</strong> (<em>bool</em><em>, </em><em>optional</em>) – convert aromatic bonds to single/double bonds.
+By default, aromatic bonds are stored</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.full">
+<code class="descname">full</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.full" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a fully connected graph over the nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.get_edge">
+<code class="descname">get_edge</code><span class="sig-paren">(</span><em>edge</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.get_edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the weight of of an edge.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>edge</strong> (<em>array_like</em>) – index of shape <span class="math notranslate nohighlight">\((2,)\)</span> or <span class="math notranslate nohighlight">\((3,)\)</span></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">weight of the edge</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Tensor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.graph">
+<code class="descname">graph</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for graph attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.node">
+<code class="descname">node</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for node attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.node_mask">
+<code class="descname">node_mask</code><span class="sig-paren">(</span><em>index</em>, <em>compact=False</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.node_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked graph based on the specified nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>index</strong> (<em>array_like</em>) – node index</li>
+<li><strong>compact</strong> (<em>bool</em><em>, </em><em>optional</em>) – compact node ids or not</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">Graph</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">graph</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Graph</span><span class="o">.</span><span class="n">from_dense</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">graph</span><span class="o">.</span><span class="n">node_mask</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span><span class="o">.</span><span class="n">adjacency</span><span class="o">.</span><span class="n">shape</span> <span class="o">==</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">graph</span><span class="o">.</span><span class="n">node_mask</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="n">compact</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">adjacency</span><span class="o">.</span><span class="n">shape</span> <span class="o">==</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.Molecule.pack">
+<em class="property">classmethod </em><code class="descname">pack</code><span class="sig-paren">(</span><em>molecules</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.pack"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.pack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pack a list of molecules into a PackedMolecule object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>molecules</strong> (<em>list of Molecule</em>) – list of molecules</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedMolecule</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.repeat">
+<code class="descname">repeat</code><span class="sig-paren">(</span><em>count</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Repeat this graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>count</strong> (<em>int</em>) – number of times</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.subgraph">
+<code class="descname">subgraph</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.subgraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subgraph based on the specified nodes. Equivalent to <code class="xref py py-attr docutils literal notranslate"><span class="pre">node_mask(index,</span> <span class="pre">compact=True)</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – node index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#drugdiscovery.data.Graph.node_mask" title="drugdiscovery.data.Graph.node_mask"><code class="xref py py-meth docutils literal notranslate"><span class="pre">Graph.node_mask()</span></code></a></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.Molecule.to_smiles">
+<code class="descname">to_smiles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.to_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.to_smiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a SMILES string of this molecule.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.adjacency">
+<code class="descname">adjacency</code><a class="headerlink" href="#drugdiscovery.data.Molecule.adjacency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adjacency matrix of this graph.</p>
+<p>If <code class="xref py py-attr docutils literal notranslate"><span class="pre">num_relation</span></code> is specified, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|, num\_relation)\)</span> will be
+returned.
+Otherwise, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span> will be returned.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.device">
+<code class="descname">device</code><a class="headerlink" href="#drugdiscovery.data.Molecule.device" title="Permalink to this definition">¶</a></dt>
+<dd><p>Device.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.edge2graph">
+<code class="descname">edge2graph</code><a class="headerlink" href="#drugdiscovery.data.Molecule.edge2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge id to graph id mapping.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.edge_list">
+<code class="descname">edge_list</code><a class="headerlink" href="#drugdiscovery.data.Molecule.edge_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of edges.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.edge_weight">
+<code class="descname">edge_weight</code><a class="headerlink" href="#drugdiscovery.data.Molecule.edge_weight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge weights.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.node2graph">
+<code class="descname">node2graph</code><a class="headerlink" href="#drugdiscovery.data.Molecule.node2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Node id to graph id mapping.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.num_atom">
+<code class="descname">num_atom</code><a class="headerlink" href="#drugdiscovery.data.Molecule.num_atom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of atoms.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.Molecule.num_bond">
+<code class="descname">num_bond</code><a class="headerlink" href="#drugdiscovery.data.Molecule.num_bond" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of bonds.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.data.PackedMolecule">
+<em class="property">class </em><code class="descname">PackedMolecule</code><span class="sig-paren">(</span><em>edge_list=None</em>, <em>atom_type=None</em>, <em>bond_type=None</em>, <em>num_nodes=None</em>, <em>num_edges=None</em>, <em>offsets=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Container for molecules with variadic sizes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>edge_list</strong> (<em>array_like</em><em>, </em><em>optional</em>) – list of edges of shape <span class="math notranslate nohighlight">\((|E|, 3)\)</span>.
+Each tuple is (node_out, node_in, bond_type).</li>
+<li><strong>atom_type</strong> (<em>array_like</em><em>, </em><em>optional</em>) – atom types of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></li>
+<li><strong>bond_type</strong> (<em>array_like</em><em>, </em><em>optional</em>) – bond types of shape <span class="math notranslate nohighlight">\((|E|,)\)</span></li>
+<li><strong>num_nodes</strong> (<em>array_like</em><em>, </em><em>optional</em>) – number of nodes in each graph
+By default, it will be inferred from the largest id in <cite>edge_list</cite></li>
+<li><strong>num_edges</strong> (<em>array_like</em><em>, </em><em>optional</em>) – number of edges in each graph</li>
+<li><strong>num_relation</strong> (<em>int</em><em>, </em><em>optional</em>) – number of relations</li>
+<li><strong>offsets</strong> (<em>array_like</em><em>, </em><em>optional</em>) – node id offsets of shape <span class="math notranslate nohighlight">\((|E|,)\)</span>.
+If not provided, nodes in <cite>edge_list</cite> should be relative index, i.e., the index in each graph.
+If provided, nodes in <cite>edge_list</cite> should be absolute index, i.e., the index in the packed graph.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.cpu">
+<code class="descname">cpu</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.cpu" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CPU memory.</p>
+<p>This is a non-op if the graph is already in CPU memory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.cuda">
+<code class="descname">cuda</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.cuda" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a copy of this graph in CUDA memory.</p>
+<p>This is a non-op if the graph is already on the correct device.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.edge">
+<code class="descname">edge</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for edge attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.edge_mask">
+<code class="descname">edge_mask</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.edge_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked packed graph based on the specified edges.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – edge index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.PackedMolecule.from_dense">
+<em class="property">classmethod </em><code class="descname">from_dense</code><span class="sig-paren">(</span><em>adjacency</em>, <em>node_feature=None</em>, <em>edge_feature=None</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_dense" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a sparse graph from a dense adjacency matrix.
+For zero entries in the adjacency matrix, their edge features will be ignored.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>adjacency</strong> (<em>array_like</em>) – adjacency matrix of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span></li>
+<li><strong>node_feature</strong> (<em>array_like</em>) – node features of shape <span class="math notranslate nohighlight">\((|V|, ...)\)</span></li>
+<li><strong>edge_feature</strong> (<em>array_like</em>) – edge features of shape <span class="math notranslate nohighlight">\((|V|, |V|, ...)\)</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.PackedMolecule.from_molecule">
+<em class="property">classmethod </em><code class="descname">from_molecule</code><span class="sig-paren">(</span><em>mol</em>, <em>node_feature='default'</em>, <em>edge_feature='default'</em>, <em>graph_feature=None</em>, <em>with_hydrogen=False</em>, <em>kekulize=False</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a molecule from a RDKit object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>mol</strong> (<em>rdchem.Mol</em>) – molecule</li>
+<li><strong>node_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – node features to extract</li>
+<li><strong>edge_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – edge features to extract</li>
+<li><strong>graph_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – graph features to extract</li>
+<li><strong>with_hydrogen</strong> (<em>bool</em><em>, </em><em>optional</em>) – store hydrogens in the molecule graph.
+By default, hydrogens are dropped</li>
+<li><strong>kekulize</strong> (<em>bool</em><em>, </em><em>optional</em>) – convert aromatic bonds to single/double bonds.
+By default, aromatic bonds are stored</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.PackedMolecule.from_smiles">
+<em class="property">classmethod </em><code class="descname">from_smiles</code><span class="sig-paren">(</span><em>smiles</em>, <em>node_feature='default'</em>, <em>edge_feature='default'</em>, <em>graph_feature=None</em>, <em>with_hydrogen=False</em>, <em>kekulize=False</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_smiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a molecule from a SMILES string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>smiles</strong> (<em>str</em>) – SMILES string</li>
+<li><strong>node_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – node features to extract</li>
+<li><strong>edge_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – edge features to extract</li>
+<li><strong>graph_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – graph features to extract</li>
+<li><strong>with_hydrogen</strong> (<em>bool</em><em>, </em><em>optional</em>) – store hydrogens in the molecule graph.
+By default, hydrogens are dropped</li>
+<li><strong>kekulize</strong> (<em>bool</em><em>, </em><em>optional</em>) – convert aromatic bonds to single/double bonds.
+By default, aromatic bonds are stored</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.full">
+<code class="descname">full</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.full" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a pack of fully connected graphs.</p>
+<p>This is useful for computing node-pair-wise features.
+The computation can be implemented as message passing over a fully connected graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.get_edge">
+<code class="descname">get_edge</code><span class="sig-paren">(</span><em>edge</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.get_edge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the weight of of an edge.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>edge</strong> (<em>array_like</em>) – index of shape <span class="math notranslate nohighlight">\((2,)\)</span> or <span class="math notranslate nohighlight">\((3,)\)</span></td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">weight of the edge</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">Tensor</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.get_item">
+<code class="descname">get_item</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.get_item"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.get_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the i-th molecule from this packed molecule.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>int</em>) – graph index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Molecule</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.graph">
+<code class="descname">graph</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for graph attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.graph_mask">
+<code class="descname">graph_mask</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.graph_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked packed graph based on the specified graphs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – graph index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.node">
+<code class="descname">node</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Context manager for node attributes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.node_mask">
+<code class="descname">node_mask</code><span class="sig-paren">(</span><em>index</em>, <em>compact=False</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.node_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a masked packed graph based on the specified nodes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>index</strong> (<em>array_like</em>) – node index</li>
+<li><strong>compact</strong> (<em>bool</em><em>, </em><em>optional</em>) – compact node ids or not</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">PackedGraph</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="drugdiscovery.data.PackedMolecule.pack">
+<em class="property">classmethod </em><code class="descname">pack</code><span class="sig-paren">(</span><em>molecules</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.pack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pack a list of molecules into a PackedMolecule object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>molecules</strong> (<em>list of Molecule</em>) – list of molecules</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedMolecule</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.repeat">
+<code class="descname">repeat</code><span class="sig-paren">(</span><em>count</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Repeat this packed graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>count</strong> (<em>int</em>) – number of times</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">PackedGraph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.subgraph">
+<code class="descname">subgraph</code><span class="sig-paren">(</span><em>index</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.subgraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a subgraph based on the specified nodes. Equivalent to <code class="xref py py-attr docutils literal notranslate"><span class="pre">node_mask(index,</span> <span class="pre">compact=True)</span></code>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>index</strong> (<em>array_like</em>) – node index</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Graph</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference internal" href="#drugdiscovery.data.Graph.node_mask" title="drugdiscovery.data.Graph.node_mask"><code class="xref py py-meth docutils literal notranslate"><span class="pre">Graph.node_mask()</span></code></a></p>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.to_smiles">
+<code class="descname">to_smiles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_smiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a SMILES string of this molecule.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.unpack">
+<code class="descname">unpack</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.unpack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unpack this packed graph into a list of graphs.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">list of Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.data.PackedMolecule.unpack_data">
+<code class="descname">unpack_data</code><span class="sig-paren">(</span><em>data</em>, <em>type='auto'</em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.unpack_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>(Deprecated) Unpack node or edge data according to the packed graph.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data</strong> (<em>Tensor</em>) – data to unpack</li>
+<li><strong>type</strong> (<em>str</em><em>, </em><em>optional</em>) – “auto”, “node”, or “edge”</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">list of Tensor</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.adjacency">
+<code class="descname">adjacency</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.adjacency" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adjacency matrix of this graph.</p>
+<p>If <code class="xref py py-attr docutils literal notranslate"><span class="pre">num_relation</span></code> is specified, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|, num\_relation)\)</span> will be
+returned.
+Otherwise, a sparse tensor of shape <span class="math notranslate nohighlight">\((|V|, |V|)\)</span> will be returned.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.batch_size">
+<code class="descname">batch_size</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.batch_size" title="Permalink to this definition">¶</a></dt>
+<dd><p>Batch size.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.device">
+<code class="descname">device</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.device" title="Permalink to this definition">¶</a></dt>
+<dd><p>Device.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.edge2graph">
+<code class="descname">edge2graph</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.edge2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge id to graph id mapping.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.edge_list">
+<code class="descname">edge_list</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.edge_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of edges.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.edge_weight">
+<code class="descname">edge_weight</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.edge_weight" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edge weights.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.node2graph">
+<code class="descname">node2graph</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.node2graph" title="Permalink to this definition">¶</a></dt>
+<dd><p>Node id to graph id mapping.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.num_atom">
+<code class="descname">num_atom</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.num_atom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of atoms.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.data.PackedMolecule.num_bond">
+<code class="descname">num_bond</code><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.num_bond" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of bonds.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.data.DataLoader">
+<em class="property">class </em><code class="descname">DataLoader</code><span class="sig-paren">(</span><em>dataset</em>, <em>batch_size=1</em>, <em>shuffle=False</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/dataloader.html#DataLoader"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.DataLoader" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="datasets.html" class="btn btn-neutral float-right" title="drugdiscovery.datasets" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="core.html" class="btn btn-neutral float-left" title="drugdiscovery.core" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MilaGraph Group
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

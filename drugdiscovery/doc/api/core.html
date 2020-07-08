@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>drugdiscovery.core &mdash; Drugdiscovery 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="drugdiscovery.data" href="data.html" />
+    <link rel="prev" title="Customize Message Passing" href="../notes/conv.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Drugdiscovery
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes/conv.html">Customize Message Passing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Package Reference</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">drugdiscovery.core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">drugdiscovery.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">drugdiscovery.datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="layers.html">drugdiscovery.layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models.html">drugdiscovery.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tasks.html">drugdiscovery.tasks</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Drugdiscovery</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>drugdiscovery.core</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/core.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-drugdiscovery.core">
+<span id="drugdiscovery-core"></span><h1>drugdiscovery.core<a class="headerlink" href="#module-drugdiscovery.core" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="drugdiscovery.core.Engine">
+<em class="property">class </em><code class="descname">Engine</code><span class="sig-paren">(</span><em>task</em>, <em>train_set</em>, <em>valid_set</em>, <em>test_set</em>, <em>optimizer</em>, <em>gpus=None</em>, <em>batch_size=1</em>, <em>log_interval=100</em>, <em>checkpoint_interval=2</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine" title="Permalink to this definition">¶</a></dt>
+<dd><p>General class that handles everything about training and test of a task.</p>
+<p>This class performs synchronous distributed parallel training over multiple nodes and GPUs.
+To invoke with multiple GPUs,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -m torch.distributed.launch --nproc_per_node<span class="o">={</span>number_of_gpus<span class="o">}</span> <span class="o">{</span>your_script.py<span class="o">}</span>
+</pre></div>
+</div>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>task</strong> (<em>nn.Module</em>) – task</li>
+<li><strong>train_set</strong> (<em>data.Dataset</em>) – training set</li>
+<li><strong>valid_set</strong> (<em>data.Dataset</em>) – validation set</li>
+<li><strong>test_set</strong> (<em>data.Dataset</em>) – test set</li>
+<li><strong>optimizer</strong> (<em>optim.Optimizer</em>) – optimizer</li>
+<li><strong>gpus</strong> (<em>list of int</em><em>, </em><em>optional</em>) – GPUs. By default, all GPUs will be used.</li>
+<li><strong>batch_size</strong> (<em>int</em><em>, </em><em>optional</em>) – batch size</li>
+<li><strong>log_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – log every n batches</li>
+<li><strong>checkpoint_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – checkpoint every n epochs</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="drugdiscovery.core.Engine.evaluate">
+<code class="descname">evaluate</code><span class="sig-paren">(</span><em>split</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.evaluate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.evaluate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate the model.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>split</strong> (<em>str</em>) – split to evaluate. Can be <code class="docutils literal notranslate"><span class="pre">train</span></code>, <code class="docutils literal notranslate"><span class="pre">valid</span></code> or <code class="docutils literal notranslate"><span class="pre">test</span></code>.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">metrics</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.core.Engine.load">
+<code class="descname">load</code><span class="sig-paren">(</span><em>checkpoint</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.load"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.load" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load a checkpoint from file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>checkpoint</strong> (<em>file-like</em>) – checkpoint file</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.core.Engine.save">
+<code class="descname">save</code><span class="sig-paren">(</span><em>checkpoint</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.save"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.save" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save checkpoint to file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>checkpoint</strong> (<em>file-like</em>) – checkpoint file</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.core.Engine.train">
+<code class="descname">train</code><span class="sig-paren">(</span><em>num_epoch=1</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.train"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.train" title="Permalink to this definition">¶</a></dt>
+<dd><p>Train the model.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num_epoch</strong> (<em>int</em><em>, </em><em>optional</em>) – number of epochs</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.core.Engine.epoch">
+<code class="descname">epoch</code><a class="headerlink" href="#drugdiscovery.core.Engine.epoch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Current epoch.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.core.Meter">
+<em class="property">class </em><code class="descname">Meter</code><span class="sig-paren">(</span><em>log_interval=100</em>, <em>silent=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/meter.html#Meter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Meter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Meter for recording metrics and training progress.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>log_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – log every n updates</li>
+<li><strong>silent</strong> (<em>int</em><em>, </em><em>optional</em>) – surpress all outputs or not</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="drugdiscovery.core.Meter.log">
+<code class="descname">log</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/meter.html#Meter.log"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Meter.log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Log a meter record.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>record</strong> (<em>dict</em>) – any float metric</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.core.Meter.step">
+<code class="descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/meter.html#Meter.step"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Meter.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Step an epoch for this meter.</p>
+<p>Instead of manually invoking <a class="reference internal" href="#drugdiscovery.core.Meter.step" title="drugdiscovery.core.Meter.step"><code class="xref py py-meth docutils literal notranslate"><span class="pre">step()</span></code></a>, it is suggested to use the following line</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="n">meter</span><span class="p">(</span><span class="n">num_epoch</span><span class="p">):</span>
+<span class="gp">&gt;&gt;&gt; </span>    <span class="c1"># do something</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="drugdiscovery.core.Meter.update">
+<code class="descname">update</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/meter.html#Meter.update"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Meter.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Update with a meter record.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>record</strong> (<em>dict</em>) – any float metric</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="data.html" class="btn btn-neutral float-right" title="drugdiscovery.data" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../notes/conv.html" class="btn btn-neutral float-left" title="Customize Message Passing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MilaGraph Group
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

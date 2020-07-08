@@ -1,0 +1,420 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>drugdiscovery.models &mdash; Drugdiscovery 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="drugdiscovery.tasks" href="tasks.html" />
+    <link rel="prev" title="drugdiscovery.layers" href="layers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Drugdiscovery
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes/conv.html">Customize Message Passing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Package Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="core.html">drugdiscovery.core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data.html">drugdiscovery.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">drugdiscovery.datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="layers.html">drugdiscovery.layers</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">drugdiscovery.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tasks.html">drugdiscovery.tasks</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Drugdiscovery</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>drugdiscovery.models</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/models.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-drugdiscovery.models">
+<span id="drugdiscovery-models"></span><h1>drugdiscovery.models<a class="headerlink" href="#module-drugdiscovery.models" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="drugdiscovery.models.GraphConvolutionalNetwork">
+<em class="property">class </em><code class="descname">GraphConvolutionalNetwork</code><span class="sig-paren">(</span><em>input_dim</em>, <em>hidden_dims</em>, <em>short_cut=False</em>, <em>batch_norm=False</em>, <em>activation='relu'</em>, <em>concat_hidden=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/gcn.html#GraphConvolutionalNetwork"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.GraphConvolutionalNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>Graph Convolutional Network proposed in <a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">Semi-Supervised Classification with Graph Convolutional Networks</a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
+<li><strong>hidden_dims</strong> (<em>list of int</em>) – hidden dimensions</li>
+<li><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</li>
+<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.models.RelationalGraphConvolutionalNetwork">
+<em class="property">class </em><code class="descname">RelationalGraphConvolutionalNetwork</code><span class="sig-paren">(</span><em>input_dim</em>, <em>hidden_dims</em>, <em>num_relation</em>, <em>short_cut=False</em>, <em>batch_norm=False</em>, <em>activation='relu'</em>, <em>concat_hidden=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/gcn.html#RelationalGraphConvolutionalNetwork"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.RelationalGraphConvolutionalNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>Relational graph convolutional Network proposed in <a class="reference external" href="https://arxiv.org/pdf/1703.06103.pdf">Modeling Relational Data with Graph Convolutional Networks?</a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
+<li><strong>hidden_dims</strong> (<em>list of int</em>) – hidden dimensions</li>
+<li><strong>num_relation</strong> (<em>int</em>) – number of relations</li>
+<li><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</li>
+<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.models.GraphIsomorphismNetwork">
+<em class="property">class </em><code class="descname">GraphIsomorphismNetwork</code><span class="sig-paren">(</span><em>input_dim</em>, <em>hidden_dims</em>, <em>num_mlp_layer=2</em>, <em>eps=0</em>, <em>learn_eps=False</em>, <em>short_cut=False</em>, <em>batch_norm=False</em>, <em>activation='relu'</em>, <em>concat_hidden=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/gin.html#GraphIsomorphismNetwork"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.GraphIsomorphismNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>Graph Ismorphism Network proposed in <a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">How Powerful are Graph Neural Networks?</a></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
+<li><strong>hidden_dims</strong> (<em>list of int</em>) – hidden dimensions</li>
+<li><strong>num_mlp_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of MLP layers</li>
+<li><strong>eps</strong> (<em>int</em><em>, </em><em>optional</em>) – initial epsilon</li>
+<li><strong>learn_eps</strong> (<em>bool</em><em>, </em><em>optional</em>) – learn epsilon or not</li>
+<li><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</li>
+<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.models.SchNet">
+<em class="property">class </em><code class="descname">SchNet</code><span class="sig-paren">(</span><em>input_dim</em>, <em>hidden_dims</em>, <em>cutoff=5</em>, <em>num_gaussian=100</em>, <em>short_cut=True</em>, <em>batch_norm=False</em>, <em>activation='shifted_softplus'</em>, <em>concat_hidden=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/schnet.html#SchNet"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.SchNet" title="Permalink to this definition">¶</a></dt>
+<dd><p>SchNet from <a class="reference external" href="https://arxiv.org/pdf/1706.08566.pdf">SchNet: A continuous-filter convolutional neural network for modeling quantum interactions</a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
+<li><strong>hidden_dims</strong> (<em>list of int</em>) – hidden dimensions</li>
+<li><strong>cutoff</strong> (<em>float</em><em>, </em><em>optional</em>) – maximal scale for RBF kernels</li>
+<li><strong>num_gaussian</strong> (<em>int</em><em>, </em><em>optional</em>) – number of RBF kernels</li>
+<li><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</li>
+<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.models.MessagePassingNeuralNetwork">
+<em class="property">class </em><code class="descname">MessagePassingNeuralNetwork</code><span class="sig-paren">(</span><em>input_dim</em>, <em>edge_input_dim</em>, <em>hidden_dim</em>, <em>num_layer=1</em>, <em>num_gru_layer=1</em>, <em>num_mlp_layer=2</em>, <em>num_s2s_step=3</em>, <em>short_cut=False</em>, <em>batch_norm=False</em>, <em>activation='relu'</em>, <em>concat_hidden=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/mpnn.html#MessagePassingNeuralNetwork"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.MessagePassingNeuralNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>Message Passing Neural Network proposed in <a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">Neural Message Passing for Quantum Chemistry</a>.</p>
+<p>This implements the enn-s2s variant in the original paper.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
+<li><strong>edge_input_dim</strong> (<em>int</em>) – edge input dimension</li>
+<li><strong>hidden_dim</strong> (<em>int</em>) – hidden dimension</li>
+<li><strong>num_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of hidden layers</li>
+<li><strong>num_gru_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of GRU layers in each node update</li>
+<li><strong>num_mlp_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of MLP layers in each message function</li>
+<li><strong>num_s2s_step</strong> (<em>int</em><em>, </em><em>optional</em>) – number of processing steps in set2set</li>
+<li><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</li>
+<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.models.NeuralFingerprint">
+<em class="property">class </em><code class="descname">NeuralFingerprint</code><span class="sig-paren">(</span><em>input_dim</em>, <em>output_dim</em>, <em>hidden_dims</em>, <em>short_cut=False</em>, <em>batch_norm=False</em>, <em>activation='relu'</em>, <em>concat_hidden=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/neuralfp.html#NeuralFingerprint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.NeuralFingerprint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Neural Fingerprints from <a class="reference external" href="https://arxiv.org/pdf/1509.09292.pdf">Convolutional Networks on Graphs for Learning Molecular Fingerprints</a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
+<li><strong>output_dim</strong> (<em>int</em>) – fingerprint dimension</li>
+<li><strong>hidden_dims</strong> (<em>list of int</em>) – hidden dimensions</li>
+<li><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</li>
+<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="drugdiscovery.models.InfoGraph">
+<em class="property">class </em><code class="descname">InfoGraph</code><span class="sig-paren">(</span><em>model</em>, <em>num_mlp_layer=2</em>, <em>activation='relu'</em>, <em>loss_weight=1</em>, <em>separate_model=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/infograph.html#InfoGraph"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.InfoGraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>InfoGraph proposed in
+<a class="reference external" href="https://arxiv.org/pdf/1908.01000.pdf">InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information
+Maximization</a></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>model</strong> (<em>nn.Module</em>) – node &amp; graph representation model</li>
+<li><strong>num_mlp_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of MLP layers in mutual information estimators</li>
+<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<li><strong>loss_weight</strong> (<em>float</em><em>, </em><em>optional</em>) – weight of both unsupervised &amp; transfer losses</li>
+<li><strong>separate_model</strong> (<em>bool</em><em>, </em><em>optional</em>) – separate supervised and unsupervised encoders.
+If true, the unsupervised loss will be applied on a separate encoder,
+and a transfer loss is applied between the two encoders.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.models.GCN">
+<code class="descname">GCN</code><a class="headerlink" href="#drugdiscovery.models.GCN" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">drugdiscovery.models.gcn.GraphConvolutionalNetwork</span></code></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.models.RGCN">
+<code class="descname">RGCN</code><a class="headerlink" href="#drugdiscovery.models.RGCN" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">drugdiscovery.models.gcn.RelationalGraphConvolutionalNetwork</span></code></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.models.GIN">
+<code class="descname">GIN</code><a class="headerlink" href="#drugdiscovery.models.GIN" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">drugdiscovery.models.gin.GraphIsomorphismNetwork</span></code></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.models.MPNN">
+<code class="descname">MPNN</code><a class="headerlink" href="#drugdiscovery.models.MPNN" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">drugdiscovery.models.mpnn.MessagePassingNeuralNetwork</span></code></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="drugdiscovery.models.NFP">
+<code class="descname">NFP</code><a class="headerlink" href="#drugdiscovery.models.NFP" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">drugdiscovery.models.neuralfp.NeuralFingerprint</span></code></p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="tasks.html" class="btn btn-neutral float-right" title="drugdiscovery.tasks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="layers.html" class="btn btn-neutral float-left" title="drugdiscovery.layers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MilaGraph Group
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
