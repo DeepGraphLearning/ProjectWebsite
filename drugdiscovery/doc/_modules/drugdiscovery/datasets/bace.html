@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>drugdiscovery.datasets.hiv &mdash; Drugdiscovery 0.1.0 documentation</title>
+  <title>drugdiscovery.datasets.bace &mdash; Drugdiscovery 0.1.0 documentation</title>
   
 
   
@@ -146,7 +146,7 @@
         
           <li><a href="../../index.html">Module code</a> &raquo;</li>
         
-      <li>drugdiscovery.datasets.hiv</li>
+      <li>drugdiscovery.datasets.bace</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -161,19 +161,19 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <h1>Source code for drugdiscovery.datasets.hiv</h1><div class="highlight"><pre>
+  <h1>Source code for drugdiscovery.datasets.bace</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">os</span>
 
 <span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
 
 
-<div class="viewcode-block" id="HIV"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.HIV">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.HIV&quot;</span><span class="p">)</span>
-<span class="k">class</span> <span class="nc">HIV</span><span class="p">(</span><span class="n">datasets</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+<div class="viewcode-block" id="BACE"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.BACE">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.BACE&quot;</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">BACE</span><span class="p">(</span><span class="n">datasets</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
 
-    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/HIV.csv&quot;</span>
-    <span class="n">md5</span> <span class="o">=</span> <span class="s2">&quot;9ad10c88f82f1dac7eb5c52b668c30a7&quot;</span>
-    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;HIV_active&quot;</span><span class="p">]</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/bace.csv&quot;</span>
+    <span class="n">md5</span> <span class="o">=</span> <span class="s2">&quot;ba7f8fa3fdf463a811fa7edea8c982c2&quot;</span>
+    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Class&#39;</span><span class="p">]</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
@@ -183,9 +183,9 @@
 
         <span class="n">file_name</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">md5</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">md5</span><span class="p">)</span>
 
-        <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;node_feature&quot;</span><span class="p">:</span> <span class="s2">&quot;property_prediction&quot;</span><span class="p">,</span> <span class="s2">&quot;edge_feature&quot;</span><span class="p">:</span> <span class="s2">&quot;property_prediction&quot;</span><span class="p">}</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv2</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s2">&quot;smiles&quot;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span>
-                       <span class="n">with_hydrogen</span><span class="o">=</span><span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="n">kekulize</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="s2">&quot;ecfp&quot;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+        <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;node_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">,</span> <span class="s1">&#39;edge_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv2</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s1">&#39;mol&#39;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span>
+                       <span class="n">with_hydrogen</span><span class="o">=</span><span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="n">kekulize</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="s1">&#39;ecfp&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
 </pre></div>
 
            </div>

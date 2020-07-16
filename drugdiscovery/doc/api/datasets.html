@@ -21,10 +21,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -166,19 +167,99 @@
             
   <div class="section" id="module-drugdiscovery.datasets">
 <span id="drugdiscovery-datasets"></span><h1>drugdiscovery.datasets<a class="headerlink" href="#module-drugdiscovery.datasets" title="Permalink to this headline">¶</a></h1>
-<dl class="class">
-<dt id="drugdiscovery.datasets.MoleculeDataset">
-<em class="property">class </em><code class="descname">MoleculeDataset</code><span class="sig-paren">(</span><em>smiles</em>, <em>targets</em>, <em>transform=None</em>, <em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/dataset.html#MoleculeDataset"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.MoleculeDataset" title="Permalink to this definition">¶</a></dt>
+<dl class="py class">
+<dt id="drugdiscovery.datasets.BACE">
+<em class="property">class </em><code class="sig-name descname">BACE</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/bace.html#BACE"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.BACE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="class">
+<dl class="py class">
+<dt id="drugdiscovery.datasets.BBBP">
+<em class="property">class </em><code class="sig-name descname">BBBP</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/bbbp.html#BBBP"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.BBBP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.CEP">
+<em class="property">class </em><code class="sig-name descname">CEP</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/cep.html#CEP"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.CEP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.ChEMBLFiltered">
+<em class="property">class </em><code class="sig-name descname">ChEMBLFiltered</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/chembl_filtered.html#ChEMBLFiltered"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.ChEMBLFiltered" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.ClinTox">
+<em class="property">class </em><code class="sig-name descname">ClinTox</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/clintox.html#ClinTox"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.ClinTox" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.Delaney">
+<em class="property">class </em><code class="sig-name descname">Delaney</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/delaney.html#Delaney"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.Delaney" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.FreeSolv">
+<em class="property">class </em><code class="sig-name descname">FreeSolv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/freesolv.html#FreeSolv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.FreeSolv" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
 <dt id="drugdiscovery.datasets.HIV">
-<em class="property">class </em><code class="descname">HIV</code><span class="sig-paren">(</span><em>smiles</em>, <em>targets</em>, <em>transform=None</em>, <em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/hiv.html#HIV"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.HIV" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">HIV</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/hiv.html#HIV"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.HIV" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="class">
+<dl class="py class">
+<dt id="drugdiscovery.datasets.Lipophilicity">
+<em class="property">class </em><code class="sig-name descname">Lipophilicity</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/lipophilicity.html#Lipophilicity"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.Lipophilicity" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.MUV">
+<em class="property">class </em><code class="sig-name descname">MUV</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/muv.html#MUV"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.MUV" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.Malaria">
+<em class="property">class </em><code class="sig-name descname">Malaria</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/malaria.html#Malaria"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.Malaria" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.MoleculeDataset">
+<em class="property">class </em><code class="sig-name descname">MoleculeDataset</code><a class="reference internal" href="../_modules/drugdiscovery/datasets/dataset.html#MoleculeDataset"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.MoleculeDataset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.QM8">
+<em class="property">class </em><code class="sig-name descname">QM8</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">use_node_position</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/qm8.html#QM8"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.QM8" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
 <dt id="drugdiscovery.datasets.QM9">
-<em class="property">class </em><code class="descname">QM9</code><span class="sig-paren">(</span><em>smiles</em>, <em>targets</em>, <em>transform=None</em>, <em>verbose=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/qm9.html#QM9"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.QM9" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">QM9</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">use_node_position</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/qm9.html#QM9"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.QM9" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.SIDER">
+<em class="property">class </em><code class="sig-name descname">SIDER</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/sider.html#SIDER"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.SIDER" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.Tox21">
+<em class="property">class </em><code class="sig-name descname">Tox21</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/tox21.html#Tox21"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.Tox21" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.ToxCast">
+<em class="property">class </em><code class="sig-name descname">ToxCast</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/toxcast.html#ToxCast"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.ToxCast" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.ZINC250k">
+<em class="property">class </em><code class="sig-name descname">ZINC250k</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/zinc250k.html#ZINC250k"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.ZINC250k" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="drugdiscovery.datasets.ZINC2m">
+<em class="property">class </em><code class="sig-name descname">ZINC2m</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">transform</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/datasets/zinc2m.html#ZINC2m"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.datasets.ZINC2m" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </div>

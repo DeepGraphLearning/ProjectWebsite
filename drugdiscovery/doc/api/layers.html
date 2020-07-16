@@ -21,10 +21,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -174,9 +175,9 @@
 <h1>drugdiscovery.layers<a class="headerlink" href="#drugdiscovery-layers" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-drugdiscovery.layers.common">
 <span id="layers-common"></span><h2>layers.common<a class="headerlink" href="#module-drugdiscovery.layers.common" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.common.GaussianSmearing">
-<em class="property">class </em><code class="descname">GaussianSmearing</code><span class="sig-paren">(</span><em>start=0</em>, <em>stop=5</em>, <em>num_kernel=100</em>, <em>centered=False</em>, <em>learnable=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#GaussianSmearing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.GaussianSmearing" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">GaussianSmearing</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">stop</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">num_kernel</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">centered</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">learnable</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#GaussianSmearing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.GaussianSmearing" title="Permalink to this definition">¶</a></dt>
 <dd><p>Gaussian smearing from
 <a class="reference external" href="https://arxiv.org/pdf/1706.08566.pdf">SchNet: A continuous-filter convolutional neural network for modeling quantum interactions</a>.</p>
 <p>There are two modes for Gaussian smearing.</p>
@@ -186,278 +187,228 @@
 <p>Centered mode:</p>
 <div class="math notranslate nohighlight">
 \[\mu = [0, 0, ..., 0], \sigma = [0, 1, ..., n]\]</div>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>start</strong> (<em>int</em><em>, </em><em>optional</em>) – minimal input value</li>
-<li><strong>stop</strong> (<em>int</em><em>, </em><em>optional</em>) – maximal input value</li>
-<li><strong>num_kernel</strong> (<em>int</em><em>, </em><em>optional</em>) – number of RBF kernels</li>
-<li><strong>centered</strong> (<em>bool</em><em>, </em><em>optional</em>) – centered mode or not</li>
-<li><strong>learnable</strong> (<em>bool</em><em>, </em><em>optional</em>) – learnable gaussian parameters or not</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>start</strong> (<em>int</em><em>, </em><em>optional</em>) – minimal input value</p></li>
+<li><p><strong>stop</strong> (<em>int</em><em>, </em><em>optional</em>) – maximal input value</p></li>
+<li><p><strong>num_kernel</strong> (<em>int</em><em>, </em><em>optional</em>) – number of RBF kernels</p></li>
+<li><p><strong>centered</strong> (<em>bool</em><em>, </em><em>optional</em>) – centered mode or not</p></li>
+<li><p><strong>learnable</strong> (<em>bool</em><em>, </em><em>optional</em>) – learnable gaussian parameters or not</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
-<dl class="method">
+</dd>
+</dl>
+<dl class="py method">
 <dt id="drugdiscovery.layers.common.GaussianSmearing.forward">
-<code class="descname">forward</code><span class="sig-paren">(</span><em>x</em>, <em>y</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#GaussianSmearing.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.GaussianSmearing.forward" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">forward</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#GaussianSmearing.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.GaussianSmearing.forward" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute smeared gaussian features between data.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>x</strong> (<em>Tensor</em>) – data of shape <span class="math notranslate nohighlight">\((..., d)\)</span></li>
-<li><strong>y</strong> (<em>Tensor</em>) – data of shape <span class="math notranslate nohighlight">\((..., d)\)</span></li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>Tensor</em>) – data of shape <span class="math notranslate nohighlight">\((..., d)\)</span></p></li>
+<li><p><strong>y</strong> (<em>Tensor</em>) – data of shape <span class="math notranslate nohighlight">\((..., d)\)</span></p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">features of shape <span class="math notranslate nohighlight">\((..., num\_kernel)\)</span></p>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Tensor</p>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>features of shape <span class="math notranslate nohighlight">\((..., num\_kernel)\)</span></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Tensor</p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.common.MultiLayerPerceptron">
-<em class="property">class </em><code class="descname">MultiLayerPerceptron</code><span class="sig-paren">(</span><em>input_dim</em>, <em>hidden_dims</em>, <em>activation='relu'</em>, <em>dropout=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#MultiLayerPerceptron"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.MultiLayerPerceptron" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MultiLayerPerceptron</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">hidden_dims</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em>, <em class="sig-param"><span class="n">dropout</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#MultiLayerPerceptron"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.MultiLayerPerceptron" title="Permalink to this definition">¶</a></dt>
 <dd><p>Multi-layer Perceptron.</p>
 <p>Note there is no activation or dropout in the last layer.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>hidden_dim</strong> (<em>list of int</em>) – hidden dimensions</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
-<li><strong>dropout</strong> (<em>float</em><em>, </em><em>optional</em>) – dropout rate</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>hidden_dim</strong> (<em>list of int</em>) – hidden dimensions</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
+<li><p><strong>dropout</strong> (<em>float</em><em>, </em><em>optional</em>) – dropout rate</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.common.MutualInformation">
-<em class="property">class </em><code class="descname">MutualInformation</code><span class="sig-paren">(</span><em>input_dim</em>, <em>num_mlp_layer=2</em>, <em>activation='relu'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#MutualInformation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.MutualInformation" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MutualInformation</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">num_mlp_layer</span><span class="o">=</span><span class="default_value">2</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#MutualInformation"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.MutualInformation" title="Permalink to this definition">¶</a></dt>
 <dd><p>Mutual information estimator from
 <a class="reference external" href="https://arxiv.org/pdf/1808.06670.pdf">Learning deep representations by mutual information estimation and maximization</a>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>num_mlp_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of MLP layers</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>num_mlp_layer</strong> (<em>int</em><em>, </em><em>optional</em>) – number of MLP layers</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>
 <div class="section" id="module-drugdiscovery.layers.conv">
 <span id="layers-conv"></span><h2>layers.conv<a class="headerlink" href="#module-drugdiscovery.layers.conv" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.ContinuousFilterConv">
-<em class="property">class </em><code class="descname">ContinuousFilterConv</code><span class="sig-paren">(</span><em>input_dim</em>, <em>output_dim</em>, <em>hidden_dim=None</em>, <em>cutoff=5</em>, <em>num_gaussian=100</em>, <em>batch_norm=False</em>, <em>activation='shifted_softplus'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ContinuousFilterConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ContinuousFilterConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">ContinuousFilterConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">hidden_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">cutoff</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">num_gaussian</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'shifted_softplus'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ContinuousFilterConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ContinuousFilterConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Continuous filter operator from
 <a class="reference external" href="https://arxiv.org/pdf/1706.08566.pdf">SchNet: A continuous-filter convolutional neural network for modeling quantum interactions</a>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>output_dim</strong> (<em>int</em>) – output dimension</li>
-<li><strong>hidden_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – hidden dimension. By default, same as <code class="xref py py-attr docutils literal notranslate"><span class="pre">output_dim</span></code></li>
-<li><strong>cutoff</strong> (<em>float</em><em>, </em><em>optional</em>) – maximal scale for RBF kernels</li>
-<li><strong>num_gaussian</strong> (<em>int</em><em>, </em><em>optional</em>) – number of RBF kernels</li>
-<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>hidden_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – hidden dimension. By default, same as <code class="xref py py-attr docutils literal notranslate"><span class="pre">output_dim</span></code></p></li>
+<li><p><strong>cutoff</strong> (<em>float</em><em>, </em><em>optional</em>) – maximal scale for RBF kernels</p></li>
+<li><p><strong>num_gaussian</strong> (<em>int</em><em>, </em><em>optional</em>) – number of RBF kernels</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.GraphConv">
-<em class="property">class </em><code class="descname">GraphConv</code><span class="sig-paren">(</span><em>input_dim</em>, <em>output_dim</em>, <em>batch_norm=False</em>, <em>activation='relu'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">GraphConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph convolution operator from <a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">Semi-Supervised Classification with Graph Convolutional Networks</a>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>output_dim</strong> (<em>int</em>) – output dimension</li>
-<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.GraphIsomorphismConv">
-<em class="property">class </em><code class="descname">GraphIsomorphismConv</code><span class="sig-paren">(</span><em>input_dim</em>, <em>output_dim</em>, <em>hidden_dims=None</em>, <em>eps=0</em>, <em>learn_eps=False</em>, <em>batch_norm=False</em>, <em>activation='relu'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphIsomorphismConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphIsomorphismConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">GraphIsomorphismConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">hidden_dims</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">eps</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">learn_eps</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphIsomorphismConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphIsomorphismConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph isomorphism operator from <a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">How Powerful are Graph Neural Networks?</a>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>output_dim</strong> (<em>int</em>) – output dimension</li>
-<li><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dimensions</li>
-<li><strong>eps</strong> (<em>float</em><em>, </em><em>optional</em>) – initial epsilon</li>
-<li><strong>learn_eps</strong> (<em>bool</em><em>, </em><em>optional</em>) – learn epsilon or not</li>
-<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dimensions</p></li>
+<li><p><strong>eps</strong> (<em>float</em><em>, </em><em>optional</em>) – initial epsilon</p></li>
+<li><p><strong>learn_eps</strong> (<em>bool</em><em>, </em><em>optional</em>) – learn epsilon or not</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.MessagePassing">
-<em class="property">class </em><code class="descname">MessagePassing</code><span class="sig-paren">(</span><em>input_dim</em>, <em>edge_input_dim</em>, <em>hidden_dims=None</em>, <em>batch_norm=False</em>, <em>activation='relu'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#MessagePassing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.MessagePassing" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MessagePassing</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span></em>, <em class="sig-param"><span class="n">hidden_dims</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#MessagePassing"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.MessagePassing" title="Permalink to this definition">¶</a></dt>
 <dd><p>Message passing operator from <a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">Neural Message Passing for Quantum Chemistry</a>.</p>
 <p>This implements the edge network variant in the original paper.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>edge_input_dim</strong> (<em>int</em>) – edge input dimension</li>
-<li><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dims of edge network</li>
-<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em>) – edge input dimension</p></li>
+<li><p><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dims of edge network</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.MessagePassingBase">
-<em class="property">class </em><code class="descname">MessagePassingBase</code><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#MessagePassingBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.MessagePassingBase" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MessagePassingBase</code><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#MessagePassingBase"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.MessagePassingBase" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base module for message passing.</p>
 <p>Any custom message passing module should be derived from this class.</p>
-<dl class="method">
+<dl class="py method">
 <dt id="drugdiscovery.layers.conv.MessagePassingBase.forward">
-<code class="descname">forward</code><span class="sig-paren">(</span><em>graph</em>, <em>input</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#MessagePassingBase.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.MessagePassingBase.forward" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">forward</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">graph</span></em>, <em class="sig-param"><span class="n">input</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#MessagePassingBase.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.MessagePassingBase.forward" title="Permalink to this definition">¶</a></dt>
 <dd><p>Perform message passing over the graph.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>graph</strong> (<a class="reference internal" href="data.html#drugdiscovery.data.Graph" title="drugdiscovery.data.Graph"><em>Graph</em></a>) – graph</li>
-<li><strong>input</strong> (<em>Tensor</em>) – input node representations</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<a class="reference internal" href="data.html#drugdiscovery.data.Graph" title="drugdiscovery.data.Graph"><em>Graph</em></a>) – graph</p></li>
+<li><p><strong>input</strong> (<em>Tensor</em>) – input node representations</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.NeuralFingerprintConv">
-<em class="property">class </em><code class="descname">NeuralFingerprintConv</code><span class="sig-paren">(</span><em>input_dim</em>, <em>output_dim</em>, <em>batch_norm=False</em>, <em>activation='relu'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#NeuralFingerprintConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.NeuralFingerprintConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">NeuralFingerprintConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#NeuralFingerprintConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.NeuralFingerprintConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph neural network operator from <a class="reference external" href="https://arxiv.org/pdf/1509.09292.pdf">Convolutional Networks on Graphs for Learning Molecular Fingerprints</a>.</p>
 <p>Note this operator doesn’t include the sparsifying step of the original paper.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>output_dim</strong> (<em>int</em>) – output dimension</li>
-<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.conv.RelationalGraphConv">
-<em class="property">class </em><code class="descname">RelationalGraphConv</code><span class="sig-paren">(</span><em>input_dim</em>, <em>output_dim</em>, <em>num_relation</em>, <em>batch_norm=False</em>, <em>activation='relu'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#RelationalGraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.RelationalGraphConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">RelationalGraphConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">num_relation</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#RelationalGraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.RelationalGraphConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Relational graph convolution operator from <a class="reference external" href="https://arxiv.org/pdf/1703.06103.pdf">Modeling Relational Data with Graph Convolutional Networks?</a>.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input_dim</strong> (<em>int</em>) – input dimension</li>
-<li><strong>output_dim</strong> (<em>int</em>) – output dimension</li>
-<li><strong>num_relation</strong> (<em>int</em>) – number of relations</li>
-<li><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</li>
-<li><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>num_relation</strong> (<em>int</em>) – number of relations</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>
 <div class="section" id="module-drugdiscovery.layers.distribution">
 <span id="layers-distribution"></span><h2>layers.distribution<a class="headerlink" href="#module-drugdiscovery.layers.distribution" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="drugdiscovery.layers.distribution.IndependentGaussian">
-<em class="property">class </em><code class="descname">IndependentGaussian</code><span class="sig-paren">(</span><em>mu</em>, <em>sigma2</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/distribution.html#IndependentGaussian"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.distribution.IndependentGaussian" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">IndependentGaussian</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mu</span></em>, <em class="sig-param"><span class="n">sigma2</span></em>, <em class="sig-param"><span class="n">learnable</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/distribution.html#IndependentGaussian"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.distribution.IndependentGaussian" title="Permalink to this definition">¶</a></dt>
 <dd><p>Independent Gaussian distribution.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>mu</strong> (<em>Tensor</em>) – mean of shape <span class="math notranslate nohighlight">\((N,)\)</span></li>
-<li><strong>sigma2</strong> (<em>Tensor</em>) – variance of shape <span class="math notranslate nohighlight">\((N,)\)</span></li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>mu</strong> (<em>Tensor</em>) – mean of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+<li><p><strong>sigma2</strong> (<em>Tensor</em>) – variance of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+<li><p><strong>learnable</strong> (<em>bool</em><em>, </em><em>optional</em>) – learnable parameters or not</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
-<dl class="method">
+</dd>
+</dl>
+<dl class="py method">
 <dt id="drugdiscovery.layers.distribution.IndependentGaussian.forward">
-<code class="descname">forward</code><span class="sig-paren">(</span><em>input</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/distribution.html#IndependentGaussian.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.distribution.IndependentGaussian.forward" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">forward</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/distribution.html#IndependentGaussian.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.distribution.IndependentGaussian.forward" title="Permalink to this definition">¶</a></dt>
 <dd><p>Compute the likelihood of input data.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>input</strong> (<em>Tensor</em>) – input data of shape <span class="math notranslate nohighlight">\((..., N)\)</span></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>input</strong> (<em>Tensor</em>) – input data of shape <span class="math notranslate nohighlight">\((..., N)\)</span></p>
+</dd>
+</dl>
 </dd></dl>
 
 </dd></dl>
@@ -465,61 +416,64 @@
 </div>
 <div class="section" id="module-drugdiscovery.layers.functional">
 <span id="layers-functional"></span><h2>layers.functional<a class="headerlink" href="#module-drugdiscovery.layers.functional" title="Permalink to this headline">¶</a></h2>
-<dl class="function">
+<dl class="py function">
 <dt id="drugdiscovery.layers.functional.multi_slice_mask">
-<code class="descname">multi_slice_mask</code><span class="sig-paren">(</span><em>starts</em>, <em>ends</em>, <em>length</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#multi_slice_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.multi_slice_mask" title="Permalink to this definition">¶</a></dt>
-<dd><p>Generate a mask from multiple non-overlapping slices.</p>
+<code class="sig-name descname">multi_slice_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">starts</span></em>, <em class="sig-param"><span class="n">ends</span></em>, <em class="sig-param"><span class="n">length</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#multi_slice_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.multi_slice_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the union of multiple slices into a binary mask.</p>
 <p>Example:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">mask</span> <span class="o">=</span> <span class="n">F</span><span class="o">.</span><span class="n">multi_slice_mask</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">]),</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">]),</span> <span class="mi">9</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="p">(</span><span class="n">mask</span> <span class="o">==</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">]))</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">mask</span> <span class="o">=</span> <span class="n">F</span><span class="o">.</span><span class="n">multi_slice_mask</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">]),</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">]),</span> <span class="mi">6</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="p">(</span><span class="n">mask</span> <span class="o">==</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]))</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
 </pre></div>
 </div>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>starts</strong> (<em>Tensor</em>) – start indexes of slices</li>
-<li><strong>ends</strong> (<em>Tensor</em>) – end indexes of slices</li>
-<li><strong>length</strong> (<em>int</em>) – length of mask</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>starts</strong> (<em>Tensor</em>) – start indexes of slices</p></li>
+<li><p><strong>ends</strong> (<em>Tensor</em>) – end indexes of slices</p></li>
+<li><p><strong>length</strong> (<em>int</em>) – length of mask</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="drugdiscovery.layers.functional.multinomial">
-<code class="descname">multinomial</code><span class="sig-paren">(</span><em>input</em>, <em>num_samples</em>, <em>replacement=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#multinomial"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.multinomial" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">multinomial</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">num_samples</span></em>, <em class="sig-param"><span class="n">replacement</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#multinomial"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.multinomial" title="Permalink to this definition">¶</a></dt>
 <dd><p>Fast multinomial sampling. This is the default implementation in PyTorch v1.6.0+.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>input</strong> (<em>Tensor</em>) – unnormalized distribution</li>
-<li><strong>num_samples</strong> (<em>int</em>) – number of samples</li>
-<li><strong>replacement</strong> (<em>bool</em><em>, </em><em>optional</em>) – sample with replacement or not</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – unnormalized distribution</p></li>
+<li><p><strong>num_samples</strong> (<em>int</em>) – number of samples</p></li>
+<li><p><strong>replacement</strong> (<em>bool</em><em>, </em><em>optional</em>) – sample with replacement or not</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
-<dl class="function">
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.one_hot">
+<code class="sig-name descname">one_hot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em>, <em class="sig-param"><span class="n">size</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#one_hot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.one_hot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Expand indexes into one-hot vectors.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>index</strong> (<em>Tensor</em>) – index</p></li>
+<li><p><strong>size</strong> (<em>int</em>) – size of the one-hot dimension</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
 <dt id="drugdiscovery.layers.functional.shifted_softplus">
-<code class="descname">shifted_softplus</code><span class="sig-paren">(</span><em>input</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#shifted_softplus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.shifted_softplus" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">shifted_softplus</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#shifted_softplus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.shifted_softplus" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shifted softplus function.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>input</strong> (<em>Tensor</em>) – input tensor</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>input</strong> (<em>Tensor</em>) – input tensor</p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>
