@@ -7,7 +7,7 @@ include:
   - _sources
   - _static
 keep_files:
-  - drugdiscovery/docs
+  - drugdiscovery/doc
 
 sass:
   style: :compressed

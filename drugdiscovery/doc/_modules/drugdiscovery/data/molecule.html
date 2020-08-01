@@ -85,11 +85,22 @@
             
               <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Tutorials</span></p>
+<p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/conv.html">Customize Message Passing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Package Reference</span></p>
 <ul>
@@ -162,14 +173,19 @@
            <div itemprop="articleBody">
             
   <h1>Source code for drugdiscovery.data.molecule</h1><div class="highlight"><pre>
-<span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+<span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 <span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span><span class="p">,</span> <span class="n">RDLogger</span>
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">from</span> <span class="nn">torch_scatter</span> <span class="kn">import</span> <span class="n">scatter_add</span><span class="p">,</span> <span class="n">scatter_min</span>
 
 <span class="kn">from</span> <span class="nn">drugdiscovery.data</span> <span class="kn">import</span> <span class="n">Graph</span><span class="p">,</span> <span class="n">PackedGraph</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery.data.rdkit</span> <span class="kn">import</span> <span class="n">draw</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">switch_backend</span><span class="p">(</span><span class="s2">&quot;agg&quot;</span><span class="p">)</span>
 
 
 <div class="viewcode-block" id="Molecule"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule">[docs]</a><span class="k">class</span> <span class="nc">Molecule</span><span class="p">(</span><span class="n">Graph</span><span class="p">):</span>
@@ -178,7 +194,7 @@
 
 <span class="sd">    Parameters:</span>
 <span class="sd">        edge_list (array_like, optional): list of edges of shape :math:`(|E|, 3)`.</span>
-<span class="sd">            Each tuple is (node_out, node_in, bond_type).</span>
+<span class="sd">            Each tuple is (node_in, node_out, bond_type).</span>
 <span class="sd">        atom_type (array_like, optional): atom types of shape :math:`(|V|,)`</span>
 <span class="sd">        bond_type (array_like, optional): bond types of shape :math:`(|E|,)`</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -204,7 +220,7 @@
 
 <div class="viewcode-block" id="Molecule.from_smiles"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.from_smiles">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_smiles</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">smiles</span><span class="p">,</span> <span class="n">node_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">edge_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                    <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+                    <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Create a molecule from a SMILES string.</span>
 
@@ -222,11 +238,11 @@
         <span class="k">if</span> <span class="n">mol</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid SMILES `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">smiles</span><span class="p">)</span>
 
-        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">node_feature</span><span class="p">,</span> <span class="n">edge_feature</span><span class="p">,</span> <span class="n">graph_feature</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="p">)</span></div>
+        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">node_feature</span><span class="p">,</span> <span class="n">edge_feature</span><span class="p">,</span> <span class="n">graph_feature</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="p">,</span> <span class="n">atom_map</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Molecule.from_molecule"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.from_molecule">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_molecule</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">mol</span><span class="p">,</span> <span class="n">node_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">edge_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                      <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+                      <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Create a molecule from a RDKit object.</span>
 
@@ -252,8 +268,11 @@
         <span class="n">atom_type</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">_node_feature</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">atoms</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">mol</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">())</span> <span class="o">+</span> <span class="p">[</span><span class="bp">cls</span><span class="o">.</span><span class="n">dummy_atom</span><span class="p">]</span>
+        <span class="n">_atom_map_num</span> <span class="o">=</span> <span class="p">[]</span>        
         <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">atoms</span><span class="p">:</span>
             <span class="n">atom_type</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetAtomicNum</span><span class="p">())</span>
+            <span class="k">if</span> <span class="n">atom_map</span><span class="p">:</span>
+                <span class="n">_atom_map_num</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetAtomMapNum</span><span class="p">())</span>
             <span class="n">feature</span> <span class="o">=</span> <span class="p">[]</span>
             <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">node_feature</span><span class="p">:</span>
                 <span class="n">func</span> <span class="o">=</span> <span class="n">R</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;features.atom.</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
@@ -261,6 +280,7 @@
             <span class="n">_node_feature</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">feature</span><span class="p">)</span>
         <span class="n">atom_type</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">atom_type</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
         <span class="n">_node_feature</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">_node_feature</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">_atom_map_num</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">_atom_map_num</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 
         <span class="n">edge_list</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">bond_type</span> <span class="o">=</span> <span class="p">[]</span>
@@ -295,12 +315,15 @@
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">node</span><span class="p">():</span>
             <span class="k">if</span> <span class="n">node_feature</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">node_feature</span> <span class="o">=</span> <span class="n">_node_feature</span>
+            <span class="k">if</span> <span class="n">atom_map</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">atom_map_num</span> <span class="o">=</span> <span class="n">_atom_map_num</span>
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge</span><span class="p">():</span>
             <span class="k">if</span> <span class="n">edge_feature</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">edge_feature</span> <span class="o">=</span> <span class="n">_edge_feature</span>
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">graph</span><span class="p">():</span>
             <span class="k">if</span> <span class="n">graph_feature</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">graph_feature</span> <span class="o">=</span> <span class="n">_graph_feature</span>
+
         <span class="k">return</span> <span class="bp">self</span></div>
 
     <span class="nd">@classmethod</span>
@@ -335,6 +358,8 @@
         <span class="k">for</span> <span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="nb">type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="o">.</span><span class="n">tolist</span><span class="p">():</span>
             <span class="k">if</span> <span class="n">h</span> <span class="o">&lt;</span> <span class="n">t</span><span class="p">:</span>
                 <span class="n">mol</span><span class="o">.</span><span class="n">AddBond</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">Chem</span><span class="o">.</span><span class="n">BondType</span><span class="o">.</span><span class="n">names</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">id2bond</span><span class="p">[</span><span class="nb">type</span><span class="p">]])</span>
+        <span class="n">mol</span><span class="o">.</span><span class="n">UpdatePropertyCache</span><span class="p">()</span>
+
         <span class="k">return</span> <span class="n">mol</span></div>
 
 <div class="viewcode-block" id="Molecule.pack"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.pack">[docs]</a>    <span class="nd">@classmethod</span>
@@ -373,6 +398,29 @@
 
         <span class="k">return</span> <span class="n">PackedMolecule</span><span class="p">(</span><span class="n">edge_list</span><span class="o">=</span><span class="n">edge_list</span><span class="p">,</span> <span class="n">num_nodes</span><span class="o">=</span><span class="n">num_nodes</span><span class="p">,</span> <span class="n">num_edges</span><span class="o">=</span><span class="n">num_edges</span><span class="p">,</span> <span class="n">num_relation</span><span class="o">=</span><span class="n">num_relation</span><span class="p">,</span>
                               <span class="n">meta</span><span class="o">=</span><span class="n">meta</span><span class="p">,</span> <span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Molecule.repeat"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.repeat">[docs]</a>    <span class="k">def</span> <span class="nf">repeat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">count</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Repeat this molecule.</span>
+
+<span class="sd">        Parameters:</span>
+<span class="sd">            count (int): number of times</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            PackedMolecule</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">edge_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">num_nodes</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">]</span> <span class="o">*</span> <span class="n">count</span>
+        <span class="n">num_edges</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span><span class="p">]</span> <span class="o">*</span> <span class="n">count</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;graph&quot;</span><span class="p">:</span>
+                <span class="n">v</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+            <span class="n">shape</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">v</span><span class="o">.</span><span class="n">ndim</span>
+            <span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">count</span>
+            <span class="n">data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">PackedMolecule</span><span class="p">(</span><span class="n">edge_list</span><span class="o">=</span><span class="n">edge_list</span><span class="p">,</span> <span class="n">num_nodes</span><span class="o">=</span><span class="n">num_nodes</span><span class="p">,</span> <span class="n">num_edges</span><span class="o">=</span><span class="n">num_edges</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">,</span> <span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
 
     <span class="k">def</span> <span class="nf">_maybe_num_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">edge_list</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">edge_list</span><span class="p">):</span>
@@ -423,7 +471,31 @@
             <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
             <span class="n">RDLogger</span><span class="o">.</span><span class="n">EnableLog</span><span class="p">(</span><span class="s2">&quot;rdApp.*&quot;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span></div>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span>
+
+<div class="viewcode-block" id="Molecule.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">ax</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Visualize this molecule with matplotlib.</span>
+
+<span class="sd">        Parameters:</span>
+<span class="sd">            save_file (str, optional): ``png`` or ``pdf`` file to save visualization.</span>
+<span class="sd">                If not provided, show the figure in window.</span>
+<span class="sd">            figure_size (tuple of int, optional): width and height of the figure</span>
+<span class="sd">            ax (matplotlib.axes.Axes, optional): axis to plot the figure</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">is_root</span> <span class="o">=</span> <span class="n">ax</span> <span class="ow">is</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">ax</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="n">figure_size</span><span class="p">)</span>
+            <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+
+        <span class="n">draw</span><span class="o">.</span><span class="n">MolToMPL</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">(),</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_frame_on</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">is_root</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">save_file</span><span class="p">:</span>
+                <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">save_file</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div></div>
 
 
 <div class="viewcode-block" id="PackedMolecule"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedMolecule">[docs]</a><span class="k">class</span> <span class="nc">PackedMolecule</span><span class="p">(</span><span class="n">PackedGraph</span><span class="p">,</span> <span class="n">Molecule</span><span class="p">):</span>
@@ -432,7 +504,7 @@
 
 <span class="sd">    Parameters:</span>
 <span class="sd">        edge_list (array_like, optional): list of edges of shape :math:`(|E|, 3)`.</span>
-<span class="sd">            Each tuple is (node_out, node_in, bond_type).</span>
+<span class="sd">            Each tuple is (node_in, node_out, bond_type).</span>
 <span class="sd">        atom_type (array_like, optional): atom types of shape :math:`(|V|,)`</span>
 <span class="sd">        bond_type (array_like, optional): bond types of shape :math:`(|E|,)`</span>
 <span class="sd">        num_nodes (array_like, optional): number of nodes in each graph</span>
@@ -502,7 +574,34 @@
     <span class="k">def</span> <span class="nf">is_valid_rdkit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_is_valid_rdkit&quot;</span><span class="p">):</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">mol</span><span class="o">.</span><span class="n">is_valid_rdkit</span> <span class="k">for</span> <span class="n">mol</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">])</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span></div>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span>
+
+<div class="viewcode-block" id="PackedMolecule.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedMolecule.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Visualize the packed molecules with matplotlib.</span>
+
+<span class="sd">        Parameters:</span>
+<span class="sd">            save_file (str, optional): ``png`` or ``pdf`` file to save visualization.</span>
+<span class="sd">                If not provided, show the figure in window.</span>
+<span class="sd">            figure_size (tuple of int, optional): width and height of the figure</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">num_col</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span> <span class="o">**</span> <span class="mf">0.5</span><span class="p">)</span>
+        <span class="n">num_row</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span> <span class="o">/</span> <span class="n">num_col</span><span class="p">)</span>
+        <span class="n">figure_size</span> <span class="o">=</span> <span class="p">(</span><span class="n">num_col</span> <span class="o">*</span> <span class="n">figure_size</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">num_row</span> <span class="o">*</span> <span class="n">figure_size</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="n">figure_size</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">):</span>
+            <span class="n">graph</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">num_row</span><span class="p">,</span> <span class="n">num_col</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">graph</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span>
+            <span class="n">graph</span><span class="o">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+        <span class="c1"># remove the space of axis labels</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">save_file</span><span class="p">:</span>
+            <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">save_file</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div></div>
 </pre></div>
 
            </div>

@@ -85,11 +85,22 @@
             
               <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Tutorials</span></p>
+<p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/conv.html">Customize Message Passing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Package Reference</span></p>
 <ul>
@@ -232,13 +243,14 @@
     <span class="k">return</span> <span class="n">result</span></div>
 
 
-<span class="k">def</span> <span class="nf">clipped_policy_gradient_loss</span><span class="p">(</span><span class="n">policy</span><span class="p">,</span> <span class="n">agent</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">0.2</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">clipped_policy_gradient_objective</span><span class="p">(</span><span class="n">policy</span><span class="p">,</span> <span class="n">agent</span><span class="p">,</span> <span class="n">reward</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">0.2</span><span class="p">):</span>
     <span class="n">ratio</span> <span class="o">=</span> <span class="p">(</span><span class="n">policy</span> <span class="o">-</span> <span class="n">agent</span><span class="o">.</span><span class="n">detach</span><span class="p">())</span><span class="o">.</span><span class="n">exp</span><span class="p">()</span>
+    <span class="n">ratio</span> <span class="o">=</span> <span class="n">ratio</span><span class="o">.</span><span class="n">clamp</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
     <span class="n">objective</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">ratio</span> <span class="o">*</span> <span class="n">reward</span><span class="p">,</span> <span class="n">ratio</span><span class="o">.</span><span class="n">clamp</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">eps</span><span class="p">,</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">eps</span><span class="p">)</span> <span class="o">*</span> <span class="n">reward</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">objective</span>
 
 
-<span class="k">def</span> <span class="nf">policy_gradient_loss</span><span class="p">(</span><span class="n">policy</span><span class="p">,</span> <span class="n">reward</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">policy_gradient_objective</span><span class="p">(</span><span class="n">policy</span><span class="p">,</span> <span class="n">reward</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">policy</span> <span class="o">*</span> <span class="n">reward</span>
 </pre></div>
 

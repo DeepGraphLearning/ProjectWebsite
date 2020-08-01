@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Drugdiscovery - A deep learning platform for drug discovery" href="introduction.html" /> 
+    <link rel="next" title="Installation" href="installation.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -86,11 +86,22 @@
             
               <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Tutorials</span></p>
+<p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="notes/conv.html">Customize Message Passing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes/extension.html">Custom Extensions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Package Reference</span></p>
 <ul>
@@ -166,16 +177,39 @@
             
   <div class="section" id="drugdiscovery-a-deep-learning-platform-for-drug-discovery">
 <h1>Drugdiscovery - A deep learning platform for drug discovery<a class="headerlink" href="#drugdiscovery-a-deep-learning-platform-for-drug-discovery" title="Permalink to this headline">¶</a></h1>
+<p>Drugdiscovery is a graph representation learning toolbox built on top of <a class="reference external" href="https://pytorch.org/">PyTorch</a> platform.
+It provides a comprehensive and flexible interface to support rapid protoyping of deep
+learning models for graph structured data. Drugdiscovery covers latest models and benchmarks,
+as well as approachable and extensible building blocks.</p>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start</a></li>
 </ul>
 </div>
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Tutorials</span></p>
+<p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="notes/graph.html">Graph Data Structures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="notes/graph.html#create-a-graph">Create a Graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes/graph.html#graph-attributes">Graph Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes/graph.html#batch-graph">Batch Graph</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes/graph.html#subgraph-and-masking">Subgraph and Masking</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="notes/conv.html">Customize Message Passing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notes/extension.html">Custom Extensions</a></li>
 </ul>
 </div>
 <div class="toctree-wrapper compound">
@@ -196,14 +230,6 @@
 </ul>
 </div>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
-</div>
 
 
            </div>
@@ -213,7 +239,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="introduction.html" class="btn btn-neutral float-right" title="Drugdiscovery - A deep learning platform for drug discovery" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>

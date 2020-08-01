@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>drugdiscovery.core.base &mdash; Drugdiscovery 0.1.0 documentation</title>
+  <title>drugdiscovery.core.core &mdash; Drugdiscovery 0.1.0 documentation</title>
   
 
   
@@ -85,11 +85,22 @@
             
               <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Tutorials</span></p>
+<p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/conv.html">Customize Message Passing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Package Reference</span></p>
 <ul>
@@ -146,7 +157,7 @@
         
           <li><a href="../../index.html">Module code</a> &raquo;</li>
         
-      <li>drugdiscovery.core.base</li>
+      <li>drugdiscovery.core.core</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -161,8 +172,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <h1>Source code for drugdiscovery.core.base</h1><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">inspect</span>
+  <h1>Source code for drugdiscovery.core.core</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">types</span>
+<span class="kn">import</span> <span class="nn">inspect</span>
 <span class="kn">from</span> <span class="nn">decorator</span> <span class="kn">import</span> <span class="n">decorate</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 <span class="kn">from</span> <span class="nn">contextlib</span> <span class="kn">import</span> <span class="n">contextmanager</span>
@@ -190,7 +203,7 @@
 <span class="sd">    &gt;&gt;&gt; instance.random = 0</span>
 <span class="sd">    &gt;&gt;&gt; assert &quot;random&quot; not in instance.meta</span>
 
-<span class="sd">    You can also restrict available meta types by defining a set :attr:`meta_types` in the derived class.</span>
+<span class="sd">    You can also restrict available meta types by defining a set :attr:`_meta_types` in the derived class.</span>
 
 <span class="sd">    .. note::</span>
 
@@ -203,7 +216,7 @@
 <span class="sd">        This may make code hard to maintain. Use with caution.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="n">meta_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">_meta_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
     <span class="n">enable_auto_context</span> <span class="o">=</span> <span class="kc">False</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -220,8 +233,8 @@
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Context manager for assigning members with a specific meta type.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">if</span> <span class="nb">type</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_types</span> <span class="ow">and</span> <span class="nb">type</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_types</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Expect context type in </span><span class="si">%s</span><span class="s2">, but got `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_types</span><span class="p">,</span> <span class="nb">type</span><span class="p">))</span>
+        <span class="k">if</span> <span class="nb">type</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">_meta_types</span> <span class="ow">and</span> <span class="nb">type</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_meta_types</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Expect context type in </span><span class="si">%s</span><span class="s2">, but got `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_meta_types</span><span class="p">,</span> <span class="nb">type</span><span class="p">))</span>
         <span class="n">backup</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_meta_context</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_setattr</span><span class="p">(</span><span class="s2">&quot;_meta_context&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">)</span>
         <span class="k">yield</span>
@@ -230,7 +243,7 @@
     <span class="k">def</span> <span class="fm">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
         <span class="nb">type</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_meta_context</span>
         <span class="k">if</span> <span class="nb">type</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">enable_auto_context</span><span class="p">:</span>
-            <span class="k">for</span> <span class="n">_type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_types</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">_type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_meta_types</span><span class="p">:</span>
                 <span class="k">if</span> <span class="n">key</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">_type</span><span class="p">):</span>
                     <span class="nb">type</span> <span class="o">=</span> <span class="n">_type</span>
                     <span class="k">break</span>
@@ -337,71 +350,57 @@
 
 <span class="sd">        For example, we can search ``GCN`` and get the object of ``models.GCN``.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">keys</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\b</span><span class="si">%s</span><span class="s2">\b&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">cls</span><span class="o">.</span><span class="n">table</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-            <span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">k</span><span class="p">:</span>
-                <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
-                <span class="n">result</span> <span class="o">=</span> <span class="n">v</span>
-        <span class="k">if</span> <span class="n">count</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">pattern</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">k</span><span class="p">):</span>
+                <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+                <span class="n">value</span> <span class="o">=</span> <span class="n">v</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="s2">&quot;Can&#39;t find any registered key containing `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">count</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="s2">&quot;Ambiguous key `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">result</span></div></div>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">keys</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;`</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">key</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">]</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="s2">&quot;Ambiguous key `</span><span class="si">%s</span><span class="s2">`. Found </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">keys</span><span class="p">)))</span>
+        <span class="k">return</span> <span class="n">value</span></div></div>
 
 
-<div class="viewcode-block" id="Configurable"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core.Configurable">[docs]</a><span class="k">class</span> <span class="nc">Configurable</span><span class="p">(</span><span class="nb">type</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Meta class for load/save configuration of a class.</span>
-<span class="sd">    It will automatically record every argument passed to ``__init__`` function.</span>
+<span class="k">class</span> <span class="nc">_Configurable</span><span class="p">(</span><span class="nb">type</span><span class="p">):</span>
 
-<span class="sd">    This class is inspired by :meth:`state_dict()` in PyTorch, but designed for hyperparameters.</span>
-
-<span class="sd">    To construct a configurable class, inherit this class as a metaclass</span>
-
-<span class="sd">    &gt;&gt;&gt; class MyClass(nn.Module, metaclass=Configurable):</span>
-
-<span class="sd">    To get the configuration of an instance, use :meth:`config_dict()`,</span>
-<span class="sd">    which returns a dict of argument names and values.</span>
-<span class="sd">    If an argument is also a Configurable, it will be recursively expanded in the dict.</span>
-<span class="sd">    The configuration dict can be passed to :meth:`load_config_dict()` to create a copy of the instance.</span>
-
-<span class="sd">    For classes already registered in Registry, they can be directly created from a Configurable class.</span>
-<span class="sd">    This is convenient for building models from configuration files.</span>
-
-<span class="sd">    &gt;&gt;&gt; config = models.GCN(128, [128]).config_dict()</span>
-<span class="sd">    &gt;&gt;&gt; gcn = Configurable.load_config_dict(config)</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-
-<div class="viewcode-block" id="Configurable.config_dict"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core.Configurable.config_dict">[docs]</a>    <span class="k">def</span> <span class="nf">config_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">config_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Return the configuration dict of this instance.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="bp">cls</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_registry_key&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span>
         <span class="n">config</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="bp">cls</span><span class="p">}</span>
 
-        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">v</span><span class="p">),</span> <span class="n">Configurable</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_config</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">Configurable</span><span class="p">):</span>
                 <span class="n">v</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">config_dict</span><span class="p">()</span>
             <span class="n">config</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
-        <span class="k">return</span> <span class="n">config</span></div>
+        <span class="k">return</span> <span class="n">config</span>
 
-<div class="viewcode-block" id="Configurable.load_config_dict"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core.Configurable.load_config_dict">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">load_config_dict</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Construct an instance from the configuration dict.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">if</span> <span class="bp">cls</span> <span class="o">==</span> <span class="n">Configurable</span><span class="p">:</span>
-            <span class="bp">cls</span> <span class="o">=</span> <span class="n">Registry</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">])</span>
+        <span class="k">if</span> <span class="bp">cls</span> <span class="o">==</span> <span class="n">_Configurable</span><span class="p">:</span>
+            <span class="n">real_cls</span> <span class="o">=</span> <span class="n">Registry</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">])</span>
+            <span class="n">custom_load_func</span> <span class="o">=</span> <span class="n">real_cls</span><span class="o">.</span><span class="n">load_config_dict</span><span class="o">.</span><span class="vm">__func__</span> <span class="o">!=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span><span class="o">.</span><span class="vm">__func__</span>
+            <span class="k">if</span> <span class="n">custom_load_func</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">real_cls</span><span class="o">.</span><span class="n">load_config_dict</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+            <span class="bp">cls</span> <span class="o">=</span> <span class="n">real_cls</span>
         <span class="k">elif</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s2">&quot;_registry_key&quot;</span><span class="p">,</span> <span class="bp">cls</span><span class="o">.</span><span class="vm">__name__</span><span class="p">)</span> <span class="o">!=</span> <span class="n">config</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">]:</span>
             <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Expect config class to be `</span><span class="si">%s</span><span class="s2">`, but found `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">config</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">]))</span>
 
         <span class="n">new_config</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">config</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span> <span class="ow">and</span> <span class="s2">&quot;class&quot;</span> <span class="ow">in</span> <span class="n">v</span><span class="p">:</span>
-                <span class="n">v</span> <span class="o">=</span> <span class="n">Configurable</span><span class="o">.</span><span class="n">load_config_dict</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+                <span class="n">v</span> <span class="o">=</span> <span class="n">_Configurable</span><span class="o">.</span><span class="n">load_config_dict</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">k</span> <span class="o">!=</span> <span class="s2">&quot;class&quot;</span><span class="p">:</span>
                 <span class="n">new_config</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
-        <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="o">**</span><span class="n">new_config</span><span class="p">)</span></div>
+
+        <span class="k">return</span> <span class="bp">cls</span><span class="p">(</span><span class="o">**</span><span class="n">new_config</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="n">typ</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
 
@@ -413,13 +412,49 @@
             <span class="n">func</span><span class="o">.</span><span class="n">apply_defaults</span><span class="p">()</span>
             <span class="n">config</span> <span class="o">=</span> <span class="n">func</span><span class="o">.</span><span class="n">arguments</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
             <span class="bp">self</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">func</span><span class="o">.</span><span class="n">arguments</span><span class="o">.</span><span class="n">keys</span><span class="p">())))</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_ignore_args&quot;</span><span class="p">,</span> <span class="p">{}):</span>
+                <span class="n">config</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_config</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
             <span class="k">return</span> <span class="n">init</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
-        <span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span> <span class="o">=</span> <span class="n">decorate</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">,</span> <span class="n">wrapper</span><span class="p">)</span>
-        <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span> <span class="o">=</span> <span class="n">Configurable</span><span class="o">.</span><span class="n">load_config_dict</span>
-        <span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span> <span class="o">=</span> <span class="n">Configurable</span><span class="o">.</span><span class="n">config_dict</span>
-        <span class="k">return</span> <span class="bp">cls</span></div>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>
+            <span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span> <span class="o">=</span> <span class="n">decorate</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">,</span> <span class="n">wrapper</span><span class="p">)</span>
+            <span class="n">custom_load_func</span> <span class="o">=</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s2">&quot;load_config_dict&quot;</span><span class="p">)</span> <span class="ow">and</span> \
+                          <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span><span class="o">.</span><span class="vm">__func__</span> <span class="o">!=</span> <span class="n">typ</span><span class="o">.</span><span class="n">load_config_dict</span><span class="o">.</span><span class="vm">__func__</span>
+            <span class="n">custom_config_func</span> <span class="o">=</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s2">&quot;config_dict&quot;</span><span class="p">)</span> <span class="ow">and</span> \
+                            <span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span><span class="o">.</span><span class="vm">__func__</span> <span class="o">!=</span> <span class="n">typ</span><span class="o">.</span><span class="n">config_dict</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">custom_load_func</span><span class="p">:</span>
+                <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span> <span class="o">=</span> <span class="n">_Configurable</span><span class="o">.</span><span class="n">load_config_dict</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">custom_config_func</span><span class="p">:</span>
+                <span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span> <span class="o">=</span> <span class="n">_Configurable</span><span class="o">.</span><span class="n">config_dict</span>
+
+        <span class="k">return</span> <span class="bp">cls</span>
+
+
+<div class="viewcode-block" id="Configurable"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core.Configurable">[docs]</a><span class="k">class</span> <span class="nc">Configurable</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">_Configurable</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Class for load/save configuration.</span>
+<span class="sd">    It will automatically record every argument passed to ``__init__`` function.</span>
+
+<span class="sd">    This class is inspired by :meth:`state_dict()` in PyTorch, but designed for hyperparameters.</span>
+
+<span class="sd">    To construct a configurable class, inherit this class as a metaclass</span>
+
+<span class="sd">    &gt;&gt;&gt; class MyClass(nn.Module, core.Configurable):</span>
+
+<span class="sd">    To get the configuration of an instance, use :meth:`config_dict()`,</span>
+<span class="sd">    which returns a dict of argument names and values.</span>
+<span class="sd">    If an argument is also an instance of :class:`Configurable`, it will be recursively expanded in the dict.</span>
+<span class="sd">    The configuration dict can be passed to :meth:`load_config_dict()` to create a copy of the instance.</span>
+
+<span class="sd">    For classes already registered in :class:`Registry`,</span>
+<span class="sd">    they can be directly created from the :class:`Configurable` class.</span>
+<span class="sd">    This is convenient for building models from configuration files.</span>
+
+<span class="sd">    &gt;&gt;&gt; config = models.GCN(128, [128]).config_dict()</span>
+<span class="sd">    &gt;&gt;&gt; gcn = Configurable.load_config_dict(config)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">pass</span></div>
 </pre></div>
 
            </div>

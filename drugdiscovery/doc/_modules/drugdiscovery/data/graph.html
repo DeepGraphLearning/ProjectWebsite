@@ -85,11 +85,22 @@
             
               <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Tutorials</span></p>
+<p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/conv.html">Customize Message Passing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Package Reference</span></p>
 <ul>
@@ -162,16 +173,21 @@
            <div itemprop="articleBody">
             
   <h1>Source code for drugdiscovery.data.graph</h1><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">warnings</span>
+<span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">from</span> <span class="nn">torch_scatter</span> <span class="kn">import</span> <span class="n">scatter_add</span>
 
 <span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">core</span><span class="p">,</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.layers</span> <span class="kn">import</span> <span class="n">functional</span>
 
+<span class="n">plt</span><span class="o">.</span><span class="n">switch_backend</span><span class="p">(</span><span class="s2">&quot;agg&quot;</span><span class="p">)</span>
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 
@@ -191,7 +207,7 @@
 <span class="sd">            0      &amp; \cdots &amp; A_n</span>
 <span class="sd">        \end{bmatrix}</span>
 
-<span class="sd">    where :math:`A_i` is the adjacency of i-th graph.</span>
+<span class="sd">    where :math:`A_i` is the adjacency of :math:`i`-th graph.</span>
 
 <span class="sd">    You may register dynamic attributes for each graph.</span>
 <span class="sd">    The registered attributes will be automatically processed during packing.</span>
@@ -204,7 +220,7 @@
 
 <span class="sd">    Parameters:</span>
 <span class="sd">        edge_list (array_like, optional): list of edges of shape :math:`(|E|, 2)` or :math:`(|E|, 3)`.</span>
-<span class="sd">            Each tuple is (node_out, node_in) or (node_out, node_in, relation).</span>
+<span class="sd">            Each tuple is (node_in, node_out) or (node_in, node_out, relation).</span>
 <span class="sd">        edge_weight (array_like, optional): edge weights of shape :math:`(|E|,)`</span>
 <span class="sd">        num_node (int, optional): number of nodes.</span>
 <span class="sd">            By default, it will be inferred from the largest id in `edge_list`</span>
@@ -213,7 +229,7 @@
 <span class="sd">        edge_feature (array_like, optional): edge features of shape :math:`(|E|, ...)`</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="n">meta_types</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;node&quot;</span><span class="p">,</span> <span class="s2">&quot;edge&quot;</span><span class="p">,</span> <span class="s2">&quot;relation&quot;</span><span class="p">,</span> <span class="s2">&quot;graph&quot;</span><span class="p">}</span>
+    <span class="n">_meta_types</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;node&quot;</span><span class="p">,</span> <span class="s2">&quot;edge&quot;</span><span class="p">,</span> <span class="s2">&quot;relation&quot;</span><span class="p">,</span> <span class="s2">&quot;graph&quot;</span><span class="p">}</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">edge_list</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">edge_weight</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_node</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_relation</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="n">node_feature</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">edge_feature</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
@@ -633,7 +649,7 @@
     <span class="k">def</span> <span class="nf">degree_out</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Out degree of nodes.&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_degree_out&quot;</span><span class="p">):</span>
-            <span class="n">degree_out</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">edge_weight</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
+            <span class="n">degree_out</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">edge_weight</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_degree_out</span> <span class="o">=</span> <span class="n">degree_out</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_degree_out</span>
 
@@ -641,7 +657,7 @@
     <span class="k">def</span> <span class="nf">degree_in</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;In degree of nodes.&quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_degree_in&quot;</span><span class="p">):</span>
-            <span class="n">degree_in</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">edge_weight</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">],</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
+            <span class="n">degree_in</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">edge_weight</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_degree_in</span> <span class="o">=</span> <span class="n">degree_in</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_degree_in</span>
 
@@ -693,7 +709,52 @@
             <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">(num_node=</span><span class="si">%d</span><span class="s2">, num_edge=</span><span class="si">%d</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">(num_node=</span><span class="si">%d</span><span class="s2">, num_edge=</span><span class="si">%d</span><span class="s2">, num_relation=</span><span class="si">%d</span><span class="s2">)&quot;</span> \
-                   <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">)</span></div>
+                   <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">)</span>
+
+<div class="viewcode-block" id="Graph.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Graph.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">ax</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="s2">&quot;spring&quot;</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Visualize this graph with matplotlib.</span>
+
+<span class="sd">        Parameters:</span>
+<span class="sd">            save_file (str, optional): ``png`` or ``pdf`` file to save visualization.</span>
+<span class="sd">                If not provided, show the figure in window.</span>
+<span class="sd">            figure_size (tuple of int, optional): width and height of the figure</span>
+<span class="sd">            ax (matplotlib.axes.Axes, optional): axis to plot the figure</span>
+<span class="sd">            layout (str, optional): graph layout</span>
+
+<span class="sd">        See also:</span>
+<span class="sd">            `NetworkX graph layout`_</span>
+
+<span class="sd">            .. _NetworkX graph layout:</span>
+<span class="sd">                https://networkx.github.io/documentation/stable/reference/drawing.html#module-networkx.drawing.layout</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">is_root</span> <span class="o">=</span> <span class="n">ax</span> <span class="ow">is</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">ax</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="n">figure_size</span><span class="p">)</span>
+            <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+
+        <span class="n">edge_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+        <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">(</span><span class="n">edge_list</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">nx</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">_layout&quot;</span> <span class="o">%</span> <span class="n">layout</span><span class="p">):</span>
+            <span class="n">func</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">nx</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">_layout&quot;</span> <span class="o">%</span> <span class="n">layout</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Unknown networkx layout `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">layout</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">layout</span> <span class="o">==</span> <span class="s2">&quot;spring&quot;</span> <span class="ow">or</span> <span class="n">layout</span> <span class="o">==</span> <span class="s2">&quot;random&quot;</span><span class="p">:</span>
+            <span class="n">pos</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">seed</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">pos</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+        <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">:</span>
+            <span class="n">edge_labels</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+            <span class="n">edge_labels</span> <span class="o">=</span> <span class="p">{</span><span class="nb">tuple</span><span class="p">(</span><span class="n">e</span><span class="p">):</span> <span class="n">l</span> <span class="k">for</span> <span class="n">e</span><span class="p">,</span> <span class="n">l</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">edge_list</span><span class="p">,</span> <span class="n">edge_labels</span><span class="p">)}</span>
+            <span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edge_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">edge_labels</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">set_frame_on</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">is_root</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">save_file</span><span class="p">:</span>
+                <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">save_file</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div></div>
 
 
 <div class="viewcode-block" id="PackedGraph"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedGraph">[docs]</a><span class="k">class</span> <span class="nc">PackedGraph</span><span class="p">(</span><span class="n">Graph</span><span class="p">):</span>
@@ -710,7 +771,7 @@
 
 <span class="sd">    Parameters:</span>
 <span class="sd">        edge_list (array_like, optional): list of edges of shape :math:`(|E|, 2)` or :math:`(|E|, 3)`.</span>
-<span class="sd">            Each tuple is (node_out, node_in) or (node_out, node_in, relation).</span>
+<span class="sd">            Each tuple is (node_in, node_out) or (node_in, node_out, relation).</span>
 <span class="sd">        edge_weight (array_like, optional): edge weights of shape :math:`(|E|,)`</span>
 <span class="sd">        num_nodes (array_like, optional): number of nodes in each graph</span>
 <span class="sd">            By default, it will be inferred from the largest id in `edge_list`</span>
@@ -1085,7 +1146,49 @@
                    <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_nodes</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edges</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">(batch_size=</span><span class="si">%d</span><span class="s2">, num_nodes=</span><span class="si">%s</span><span class="s2">, num_edges=</span><span class="si">%s</span><span class="s2">, num_relation=</span><span class="si">%d</span><span class="s2">)&quot;</span> \
-                   <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_nodes</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edges</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">)</span></div>
+                   <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_nodes</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edges</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">)</span>
+
+<div class="viewcode-block" id="PackedGraph.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedGraph.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">layout</span><span class="o">=</span><span class="s2">&quot;spring&quot;</span><span class="p">,</span> <span class="n">num_row</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_col</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Visualize the packed graphs with matplotlib.</span>
+
+<span class="sd">        Parameters:</span>
+<span class="sd">            save_file (str, optional): ``png`` or ``pdf`` file to save visualization.</span>
+<span class="sd">                If not provided, show the figure in window.</span>
+<span class="sd">            figure_size (tuple of int, optional): width and height of the figure</span>
+<span class="sd">            layout (str, optional): graph layout</span>
+<span class="sd">            num_row (int, optional): number of rows in the figure</span>
+<span class="sd">            num_col (int, optional): number of columns in the figure</span>
+
+<span class="sd">        See also:</span>
+<span class="sd">            `NetworkX graph layout`_</span>
+
+<span class="sd">            .. _NetworkX graph layout:</span>
+<span class="sd">                https://networkx.github.io/documentation/stable/reference/drawing.html#module-networkx.drawing.layout</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">num_col</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">num_row</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">num_col</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span> <span class="o">**</span> <span class="mf">0.5</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">num_col</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span> <span class="o">/</span> <span class="n">num_row</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">num_row</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">num_row</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span> <span class="o">/</span> <span class="n">num_col</span><span class="p">)</span>
+
+        <span class="n">figure_size</span> <span class="o">=</span> <span class="p">(</span><span class="n">num_col</span> <span class="o">*</span> <span class="n">figure_size</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">num_row</span> <span class="o">*</span> <span class="n">figure_size</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="n">figure_size</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">):</span>
+            <span class="n">graph</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">num_row</span><span class="p">,</span> <span class="n">num_col</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">%s</span><span class="s2"> </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">graph</span><span class="p">)</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span>
+            <span class="n">graph</span><span class="o">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
+        <span class="c1"># remove the space of axis labels</span>
+        <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">save_file</span><span class="p">:</span>
+            <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">save_file</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div></div>
 </pre></div>
 
            </div>

@@ -1,22 +1,37 @@
-.. Drugdiscovery documentation master file, created by
-   sphinx-quickstart on Sun Jul  5 12:11:29 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Drugdiscovery - A deep learning platform for drug discovery
 ===========================================================
 
+Drugdiscovery is a graph representation learning toolbox built on top of `PyTorch`_ platform.
+It provides a comprehensive and flexible interface to support rapid protoyping of deep
+learning models for graph structured data. Drugdiscovery covers latest models and benchmarks,
+as well as approachable and extensible building blocks.
+
+.. _PyTorch: https://pytorch.org/
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Get Started
 
-   Introduction <introduction>
+   installation
+   quick_start
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Tutorials
+   :maxdepth: 2
+   :caption: Examples
 
+   examples/property_prediction
+   examples/generation
+   examples/retrosynthesis
+   examples/link_prediction
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Notes
+
+   notes/graph
    notes/conv
+   notes/debug
+   notes/extension
 
 .. toctree::
    :maxdepth: 2
@@ -28,11 +43,3 @@ Drugdiscovery - A deep learning platform for drug discovery
    api/layers
    api/models
    api/tasks
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
