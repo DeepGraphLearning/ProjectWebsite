@@ -11,6 +11,7 @@ To begin with, let's create a graph.
 
 .. code-block:: python
 
+    import torch
     from drugdiscovery import data
 
     edge_list = [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 0]]
@@ -20,6 +21,20 @@ To begin with, let's create a graph.
 This will plot a ring graph like the following.
 
 .. image:: ../../../asset/graph/graph.png
+
+Internally, the graph is stored as a sparse edge list to save memory footprint. For
+an intuitive comparison, a `scale-free graph`_ may have 1 million nodes and 10 million
+edges. The dense version takes about 4TB, while the sparse version only requires 120MB.
+
+Here are some commonly used properties of the graph.
+
+.. _scale-free graph:
+    https://en.wikipedia.org/wiki/Scale-free_network
+
+    print(graph.num_node)
+    print(graph.num_edge)
+    print(graph.edge_list)
+    print(graph.edge_weight)
 
 In some scenarios, the graph may also have type information on its edges. For example,
 molecules have bond types like ``single bound``, while knowledge graphs have relations
@@ -64,8 +79,8 @@ For example, the following code creates a benzene molecule.
 
 .. image:: ../../../asset/graph/benzene.png
 
-Once the graph is created, we can transfer it between CPU and GPUs, just like any
-other torch.Tensor.
+Once the graph is created, we can transfer it between CPU and GPUs, just like
+:class:`torch.Tensor`.
 
 .. code-block:: python
 
@@ -159,3 +174,59 @@ writing batched operations.
 
 Subgraph and Masking
 --------------------
+
+The graph data structure also provides a bunch of slicing operations to create subgraphs
+or masked graphs in a sparse manner. Some typical operations include
+
+.. code-block:: python
+
+    g1 = graph.subgraph([1, 2, 3, 4])
+    g1.visualize()
+
+    g2 = graph.node_mask([1, 2, 3, 4])
+    g2.visualize()
+
+    g3 = graph.edge_mask([0, 1, 5])
+    g3.visualize()
+
+    g4 = g3.compact()
+    g4.visualize()
+
+.. image:: ../../../asset/graph/subgraph.png
+    :width: 24%
+.. image:: ../../../asset/graph/node_mask.png
+    :width: 24%
+.. image:: ../../../asset/graph/edge_mask.png
+    :width: 24%
+.. image:: ../../../asset/graph/compact.png
+    :width: 24%
+
+All the above operations accept either integer node indexes or binary node masks.
+:meth:`subgraph() <drugdiscovery.data.Graph.subgraph>` extracts a subgraph based on
+the given nodes. The node ids are re-mapped to produce a compact index.
+:meth:`node_mask() <drugdiscovery.data.Graph.node_mask>` keeps edges among the given
+nodes. :meth:`edge_mask() <drugdiscovery.data.Graph.edge_mask>` keeps edges of the
+given edge indexes. :meth:`compact() <drugdiscovery.data.Graph.compact>` removes all
+isolated nodes.
+
+The same operations can also be applied to batches. In this case, we need to convert
+the index of a single graph into the index in a batch.
+
+.. code-block:: python
+
+    graph_ids = torch.tensor([0, 0, 0, 0, 1, 1, 1, 1, 1, 1])
+    node_ids = torch.tensor([1, 2, 3, 4, 0, 1, 2, 3, 4, 5])
+    node_ids += batch.num_cum_nodes[graph_ids] - batch.num_nodes[graph_ids]
+    batch = batch.node_mask(node_ids)
+    batch.visualize(num_row=1)
+
+.. image:: ../../../asset/graph/batch_node_mask.png
+
+We can also pick a subset of graphs in a batch.
+
+.. code-block:: python
+
+    batch = batch[[0, 1]]
+    batch.visualize()
+
+.. image:: ../../../asset/graph/subbatch.png
