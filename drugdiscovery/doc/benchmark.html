@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Installation &mdash; Drugdiscovery 0.1.0 documentation</title>
+  <title>Benchmarks &mdash; Drugdiscovery 0.1.0 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Quick Start" href="quick_start.html" />
-    <link rel="prev" title="Drugdiscovery - A deep learning platform for drug discovery" href="index.html" /> 
+    <link rel="next" title="Molecule Property Prediction" href="examples/property_prediction.html" />
+    <link rel="prev" title="Quick Start" href="quick_start.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -87,8 +87,13 @@
             
               <p class="caption"><span class="caption-text">Get Started</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="quick_start.html">Quick Start</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Benchmarks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#molecule-property-prediction">Molecule Property Prediction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graph-generation">Graph Generation</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -157,13 +162,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Installation</li>
+      <li>Benchmarks</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/installation.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/benchmark.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -176,8 +181,87 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="installation">
-<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="benchmarks">
+<h1>Benchmarks<a class="headerlink" href="#benchmarks" title="Permalink to this headline">¶</a></h1>
+<p>This page contains benchmarks of models provided in Drugdiscovery.</p>
+<div class="section" id="molecule-property-prediction">
+<h2>Molecule Property Prediction<a class="headerlink" href="#molecule-property-prediction" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 20%" />
+<col style="width: 18%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><a class="reference external" href="https://pubs.acs.org/doi/pdfplus/10.1021/ci300415d">QM9</a></p></th>
+<th class="head"><p><a class="reference external" href="https://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints.pdf">NEF</a></p></th>
+<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">GCN</a></p></th>
+<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">ENN-S2S</a></p></th>
+<th class="head"><p><a class="reference external" href="https://aip.scitation.org/doi/pdf/10.1063/1.5019779">SchNet</a></p></th>
+<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">GIN</a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="graph-generation">
+<h2>Graph Generation<a class="headerlink" href="#graph-generation" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 43%" />
+<col style="width: 24%" />
+<col style="width: 32%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><a class="reference external" href="https://pubs.acs.org/doi/pdfplus/10.1021/ci3001277">ZINC250k</a></p></th>
+<th class="head"><p><a class="reference external" href="https://papers.nips.cc/paper/7877-graph-convolutional-policy-network-for-goal-directed-molecular-graph-generation.pdf">GCPN</a></p></th>
+<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/2001.09382.pdf">GraphAF</a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Penalized LogP</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>QED</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 
@@ -188,10 +272,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="quick_start.html" class="btn btn-neutral float-right" title="Quick Start" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="examples/property_prediction.html" class="btn btn-neutral float-right" title="Molecule Property Prediction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Drugdiscovery - A deep learning platform for drug discovery" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="quick_start.html" class="btn btn-neutral float-left" title="Quick Start" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
