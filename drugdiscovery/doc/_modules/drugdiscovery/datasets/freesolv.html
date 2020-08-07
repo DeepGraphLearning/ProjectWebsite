@@ -175,16 +175,33 @@
             
   <h1>Source code for drugdiscovery.datasets.freesolv</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">utils</span>
+
+<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery.utils</span> <span class="kn">import</span> <span class="n">doc</span>
 
 
-<div class="viewcode-block" id="FreeSolv"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.FreeSolv">[docs]</a><span class="k">class</span> <span class="nc">FreeSolv</span><span class="p">(</span><span class="n">datasets</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+<div class="viewcode-block" id="FreeSolv"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.FreeSolv">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.FreeSolv&quot;</span><span class="p">)</span>
+<span class="nd">@doc</span><span class="o">.</span><span class="n">copy_args</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="o">.</span><span class="n">load_csv</span><span class="p">,</span> <span class="n">ignore</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;smiles_field&quot;</span><span class="p">,</span> <span class="s2">&quot;target_fields&quot;</span><span class="p">))</span>
+<span class="k">class</span> <span class="nc">FreeSolv</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Experimental and calculated hydration free energy of small molecules in water.</span>
+
+<span class="sd">    Statistics:</span>
+<span class="sd">        - #Molecule: 642</span>
+<span class="sd">        - #Regression task: 1</span>
+
+<span class="sd">    Parameters:</span>
+<span class="sd">        path (str): path to store the dataset</span>
+<span class="sd">        verbose (int, optional): output verbose level</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://s3-us-west-1.amazonaws.com/deepchem.io/datasets/molnet_publish/FreeSolv.zip&quot;</span>
     <span class="n">md5</span> <span class="o">=</span> <span class="s2">&quot;8d681babd239b15e2f8b2d29f025577a&quot;</span>
-    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;expt&#39;</span><span class="p">]</span>
+    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;expt&quot;</span><span class="p">]</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
             <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">path</span>
@@ -192,9 +209,8 @@
         <span class="n">zip_file</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">md5</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">md5</span><span class="p">)</span>
         <span class="n">csv_file</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">zip_file</span><span class="p">,</span> <span class="s2">&quot;SAMPL.csv&quot;</span><span class="p">)</span>
 
-        <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;csv_file&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">,</span> <span class="s1">&#39;edge_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">}</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s1">&#39;smiles&#39;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span>
-                      <span class="n">with_hydrogen</span><span class="o">=</span><span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="n">kekulize</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="s1">&#39;ecfp&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s2">&quot;smiles&quot;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span>
+                      <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
 </pre></div>
 
            </div>

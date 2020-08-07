@@ -178,24 +178,37 @@
 <span class="kn">import</span> <span class="nn">csv</span>
 <span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
 
-<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery.utils</span> <span class="kn">import</span> <span class="n">doc</span>
 
 
 <div class="viewcode-block" id="ZINC2m"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.ZINC2m">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.ZINC2m&quot;</span><span class="p">)</span>
-<span class="k">class</span> <span class="nc">ZINC2m</span><span class="p">(</span><span class="n">datasets</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+<span class="nd">@doc</span><span class="o">.</span><span class="n">copy_args</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="o">.</span><span class="n">load_csv</span><span class="p">,</span> <span class="n">ignore</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;smiles_field&quot;</span><span class="p">,</span> <span class="s2">&quot;target_fields&quot;</span><span class="p">))</span>
+<span class="k">class</span> <span class="nc">ZINC2m</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    ZINC compound database for virtual screening.</span>
 
-    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="sd">    Statistics:</span>
+<span class="sd">        - #Molecule:</span>
+<span class="sd">        - #Regression task:</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">transform</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="sd">    Parameters:</span>
+<span class="sd">        path (str): path to store the dataset</span>
+<span class="sd">        verbose (int, optional): output verbose level</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># TODO: download path &amp; md5</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
             <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">path</span>
 
-        <span class="n">csv_file</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{}</span><span class="s1">/dataset/zinc_standard_agent/processed/smiles.csv&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">csv_file</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{}</span><span class="s2">/dataset/zinc_standard_agent/processed/smiles.csv&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fin</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fin</span><span class="p">:</span>
             <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">fin</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
                 <span class="n">reader</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">tqdm</span><span class="p">(</span><span class="n">reader</span><span class="p">,</span> <span class="s2">&quot;Loading </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">csv_file</span><span class="p">,</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_line_count</span><span class="p">(</span><span class="n">csv_file</span><span class="p">)))</span>
@@ -206,8 +219,7 @@
                 <span class="n">smiles_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
 
         <span class="n">targets</span> <span class="o">=</span> <span class="p">{}</span>
-        <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;node_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">,</span> <span class="s1">&#39;edge_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">}</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_smiles</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">,</span> <span class="n">targets</span><span class="p">,</span> <span class="n">transform</span><span class="o">=</span><span class="n">transform</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_smiles</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">,</span> <span class="n">targets</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
 </pre></div>
 
            </div>

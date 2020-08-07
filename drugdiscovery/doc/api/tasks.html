@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark.html">Benchmarks</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -192,7 +193,7 @@
 <li><p><strong>max_edge_unroll</strong> (<em>int</em><em>, </em><em>optional</em>) – max node id difference for</p></li>
 <li><p><strong>max_node</strong> (<em>int</em><em>, </em><em>optional</em>) – max number of node</p></li>
 <li><p><strong>criterion</strong> (<em>str</em><em>, </em><em>list</em><em> or </em><em>dict</em><em>, </em><em>optional</em>) – training criterion(s). For dict, the keys are criterions and the values
-are the corresponding weights. Available criterions are <code class="docutils literal notranslate"><span class="pre">nll</span></code>. <code class="docutils literal notranslate"><span class="pre">ppo</span></code>.</p></li>
+are the corresponding weights. Available criterions are <code class="docutils literal notranslate"><span class="pre">nll</span></code> and <code class="docutils literal notranslate"><span class="pre">ppo</span></code>.</p></li>
 <li><p><strong>agent_update_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – update agent every n batch</p></li>
 <li><p><strong>gamma</strong> (<em>float</em><em>, </em><em>optional</em>) – reward discount rate</p></li>
 <li><p><strong>reward_temperature</strong> (<em>float</em><em>, </em><em>optional</em>) – temperature for reward. Higher temperature encourages larger mean reward,
@@ -234,8 +235,9 @@ while lower temperature encourages larger maximal reward.</p></li>
 <li><p><strong>task</strong> (<em>str</em><em>, </em><em>list</em><em> or </em><em>dict</em><em>, </em><em>optional</em>) – training task(s).
 For dict, the keys are tasks and the values are the corresponding weights.</p></li>
 <li><p><strong>criterion</strong> (<em>str</em><em>, </em><em>list</em><em> or </em><em>dict</em><em>, </em><em>optional</em>) – training criterion(s). For dict, the keys are criterions and the values
-are the corresponding weights. Available criterions are <code class="docutils literal notranslate"><span class="pre">mse</span></code>, <code class="docutils literal notranslate"><span class="pre">bce</span></code>.</p></li>
-<li><p><strong>metric</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – metric(s)</p></li>
+are the corresponding weights. Available criterions are <code class="docutils literal notranslate"><span class="pre">mse</span></code> and <code class="docutils literal notranslate"><span class="pre">bce</span></code>.</p></li>
+<li><p><strong>metric</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – metric(s).
+Available metrics are <code class="docutils literal notranslate"><span class="pre">mae</span></code>, <code class="docutils literal notranslate"><span class="pre">rmse</span></code>, <code class="docutils literal notranslate"><span class="pre">auprc</span></code> and <code class="docutils literal notranslate"><span class="pre">auroc</span></code>.</p></li>
 <li><p><strong>verbose</strong> (<em>int</em><em>, </em><em>optional</em>) – output verbose level</p></li>
 </ul>
 </dd>

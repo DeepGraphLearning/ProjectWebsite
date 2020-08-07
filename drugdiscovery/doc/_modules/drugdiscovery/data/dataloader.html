@@ -182,7 +182,16 @@
 <span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">data</span>
 
 
-<span class="k">def</span> <span class="nf">graph_collate</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+<div class="viewcode-block" id="graph_collate"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.graph_collate">[docs]</a><span class="k">def</span> <span class="nf">graph_collate</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Convert any list of same nested container into a container of tensors.</span>
+
+<span class="sd">    For instances of :class:`drugdiscovery.data.Graph`, they are collated</span>
+<span class="sd">    by :meth:`drugdiscovery.data.Graph.pack`</span>
+
+<span class="sd">    Parameters:</span>
+<span class="sd">        batch (list): list of samples with the same nested container</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">elem</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
     <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">elem</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span><span class="p">):</span>
         <span class="n">out</span> <span class="o">=</span> <span class="kc">None</span>
@@ -208,11 +217,24 @@
             <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s1">&#39;Each element in list of batch should be of equal size&#39;</span><span class="p">)</span>
         <span class="k">return</span> <span class="p">[</span><span class="n">graph_collate</span><span class="p">(</span><span class="n">samples</span><span class="p">)</span> <span class="k">for</span> <span class="n">samples</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">batch</span><span class="p">)]</span>
 
-    <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;Can&#39;t collate data with type `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="nb">type</span><span class="p">(</span><span class="n">elem</span><span class="p">))</span>
+    <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s2">&quot;Can&#39;t collate data with type `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="nb">type</span><span class="p">(</span><span class="n">elem</span><span class="p">))</span></div>
 
 
 <div class="viewcode-block" id="DataLoader"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.DataLoader">[docs]</a><span class="k">class</span> <span class="nc">DataLoader</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">DataLoader</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Extended data loader for batching graph structured data.</span>
 
+<span class="sd">    See `torch.utils.data.DataLoader`_ for more details.</span>
+
+<span class="sd">    .. _torch.utils.data.DataLoader:</span>
+<span class="sd">        https://pytorch.org/docs/stable/data.html#torch.utils.data.DataLoader</span>
+
+<span class="sd">    Parameters:</span>
+<span class="sd">        dataset (Dataset): dataset from which to load the data</span>
+<span class="sd">        batch_size (int, optional): how many samples per batch to load</span>
+<span class="sd">        shuffle (bool, optional): set to ``True`` to have the data reshuffled at every epoch</span>
+<span class="sd">        kwargs: keyword arguments for `torch.utils.data.DataLoader`_</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dataset</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">DataLoader</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">shuffle</span><span class="p">,</span> <span class="n">collate_fn</span><span class="o">=</span><span class="n">graph_collate</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
 

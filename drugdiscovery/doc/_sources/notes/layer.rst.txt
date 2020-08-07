@@ -94,7 +94,7 @@ states with their source degrees.
 In :meth:`aggregate`, we collect the messages by their target nodes. This is
 implemented by :func:`scatter_add` operation from `PyTorch Scatter`_. We specify
 :attr:`dim_size` to be ``graph.num_node``, since there might be isolated nodes in
-the graph and :func:`scatter_add` cannot figure it out from `node_in`.
+the graph and :func:`scatter_add` cannot figure it out from ``node_in``.
 
 The :meth:`combine` function trivially returns node updates as new node hidden
 states.

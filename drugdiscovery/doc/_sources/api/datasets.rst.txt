@@ -4,3 +4,4 @@ drugdiscovery.datasets
 .. automodule:: drugdiscovery.datasets
     :members:
     :inherited-members:
+    :exclude-members: load_csv, load_smiles

@@ -196,6 +196,35 @@
     <span class="k">return</span> <span class="n">samples</span></div>
 
 
+<div class="viewcode-block" id="masked_mean"><a class="viewcode-back" href="../../../api/layers.html#drugdiscovery.layers.functional.masked_mean">[docs]</a><span class="k">def</span> <span class="nf">masked_mean</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">mask</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Masked mean of a tensor.</span>
+
+<span class="sd">    Parameters:</span>
+<span class="sd">        input (Tensor): input tensor</span>
+<span class="sd">        mask (BoolTensor): mask tensor</span>
+<span class="sd">        dim (int or tuple of int, optional): dimension to reduce</span>
+<span class="sd">        keepdim (bool, optional): whether retain ``dim`` or not</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">input</span> <span class="o">=</span> <span class="nb">input</span><span class="o">.</span><span class="n">masked_scatter</span><span class="p">(</span><span class="o">~</span><span class="n">mask</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="nb">input</span><span class="p">))</span> <span class="c1"># safe with nan</span>
+    <span class="k">if</span> <span class="n">dim</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">input</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="n">mask</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">clamp</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">input</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="n">keepdim</span><span class="p">)</span> <span class="o">/</span> <span class="n">mask</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="n">keepdim</span><span class="p">)</span><span class="o">.</span><span class="n">clamp</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="mean_with_nan"><a class="viewcode-back" href="../../../api/layers.html#drugdiscovery.layers.functional.mean_with_nan">[docs]</a><span class="k">def</span> <span class="nf">mean_with_nan</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Mean of a tensor. Ignore all nan values.</span>
+
+<span class="sd">    Parameters:</span>
+<span class="sd">        input (Tensor): input tensor</span>
+<span class="sd">        dim (int or tuple of int, optional): dimension to reduce</span>
+<span class="sd">        keepdim (bool, optional): whether retain ``dim`` or not</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">mask</span> <span class="o">=</span> <span class="o">~</span><span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">masked_mean</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">mask</span><span class="p">,</span> <span class="n">dim</span><span class="p">,</span> <span class="n">keepdim</span><span class="p">)</span></div>
+
+
 <div class="viewcode-block" id="shifted_softplus"><a class="viewcode-back" href="../../../api/layers.html#drugdiscovery.layers.functional.shifted_softplus">[docs]</a><span class="k">def</span> <span class="nf">shifted_softplus</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Shifted softplus function.</span>

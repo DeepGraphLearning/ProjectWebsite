@@ -175,18 +175,33 @@
             
   <h1>Source code for drugdiscovery.datasets.delaney</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">utils</span>
+
+<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery.utils</span> <span class="kn">import</span> <span class="n">doc</span>
 
 
 <div class="viewcode-block" id="Delaney"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.Delaney">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.Delaney&quot;</span><span class="p">)</span>
-<span class="k">class</span> <span class="nc">Delaney</span><span class="p">(</span><span class="n">datasets</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+<span class="nd">@doc</span><span class="o">.</span><span class="n">copy_args</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="o">.</span><span class="n">load_csv</span><span class="p">,</span> <span class="n">ignore</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;smiles_field&quot;</span><span class="p">,</span> <span class="s2">&quot;target_fields&quot;</span><span class="p">))</span>
+<span class="k">class</span> <span class="nc">Delaney</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">MoleculeDataset</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Log-scale water solubility of molecules.</span>
 
-    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/delaney-processed.csv&#39;</span>
-    <span class="n">md5</span> <span class="o">=</span> <span class="s1">&#39;0c90a51668d446b9e3ab77e67662bd1c&#39;</span>
-    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;measured log solubility in mols per litre&#39;</span><span class="p">]</span>
+<span class="sd">    Statistics:</span>
+<span class="sd">        - #Molecule: 1,128</span>
+<span class="sd">        - #Regression task: 1</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="sd">    Parameters:</span>
+<span class="sd">        path (str): path to store the dataset</span>
+<span class="sd">        verbose (int, optional): output verbose level</span>
+<span class="sd">        **kwargs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/delaney-processed.csv&quot;</span>
+    <span class="n">md5</span> <span class="o">=</span> <span class="s2">&quot;0c90a51668d446b9e3ab77e67662bd1c&quot;</span>
+    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;measured log solubility in mols per litre&quot;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
             <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
@@ -194,9 +209,8 @@
 
         <span class="n">file_name</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">md5</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">md5</span><span class="p">)</span>
 
-        <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;node_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">,</span> <span class="s1">&#39;edge_feature&#39;</span><span class="p">:</span> <span class="s1">&#39;property_prediction&#39;</span><span class="p">}</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s1">&#39;smiles&#39;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span>
-                      <span class="n">with_hydrogen</span><span class="o">=</span><span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="n">kekulize</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="s1">&#39;ecfp&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s2">&quot;smiles&quot;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span>
+                      <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
 </pre></div>
 
            </div>

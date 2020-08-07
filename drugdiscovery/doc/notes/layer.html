@@ -89,6 +89,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark.html">Benchmarks</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -247,7 +248,7 @@ states with their source degrees.</p>
 <p>In <code class="xref py py-meth docutils literal notranslate"><span class="pre">aggregate()</span></code>, we collect the messages by their target nodes. This is
 implemented by <code class="xref py py-func docutils literal notranslate"><span class="pre">scatter_add()</span></code> operation from <a class="reference external" href="https://pytorch-scatter.readthedocs.io">PyTorch Scatter</a>. We specify
 <code class="xref py py-attr docutils literal notranslate"><span class="pre">dim_size</span></code> to be <code class="docutils literal notranslate"><span class="pre">graph.num_node</span></code>, since there might be isolated nodes in
-the graph and <code class="xref py py-func docutils literal notranslate"><span class="pre">scatter_add()</span></code> cannot figure it out from <cite>node_in</cite>.</p>
+the graph and <code class="xref py py-func docutils literal notranslate"><span class="pre">scatter_add()</span></code> cannot figure it out from <code class="docutils literal notranslate"><span class="pre">node_in</span></code>.</p>
 <p>The <code class="xref py py-meth docutils literal notranslate"><span class="pre">combine()</span></code> function trivially returns node updates as new node hidden
 states.</p>
 </div>

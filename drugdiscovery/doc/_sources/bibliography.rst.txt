@@ -1,4 +1,5 @@
 .. Dataset
+.. _ClinTox: https://arxiv.org/pdf/1703.00564.pdf
 .. _QM9: https://pubs.acs.org/doi/pdfplus/10.1021/ci300415d
 .. _ZINC250k: https://pubs.acs.org/doi/pdfplus/10.1021/ci3001277
 
@@ -12,3 +13,6 @@
 .. Graph generation
 .. _GCPN: https://papers.nips.cc/paper/7877-graph-convolutional-policy-network-for-goal-directed-molecular-graph-generation.pdf
 .. _GraphAF: https://arxiv.org/pdf/2001.09382.pdf
+
+.. Retrosynthesis
+.. _G2Gs: https://arxiv.org/pdf/2003.12725.pdf

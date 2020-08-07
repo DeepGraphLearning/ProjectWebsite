@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>drugdiscovery.datasets.USPTO50k &mdash; Drugdiscovery 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> Drugdiscovery
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark.html">Benchmarks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Package Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/core.html">drugdiscovery.core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/data.html">drugdiscovery.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/datasets.html">drugdiscovery.datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/layers.html">drugdiscovery.layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/models.html">drugdiscovery.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../api/tasks.html">drugdiscovery.tasks</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Drugdiscovery</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>drugdiscovery.datasets.USPTO50k</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for drugdiscovery.datasets.USPTO50k</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+<span class="kn">from</span> <span class="nn">rdkit</span> <span class="kn">import</span> <span class="n">Chem</span>
+<span class="kn">import</span> <span class="nn">torch</span>
+
+<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">data</span><span class="p">,</span> <span class="n">utils</span>
+<span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
+
+
+<div class="viewcode-block" id="USPTO50k_v1"><a class="viewcode-back" href="../../../api/datasets.html#drugdiscovery.datasets.USPTO50k_v1">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.USPTO50k_v1&quot;</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">USPTO50k_v1</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">ReactionDataset</span><span class="p">):</span>
+
+    <span class="c1">#url = &quot;https://raw.githubusercontent.com/aspuru-guzik-group/chemical_vae/master/models/zinc_properties/&quot; \</span>
+    <span class="c1">#      &quot;250k_rndm_zinc_drugs_clean_3.csv&quot;</span>
+    <span class="c1">#md5 = &quot;b59078b2b04c6e9431280e3dc42048d5&quot;</span>
+    <span class="n">feature_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">,</span> <span class="s2">&quot;prod_smiles&quot;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">typed</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">path</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">typed</span> <span class="o">=</span> <span class="n">typed</span>
+
+        <span class="n">file_name</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;USPTO50k.csv&quot;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s2">&quot;rxn_smiles&quot;</span><span class="p">,</span> <span class="n">feature_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">feature_fields</span><span class="p">,</span>
+                    <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">preprocess</span><span class="p">(</span><span class="n">with_hydrogen</span><span class="o">=</span><span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="n">kekulize</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="n">atom_map</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done!&quot;</span><span class="p">)</span>
+        <span class="c1">#self.smiles_rxn_list = [xxx]</span>
+        <span class="c1">#self.smiles_re_list = [xxx]</span>
+        <span class="c1">#self.smiles_prod_list = [xxx]</span>
+        <span class="c1">#self.data = []</span>
+        <span class="c1">#self.feature = [xxx]</span>
+
+    <span class="k">def</span> <span class="nf">get_center</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mol_re</span><span class="p">,</span> <span class="n">mol_prod</span><span class="p">):</span>
+        <span class="n">re_num2id</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">re_id2num</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">mol_re</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+            <span class="n">map_num</span> <span class="o">=</span> <span class="n">atom</span><span class="o">.</span><span class="n">GetAtomMapNum</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">map_num</span><span class="p">:</span>
+                <span class="n">re_num2id</span><span class="p">[</span><span class="n">map_num</span><span class="p">]</span> <span class="o">=</span> <span class="n">atom</span><span class="o">.</span><span class="n">GetIdx</span><span class="p">()</span>
+                <span class="n">re_id2num</span><span class="p">[</span><span class="n">atom</span><span class="o">.</span><span class="n">GetIdx</span><span class="p">()]</span> <span class="o">=</span> <span class="n">map_num</span>             
+        <span class="n">prod_num2id</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">prod_id2num</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">mol_prod</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+            <span class="n">map_num</span> <span class="o">=</span> <span class="n">atom</span><span class="o">.</span><span class="n">GetAtomMapNum</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">map_num</span><span class="p">:</span>
+                <span class="n">prod_num2id</span><span class="p">[</span><span class="n">map_num</span><span class="p">]</span> <span class="o">=</span> <span class="n">atom</span><span class="o">.</span><span class="n">GetIdx</span><span class="p">()</span>
+                <span class="n">prod_id2num</span><span class="p">[</span><span class="n">atom</span><span class="o">.</span><span class="n">GetIdx</span><span class="p">()]</span> <span class="o">=</span> <span class="n">map_num</span>
+        <span class="n">centers</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">mapped_centers</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">all_prod_bonds</span> <span class="o">=</span> <span class="n">mol_prod</span><span class="o">.</span><span class="n">GetBonds</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">bond_</span> <span class="ow">in</span> <span class="n">all_prod_bonds</span><span class="p">:</span>
+            <span class="n">type_</span> <span class="o">=</span> <span class="n">bond_</span><span class="o">.</span><span class="n">GetBondType</span><span class="p">()</span>
+            <span class="n">begin_id</span> <span class="o">=</span> <span class="n">bond_</span><span class="o">.</span><span class="n">GetBeginAtomIdx</span><span class="p">()</span>
+            <span class="n">end_id</span> <span class="o">=</span> <span class="n">bond_</span><span class="o">.</span><span class="n">GetEndAtomIdx</span><span class="p">()</span>
+            <span class="n">begin_num</span> <span class="o">=</span> <span class="n">prod_id2num</span><span class="p">[</span><span class="n">begin_id</span><span class="p">]</span>
+            <span class="n">end_num</span> <span class="o">=</span> <span class="n">prod_id2num</span><span class="p">[</span><span class="n">end_id</span><span class="p">]</span>
+            <span class="n">re_bond</span> <span class="o">=</span> <span class="n">mol_re</span><span class="o">.</span><span class="n">GetBondBetweenAtoms</span><span class="p">(</span><span class="n">re_num2id</span><span class="p">[</span><span class="n">begin_num</span><span class="p">],</span> <span class="n">re_num2id</span><span class="p">[</span><span class="n">end_num</span><span class="p">])</span>
+            <span class="k">if</span> <span class="n">re_bond</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">centers</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">begin_id</span><span class="p">,</span> <span class="n">end_id</span><span class="p">])</span>
+                <span class="n">mapped_centers</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">begin_num</span><span class="p">,</span> <span class="n">end_num</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">centers</span><span class="p">,</span> <span class="n">mapped_centers</span>
+
+    <span class="k">def</span> <span class="nf">preprocess</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">smiles_rxn_list</span><span class="p">))):</span>
+
+            <span class="n">mol_re</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">smiles_re_list</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">mol_prod</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">smiles_prod_list</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">centers</span><span class="p">,</span> <span class="n">mapped_centers</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_center</span><span class="p">(</span><span class="n">mol_re</span><span class="p">,</span> <span class="n">mol_prod</span><span class="p">)</span>        
+
+            <span class="c1">#if i &lt; 5:</span>
+            <span class="c1">#    print(i, mapped_centers, centers)</span>
+
+            <span class="n">mol</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Molecule</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mol_prod</span><span class="p">,</span> 
+                                            <span class="n">node_feature</span><span class="o">=</span><span class="s2">&quot;reaction_center_identification&quot;</span><span class="p">,</span>
+                                            <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="n">label</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">edge</span> <span class="ow">in</span> <span class="n">mol</span><span class="o">.</span><span class="n">edge_list</span><span class="p">:</span>
+                <span class="n">edge</span> <span class="o">=</span> <span class="n">edge</span><span class="o">.</span><span class="n">numpy</span><span class="p">()[:</span><span class="mi">2</span><span class="p">]</span>
+                <span class="n">flag</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">for</span> <span class="n">center</span> <span class="ow">in</span> <span class="n">centers</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">edge</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">edge</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">center</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> \
+                        <span class="ow">or</span> <span class="p">(</span><span class="n">edge</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">center</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">and</span> <span class="n">edge</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">center</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+                        <span class="n">flag</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="n">label</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">flag</span><span class="p">)</span>
+            
+            <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">            # using api provided by molecule class, but is too slow</span>
+<span class="sd">            mol_re = data.Molecule.from_smiles(self.smiles_re_list[i], </span>
+<span class="sd">                                            node_feature=&quot;reaction_center_identification&quot;,</span>
+<span class="sd">                                            **kwargs)</span>
+<span class="sd">            mol_prod = data.Molecule.from_smiles(self.smiles_prod_list[i], </span>
+<span class="sd">                                            node_feature=&quot;reaction_center_identification&quot;,</span>
+<span class="sd">                                            **kwargs)</span>
+
+<span class="sd">        </span>
+<span class="sd">            label = []</span>
+<span class="sd">            for edge in mol_prod.edge_list:</span>
+<span class="sd">                edge_prod = edge.numpy()[:2]</span>
+<span class="sd">                mapped_edge_prod = [mol_prod.id2num[_] for _ in edge_prod]</span>
+<span class="sd">                edge_re = [mol_re.num2id[_] for _ in mapped_edge_prod]</span>
+<span class="sd">                tmp = 0.</span>
+<span class="sd">                for j in range(mol_re.num_relation):</span>
+<span class="sd">                    tmp += float(mol_re.get_edge(edge_re + [j]))</span>
+<span class="sd">                if tmp == 0.:</span>
+<span class="sd">                    label.append(1)</span>
+<span class="sd">                    if i &lt; 5:</span>
+<span class="sd">                        print(i, mapped_edge_prod)</span>
+<span class="sd">                else:</span>
+<span class="sd">                    label.append(0)</span>
+<span class="sd">            &#39;&#39;&#39;</span>
+
+            <span class="k">with</span> <span class="n">mol</span><span class="o">.</span><span class="n">edge</span><span class="p">():</span>
+                <span class="n">mol</span><span class="o">.</span><span class="n">label</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>    
+
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">typed</span><span class="p">:</span>
+                <span class="k">with</span> <span class="n">mol</span><span class="o">.</span><span class="n">graph</span><span class="p">():</span>
+                    <span class="n">mol</span><span class="o">.</span><span class="n">reaction_type</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">features</span><span class="p">[</span><span class="s1">&#39;class&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">])</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
+
+
+    <span class="k">def</span> <span class="fm">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>        
+        <span class="n">item</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;graph&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="n">index</span><span class="p">]}</span>
+        <span class="c1">#item.update({k: v[index] for k, v in self.targets.items()})</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">transform</span><span class="p">:</span>
+            <span class="n">item</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">item</span>        
+
+    <span class="k">def</span> <span class="fm">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">node_feature_dim</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">node_feature</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">edge_feature_dim</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_atom_type</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">atom_types</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_bond_type</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_types</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">atom_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_atom_types&quot;</span><span class="p">):</span>
+            <span class="n">atom_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+                <span class="n">atom_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">atom_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_atom_types</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">atom_types</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_atom_types</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">bond_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_bond_types&quot;</span><span class="p">):</span>
+            <span class="n">bond_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+                <span class="n">bond_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">bond_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_bond_types</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">bond_types</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_bond_types</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MilaGraph Group
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
