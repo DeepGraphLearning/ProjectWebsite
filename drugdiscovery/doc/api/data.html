@@ -869,7 +869,8 @@ Otherwise, a sparse tensor of shape <span class="math notranslate nohighlight">\
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>csv_file</strong> (<em>str</em>) – file name</p></li>
-<li><p><strong>smiles_field</strong> (<em>str</em><em>, </em><em>optional</em>) – name of SMILES column in the table</p></li>
+<li><p><strong>smiles_field</strong> (<em>str</em><em>, </em><em>optional</em>) – name of SMILES column in the table.
+Use <code class="docutils literal notranslate"><span class="pre">None</span></code> if there is no SMILES column.</p></li>
 <li><p><strong>target_fields</strong> (<em>list of str</em><em>, </em><em>optional</em>) – name of target columns in the table.
 Default is all columns other than the SMILES column.</p></li>
 <li><p><strong>verbose</strong> (<em>int</em><em>, </em><em>optional</em>) – output verbose level</p></li>
@@ -1224,7 +1225,7 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.PackedGrap
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedGraph.unpack_data">
 <code class="sig-name descname">unpack_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">type</span><span class="o">=</span><span class="default_value">'auto'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.unpack_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.unpack_data" title="Permalink to this definition">¶</a></dt>
-<dd><p>(Deprecated) Unpack node or edge data according to the packed graph.</p>
+<dd><p>Unpack node or edge data according to the packed graph.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -1650,7 +1651,7 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.PackedMole
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.unpack_data">
 <code class="sig-name descname">unpack_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">type</span><span class="o">=</span><span class="default_value">'auto'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.unpack_data" title="Permalink to this definition">¶</a></dt>
-<dd><p>(Deprecated) Unpack node or edge data according to the packed graph.</p>
+<dd><p>Unpack node or edge data according to the packed graph.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">

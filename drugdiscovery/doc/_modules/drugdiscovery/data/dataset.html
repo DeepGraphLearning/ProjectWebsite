@@ -265,6 +265,12 @@
 <span class="sd">            verbose (int, optional): output verbose level</span>
 <span class="sd">            **kwargs</span>
 <span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">num_sample</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">target_list</span> <span class="ow">in</span> <span class="n">targets</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">target_list</span><span class="p">)</span> <span class="o">!=</span> <span class="n">num_sample</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Number of target `</span><span class="si">%s</span><span class="s2">` doesn&#39;t match with number of molecules. &quot;</span>
+                                 <span class="s2">&quot;Expect </span><span class="si">%d</span><span class="s2"> but found </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">field</span><span class="p">,</span> <span class="n">num_sample</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">target_list</span><span class="p">)))</span>
+
         <span class="bp">self</span><span class="o">.</span><span class="n">smiles_list</span> <span class="o">=</span> <span class="n">smiles_list</span>
         <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
             <span class="n">smiles_list</span> <span class="o">=</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">,</span> <span class="s2">&quot;Constructing molecules from SMILES&quot;</span><span class="p">)</span>
@@ -288,7 +294,8 @@
 
 <span class="sd">        Parameters:</span>
 <span class="sd">            csv_file (str): file name</span>
-<span class="sd">            smiles_field (str, optional): name of SMILES column in the table</span>
+<span class="sd">            smiles_field (str, optional): name of SMILES column in the table.</span>
+<span class="sd">                Use ``None`` if there is no SMILES column.</span>
 <span class="sd">            target_fields (list of str, optional): name of target columns in the table.</span>
 <span class="sd">                Default is all columns other than the SMILES column.</span>
 <span class="sd">            verbose (int, optional): output verbose level</span>
@@ -307,6 +314,8 @@
             <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">values</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">reader</span><span class="p">):</span>
                 <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
                     <span class="k">continue</span>
+                <span class="k">if</span> <span class="n">smiles_field</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                    <span class="n">smiles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
                 <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">fields</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
                     <span class="k">if</span> <span class="n">field</span> <span class="o">==</span> <span class="n">smiles_field</span><span class="p">:</span>
                         <span class="n">smiles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
@@ -371,7 +380,10 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_bond_types</span>
 
     <span class="k">def</span> <span class="fm">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span></div>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">(num_sample=</span><span class="si">%d</span><span class="s2">, num_task=</span><span class="si">%d</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tasks</span><span class="p">))</span></div>
 
 
 <span class="k">class</span> <span class="nc">GraphDataset</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
