@@ -87,7 +87,11 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../benchmark.html">Benchmarks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Benchmark</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark/generation.html">Graph Generation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -235,14 +239,16 @@
 
 <span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;features.atom.chirality&quot;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">atom_chirality</span><span class="p">(</span><span class="n">atom</span><span class="p">):</span>
-    <span class="n">atom_dype</span> <span class="o">=</span> <span class="p">[</span><span class="n">atom</span><span class="o">.</span><span class="n">GetAtomicNum</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="c1"># atomic number starts from 0</span>
+    <span class="c1"># &quot;*&quot; is a valid atomic symbol with atomic number 0</span>
+    <span class="n">atom_type</span> <span class="o">=</span> <span class="p">[</span><span class="n">atom</span><span class="o">.</span><span class="n">GetAtomicNum</span><span class="p">()]</span>
     <span class="n">chiral_type</span> <span class="o">=</span> <span class="p">[[</span>
         <span class="n">Chem</span><span class="o">.</span><span class="n">rdchem</span><span class="o">.</span><span class="n">ChiralType</span><span class="o">.</span><span class="n">CHI_UNSPECIFIED</span><span class="p">,</span>
         <span class="n">Chem</span><span class="o">.</span><span class="n">rdchem</span><span class="o">.</span><span class="n">ChiralType</span><span class="o">.</span><span class="n">CHI_TETRAHEDRAL_CW</span><span class="p">,</span>
         <span class="n">Chem</span><span class="o">.</span><span class="n">rdchem</span><span class="o">.</span><span class="n">ChiralType</span><span class="o">.</span><span class="n">CHI_TETRAHEDRAL_CCW</span><span class="p">,</span>
         <span class="n">Chem</span><span class="o">.</span><span class="n">rdchem</span><span class="o">.</span><span class="n">ChiralType</span><span class="o">.</span><span class="n">CHI_OTHER</span>
     <span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetChiralTag</span><span class="p">())]</span>
-    <span class="k">return</span> <span class="n">atom_dype</span> <span class="o">+</span> <span class="n">chiral_type</span>
+    <span class="k">return</span> <span class="n">atom_type</span> <span class="o">+</span> <span class="n">chiral_type</span>
 
 
 <div class="viewcode-block" id="atom_position"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.feature.atom_position">[docs]</a><span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;features.atom.position&quot;</span><span class="p">)</span>

@@ -89,7 +89,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../benchmark.html">Benchmarks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Benchmark</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -741,6 +744,20 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.Molecule.n
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p>rdchem.Mol</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="drugdiscovery.data.Molecule.to_scaffold">
+<code class="sig-name descname">to_scaffold</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">chirality</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.to_scaffold"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.to_scaffold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a scaffold SMILES string of this molecule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>chirality</strong> (<em>bool</em><em>, </em><em>optional</em>) – consider chirality in the scaffold or not</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str</p>
 </dd>
 </dl>
 </dd></dl>
@@ -1627,6 +1644,20 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.PackedMole
 </dd></dl>
 
 <dl class="py method">
+<dt id="drugdiscovery.data.PackedMolecule.to_scaffold">
+<code class="sig-name descname">to_scaffold</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">chirality</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_scaffold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a scaffold SMILES string of this molecule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>chirality</strong> (<em>bool</em><em>, </em><em>optional</em>) – consider chirality in the scaffold or not</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.to_smiles">
 <code class="sig-name descname">to_smiles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_smiles" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a SMILES string of this molecule.</p>
@@ -1786,6 +1817,21 @@ by <a class="reference internal" href="#drugdiscovery.data.Graph.pack" title="dr
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>batch</strong> (<em>list</em>) – list of samples with the same nested container</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.data.scaffold_split">
+<code class="sig-name descname">scaffold_split</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset</span></em>, <em class="sig-param"><span class="n">lengths</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/dataset.html#scaffold_split"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.scaffold_split" title="Permalink to this definition">¶</a></dt>
+<dd><p>Randomly split a dataset into new datasets with non-overlapping scaffolds.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dataset</strong> (<em>Dataset</em>) – dataset to split</p></li>
+<li><p><strong>lengths</strong> (<em>list of int</em>) – expected length for each split.
+Note the results may be different in length due to rounding.</p></li>
+</ul>
 </dd>
 </dl>
 </dd></dl>

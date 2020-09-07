@@ -89,7 +89,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../benchmark.html">Benchmarks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Benchmark</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -204,7 +207,7 @@ This is convenient for building models from configuration files.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.core.Engine">
-<em class="property">class </em><code class="sig-name descname">Engine</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">task</span></em>, <em class="sig-param"><span class="n">train_set</span></em>, <em class="sig-param"><span class="n">valid_set</span></em>, <em class="sig-param"><span class="n">test_set</span></em>, <em class="sig-param"><span class="n">optimizer</span></em>, <em class="sig-param"><span class="n">scheduler</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">gpus</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_size</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">log_interval</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">checkpoint_interval</span><span class="o">=</span><span class="default_value">1</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">Engine</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">task</span></em>, <em class="sig-param"><span class="n">train_set</span></em>, <em class="sig-param"><span class="n">valid_set</span></em>, <em class="sig-param"><span class="n">test_set</span></em>, <em class="sig-param"><span class="n">optimizer</span></em>, <em class="sig-param"><span class="n">scheduler</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">gpus</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_size</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">log_interval</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">checkpoint_interval</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">evaluate_interval</span><span class="o">=</span><span class="default_value">10</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine" title="Permalink to this definition">¶</a></dt>
 <dd><p>General class that handles everything about training and test of a task.</p>
 <p>This class performs synchronous distributed parallel training over multiple nodes and GPUs.
 To invoke with multiple GPUs,</p>
@@ -225,18 +228,36 @@ To invoke with multiple GPUs,</p>
 <li><p><strong>batch_size</strong> (<em>int</em><em>, </em><em>optional</em>) – batch size</p></li>
 <li><p><strong>log_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – log every n batches</p></li>
 <li><p><strong>checkpoint_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – checkpoint every n epochs</p></li>
+<li><p><strong>evaluate_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – evaluate valid/test set every n epochs</p></li>
 </ul>
 </dd>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.core.Engine.config_dict">
-<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.core.Engine.config_dict" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.core.Engine.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt id="drugdiscovery.core.Engine.evaluate">
 <code class="sig-name descname">evaluate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">split</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.evaluate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.evaluate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate the model.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>split</strong> (<em>str</em>) – split to evaluate. Can be <code class="docutils literal notranslate"><span class="pre">train</span></code>, <code class="docutils literal notranslate"><span class="pre">valid</span></code> or <code class="docutils literal notranslate"><span class="pre">test</span></code>.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>metrics</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="drugdiscovery.core.Engine.evaluate_g2g1">
+<code class="sig-name descname">evaluate_g2g1</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">split</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.evaluate_g2g1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.evaluate_g2g1" title="Permalink to this definition">¶</a></dt>
 <dd><p>Evaluate the model.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>

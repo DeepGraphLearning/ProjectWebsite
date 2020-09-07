@@ -14,7 +14,13 @@ as well as approachable and extensible building blocks.
 
    installation
    quick_start
-   benchmark
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Benchmark
+
+   benchmark/property_prediction
+   benchmark/generation
 
 .. toctree::
    :maxdepth: 2

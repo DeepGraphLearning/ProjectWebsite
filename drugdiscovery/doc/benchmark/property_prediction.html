@@ -1,0 +1,521 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Molecule Property Prediction &mdash; Drugdiscovery 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Graph Generation" href="generation.html" />
+    <link rel="prev" title="Quick Start" href="../quick_start.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Drugdiscovery
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Benchmark</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Molecule Property Prediction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#random-split">Random Split</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scaffold-split">Scaffold Split</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="generation.html">Graph Generation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../examples/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/generation.html">Molecule Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/retrosynthesis.html">Retrosynthesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/link_prediction.html">Link Prediction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes/graph.html">Graph Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/extension.html">Custom Extensions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Package Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../api/core.html">drugdiscovery.core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/data.html">drugdiscovery.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/datasets.html">drugdiscovery.datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/layers.html">drugdiscovery.layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/models.html">drugdiscovery.models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/tasks.html">drugdiscovery.tasks</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Drugdiscovery</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Molecule Property Prediction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/benchmark/property_prediction.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="molecule-property-prediction">
+<h1>Molecule Property Prediction<a class="headerlink" href="#molecule-property-prediction" title="Permalink to this headline">¶</a></h1>
+<p>This page contains benchmarks of models provided in Drugdiscovery.</p>
+<div class="section" id="random-split">
+<h2>Random Split<a class="headerlink" href="#random-split" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default" id="qm9-random">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 9%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" rowspan="2"><p><a class="reference external" href="https://pubs.acs.org/doi/pdfplus/10.1021/ci300415d">QM9</a></p></th>
+<th class="head" colspan="2"><p><a class="reference external" href="https://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints.pdf">NEF</a></p></th>
+<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">GCN</a></p></th>
+<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">ENN-S2S</a></p></th>
+<th class="head"><p><a class="reference external" href="https://aip.scitation.org/doi/pdf/10.1063/1.5019779">SchNet</a></p></th>
+<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">GIN</a></p></th>
+</tr>
+<tr class="row-even"><th class="head"><p>MAE</p></th>
+<th class="head"><p>R2</p></th>
+<th class="head"><p>MAE</p></th>
+<th class="head"><p>R2</p></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"><p>MAE</p></th>
+<th class="head"><p>R2</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-odd"><td><p>alpha</p></td>
+<td><p>0.655±0.043</p></td>
+<td><p>0.972±0.004</p></td>
+<td><p>1.865±0.981</p></td>
+<td><p>0.893±0.071</p></td>
+<td></td>
+<td></td>
+<td><p>1.289±0.164</p></td>
+<td><p>0.939±0.011</p></td>
+</tr>
+<tr class="row-even"><td><p>g298</p></td>
+<td><p>2.129±0.152</p></td>
+<td><p>0.978±0.004</p></td>
+<td><p>6.330±3.030</p></td>
+<td><p>0.935±0.027</p></td>
+<td></td>
+<td></td>
+<td><p>5.084±1.808</p></td>
+<td><p>0.947±0.019</p></td>
+</tr>
+<tr class="row-odd"><td><p>gap</p></td>
+<td><p>0.007±1e-4</p></td>
+<td><p>0.954±8e-4</p></td>
+<td><p>0.012±0.005</p></td>
+<td><p>0.894±0.068</p></td>
+<td></td>
+<td></td>
+<td><p>0.008±4e-4</p></td>
+<td><p>0.944±0.004</p></td>
+</tr>
+<tr class="row-even"><td><p>h298</p></td>
+<td><p>2.129±0.151</p></td>
+<td><p>0.978±0.004</p></td>
+<td><p>6.067±2.690</p></td>
+<td><p>0.938±0.023</p></td>
+<td></td>
+<td></td>
+<td><p>5.134±2.005</p></td>
+<td><p>0.946±0.021</p></td>
+</tr>
+<tr class="row-odd"><td><p>homo</p></td>
+<td><p>0.005±6e-5</p></td>
+<td><p>0.915±0.003</p></td>
+<td><p>0.006±0.001</p></td>
+<td><p>0.867±0.051</p></td>
+<td></td>
+<td></td>
+<td><p>0.006±9e-4</p></td>
+<td><p>0.871±0.031</p></td>
+</tr>
+<tr class="row-even"><td><p>lumo</p></td>
+<td><p>0.005±7e-5</p></td>
+<td><p>0.971±0.001</p></td>
+<td><p>0.010±0.004</p></td>
+<td><p>0.920±0.057</p></td>
+<td></td>
+<td></td>
+<td><p>0.007±0.001</p></td>
+<td><p>0.957±0.009</p></td>
+</tr>
+<tr class="row-odd"><td><p>mu</p></td>
+<td><p>0.564±0.004</p></td>
+<td><p>0.717±0.004</p></td>
+<td><p>0.629±0.084</p></td>
+<td><p>0.684±0.064</p></td>
+<td></td>
+<td></td>
+<td><p>0.598±0.032</p></td>
+<td><p>0.706±0.026</p></td>
+</tr>
+<tr class="row-even"><td><p>r2</p></td>
+<td><p>30.56±1.095</p></td>
+<td><p>0.967±0.003</p></td>
+<td><p>57.77±23.28</p></td>
+<td><p>0.915±0.045</p></td>
+<td></td>
+<td></td>
+<td><p>46.05±3.974</p></td>
+<td><p>0.941±0.010</p></td>
+</tr>
+<tr class="row-odd"><td><p>u0</p></td>
+<td><p>2.129±0.151</p></td>
+<td><p>0.978±0.004</p></td>
+<td><p>6.219±2.922</p></td>
+<td><p>0.936±0.025</p></td>
+<td></td>
+<td></td>
+<td><p>5.068±1.844</p></td>
+<td><p>0.947±0.020</p></td>
+</tr>
+<tr class="row-even"><td><p>u298</p></td>
+<td><p>2.129±0.152</p></td>
+<td><p>0.978±0.004</p></td>
+<td><p>6.127±2.729</p></td>
+<td><p>0.937±0.022</p></td>
+<td></td>
+<td></td>
+<td><p>5.106±1.884</p></td>
+<td><p>0.947±0.020</p></td>
+</tr>
+<tr class="row-odd"><td><p>zpve</p></td>
+<td><p>0.001±2e-4</p></td>
+<td><p>0.993±9e-4</p></td>
+<td><p>0.006±0.002</p></td>
+<td><p>0.954±0.022</p></td>
+<td></td>
+<td></td>
+<td><p>0.003±0.001</p></td>
+<td><p>0.978±0.008</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="scaffold-split">
+<h2>Scaffold Split<a class="headerlink" href="#scaffold-split" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default" id="qm9-scaffold">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 12%" />
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" rowspan="2"><p><a class="reference external" href="https://pubs.acs.org/doi/pdfplus/10.1021/ci300415d">QM9</a></p></th>
+<th class="head"><p><a class="reference external" href="https://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints.pdf">NEF</a></p></th>
+<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">GCN</a></p></th>
+<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">ENN-S2S</a></p></th>
+<th class="head"><p><a class="reference external" href="https://aip.scitation.org/doi/pdf/10.1063/1.5019779">SchNet</a></p></th>
+<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">GIN</a></p></th>
+</tr>
+<tr class="row-even"><th class="head"></th>
+<th class="head"><p>MAE</p></th>
+<th class="head"><p>R2</p></th>
+<th class="head"></th>
+<th class="head"></th>
+<th class="head"><p>MAE</p></th>
+<th class="head"><p>R2</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-odd"><td><p>alpha</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>1.829±0.999</p></td>
+<td><p>0.830±0.184</p></td>
+</tr>
+<tr class="row-even"><td><p>g298</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>7.833±4.196</p></td>
+<td><p>0.849±0.156</p></td>
+</tr>
+<tr class="row-odd"><td><p>gap</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>0.011±0.002</p></td>
+<td><p>0.891±0.048</p></td>
+</tr>
+<tr class="row-even"><td><p>h298</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>7.888±4.187</p></td>
+<td><p>0.848±0.157</p></td>
+</tr>
+<tr class="row-odd"><td><p>homo</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>0.007±4e-4</p></td>
+<td><p>0.799±0.038</p></td>
+</tr>
+<tr class="row-even"><td><p>lumo</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>0.009±0.002</p></td>
+<td><p>0.921±0.048</p></td>
+</tr>
+<tr class="row-odd"><td><p>mu</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>0.737±0.167</p></td>
+<td><p>0.567±0.149</p></td>
+</tr>
+<tr class="row-even"><td><p>r2</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>80.30±68.57</p></td>
+<td><p>0.752±0.284</p></td>
+</tr>
+<tr class="row-odd"><td><p>u0</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>7.951±4.235</p></td>
+<td><p>0.846±0.160</p></td>
+</tr>
+<tr class="row-even"><td><p>u298</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>7.929±4.147</p></td>
+<td><p>0.848±0.154</p></td>
+</tr>
+<tr class="row-odd"><td><p>zpve</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>0.004±0.002</p></td>
+<td><p>0.960±0.039</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generation.html" class="btn btn-neutral float-right" title="Graph Generation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../quick_start.html" class="btn btn-neutral float-left" title="Quick Start" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, MilaGraph Group
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

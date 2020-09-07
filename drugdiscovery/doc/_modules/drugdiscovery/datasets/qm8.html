@@ -87,7 +87,11 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../quick_start.html">Quick Start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../benchmark.html">Benchmarks</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Benchmark</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark/generation.html">Graph Generation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -175,6 +179,7 @@
             
   <h1>Source code for drugdiscovery.datasets.qm8</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">csv</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 
 <span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
@@ -208,8 +213,10 @@
 
     <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;http://deepchem.io.s3-website-us-west-1.amazonaws.com/datasets/gdb8.tar.gz&quot;</span>
     <span class="n">md5</span> <span class="o">=</span> <span class="s2">&quot;b7e2a2c823c75b35c596f3013319c86e&quot;</span>
-    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;E1-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;E2-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;E1-PBE0&quot;</span><span class="p">,</span> <span class="s2">&quot;E2-PBE0&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-PBE0&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-PBE0&quot;</span><span class="p">,</span> <span class="s2">&quot;E1-CAM&quot;</span><span class="p">,</span>
-                     <span class="s2">&quot;E2-CAM&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-CAM&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-CAM&quot;</span><span class="p">]</span>
+    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;E1-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;E2-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-CC2&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-CC2&quot;</span><span class="p">,</span>
+                     <span class="s2">&quot;E1-PBE0/def2SVP&quot;</span><span class="p">,</span> <span class="s2">&quot;E2-PBE0/def2SVP&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-PBE0/def2SVP&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-PBE0/def2SVP&quot;</span><span class="p">,</span>
+                     <span class="s2">&quot;E1-PBE0/def2TZVP&quot;</span><span class="p">,</span> <span class="s2">&quot;E2-PBE0/def2TZVP&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-PBE0/def2TZVP&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-PBE0/def2TZVP&quot;</span><span class="p">,</span>
+                     <span class="s2">&quot;E1-CAM&quot;</span><span class="p">,</span> <span class="s2">&quot;E2-CAM&quot;</span><span class="p">,</span> <span class="s2">&quot;f1-CAM&quot;</span><span class="p">,</span> <span class="s2">&quot;f2-CAM&quot;</span><span class="p">]</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">node_position</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
@@ -220,8 +227,20 @@
         <span class="n">zip_file</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">md5</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">md5</span><span class="p">)</span>
         <span class="n">sdf_file</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">zip_file</span><span class="p">,</span> <span class="s2">&quot;qm8.sdf&quot;</span><span class="p">)</span>
         <span class="n">csv_file</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">zip_file</span><span class="p">,</span> <span class="s2">&quot;qm8.sdf.csv&quot;</span><span class="p">)</span>
+        <span class="n">csv_file2</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;qm8.sdf.clean.csv&quot;</span><span class="p">)</span>
 
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">csv_file2</span><span class="p">):</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fin</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_file2</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fout</span><span class="p">:</span>
+                <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">fin</span><span class="p">)</span>
+                <span class="n">writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">fout</span><span class="p">)</span>
+                <span class="n">fields</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">reader</span><span class="p">)</span>
+                <span class="n">fields</span><span class="p">[</span><span class="mi">5</span><span class="p">:</span><span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">field</span> <span class="o">+</span> <span class="s2">&quot;/def2SVP&quot;</span> <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">fields</span><span class="p">[</span><span class="mi">5</span><span class="p">:</span><span class="mi">9</span><span class="p">]]</span>
+                <span class="n">fields</span><span class="p">[</span><span class="mi">9</span><span class="p">:</span><span class="mi">13</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">field</span> <span class="o">+</span> <span class="s2">&quot;/def2TZVP&quot;</span> <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">fields</span><span class="p">[</span><span class="mi">9</span><span class="p">:</span><span class="mi">13</span><span class="p">]]</span>
+                <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">fields</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">values</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
+                    <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">csv_file2</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
 
         <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">no_rdkit_log</span><span class="p">():</span>
             <span class="n">molecules</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">SDMolSupplier</span><span class="p">(</span><span class="n">sdf_file</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
@@ -229,6 +248,7 @@
         <span class="n">targets</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">targets</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">targets</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+        <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">molecules</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">targets</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span>
         <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
             <span class="n">molecules</span> <span class="o">=</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">molecules</span><span class="p">,</span> <span class="s2">&quot;Constructing molecules from SDF&quot;</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">mol</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">molecules</span><span class="p">):</span>
