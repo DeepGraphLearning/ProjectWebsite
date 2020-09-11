@@ -93,8 +93,24 @@
 <p class="caption"><span class="caption-text">Benchmark</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Molecule Property Prediction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#random-split">Random Split</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#scaffold-split">Scaffold Split</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#random-split">Random Split</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">QM8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">QM9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sider">SIDER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tox21">Tox21</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#toxcast">ToxCast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#malaria">Malaria</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#scaffold-split">Scaffold Split</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">QM8</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">QM9</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">SIDER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Tox21</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">ToxCast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Malaria</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="generation.html">Graph Generation</a></li>
@@ -187,285 +203,103 @@
             
   <div class="section" id="molecule-property-prediction">
 <h1>Molecule Property Prediction<a class="headerlink" href="#molecule-property-prediction" title="Permalink to this headline">¶</a></h1>
-<p>This page contains benchmarks of models provided in Drugdiscovery.</p>
+<p>This page contains benchmarks of popular property prediction models.</p>
+<p>We consider both vanilla random split and scaffold-based random split for molecule
+data. The split for train/validation/test sets is 80%:10%:10%. For each model, we
+evaluate it with 5 random splits and report the mean and the deviation of the
+performance.</p>
+<p>For datasets containing a lot of tasks, only the first 16 tasks are showed here due
+to space limitations.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#random-split" id="id9">Random Split</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id1" id="id10">QM8</a></p></li>
+<li><p><a class="reference internal" href="#id2" id="id11">QM9</a></p></li>
+<li><p><a class="reference internal" href="#sider" id="id12">SIDER</a></p></li>
+<li><p><a class="reference internal" href="#tox21" id="id13">Tox21</a></p></li>
+<li><p><a class="reference internal" href="#toxcast" id="id14">ToxCast</a></p></li>
+<li><p><a class="reference internal" href="#malaria" id="id15">Malaria</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#scaffold-split" id="id16">Scaffold Split</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id3" id="id17">QM8</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id18">QM9</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id19">SIDER</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id20">Tox21</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id21">ToxCast</a></p></li>
+<li><p><a class="reference internal" href="#id8" id="id22">Malaria</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="section" id="random-split">
-<h2>Random Split<a class="headerlink" href="#random-split" title="Permalink to this headline">¶</a></h2>
-<table class="docutils align-default" id="qm9-random">
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-<col style="width: 9%" />
-<col style="width: 11%" />
-<col style="width: 11%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head" rowspan="2"><p><a class="reference external" href="https://pubs.acs.org/doi/pdfplus/10.1021/ci300415d">QM9</a></p></th>
-<th class="head" colspan="2"><p><a class="reference external" href="https://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints.pdf">NEF</a></p></th>
-<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">GCN</a></p></th>
-<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">ENN-S2S</a></p></th>
-<th class="head"><p><a class="reference external" href="https://aip.scitation.org/doi/pdf/10.1063/1.5019779">SchNet</a></p></th>
-<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">GIN</a></p></th>
-</tr>
-<tr class="row-even"><th class="head"><p>MAE</p></th>
-<th class="head"><p>R2</p></th>
-<th class="head"><p>MAE</p></th>
-<th class="head"><p>R2</p></th>
-<th class="head"></th>
-<th class="head"></th>
-<th class="head"><p>MAE</p></th>
-<th class="head"><p>R2</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-odd"><td><p>alpha</p></td>
-<td><p>0.655±0.043</p></td>
-<td><p>0.972±0.004</p></td>
-<td><p>1.865±0.981</p></td>
-<td><p>0.893±0.071</p></td>
-<td></td>
-<td></td>
-<td><p>1.289±0.164</p></td>
-<td><p>0.939±0.011</p></td>
-</tr>
-<tr class="row-even"><td><p>g298</p></td>
-<td><p>2.129±0.152</p></td>
-<td><p>0.978±0.004</p></td>
-<td><p>6.330±3.030</p></td>
-<td><p>0.935±0.027</p></td>
-<td></td>
-<td></td>
-<td><p>5.084±1.808</p></td>
-<td><p>0.947±0.019</p></td>
-</tr>
-<tr class="row-odd"><td><p>gap</p></td>
-<td><p>0.007±1e-4</p></td>
-<td><p>0.954±8e-4</p></td>
-<td><p>0.012±0.005</p></td>
-<td><p>0.894±0.068</p></td>
-<td></td>
-<td></td>
-<td><p>0.008±4e-4</p></td>
-<td><p>0.944±0.004</p></td>
-</tr>
-<tr class="row-even"><td><p>h298</p></td>
-<td><p>2.129±0.151</p></td>
-<td><p>0.978±0.004</p></td>
-<td><p>6.067±2.690</p></td>
-<td><p>0.938±0.023</p></td>
-<td></td>
-<td></td>
-<td><p>5.134±2.005</p></td>
-<td><p>0.946±0.021</p></td>
-</tr>
-<tr class="row-odd"><td><p>homo</p></td>
-<td><p>0.005±6e-5</p></td>
-<td><p>0.915±0.003</p></td>
-<td><p>0.006±0.001</p></td>
-<td><p>0.867±0.051</p></td>
-<td></td>
-<td></td>
-<td><p>0.006±9e-4</p></td>
-<td><p>0.871±0.031</p></td>
-</tr>
-<tr class="row-even"><td><p>lumo</p></td>
-<td><p>0.005±7e-5</p></td>
-<td><p>0.971±0.001</p></td>
-<td><p>0.010±0.004</p></td>
-<td><p>0.920±0.057</p></td>
-<td></td>
-<td></td>
-<td><p>0.007±0.001</p></td>
-<td><p>0.957±0.009</p></td>
-</tr>
-<tr class="row-odd"><td><p>mu</p></td>
-<td><p>0.564±0.004</p></td>
-<td><p>0.717±0.004</p></td>
-<td><p>0.629±0.084</p></td>
-<td><p>0.684±0.064</p></td>
-<td></td>
-<td></td>
-<td><p>0.598±0.032</p></td>
-<td><p>0.706±0.026</p></td>
-</tr>
-<tr class="row-even"><td><p>r2</p></td>
-<td><p>30.56±1.095</p></td>
-<td><p>0.967±0.003</p></td>
-<td><p>57.77±23.28</p></td>
-<td><p>0.915±0.045</p></td>
-<td></td>
-<td></td>
-<td><p>46.05±3.974</p></td>
-<td><p>0.941±0.010</p></td>
-</tr>
-<tr class="row-odd"><td><p>u0</p></td>
-<td><p>2.129±0.151</p></td>
-<td><p>0.978±0.004</p></td>
-<td><p>6.219±2.922</p></td>
-<td><p>0.936±0.025</p></td>
-<td></td>
-<td></td>
-<td><p>5.068±1.844</p></td>
-<td><p>0.947±0.020</p></td>
-</tr>
-<tr class="row-even"><td><p>u298</p></td>
-<td><p>2.129±0.152</p></td>
-<td><p>0.978±0.004</p></td>
-<td><p>6.127±2.729</p></td>
-<td><p>0.937±0.022</p></td>
-<td></td>
-<td></td>
-<td><p>5.106±1.884</p></td>
-<td><p>0.947±0.020</p></td>
-</tr>
-<tr class="row-odd"><td><p>zpve</p></td>
-<td><p>0.001±2e-4</p></td>
-<td><p>0.993±9e-4</p></td>
-<td><p>0.006±0.002</p></td>
-<td><p>0.954±0.022</p></td>
-<td></td>
-<td></td>
-<td><p>0.003±0.001</p></td>
-<td><p>0.978±0.008</p></td>
-</tr>
-</tbody>
-</table>
+<h2><a class="toc-backref" href="#id9">Random Split</a><a class="headerlink" href="#random-split" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3><a class="toc-backref" href="#id10">QM8</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/qm8_mae.png" src="../_images/qm8_mae.png" />
+<img alt="../_images/qm8_r2.png" src="../_images/qm8_r2.png" />
+</div>
+<div class="section" id="id2">
+<h3><a class="toc-backref" href="#id11">QM9</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/qm9_mae.png" src="../_images/qm9_mae.png" />
+<img alt="../_images/qm9_r2.png" src="../_images/qm9_r2.png" />
+</div>
+<div class="section" id="sider">
+<h3><a class="toc-backref" href="#id12">SIDER</a><a class="headerlink" href="#sider" title="Permalink to this headline">¶</a></h3>
+<p>Only 16 tasks are showed here due to space limitations.</p>
+<img alt="../_images/sider_auroc.png" src="../_images/sider_auroc.png" />
+<img alt="../_images/sider_auprc.png" src="../_images/sider_auprc.png" />
+</div>
+<div class="section" id="tox21">
+<h3><a class="toc-backref" href="#id13">Tox21</a><a class="headerlink" href="#tox21" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/tox21_auroc.png" src="../_images/tox21_auroc.png" />
+<img alt="../_images/tox21_auprc.png" src="../_images/tox21_auprc.png" />
+</div>
+<div class="section" id="toxcast">
+<h3><a class="toc-backref" href="#id14">ToxCast</a><a class="headerlink" href="#toxcast" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/toxcast_auroc.png" src="../_images/toxcast_auroc.png" />
+<img alt="../_images/toxcast_auprc.png" src="../_images/toxcast_auprc.png" />
+</div>
+<div class="section" id="malaria">
+<h3><a class="toc-backref" href="#id15">Malaria</a><a class="headerlink" href="#malaria" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/malaria_auroc.png" src="../_images/malaria_auroc.png" />
+<img alt="../_images/malaria_auprc.png" src="../_images/malaria_auprc.png" />
+</div>
 </div>
 <div class="section" id="scaffold-split">
-<h2>Scaffold Split<a class="headerlink" href="#scaffold-split" title="Permalink to this headline">¶</a></h2>
-<table class="docutils align-default" id="qm9-scaffold">
-<colgroup>
-<col style="width: 14%" />
-<col style="width: 8%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-<col style="width: 12%" />
-<col style="width: 11%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head" rowspan="2"><p><a class="reference external" href="https://pubs.acs.org/doi/pdfplus/10.1021/ci300415d">QM9</a></p></th>
-<th class="head"><p><a class="reference external" href="https://papers.nips.cc/paper/5954-convolutional-networks-on-graphs-for-learning-molecular-fingerprints.pdf">NEF</a></p></th>
-<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">GCN</a></p></th>
-<th class="head"><p><a class="reference external" href="https://arxiv.org/pdf/1704.01212.pdf">ENN-S2S</a></p></th>
-<th class="head"><p><a class="reference external" href="https://aip.scitation.org/doi/pdf/10.1063/1.5019779">SchNet</a></p></th>
-<th class="head" colspan="2"><p><a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">GIN</a></p></th>
-</tr>
-<tr class="row-even"><th class="head"></th>
-<th class="head"><p>MAE</p></th>
-<th class="head"><p>R2</p></th>
-<th class="head"></th>
-<th class="head"></th>
-<th class="head"><p>MAE</p></th>
-<th class="head"><p>R2</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-odd"><td><p>alpha</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>1.829±0.999</p></td>
-<td><p>0.830±0.184</p></td>
-</tr>
-<tr class="row-even"><td><p>g298</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>7.833±4.196</p></td>
-<td><p>0.849±0.156</p></td>
-</tr>
-<tr class="row-odd"><td><p>gap</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>0.011±0.002</p></td>
-<td><p>0.891±0.048</p></td>
-</tr>
-<tr class="row-even"><td><p>h298</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>7.888±4.187</p></td>
-<td><p>0.848±0.157</p></td>
-</tr>
-<tr class="row-odd"><td><p>homo</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>0.007±4e-4</p></td>
-<td><p>0.799±0.038</p></td>
-</tr>
-<tr class="row-even"><td><p>lumo</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>0.009±0.002</p></td>
-<td><p>0.921±0.048</p></td>
-</tr>
-<tr class="row-odd"><td><p>mu</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>0.737±0.167</p></td>
-<td><p>0.567±0.149</p></td>
-</tr>
-<tr class="row-even"><td><p>r2</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>80.30±68.57</p></td>
-<td><p>0.752±0.284</p></td>
-</tr>
-<tr class="row-odd"><td><p>u0</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>7.951±4.235</p></td>
-<td><p>0.846±0.160</p></td>
-</tr>
-<tr class="row-even"><td><p>u298</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>7.929±4.147</p></td>
-<td><p>0.848±0.154</p></td>
-</tr>
-<tr class="row-odd"><td><p>zpve</p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><p>0.004±0.002</p></td>
-<td><p>0.960±0.039</p></td>
-</tr>
-</tbody>
-</table>
+<h2><a class="toc-backref" href="#id16">Scaffold Split</a><a class="headerlink" href="#scaffold-split" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="#id17">QM8</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/qm8_scaffold_mae.png" src="../_images/qm8_scaffold_mae.png" />
+<img alt="../_images/qm8_scaffold_r2.png" src="../_images/qm8_scaffold_r2.png" />
+</div>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="#id18">QM9</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/qm9_scaffold_mae.png" src="../_images/qm9_scaffold_mae.png" />
+<img alt="../_images/qm9_scaffold_r2.png" src="../_images/qm9_scaffold_r2.png" />
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id19">SIDER</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/sider_scaffold_auroc.png" src="../_images/sider_scaffold_auroc.png" />
+<img alt="../_images/sider_scaffold_auprc.png" src="../_images/sider_scaffold_auprc.png" />
+</div>
+<div class="section" id="id6">
+<h3><a class="toc-backref" href="#id20">Tox21</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/tox21_scaffold_auroc.png" src="../_images/tox21_scaffold_auroc.png" />
+<img alt="../_images/tox21_scaffold_auprc.png" src="../_images/tox21_scaffold_auprc.png" />
+</div>
+<div class="section" id="id7">
+<h3><a class="toc-backref" href="#id21">ToxCast</a><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/toxcast_scaffold_auroc.png" src="../_images/toxcast_scaffold_auroc.png" />
+<img alt="../_images/toxcast_scaffold_auprc.png" src="../_images/toxcast_scaffold_auprc.png" />
+</div>
+<div class="section" id="id8">
+<h3><a class="toc-backref" href="#id22">Malaria</a><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/malaria_scaffold_auroc.png" src="../_images/malaria_scaffold_auroc.png" />
+<img alt="../_images/malaria_scaffold_auprc.png" src="../_images/malaria_scaffold_auprc.png" />
+</div>
 </div>
 </div>
 
