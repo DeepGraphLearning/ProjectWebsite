@@ -178,7 +178,8 @@
            <div itemprop="articleBody">
             
   <h1>Source code for drugdiscovery.core.engine</h1><div class="highlight"><pre>
-<span></span><span class="kn">import</span> <span class="nn">logging</span>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">logging</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 
 <span class="kn">import</span> <span class="nn">torch</span>
@@ -225,7 +226,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">,</span> <span class="n">train_set</span><span class="p">,</span> <span class="n">valid_set</span><span class="p">,</span> <span class="n">test_set</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">scheduler</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">gpus</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
-                 <span class="n">log_interval</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">checkpoint_interval</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">evaluate_interval</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
+                 <span class="n">log_interval</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">checkpoint_interval</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">evaluate_interval</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">save_path</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">task</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">train_set</span> <span class="o">=</span> <span class="n">train_set</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">valid_set</span> <span class="o">=</span> <span class="n">valid_set</span>
@@ -233,10 +234,10 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">optimizer</span> <span class="o">=</span> <span class="n">optimizer</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span> <span class="o">=</span> <span class="n">scheduler</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">evaluate_interval</span> <span class="o">=</span> <span class="n">evaluate_interval</span>
-
-        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="s2">&quot;preprocess&quot;</span><span class="p">):</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Preprocess training set&quot;</span><span class="p">)</span>
-            <span class="n">task</span><span class="o">.</span><span class="n">preprocess</span><span class="p">(</span><span class="n">train_set</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">save_path</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_path</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">save_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">save_path</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
 
         <span class="bp">self</span><span class="o">.</span><span class="n">rank</span> <span class="o">=</span> <span class="n">comm</span><span class="o">.</span><span class="n">get_rank</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">world_size</span> <span class="o">=</span> <span class="n">comm</span><span class="o">.</span><span class="n">get_world_size</span><span class="p">()</span>
@@ -256,11 +257,14 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">checkpoint_interval</span> <span class="o">=</span> <span class="n">checkpoint_interval</span>
 
         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">world_size</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">dist</span><span class="o">.</span><span class="n">is_initialized</span><span class="p">():</span>
-            <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Initializing distributed process group&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">rank</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Initializing distributed process group&quot;</span><span class="p">)</span>
             <span class="n">dist</span><span class="o">.</span><span class="n">init_process_group</span><span class="p">(</span><span class="s2">&quot;nccl&quot;</span><span class="p">,</span> <span class="n">init_method</span><span class="o">=</span><span class="s2">&quot;env://&quot;</span><span class="p">)</span>
 
-        <span class="c1"># for key in [&quot;task&quot;, &quot;train_set&quot;, &quot;valid_set&quot;, &quot;test_set&quot;]:</span>
-        <span class="c1">#     self.config.pop(key)</span>
+        <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="s2">&quot;preprocess&quot;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">rank</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">logger</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Preprocess training set&quot;</span><span class="p">)</span>
+            <span class="n">task</span><span class="o">.</span><span class="n">preprocess</span><span class="p">(</span><span class="n">train_set</span><span class="p">)</span>
 
 <div class="viewcode-block" id="Engine.train"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core.Engine.train">[docs]</a>    <span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num_epoch</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
@@ -300,7 +304,10 @@
                 <span class="c1">#TODO: set evaluation func dict.</span>
                 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;***evaluating valid set at the end of epoch </span><span class="si">%d</span><span class="s1">***&#39;</span> <span class="o">%</span> <span class="n">epoch</span><span class="p">)</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">evaluate_g2g1</span><span class="p">(</span><span class="s2">&quot;valid&quot;</span><span class="p">)</span>
-
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">save_path</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">save_path</span><span class="p">):</span>
+                    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">save_path</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">save_path</span><span class="p">,</span> <span class="s1">&#39;checkpoint</span><span class="si">%s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">epoch</span><span class="p">))</span>
             <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">scheduler</span><span class="o">.</span><span class="n">step</span><span class="p">()</span></div>
 
@@ -342,7 +349,7 @@
         <span class="k">return</span> <span class="n">metric</span></div>
 
 <div class="viewcode-block" id="Engine.evaluate_g2g1"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core.Engine.evaluate_g2g1">[docs]</a>    <span class="nd">@torch</span><span class="o">.</span><span class="n">no_grad</span><span class="p">()</span>
-    <span class="k">def</span> <span class="nf">evaluate_g2g1</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">split</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">evaluate_g2g1</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">split</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mf">0.5</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Evaluate the model.</span>
 
@@ -363,7 +370,7 @@
             <span class="n">batch</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">cuda</span><span class="p">(</span><span class="n">batch</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
             <span class="n">pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
 
-            <span class="n">_</span><span class="p">,</span> <span class="n">acc_vector</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;graph&quot;</span><span class="p">],</span> <span class="n">threshold</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+            <span class="n">_</span><span class="p">,</span> <span class="n">acc_vector</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;graph&quot;</span><span class="p">],</span> <span class="n">threshold</span><span class="o">=</span><span class="n">threshold</span><span class="p">)</span>
             <span class="n">acc_vectors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">acc_vector</span><span class="p">)</span>
 
         <span class="n">acc_vector</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">(</span><span class="n">acc_vectors</span><span class="p">)</span>

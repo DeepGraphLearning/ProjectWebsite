@@ -335,7 +335,7 @@ registered hooks while the latter silently ignores them.</p>
 <span id="layers-conv"></span><h2>layers.conv<a class="headerlink" href="#module-drugdiscovery.layers.conv" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.ContinuousFilterConv">
-<em class="property">class </em><code class="sig-name descname">ContinuousFilterConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">hidden_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">cutoff</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">num_gaussian</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'shifted_softplus'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ContinuousFilterConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ContinuousFilterConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">ContinuousFilterConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">hidden_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">cutoff</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">num_gaussian</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'shifted_softplus'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ContinuousFilterConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ContinuousFilterConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Continuous filter operator from
 <a class="reference external" href="https://arxiv.org/pdf/1706.08566.pdf">SchNet: A continuous-filter convolutional neural network for modeling quantum interactions</a>.</p>
 <dl class="field-list simple">
@@ -343,6 +343,7 @@ registered hooks while the latter silently ignores them.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
 <li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
 <li><p><strong>hidden_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – hidden dimension. By default, same as <code class="xref py py-attr docutils literal notranslate"><span class="pre">output_dim</span></code></p></li>
 <li><p><strong>cutoff</strong> (<em>float</em><em>, </em><em>optional</em>) – maximal scale for RBF kernels</p></li>
 <li><p><strong>num_gaussian</strong> (<em>int</em><em>, </em><em>optional</em>) – number of RBF kernels</p></li>
@@ -355,13 +356,14 @@ registered hooks while the latter silently ignores them.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.GraphAttentionConv">
-<em class="property">class </em><code class="sig-name descname">GraphAttentionConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">num_head</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">negative_slope</span><span class="o">=</span><span class="default_value">0.2</span></em>, <em class="sig-param"><span class="n">concat</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphAttentionConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphAttentionConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">GraphAttentionConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">num_head</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">negative_slope</span><span class="o">=</span><span class="default_value">0.2</span></em>, <em class="sig-param"><span class="n">concat</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphAttentionConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphAttentionConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph attentional convolution operator from <a class="reference external" href="https://arxiv.org/pdf/1710.10903.pdf">Graph Attention Networks</a>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
 <li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
 <li><p><strong>num_head</strong> (<em>int</em><em>, </em><em>optional</em>) – number of attention heads</p></li>
 <li><p><strong>negative_slope</strong> (<em>float</em><em>, </em><em>optional</em>) – negative slope of leaky relu activation</p></li>
 <li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
@@ -373,13 +375,14 @@ registered hooks while the latter silently ignores them.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.GraphConv">
-<em class="property">class </em><code class="sig-name descname">GraphConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">GraphConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph convolution operator from <a class="reference external" href="https://arxiv.org/pdf/1609.02907.pdf">Semi-Supervised Classification with Graph Convolutional Networks</a>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
 <li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
 <li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
 <li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
@@ -389,13 +392,14 @@ registered hooks while the latter silently ignores them.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.GraphIsomorphismConv">
-<em class="property">class </em><code class="sig-name descname">GraphIsomorphismConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">hidden_dims</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">eps</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">learn_eps</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphIsomorphismConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphIsomorphismConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">GraphIsomorphismConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">hidden_dims</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">eps</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">learn_eps</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#GraphIsomorphismConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.GraphIsomorphismConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph isomorphism convolution operator from <a class="reference external" href="https://arxiv.org/pdf/1810.00826.pdf">How Powerful are Graph Neural Networks?</a>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
 <li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
 <li><p><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dimensions</p></li>
 <li><p><strong>eps</strong> (<em>float</em><em>, </em><em>optional</em>) – initial epsilon</p></li>
 <li><p><strong>learn_eps</strong> (<em>bool</em><em>, </em><em>optional</em>) – learn epsilon or not</p></li>
@@ -415,7 +419,7 @@ registered hooks while the latter silently ignores them.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
-<li><p><strong>edge_input_dim</strong> (<em>int</em>) – edge input dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em>) – dimension of edge features</p></li>
 <li><p><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dims of edge network</p></li>
 <li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
 <li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
@@ -447,7 +451,7 @@ registered hooks while the latter silently ignores them.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.NeuralFingerprintConv">
-<em class="property">class </em><code class="sig-name descname">NeuralFingerprintConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#NeuralFingerprintConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.NeuralFingerprintConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">NeuralFingerprintConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#NeuralFingerprintConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.NeuralFingerprintConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Graph neural network operator from <a class="reference external" href="https://arxiv.org/pdf/1509.09292.pdf">Convolutional Networks on Graphs for Learning Molecular Fingerprints</a>.</p>
 <p>Note this operator doesn’t include the sparsifying step of the original paper.</p>
 <dl class="field-list simple">
@@ -455,6 +459,7 @@ registered hooks while the latter silently ignores them.</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
 <li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
 <li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
 <li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>
@@ -464,7 +469,7 @@ registered hooks while the latter silently ignores them.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.RelationalGraphConv">
-<em class="property">class </em><code class="sig-name descname">RelationalGraphConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">num_relation</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#RelationalGraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.RelationalGraphConv" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">RelationalGraphConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">num_relation</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#RelationalGraphConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.RelationalGraphConv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Relational graph convolution operator from <a class="reference external" href="https://arxiv.org/pdf/1703.06103.pdf">Modeling Relational Data with Graph Convolutional Networks?</a>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -472,6 +477,7 @@ registered hooks while the latter silently ignores them.</p>
 <li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
 <li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
 <li><p><strong>num_relation</strong> (<em>int</em>) – number of relations</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
 <li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
 <li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
 </ul>

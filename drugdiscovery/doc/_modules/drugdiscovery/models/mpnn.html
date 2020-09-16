@@ -197,8 +197,8 @@
 
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
-<span class="sd">        edge_input_dim (int): edge input dimension</span>
 <span class="sd">        hidden_dim (int): hidden dimension</span>
+<span class="sd">        edge_input_dim (int): dimension of edge features</span>
 <span class="sd">        num_layer (int, optional): number of hidden layers</span>
 <span class="sd">        num_gru_layer (int, optional): number of GRU layers in each node update</span>
 <span class="sd">        num_mlp_layer (int, optional): number of MLP layers in each message function</span>
@@ -209,7 +209,7 @@
 <span class="sd">        concat_hidden (bool, optional): concat hidden representations from all layers as output</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">num_layer</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_gru_layer</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_mlp_layer</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">num_layer</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_gru_layer</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">num_mlp_layer</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
                  <span class="n">num_s2s_step</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">short_cut</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">,</span> <span class="n">concat_hidden</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">MessagePassingNeuralNetwork</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
 

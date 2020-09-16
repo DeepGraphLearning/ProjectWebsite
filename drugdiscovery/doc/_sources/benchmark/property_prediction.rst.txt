@@ -19,22 +19,68 @@ to space limitations.
 Random Split
 ------------
 
-QM8
-^^^
-
-.. image:: ../../../asset/benchmark/qm8_mae.png
-.. image:: ../../../asset/benchmark/qm8_r2.png
-
 QM9
 ^^^
 
 .. image:: ../../../asset/benchmark/qm9_mae.png
 .. image:: ../../../asset/benchmark/qm9_r2.png
 
+QM8
+^^^
+
+.. image:: ../../../asset/benchmark/qm8_mae.png
+.. image:: ../../../asset/benchmark/qm8_r2.png
+
+BACE
+^^^^
+
+.. image:: ../../../asset/benchmark/bace_auroc.png
+.. image:: ../../../asset/benchmark/bace_auprc.png
+
+BBBP
+^^^^
+
+.. image:: ../../../asset/benchmark/bbbp_auroc.png
+.. image:: ../../../asset/benchmark/bbbp_auprc.png
+
+CEP
+^^^
+
+.. image:: ../../../asset/benchmark/cep_mae.png
+.. image:: ../../../asset/benchmark/cep_r2.png
+
+HIV
+^^^
+
+.. image:: ../../../asset/benchmark/hiv_auroc.png
+.. image:: ../../../asset/benchmark/hiv_auprc.png
+
+ClinTox
+^^^^^^^
+
+.. image:: ../../../asset/benchmark/clintox_auroc.png
+.. image:: ../../../asset/benchmark/clintox_auprc.png
+
+ESOL
+^^^^
+
+.. image:: ../../../asset/benchmark/esol_mae.png
+.. image:: ../../../asset/benchmark/esol_r2.png
+
+FreeSolv
+^^^^^^^^
+
+.. image:: ../../../asset/benchmark/freesolv_mae.png
+.. image:: ../../../asset/benchmark/freesolv_r2.png
+
+Lipophilicity
+^^^^^^^^^^^^^
+
+.. image:: ../../../asset/benchmark/lipophilicity_mae.png
+.. image:: ../../../asset/benchmark/lipophilicity_r2.png
+
 SIDER
 ^^^^^
-
-Only 16 tasks are showed here due to space limitations.
 
 .. image:: ../../../asset/benchmark/sider_auroc.png
 .. image:: ../../../asset/benchmark/sider_auprc.png
@@ -51,14 +97,27 @@ ToxCast
 .. image:: ../../../asset/benchmark/toxcast_auroc.png
 .. image:: ../../../asset/benchmark/toxcast_auprc.png
 
+MUV
+^^^
+
+.. image:: ../../../asset/benchmark/muv_auroc.png
+.. image:: ../../../asset/benchmark/muv_auprc.png
+
+
 Malaria
 ^^^^^^^
 
-.. image:: ../../../asset/benchmark/malaria_auroc.png
-.. image:: ../../../asset/benchmark/malaria_auprc.png
+.. image:: ../../../asset/benchmark/malaria_mae.png
+.. image:: ../../../asset/benchmark/malaria_r2.png
 
 Scaffold Split
 --------------
+
+QM9
+^^^
+
+.. image:: ../../../asset/benchmark/qm9_scaffold_mae.png
+.. image:: ../../../asset/benchmark/qm9_scaffold_r2.png
 
 QM8
 ^^^
@@ -66,11 +125,53 @@ QM8
 .. image:: ../../../asset/benchmark/qm8_scaffold_mae.png
 .. image:: ../../../asset/benchmark/qm8_scaffold_r2.png
 
-QM9
+BACE
+^^^^
+
+.. image:: ../../../asset/benchmark/bace_scaffold_auroc.png
+.. image:: ../../../asset/benchmark/bace_scaffold_auprc.png
+
+BBBP
+^^^^
+
+.. image:: ../../../asset/benchmark/bbbp_scaffold_auroc.png
+.. image:: ../../../asset/benchmark/bbbp_scaffold_auprc.png
+
+CEP
 ^^^
 
-.. image:: ../../../asset/benchmark/qm9_scaffold_mae.png
-.. image:: ../../../asset/benchmark/qm9_scaffold_r2.png
+.. image:: ../../../asset/benchmark/cep_scaffold_mae.png
+.. image:: ../../../asset/benchmark/cep_scaffold_r2.png
+
+HIV
+^^^
+
+.. image:: ../../../asset/benchmark/hiv_scaffold_auroc.png
+.. image:: ../../../asset/benchmark/hiv_scaffold_auprc.png
+
+ClinTox
+^^^^^^^
+
+.. image:: ../../../asset/benchmark/clintox_scaffold_auroc.png
+.. image:: ../../../asset/benchmark/clintox_scaffold_auprc.png
+
+ESOL
+^^^^
+
+.. image:: ../../../asset/benchmark/esol_scaffold_mae.png
+.. image:: ../../../asset/benchmark/esol_scaffold_r2.png
+
+FreeSolv
+^^^^^^^^
+
+.. image:: ../../../asset/benchmark/freesolv_scaffold_mae.png
+.. image:: ../../../asset/benchmark/freesolv_scaffold_r2.png
+
+Lipophilicity
+^^^^^^^^^^^^^
+
+.. image:: ../../../asset/benchmark/lipophilicity_scaffold_mae.png
+.. image:: ../../../asset/benchmark/lipophilicity_scaffold_r2.png
 
 SIDER
 ^^^^^
@@ -90,8 +191,14 @@ ToxCast
 .. image:: ../../../asset/benchmark/toxcast_scaffold_auroc.png
 .. image:: ../../../asset/benchmark/toxcast_scaffold_auprc.png
 
+MUV
+^^^
+
+.. image:: ../../../asset/benchmark/muv_scaffold_auroc.png
+.. image:: ../../../asset/benchmark/muv_scaffold_auprc.png
+
 Malaria
 ^^^^^^^
 
-.. image:: ../../../asset/benchmark/malaria_scaffold_auroc.png
-.. image:: ../../../asset/benchmark/malaria_scaffold_auprc.png
+.. image:: ../../../asset/benchmark/malaria_scaffold_mae.png
+.. image:: ../../../asset/benchmark/malaria_scaffold_r2.png

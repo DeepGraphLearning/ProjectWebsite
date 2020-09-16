@@ -233,14 +233,16 @@
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
 <span class="sd">        output_dim (int): output dimension</span>
+<span class="sd">        edge_input_dim (int, optional): dimension of edge features</span>
 <span class="sd">        batch_norm (bool, optional): apply batch normalization on nodes or not</span>
 <span class="sd">        activation (str or function, optional): activation function</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">GraphConv</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
 
         <span class="k">if</span> <span class="n">batch_norm</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">batch_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm1d</span><span class="p">(</span><span class="n">output_dim</span><span class="p">)</span>
@@ -250,13 +252,23 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">F</span><span class="p">,</span> <span class="n">activation</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="n">activation</span>
+
         <span class="bp">self</span><span class="o">.</span><span class="n">linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">edge_input_dim</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="kc">None</span>
 
     <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
         <span class="c1"># add self loop</span>
         <span class="n">node_in</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">torch</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">device</span><span class="p">)])</span>
         <span class="n">degree_in</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">degree_in</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
-        <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span> <span class="o">/</span> <span class="n">degree_in</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span><span class="o">.</span><span class="n">sqrt</span><span class="p">()</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">:</span>
+            <span class="n">edge_input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span>
+            <span class="n">edge_input</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">edge_input</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">device</span><span class="p">)])</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span> <span class="o">+</span> <span class="n">edge_input</span>
+        <span class="n">message</span> <span class="o">=</span> <span class="n">message</span> <span class="o">/</span> <span class="n">degree_in</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span><span class="o">.</span><span class="n">sqrt</span><span class="p">()</span>
         <span class="k">return</span> <span class="n">message</span>
 
     <span class="k">def</span> <span class="nf">aggregate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
@@ -287,6 +299,7 @@
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
 <span class="sd">        output_dim (int): output dimension</span>
+<span class="sd">        edge_input_dim (int, optional): dimension of edge features</span>
 <span class="sd">        num_head (int, optional): number of attention heads</span>
 <span class="sd">        negative_slope (float, optional): negative slope of leaky relu activation</span>
 <span class="sd">        batch_norm (bool, optional): apply batch normalization on nodes or not</span>
@@ -295,11 +308,12 @@
 
     <span class="n">eps</span> <span class="o">=</span> <span class="mf">1e-10</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">num_head</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">negative_slope</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">concat</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-                 <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_head</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">negative_slope</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">concat</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                 <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">GraphAttentionConv</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_head</span> <span class="o">=</span> <span class="n">num_head</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">concat</span> <span class="o">=</span> <span class="n">concat</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">leaky_relu</span> <span class="o">=</span> <span class="n">functools</span><span class="o">.</span><span class="n">partial</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">leaky_relu</span><span class="p">,</span> <span class="n">negative_slope</span><span class="o">=</span><span class="n">negative_slope</span><span class="p">)</span>
@@ -315,7 +329,12 @@
         <span class="k">if</span> <span class="n">output_dim</span> <span class="o">%</span> <span class="n">num_head</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Expect output_dim to be a multiplier of num_head, but found `</span><span class="si">%d</span><span class="s2">` and `</span><span class="si">%d</span><span class="s2">`&quot;</span>
                              <span class="o">%</span> <span class="p">(</span><span class="n">output_dim</span><span class="p">,</span> <span class="n">num_head</span><span class="p">))</span>
+
         <span class="bp">self</span><span class="o">.</span><span class="n">linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">edge_input_dim</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">query</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Parameter</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_head</span><span class="p">,</span> <span class="n">output_dim</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">//</span> <span class="n">num_head</span><span class="p">))</span>
         <span class="n">nn</span><span class="o">.</span><span class="n">init</span><span class="o">.</span><span class="n">kaiming_uniform_</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">,</span> <span class="n">negative_slope</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;fan_in&quot;</span><span class="p">)</span>
 
@@ -328,6 +347,10 @@
         <span class="n">hidden</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">linear</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
 
         <span class="n">key</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">stack</span><span class="p">([</span><span class="n">hidden</span><span class="p">[</span><span class="n">node_in</span><span class="p">],</span> <span class="n">hidden</span><span class="p">[</span><span class="n">node_out</span><span class="p">]],</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">:</span>
+            <span class="n">edge_input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span>
+            <span class="n">edge_input</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">edge_input</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">device</span><span class="p">)])</span>
+            <span class="n">key</span> <span class="o">=</span> <span class="n">key</span> <span class="o">+</span> <span class="n">edge_input</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
         <span class="n">key</span> <span class="o">=</span> <span class="n">key</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
         <span class="n">weight</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">einsum</span><span class="p">(</span><span class="s2">&quot;hd, nhd -&gt; nh&quot;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">,</span> <span class="n">key</span><span class="p">)</span>
         <span class="n">weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">leaky_relu</span><span class="p">(</span><span class="n">weight</span><span class="p">)</span>
@@ -366,6 +389,7 @@
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
 <span class="sd">        output_dim (int): output dimension</span>
+<span class="sd">        edge_input_dim (int, optional): dimension of edge features</span>
 <span class="sd">        hidden_dims (list of int, optional): hidden dimensions</span>
 <span class="sd">        eps (float, optional): initial epsilon</span>
 <span class="sd">        learn_eps (bool, optional): learn epsilon or not</span>
@@ -373,11 +397,12 @@
 <span class="sd">        activation (str or function, optional): activation function</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">hidden_dims</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">learn_eps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-                 <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">hidden_dims</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">learn_eps</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">GraphIsomorphismConv</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
 
         <span class="n">eps</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="n">eps</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">learn_eps</span><span class="p">:</span>
@@ -396,10 +421,16 @@
         <span class="k">if</span> <span class="n">hidden_dims</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">hidden_dims</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">mlp</span> <span class="o">=</span> <span class="n">layers</span><span class="o">.</span><span class="n">MLP</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="nb">list</span><span class="p">(</span><span class="n">hidden_dims</span><span class="p">)</span> <span class="o">+</span> <span class="p">[</span><span class="n">output_dim</span><span class="p">],</span> <span class="n">activation</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">edge_input_dim</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="kc">None</span>
 
     <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
         <span class="n">node_in</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
         <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="n">message</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span>
         <span class="k">return</span> <span class="n">message</span>
 
     <span class="k">def</span> <span class="nf">aggregate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
@@ -427,17 +458,19 @@
 <span class="sd">        input_dim (int): input dimension</span>
 <span class="sd">        output_dim (int): output dimension</span>
 <span class="sd">        num_relation (int): number of relations</span>
+<span class="sd">        edge_input_dim (int, optional): dimension of edge features</span>
 <span class="sd">        batch_norm (bool, optional): apply batch normalization on nodes or not</span>
 <span class="sd">        activation (str or function, optional): activation function</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="n">eps</span> <span class="o">=</span> <span class="mf">1e-10</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">num_relation</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">num_relation</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">RelationalGraphConv</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span> <span class="o">=</span> <span class="n">num_relation</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
 
         <span class="k">if</span> <span class="n">batch_norm</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">batch_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm1d</span><span class="p">(</span><span class="n">output_dim</span><span class="p">)</span>
@@ -447,14 +480,21 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">F</span><span class="p">,</span> <span class="n">activation</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="n">activation</span>
+
         <span class="bp">self</span><span class="o">.</span><span class="n">self_loop</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">num_relation</span> <span class="o">*</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">edge_input_dim</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="kc">None</span>
 
     <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
         <span class="n">node_in</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
         <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="n">message</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span>
         <span class="k">return</span> <span class="n">message</span>
-
+    
     <span class="k">def</span> <span class="nf">aggregate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
         <span class="k">assert</span> <span class="n">graph</span><span class="o">.</span><span class="n">num_relation</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span>
 
@@ -463,6 +503,7 @@
         <span class="n">update</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="n">message</span> <span class="o">*</span> <span class="n">edge_weight</span><span class="p">,</span> <span class="n">node_out</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">)</span> <span class="o">/</span> \
                  <span class="p">(</span><span class="n">scatter_add</span><span class="p">(</span><span class="n">edge_weight</span><span class="p">,</span> <span class="n">node_out</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">eps</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">update</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span><span class="p">)</span>
+         
 
     <span class="k">def</span> <span class="nf">combine</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">,</span> <span class="n">update</span><span class="p">):</span>
         <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">linear</span><span class="p">(</span><span class="n">update</span><span class="p">)</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">self_loop</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
@@ -484,14 +525,16 @@
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
 <span class="sd">        output_dim (int): output dimension</span>
+<span class="sd">        edge_input_dim (int, optional): dimension of edge features</span>
 <span class="sd">        batch_norm (bool, optional): apply batch normalization on nodes or not</span>
 <span class="sd">        activation (str or function, optional): activation function</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">NeuralFingerprintConv</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
 
         <span class="k">if</span> <span class="n">batch_norm</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">batch_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">BatchNorm1d</span><span class="p">(</span><span class="n">output_dim</span><span class="p">)</span>
@@ -501,11 +544,18 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">F</span><span class="p">,</span> <span class="n">activation</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="n">activation</span>
+
         <span class="bp">self</span><span class="o">.</span><span class="n">linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">edge_input_dim</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="kc">None</span>
 
     <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
         <span class="n">node_in</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
         <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="n">message</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span>
         <span class="k">return</span> <span class="n">message</span>
 
     <span class="k">def</span> <span class="nf">aggregate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
@@ -533,6 +583,7 @@
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
 <span class="sd">        output_dim (int): output dimension</span>
+<span class="sd">        edge_input_dim (int, optional): dimension of edge features</span>
 <span class="sd">        hidden_dim (int, optional): hidden dimension. By default, same as :attr:`output_dim`</span>
 <span class="sd">        cutoff (float, optional): maximal scale for RBF kernels</span>
 <span class="sd">        num_gaussian (int, optional): number of RBF kernels</span>
@@ -540,11 +591,12 @@
 <span class="sd">        activation (str or function, optional): activation function</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cutoff</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">num_gaussian</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-                     <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;shifted_softplus&quot;</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">cutoff</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">num_gaussian</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+                 <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;shifted_softplus&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">ContinuousFilterConv</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
         <span class="k">if</span> <span class="n">hidden_dim</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">hidden_dim</span> <span class="o">=</span> <span class="n">output_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">hidden_dim</span> <span class="o">=</span> <span class="n">hidden_dim</span>
@@ -560,14 +612,21 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">F</span><span class="p">,</span> <span class="n">activation</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">activation</span> <span class="o">=</span> <span class="n">activation</span>
+
         <span class="bp">self</span><span class="o">.</span><span class="n">input_layer</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">rbf_layer</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">num_gaussian</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_layer</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">edge_input_dim</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span> <span class="o">=</span> <span class="kc">None</span>
 
     <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
         <span class="n">node_in</span><span class="p">,</span> <span class="n">node_out</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">t</span><span class="p">()</span>
         <span class="n">position</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">node_position</span>
-        <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_layer</span><span class="p">(</span><span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">])</span>
+        <span class="nb">input</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_layer</span><span class="p">(</span><span class="nb">input</span><span class="p">)[</span><span class="n">node_in</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">:</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="nb">input</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_linear</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span>
         <span class="n">weight</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">rbf_layer</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">rbf</span><span class="p">(</span><span class="n">position</span><span class="p">[</span><span class="n">node_in</span><span class="p">],</span> <span class="n">position</span><span class="p">[</span><span class="n">node_out</span><span class="p">]))</span>
         <span class="n">message</span> <span class="o">=</span> <span class="nb">input</span> <span class="o">*</span> <span class="n">weight</span>
         <span class="k">return</span> <span class="n">message</span>
@@ -597,7 +656,7 @@
 
 <span class="sd">    Parameters:</span>
 <span class="sd">        input_dim (int): input dimension</span>
-<span class="sd">        edge_input_dim (int): edge input dimension</span>
+<span class="sd">        edge_input_dim (int): dimension of edge features</span>
 <span class="sd">        hidden_dims (list of int, optional): hidden dims of edge network</span>
 <span class="sd">        batch_norm (bool, optional): apply batch normalization on nodes or not</span>
 <span class="sd">        activation (str or function, optional): activation function</span>
@@ -606,8 +665,8 @@
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">edge_input_dim</span><span class="p">,</span> <span class="n">hidden_dims</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">batch_norm</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s2">&quot;relu&quot;</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">MessagePassing</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">input_dim</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">edge_input_dim</span> <span class="o">=</span> <span class="n">edge_input_dim</span>
         <span class="k">if</span> <span class="n">hidden_dims</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">hidden_dims</span> <span class="o">=</span> <span class="p">[]</span>
 
@@ -624,8 +683,11 @@
 
     <span class="k">def</span> <span class="nf">message</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
         <span class="n">node_in</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
-        <span class="n">transform</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_mlp</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_dim</span><span class="p">)</span>
-        <span class="n">message</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">einsum</span><span class="p">(</span><span class="s2">&quot;bed, bd -&gt; be&quot;</span><span class="p">,</span> <span class="n">transform</span><span class="p">,</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">])</span>
+        <span class="n">transform</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_mlp</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">float</span><span class="p">())</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">graph</span><span class="o">.</span><span class="n">num_edge</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">einsum</span><span class="p">(</span><span class="s2">&quot;bed, bd -&gt; be&quot;</span><span class="p">,</span> <span class="n">transform</span><span class="p">,</span> <span class="nb">input</span><span class="p">[</span><span class="n">node_in</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">message</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">message</span>
 
     <span class="k">def</span> <span class="nf">aggregate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
