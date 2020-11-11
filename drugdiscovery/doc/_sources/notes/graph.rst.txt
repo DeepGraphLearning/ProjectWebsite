@@ -116,7 +116,7 @@ as the reciprocal of node degrees.
 
 .. code-block:: python
 
-    node_in, node_out = mol.edge_list[:, :2].t()
+    node_in, node_out = mol.edge_list.t()[:2]
     with mol.edge():
         mol.edge_importance = 1 / graph.degree_in[node_in] + 1 / graph.degree_out[node_out]
 

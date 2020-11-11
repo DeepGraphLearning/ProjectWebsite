@@ -193,7 +193,8 @@
 <span class="sd">    The meta type of each member is tracked when a member is assigned.</span>
 <span class="sd">    We use a context manager to define the meta types for a bunch of assignment.</span>
 
-<span class="sd">    The meta types are stored as a dict in ``instance.meta``, where keys are member names and values are meta types.</span>
+<span class="sd">    The meta types are stored as a dict in ``instance.meta_dict``,</span>
+<span class="sd">    where keys are member names and values are meta types.</span>
 
 <span class="sd">    &gt;&gt;&gt; class MyClass(_MetaContainer):</span>
 <span class="sd">    &gt;&gt;&gt;     ...</span>
@@ -201,12 +202,12 @@
 <span class="sd">    &gt;&gt;&gt; instance = MyClass()</span>
 <span class="sd">    &gt;&gt;&gt; with instance.context(&quot;important&quot;):</span>
 <span class="sd">    &gt;&gt;&gt;     instance.value = 1</span>
-<span class="sd">    &gt;&gt;&gt; assert instance.meta[&quot;value&quot;] == &quot;important&quot;</span>
+<span class="sd">    &gt;&gt;&gt; assert instance.meta_dict[&quot;value&quot;] == &quot;important&quot;</span>
 
 <span class="sd">    Members assigned with :meth:`context(None) &lt;context&gt;` or without a context won&#39;t be traked.</span>
 
 <span class="sd">    &gt;&gt;&gt; instance.random = 0</span>
-<span class="sd">    &gt;&gt;&gt; assert &quot;random&quot; not in instance.meta</span>
+<span class="sd">    &gt;&gt;&gt; assert &quot;random&quot; not in instance.meta_dict</span>
 
 <span class="sd">    You can also restrict available meta types by defining a set :attr:`_meta_types` in the derived class.</span>
 
@@ -224,14 +225,14 @@
     <span class="n">_meta_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
     <span class="n">enable_auto_context</span> <span class="o">=</span> <span class="kc">False</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">meta</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">meta</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">meta_dict</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">meta_dict</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">meta_dict</span> <span class="o">=</span> <span class="p">{}</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">meta</span> <span class="o">=</span> <span class="n">meta</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+            <span class="n">meta_dict</span> <span class="o">=</span> <span class="n">meta_dict</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
         <span class="bp">self</span><span class="o">.</span><span class="n">_setattr</span><span class="p">(</span><span class="s2">&quot;_meta_context&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">_setattr</span><span class="p">(</span><span class="s2">&quot;meta&quot;</span><span class="p">,</span> <span class="n">meta</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_setattr</span><span class="p">(</span><span class="s2">&quot;meta_dict&quot;</span><span class="p">,</span> <span class="n">meta_dict</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_setattr</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
 
@@ -255,21 +256,56 @@
                     <span class="nb">type</span> <span class="o">=</span> <span class="n">_type</span>
                     <span class="k">break</span>
         <span class="k">if</span> <span class="nb">type</span><span class="p">:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="nb">type</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="nb">type</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_setattr</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__delattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">:</span>
-            <span class="k">del</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span><span class="p">:</span>
+            <span class="k">del</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
         <span class="k">del</span> <span class="bp">self</span><span class="o">.</span><span class="n">key</span>
 
     <span class="k">def</span> <span class="nf">_setattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
         <span class="k">return</span> <span class="nb">super</span><span class="p">(</span><span class="n">_MetaContainer</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
 
     <span class="nd">@property</span>
-    <span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">data_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;A dict that maps tracked names to members.&quot;&quot;&quot;</span>
-        <span class="k">return</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">}</span></div>
+        <span class="k">return</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span><span class="p">}</span>
+
+<div class="viewcode-block" id="_MetaContainer.data_by_meta"><a class="viewcode-back" href="../../../api/core.html#drugdiscovery.core._MetaContainer.data_by_meta">[docs]</a>    <span class="k">def</span> <span class="nf">data_by_meta</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">include</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">exclude</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Return members based on the specific meta types.</span>
+
+<span class="sd">        Parameters:</span>
+<span class="sd">            include (list of string, optional): meta types to include</span>
+<span class="sd">            exclude (list of string, optional): meta types to exclude</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            (dict, dict): data member dict and meta type dict</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">include</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">exclude</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data_dict</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span>
+
+        <span class="n">include</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_standarize_type</span><span class="p">(</span><span class="n">include</span><span class="p">)</span>
+        <span class="n">exclude</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_standarize_type</span><span class="p">(</span><span class="n">exclude</span><span class="p">)</span>
+        <span class="n">types</span> <span class="o">=</span> <span class="n">include</span> <span class="ow">or</span> <span class="nb">set</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
+        <span class="n">types</span> <span class="o">=</span> <span class="n">types</span> <span class="o">-</span> <span class="n">exclude</span>
+        <span class="n">data_dict</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">meta_dict</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta_dict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">types</span><span class="p">:</span>
+                <span class="n">data_dict</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+                <span class="n">meta_dict</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+        <span class="k">return</span> <span class="n">data_dict</span><span class="p">,</span> <span class="n">meta_dict</span></div>
+
+    <span class="k">def</span> <span class="nf">_standarize_type</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">types</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">types</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">types</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">types</span> <span class="o">=</span> <span class="p">{</span><span class="n">types</span><span class="p">}</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">types</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">types</span></div>
 
 
 <span class="k">class</span> <span class="nc">Tree</span><span class="p">(</span><span class="n">defaultdict</span><span class="p">):</span>
@@ -414,16 +450,16 @@
         <span class="bp">cls</span> <span class="o">=</span> <span class="nb">type</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="n">typ</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
         <span class="nd">@decorator</span>
-        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">init</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">init</span><span class="p">,</span> <span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
             <span class="n">func</span> <span class="o">=</span> <span class="n">inspect</span><span class="o">.</span><span class="n">signature</span><span class="p">(</span><span class="n">init</span><span class="p">)</span>
-            <span class="n">func</span> <span class="o">=</span> <span class="n">func</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="n">func</span> <span class="o">=</span> <span class="n">func</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
             <span class="n">func</span><span class="o">.</span><span class="n">apply_defaults</span><span class="p">()</span>
             <span class="n">config</span> <span class="o">=</span> <span class="n">func</span><span class="o">.</span><span class="n">arguments</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-            <span class="bp">self</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">func</span><span class="o">.</span><span class="n">arguments</span><span class="o">.</span><span class="n">keys</span><span class="p">())))</span>
+            <span class="n">config</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">config</span><span class="o">.</span><span class="n">keys</span><span class="p">())))</span> <span class="c1"># self</span>
             <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_ignore_args&quot;</span><span class="p">,</span> <span class="p">{}):</span>
                 <span class="n">config</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">_config</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
-            <span class="k">return</span> <span class="n">init</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">init</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>
             <span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span> <span class="o">=</span> <span class="n">wrapper</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">)</span>
@@ -434,7 +470,7 @@
             <span class="k">if</span> <span class="ow">not</span> <span class="n">custom_load_func</span><span class="p">:</span>
                 <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span> <span class="o">=</span> <span class="n">_Configurable</span><span class="o">.</span><span class="n">load_config_dict</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">custom_config_func</span><span class="p">:</span>
-                <span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span> <span class="o">=</span> <span class="n">types</span><span class="o">.</span><span class="n">MethodType</span><span class="p">(</span><span class="n">_Configurable</span><span class="o">.</span><span class="n">config_dict</span><span class="p">,</span> <span class="bp">cls</span><span class="p">)</span>
+                <span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span> <span class="o">=</span> <span class="n">_Configurable</span><span class="o">.</span><span class="n">config_dict</span>
 
         <span class="k">return</span> <span class="bp">cls</span>
 
@@ -446,9 +482,18 @@
 
 <span class="sd">    This class is inspired by :meth:`state_dict()` in PyTorch, but designed for hyperparameters.</span>
 
-<span class="sd">    To construct a configurable class, inherit this class as a metaclass</span>
+<span class="sd">    Inherit this class to construct a configurable class.</span>
 
 <span class="sd">    &gt;&gt;&gt; class MyClass(nn.Module, core.Configurable):</span>
+
+<span class="sd">    Note :class:`Configurable` only applies to the current class rather than any derived class.</span>
+<span class="sd">    For example, the following definition only records the arguments of ``MyClass``.</span>
+
+<span class="sd">    &gt;&gt;&gt; class DerivedClass(MyClass):</span>
+
+<span class="sd">    In order to record the arguments of ``DerivedClass``, explicitly specify the inheritance.</span>
+
+<span class="sd">    &gt;&gt;&gt; class DerivedClass(MyClass, core.Configurable):</span>
 
 <span class="sd">    To get the configuration of an instance, use :meth:`config_dict()`,</span>
 <span class="sd">    which returns a dict of argument names and values.</span>

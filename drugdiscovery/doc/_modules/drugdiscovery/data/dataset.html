@@ -181,6 +181,7 @@
 <span></span><span class="kn">import</span> <span class="nn">csv</span>
 <span class="kn">import</span> <span class="nn">math</span>
 <span class="kn">import</span> <span class="nn">logging</span>
+
 <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 <span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
 
@@ -194,62 +195,6 @@
 
 
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
-
-
-<div class="viewcode-block" id="ReactionDataset"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.ReactionDataset">[docs]</a><span class="k">class</span> <span class="nc">ReactionDataset</span><span class="p">(</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
-
-    <span class="k">def</span> <span class="nf">load_smiles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">smiles_list</span><span class="p">,</span> <span class="n">features</span><span class="p">,</span> <span class="n">transform</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">smiles_rxn_list</span> <span class="o">=</span> <span class="n">smiles_list</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">smiles_re_list</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">smiles_prod_list</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="c1">#if verbose:</span>
-        <span class="c1">#    self.smiles_rxn_list = tqdm(self.smiles_rxn_list, &quot;Saving reaction SMILES&quot;)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="k">for</span> <span class="n">smiles</span> <span class="ow">in</span> <span class="n">smiles_list</span><span class="p">:</span>
-            <span class="n">smiles</span> <span class="o">=</span> <span class="n">smiles</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;&gt;&gt;&#39;</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">smiles_re_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">smiles</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">smiles_prod_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">smiles</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-            <span class="c1">#mol_re = data.Molecule.from_smiles(smiles[0], **kwargs)</span>
-            <span class="c1">#mol_prod = data.Molecule.from_smiles(smiles[1], **kwargs)</span>
-            <span class="c1">#self.data.append((mol_re, mol_prod))</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">features</span> <span class="o">=</span> <span class="n">features</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">transform</span> <span class="o">=</span> <span class="n">transform</span>
-
-<div class="viewcode-block" id="ReactionDataset.load_csv"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.ReactionDataset.load_csv">[docs]</a>    <span class="k">def</span> <span class="nf">load_csv</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">csv_file</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s2">&quot;smiles&quot;</span><span class="p">,</span> <span class="n">feature_fields</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">,</span> <span class="s2">&quot;prod_smiles&quot;</span><span class="p">],</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">        Possible Field: reaction smiles, reaction class, prod smiles</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="k">if</span> <span class="n">feature_fields</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">feature_fields</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">feature_fields</span><span class="p">)</span>
-
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fin</span><span class="p">:</span>
-            <span class="n">reader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">fin</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
-                <span class="n">reader</span> <span class="o">=</span> <span class="nb">iter</span><span class="p">(</span><span class="n">tqdm</span><span class="p">(</span><span class="n">reader</span><span class="p">,</span> <span class="s2">&quot;Loading </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">csv_file</span><span class="p">,</span> <span class="n">utils</span><span class="o">.</span><span class="n">get_line_count</span><span class="p">(</span><span class="n">csv_file</span><span class="p">)))</span>
-            <span class="n">fields</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">reader</span><span class="p">)</span>
-            <span class="n">smiles</span> <span class="o">=</span> <span class="p">[]</span>
-            <span class="n">features</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">values</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
-                <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
-                    <span class="k">continue</span>
-                <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">fields</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
-                    <span class="k">if</span> <span class="n">field</span> <span class="o">==</span> <span class="n">smiles_field</span><span class="p">:</span>
-                        <span class="n">smiles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
-                    <span class="k">elif</span> <span class="n">feature_fields</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">feature_fields</span><span class="p">:</span>
-                        <span class="n">value</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">literal_eval</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
-                        <span class="k">if</span> <span class="n">value</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
-                            <span class="n">value</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">nan</span>
-                        <span class="n">features</span><span class="p">[</span><span class="n">field</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
-
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_smiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">,</span> <span class="n">features</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
-
-
-    <span class="k">def</span> <span class="fm">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>        
-        <span class="k">raise</span> <span class="ne">NotImplementedError</span>
-
-    
-    <span class="k">def</span> <span class="fm">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="ne">NotImplementedError</span></div>
 
 
 <div class="viewcode-block" id="MoleculeDataset"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.MoleculeDataset">[docs]</a><span class="k">class</span> <span class="nc">MoleculeDataset</span><span class="p">(</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
@@ -317,7 +262,7 @@
             <span class="n">fields</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">reader</span><span class="p">)</span>
             <span class="n">smiles</span> <span class="o">=</span> <span class="p">[]</span>
             <span class="n">targets</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">values</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">reader</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">values</span> <span class="ow">in</span> <span class="n">reader</span><span class="p">:</span>
                 <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
                     <span class="k">continue</span>
                 <span class="k">if</span> <span class="n">smiles_field</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -365,25 +310,101 @@
         <span class="sd">&quot;&quot;&quot;Number of different bond types.&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_types</span><span class="p">)</span>
 
-    <span class="nd">@property</span>
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
     <span class="k">def</span> <span class="nf">atom_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;All atom types.&quot;&quot;&quot;</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_atom_types&quot;</span><span class="p">):</span>
-            <span class="n">atom_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-            <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
-                <span class="n">atom_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">atom_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">_atom_types</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">atom_types</span><span class="p">)</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_atom_types</span>
+        <span class="n">atom_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+            <span class="n">atom_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">atom_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+        <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">atom_types</span><span class="p">)</span>
 
-    <span class="nd">@property</span>
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
     <span class="k">def</span> <span class="nf">bond_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;All bond types.&quot;&quot;&quot;</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_bond_types&quot;</span><span class="p">):</span>
-            <span class="n">bond_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
-            <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
-                <span class="n">bond_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">bond_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">_bond_types</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">bond_types</span><span class="p">)</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_bond_types</span>
+        <span class="n">bond_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+            <span class="n">bond_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+        <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">bond_types</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">(num_sample=</span><span class="si">%d</span><span class="s2">, num_task=</span><span class="si">%d</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">tasks</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="ReactionDataset"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.ReactionDataset">[docs]</a><span class="k">class</span> <span class="nc">ReactionDataset</span><span class="p">(</span><span class="n">MoleculeDataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Chemical reaction dataset.</span>
+
+<span class="sd">    Each sample contains two molecule graphs, and any number of prediction targets.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="ReactionDataset.load_smiles"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.ReactionDataset.load_smiles">[docs]</a>    <span class="k">def</span> <span class="nf">load_smiles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">smiles_list</span><span class="p">,</span> <span class="n">targets</span><span class="p">,</span> <span class="n">transform</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">num_sample</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">field</span><span class="p">,</span> <span class="n">target_list</span> <span class="ow">in</span> <span class="n">targets</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">target_list</span><span class="p">)</span> <span class="o">!=</span> <span class="n">num_sample</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Number of target `</span><span class="si">%s</span><span class="s2">` doesn&#39;t match with number of molecules. &quot;</span>
+                                 <span class="s2">&quot;Expect </span><span class="si">%d</span><span class="s2"> but found </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">field</span><span class="p">,</span> <span class="n">num_sample</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">target_list</span><span class="p">)))</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">smiles_list</span> <span class="o">=</span> <span class="n">smiles_list</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">targets</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+            <span class="n">smiles_list</span> <span class="o">=</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">,</span> <span class="s2">&quot;Constructing molecules from SMILES&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">smiles</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">smiles_list</span><span class="p">):</span>
+            <span class="n">smiles_reactant</span><span class="p">,</span> <span class="n">agent</span><span class="p">,</span> <span class="n">smiles_product</span> <span class="o">=</span> <span class="n">smiles</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;&gt;&quot;</span><span class="p">)</span>
+            <span class="n">mols</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">_smiles</span> <span class="ow">in</span> <span class="p">[</span><span class="n">smiles_reactant</span><span class="p">,</span> <span class="n">smiles_product</span><span class="p">]:</span>
+                <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">_smiles</span><span class="p">)</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">mol</span><span class="p">:</span>
+                    <span class="n">logger</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Can&#39;t construct molecule from SMILES `</span><span class="si">%s</span><span class="s2">`. Ignore this sample.&quot;</span> <span class="o">%</span> <span class="n">_smiles</span><span class="p">)</span>
+                    <span class="k">break</span>
+                <span class="n">mol</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Molecule</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+                <span class="n">mols</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mols</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">targets</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">targets</span><span class="p">[</span><span class="n">field</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">targets</span><span class="p">[</span><span class="n">field</span><span class="p">][</span><span class="n">i</span><span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">transform</span> <span class="o">=</span> <span class="n">transform</span></div>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">node_feature_dim</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Dimension of node features.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">node_feature</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">edge_feature_dim</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Dimension of edge features.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">edge_feature</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_atom_type</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Number of different atom types.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">atom_types</span><span class="p">)</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">num_bond_type</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Number of different bond types.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_types</span><span class="p">)</span>
+
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
+    <span class="k">def</span> <span class="nf">atom_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;All atom types.&quot;&quot;&quot;</span>
+        <span class="n">atom_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">graphs</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="n">graphs</span><span class="p">:</span>
+                <span class="n">atom_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">atom_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+        <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">atom_types</span><span class="p">)</span>
+
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
+    <span class="k">def</span> <span class="nf">bond_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;All bond types.&quot;&quot;&quot;</span>
+        <span class="n">bond_types</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">graphs</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="n">graphs</span><span class="p">:</span>
+                <span class="n">bond_types</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+        <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">bond_types</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">)</span>
@@ -395,6 +416,37 @@
 <span class="k">class</span> <span class="nc">GraphDataset</span><span class="p">(</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
     <span class="c1"># reserved for drug repurposing / combination</span>
     <span class="k">pass</span>
+
+
+<span class="k">class</span> <span class="nc">KnowledgeGraphDataset</span><span class="p">(</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">load_tabbed</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tab_file</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">tab_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fin</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+                <span class="n">fin</span> <span class="o">=</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">fin</span><span class="p">,</span> <span class="s2">&quot;Loading </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">tab_file</span><span class="p">)</span>
+            <span class="n">name2entity</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="n">name2relation</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="n">triplets</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fin</span><span class="p">:</span>
+                <span class="n">h_name</span><span class="p">,</span> <span class="n">r_name</span><span class="p">,</span> <span class="n">t_name</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">h_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">name2entity</span><span class="p">:</span>
+                    <span class="n">name2entity</span><span class="p">[</span><span class="n">h_name</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">name2entity</span><span class="p">)</span>
+                <span class="n">h</span> <span class="o">=</span> <span class="n">name2entity</span><span class="p">[</span><span class="n">h_name</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">r_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">name2relation</span><span class="p">:</span>
+                    <span class="n">name2relation</span><span class="p">[</span><span class="n">r_name</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">name2relation</span><span class="p">)</span>
+                <span class="n">r</span> <span class="o">=</span> <span class="n">name2relation</span><span class="p">[</span><span class="n">r_name</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">t_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">name2entity</span><span class="p">:</span>
+                    <span class="n">name2entity</span><span class="p">[</span><span class="n">t_name</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">name2entity</span><span class="p">)</span>
+                <span class="n">t</span> <span class="o">=</span> <span class="n">name2entity</span><span class="p">[</span><span class="n">t_name</span><span class="p">]</span>
+                <span class="n">triplets</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">h</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">t</span><span class="p">))</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">load_triplet</span><span class="p">(</span><span class="n">triplets</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">load_triplet</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">triplets</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">triplets</span> <span class="o">=</span> <span class="n">triplets</span>
+
+    <span class="k">def</span> <span class="fm">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">triplets</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
 
 
 <span class="k">class</span> <span class="nc">SemiSupervised</span><span class="p">(</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Dataset</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
@@ -434,6 +486,43 @@
     <span class="k">return</span> <span class="n">SemiSupervised</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">indexes</span><span class="p">)</span></div>
 
 
+<span class="k">def</span> <span class="nf">key_split</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">keys</span><span class="p">,</span> <span class="n">lengths</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">key_lengths</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">round_to_boundary</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span><span class="p">)):</span>
+            <span class="k">if</span> <span class="n">keys</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span><span class="p">]]</span> <span class="o">!=</span> <span class="n">keys</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]]:</span>
+                <span class="k">return</span> <span class="n">i</span> <span class="o">-</span> <span class="n">j</span>
+            <span class="k">if</span> <span class="n">keys</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">j</span><span class="p">]]</span> <span class="o">!=</span> <span class="n">keys</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]]:</span>
+                <span class="k">return</span> <span class="n">i</span> <span class="o">+</span> <span class="n">j</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span><span class="p">:</span>
+            <span class="k">return</span> <span class="mi">0</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+
+    <span class="n">keys</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">as_tensor</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span>
+    <span class="n">key_set</span><span class="p">,</span> <span class="n">keys</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">keys</span><span class="p">,</span> <span class="n">return_inverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">perm</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">randperm</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">key_set</span><span class="p">))</span>
+    <span class="n">keys</span> <span class="o">=</span> <span class="n">perm</span><span class="p">[</span><span class="n">keys</span><span class="p">]</span>
+    <span class="n">indexes</span> <span class="o">=</span> <span class="n">keys</span><span class="o">.</span><span class="n">argsort</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">key_lengths</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="n">lengths</span> <span class="ow">is</span> <span class="kc">None</span>
+        <span class="n">key2count</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">bincount</span><span class="p">(</span><span class="n">keys</span><span class="p">)</span>
+        <span class="n">key_offset</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">lengths</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key_length</span> <span class="ow">in</span> <span class="n">key_lengths</span><span class="p">:</span>
+            <span class="n">lengths</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">key2count</span><span class="p">[</span><span class="n">key_offset</span><span class="p">:</span> <span class="n">key_offset</span> <span class="o">+</span> <span class="n">key_length</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">item</span><span class="p">())</span>
+            <span class="n">key_offset</span> <span class="o">+=</span> <span class="n">key_length</span>
+
+    <span class="n">offset</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">offsets</span> <span class="o">=</span> <span class="p">[</span><span class="n">offset</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">length</span> <span class="ow">in</span> <span class="n">lengths</span><span class="p">:</span>
+        <span class="n">offset</span> <span class="o">=</span> <span class="n">round_to_boundary</span><span class="p">(</span><span class="n">offset</span> <span class="o">+</span> <span class="n">length</span><span class="p">)</span>
+        <span class="n">offsets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">offset</span><span class="p">)</span>
+    <span class="n">offsets</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">indexes</span><span class="p">[</span><span class="n">offsets</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span> <span class="n">offsets</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">lengths</span><span class="p">))]</span>
+
+
 <div class="viewcode-block" id="scaffold_split"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.scaffold_split">[docs]</a><span class="k">def</span> <span class="nf">scaffold_split</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">lengths</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Randomly split a dataset into new datasets with non-overlapping scaffolds.</span>
@@ -443,19 +532,9 @@
 <span class="sd">        lengths (list of int): expected length for each split.</span>
 <span class="sd">            Note the results may be different in length due to rounding.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="nf">round_to_boundary</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span><span class="p">)):</span>
-            <span class="k">if</span> <span class="n">ids</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span><span class="p">]]</span> <span class="o">!=</span> <span class="n">ids</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]]:</span>
-                <span class="k">return</span> <span class="n">i</span> <span class="o">-</span> <span class="n">j</span>
-            <span class="k">if</span> <span class="n">ids</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">j</span><span class="p">]]</span> <span class="o">!=</span> <span class="n">ids</span><span class="p">[</span><span class="n">indexes</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]]:</span>
-                <span class="k">return</span> <span class="n">i</span> <span class="o">+</span> <span class="n">j</span>
-        <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span> <span class="o">-</span> <span class="n">i</span><span class="p">:</span>
-            <span class="k">return</span> <span class="mi">0</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
 
     <span class="n">scaffold2id</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="n">ids</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">keys</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">sample</span> <span class="ow">in</span> <span class="n">dataset</span><span class="p">:</span>
         <span class="n">scaffold</span> <span class="o">=</span> <span class="n">sample</span><span class="p">[</span><span class="s2">&quot;graph&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">to_scaffold</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">scaffold</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">scaffold2id</span><span class="p">:</span>
@@ -463,19 +542,9 @@
             <span class="n">scaffold2id</span><span class="p">[</span><span class="n">scaffold</span><span class="p">]</span> <span class="o">=</span> <span class="nb">id</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="nb">id</span> <span class="o">=</span> <span class="n">scaffold2id</span><span class="p">[</span><span class="n">scaffold</span><span class="p">]</span>
-        <span class="n">ids</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span>
+        <span class="n">keys</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span>
 
-    <span class="n">ids</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">ids</span><span class="p">)</span>
-    <span class="n">perm</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">randperm</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">scaffold2id</span><span class="p">))</span>
-    <span class="n">ids</span> <span class="o">=</span> <span class="n">perm</span><span class="p">[</span><span class="n">ids</span><span class="p">]</span>
-    <span class="n">indexes</span> <span class="o">=</span> <span class="n">ids</span><span class="o">.</span><span class="n">argsort</span><span class="p">()</span>
-    <span class="n">offset</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">offsets</span> <span class="o">=</span> <span class="p">[</span><span class="n">offset</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">length</span> <span class="ow">in</span> <span class="n">lengths</span><span class="p">:</span>
-        <span class="n">offset</span> <span class="o">=</span> <span class="n">round_to_boundary</span><span class="p">(</span><span class="n">offset</span> <span class="o">+</span> <span class="n">length</span><span class="p">)</span>
-        <span class="n">offsets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">offset</span><span class="p">)</span>
-    <span class="n">offsets</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">)</span>
-    <span class="k">return</span> <span class="p">[</span><span class="n">torch_data</span><span class="o">.</span><span class="n">Subset</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">indexes</span><span class="p">[</span><span class="n">offsets</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span> <span class="n">offsets</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">lengths</span><span class="p">))]</span></div>
+    <span class="k">return</span> <span class="n">key_split</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">keys</span><span class="p">,</span> <span class="n">lengths</span><span class="p">)</span></div>
 </pre></div>
 
            </div>

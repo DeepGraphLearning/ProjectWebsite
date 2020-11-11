@@ -179,7 +179,8 @@
             
   <h1>Source code for drugdiscovery.layers.functional</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">torch</span>
-<span class="kn">from</span> <span class="nn">torch_scatter</span> <span class="kn">import</span> <span class="n">scatter_add</span>
+<span class="kn">from</span> <span class="nn">torch_scatter</span> <span class="kn">import</span> <span class="n">scatter_add</span><span class="p">,</span> <span class="n">scatter_max</span>
+<span class="kn">from</span> <span class="nn">torch_scatter.composite</span> <span class="kn">import</span> <span class="n">scatter_log_softmax</span>
 <span class="kn">from</span> <span class="nn">torch.nn</span> <span class="kn">import</span> <span class="n">functional</span> <span class="k">as</span> <span class="n">F</span>
 
 
@@ -255,9 +256,67 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">values</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">torch</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">starts</span><span class="p">),</span> <span class="o">-</span><span class="n">torch</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">ends</span><span class="p">)])</span>
     <span class="n">indexes</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">starts</span><span class="p">,</span> <span class="n">ends</span><span class="p">])</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">indexes</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="n">indexes</span><span class="o">.</span><span class="n">min</span><span class="p">()</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">indexes</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">&lt;=</span> <span class="n">length</span>
     <span class="n">mask</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">indexes</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="n">length</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
     <span class="n">mask</span> <span class="o">=</span> <span class="n">mask</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">bool</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">mask</span></div>
+
+
+<span class="k">def</span> <span class="nf">as_mask</span><span class="p">(</span><span class="n">indexes</span><span class="p">,</span> <span class="n">length</span><span class="p">):</span>
+    <span class="n">mask</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">indexes</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+    <span class="n">mask</span><span class="p">[</span><span class="n">indexes</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">mask</span>
+
+
+<span class="k">def</span> <span class="nf">_size_to_index</span><span class="p">(</span><span class="n">size</span><span class="p">):</span>
+    <span class="n">cum_size</span> <span class="o">=</span> <span class="n">size</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">index2graph</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">cum_size</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">long</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">size</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+    <span class="n">index2graph</span><span class="p">[</span><span class="n">cum_size</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">index2graph</span> <span class="o">=</span> <span class="n">index2graph</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">index2graph</span>
+
+
+<span class="k">def</span> <span class="nf">variadic_log_softmax</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
+    <span class="n">index2graph</span> <span class="o">=</span> <span class="n">_size_to_index</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+    <span class="n">log_likelihood</span> <span class="o">=</span> <span class="n">scatter_log_softmax</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">index2graph</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">log_likelihood</span>
+
+
+<span class="k">def</span> <span class="nf">variadic_max</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
+    <span class="n">index2graph</span> <span class="o">=</span> <span class="n">_size_to_index</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+    <span class="n">value</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="n">scatter_max</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">index2graph</span><span class="p">)</span>
+    <span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">-</span> <span class="n">size</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="n">size</span>
+    <span class="k">return</span> <span class="n">value</span><span class="p">,</span> <span class="n">index</span>
+
+
+<div class="viewcode-block" id="variadic_cross_entropy"><a class="viewcode-back" href="../../../api/layers.html#drugdiscovery.layers.functional.variadic_cross_entropy">[docs]</a><span class="k">def</span> <span class="nf">variadic_cross_entropy</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">size</span><span class="p">,</span> <span class="n">reduction</span><span class="o">=</span><span class="s2">&quot;mean&quot;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Compute cross entropy loss over variadic sizes of categories.</span>
+
+<span class="sd">    Suppose there are :math:`N` samples, and the number of categories in all samples is summed to :math`B`.</span>
+
+<span class="sd">    Parameters:</span>
+<span class="sd">        input (Tensor): prediction of shape :math:`(B,)`</span>
+<span class="sd">        target (Tensor): target of shape :math:`(N,)`. Each target is a relative index in a sample.</span>
+<span class="sd">        size (Tensor): number of categories of shape :math:`(N,)`</span>
+<span class="sd">        reduction (string, optional): reduction to apply to the output.</span>
+<span class="sd">            Available reductions are ``none``, ``sum`` and ``mean``.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">index2graph</span> <span class="o">=</span> <span class="n">_size_to_index</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+
+    <span class="n">log_likelihood</span> <span class="o">=</span> <span class="n">scatter_log_softmax</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">index2graph</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="p">(</span><span class="n">target</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()</span> <span class="ow">and</span> <span class="p">(</span><span class="n">target</span> <span class="o">&lt;</span> <span class="n">size</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+    <span class="n">target_index</span> <span class="o">=</span> <span class="n">target</span> <span class="o">+</span> <span class="n">size</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="o">-</span> <span class="n">size</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">log_likelihood</span><span class="p">[</span><span class="n">target_index</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">reduction</span> <span class="o">==</span> <span class="s2">&quot;mean&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">loss</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">reduction</span> <span class="o">==</span> <span class="s2">&quot;sum&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">loss</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+    <span class="k">elif</span> <span class="n">reduction</span> <span class="o">==</span> <span class="s2">&quot;none&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">loss</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Unknown reduction `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">reduction</span><span class="p">)</span></div>
 
 
 <div class="viewcode-block" id="one_hot"><a class="viewcode-back" href="../../../api/layers.html#drugdiscovery.layers.functional.one_hot">[docs]</a><span class="k">def</span> <span class="nf">one_hot</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>

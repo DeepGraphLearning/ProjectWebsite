@@ -269,11 +269,6 @@
         <span class="n">smiles</span> <span class="o">=</span> <span class="n">train_smiles</span> <span class="o">+</span> <span class="n">valid_smiles</span> <span class="o">+</span> <span class="n">test_smiles</span>
         <span class="n">targets</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">train_targets</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="n">valid_targets</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="n">test_targets</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">train_targets</span><span class="p">}</span>
 
-        <span class="c1"># TODO: remove this part</span>
-        <span class="n">num_sample</span> <span class="o">=</span> <span class="mi">2000</span>
-        <span class="n">smiles</span> <span class="o">=</span> <span class="n">smiles</span><span class="p">[:</span><span class="n">num_sample</span><span class="p">]</span>
-        <span class="n">targets</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span><span class="p">[:</span><span class="n">num_sample</span><span class="p">]</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">targets</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-
         <span class="bp">self</span><span class="o">.</span><span class="n">load_smiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">,</span> <span class="n">targets</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">split</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>

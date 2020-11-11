@@ -189,8 +189,17 @@
 <dd><p>Class for load/save configuration.
 It will automatically record every argument passed to <code class="docutils literal notranslate"><span class="pre">__init__</span></code> function.</p>
 <p>This class is inspired by <code class="xref py py-meth docutils literal notranslate"><span class="pre">state_dict()</span></code> in PyTorch, but designed for hyperparameters.</p>
-<p>To construct a configurable class, inherit this class as a metaclass</p>
+<p>Inherit this class to construct a configurable class.</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>Note <a class="reference internal" href="#drugdiscovery.core.Configurable" title="drugdiscovery.core.Configurable"><code class="xref py py-class docutils literal notranslate"><span class="pre">Configurable</span></code></a> only applies to the current class rather than any derived class.
+For example, the following definition only records the arguments of <code class="docutils literal notranslate"><span class="pre">MyClass</span></code>.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">DerivedClass</span><span class="p">(</span><span class="n">MyClass</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>In order to record the arguments of <code class="docutils literal notranslate"><span class="pre">DerivedClass</span></code>, explicitly specify the inheritance.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">DerivedClass</span><span class="p">(</span><span class="n">MyClass</span><span class="p">,</span> <span class="n">core</span><span class="o">.</span><span class="n">Configurable</span><span class="p">):</span>
 </pre></div>
 </div>
 <p>To get the configuration of an instance, use <code class="xref py py-meth docutils literal notranslate"><span class="pre">config_dict()</span></code>,
@@ -208,7 +217,7 @@ This is convenient for building models from configuration files.</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.core.Engine">
-<em class="property">class </em><code class="sig-name descname">Engine</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">task</span></em>, <em class="sig-param"><span class="n">train_set</span></em>, <em class="sig-param"><span class="n">valid_set</span></em>, <em class="sig-param"><span class="n">test_set</span></em>, <em class="sig-param"><span class="n">optimizer</span></em>, <em class="sig-param"><span class="n">scheduler</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">gpus</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_size</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">log_interval</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">checkpoint_interval</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">evaluate_interval</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">save_path</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">''</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">Engine</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">task</span></em>, <em class="sig-param"><span class="n">train_set</span></em>, <em class="sig-param"><span class="n">valid_set</span></em>, <em class="sig-param"><span class="n">test_set</span></em>, <em class="sig-param"><span class="n">optimizer</span></em>, <em class="sig-param"><span class="n">scheduler</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">gpus</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">batch_size</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">log_interval</span><span class="o">=</span><span class="default_value">100</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine" title="Permalink to this definition">¶</a></dt>
 <dd><p>General class that handles everything about training and test of a task.</p>
 <p>This class performs synchronous distributed parallel training over multiple nodes and GPUs.
 To invoke with multiple GPUs,</p>
@@ -228,37 +237,18 @@ To invoke with multiple GPUs,</p>
 <li><p><strong>gpus</strong> (<em>list of int</em><em>, </em><em>optional</em>) – GPUs. By default, all GPUs will be used.</p></li>
 <li><p><strong>batch_size</strong> (<em>int</em><em>, </em><em>optional</em>) – batch size</p></li>
 <li><p><strong>log_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – log every n batches</p></li>
-<li><p><strong>checkpoint_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – checkpoint every n epochs</p></li>
-<li><p><strong>evaluate_interval</strong> (<em>int</em><em>, </em><em>optional</em>) – evaluate valid/test set every n epochs</p></li>
 </ul>
 </dd>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.core.Engine.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.core.Engine.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.core.Engine.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt id="drugdiscovery.core.Engine.evaluate">
 <code class="sig-name descname">evaluate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">split</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.evaluate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.evaluate" title="Permalink to this definition">¶</a></dt>
-<dd><p>Evaluate the model.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>split</strong> (<em>str</em>) – split to evaluate. Can be <code class="docutils literal notranslate"><span class="pre">train</span></code>, <code class="docutils literal notranslate"><span class="pre">valid</span></code> or <code class="docutils literal notranslate"><span class="pre">test</span></code>.</p>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>metrics</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>dict</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt id="drugdiscovery.core.Engine.evaluate_g2g1">
-<code class="sig-name descname">evaluate_g2g1</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">split</span></em>, <em class="sig-param"><span class="n">threshold</span><span class="o">=</span><span class="default_value">0.5</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/engine.html#Engine.evaluate_g2g1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core.Engine.evaluate_g2g1" title="Permalink to this definition">¶</a></dt>
 <dd><p>Evaluate the model.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -411,11 +401,12 @@ To invoke with multiple GPUs,</p>
 
 <dl class="py class">
 <dt id="drugdiscovery.core._MetaContainer">
-<em class="property">class </em><code class="sig-name descname">_MetaContainer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/core.html#_MetaContainer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core._MetaContainer" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">_MetaContainer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">meta_dict</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/core.html#_MetaContainer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core._MetaContainer" title="Permalink to this definition">¶</a></dt>
 <dd><p>Meta container that maintains meta types about members.</p>
 <p>The meta type of each member is tracked when a member is assigned.
 We use a context manager to define the meta types for a bunch of assignment.</p>
-<p>The meta types are stored as a dict in <code class="docutils literal notranslate"><span class="pre">instance.meta</span></code>, where keys are member names and values are meta types.</p>
+<p>The meta types are stored as a dict in <code class="docutils literal notranslate"><span class="pre">instance.meta_dict</span></code>,
+where keys are member names and values are meta types.</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">(</span><span class="n">_MetaContainer</span><span class="p">):</span>
 <span class="gp">&gt;&gt;&gt; </span>    <span class="o">...</span>
 </pre></div>
@@ -423,12 +414,12 @@ We use a context manager to define the meta types for a bunch of assignment.</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">instance</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">instance</span><span class="o">.</span><span class="n">context</span><span class="p">(</span><span class="s2">&quot;important&quot;</span><span class="p">):</span>
 <span class="gp">&gt;&gt;&gt; </span>    <span class="n">instance</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">instance</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;important&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="n">instance</span><span class="o">.</span><span class="n">meta_dict</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;important&quot;</span>
 </pre></div>
 </div>
 <p>Members assigned with <a class="reference internal" href="#drugdiscovery.core._MetaContainer.context" title="drugdiscovery.core._MetaContainer.context"><code class="xref py py-meth docutils literal notranslate"><span class="pre">context(None)</span></code></a> or without a context won’t be traked.</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">instance</span><span class="o">.</span><span class="n">random</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="s2">&quot;random&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">instance</span><span class="o">.</span><span class="n">meta</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">assert</span> <span class="s2">&quot;random&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">instance</span><span class="o">.</span><span class="n">meta_dict</span>
 </pre></div>
 </div>
 <p>You can also restrict available meta types by defining a set <code class="xref py py-attr docutils literal notranslate"><span class="pre">_meta_types</span></code> in the derived class.</p>
@@ -447,8 +438,28 @@ For example, <code class="docutils literal notranslate"><span class="pre">instan
 </dd></dl>
 
 <dl class="py method">
-<dt id="drugdiscovery.core._MetaContainer.data">
-<em class="property">property </em><code class="sig-name descname">data</code><a class="headerlink" href="#drugdiscovery.core._MetaContainer.data" title="Permalink to this definition">¶</a></dt>
+<dt id="drugdiscovery.core._MetaContainer.data_by_meta">
+<code class="sig-name descname">data_by_meta</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">include</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">exclude</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/core/core.html#_MetaContainer.data_by_meta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.core._MetaContainer.data_by_meta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return members based on the specific meta types.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>include</strong> (<em>list of string</em><em>, </em><em>optional</em>) – meta types to include</p></li>
+<li><p><strong>exclude</strong> (<em>list of string</em><em>, </em><em>optional</em>) – meta types to exclude</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>data member dict and meta type dict</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>(dict, dict)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="drugdiscovery.core._MetaContainer.data_dict">
+<em class="property">property </em><code class="sig-name descname">data_dict</code><a class="headerlink" href="#drugdiscovery.core._MetaContainer.data_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>A dict that maps tracked names to members.</p>
 </dd></dl>
 

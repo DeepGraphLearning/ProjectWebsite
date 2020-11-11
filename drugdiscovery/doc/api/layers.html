@@ -270,6 +270,25 @@
 </dd></dl>
 
 <dl class="py class">
+<dt id="drugdiscovery.layers.common.PairNorm">
+<em class="property">class </em><code class="sig-name descname">PairNorm</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">scale_individual</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#PairNorm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.PairNorm" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt id="drugdiscovery.layers.common.PairNorm.forward">
+<code class="sig-name descname">forward</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#PairNorm.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.PairNorm.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Defines the computation performed at every call.</p>
+<p>Should be overridden by all subclasses.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Although the recipe for forward pass needs to be defined within
+this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
+instead of this since the former takes care of running the
+registered hooks while the latter silently ignores them.</p>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
 <dt id="drugdiscovery.layers.common.Sequential">
 <em class="property">class </em><code class="sig-name descname">Sequential</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">global_args</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">allow_unused</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/common.html#Sequential"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.common.Sequential" title="Permalink to this definition">¶</a></dt>
 <dd><p>Improved sequential container.
@@ -333,6 +352,41 @@ registered hooks while the latter silently ignores them.</p>
 </div>
 <div class="section" id="module-drugdiscovery.layers.conv">
 <span id="layers-conv"></span><h2>layers.conv<a class="headerlink" href="#module-drugdiscovery.layers.conv" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="drugdiscovery.layers.conv.ChebyshevConv">
+<em class="property">class </em><code class="sig-name descname">ChebyshevConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">k</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ChebyshevConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ChebyshevConv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Chebyshev spectral graph convolution operator from
+<a class="reference external" href="https://arxiv.org/pdf/1606.09375.pdf">Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering</a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>output_dim</strong> (<em>int</em>) – output dimension</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
+<li><p><strong>k</strong> (<em>int</em><em>, </em><em>optional</em>) – number of Chebyshev polynomials.
+This also corresponds to the radius of the receptive field.</p></li>
+<li><p><strong>hidden_dims</strong> (<em>list of int</em><em>, </em><em>optional</em>) – hidden dims of edge network</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization on nodes or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="drugdiscovery.layers.conv.ChebyshevConv.forward">
+<code class="sig-name descname">forward</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">graph</span></em>, <em class="sig-param"><span class="n">input</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ChebyshevConv.forward"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ChebyshevConv.forward" title="Permalink to this definition">¶</a></dt>
+<dd><p>Perform message passing over the graph.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>graph</strong> (<a class="reference internal" href="data.html#drugdiscovery.data.Graph" title="drugdiscovery.data.Graph"><em>Graph</em></a>) – graph</p></li>
+<li><p><strong>input</strong> (<em>Tensor</em>) – input node representations</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
 <dl class="py class">
 <dt id="drugdiscovery.layers.conv.ContinuousFilterConv">
 <em class="property">class </em><code class="sig-name descname">ContinuousFilterConv</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">output_dim</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">hidden_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">cutoff</span><span class="o">=</span><span class="default_value">5</span></em>, <em class="sig-param"><span class="n">num_gaussian</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'shifted_softplus'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/conv.html#ContinuousFilterConv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.conv.ContinuousFilterConv" title="Permalink to this definition">¶</a></dt>
@@ -604,6 +658,24 @@ registered hooks while the latter silently ignores them.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>input</strong> (<em>Tensor</em>) – input tensor</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.variadic_cross_entropy">
+<code class="sig-name descname">variadic_cross_entropy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">target</span></em>, <em class="sig-param"><span class="n">size</span></em>, <em class="sig-param"><span class="n">reduction</span><span class="o">=</span><span class="default_value">'mean'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_cross_entropy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_cross_entropy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute cross entropy loss over variadic sizes of categories.</p>
+<p>Suppose there are <span class="math notranslate nohighlight">\(N\)</span> samples, and the number of categories in all samples is summed to :math`B`.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – prediction of shape <span class="math notranslate nohighlight">\((B,)\)</span></p></li>
+<li><p><strong>target</strong> (<em>Tensor</em>) – target of shape <span class="math notranslate nohighlight">\((N,)\)</span>. Each target is a relative index in a sample.</p></li>
+<li><p><strong>size</strong> (<em>Tensor</em>) – number of categories of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+<li><p><strong>reduction</strong> (<em>string</em><em>, </em><em>optional</em>) – reduction to apply to the output.
+Available reductions are <code class="docutils literal notranslate"><span class="pre">none</span></code>, <code class="docutils literal notranslate"><span class="pre">sum</span></code> and <code class="docutils literal notranslate"><span class="pre">mean</span></code>.</p></li>
+</ul>
 </dd>
 </dl>
 </dd></dl>

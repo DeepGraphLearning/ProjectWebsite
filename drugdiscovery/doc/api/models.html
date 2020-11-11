@@ -183,6 +183,39 @@
             
   <div class="section" id="module-drugdiscovery.models">
 <span id="drugdiscovery-models"></span><h1>drugdiscovery.models<a class="headerlink" href="#module-drugdiscovery.models" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="drugdiscovery.models.ChebyshevConvolutionalNetwork">
+<em class="property">class </em><code class="sig-name descname">ChebyshevConvolutionalNetwork</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input_dim</span></em>, <em class="sig-param"><span class="n">hidden_dims</span></em>, <em class="sig-param"><span class="n">edge_input_dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">k</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">short_cut</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">batch_norm</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">activation</span><span class="o">=</span><span class="default_value">'relu'</span></em>, <em class="sig-param"><span class="n">concat_hidden</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">readout</span><span class="o">=</span><span class="default_value">'sum'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/models/chebnet.html#ChebyshevConvolutionalNetwork"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.models.ChebyshevConvolutionalNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>Chebyshev convolutional network proposed in
+<a class="reference external" href="https://arxiv.org/pdf/1606.09375.pdf">Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering</a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input_dim</strong> (<em>int</em>) – input dimension</p></li>
+<li><p><strong>hidden_dims</strong> (<em>list of int</em>) – hidden dimensions</p></li>
+<li><p><strong>edge_input_dim</strong> (<em>int</em><em>, </em><em>optional</em>) – dimension of edge features</p></li>
+<li><p><strong>k</strong> (<em>int</em><em>, </em><em>optional</em>) – number of Chebyshev polynomials</p></li>
+<li><p><strong>short_cut</strong> (<em>bool</em><em>, </em><em>optional</em>) – use short cut or not</p></li>
+<li><p><strong>batch_norm</strong> (<em>bool</em><em>, </em><em>optional</em>) – apply batch normalization or not</p></li>
+<li><p><strong>activation</strong> (<em>str</em><em> or </em><em>function</em><em>, </em><em>optional</em>) – activation function</p></li>
+<li><p><strong>concat_hidden</strong> (<em>bool</em><em>, </em><em>optional</em>) – concat hidden representations from all layers as output</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="drugdiscovery.models.ChebyshevConvolutionalNetwork.config_dict">
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.ChebyshevConvolutionalNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the configuration dict of this instance.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="drugdiscovery.models.ChebyshevConvolutionalNetwork.load_config_dict">
+<em class="property">classmethod </em><code class="sig-name descname">load_config_dict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">config</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.ChebyshevConvolutionalNetwork.load_config_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Construct an instance from the configuration dict.</p>
+</dd></dl>
+
+</dd></dl>
+
 <dl class="py attribute">
 <dt id="drugdiscovery.models.GCN">
 <code class="sig-name descname">GCN</code><a class="headerlink" href="#drugdiscovery.models.GCN" title="Permalink to this definition">¶</a></dt>
@@ -214,7 +247,7 @@
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.GraphConvolutionalNetwork.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.GraphConvolutionalNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.GraphConvolutionalNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
@@ -248,7 +281,7 @@
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.GraphIsomorphismNetwork.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.GraphIsomorphismNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.GraphIsomorphismNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
@@ -281,7 +314,7 @@ and a transfer loss is applied between the two encoders.</p></li>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.InfoGraph.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.InfoGraph.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.InfoGraph.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
@@ -323,7 +356,7 @@ and a transfer loss is applied between the two encoders.</p></li>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.MessagePassingNeuralNetwork.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.MessagePassingNeuralNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.MessagePassingNeuralNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
@@ -361,7 +394,7 @@ and a transfer loss is applied between the two encoders.</p></li>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.NeuralFingerprint.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.NeuralFingerprint.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.NeuralFingerprint.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
@@ -399,7 +432,7 @@ and a transfer loss is applied between the two encoders.</p></li>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.RelationalGraphConvolutionalNetwork.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.RelationalGraphConvolutionalNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.RelationalGraphConvolutionalNetwork.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 
@@ -432,7 +465,7 @@ and a transfer loss is applied between the two encoders.</p></li>
 </dl>
 <dl class="py method">
 <dt id="drugdiscovery.models.SchNet.config_dict">
-<em class="property">classmethod </em><code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.SchNet.config_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">config_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.models.SchNet.config_dict" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the configuration dict of this instance.</p>
 </dd></dl>
 

@@ -187,6 +187,7 @@
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">from</span> <span class="nn">torch_scatter</span> <span class="kn">import</span> <span class="n">scatter_add</span><span class="p">,</span> <span class="n">scatter_min</span>
 
+<span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">utils</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.data</span> <span class="kn">import</span> <span class="n">Graph</span><span class="p">,</span> <span class="n">PackedGraph</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.core</span> <span class="kn">import</span> <span class="n">Registry</span> <span class="k">as</span> <span class="n">R</span>
 <span class="kn">from</span> <span class="nn">drugdiscovery.data.rdkit</span> <span class="kn">import</span> <span class="n">draw</span>
@@ -228,13 +229,15 @@
                 <span class="bp">self</span><span class="o">.</span><span class="n">chiral_tag</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_atom</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">long</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
             <span class="k">if</span> <span class="s2">&quot;radical_electrons&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">radical_electrons</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_atom</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">long</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+            <span class="k">if</span> <span class="s2">&quot;atom_map&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">atom_map</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_atom</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">long</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
 
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge</span><span class="p">():</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">as_tensor</span><span class="p">(</span><span class="n">bond_type</span><span class="p">)</span>
 
 <div class="viewcode-block" id="Molecule.from_smiles"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.from_smiles">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_smiles</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">smiles</span><span class="p">,</span> <span class="n">node_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">edge_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span>
-                    <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+                    <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Create a molecule from a SMILES string.</span>
 
@@ -246,18 +249,19 @@
 <span class="sd">            with_hydrogen (bool, optional): store hydrogens in the molecule graph.</span>
 <span class="sd">                By default, hydrogens are dropped</span>
 <span class="sd">            kekulize (bool, optional): convert aromatic bonds to single/double bonds.</span>
-<span class="sd">                By default, aromatic bonds are stored</span>
-<span class="sd">            atom_map (bool, optional): keep atom mapping number or not</span>
+<span class="sd">                Note this only affects the relation in ``edge_list``.</span>
+<span class="sd">                For ``bond_type``, aromatic bonds are always stored explicitly.</span>
+<span class="sd">                By default, aromatic bonds are stored.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">mol</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Invalid SMILES `</span><span class="si">%s</span><span class="s2">`&quot;</span> <span class="o">%</span> <span class="n">smiles</span><span class="p">)</span>
 
-        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">node_feature</span><span class="p">,</span> <span class="n">edge_feature</span><span class="p">,</span> <span class="n">graph_feature</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="p">,</span> <span class="n">atom_map</span><span class="p">)</span></div>
+        <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">node_feature</span><span class="p">,</span> <span class="n">edge_feature</span><span class="p">,</span> <span class="n">graph_feature</span><span class="p">,</span> <span class="n">with_hydrogen</span><span class="p">,</span> <span class="n">kekulize</span><span class="p">)</span></div>
 
 <div class="viewcode-block" id="Molecule.from_molecule"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.from_molecule">[docs]</a>    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_molecule</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">mol</span><span class="p">,</span> <span class="n">node_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">edge_feature</span><span class="o">=</span><span class="s2">&quot;default&quot;</span><span class="p">,</span> <span class="n">graph_feature</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-                      <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+                      <span class="n">with_hydrogen</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">kekulize</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Create a molecule from a RDKit object.</span>
 
@@ -269,24 +273,25 @@
 <span class="sd">            with_hydrogen (bool, optional): store hydrogens in the molecule graph.</span>
 <span class="sd">                By default, hydrogens are dropped</span>
 <span class="sd">            kekulize (bool, optional): convert aromatic bonds to single/double bonds.</span>
-<span class="sd">                By default, aromatic bonds are stored</span>
-<span class="sd">            atom_map (bool, optional): keep atom mapping number or not</span>
+<span class="sd">                Note this only affects the relation in ``edge_list``.</span>
+<span class="sd">                For ``bond_type``, aromatic bonds are always stored explicitly.</span>
+<span class="sd">                By default, aromatic bonds are stored.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">with_hydrogen</span><span class="p">:</span>
             <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">AddHs</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">kekulize</span><span class="p">:</span>
-            <span class="n">Chem</span><span class="o">.</span><span class="n">Kekulize</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
+            <span class="n">Chem</span><span class="o">.</span><span class="n">Kekulize</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span> <span class="c1">#, clearAromaticFlags=True)</span>
 
         <span class="n">node_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">node_feature</span><span class="p">)</span>
         <span class="n">edge_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">edge_feature</span><span class="p">)</span>
         <span class="n">graph_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">graph_feature</span><span class="p">)</span>
 
         <span class="n">atom_type</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">atom_map_num</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">formal_charge</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">explicit_hs</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">chiral_tag</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">radical_electrons</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">atom_map</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">_node_feature</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">atoms</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">mol</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">())</span> <span class="o">+</span> <span class="p">[</span><span class="bp">cls</span><span class="o">.</span><span class="n">dummy_atom</span><span class="p">]</span>
         <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">atoms</span><span class="p">:</span>
@@ -295,15 +300,14 @@
             <span class="n">explicit_hs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetNumExplicitHs</span><span class="p">())</span>
             <span class="n">chiral_tag</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetChiralTag</span><span class="p">())</span>
             <span class="n">radical_electrons</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetNumRadicalElectrons</span><span class="p">())</span>
-            <span class="k">if</span> <span class="n">atom_map</span><span class="p">:</span>
-                <span class="n">atom_map_num</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetAtomMapNum</span><span class="p">())</span>
+            <span class="n">atom_map</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atom</span><span class="o">.</span><span class="n">GetAtomMapNum</span><span class="p">())</span>
             <span class="n">feature</span> <span class="o">=</span> <span class="p">[]</span>
             <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">node_feature</span><span class="p">:</span>
                 <span class="n">func</span> <span class="o">=</span> <span class="n">R</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;features.atom.</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
                 <span class="n">feature</span> <span class="o">+=</span> <span class="n">func</span><span class="p">(</span><span class="n">atom</span><span class="p">)</span>
             <span class="n">_node_feature</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">feature</span><span class="p">)</span>
         <span class="n">atom_type</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">atom_type</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">atom_map_num</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">atom_map_num</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">atom_map</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">atom_map</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
         <span class="n">formal_charge</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">formal_charge</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
         <span class="n">explicit_hs</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">explicit_hs</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
         <span class="n">chiral_tag</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">chiral_tag</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
@@ -325,6 +329,9 @@
                 <span class="n">func</span> <span class="o">=</span> <span class="n">R</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;features.bond.</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">name</span><span class="p">)</span>
                 <span class="n">feature</span> <span class="o">+=</span> <span class="n">func</span><span class="p">(</span><span class="n">bond</span><span class="p">)</span>
             <span class="n">edge_list</span> <span class="o">+=</span> <span class="p">[[</span><span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="nb">type</span><span class="p">],</span> <span class="p">[</span><span class="n">t</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="nb">type</span><span class="p">]]</span>
+            <span class="c1"># always explicitly store aromatic bonds</span>
+            <span class="k">if</span> <span class="n">bond</span><span class="o">.</span><span class="n">GetIsAromatic</span><span class="p">():</span>
+                <span class="nb">type</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">bond2id</span><span class="p">[</span><span class="s2">&quot;AROMATIC&quot;</span><span class="p">]</span>
             <span class="n">bond_type</span> <span class="o">+=</span> <span class="p">[</span><span class="nb">type</span><span class="p">,</span> <span class="nb">type</span><span class="p">]</span>
             <span class="n">_edge_feature</span> <span class="o">+=</span> <span class="p">[</span><span class="n">feature</span><span class="p">,</span> <span class="n">feature</span><span class="p">]</span>
         <span class="n">edge_list</span> <span class="o">=</span> <span class="n">edge_list</span><span class="p">[:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
@@ -343,8 +350,7 @@
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">node</span><span class="p">():</span>
             <span class="k">if</span> <span class="n">node_feature</span><span class="p">:</span>
                 <span class="bp">self</span><span class="o">.</span><span class="n">node_feature</span> <span class="o">=</span> <span class="n">_node_feature</span>
-            <span class="k">if</span> <span class="n">atom_map</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">atom_map_num</span> <span class="o">=</span> <span class="n">atom_map_num</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">atom_map</span> <span class="o">=</span> <span class="n">atom_map</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">formal_charge</span> <span class="o">=</span> <span class="n">formal_charge</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">explicit_hs</span> <span class="o">=</span> <span class="n">explicit_hs</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">chiral_tag</span> <span class="o">=</span> <span class="n">chiral_tag</span>
@@ -386,10 +392,12 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">RWMol</span><span class="p">()</span>
         <span class="n">atom_type</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+        <span class="n">bond_type</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
         <span class="n">formal_charge</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">formal_charge</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
         <span class="n">explicit_hs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">explicit_hs</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
         <span class="n">chiral_tag</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">chiral_tag</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
         <span class="n">radical_electrons</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">radical_electrons</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+        <span class="n">atom_map</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom_map</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">):</span>
             <span class="n">atom</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">Atom</span><span class="p">(</span><span class="n">atom_type</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
             <span class="n">atom</span><span class="o">.</span><span class="n">SetFormalCharge</span><span class="p">(</span><span class="n">formal_charge</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
@@ -397,10 +405,15 @@
             <span class="n">atom</span><span class="o">.</span><span class="n">SetChiralTag</span><span class="p">(</span><span class="n">Chem</span><span class="o">.</span><span class="n">ChiralType</span><span class="p">(</span><span class="n">chiral_tag</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
             <span class="n">atom</span><span class="o">.</span><span class="n">SetNumRadicalElectrons</span><span class="p">(</span><span class="n">radical_electrons</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
             <span class="n">atom</span><span class="o">.</span><span class="n">SetNoImplicit</span><span class="p">(</span><span class="n">explicit_hs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">radical_electrons</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="n">atom</span><span class="o">.</span><span class="n">SetAtomMapNum</span><span class="p">(</span><span class="n">atom_map</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
             <span class="n">mol</span><span class="o">.</span><span class="n">AddAtom</span><span class="p">(</span><span class="n">atom</span><span class="p">)</span>
-        <span class="k">for</span> <span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="nb">type</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="o">.</span><span class="n">tolist</span><span class="p">():</span>
+        <span class="n">edge_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span><span class="p">):</span>
+            <span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="nb">type</span> <span class="o">=</span> <span class="n">edge_list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
             <span class="k">if</span> <span class="n">h</span> <span class="o">&lt;</span> <span class="n">t</span><span class="p">:</span>
-                <span class="n">mol</span><span class="o">.</span><span class="n">AddBond</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">Chem</span><span class="o">.</span><span class="n">BondType</span><span class="o">.</span><span class="n">names</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">id2bond</span><span class="p">[</span><span class="nb">type</span><span class="p">]])</span>
+                <span class="n">i</span> <span class="o">=</span> <span class="n">mol</span><span class="o">.</span><span class="n">AddBond</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">Chem</span><span class="o">.</span><span class="n">BondType</span><span class="o">.</span><span class="n">names</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">id2bond</span><span class="p">[</span><span class="nb">type</span><span class="p">]])</span>
+                <span class="n">bond</span> <span class="o">=</span> <span class="n">mol</span><span class="o">.</span><span class="n">GetBondWithIdx</span><span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+                <span class="n">bond</span><span class="o">.</span><span class="n">SetIsAromatic</span><span class="p">(</span><span class="n">bond_type</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">bond2id</span><span class="p">[</span><span class="s2">&quot;AROMATIC&quot;</span><span class="p">])</span>
         <span class="n">mol</span><span class="o">.</span><span class="n">UpdatePropertyCache</span><span class="p">()</span>
 
         <span class="k">return</span> <span class="n">mol</span></div>
@@ -420,66 +433,6 @@
         <span class="n">scaffold</span> <span class="o">=</span> <span class="n">MurckoScaffold</span><span class="o">.</span><span class="n">MurckoScaffoldSmiles</span><span class="p">(</span><span class="n">mol</span><span class="o">=</span><span class="n">mol</span><span class="p">,</span> <span class="n">includeChirality</span><span class="o">=</span><span class="n">chirality</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">scaffold</span></div>
 
-<div class="viewcode-block" id="Molecule.pack"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.pack">[docs]</a>    <span class="nd">@classmethod</span>
-    <span class="k">def</span> <span class="nf">pack</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">molecules</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">        Pack a list of molecules into a PackedMolecule object.</span>
-
-<span class="sd">        Parameters:</span>
-<span class="sd">            molecules (list of Molecule): list of molecules</span>
-
-<span class="sd">        Returns:</span>
-<span class="sd">            PackedMolecule</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">edge_list</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">num_nodes</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">num_edges</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">num_relation</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
-        <span class="n">meta</span> <span class="o">=</span> <span class="n">molecules</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">meta</span>
-        <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="n">molecules</span><span class="p">:</span>
-            <span class="n">edge_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">edge_list</span><span class="p">)</span>
-            <span class="n">num_nodes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
-            <span class="n">num_edges</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">num_edge</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">graph</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-                <span class="k">if</span> <span class="n">meta</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;graph&quot;</span><span class="p">:</span>
-                    <span class="n">v</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-                <span class="n">data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
-            <span class="k">if</span> <span class="n">num_relation</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
-                <span class="n">num_relation</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">num_relation</span>
-            <span class="k">elif</span> <span class="n">num_relation</span> <span class="o">!=</span> <span class="n">graph</span><span class="o">.</span><span class="n">num_relation</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Inconsistent `num_relation` in molecules. &quot;</span>
-                                 <span class="s2">&quot;Did you use the same `kekulize` setting for all molecules?&quot;</span><span class="p">)</span>
-
-        <span class="n">edge_list</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">(</span><span class="n">edge_list</span><span class="p">)</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
-
-        <span class="k">return</span> <span class="n">PackedMolecule</span><span class="p">(</span><span class="n">edge_list</span><span class="o">=</span><span class="n">edge_list</span><span class="p">,</span> <span class="n">num_nodes</span><span class="o">=</span><span class="n">num_nodes</span><span class="p">,</span> <span class="n">num_edges</span><span class="o">=</span><span class="n">num_edges</span><span class="p">,</span> <span class="n">num_relation</span><span class="o">=</span><span class="n">num_relation</span><span class="p">,</span>
-                              <span class="n">meta</span><span class="o">=</span><span class="n">meta</span><span class="p">,</span> <span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
-
-<div class="viewcode-block" id="Molecule.repeat"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.repeat">[docs]</a>    <span class="k">def</span> <span class="nf">repeat</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">count</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">        Repeat this molecule.</span>
-
-<span class="sd">        Parameters:</span>
-<span class="sd">            count (int): number of times</span>
-
-<span class="sd">        Returns:</span>
-<span class="sd">            PackedMolecule</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">edge_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="n">num_nodes</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">]</span> <span class="o">*</span> <span class="n">count</span>
-        <span class="n">num_edges</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span><span class="p">]</span> <span class="o">*</span> <span class="n">count</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
-        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;graph&quot;</span><span class="p">:</span>
-                <span class="n">v</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-            <span class="n">shape</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="n">v</span><span class="o">.</span><span class="n">ndim</span>
-            <span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">count</span>
-            <span class="n">data</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
-
-        <span class="k">return</span> <span class="n">PackedMolecule</span><span class="p">(</span><span class="n">edge_list</span><span class="o">=</span><span class="n">edge_list</span><span class="p">,</span> <span class="n">num_nodes</span><span class="o">=</span><span class="n">num_nodes</span><span class="p">,</span> <span class="n">num_edges</span><span class="o">=</span><span class="n">num_edges</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">,</span> <span class="o">**</span><span class="n">data</span><span class="p">)</span></div>
-
     <span class="k">def</span> <span class="nf">_maybe_num_node</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">edge_list</span><span class="p">):</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">edge_list</span><span class="p">):</span>
             <span class="k">return</span> <span class="n">edge_list</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">.</span><span class="n">item</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span>
@@ -496,42 +449,39 @@
         <span class="sd">&quot;&quot;&quot;Number of bonds.&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edge</span>
 
-    <span class="nd">@property</span>
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
     <span class="k">def</span> <span class="nf">is_valid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;A coarse implementation of valency check.&quot;&quot;&quot;</span>
         <span class="c1"># TODO: cross-check by any domain expert</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_is_valid&quot;</span><span class="p">):</span>
-            <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="nb">float</span><span class="p">[</span><span class="s2">&quot;nan&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">118</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom2valency</span><span class="p">:</span>
-                <span class="n">atom2valency</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
-            <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">as_tensor</span><span class="p">(</span><span class="n">atom2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="nb">float</span><span class="p">[</span><span class="s2">&quot;nan&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">118</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom2valency</span><span class="p">:</span>
+            <span class="n">atom2valency</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+        <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">as_tensor</span><span class="p">(</span><span class="n">atom2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
 
-            <span class="n">max_atom_valency</span> <span class="o">=</span> <span class="n">atom2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">]</span>
-            <span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
-                <span class="n">index</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">nonzero</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Fail to check valency. Unknown atom type </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
+        <span class="n">max_atom_valency</span> <span class="o">=</span> <span class="n">atom2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
+            <span class="n">index</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">nonzero</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Fail to check valency. Unknown atom type </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
 
-            <span class="n">bond2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-            <span class="n">atom_valency</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="n">bond2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span>
-                                       <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid</span> <span class="o">=</span> <span class="p">(</span><span class="n">atom_valency</span> <span class="o">&lt;=</span> <span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid</span>
+        <span class="n">bond2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">atom_valency</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="n">bond2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span>
+                                   <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
+        <span class="n">is_valid</span> <span class="o">=</span> <span class="p">(</span><span class="n">atom_valency</span> <span class="o">&lt;=</span> <span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">is_valid</span>
 
-    <span class="nd">@property</span>
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
     <span class="k">def</span> <span class="nf">is_valid_rdkit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_is_valid_rdkit&quot;</span><span class="p">):</span>
-            <span class="n">mol</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">()</span>
-            <span class="c1"># suppress rdkit loggings</span>
-            <span class="n">RDLogger</span><span class="o">.</span><span class="n">DisableLog</span><span class="p">(</span><span class="s2">&quot;rdApp.*&quot;</span><span class="p">)</span>
-            <span class="k">try</span><span class="p">:</span>
+        <span class="n">mol</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">()</span>
+        <span class="c1"># suppress rdkit loggings</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">with</span> <span class="n">utils</span><span class="o">.</span><span class="n">no_rdkit_log</span><span class="p">():</span>
                 <span class="n">Chem</span><span class="o">.</span><span class="n">SanitizeMol</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">sanitizeOps</span><span class="o">=</span><span class="n">Chem</span><span class="o">.</span><span class="n">SanitizeFlags</span><span class="o">.</span><span class="n">SANITIZE_PROPERTIES</span><span class="p">)</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-            <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-            <span class="n">RDLogger</span><span class="o">.</span><span class="n">EnableLog</span><span class="p">(</span><span class="s2">&quot;rdApp.*&quot;</span><span class="p">)</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span>
+            <span class="n">is_valid</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+            <span class="n">is_valid</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">is_valid</span>
 
-<div class="viewcode-block" id="Molecule.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">ax</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="Molecule.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">ax</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Visualize this molecule with matplotlib.</span>
 
@@ -541,6 +491,7 @@
 <span class="sd">                If not provided, show the figure in window.</span>
 <span class="sd">            figure_size (tuple of int, optional): width and height of the figure</span>
 <span class="sd">            ax (matplotlib.axes.Axes, optional): axis to plot the figure</span>
+<span class="sd">            atom_map (bool, optional): visualize atom mapping or not</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">is_root</span> <span class="o">=</span> <span class="n">ax</span> <span class="ow">is</span> <span class="kc">None</span>
         <span class="k">if</span> <span class="n">ax</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
@@ -552,7 +503,11 @@
         <span class="k">if</span> <span class="n">title</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
 
-        <span class="n">draw</span><span class="o">.</span><span class="n">MolToMPL</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">(),</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+        <span class="n">mol</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">atom_map</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">mol</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">():</span>
+                <span class="n">atom</span><span class="o">.</span><span class="n">SetAtomMapNum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">draw</span><span class="o">.</span><span class="n">MolToMPL</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
         <span class="n">ax</span><span class="o">.</span><span class="n">set_frame_on</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">is_root</span><span class="p">:</span>
@@ -580,6 +535,8 @@
 <span class="sd">            If provided, nodes in `edge_list` should be absolute index, i.e., the index in the packed graph.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
+    <span class="n">unpacked_type</span> <span class="o">=</span> <span class="n">Molecule</span>
+
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">edge_list</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">atom_type</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">bond_type</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_nodes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_edges</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">offsets</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
                  <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="k">if</span> <span class="s2">&quot;num_relation&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="p">:</span>
@@ -593,54 +550,31 @@
         <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge</span><span class="p">():</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span> <span class="o">=</span> <span class="n">bond_type</span>
 
-<div class="viewcode-block" id="PackedMolecule.get_item"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedMolecule.get_item">[docs]</a>    <span class="k">def</span> <span class="nf">get_item</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
-        <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">        Get the i-th molecule from this packed molecule.</span>
-
-<span class="sd">        Parameters:</span>
-<span class="sd">            index (int): graph index</span>
-
-<span class="sd">        Returns:</span>
-<span class="sd">            Molecule</span>
-<span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">node_index</span> <span class="o">=</span> <span class="nb">slice</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_cum_nodes</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_nodes</span><span class="p">[</span><span class="n">index</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_cum_nodes</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
-        <span class="n">edge_index</span> <span class="o">=</span> <span class="nb">slice</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num_cum_edges</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_edges</span><span class="p">[</span><span class="n">index</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">num_cum_edges</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
-        <span class="n">edge_list</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[</span><span class="n">edge_index</span><span class="p">]</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
-        <span class="n">edge_list</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]</span> <span class="o">-=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_offsets</span><span class="p">[</span><span class="n">edge_index</span><span class="p">]</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data_mask</span><span class="p">(</span><span class="n">node_index</span><span class="p">,</span> <span class="n">edge_index</span><span class="p">)</span>
-
-        <span class="n">mol</span> <span class="o">=</span> <span class="n">Molecule</span><span class="p">(</span><span class="n">edge_list</span><span class="p">,</span> <span class="n">num_node</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_nodes</span><span class="p">[</span><span class="n">index</span><span class="p">],</span> <span class="n">num_relation</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_relation</span><span class="p">,</span>
-                       <span class="n">meta</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">meta</span><span class="p">,</span> <span class="o">**</span><span class="n">data</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">mol</span></div>
-
-    <span class="nd">@property</span>
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
     <span class="k">def</span> <span class="nf">is_valid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;A coarse implementation of valency check.&quot;&quot;&quot;</span>
         <span class="c1"># TODO: cross-check by any domain expert</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_is_valid&quot;</span><span class="p">):</span>
-            <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s2">&quot;nan&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">118</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom2valency</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-                <span class="n">atom2valency</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
-            <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">as_tensor</span><span class="p">(</span><span class="n">atom2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="s2">&quot;nan&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">118</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom2valency</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">atom2valency</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+        <span class="n">atom2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">as_tensor</span><span class="p">(</span><span class="n">atom2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
 
-            <span class="n">max_atom_valency</span> <span class="o">=</span> <span class="n">atom2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">]</span>
-            <span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
-                <span class="n">index</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">nonzero</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Fail to check valency. Unknown atom type </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
+        <span class="n">max_atom_valency</span> <span class="o">=</span> <span class="n">atom2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">any</span><span class="p">():</span>
+            <span class="n">index</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">max_atom_valency</span><span class="p">)</span><span class="o">.</span><span class="n">nonzero</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Fail to check valency. Unknown atom type </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">atom_type</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
 
-            <span class="n">bond2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
-            <span class="n">atom_valency</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="n">bond2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
-            <span class="n">is_valid</span> <span class="o">=</span> <span class="n">atom_valency</span> <span class="o">&lt;=</span> <span class="n">max_atom_valency</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid</span> <span class="o">=</span> <span class="n">scatter_min</span><span class="p">(</span><span class="n">is_valid</span><span class="o">.</span><span class="n">long</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">node2graph</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">bool</span><span class="p">()</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid</span>
+        <span class="n">bond2valency</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">bond2valency</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">atom_valency</span> <span class="o">=</span> <span class="n">scatter_add</span><span class="p">(</span><span class="n">bond2valency</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">bond_type</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
+        <span class="n">is_valid</span> <span class="o">=</span> <span class="n">atom_valency</span> <span class="o">&lt;=</span> <span class="n">max_atom_valency</span>
+        <span class="n">is_valid</span> <span class="o">=</span> <span class="n">scatter_min</span><span class="p">(</span><span class="n">is_valid</span><span class="o">.</span><span class="n">long</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">node2graph</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">bool</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">is_valid</span>
 
-    <span class="nd">@property</span>
+    <span class="nd">@utils</span><span class="o">.</span><span class="n">cached_property</span>
     <span class="k">def</span> <span class="nf">is_valid_rdkit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s2">&quot;_is_valid_rdkit&quot;</span><span class="p">):</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">mol</span><span class="o">.</span><span class="n">is_valid_rdkit</span> <span class="k">for</span> <span class="n">mol</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">])</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_valid_rdkit</span>
+        <span class="k">return</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">mol</span><span class="o">.</span><span class="n">is_valid_rdkit</span> <span class="k">for</span> <span class="n">mol</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">])</span>
 
-<div class="viewcode-block" id="PackedMolecule.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedMolecule.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">titles</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">num_row</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_col</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="PackedMolecule.visualize"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.PackedMolecule.visualize">[docs]</a>    <span class="k">def</span> <span class="nf">visualize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">titles</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">figure_size</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="n">num_row</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">num_col</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">        Visualize the packed molecules with matplotlib.</span>
 
@@ -651,6 +585,7 @@
 <span class="sd">            figure_size (tuple of int, optional): width and height of the figure</span>
 <span class="sd">            num_row (int, optional): number of rows in the figure</span>
 <span class="sd">            num_col (int, optional): number of columns in the figure</span>
+<span class="sd">            atom_map (bool, optional): visualize atom mapping or not</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">if</span> <span class="n">titles</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
             <span class="n">graph</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -669,7 +604,7 @@
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">batch_size</span><span class="p">):</span>
             <span class="n">graph</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_item</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
             <span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">num_row</span><span class="p">,</span> <span class="n">num_col</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-            <span class="n">graph</span><span class="o">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">titles</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+            <span class="n">graph</span><span class="o">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">titles</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="n">atom_map</span><span class="p">)</span>
         <span class="c1"># remove the space of axis labels</span>
         <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 
@@ -677,6 +612,9 @@
             <span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="n">save_file</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></div></div>
+
+
+<span class="n">Molecule</span><span class="o">.</span><span class="n">packed_type</span> <span class="o">=</span> <span class="n">PackedMolecule</span>
 </pre></div>
 
            </div>
