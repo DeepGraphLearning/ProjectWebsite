@@ -9,7 +9,7 @@
     {{ author }}{% if author != paper.authors.last %},{% endif %}
     {% endfor %}
     <br>
-    {% if paper.conference %}{{ paper.conference }}{% endif %}
+    {% if paper.conference %}<b class="text-red" style="padding-right: 10px">{{ paper.conference }}</b>{% endif %}
     {% for item in paper.links %}
     <a href="{{ item[1] | absolute_url }}" style="padding-right: 10px">{{ item[0] }}</a>
     {% endfor %}

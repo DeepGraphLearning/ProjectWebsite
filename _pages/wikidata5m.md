@@ -6,6 +6,7 @@ image: /assets/images/wikidata5m.jpg
 papers:
   - title: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation"
     authors: [Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhiyuan Liu, Juanzi Li, Jian Tang]
+    conference: TACL 2020
     links:
       arXiv: https://arxiv.org/pdf/1911.06136.pdf
       BibTeX: /bibtex/kepler.txt
@@ -27,11 +28,13 @@ The dataset is distributed as a knowledge graph, a corpus, and aliases. Besides,
 
 Data
 ----
-- [Knowledge graph], 169 MB. [Inductive setting], 160 MB.
-- [Corpus], 962 MB.
+- [Knowledge graph (aligned)], 102 MB. [Knowledge graph (full)], 168 MB.
+- [Inductive setting], 160 MB.
+- [Corpus], 991 MB.
 - [Entity & relation aliases], 117 MB.
 
-[Knowledge graph]: https://www.dropbox.com/s/86gukevtdbhpcbk/wikidata5m_triplet.txt.gz?dl=1
+[Knowledge graph (aligned)]: https://www.dropbox.com/s/2yb1p9bsc50bm7p/wikidata5m_triplet.txt.gz?dl=1
+[Knowledge graph (full)]: https://www.dropbox.com/s/563omb11cxaqr83/wikidata5m_all_triplet.txt.gz?dl=1
 [Inductive setting]: https://www.dropbox.com/s/csed3cgal3m7rzo/wikidata5m_inductive.tar.gz?dl=1
 [Corpus]: https://www.dropbox.com/s/7jp4ib8zo3i6m10/wikidata5m_text.txt.gz?dl=1
 [Entity & relation aliases]: https://www.dropbox.com/s/s1q38yzqzvuodl3/wikidata5m_alias.tar.gz?dl=1
