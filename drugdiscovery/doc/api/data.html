@@ -327,6 +327,7 @@ By default, it will be inferred from the largest id in <cite>edge_list</cite></p
 <dt id="drugdiscovery.data.Graph.edge_mask">
 <code class="sig-name descname">edge_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.edge_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.edge_mask" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a masked graph based on the specified edges.</p>
+<p>This function can also be used to re-order the edges.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>index</strong> (<em>array_like</em>) – edge index</p>
@@ -421,6 +422,7 @@ For zero entries in the adjacency matrix, their edge features will be ignored.</
 <dt id="drugdiscovery.data.Graph.node_mask">
 <code class="sig-name descname">node_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em>, <em class="sig-param"><span class="n">compact</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#Graph.node_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Graph.node_mask" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a masked graph based on the specified nodes.</p>
+<p>This function can also be used to re-order the nodes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -662,6 +664,7 @@ Each tuple is (node_in, node_out, bond_type).</p></li>
 <dt id="drugdiscovery.data.Molecule.edge_mask">
 <code class="sig-name descname">edge_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.edge_mask" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a masked graph based on the specified edges.</p>
+<p>This function can also be used to re-order the edges.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>index</strong> (<em>array_like</em>) – edge index</p>
@@ -800,6 +803,7 @@ By default, aromatic bonds are stored.</p></li>
 <dt id="drugdiscovery.data.Molecule.node_mask">
 <code class="sig-name descname">node_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em>, <em class="sig-param"><span class="n">compact</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.Molecule.node_mask" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a masked graph based on the specified nodes.</p>
+<p>This function can also be used to re-order the nodes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -1277,6 +1281,7 @@ The computation can be implemented as message passing over a fully connected gra
 <dt id="drugdiscovery.data.PackedGraph.graph_mask">
 <code class="sig-name descname">graph_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em>, <em class="sig-param"><span class="n">compact</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.graph_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.graph_mask" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a masked packed graph based on the specified graphs.</p>
+<p>This function can also be used to re-order the graphs.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -1734,6 +1739,7 @@ The computation can be implemented as message passing over a fully connected gra
 <dt id="drugdiscovery.data.PackedMolecule.graph_mask">
 <code class="sig-name descname">graph_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em>, <em class="sig-param"><span class="n">compact</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.graph_mask" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a masked packed graph based on the specified graphs.</p>
+<p>This function can also be used to re-order the graphs.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">

@@ -259,19 +259,19 @@ bond: original bond feature</p></li>
 
 <dl class="py method">
 <dt id="drugdiscovery.tasks.CenterIdentification.predict_synthon">
-<code class="sig-name descname">predict_synthon</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">batch</span></em>, <em class="sig-param"><span class="n">top_k</span><span class="o">=</span><span class="default_value">1</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/tasks/retrosynthesis.html#CenterIdentification.predict_synthon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.tasks.CenterIdentification.predict_synthon" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">predict_synthon</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">batch</span></em>, <em class="sig-param"><span class="n">k</span><span class="o">=</span><span class="default_value">1</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/tasks/retrosynthesis.html#CenterIdentification.predict_synthon"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.tasks.CenterIdentification.predict_synthon" title="Permalink to this definition">¶</a></dt>
 <dd><p>Predict top-k synthons from target molecules.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>batch</strong> (<em>dict</em>) – batch of target molecules</p></li>
-<li><p><strong>top_k</strong> (<em>int</em><em>, </em><em>optional</em>) – return top-k results</p></li>
+<li><p><strong>k</strong> (<em>int</em><em>, </em><em>optional</em>) – return top-k results</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><dl class="simple">
-<dt>top k records</dt><dd><p>Each record is a batch dict of keys <code class="docutils literal notranslate"><span class="pre">synthon</span></code>, <code class="docutils literal notranslate"><span class="pre">num_synthon</span></code>, <code class="docutils literal notranslate"><span class="pre">reaction_center</span></code>
-and <code class="docutils literal notranslate"><span class="pre">log_likelihood</span></code>.</p>
+<dt>top k records</dt><dd><p>Each record is a batch dict of keys <code class="docutils literal notranslate"><span class="pre">synthon</span></code>, <code class="docutils literal notranslate"><span class="pre">num_synthon</span></code>, <code class="docutils literal notranslate"><span class="pre">reaction_center</span></code>,
+<code class="docutils literal notranslate"><span class="pre">log_likelihood</span></code> and <code class="docutils literal notranslate"><span class="pre">reaction</span></code>.</p>
 </dd>
 </dl>
 </p>

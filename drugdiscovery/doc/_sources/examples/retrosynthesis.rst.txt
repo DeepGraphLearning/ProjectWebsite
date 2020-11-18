@@ -30,10 +30,10 @@ completion.
     from drugdiscovery import datasets
 
     reaction_dataset = datasets.USPTO50k("~/molecule-datasets/",
-                                         node_feature="reaction_center_identification",
+                                         node_feature="reaction_reaction_identification",
                                          kekulize=True)
     synthon_dataset = datasets.USPTO50k("~/molecule-dataset/", as_synthon=True,
-                                        node_feature="reaction_center_identification"
+                                        node_feature="synthon_completion",
                                         kekulize=True)
 
 Then we visualize some samples from the dataset. For the reaction dataset, we can
@@ -94,19 +94,19 @@ other graph representation learning models can also be used here.
 
     from drugdiscovery import core, models, tasks
 
-    model = models.RGCN(input_dim=dataset.node_feature_dim,
+    reaction_model = models.RGCN(input_dim=dataset.node_feature_dim,
                         hidden_dims=[256, 256, 256, 256],
                         num_relation=dataset.num_bond_type,
                         short_cut=True)
-    task = tasks.CenterIdentification(model, feature=("graph", "atom", "bond"))
+    reaction_task = tasks.CenterIdentification(model, feature=("graph", "atom", "bond"))
 
 .. code:: python
 
-    optimizer = torch.optim.Adam(task.parameters(), lr=1e-3)
-    solver = core.Engine(task, reaction_train, reaction_valid, reaction_test, optimizer,
+    reaction_optimizer = torch.optim.Adam(reaction_task.parameters(), lr=1e-3)
+    reaction_solver = core.Engine(reaction_task, reaction_train, reaction_valid, reaction_test, optimizer,
                          gpus=[0], batch_size=128)
-    solver.train(num_epoch=10)
-    solver.evaluate("valid")
+    reaction_solver.train(num_epoch=10)
+    reaction_solver.evaluate("valid")
 
 The evaluation result on the validation set may look like
 
@@ -121,15 +121,15 @@ from 4 different reaction types.
 
     batch = []
     reaction_set = set()
-    for sample in valid_set:
+    for sample in reaction_valid:
         if sample["reaction"] not in reaction_set:
-            batch.append(sample)
             reaction_set.add(sample["reaction"])
+            batch.append(sample)
             if len(batch) == 4:
                 break
     batch = data.graph_collate(batch)
     batch = utils.cuda(batch)
-    result = task.predict_synthon(batch)
+    result = reaction_task.predict_synthon(batch)
 
 The following code visualizes the ground truths as well as our predictions on the
 samples. We use blue for ground truths, red for wrong predictions, and purple for
@@ -149,7 +149,7 @@ correct predictions.
         return atoms, bonds
 
     products = batch["graph"][1]
-    reaction_centers = result["reaction_center"][0]
+    reaction_centers = result["reaction_center"]
 
     for i, product in enumerate(products):
         true_atoms, true_bonds = atoms_and_bonds(product, product.reaction_center)
@@ -183,17 +183,107 @@ correct predictions.
 
         plot.highlight(product, atoms, bonds, atom_colors, bond_colors)
 
-.. image:: ../../../asset/dataset/uspto50k_center_valid_0.png
+.. image:: ../../../asset/dataset/uspto50k_reaction_g2gs_valid_0.png
     :width: 24%
-.. image:: ../../../asset/dataset/uspto50k_center_valid_1.png
+.. image:: ../../../asset/dataset/uspto50k_reaction_g2gs_valid_1.png
     :width: 24%
-.. image:: ../../../asset/dataset/uspto50k_center_valid_2.png
+.. image:: ../../../asset/dataset/uspto50k_reaction_g2gs_valid_2.png
     :width: 24%
-.. image:: ../../../asset/dataset/uspto50k_center_valid_3.png
+.. image:: ../../../asset/dataset/uspto50k_reaction_g2gs_valid_3.png
     :width: 24%
 
 Synthon Completion
 ------------------
 
+Similarly, we train a synthon completion model on the synthon dataset. For
+demonstration, we only train the model for 10 epochs, while more epochs can
+give better results.
+
+.. code:: python
+
+    synthon_model = models.RGCN(input_dim=dataset.node_feature_dim,
+                                hidden_dims=[256, 256, 256],
+                                num_relation=dataset.num_bond_type,
+                                short_cut=True)
+    synthon_task = tasks.SynthonCompletion(synthon_model, feature=("graph",))
+
+    synthon_optimizer = torch.optim.Adam(synthon_task.parameters(), lr=1e-3)
+    synthon_solver = core.Engine(synthon_task, synthon_train, synthon_valid, synthon_test, optimizer,
+                                 gpus=[0], batch_size=64)
+    synthon_solver.train(10)
+    synthon_solver.evaluate("valid")
+
+We may obtain some results like
+
+.. code:: bash
+
+    bond accuracy: 0.982559
+    node in accuracy: 0.966307
+    node out accuracy: 0.891787
+    stop accuracy: 0.93474
+    total accuracy: 0.848761
+
+We then perform beam search to generate reactant candidates.
+
+.. code:: python
+
+    batch = []
+    reaction_set = set()
+    for sample in synthon_valid:
+        if sample["reaction"] not in reaction_set:
+            reaction_set.add(sample["reaction"])
+            batch.append(sample)
+            if len(batch) == 4:
+                break
+    batch = data.graph_collate(batch)
+    batch = utils.cuda(batch)
+    reactants, synthons = batch["graph"]
+    predictions = synthon_task.predict_reactant(batch, num_beam=10, max_prediction=5)
+
+    synthon_id = 0
+    i = 0
+    titles = []
+    graphs = []
+    for prediction in predictions:
+        if synthon_id != prediction.synthon_id:
+            synthon_id = prediction.synthon_id.item()
+            i = 0
+            graphs.append(reactants[synthon_id])
+            titles.append("Truth %d" % synthon_id)
+        i += 1
+        graphs.append(prediction)
+        if reactants[synthon_id] == prediction:
+            titles.append("Prediction %d-%d, Correct!" % (synthon_id, i))
+        else:
+            titles.append("Prediction %d-%d" % (synthon_id, i))
+
+    # reset attrbutes so that pack can work properly
+    for i in range(len(graphs)):
+        graphs[i] = data.Molecule.from_molecule(graphs[i].to_molecule())
+    graphs = data.PackedMolecule.pack(graphs)
+    graphs.visualize(titles, save_file="uspto50k_synthon_valid.png", num_col=6)
+
+For each row in the visualization, the first molecule corresponds to the ground truth.
+The rest molecules are candidates from beam search, ordered by their log likelihood.
+We can see that our model can recall ground truth in top-5 predictions for some samples.
+
+.. image:: ../../../asset/dataset/uspto50k_synthon_g2gs_valid.png
+
 Retrosynthesis
 --------------
+
+Given the trained models, we can combine them into an end2end pipeline. This
+is done by wrapping the two sub tasks into a retrosynthesis task.
+
+.. code:: python
+
+    task = tasks.Retrosynthesis(reaction_task, synthon_task)
+
+In the case we want to load models from checkpoints, we may use the following
+code.
+
+.. code:: python
+
+    asdfasdf
+
+.. code:: python

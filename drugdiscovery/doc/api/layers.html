@@ -572,6 +572,20 @@ This also corresponds to the radius of the receptive field.</p></li>
 <div class="section" id="module-drugdiscovery.layers.functional">
 <span id="layers-functional"></span><h2>layers.functional<a class="headerlink" href="#module-drugdiscovery.layers.functional" title="Permalink to this headline">¶</a></h2>
 <dl class="py function">
+<dt id="drugdiscovery.layers.functional.as_mask">
+<code class="sig-name descname">as_mask</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">indexes</span></em>, <em class="sig-param"><span class="n">length</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#as_mask"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.as_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert indexes into a binary mask.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>indexes</strong> (<em>LongTensor</em>) – positive indexes</p></li>
+<li><p><strong>length</strong> (<em>int</em>) – maximal possible value of indexes</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
 <dt id="drugdiscovery.layers.functional.masked_mean">
 <code class="sig-name descname">masked_mean</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">mask</span></em>, <em class="sig-param"><span class="n">dim</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">keepdim</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#masked_mean"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.masked_mean" title="Permalink to this definition">¶</a></dt>
 <dd><p>Masked mean of a tensor.</p>
@@ -614,8 +628,8 @@ This also corresponds to the radius of the receptive field.</p></li>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>starts</strong> (<em>Tensor</em>) – start indexes of slices</p></li>
-<li><p><strong>ends</strong> (<em>Tensor</em>) – end indexes of slices</p></li>
+<li><p><strong>starts</strong> (<em>LongTensor</em>) – start indexes of slices</p></li>
+<li><p><strong>ends</strong> (<em>LongTensor</em>) – end indexes of slices</p></li>
 <li><p><strong>length</strong> (<em>int</em>) – length of mask</p></li>
 </ul>
 </dd>
@@ -665,17 +679,71 @@ This also corresponds to the radius of the receptive field.</p></li>
 <dl class="py function">
 <dt id="drugdiscovery.layers.functional.variadic_cross_entropy">
 <code class="sig-name descname">variadic_cross_entropy</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">target</span></em>, <em class="sig-param"><span class="n">size</span></em>, <em class="sig-param"><span class="n">reduction</span><span class="o">=</span><span class="default_value">'mean'</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_cross_entropy"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_cross_entropy" title="Permalink to this definition">¶</a></dt>
-<dd><p>Compute cross entropy loss over variadic sizes of categories.</p>
+<dd><p>Compute cross entropy loss over categories with variadic sizes.</p>
 <p>Suppose there are <span class="math notranslate nohighlight">\(N\)</span> samples, and the number of categories in all samples is summed to :math`B`.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>input</strong> (<em>Tensor</em>) – prediction of shape <span class="math notranslate nohighlight">\((B,)\)</span></p></li>
-<li><p><strong>target</strong> (<em>Tensor</em>) – target of shape <span class="math notranslate nohighlight">\((N,)\)</span>. Each target is a relative index in a sample.</p></li>
-<li><p><strong>size</strong> (<em>Tensor</em>) – number of categories of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+<li><p><strong>input</strong> (<em>Tensor</em>) – prediction of shape <span class="math notranslate nohighlight">\((B, ...)\)</span></p></li>
+<li><p><strong>target</strong> (<em>Tensor</em>) – target of shape <span class="math notranslate nohighlight">\((N, ...)\)</span>. Each target is a relative index in a sample.</p></li>
+<li><p><strong>size</strong> (<em>LongTensor</em>) – number of categories of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
 <li><p><strong>reduction</strong> (<em>string</em><em>, </em><em>optional</em>) – reduction to apply to the output.
 Available reductions are <code class="docutils literal notranslate"><span class="pre">none</span></code>, <code class="docutils literal notranslate"><span class="pre">sum</span></code> and <code class="docutils literal notranslate"><span class="pre">mean</span></code>.</p></li>
 </ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.variadic_log_softmax">
+<code class="sig-name descname">variadic_log_softmax</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">size</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_log_softmax"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_log_softmax" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute log softmax over categories with variadic sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – input of shape <span class="math notranslate nohighlight">\((B, ...)\)</span></p></li>
+<li><p><strong>size</strong> (<em>LongTensor</em>) – size of sets of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.variadic_max">
+<code class="sig-name descname">variadic_max</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">size</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_max"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_max" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute max over sets with variadic sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – input of shape <span class="math notranslate nohighlight">\((B, ...)\)</span></p></li>
+<li><p><strong>size</strong> (<em>LongTensor</em>) – size of sets of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Returns</dt><dd><p>(Tensor, LongTensor): max values and indexes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.variadic_topk">
+<code class="sig-name descname">variadic_topk</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">size</span></em>, <em class="sig-param"><span class="n">k</span></em>, <em class="sig-param"><span class="n">largest</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_topk"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_topk" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the <span class="math notranslate nohighlight">\(k\)</span> largest elements over sets with variadic sizes.</p>
+<p>If any set has less than than <span class="math notranslate nohighlight">\(k\)</span> elements, the size-th largest element will be
+repeated to pad the output to <span class="math notranslate nohighlight">\(k\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – input of shape <span class="math notranslate nohighlight">\((B, ...)\)</span></p></li>
+<li><p><strong>size</strong> (<em>LongTensor</em>) – size of sets of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+<li><p><strong>k</strong> (<em>int</em>) – the k in “top-k”</p></li>
+<li><p><strong>largest</strong> (<em>bool</em><em>, </em><em>optional</em>) – return largest or smallest elements</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Returns</dt><dd><p>(Tensor, LongTensor): top-k values and indexes</p>
 </dd>
 </dl>
 </dd></dl>
