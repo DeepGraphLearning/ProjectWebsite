@@ -16,11 +16,17 @@ Info
 ----
 Wikidata5m is a million-scale knowledge graph dataset with aligned corpus. This dataset integrates the [Wikidata] knowledge graph and [Wikipedia] pages. Each entity in Wikidata5m is described by a corresponding Wikipedia page, which enables the evaluation of link prediction over unseen entities.
 
-The dataset is distributed as a knowledge graph, a corpus, and aliases. Besides, we also provide the inductive splits used in the [original paper].
+The dataset is distributed as a knowledge graph, a corpus, and aliases. We provide both transductive and inductive data splits used in the [original paper].
 
-| #Entity    | #Relation | #Triplet   |
-|------------|-----------|------------|
-| 4,818,679  | 828       | 21,354,359 |
+| Setting      |       | #Entity    | #Relation | #Triplet   |
+|--------------|-------|------------|-----------|------------|
+| Transductive | Train | 4,594,485  | 822       | 20,614,279 |
+|              | Valid | 4,594,485  | 822       | 5,163      |
+|              | Test  | 4,594,485  | 822       | 5,133      |
+|--------------|-------|------------|-----------|------------|
+| Inductive    | Train | 4,579,609  | 822       | 20,496,514 |
+|              | Valid | 7,374      | 199       | 6,699      |
+|              | Test  | 7,475      | 201       | 6,894      |
 
 [Wikidata]: https://www.wikidata.org
 [Wikipedia]: https://www.wikipedia.org/
@@ -28,14 +34,15 @@ The dataset is distributed as a knowledge graph, a corpus, and aliases. Besides,
 
 Data
 ----
-- [Knowledge graph (aligned)], 102 MB. [Knowledge graph (full)], 168 MB.
-- [Inductive setting], 160 MB.
+- Knowledge graph: [Transductive split], 160 MB. [Inductive split], 160 MB. [Raw], 168 MB.
 - [Corpus], 991 MB.
 - [Entity & relation aliases], 117 MB.
 
-[Knowledge graph (aligned)]: https://www.dropbox.com/s/2yb1p9bsc50bm7p/wikidata5m_triplet.txt.gz?dl=1
-[Knowledge graph (full)]: https://www.dropbox.com/s/563omb11cxaqr83/wikidata5m_all_triplet.txt.gz?dl=1
-[Inductive setting]: https://www.dropbox.com/s/csed3cgal3m7rzo/wikidata5m_inductive.tar.gz?dl=1
+For raw knowledge graph, it may also contain entities that do not have corresponding Wikipedia pages.
+
+[Transductive split]: https://www.dropbox.com/s/6sbhm0rwo4l73jq/wikidata5m_transductive.tar.gz?dl=1
+[Inductive split]: https://www.dropbox.com/s/csed3cgal3m7rzo/wikidata5m_inductive.tar.gz?dl=1
+[Raw]: https://www.dropbox.com/s/563omb11cxaqr83/wikidata5m_all_triplet.txt.gz?dl=1
 [Corpus]: https://www.dropbox.com/s/7jp4ib8zo3i6m10/wikidata5m_text.txt.gz?dl=1
 [Entity & relation aliases]: https://www.dropbox.com/s/s1q38yzqzvuodl3/wikidata5m_alias.tar.gz?dl=1
 
