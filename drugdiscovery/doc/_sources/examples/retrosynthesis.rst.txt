@@ -95,24 +95,24 @@ other graph representation learning models can also be used here.
     from drugdiscovery import core, models, tasks
 
     reaction_model = models.RGCN(input_dim=dataset.node_feature_dim,
-                        hidden_dims=[256, 256, 256, 256],
+                        hidden_dims=[256, 256, 256, 256, 256, 256],
                         num_relation=dataset.num_bond_type,
-                        short_cut=True)
+                        concat_hidden=True)
     reaction_task = tasks.CenterIdentification(model, feature=("graph", "atom", "bond"))
 
 .. code:: python
 
     reaction_optimizer = torch.optim.Adam(reaction_task.parameters(), lr=1e-3)
-    reaction_solver = core.Engine(reaction_task, reaction_train, reaction_valid, reaction_test, optimizer,
-                         gpus=[0], batch_size=128)
-    reaction_solver.train(num_epoch=10)
+    reaction_solver = core.Engine(reaction_task, reaction_train, reaction_valid, reaction_test,
+                                  optimizer, gpus=[0], batch_size=128)
+    reaction_solver.train(num_epoch=50)
     reaction_solver.evaluate("valid")
 
 The evaluation result on the validation set may look like
 
 .. code:: bash
 
-    accuracy: 0.795255
+    accuracy: 0.836367
 
 We can show some predictions from our model. For diversity, we collect samples
 from 4 different reaction types.
@@ -139,7 +139,8 @@ correct predictions.
 
     def atoms_and_bonds(molecule, reaction_center):
         is_reaction_atom = (molecule.atom_map > 0) & \
-                           (molecule.atom_map.unsqueeze(-1) == reaction_center.unsqueeze(0)).any(dim=-1)
+                           (molecule.atom_map.unsqueeze(-1) == \
+                            reaction_center.unsqueeze(0)).any(dim=-1)
         node_in, node_out = molecule.edge_list.t()[:2]
         edge_map = molecule.atom_map[molecule.edge_list[:, :2]]
         is_reaction_bond = (edge_map > 0).all(dim=-1) & \
@@ -195,21 +196,19 @@ correct predictions.
 Synthon Completion
 ------------------
 
-Similarly, we train a synthon completion model on the synthon dataset. For
-demonstration, we only train the model for 10 epochs, while more epochs can
-give better results.
+Similarly, we train a synthon completion model on the synthon dataset.
 
 .. code:: python
 
     synthon_model = models.RGCN(input_dim=dataset.node_feature_dim,
-                                hidden_dims=[256, 256, 256],
+                                hidden_dims=[256, 256, 256, 256, 256, 256],
                                 num_relation=dataset.num_bond_type,
-                                short_cut=True)
+                                concat_hidden=True)
     synthon_task = tasks.SynthonCompletion(synthon_model, feature=("graph",))
 
     synthon_optimizer = torch.optim.Adam(synthon_task.parameters(), lr=1e-3)
-    synthon_solver = core.Engine(synthon_task, synthon_train, synthon_valid, synthon_test, optimizer,
-                                 gpus=[0], batch_size=64)
+    synthon_solver = core.Engine(synthon_task, synthon_train, synthon_valid, synthon_test,
+                                 optimizer, gpus=[0], batch_size=128)
     synthon_solver.train(10)
     synthon_solver.evaluate("valid")
 
@@ -217,11 +216,11 @@ We may obtain some results like
 
 .. code:: bash
 
-    bond accuracy: 0.982559
-    node in accuracy: 0.966307
-    node out accuracy: 0.891787
-    stop accuracy: 0.93474
-    total accuracy: 0.848761
+    bond accuracy: 0.983013
+    node in accuracy: 0.967535
+    node out accuracy: 0.892999
+    stop accuracy: 0.929348
+    total accuracy: 0.844374
 
 We then perform beam search to generate reactant candidates.
 
@@ -238,9 +237,10 @@ We then perform beam search to generate reactant candidates.
     batch = data.graph_collate(batch)
     batch = utils.cuda(batch)
     reactants, synthons = batch["graph"]
+    reactants = reactants.ion_to_molecule()
     predictions = synthon_task.predict_reactant(batch, num_beam=10, max_prediction=5)
 
-    synthon_id = 0
+    synthon_id = -1
     i = 0
     titles = []
     graphs = []
@@ -257,33 +257,89 @@ We then perform beam search to generate reactant candidates.
         else:
             titles.append("Prediction %d-%d" % (synthon_id, i))
 
-    # reset attrbutes so that pack can work properly
-    for i in range(len(graphs)):
-        graphs[i] = data.Molecule.from_molecule(graphs[i].to_molecule())
-    graphs = data.PackedMolecule.pack(graphs)
+    # reset attributes so that pack can work properly
+    mols = [graph.to_molecule() for graph in graphs]
+    graphs = data.PackedMolecule.from_molecule(mols)
     graphs.visualize(titles, save_file="uspto50k_synthon_valid.png", num_col=6)
 
 For each row in the visualization, the first molecule corresponds to the ground truth.
 The rest molecules are candidates from beam search, ordered by their log likelihood.
-We can see that our model can recall ground truth in top-5 predictions for some samples.
+We can see that our model can recall ground truth in top-5 predictions for most samples.
 
 .. image:: ../../../asset/dataset/uspto50k_synthon_g2gs_valid.png
 
 Retrosynthesis
 --------------
 
-Given the trained models, we can combine them into an end2end pipeline. This
-is done by wrapping the two sub tasks into a retrosynthesis task.
+Given the trained models, we can combine them into an end2end pipeline for
+retrosynthesis. This is done by wrapping the two sub tasks with a retrosynthesis task.
+
+The pipeline will perform beam search over all possible combinations between the
+predictions from two sub tasks. For demonstration, we use a small beam size and
+only evaluate on a subset of the validation set. Note the results will be better
+if we give more budget to the beam search.
 
 .. code:: python
 
-    task = tasks.Retrosynthesis(reaction_task, synthon_task)
+    lengths = [len(reaction_valid) // 10, len(reaction_valid) - len(reaction_valid) // 10]
+    reaction_valid_small = torch_data.random_split(reaction_valid, lengths)[0]
 
-In the case we want to load models from checkpoints, we may use the following
-code.
+    task = tasks.Retrosynthesis(reaction_task, synthon_task, center_topk=2, num_beam=5,
+                                max_prediction=10)
+    optimizer = torch.optim.Adam(task.parameters(), lr=1e-3)
+    solver = core.Engine(task, reaction_train, reaction_valid_small, reaction_test, optimizer,
+                         gpus=[0], batch_size=32)
+
+To load parameters two sub tasks, we just load each checkpoint. Note ``load_optimizer``
+should be set to ``False`` to avoid conflicts.
 
 .. code:: python
 
-    asdfasdf
+    reaction_solver.save("g2gs_reaction_model.pth")
+    synthon_solver.save("g2gs_synthon_model.pth")
+
+    reaction_task.preprocess(reaction_train)
+    synthon_task.preprocess(synthon_train)
+    solver.load("g2gs_reaction_model.pth", load_optimizer=False)
+    solver.load("g2gs_synthon_model.pth", load_optimizer=False)
+    solver.evaluate("valid")
+
+The accuracy for retrosynthesis may be close to the following.
+
+.. code:: bash
+
+    top-1 accuracy: 0.47541
+    top-3 accuracy: 0.741803
+    top-5 accuracy: 0.827869
+    top-10 accuracy: 0.879098
+
+Here are the top-1 predictions for samples in the validation set.
 
 .. code:: python
+
+    batch = []
+    reaction_set = set()
+    for sample in reaction_valid:
+        if sample["reaction"] not in reaction_set:
+            reaction_set.add(sample["reaction"])
+            batch.append(sample)
+            if len(batch) == 4:
+                break
+    batch = data.graph_collate(batch)
+    batch = utils.cuda(batch)
+    predictions, num_prediction = task.predict(batch)
+
+    top1_index = num_prediction.cumsum(0) - num_prediction
+    for i in range(len(products)):
+        reactant = predictions[top1_index[i]].connected_components()[0]
+        product = products[i].connected_components()[0]
+        plot.reaction(reactant, product)
+
+.. image:: ../../../asset/dataset/uspto50k_retrosynthesis_g2gs_valid_0.png
+    :width: 49%
+.. image:: ../../../asset/dataset/uspto50k_retrosynthesis_g2gs_valid_1.png
+    :width: 49%
+.. image:: ../../../asset/dataset/uspto50k_retrosynthesis_g2gs_valid_2.png
+    :width: 49%
+.. image:: ../../../asset/dataset/uspto50k_retrosynthesis_g2gs_valid_3.png
+    :width: 49%

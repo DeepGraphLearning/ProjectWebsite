@@ -258,21 +258,21 @@ other graph representation learning models can also be used here.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">drugdiscovery</span> <span class="kn">import</span> <span class="n">core</span><span class="p">,</span> <span class="n">models</span><span class="p">,</span> <span class="n">tasks</span>
 
 <span class="n">reaction_model</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">RGCN</span><span class="p">(</span><span class="n">input_dim</span><span class="o">=</span><span class="n">dataset</span><span class="o">.</span><span class="n">node_feature_dim</span><span class="p">,</span>
-                    <span class="n">hidden_dims</span><span class="o">=</span><span class="p">[</span><span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">],</span>
+                    <span class="n">hidden_dims</span><span class="o">=</span><span class="p">[</span><span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">],</span>
                     <span class="n">num_relation</span><span class="o">=</span><span class="n">dataset</span><span class="o">.</span><span class="n">num_bond_type</span><span class="p">,</span>
-                    <span class="n">short_cut</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                    <span class="n">concat_hidden</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">reaction_task</span> <span class="o">=</span> <span class="n">tasks</span><span class="o">.</span><span class="n">CenterIdentification</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">feature</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;graph&quot;</span><span class="p">,</span> <span class="s2">&quot;atom&quot;</span><span class="p">,</span> <span class="s2">&quot;bond&quot;</span><span class="p">))</span>
 </pre></div>
 </div>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">reaction_optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">reaction_task</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mf">1e-3</span><span class="p">)</span>
-<span class="n">reaction_solver</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Engine</span><span class="p">(</span><span class="n">reaction_task</span><span class="p">,</span> <span class="n">reaction_train</span><span class="p">,</span> <span class="n">reaction_valid</span><span class="p">,</span> <span class="n">reaction_test</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span>
-                     <span class="n">gpus</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">128</span><span class="p">)</span>
-<span class="n">reaction_solver</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">num_epoch</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">reaction_solver</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Engine</span><span class="p">(</span><span class="n">reaction_task</span><span class="p">,</span> <span class="n">reaction_train</span><span class="p">,</span> <span class="n">reaction_valid</span><span class="p">,</span> <span class="n">reaction_test</span><span class="p">,</span>
+                              <span class="n">optimizer</span><span class="p">,</span> <span class="n">gpus</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">128</span><span class="p">)</span>
+<span class="n">reaction_solver</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">num_epoch</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
 <span class="n">reaction_solver</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="s2">&quot;valid&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>The evaluation result on the validation set may look like</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>accuracy: <span class="m">0</span>.795255
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>accuracy: <span class="m">0</span>.836367
 </pre></div>
 </div>
 <p>We can show some predictions from our model. For diversity, we collect samples
@@ -295,7 +295,8 @@ samples. We use blue for ground truths, red for wrong predictions, and purple fo
 correct predictions.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">atoms_and_bonds</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span> <span class="n">reaction_center</span><span class="p">):</span>
     <span class="n">is_reaction_atom</span> <span class="o">=</span> <span class="p">(</span><span class="n">molecule</span><span class="o">.</span><span class="n">atom_map</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&amp;</span> \
-                       <span class="p">(</span><span class="n">molecule</span><span class="o">.</span><span class="n">atom_map</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="n">reaction_center</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+                       <span class="p">(</span><span class="n">molecule</span><span class="o">.</span><span class="n">atom_map</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> \
+                        <span class="n">reaction_center</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
     <span class="n">node_in</span><span class="p">,</span> <span class="n">node_out</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">edge_list</span><span class="o">.</span><span class="n">t</span><span class="p">()[:</span><span class="mi">2</span><span class="p">]</span>
     <span class="n">edge_map</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">atom_map</span><span class="p">[</span><span class="n">molecule</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">2</span><span class="p">]]</span>
     <span class="n">is_reaction_bond</span> <span class="o">=</span> <span class="p">(</span><span class="n">edge_map</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> \
@@ -347,28 +348,26 @@ correct predictions.</p>
 </div>
 <div class="section" id="synthon-completion">
 <h2>Synthon Completion<a class="headerlink" href="#synthon-completion" title="Permalink to this headline">¶</a></h2>
-<p>Similarly, we train a synthon completion model on the synthon dataset. For
-demonstration, we only train the model for 10 epochs, while more epochs can
-give better results.</p>
+<p>Similarly, we train a synthon completion model on the synthon dataset.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">synthon_model</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">RGCN</span><span class="p">(</span><span class="n">input_dim</span><span class="o">=</span><span class="n">dataset</span><span class="o">.</span><span class="n">node_feature_dim</span><span class="p">,</span>
-                            <span class="n">hidden_dims</span><span class="o">=</span><span class="p">[</span><span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">],</span>
+                            <span class="n">hidden_dims</span><span class="o">=</span><span class="p">[</span><span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">],</span>
                             <span class="n">num_relation</span><span class="o">=</span><span class="n">dataset</span><span class="o">.</span><span class="n">num_bond_type</span><span class="p">,</span>
-                            <span class="n">short_cut</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                            <span class="n">concat_hidden</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">synthon_task</span> <span class="o">=</span> <span class="n">tasks</span><span class="o">.</span><span class="n">SynthonCompletion</span><span class="p">(</span><span class="n">synthon_model</span><span class="p">,</span> <span class="n">feature</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;graph&quot;</span><span class="p">,))</span>
 
 <span class="n">synthon_optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">synthon_task</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mf">1e-3</span><span class="p">)</span>
-<span class="n">synthon_solver</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Engine</span><span class="p">(</span><span class="n">synthon_task</span><span class="p">,</span> <span class="n">synthon_train</span><span class="p">,</span> <span class="n">synthon_valid</span><span class="p">,</span> <span class="n">synthon_test</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span>
-                             <span class="n">gpus</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">64</span><span class="p">)</span>
+<span class="n">synthon_solver</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Engine</span><span class="p">(</span><span class="n">synthon_task</span><span class="p">,</span> <span class="n">synthon_train</span><span class="p">,</span> <span class="n">synthon_valid</span><span class="p">,</span> <span class="n">synthon_test</span><span class="p">,</span>
+                             <span class="n">optimizer</span><span class="p">,</span> <span class="n">gpus</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">128</span><span class="p">)</span>
 <span class="n">synthon_solver</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">synthon_solver</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="s2">&quot;valid&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>We may obtain some results like</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bond accuracy: <span class="m">0</span>.982559
-node in accuracy: <span class="m">0</span>.966307
-node out accuracy: <span class="m">0</span>.891787
-stop accuracy: <span class="m">0</span>.93474
-total accuracy: <span class="m">0</span>.848761
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bond accuracy: <span class="m">0</span>.983013
+node in accuracy: <span class="m">0</span>.967535
+node out accuracy: <span class="m">0</span>.892999
+stop accuracy: <span class="m">0</span>.929348
+total accuracy: <span class="m">0</span>.844374
 </pre></div>
 </div>
 <p>We then perform beam search to generate reactant candidates.</p>
@@ -383,9 +382,10 @@ total accuracy: <span class="m">0</span>.848761
 <span class="n">batch</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">graph_collate</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
 <span class="n">batch</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">cuda</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
 <span class="n">reactants</span><span class="p">,</span> <span class="n">synthons</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;graph&quot;</span><span class="p">]</span>
+<span class="n">reactants</span> <span class="o">=</span> <span class="n">reactants</span><span class="o">.</span><span class="n">ion_to_molecule</span><span class="p">()</span>
 <span class="n">predictions</span> <span class="o">=</span> <span class="n">synthon_task</span><span class="o">.</span><span class="n">predict_reactant</span><span class="p">(</span><span class="n">batch</span><span class="p">,</span> <span class="n">num_beam</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">max_prediction</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
 
-<span class="n">synthon_id</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">synthon_id</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
 <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">titles</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="n">graphs</span> <span class="o">=</span> <span class="p">[]</span>
@@ -402,30 +402,78 @@ total accuracy: <span class="m">0</span>.848761
     <span class="k">else</span><span class="p">:</span>
         <span class="n">titles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;Prediction </span><span class="si">%d</span><span class="s2">-</span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">synthon_id</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span>
 
-<span class="c1"># reset attrbutes so that pack can work properly</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">graphs</span><span class="p">)):</span>
-    <span class="n">graphs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">Molecule</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">graphs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">())</span>
-<span class="n">graphs</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">PackedMolecule</span><span class="o">.</span><span class="n">pack</span><span class="p">(</span><span class="n">graphs</span><span class="p">)</span>
+<span class="c1"># reset attributes so that pack can work properly</span>
+<span class="n">mols</span> <span class="o">=</span> <span class="p">[</span><span class="n">graph</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">()</span> <span class="k">for</span> <span class="n">graph</span> <span class="ow">in</span> <span class="n">graphs</span><span class="p">]</span>
+<span class="n">graphs</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">PackedMolecule</span><span class="o">.</span><span class="n">from_molecule</span><span class="p">(</span><span class="n">mols</span><span class="p">)</span>
 <span class="n">graphs</span><span class="o">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">titles</span><span class="p">,</span> <span class="n">save_file</span><span class="o">=</span><span class="s2">&quot;uspto50k_synthon_valid.png&quot;</span><span class="p">,</span> <span class="n">num_col</span><span class="o">=</span><span class="mi">6</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>For each row in the visualization, the first molecule corresponds to the ground truth.
 The rest molecules are candidates from beam search, ordered by their log likelihood.
-We can see that our model can recall ground truth in top-5 predictions for some samples.</p>
+We can see that our model can recall ground truth in top-5 predictions for most samples.</p>
 <img alt="../_images/uspto50k_synthon_g2gs_valid.png" src="../_images/uspto50k_synthon_g2gs_valid.png" />
 </div>
 <div class="section" id="id1">
 <h2>Retrosynthesis<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>Given the trained models, we can combine them into an end2end pipeline. This
-is done by wrapping the two sub tasks into a retrosynthesis task.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">task</span> <span class="o">=</span> <span class="n">tasks</span><span class="o">.</span><span class="n">Retrosynthesis</span><span class="p">(</span><span class="n">reaction_task</span><span class="p">,</span> <span class="n">synthon_task</span><span class="p">)</span>
+<p>Given the trained models, we can combine them into an end2end pipeline for
+retrosynthesis. This is done by wrapping the two sub tasks with a retrosynthesis task.</p>
+<p>The pipeline will perform beam search over all possible combinations between the
+predictions from two sub tasks. For demonstration, we use a small beam size and
+only evaluate on a subset of the validation set. Note the results will be better
+if we give more budget to the beam search.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">lengths</span> <span class="o">=</span> <span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">reaction_valid</span><span class="p">)</span> <span class="o">//</span> <span class="mi">10</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">reaction_valid</span><span class="p">)</span> <span class="o">-</span> <span class="nb">len</span><span class="p">(</span><span class="n">reaction_valid</span><span class="p">)</span> <span class="o">//</span> <span class="mi">10</span><span class="p">]</span>
+<span class="n">reaction_valid_small</span> <span class="o">=</span> <span class="n">torch_data</span><span class="o">.</span><span class="n">random_split</span><span class="p">(</span><span class="n">reaction_valid</span><span class="p">,</span> <span class="n">lengths</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">task</span> <span class="o">=</span> <span class="n">tasks</span><span class="o">.</span><span class="n">Retrosynthesis</span><span class="p">(</span><span class="n">reaction_task</span><span class="p">,</span> <span class="n">synthon_task</span><span class="p">,</span> <span class="n">center_topk</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">num_beam</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+                            <span class="n">max_prediction</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">task</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="mf">1e-3</span><span class="p">)</span>
+<span class="n">solver</span> <span class="o">=</span> <span class="n">core</span><span class="o">.</span><span class="n">Engine</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">reaction_train</span><span class="p">,</span> <span class="n">reaction_valid_small</span><span class="p">,</span> <span class="n">reaction_test</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span>
+                     <span class="n">gpus</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">32</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>In the case we want to load models from checkpoints, we may use the following
-code.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">asdfasdf</span>
+<p>To load parameters two sub tasks, we just load each checkpoint. Note <code class="docutils literal notranslate"><span class="pre">load_optimizer</span></code>
+should be set to <code class="docutils literal notranslate"><span class="pre">False</span></code> to avoid conflicts.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">reaction_solver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;g2gs_reaction_model.pth&quot;</span><span class="p">)</span>
+<span class="n">synthon_solver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;g2gs_synthon_model.pth&quot;</span><span class="p">)</span>
+
+<span class="n">reaction_task</span><span class="o">.</span><span class="n">preprocess</span><span class="p">(</span><span class="n">reaction_train</span><span class="p">)</span>
+<span class="n">synthon_task</span><span class="o">.</span><span class="n">preprocess</span><span class="p">(</span><span class="n">synthon_train</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;g2gs_reaction_model.pth&quot;</span><span class="p">,</span> <span class="n">load_optimizer</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;g2gs_synthon_model.pth&quot;</span><span class="p">,</span> <span class="n">load_optimizer</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="s2">&quot;valid&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+<p>The accuracy for retrosynthesis may be close to the following.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>top-1 accuracy: <span class="m">0</span>.47541
+top-3 accuracy: <span class="m">0</span>.741803
+top-5 accuracy: <span class="m">0</span>.827869
+top-10 accuracy: <span class="m">0</span>.879098
+</pre></div>
+</div>
+<p>Here are the top-1 predictions for samples in the validation set.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">batch</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">reaction_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">sample</span> <span class="ow">in</span> <span class="n">reaction_valid</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">sample</span><span class="p">[</span><span class="s2">&quot;reaction&quot;</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">reaction_set</span><span class="p">:</span>
+        <span class="n">reaction_set</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">sample</span><span class="p">[</span><span class="s2">&quot;reaction&quot;</span><span class="p">])</span>
+        <span class="n">batch</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sample</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="k">break</span>
+<span class="n">batch</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">graph_collate</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
+<span class="n">batch</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">cuda</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
+<span class="n">predictions</span><span class="p">,</span> <span class="n">num_prediction</span> <span class="o">=</span> <span class="n">task</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">batch</span><span class="p">)</span>
+
+<span class="n">top1_index</span> <span class="o">=</span> <span class="n">num_prediction</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="o">-</span> <span class="n">num_prediction</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">products</span><span class="p">)):</span>
+    <span class="n">reactant</span> <span class="o">=</span> <span class="n">predictions</span><span class="p">[</span><span class="n">top1_index</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">connected_components</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">product</span> <span class="o">=</span> <span class="n">products</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">connected_components</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">plot</span><span class="o">.</span><span class="n">reaction</span><span class="p">(</span><span class="n">reactant</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../_images/uspto50k_retrosynthesis_g2gs_valid_0.png"><img alt="../_images/uspto50k_retrosynthesis_g2gs_valid_0.png" src="../_images/uspto50k_retrosynthesis_g2gs_valid_0.png" style="width: 49%;" /></a>
+<a class="reference internal image-reference" href="../_images/uspto50k_retrosynthesis_g2gs_valid_1.png"><img alt="../_images/uspto50k_retrosynthesis_g2gs_valid_1.png" src="../_images/uspto50k_retrosynthesis_g2gs_valid_1.png" style="width: 49%;" /></a>
+<a class="reference internal image-reference" href="../_images/uspto50k_retrosynthesis_g2gs_valid_2.png"><img alt="../_images/uspto50k_retrosynthesis_g2gs_valid_2.png" src="../_images/uspto50k_retrosynthesis_g2gs_valid_2.png" style="width: 49%;" /></a>
+<a class="reference internal image-reference" href="../_images/uspto50k_retrosynthesis_g2gs_valid_3.png"><img alt="../_images/uspto50k_retrosynthesis_g2gs_valid_3.png" src="../_images/uspto50k_retrosynthesis_g2gs_valid_3.png" style="width: 49%;" /></a>
 </div>
 </div>
 

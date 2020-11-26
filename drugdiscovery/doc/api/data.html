@@ -571,7 +571,7 @@ If not provided, show the figure in window.</p></li>
 
 <dl class="py class">
 <dt id="drugdiscovery.data.Molecule">
-<em class="property">class </em><code class="sig-name descname">Molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">edge_list</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">atom_type</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">bond_type</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">Molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">edge_list</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">atom_type</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">bond_type</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">formal_charge</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">explicit_hs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">chiral_tag</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">radical_electrons</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">atom_map</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule" title="Permalink to this definition">¶</a></dt>
 <dd><p>Molecule graph with chemical features.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -580,6 +580,11 @@ If not provided, show the figure in window.</p></li>
 Each tuple is (node_in, node_out, bond_type).</p></li>
 <li><p><strong>atom_type</strong> (<em>array_like</em><em>, </em><em>optional</em>) – atom types of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></p></li>
 <li><p><strong>bond_type</strong> (<em>array_like</em><em>, </em><em>optional</em>) – bond types of shape <span class="math notranslate nohighlight">\((|E|,)\)</span></p></li>
+<li><p><strong>formal_charge</strong> (<em>array_like</em><em>, </em><em>optional</em>) – formal charges of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></p></li>
+<li><p><strong>explicit_hs</strong> (<em>array_like</em><em>, </em><em>optional</em>) – number of explicit hydrogens of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></p></li>
+<li><p><strong>chiral_tag</strong> (<em>array_like</em><em>, </em><em>optional</em>) – chirality tags of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></p></li>
+<li><p><strong>radical_electrons</strong> (<em>array_like</em><em>, </em><em>optional</em>) – number of radical electrons of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></p></li>
+<li><p><strong>atom_map</strong> (<em>array_like</em><em>, </em><em>optional</em>) – atom mappings of shape <span class="math notranslate nohighlight">\((|V|,)\)</span></p></li>
 </ul>
 </dd>
 </dl>
@@ -715,7 +720,7 @@ By default, aromatic bonds are stored.</p></li>
 
 <dl class="py method">
 <dt id="drugdiscovery.data.Molecule.from_smiles">
-<em class="property">classmethod </em><code class="sig-name descname">from_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">smiles</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.from_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.from_smiles" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">from_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">smiles</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.from_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.from_smiles" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a molecule from a SMILES string.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -791,6 +796,13 @@ By default, aromatic bonds are stored.</p></li>
 <dd class="field-odd"><p>Tensor</p>
 </dd>
 </dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="drugdiscovery.data.Molecule.ion_to_molecule">
+<code class="sig-name descname">ion_to_molecule</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.ion_to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.ion_to_molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert ions to molecules by adjusting hydrogens and electrons.</p>
+<p>Note two special cases [N+](=O)[O-] and [N-]=[N+]=[N] will not be converted.</p>
 </dd></dl>
 
 <dl class="py method">
@@ -886,11 +898,15 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.Molecule.n
 
 <dl class="py method">
 <dt id="drugdiscovery.data.Molecule.to_molecule">
-<code class="sig-name descname">to_molecule</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.to_molecule" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">to_molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ignore_error</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.to_molecule" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a RDKit object of this molecule.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>rdchem.Mol</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ignore_error</strong> (<em>bool</em><em>, </em><em>optional</em>) – if true, return <code class="docutils literal notranslate"><span class="pre">None</span></code> for illegal molecules.
+Otherwise, raise an exception.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>rdchem.Mol</p>
 </dd>
 </dl>
 </dd></dl>
@@ -911,11 +927,18 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.Molecule.n
 
 <dl class="py method">
 <dt id="drugdiscovery.data.Molecule.to_smiles">
-<code class="sig-name descname">to_smiles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.to_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.to_smiles" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">to_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">isomeric</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">atom_map</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">canonical</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.to_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.to_smiles" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a SMILES string of this molecule.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>str</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>isomeric</strong> (<em>bool</em><em>, </em><em>optional</em>) – keep isomeric information or not</p></li>
+<li><p><strong>atom_map</strong> (<em>bool</em><em>, </em><em>optional</em>) – keep atom mapping or not</p></li>
+<li><p><strong>canonical</strong> (<em>bool</em><em>, </em><em>optional</em>) – if true, return the canonical form of smiles</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>str</p>
 </dd>
 </dl>
 </dd></dl>
@@ -1320,6 +1343,17 @@ The computation can be implemented as message passing over a fully connected gra
 </dd></dl>
 
 <dl class="py method">
+<dt id="drugdiscovery.data.PackedGraph.merge">
+<code class="sig-name descname">merge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">graph2graph</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/graph.html#PackedGraph.merge"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedGraph.merge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Merge multiple graphs into a single graph.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>graph2graph</strong> (<em>array_like</em>) – ID of the new graph each graph belongs to</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
 <dt id="drugdiscovery.data.PackedGraph.node">
 <code class="sig-name descname">node</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedGraph.node" title="Permalink to this definition">¶</a></dt>
 <dd><p>Context manager for node attributes.</p>
@@ -1643,12 +1677,12 @@ For zero entries in the adjacency matrix, their edge features will be ignored.</
 
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.from_molecule">
-<em class="property">classmethod </em><code class="sig-name descname">from_molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mol</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_molecule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a molecule from a RDKit object.</p>
+<em class="property">classmethod </em><code class="sig-name descname">from_molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mols</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.from_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a packed molecule from a list RDKit objects.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>mol</strong> (<em>rdchem.Mol</em>) – molecule</p></li>
+<li><p><strong>mols</strong> (<em>list of rdchem.Mol</em>) – molecules</p></li>
 <li><p><strong>node_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – node features to extract</p></li>
 <li><p><strong>edge_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – edge features to extract</p></li>
 <li><p><strong>graph_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – graph features to extract</p></li>
@@ -1665,7 +1699,7 @@ By default, aromatic bonds are stored.</p></li>
 
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.from_smiles">
-<em class="property">classmethod </em><code class="sig-name descname">from_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">smiles</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_smiles" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">from_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">smiles</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_smiles" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a molecule from a SMILES string.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -1778,6 +1812,24 @@ The computation can be implemented as message passing over a fully connected gra
 </dd></dl>
 
 <dl class="py method">
+<dt id="drugdiscovery.data.PackedMolecule.ion_to_molecule">
+<code class="sig-name descname">ion_to_molecule</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.ion_to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.ion_to_molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert ions to molecules by adjusting hydrogens and electrons.</p>
+<p>Note two special cases [N+](=O)[O-] and [N-]=[N+]=[N] will not be converted.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="drugdiscovery.data.PackedMolecule.merge">
+<code class="sig-name descname">merge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">graph2graph</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.merge" title="Permalink to this definition">¶</a></dt>
+<dd><p>Merge multiple graphs into a single graph.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>graph2graph</strong> (<em>array_like</em>) – ID of the new graph each graph belongs to</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.node">
 <code class="sig-name descname">node</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.node" title="Permalink to this definition">¶</a></dt>
 <dd><p>Context manager for node attributes.</p>
@@ -1884,11 +1936,15 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.PackedMole
 
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.to_molecule">
-<code class="sig-name descname">to_molecule</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_molecule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Return a RDKit object of this molecule.</p>
+<code class="sig-name descname">to_molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ignore_error</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_molecule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of RDKit objects.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>rdchem.Mol</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>ignore_error</strong> (<em>bool</em><em>, </em><em>optional</em>) – if true, return <code class="docutils literal notranslate"><span class="pre">None</span></code> for illegal molecules.
+Otherwise, raise an exception.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of rdchem.Mol</p>
 </dd>
 </dl>
 </dd></dl>
@@ -1909,11 +1965,18 @@ Equivalent to <a class="reference internal" href="#drugdiscovery.data.PackedMole
 
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.to_smiles">
-<code class="sig-name descname">to_smiles</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_smiles" title="Permalink to this definition">¶</a></dt>
-<dd><p>Return a SMILES string of this molecule.</p>
+<code class="sig-name descname">to_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">isomeric</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">atom_map</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">canonical</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.to_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.to_smiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of SMILES strings.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p>str</p>
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>isomeric</strong> (<em>bool</em><em>, </em><em>optional</em>) – keep isomeric information or not</p></li>
+<li><p><strong>atom_map</strong> (<em>bool</em><em>, </em><em>optional</em>) – keep atom mapping or not</p></li>
+<li><p><strong>canonical</strong> (<em>bool</em><em>, </em><em>optional</em>) – if true, return the canonical form of smiles</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of str</p>
 </dd>
 </dl>
 </dd></dl>

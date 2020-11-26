@@ -334,6 +334,10 @@
     <span class="k">return</span> <span class="n">value</span><span class="p">,</span> <span class="n">index</span></div>
 
 
+<span class="k">def</span> <span class="nf">argsort</span><span class="p">(</span><span class="o">*</span><span class="n">keys</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+
 <div class="viewcode-block" id="variadic_cross_entropy"><a class="viewcode-back" href="../../../api/layers.html#drugdiscovery.layers.functional.variadic_cross_entropy">[docs]</a><span class="k">def</span> <span class="nf">variadic_cross_entropy</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">size</span><span class="p">,</span> <span class="n">reduction</span><span class="o">=</span><span class="s2">&quot;mean&quot;</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Compute cross entropy loss over categories with variadic sizes.</span>
@@ -386,8 +390,8 @@
     <span class="n">index2graph</span> <span class="o">=</span> <span class="n">index2graph</span><span class="o">.</span><span class="n">view</span><span class="p">([</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="nb">input</span><span class="o">.</span><span class="n">ndim</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
 
     <span class="n">mask</span> <span class="o">=</span> <span class="nb">input</span><span class="o">.</span><span class="n">abs</span><span class="p">()</span> <span class="o">!=</span> <span class="nb">float</span><span class="p">(</span><span class="s2">&quot;inf&quot;</span><span class="p">)</span>
-    <span class="nb">max</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
-    <span class="nb">min</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+    <span class="nb">max</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
+    <span class="nb">min</span> <span class="o">=</span> <span class="nb">input</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span><span class="o">.</span><span class="n">item</span><span class="p">()</span>
     <span class="nb">input</span> <span class="o">=</span> <span class="nb">input</span><span class="o">.</span><span class="n">clamp</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="nb">min</span> <span class="o">-</span> <span class="nb">max</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="nb">max</span> <span class="o">-</span> <span class="nb">min</span><span class="p">)</span>
     <span class="n">offset</span> <span class="o">=</span> <span class="p">(</span><span class="nb">max</span> <span class="o">-</span> <span class="nb">min</span><span class="p">)</span> <span class="o">*</span> <span class="mi">4</span>
     <span class="k">if</span> <span class="n">largest</span><span class="p">:</span>
