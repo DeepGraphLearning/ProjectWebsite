@@ -36,7 +36,7 @@ Data
 ----
 - Knowledge graph: [Transductive split], 160 MB. [Inductive split], 160 MB. [Raw], 168 MB.
 - [Corpus], 991 MB.
-- [Entity & relation aliases], 117 MB.
+- [Entity & relation aliases], 188 MB.
 
 For raw knowledge graph, it may also contain entities that do not have corresponding Wikipedia pages.
 
@@ -44,7 +44,7 @@ For raw knowledge graph, it may also contain entities that do not have correspon
 [Inductive split]: https://www.dropbox.com/s/csed3cgal3m7rzo/wikidata5m_inductive.tar.gz?dl=1
 [Raw]: https://www.dropbox.com/s/563omb11cxaqr83/wikidata5m_all_triplet.txt.gz?dl=1
 [Corpus]: https://www.dropbox.com/s/7jp4ib8zo3i6m10/wikidata5m_text.txt.gz?dl=1
-[Entity & relation aliases]: https://www.dropbox.com/s/s1q38yzqzvuodl3/wikidata5m_alias.tar.gz?dl=1
+[Entity & relation aliases]: https://www.dropbox.com/s/lnbhc8yuhit4wm5/wikidata5m_alias.tar.gz?dl=1
 
 Format
 ------
@@ -65,7 +65,7 @@ Q22686	Donald John Trump (born June 14, 1946) is the 45th and current president 
 ### Alias
 Each line lists the alias for an entity or relation. The following line shows the aliases of *Donald Trump*.
 ```
-Q22686  donald john trump	45th president of the united states     @realdonaldtrump ...
+Q22686  donnie trump	45th president of the united states     Donald John Trump ...
 ```
 
 Publications
