@@ -209,7 +209,7 @@ Similarly, we train a synthon completion model on the synthon dataset.
     synthon_optimizer = torch.optim.Adam(synthon_task.parameters(), lr=1e-3)
     synthon_solver = core.Engine(synthon_task, synthon_train, synthon_valid, synthon_test,
                                  optimizer, gpus=[0], batch_size=128)
-    synthon_solver.train(10)
+    synthon_solver.train(num_epoch=10)
     synthon_solver.evaluate("valid")
 
 We may obtain some results like

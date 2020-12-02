@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Custom Extensions &mdash; Drugdiscovery 0.1.0 documentation</title>
+  <title>Retrosynthesis &mdash; Drugdiscovery 0.1.0 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="drugdiscovery.core" href="../api/core.html" />
-    <link rel="prev" title="Debug Your Models" href="debug.html" /> 
+    <link rel="next" title="Molecule Property Prediction" href="../examples/property_prediction.html" />
+    <link rel="prev" title="Graph Generation" href="generation.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -91,10 +91,14 @@
 <li class="toctree-l1"><a class="reference internal" href="../quick_start.html">Quick Start</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Benchmark</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../benchmark/generation.html">Graph Generation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../benchmark/retrosynthesis.html">Retrosynthesis</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="property_prediction.html">Molecule Property Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="generation.html">Graph Generation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Retrosynthesis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#given-reaction-class">Given Reaction Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unknown-reaction-class">Unknown Reaction Class</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -104,12 +108,12 @@
 <li class="toctree-l1"><a class="reference internal" href="../examples/link_prediction.html">Link Prediction</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Notes</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="graph.html">Graph Data Structures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="layer.html">Graph Neural Network Layers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="variadic.html">Batch Irregular Structures</a></li>
-<li class="toctree-l1"><a class="reference internal" href="debug.html">Debug Your Models</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Custom Extensions</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../notes/graph.html">Graph Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/variadic.html">Batch Irregular Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/debug.html">Debug Your Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/extension.html">Custom Extensions</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Package Reference</span></p>
 <ul>
@@ -164,13 +168,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Custom Extensions</li>
+      <li>Retrosynthesis</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/notes/extension.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/benchmark/retrosynthesis.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -183,8 +187,73 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="custom-extensions">
-<h1>Custom Extensions<a class="headerlink" href="#custom-extensions" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="retrosynthesis">
+<h1>Retrosynthesis<a class="headerlink" href="#retrosynthesis" title="Permalink to this headline">¶</a></h1>
+<p>This page contains benchmarks of retrosynthesis models.</p>
+<p>We split the dataset into train/validation/test with ratios of 80%:10%:10%. We
+consider two settings where the reaction class is given or unknown.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#given-reaction-class" id="id1">Given Reaction Class</a></p></li>
+<li><p><a class="reference internal" href="#unknown-reaction-class" id="id2">Unknown Reaction Class</a></p></li>
+</ul>
+</div>
+<div class="section" id="given-reaction-class">
+<h2><a class="toc-backref" href="#id1">Given Reaction Class</a><a class="headerlink" href="#given-reaction-class" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><a class="reference external" href="https://aspace.repository.cam.ac.uk/bitstream/handle/1810/244727/lowethesis.pdf">USPTO50k</a></p></th>
+<th class="head"><p>Top-1</p></th>
+<th class="head"><p>Top-3</p></th>
+<th class="head"><p>Top-5</p></th>
+<th class="head"><p>Top-10</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://arxiv.org/pdf/2003.12725.pdf">G2Gs</a></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="unknown-reaction-class">
+<h2><a class="toc-backref" href="#id2">Unknown Reaction Class</a><a class="headerlink" href="#unknown-reaction-class" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><a class="reference external" href="https://aspace.repository.cam.ac.uk/bitstream/handle/1810/244727/lowethesis.pdf">USPTO50k</a></p></th>
+<th class="head"><p>Top-1</p></th>
+<th class="head"><p>Top-3</p></th>
+<th class="head"><p>Top-5</p></th>
+<th class="head"><p>Top-10</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://arxiv.org/pdf/2003.12725.pdf">G2Gs</a></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 
@@ -195,10 +264,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../api/core.html" class="btn btn-neutral float-right" title="drugdiscovery.core" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../examples/property_prediction.html" class="btn btn-neutral float-right" title="Molecule Property Prediction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="debug.html" class="btn btn-neutral float-left" title="Debug Your Models" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generation.html" class="btn btn-neutral float-left" title="Graph Generation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

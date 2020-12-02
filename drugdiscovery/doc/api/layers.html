@@ -94,6 +94,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../benchmark/generation.html">Graph Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark/retrosynthesis.html">Retrosynthesis</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -106,6 +107,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/variadic.html">Batch Irregular Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes/debug.html">Debug Your Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes/extension.html">Custom Extensions</a></li>
 </ul>
@@ -722,6 +724,42 @@ Available reductions are <code class="docutils literal notranslate"><span class=
 </dl>
 <dl class="simple">
 <dt>Returns</dt><dd><p>(Tensor, LongTensor): max values and indexes</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.variadic_mean">
+<code class="sig-name descname">variadic_mean</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">size</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_mean"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_mean" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute mean over sets with variadic sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – input of shape <span class="math notranslate nohighlight">\((B, ...)\)</span></p></li>
+<li><p><strong>size</strong> (<em>LongTensor</em>) – size of sets of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Returns</dt><dd><p>Tensor: mean</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="drugdiscovery.layers.functional.variadic_sum">
+<code class="sig-name descname">variadic_sum</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">input</span></em>, <em class="sig-param"><span class="n">size</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/layers/functional.html#variadic_sum"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.layers.functional.variadic_sum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute sum over sets with variadic sizes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>input</strong> (<em>Tensor</em>) – input of shape <span class="math notranslate nohighlight">\((B, ...)\)</span></p></li>
+<li><p><strong>size</strong> (<em>LongTensor</em>) – size of sets of shape <span class="math notranslate nohighlight">\((N,)\)</span></p></li>
+</ul>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Returns</dt><dd><p>Tensor: sum</p>
 </dd>
 </dl>
 </dd></dl>

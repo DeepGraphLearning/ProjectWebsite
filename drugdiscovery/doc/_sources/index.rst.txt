@@ -21,6 +21,7 @@ as well as approachable and extensible building blocks.
 
    benchmark/property_prediction
    benchmark/generation
+   benchmark/retrosynthesis
 
 .. toctree::
    :maxdepth: 2
@@ -37,6 +38,7 @@ as well as approachable and extensible building blocks.
 
    notes/graph
    notes/layer
+   notes/variadic
    notes/debug
    notes/extension
 

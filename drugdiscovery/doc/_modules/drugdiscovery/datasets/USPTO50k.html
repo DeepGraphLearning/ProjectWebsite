@@ -92,6 +92,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../benchmark/generation.html">Graph Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark/retrosynthesis.html">Retrosynthesis</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -104,6 +105,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/variadic.html">Batch Irregular Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
 </ul>
@@ -434,121 +436,6 @@
     <span class="k">def</span> <span class="nf">reaction_types</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;All reaction types.&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">target</span><span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">]))</span></div>
-
-
-<span class="nd">@R</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="s2">&quot;datasets.USPTO50k_v2&quot;</span><span class="p">)</span>
-<span class="k">class</span> <span class="nc">USPTO50k_v2_zzc</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">ReactionDataset</span><span class="p">):</span>
-
-    <span class="n">target_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;class&quot;</span><span class="p">]</span>
-    <span class="n">target_alias</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;class&quot;</span><span class="p">:</span> <span class="s2">&quot;reaction&quot;</span><span class="p">}</span>
-
-    <span class="n">url</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/connorcoley/retrosim/master/retrosim/data/data_processed.csv&quot;</span>
-    <span class="n">md5</span> <span class="o">=</span> <span class="s2">&quot;404c361dd1568fbdb4d16ca588953749&quot;</span>
-
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">path</span>
-
-        <span class="n">file_name</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">md5</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">md5</span><span class="p">)</span>
-
-        <span class="bp">self</span><span class="o">.</span><span class="n">load_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">smiles_field</span><span class="o">=</span><span class="s2">&quot;rxn_smiles&quot;</span><span class="p">,</span> <span class="n">target_fields</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">target_fields</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
-
-        <span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span>
-        <span class="n">targets</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">targets</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">targets</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
-        <span class="n">indexes</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">))</span>
-        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
-            <span class="n">indexes</span> <span class="o">=</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">indexes</span><span class="p">,</span> <span class="s2">&quot;Computing synthon-target pairs&quot;</span><span class="p">)</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">indexes</span><span class="p">:</span>
-            <span class="n">reactant</span><span class="p">,</span> <span class="n">product</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-
-            <span class="n">reactants</span><span class="p">,</span> <span class="n">synthons</span><span class="p">,</span> <span class="n">reaction_centers</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_synthon</span><span class="p">(</span><span class="n">reactant</span><span class="p">,</span> <span class="n">product</span><span class="p">)</span>
-            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">reactants</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="k">continue</span>
-
-            <span class="k">with</span> <span class="n">synthons</span><span class="o">.</span><span class="n">graph</span><span class="p">():</span>
-                <span class="n">synthons</span><span class="o">.</span><span class="n">reaction_centers</span> <span class="o">=</span> <span class="n">reaction_centers</span>
-
-            <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">+=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">reactants</span><span class="p">,</span> <span class="n">synthons</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">targets</span><span class="p">:</span>
-                <span class="n">new_k</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">target_alias</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">targets</span><span class="p">[</span><span class="n">new_k</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">targets</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">reactants</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">targets</span><span class="p">[</span><span class="s2">&quot;sample id&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">reactants</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">_get_synthon</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">reactant</span><span class="p">,</span> <span class="n">product</span><span class="p">):</span>
-        <span class="n">product2id</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">atom_map</span>
-        <span class="n">id2reactant</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">product2id</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">long</span><span class="p">)</span>
-        <span class="n">id2reactant</span><span class="p">[</span><span class="n">reactant</span><span class="o">.</span><span class="n">atom_map</span><span class="p">]</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">reactant</span><span class="o">.</span><span class="n">num_node</span><span class="p">)</span>
-        <span class="n">prod2react</span> <span class="o">=</span> <span class="n">id2reactant</span><span class="p">[</span><span class="n">product2id</span><span class="p">]</span>
-
-        <span class="n">reactants</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">synthons</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">reaction_centers</span> <span class="o">=</span> <span class="p">[]</span>
-
-        <span class="c1"># check edges in the product</span>
-        <span class="n">edge_added</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">edge_modified</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">mask</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">product</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
-        <span class="k">for</span> <span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">product</span><span class="o">.</span><span class="n">edge_list</span><span class="p">[</span><span class="n">mask</span><span class="p">]:</span>
-            <span class="k">if</span> <span class="p">(</span><span class="n">prod2react</span><span class="p">[</span><span class="n">h</span><span class="p">],</span> <span class="n">prod2react</span><span class="p">[</span><span class="n">t</span><span class="p">])</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">reactant</span><span class="p">:</span>
-                <span class="n">edge_added</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">))</span>
-            <span class="k">elif</span> <span class="p">(</span><span class="n">prod2react</span><span class="p">[</span><span class="n">h</span><span class="p">],</span> <span class="n">prod2react</span><span class="p">[</span><span class="n">t</span><span class="p">],</span> <span class="n">r</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">reactant</span><span class="p">:</span>
-                <span class="n">edge_modified</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">h</span><span class="p">,</span> <span class="n">t</span><span class="p">))</span>
-
-        <span class="k">if</span> <span class="n">edge_added</span><span class="p">:</span>  <span class="c1"># add a single edge</span>
-            <span class="n">edge</span> <span class="o">=</span> <span class="n">edge_added</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="n">reverse_edge</span> <span class="o">=</span> <span class="n">edge</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-            <span class="n">index</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cat</span><span class="p">([</span><span class="n">product</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">edge</span><span class="p">),</span> <span class="n">product</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">reverse_edge</span><span class="p">)])</span>
-            <span class="n">edge_mask</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">product</span><span class="o">.</span><span class="n">num_edge</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">bool</span><span class="p">)</span>
-            <span class="n">edge_mask</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
-            <span class="n">product</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">edge_mask</span><span class="p">(</span><span class="n">edge_added</span><span class="p">)</span>
-            <span class="n">_reactants</span> <span class="o">=</span> <span class="n">reactant</span><span class="o">.</span><span class="n">connected_components</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="n">_synthons</span> <span class="o">=</span> <span class="n">product</span><span class="o">.</span><span class="n">connected_components</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
-            <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">_synthons</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">_reactants</span><span class="p">)</span> <span class="c1"># Zhaocheng: why not equal?</span>
-
-            <span class="n">h</span><span class="p">,</span> <span class="n">t</span> <span class="o">=</span> <span class="n">edge</span>
-            <span class="n">reaction_center</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">((</span><span class="n">prod2react</span><span class="p">[</span><span class="n">h</span><span class="p">],</span> <span class="n">prod2react</span><span class="p">[</span><span class="n">t</span><span class="p">]))</span>
-            <span class="c1"># reactant / sython can be uniquely indexed by their maximal atom mapping ID</span>
-            <span class="n">reactant_id</span> <span class="o">=</span> <span class="n">scatter_max</span><span class="p">(</span><span class="n">_reactants</span><span class="o">.</span><span class="n">atom_map</span><span class="p">,</span> <span class="n">_reactants</span><span class="o">.</span><span class="n">node2graph</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">reactants</span><span class="p">))</span>
-            <span class="n">synthon_id</span> <span class="o">=</span> <span class="n">scatter_max</span><span class="p">(</span><span class="n">_synthons</span><span class="o">.</span><span class="n">atom_map</span><span class="p">,</span> <span class="n">_synthons</span><span class="o">.</span><span class="n">node2graph</span><span class="p">,</span> <span class="n">dim_size</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">synthons</span><span class="p">))</span>
-            <span class="n">react2synthon</span> <span class="o">=</span> <span class="p">(</span><span class="n">reactant_id</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="n">synthon_id</span><span class="o">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">r</span><span class="p">,</span> <span class="n">s</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">react2synthon</span><span class="p">):</span>
-                <span class="n">reactants</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">_reactants</span><span class="p">[</span><span class="n">r</span><span class="p">])</span>
-                <span class="n">synthons</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">_synthons</span><span class="p">[</span><span class="n">s</span><span class="p">])</span>
-                <span class="n">reaction_centers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reaction_center</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">num_cc</span> <span class="o">=</span> <span class="n">reactant</span><span class="o">.</span><span class="n">connected_components</span><span class="p">()[</span><span class="mi">1</span><span class="p">]</span>
-            <span class="k">assert</span> <span class="n">num_cc</span> <span class="o">==</span> <span class="mi">1</span>
-
-            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">edge_modified</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1"># modify a single edge</span>
-                <span class="n">synthon</span> <span class="o">=</span> <span class="n">product</span>
-                <span class="n">reaction_center</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="o">.</span><span class="n">long</span><span class="p">)</span>
-                <span class="n">h</span><span class="p">,</span> <span class="n">t</span> <span class="o">=</span> <span class="n">edge_modified</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-                <span class="k">if</span> <span class="n">product</span><span class="o">.</span><span class="n">degree_in</span><span class="p">[</span><span class="n">h</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-                    <span class="n">reaction_center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">h</span>
-                <span class="k">elif</span> <span class="n">product</span><span class="o">.</span><span class="n">degree_in</span><span class="p">[</span><span class="n">t</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-                    <span class="n">reaction_center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">t</span>
-                <span class="k">else</span><span class="p">:</span>
-                    <span class="c1"># pretend the reaction center is h</span>
-                    <span class="n">reaction_center</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">h</span>
-                <span class="n">reactants</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reactant</span><span class="p">)</span>
-                <span class="n">synthons</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">synthon</span><span class="p">)</span>
-                <span class="n">reaction_centers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reaction_center</span><span class="p">)</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">product_hs</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="n">atom</span><span class="o">.</span><span class="n">GetTotalNumHs</span><span class="p">()</span> <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">product</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">()</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">()])</span>
-                <span class="n">reactant_hs</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="n">atom</span><span class="o">.</span><span class="n">GetTotalNumHs</span><span class="p">()</span> <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">reactant</span><span class="o">.</span><span class="n">to_molecule</span><span class="p">()</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">()])</span>
-                <span class="n">atom_modified</span> <span class="o">=</span> <span class="p">(</span><span class="n">product_hs</span> <span class="o">!=</span> <span class="n">reactant_hs</span><span class="p">[</span><span class="n">prod2react</span><span class="p">])</span><span class="o">.</span><span class="n">nonzero</span><span class="p">()</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
-                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">atom_modified</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1"># modify single node</span>
-                    <span class="n">synthon</span> <span class="o">=</span> <span class="n">product</span>
-                    <span class="n">reaction_center</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([</span><span class="n">atom_modified</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="mi">0</span><span class="p">])</span>
-                    <span class="n">reactants</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reactant</span><span class="p">)</span>
-                    <span class="n">synthons</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">synthon</span><span class="p">)</span>
-                    <span class="n">reaction_centers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reaction_center</span><span class="p">)</span>
-
-        <span class="k">return</span> <span class="n">reactants</span><span class="p">,</span> <span class="n">synthons</span><span class="p">,</span> <span class="n">reaction_centers</span>
 </pre></div>
 
            </div>

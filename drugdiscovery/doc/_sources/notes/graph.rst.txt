@@ -21,6 +21,8 @@ To begin with, let's create a graph.
 This will plot a ring graph like the following.
 
 .. image:: ../../../asset/graph/graph.png
+    :align: center
+    :width: 33%
 
 Internally, the graph is stored as a sparse edge list to save memory footprint. For
 an intuitive comparison, a `scale-free graph`_ may have 1 million nodes and 10 million
@@ -48,6 +50,8 @@ as a third variable in the edge list.
     graph.visualize()
 
 .. image:: ../../../asset/graph/relational_graph.png
+    :align: center
+    :width: 33%
 
 Alternatively, we can also use adjacency matrices to create the above graphs.
 
@@ -78,6 +82,8 @@ For example, the following code creates a benzene molecule.
     mol.visualize()
 
 .. image:: ../../../asset/graph/benzene.png
+    :align: center
+    :width: 33%
 
 Once the graph is created, we can transfer it between CPU and GPUs, just like
 :class:`torch.Tensor`.
@@ -230,3 +236,5 @@ We can also pick a subset of graphs in a batch.
     batch.visualize()
 
 .. image:: ../../../asset/graph/subbatch.png
+    :align: center
+    :width: 66%

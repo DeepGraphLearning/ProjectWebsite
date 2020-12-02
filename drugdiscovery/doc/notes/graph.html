@@ -94,6 +94,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../benchmark/generation.html">Graph Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark/retrosynthesis.html">Retrosynthesis</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -112,6 +113,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="variadic.html">Batch Irregular Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="debug.html">Debug Your Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="extension.html">Custom Extensions</a></li>
 </ul>
@@ -203,7 +205,7 @@ operations in graph representation learning.</p>
 </pre></div>
 </div>
 <p>This will plot a ring graph like the following.</p>
-<img alt="../_images/graph.png" src="../_images/graph.png" />
+<a class="reference internal image-reference" href="../_images/graph.png"><img alt="../_images/graph.png" class="align-center" src="../_images/graph.png" style="width: 33%;" /></a>
 <p>Internally, the graph is stored as a sparse edge list to save memory footprint. For
 an intuitive comparison, a <a class="reference external" href="https://en.wikipedia.org/wiki/Scale-free_network">scale-free graph</a> may have 1 million nodes and 10 million
 edges. The dense version takes about 4TB, while the sparse version only requires 120MB.</p>
@@ -223,7 +225,7 @@ as a third variable in the edge list.</p>
 <span class="n">graph</span><span class="o">.</span><span class="n">visualize</span><span class="p">()</span>
 </pre></div>
 </div>
-<img alt="../_images/relational_graph.png" src="../_images/relational_graph.png" />
+<a class="reference internal image-reference" href="../_images/relational_graph.png"><img alt="../_images/relational_graph.png" class="align-center" src="../_images/relational_graph.png" style="width: 33%;" /></a>
 <p>Alternatively, we can also use adjacency matrices to create the above graphs.</p>
 <p>The normal graph uses a 2D adjacency matrix <span class="math notranslate nohighlight">\(A\)</span>, where non-zero <span class="math notranslate nohighlight">\(A_{i,j}\)</span>
 corresponds to an edge from node <span class="math notranslate nohighlight">\(i\)</span> to node <span class="math notranslate nohighlight">\(j\)</span>. The relational graph
@@ -244,7 +246,7 @@ For example, the following code creates a benzene molecule.</p>
 <span class="n">mol</span><span class="o">.</span><span class="n">visualize</span><span class="p">()</span>
 </pre></div>
 </div>
-<img alt="../_images/benzene.png" src="../_images/benzene.png" />
+<a class="reference internal image-reference" href="../_images/benzene.png"><img alt="../_images/benzene.png" class="align-center" src="../_images/benzene.png" style="width: 33%;" /></a>
 <p>Once the graph is created, we can transfer it between CPU and GPUs, just like
 <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.Tensor</span></code>.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">graph</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
@@ -363,7 +365,7 @@ the index of a single graph into the index in a batch.</p>
 <span class="n">batch</span><span class="o">.</span><span class="n">visualize</span><span class="p">()</span>
 </pre></div>
 </div>
-<img alt="../_images/subbatch.png" src="../_images/subbatch.png" />
+<a class="reference internal image-reference" href="../_images/subbatch.png"><img alt="../_images/subbatch.png" class="align-center" src="../_images/subbatch.png" style="width: 66%;" /></a>
 </div>
 </div>
 

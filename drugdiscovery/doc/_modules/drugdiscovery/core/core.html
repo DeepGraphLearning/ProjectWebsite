@@ -92,6 +92,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../benchmark/generation.html">Graph Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../benchmark/retrosynthesis.html">Retrosynthesis</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -104,6 +105,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../notes/variadic.html">Batch Irregular Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/debug.html">Debug Your Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../notes/extension.html">Custom Extensions</a></li>
 </ul>
@@ -463,12 +465,17 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">_config</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
             <span class="k">return</span> <span class="n">init</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
+        <span class="k">def</span> <span class="nf">get_function</span><span class="p">(</span><span class="n">method</span><span class="p">):</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">MethodType</span><span class="p">):</span>
+                <span class="k">return</span> <span class="n">method</span><span class="o">.</span><span class="vm">__func__</span>
+            <span class="k">return</span> <span class="n">method</span>
+
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">,</span> <span class="n">types</span><span class="o">.</span><span class="n">FunctionType</span><span class="p">):</span>
             <span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span> <span class="o">=</span> <span class="n">wrapper</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="fm">__init__</span><span class="p">)</span>
             <span class="n">custom_load_func</span> <span class="o">=</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s2">&quot;load_config_dict&quot;</span><span class="p">)</span> <span class="ow">and</span> \
-                          <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span><span class="o">.</span><span class="vm">__func__</span> <span class="o">!=</span> <span class="n">typ</span><span class="o">.</span><span class="n">load_config_dict</span><span class="o">.</span><span class="vm">__func__</span>
+                          <span class="n">get_function</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span><span class="p">)</span> <span class="o">!=</span> <span class="n">get_function</span><span class="p">(</span><span class="n">typ</span><span class="o">.</span><span class="n">load_config_dict</span><span class="p">)</span>
             <span class="n">custom_config_func</span> <span class="o">=</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="s2">&quot;config_dict&quot;</span><span class="p">)</span> <span class="ow">and</span> \
-                            <span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span><span class="o">.</span><span class="vm">__func__</span> <span class="o">!=</span> <span class="n">typ</span><span class="o">.</span><span class="n">config_dict</span>
+                                 <span class="n">get_function</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">config_dict</span><span class="p">)</span> <span class="o">!=</span> <span class="n">get_function</span><span class="p">(</span><span class="n">typ</span><span class="o">.</span><span class="n">config_dict</span><span class="p">)</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">custom_load_func</span><span class="p">:</span>
                 <span class="bp">cls</span><span class="o">.</span><span class="n">load_config_dict</span> <span class="o">=</span> <span class="n">_Configurable</span><span class="o">.</span><span class="n">load_config_dict</span>
             <span class="k">if</span> <span class="ow">not</span> <span class="n">custom_config_func</span><span class="p">:</span>

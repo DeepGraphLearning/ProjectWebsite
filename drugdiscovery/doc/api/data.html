@@ -94,6 +94,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../benchmark/property_prediction.html">Molecule Property Prediction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../benchmark/generation.html">Graph Generation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../benchmark/retrosynthesis.html">Retrosynthesis</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Examples</span></p>
 <ul>
@@ -106,6 +107,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../notes/graph.html">Graph Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes/layer.html">Graph Neural Network Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notes/variadic.html">Batch Irregular Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes/debug.html">Debug Your Models</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../notes/extension.html">Custom Extensions</a></li>
 </ul>
@@ -802,7 +804,7 @@ By default, aromatic bonds are stored.</p></li>
 <dt id="drugdiscovery.data.Molecule.ion_to_molecule">
 <code class="sig-name descname">ion_to_molecule</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#Molecule.ion_to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.Molecule.ion_to_molecule" title="Permalink to this definition">¶</a></dt>
 <dd><p>Convert ions to molecules by adjusting hydrogens and electrons.</p>
-<p>Note two special cases [N+](=O)[O-] and [N-]=[N+]=[N] will not be converted.</p>
+<p>Note [N+] will not be converted.</p>
 </dd></dl>
 
 <dl class="py method">
@@ -1678,7 +1680,7 @@ For zero entries in the adjacency matrix, their edge features will be ignored.</
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.from_molecule">
 <em class="property">classmethod </em><code class="sig-name descname">from_molecule</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mols</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.from_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_molecule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a packed molecule from a list RDKit objects.</p>
+<dd><p>Create a packed molecule from a list of RDKit objects.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -1699,12 +1701,12 @@ By default, aromatic bonds are stored.</p></li>
 
 <dl class="py method">
 <dt id="drugdiscovery.data.PackedMolecule.from_smiles">
-<em class="property">classmethod </em><code class="sig-name descname">from_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">smiles</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_smiles" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a molecule from a SMILES string.</p>
+<em class="property">classmethod </em><code class="sig-name descname">from_smiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">smiles_list</span></em>, <em class="sig-param"><span class="n">node_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">edge_feature</span><span class="o">=</span><span class="default_value">'default'</span></em>, <em class="sig-param"><span class="n">graph_feature</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">with_hydrogen</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">kekulize</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.from_smiles"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.from_smiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a packed molecule from a list of SMILES strings.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>smiles</strong> (<em>str</em>) – SMILES string</p></li>
+<li><p><strong>smiles_list</strong> (<em>str</em>) – list of SMILES strings</p></li>
 <li><p><strong>node_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – node features to extract</p></li>
 <li><p><strong>edge_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – edge features to extract</p></li>
 <li><p><strong>graph_feature</strong> (<em>str</em><em> or </em><em>list of str</em><em>, </em><em>optional</em>) – graph features to extract</p></li>
@@ -1815,7 +1817,7 @@ The computation can be implemented as message passing over a fully connected gra
 <dt id="drugdiscovery.data.PackedMolecule.ion_to_molecule">
 <code class="sig-name descname">ion_to_molecule</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/drugdiscovery/data/molecule.html#PackedMolecule.ion_to_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#drugdiscovery.data.PackedMolecule.ion_to_molecule" title="Permalink to this definition">¶</a></dt>
 <dd><p>Convert ions to molecules by adjusting hydrogens and electrons.</p>
-<p>Note two special cases [N+](=O)[O-] and [N-]=[N+]=[N] will not be converted.</p>
+<p>Note [N+] will not be converted.</p>
 </dd></dl>
 
 <dl class="py method">
