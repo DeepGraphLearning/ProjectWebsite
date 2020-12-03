@@ -313,9 +313,9 @@
         <span class="k">if</span> <span class="n">kekulize</span><span class="p">:</span>
             <span class="n">Chem</span><span class="o">.</span><span class="n">Kekulize</span><span class="p">(</span><span class="n">mol</span><span class="p">)</span>
 
-        <span class="n">node_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">node_feature</span><span class="p">)</span>
-        <span class="n">edge_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">edge_feature</span><span class="p">)</span>
-        <span class="n">graph_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">graph_feature</span><span class="p">)</span>
+        <span class="n">node_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_option</span><span class="p">(</span><span class="n">node_feature</span><span class="p">)</span>
+        <span class="n">edge_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_option</span><span class="p">(</span><span class="n">edge_feature</span><span class="p">)</span>
+        <span class="n">graph_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_option</span><span class="p">(</span><span class="n">graph_feature</span><span class="p">)</span>
 
         <span class="n">atom_type</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">formal_charge</span> <span class="o">=</span> <span class="p">[]</span>
@@ -392,12 +392,12 @@
                    <span class="n">num_node</span><span class="o">=</span><span class="n">mol</span><span class="o">.</span><span class="n">GetNumAtoms</span><span class="p">(),</span> <span class="n">num_relation</span><span class="o">=</span><span class="n">num_relation</span><span class="p">)</span></div>
 
     <span class="nd">@classmethod</span>
-    <span class="k">def</span> <span class="nf">_standarize_options</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">options</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">options</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">options</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">options</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
-            <span class="n">options</span> <span class="o">=</span> <span class="p">[</span><span class="n">options</span><span class="p">]</span>
-        <span class="k">return</span> <span class="n">options</span>
+    <span class="k">def</span> <span class="nf">_standarize_option</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">option</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">option</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">option</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">option</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">option</span> <span class="o">=</span> <span class="p">[</span><span class="n">option</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">option</span>
 
 <div class="viewcode-block" id="Molecule.to_smiles"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.to_smiles">[docs]</a>    <span class="k">def</span> <span class="nf">to_smiles</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">isomeric</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">atom_map</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">canonical</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
@@ -415,12 +415,13 @@
         <span class="k">if</span> <span class="ow">not</span> <span class="n">atom_map</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">mol</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">():</span>
                 <span class="n">atom</span><span class="o">.</span><span class="n">SetAtomMapNum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">last_smiles</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="n">smiles</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolToSmiles</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">isomericSmiles</span><span class="o">=</span><span class="n">isomeric</span><span class="p">)</span>
-        <span class="k">while</span> <span class="n">canonical</span> <span class="ow">and</span> <span class="n">smiles</span> <span class="o">!=</span> <span class="n">last_smiles</span><span class="p">:</span>
-            <span class="n">last_smiles</span> <span class="o">=</span> <span class="n">smiles</span>
-            <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
-            <span class="n">smiles</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolToSmiles</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">isomericSmiles</span><span class="o">=</span><span class="n">isomeric</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">canonical</span><span class="p">:</span>
+            <span class="n">smiles_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+            <span class="k">while</span> <span class="n">smiles</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">smiles_set</span><span class="p">:</span>
+                <span class="n">smiles_set</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
+                <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
+                <span class="n">smiles</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolToSmiles</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">isomericSmiles</span><span class="o">=</span><span class="n">isomeric</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">smiles</span></div>
 
 <div class="viewcode-block" id="Molecule.to_molecule"><a class="viewcode-back" href="../../../api/data.html#drugdiscovery.data.Molecule.to_molecule">[docs]</a>    <span class="k">def</span> <span class="nf">to_molecule</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ignore_error</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
@@ -723,9 +724,9 @@
 <span class="sd">                For ``bond_type``, aromatic bonds are always stored explicitly.</span>
 <span class="sd">                By default, aromatic bonds are stored.</span>
 <span class="sd">        &quot;&quot;&quot;</span>
-        <span class="n">node_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">node_feature</span><span class="p">)</span>
-        <span class="n">edge_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">edge_feature</span><span class="p">)</span>
-        <span class="n">graph_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_options</span><span class="p">(</span><span class="n">graph_feature</span><span class="p">)</span>
+        <span class="n">node_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_option</span><span class="p">(</span><span class="n">node_feature</span><span class="p">)</span>
+        <span class="n">edge_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_option</span><span class="p">(</span><span class="n">edge_feature</span><span class="p">)</span>
+        <span class="n">graph_feature</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">_standarize_option</span><span class="p">(</span><span class="n">graph_feature</span><span class="p">)</span>
 
         <span class="n">atom_type</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">formal_charge</span> <span class="o">=</span> <span class="p">[]</span>
@@ -839,12 +840,13 @@
             <span class="k">if</span> <span class="ow">not</span> <span class="n">atom_map</span><span class="p">:</span>
                 <span class="k">for</span> <span class="n">atom</span> <span class="ow">in</span> <span class="n">mol</span><span class="o">.</span><span class="n">GetAtoms</span><span class="p">():</span>
                     <span class="n">atom</span><span class="o">.</span><span class="n">SetAtomMapNum</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-            <span class="n">last_smiles</span> <span class="o">=</span> <span class="kc">None</span>
             <span class="n">smiles</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolToSmiles</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">isomericSmiles</span><span class="o">=</span><span class="n">isomeric</span><span class="p">)</span>
-            <span class="k">while</span> <span class="n">canonical</span> <span class="ow">and</span> <span class="n">smiles</span> <span class="o">!=</span> <span class="n">last_smiles</span><span class="p">:</span>
-                <span class="n">last_smiles</span> <span class="o">=</span> <span class="n">smiles</span>
-                <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
-                <span class="n">smiles</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolToSmiles</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">isomericSmiles</span><span class="o">=</span><span class="n">isomeric</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">canonical</span><span class="p">:</span>
+                <span class="n">smiles_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+                <span class="k">while</span> <span class="n">smiles</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">smiles_set</span><span class="p">:</span>
+                    <span class="n">smiles_set</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
+                    <span class="n">mol</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolFromSmiles</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
+                    <span class="n">smiles</span> <span class="o">=</span> <span class="n">Chem</span><span class="o">.</span><span class="n">MolToSmiles</span><span class="p">(</span><span class="n">mol</span><span class="p">,</span> <span class="n">isomericSmiles</span><span class="o">=</span><span class="n">isomeric</span><span class="p">)</span>
             <span class="n">smiles_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">smiles</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">smiles_list</span></div>
 
