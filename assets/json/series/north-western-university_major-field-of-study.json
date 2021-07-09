@@ -1,0 +1,128 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 0.7422292232513428
+            },
+            "source": 6,
+            "target": 0,
+            "value": "currency (129)"
+        },
+        {
+            "lineStyle": {
+                "width": 5.237963676452637
+            },
+            "source": 3,
+            "target": 2,
+            "value": "major field of study (188)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.076838493347168
+            },
+            "source": 1,
+            "target": 6,
+            "value": "institution (89)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.5
+            },
+            "source": 6,
+            "target": 2,
+            "value": "major field of study (101)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.7097268104553223
+            },
+            "source": 6,
+            "target": 0,
+            "value": "currency (208)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.0166149139404297
+            },
+            "source": 6,
+            "target": 4,
+            "value": "list (172)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.262036085128784
+            },
+            "source": 2,
+            "target": 3,
+            "value": "major field of study (188)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.7414274215698242
+            },
+            "source": 6,
+            "target": 0,
+            "value": "currency (213)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.9709010124206543
+            },
+            "source": 6,
+            "target": 5,
+            "value": "major field of study (101)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.7422618865966797
+            },
+            "source": 6,
+            "target": 0,
+            "value": "currency (108)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "currency of the united states (Q4917)",
+            "symbolSize": 9.25815486907959
+        },
+        {
+            "id": 1,
+            "name": "/m/04zx3q1",
+            "symbolSize": 7.805891990661621
+        },
+        {
+            "id": 2,
+            "name": "electrical engingeering (Q43035)",
+            "symbolSize": 12.694930076599121
+        },
+        {
+            "id": 3,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "/m/01mkq",
+            "symbolSize": 9.959138870239258
+        },
+        {
+            "id": 4,
+            "name": "times higher education world reputation rankings (Q1318318)",
+            "symbolSize": 7.772470474243164
+        },
+        {
+            "id": 5,
+            "name": "biochemical phenomena (Q7094)",
+            "symbolSize": 7.747013568878174
+        },
+        {
+            "id": 6,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "north-western university (Q309350)",
+            "symbolSize": 14.762397766113281
+        }
+    ],
+    "title": "p(/m/01mkq | north-western university (Q309350), major field of study (101))\nranking = 1"
+}

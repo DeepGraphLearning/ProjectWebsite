@@ -1,0 +1,233 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 6.965203285217285
+            },
+            "source": 3,
+            "target": 9,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.228987216949463
+            },
+            "source": 1,
+            "target": 3,
+            "value": "olympics (104)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.0197763442993164
+            },
+            "source": 3,
+            "target": 2,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.48060941696167
+            },
+            "source": 9,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.968814730644226
+            },
+            "source": 5,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.0197763442993164
+            },
+            "source": 2,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.4301834106445312
+            },
+            "source": 8,
+            "target": 11,
+            "value": "member states (168)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2162115573883057
+            },
+            "source": 3,
+            "target": 1,
+            "value": "sports (65)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.968814730644226
+            },
+            "source": 3,
+            "target": 5,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9707756042480469
+            },
+            "source": 7,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.4301834106445312
+            },
+            "source": 9,
+            "target": 10,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9982542991638184
+            },
+            "source": 3,
+            "target": 4,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.445199012756348
+            },
+            "source": 1,
+            "target": 11,
+            "value": "country (29)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.988452672958374
+            },
+            "source": 3,
+            "target": 6,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.4301834106445312
+            },
+            "source": 8,
+            "target": 10,
+            "value": "member states (168)"
+        },
+        {
+            "lineStyle": {
+                "width": 12.426681518554688
+            },
+            "source": 11,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.988452672958374
+            },
+            "source": 6,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9707756042480469
+            },
+            "source": 3,
+            "target": 7,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9982542991638184
+            },
+            "source": 4,
+            "target": 0,
+            "value": "administrative parent (62)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.054409980773926
+            },
+            "source": 11,
+            "target": 9,
+            "value": "adjoins (58)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "globe (earth) (Q2)",
+            "symbolSize": 12.774406433105469
+        },
+        {
+            "id": 1,
+            "name": "outdoor track and field (Q3312129)",
+            "symbolSize": 9.875870704650879
+        },
+        {
+            "id": 2,
+            "name": "maghrib al-aksa (Q1028)",
+            "symbolSize": 8.825267791748047
+        },
+        {
+            "id": 3,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "2008 beijing olympics (Q8567)",
+            "symbolSize": 12.19971752166748
+        },
+        {
+            "id": 4,
+            "name": "rhodesia (Q954)",
+            "symbolSize": 8.815496444702148
+        },
+        {
+            "id": 5,
+            "name": "ethiopia (Q115)",
+            "symbolSize": 8.802116394042969
+        },
+        {
+            "id": 6,
+            "name": "republique tunisienne (Q948)",
+            "symbolSize": 8.811042785644531
+        },
+        {
+            "id": 7,
+            "name": "\u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc (Q801)",
+            "symbolSize": 8.803007125854492
+        },
+        {
+            "id": 8,
+            "name": "organizaci\u00f3n mundial del comercio (Q7825)",
+            "symbolSize": 9.010015487670898
+        },
+        {
+            "id": 9,
+            "name": "indigenous cultures, kingdoms and ethnic groups of senegal (Q1041)",
+            "symbolSize": 10.873332977294922
+        },
+        {
+            "id": 10,
+            "name": "culture of the gambia (Q1005)",
+            "symbolSize": 9.010015487670898
+        },
+        {
+            "id": 11,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "moritani (Q1025)",
+            "symbolSize": 12.19971752166748
+        }
+    ],
+    "title": "p(moritani (Q1025) | 2008 beijing olympics (Q8567), participating countries (157))\nranking = 9"
+}

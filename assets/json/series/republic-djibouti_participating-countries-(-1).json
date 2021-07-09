@@ -1,0 +1,168 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.532553791999817
+            },
+            "source": 3,
+            "target": 2,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.6577277183532715
+            },
+            "source": 4,
+            "target": 3,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.4512739181518555
+            },
+            "source": 4,
+            "target": 0,
+            "value": "currency (219)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.4589109420776367
+            },
+            "source": 4,
+            "target": 0,
+            "value": "currency (139)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.4583678245544434
+            },
+            "source": 2,
+            "target": 0,
+            "value": "adjustment currency (206)"
+        },
+        {
+            "lineStyle": {
+                "width": 14.276357650756836
+            },
+            "source": 6,
+            "target": 2,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.44179105758667
+            },
+            "source": 3,
+            "target": 4,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.3981810808181763
+            },
+            "source": 3,
+            "target": 1,
+            "value": "medal (171)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2855010032653809
+            },
+            "source": 5,
+            "target": 4,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2461044788360596
+            },
+            "source": 6,
+            "target": 4,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.337562918663025
+            },
+            "source": 2,
+            "target": 4,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.451817035675049
+            },
+            "source": 2,
+            "target": 0,
+            "value": "currency (234)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.3201645612716675
+            },
+            "source": 4,
+            "target": 2,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2855010032653809
+            },
+            "source": 2,
+            "target": 5,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.3981810808181763
+            },
+            "source": 2,
+            "target": 1,
+            "value": "medal (73)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "currency of the united states (Q4917)",
+            "symbolSize": 9.465237617492676
+        },
+        {
+            "id": 1,
+            "name": "bronze medals (Q873364)",
+            "symbolSize": 7.62601900100708
+        },
+        {
+            "id": 2,
+            "name": "press freedom in eritrea (Q986)",
+            "symbolSize": 12.731261253356934
+        },
+        {
+            "id": 3,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "2008 beijing olympics (Q8567)",
+            "symbolSize": 10.202990531921387
+        },
+        {
+            "id": 4,
+            "name": "ethiopia (Q115)",
+            "symbolSize": 11.673845291137695
+        },
+        {
+            "id": 5,
+            "name": "jumh\u016briyyat al-s\u016bd\u0101n (Q1049)",
+            "symbolSize": 7.560886383056641
+        },
+        {
+            "id": 6,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "republic djibouti (Q977)",
+            "symbolSize": 10.739754676818848
+        }
+    ],
+    "title": "p(2008 beijing olympics (Q8567) | republic djibouti (Q977), participating countries (157)^(-1))\nranking = 1"
+}

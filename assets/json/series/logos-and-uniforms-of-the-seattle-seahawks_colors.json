@@ -1,0 +1,194 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.5708673000335693
+            },
+            "source": 2,
+            "target": 0,
+            "value": "team (130)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6069707870483398
+            },
+            "source": 0,
+            "target": 4,
+            "value": "draft (96)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5668731927871704
+            },
+            "source": 5,
+            "target": 7,
+            "value": "draft (96)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5708673000335693
+            },
+            "source": 5,
+            "target": 2,
+            "value": "position (169)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5901007652282715
+            },
+            "source": 0,
+            "target": 3,
+            "value": "position (169)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.60263729095459
+            },
+            "source": 0,
+            "target": 3,
+            "value": "position (117)"
+        },
+        {
+            "lineStyle": {
+                "width": 17.0
+            },
+            "source": 0,
+            "target": 6,
+            "value": "colors (95)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7661654949188232
+            },
+            "source": 5,
+            "target": 3,
+            "value": "position s (36)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5700474977493286
+            },
+            "source": 8,
+            "target": 0,
+            "value": "team (130)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.58770489692688
+            },
+            "source": 5,
+            "target": 1,
+            "value": "position (169)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5700474977493286
+            },
+            "source": 5,
+            "target": 8,
+            "value": "position (169)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.8934881687164307
+            },
+            "source": 0,
+            "target": 1,
+            "value": "position (117)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5668731927871704
+            },
+            "source": 0,
+            "target": 7,
+            "value": "draft (96)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9047977924346924
+            },
+            "source": 1,
+            "target": 5,
+            "value": "team (130)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.426572799682617
+            },
+            "source": 3,
+            "target": 5,
+            "value": "team (130)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5990145206451416
+            },
+            "source": 1,
+            "target": 0,
+            "value": "team (130)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6069707870483398
+            },
+            "source": 5,
+            "target": 4,
+            "value": "draft (96)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "carolina panther (Q330120)",
+            "symbolSize": 14.967317581176758
+        },
+        {
+            "id": 1,
+            "name": "punter (gridiron football) (Q525495)",
+            "symbolSize": 10.20602798461914
+        },
+        {
+            "id": 2,
+            "name": "fullback (gridiron football) (Q526960)",
+            "symbolSize": 7.843617916107178
+        },
+        {
+            "id": 3,
+            "name": "safety position (Q24994)",
+            "symbolSize": 10.044459342956543
+        },
+        {
+            "id": 4,
+            "name": "rivers-manning trade (Q3246876)",
+            "symbolSize": 7.868220329284668
+        },
+        {
+            "id": 5,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "logos and uniforms of the seattle seahawks (Q221878)",
+            "symbolSize": 11.69320297241211
+        },
+        {
+            "id": 6,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "dark blue (color) (Q1088)",
+            "symbolSize": 11.69320297241211
+        },
+        {
+            "id": 7,
+            "name": "2006 national football league draft (Q2447844)",
+            "symbolSize": 7.8408918380737305
+        },
+        {
+            "id": 8,
+            "name": "long snapping (Q530348)",
+            "symbolSize": 7.8430585861206055
+        }
+    ],
+    "title": "p(dark blue (color) (Q1088) | logos and uniforms of the seattle seahawks (Q221878), colors (95))\nranking = 4"
+}

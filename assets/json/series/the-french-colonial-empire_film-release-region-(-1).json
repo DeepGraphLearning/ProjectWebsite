@@ -1,0 +1,212 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 2.1222496032714844
+            },
+            "source": 3,
+            "target": 1,
+            "value": "combatants (152)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1138241291046143
+            },
+            "source": 8,
+            "target": 1,
+            "value": "country (28)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.122225046157837
+            },
+            "source": 3,
+            "target": 1,
+            "value": "exported to (218)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.114351511001587
+            },
+            "source": 8,
+            "target": 1,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 5.2802886962890625
+            },
+            "source": 10,
+            "target": 5,
+            "value": "partially contains (222)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.0358142852783203
+            },
+            "source": 2,
+            "target": 1,
+            "value": "combatants (131)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.0358142852783203
+            },
+            "source": 2,
+            "target": 10,
+            "value": "locations (163)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.149214267730713
+            },
+            "source": 7,
+            "target": 0,
+            "value": "film release distribution medium (11)"
+        },
+        {
+            "lineStyle": {
+                "width": 10.62321662902832
+            },
+            "source": 1,
+            "target": 3,
+            "value": "combatants (152)"
+        },
+        {
+            "lineStyle": {
+                "width": 5.2802886962890625
+            },
+            "source": 9,
+            "target": 5,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.228176116943359
+            },
+            "source": 9,
+            "target": 4,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.114752173423767
+            },
+            "source": 9,
+            "target": 1,
+            "value": "country (28)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.149214267730713
+            },
+            "source": 7,
+            "target": 4,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.102306365966797
+            },
+            "source": 3,
+            "target": 10,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1421685218811035
+            },
+            "source": 10,
+            "target": 3,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.0789618492126465
+            },
+            "source": 6,
+            "target": 4,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.228176116943359
+            },
+            "source": 8,
+            "target": 0,
+            "value": "film release distribution medium (11)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.0789618492126465
+            },
+            "source": 6,
+            "target": 0,
+            "value": "film release distribution medium (11)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "dual layer (Q5294)",
+            "symbolSize": 9.769062995910645
+        },
+        {
+            "id": 1,
+            "name": "usofa (Q30)",
+            "symbolSize": 12.244071006774902
+        },
+        {
+            "id": 2,
+            "name": "books/world war ii (Q362)",
+            "symbolSize": 8.293553352355957
+        },
+        {
+            "id": 3,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "the french colonial empire (Q142)",
+            "symbolSize": 11.86722183227539
+        },
+        {
+            "id": 4,
+            "name": "czech republic (Q213)",
+            "symbolSize": 9.769062995910645
+        },
+        {
+            "id": 5,
+            "name": "espagna (Q29)",
+            "symbolSize": 10.21568775177002
+        },
+        {
+            "id": 6,
+            "name": "dom cobb (Q25188)",
+            "symbolSize": 8.797374725341797
+        },
+        {
+            "id": 7,
+            "name": "dilwale dulhania le jayenge (1995 film) (Q849343)",
+            "symbolSize": 8.830504417419434
+        },
+        {
+            "id": 8,
+            "name": "the jackal (1997 film) (Q167437)",
+            "symbolSize": 9.769062995910645
+        },
+        {
+            "id": 9,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "backson (Q922193)",
+            "symbolSize": 10.228713989257812
+        },
+        {
+            "id": 10,
+            "name": "\u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0645\u062a\u0648\u0633\u0637 (Q4918)",
+            "symbolSize": 10.21568775177002
+        }
+    ],
+    "title": "p(backson (Q922193) | the french colonial empire (Q142), film release region (13)^(-1))\nranking = 1"
+}

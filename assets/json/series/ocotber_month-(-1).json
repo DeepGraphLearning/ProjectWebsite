@@ -1,0 +1,202 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 0.9593204855918884
+            },
+            "source": 6,
+            "target": 5,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9519773721694946
+            },
+            "source": 2,
+            "target": 1,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9191710948944092
+            },
+            "source": 8,
+            "target": 6,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9534964561462402
+            },
+            "source": 3,
+            "target": 6,
+            "value": "month (148)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9534964561462402
+            },
+            "source": 3,
+            "target": 2,
+            "value": "month (148)"
+        },
+        {
+            "lineStyle": {
+                "width": 8.621125221252441
+            },
+            "source": 7,
+            "target": 2,
+            "value": "month (148)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.1366214752197266
+            },
+            "source": 4,
+            "target": 8,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 9.57882308959961
+            },
+            "source": 0,
+            "target": 6,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9580572843551636
+            },
+            "source": 6,
+            "target": 0,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9519773721694946
+            },
+            "source": 1,
+            "target": 6,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 8.621125221252441
+            },
+            "source": 2,
+            "target": 4,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9286996126174927
+            },
+            "source": 8,
+            "target": 2,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9527547359466553
+            },
+            "source": 2,
+            "target": 8,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 10.536879539489746
+            },
+            "source": 2,
+            "target": 0,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9591230154037476
+            },
+            "source": 5,
+            "target": 6,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9622831344604492
+            },
+            "source": 6,
+            "target": 8,
+            "value": "seasonal months (231)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.1366214752197266
+            },
+            "source": 7,
+            "target": 8,
+            "value": "month (148)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9184435606002808
+            },
+            "source": 2,
+            "target": 5,
+            "value": "seasonal months (231)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "month may (Q119)",
+            "symbolSize": 12.080427169799805
+        },
+        {
+            "id": 1,
+            "name": "september (month) (Q123)",
+            "symbolSize": 7.667138576507568
+        },
+        {
+            "id": 2,
+            "name": "june (Q120)",
+            "symbolSize": 14.324470520019531
+        },
+        {
+            "id": 3,
+            "name": "\u5409\u9686\u5761 (Q1865)",
+            "symbolSize": 7.668012619018555
+        },
+        {
+            "id": 4,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "ocotber (Q124)",
+            "symbolSize": 9.709312438964844
+        },
+        {
+            "id": 5,
+            "name": "nov (Q125)",
+            "symbolSize": 8.20875358581543
+        },
+        {
+            "id": 6,
+            "name": "aug. (Q122)",
+            "symbolSize": 11.337395668029785
+        },
+        {
+            "id": 7,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "zurich (city) (Q72)",
+            "symbolSize": 9.709312438964844
+        },
+        {
+            "id": 8,
+            "name": "mar. (Q110)",
+            "symbolSize": 9.29517936706543
+        }
+    ],
+    "title": "p(zurich (city) (Q72) | ocotber (Q124), month (148)^(-1))\nranking = 1"
+}

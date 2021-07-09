@@ -1,0 +1,161 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.6529271602630615
+            },
+            "source": 0,
+            "target": 6,
+            "value": "ceremony (10)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6449055671691895
+            },
+            "source": 3,
+            "target": 6,
+            "value": "ceremony (10)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6480525732040405
+            },
+            "source": 6,
+            "target": 7,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6470701694488525
+            },
+            "source": 6,
+            "target": 11,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 8.249998092651367
+            },
+            "source": 5,
+            "target": 1,
+            "value": "award (30)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.647162675857544
+            },
+            "source": 6,
+            "target": 10,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6570236682891846
+            },
+            "source": 6,
+            "target": 9,
+            "value": "honored for (103)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6549046039581299
+            },
+            "source": 6,
+            "target": 2,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6477220058441162
+            },
+            "source": 6,
+            "target": 8,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6507439613342285
+            },
+            "source": 6,
+            "target": 4,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 9.899484634399414
+            },
+            "source": 1,
+            "target": 6,
+            "value": "ceremony (10)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "best sound, recording (Q830079)",
+            "symbolSize": 7.699913501739502
+        },
+        {
+            "id": 1,
+            "name": "best actor academy award (Q103916)",
+            "symbolSize": 17.668216705322266
+        },
+        {
+            "id": 2,
+            "name": "hurt, william (Q105825)",
+            "symbolSize": 7.703225135803223
+        },
+        {
+            "id": 3,
+            "name": "list of best supporting actor nominees (Q106291)",
+            "symbolSize": 7.686458587646484
+        },
+        {
+            "id": 4,
+            "name": "david a goodman (Q5230469)",
+            "symbolSize": 7.696254730224609
+        },
+        {
+            "id": 5,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "kiss of the spider woman (film) (Q1215865)",
+            "symbolSize": 13.80051040649414
+        },
+        {
+            "id": 6,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "58th academy awards nominees and winners (Q938235)",
+            "symbolSize": 19.275373458862305
+        },
+        {
+            "id": 7,
+            "name": "sydney polack (Q51522)",
+            "symbolSize": 7.691741466522217
+        },
+        {
+            "id": 8,
+            "name": "/m/016vqk",
+            "symbolSize": 7.691186904907227
+        },
+        {
+            "id": 9,
+            "name": "prizzi's honour (Q460664)",
+            "symbolSize": 7.7067718505859375
+        },
+        {
+            "id": 10,
+            "name": "david watkin (cinematographer) (Q1177096)",
+            "symbolSize": 7.690248012542725
+        },
+        {
+            "id": 11,
+            "name": "geraldine page (Q228650)",
+            "symbolSize": 7.690092086791992
+        }
+    ],
+    "title": "p(kiss of the spider woman (film) (Q1215865) | 58th academy awards nominees and winners (Q938235), honored for (103))\nranking = 7"
+}

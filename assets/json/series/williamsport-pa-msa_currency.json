@@ -1,0 +1,168 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 3.010409116744995
+            },
+            "source": 0,
+            "target": 1,
+            "value": "adjustment currency (206)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.1263705492019653
+            },
+            "source": 5,
+            "target": 6,
+            "value": "administrative division (194)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.010409116744995
+            },
+            "source": 0,
+            "target": 5,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.010409116744995
+            },
+            "source": 0,
+            "target": 0,
+            "value": "split to (228)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1450321674346924
+            },
+            "source": 6,
+            "target": 5,
+            "value": "county seat (190)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.443635940551758
+            },
+            "source": 3,
+            "target": 5,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.970063209533691
+            },
+            "source": 3,
+            "target": 6,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5724208354949951
+            },
+            "source": 6,
+            "target": 2,
+            "value": "time zones (154)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.169712543487549
+            },
+            "source": 6,
+            "target": 5,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.449585437774658
+            },
+            "source": 4,
+            "target": 3,
+            "value": "state province region (143)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.012929916381836
+            },
+            "source": 5,
+            "target": 6,
+            "value": "county (111)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.970063209533691
+            },
+            "source": 4,
+            "target": 1,
+            "value": "currency (166)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5724208354949951
+            },
+            "source": 3,
+            "target": 2,
+            "value": "time zones (154)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.520477294921875
+            },
+            "source": 3,
+            "target": 4,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 6.016057014465332
+            },
+            "source": 3,
+            "target": 1,
+            "value": "currency (219)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "usofa (Q30)",
+            "symbolSize": 9.89015007019043
+        },
+        {
+            "id": 1,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "currency of the united states (Q4917)",
+            "symbolSize": 10.308709144592285
+        },
+        {
+            "id": 2,
+            "name": "clevland time zone (Q941023)",
+            "symbolSize": 7.7221245765686035
+        },
+        {
+            "id": 3,
+            "name": "the coal state (Q1400)",
+            "symbolSize": 11.85291862487793
+        },
+        {
+            "id": 4,
+            "name": "curtis institute of music (Q60450)",
+            "symbolSize": 9.419425964355469
+        },
+        {
+            "id": 5,
+            "name": "williamsport, pennsylvania metropolitan area (Q1016159)",
+            "symbolSize": 10.497961044311523
+        },
+        {
+            "id": 6,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "williamsport, pa msa (Q495633)",
+            "symbolSize": 10.308709144592285
+        }
+    ],
+    "title": "p(currency of the united states (Q4917) | williamsport, pa msa (Q495633), currency (33))\nranking = 1"
+}

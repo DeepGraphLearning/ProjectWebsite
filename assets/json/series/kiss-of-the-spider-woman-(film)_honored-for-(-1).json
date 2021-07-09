@@ -1,0 +1,110 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 0.6533476710319519
+            },
+            "source": 2,
+            "target": 0,
+            "value": "award (30)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.030107021331787
+            },
+            "source": 1,
+            "target": 3,
+            "value": "participant (77)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.7378456592559814
+            },
+            "source": 1,
+            "target": 3,
+            "value": "celebrity (164)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.325057029724121
+            },
+            "source": 4,
+            "target": 1,
+            "value": "award winner (27)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.6533476710319519
+            },
+            "source": 0,
+            "target": 2,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 8.049726486206055
+            },
+            "source": 1,
+            "target": 2,
+            "value": "nominated for (38)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.6617953181266785
+            },
+            "source": 3,
+            "target": 1,
+            "value": "spouse (192)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.3165810108184814
+            },
+            "source": 3,
+            "target": 1,
+            "value": "celebrity (164)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.572190761566162
+            },
+            "source": 1,
+            "target": 2,
+            "value": "film (6)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "best actor academy award (Q103916)",
+            "symbolSize": 5.389708995819092
+        },
+        {
+            "id": 1,
+            "name": "hurt, william (Q105825)",
+            "symbolSize": 14.666534423828125
+        },
+        {
+            "id": 2,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "kiss of the spider woman (film) (Q1215865)",
+            "symbolSize": 11.536565780639648
+        },
+        {
+            "id": 3,
+            "name": "marly matlin (Q213287)",
+            "symbolSize": 9.062535285949707
+        },
+        {
+            "id": 4,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "58th academy awards nominees and winners (Q938235)",
+            "symbolSize": 9.344653129577637
+        }
+    ],
+    "title": "p(58th academy awards nominees and winners (Q938235) | kiss of the spider woman (film) (Q1215865), honored for (103)^(-1))\nranking = 1"
+}

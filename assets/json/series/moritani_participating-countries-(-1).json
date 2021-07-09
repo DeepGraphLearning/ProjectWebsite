@@ -1,0 +1,178 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 7.694965839385986
+            },
+            "source": 2,
+            "target": 5,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.306154489517212
+            },
+            "source": 2,
+            "target": 6,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8405660390853882
+            },
+            "source": 5,
+            "target": 0,
+            "value": "currency (219)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6787619590759277
+            },
+            "source": 6,
+            "target": 5,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.306154489517212
+            },
+            "source": 6,
+            "target": 7,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 6.749438285827637
+            },
+            "source": 5,
+            "target": 7,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8387516140937805
+            },
+            "source": 1,
+            "target": 5,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6778218746185303
+            },
+            "source": 3,
+            "target": 5,
+            "value": "country (29)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8495234251022339
+            },
+            "source": 5,
+            "target": 8,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8387516140937805
+            },
+            "source": 5,
+            "target": 1,
+            "value": "olympics (72)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8492337465286255
+            },
+            "source": 5,
+            "target": 8,
+            "value": "capital (54)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.688354730606079
+            },
+            "source": 5,
+            "target": 4,
+            "value": "teams (94)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.3965470790863037
+            },
+            "source": 8,
+            "target": 5,
+            "value": "country (133)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8405660390853882
+            },
+            "source": 5,
+            "target": 0,
+            "value": "currency (139)"
+        },
+        {
+            "lineStyle": {
+                "width": 14.444404602050781
+            },
+            "source": 7,
+            "target": 5,
+            "value": "adjoins (58)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "currency of the united states (Q4917)",
+            "symbolSize": 7.595248699188232
+        },
+        {
+            "id": 1,
+            "name": "xxi olympic winter games 2010 (Q9674)",
+            "symbolSize": 7.59368371963501
+        },
+        {
+            "id": 2,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "2008 beijing olympics (Q8567)",
+            "symbolSize": 10.333174705505371
+        },
+        {
+            "id": 3,
+            "name": "canoe race (Q1141850)",
+            "symbolSize": 7.5938215255737305
+        },
+        {
+            "id": 4,
+            "name": "senegal national football team (Q207441)",
+            "symbolSize": 7.598361492156982
+        },
+        {
+            "id": 5,
+            "name": "indigenous cultures, kingdoms and ethnic groups of senegal (Q1041)",
+            "symbolSize": 17.679601669311523
+        },
+        {
+            "id": 6,
+            "name": "malian republic (Q912)",
+            "symbolSize": 8.66064739227295
+        },
+        {
+            "id": 7,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "moritani (Q1025)",
+            "symbolSize": 13.97842025756836
+        },
+        {
+            "id": 8,
+            "name": "dakar, senegal (Q3718)",
+            "symbolSize": 8.967041969299316
+        }
+    ],
+    "title": "p(2008 beijing olympics (Q8567) | moritani (Q1025), participating countries (157)^(-1))\nranking = 1"
+}

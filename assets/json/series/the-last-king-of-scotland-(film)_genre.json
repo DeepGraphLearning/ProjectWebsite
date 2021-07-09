@@ -1,0 +1,246 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.280534267425537
+            },
+            "source": 6,
+            "target": 0,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.280476689338684
+            },
+            "source": 11,
+            "target": 9,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2805538177490234
+            },
+            "source": 4,
+            "target": 6,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2883855104446411
+            },
+            "source": 6,
+            "target": 1,
+            "value": "country (28)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2807644605636597
+            },
+            "source": 3,
+            "target": 6,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2813498973846436
+            },
+            "source": 5,
+            "target": 9,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.280534267425537
+            },
+            "source": 0,
+            "target": 9,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.280476689338684
+            },
+            "source": 11,
+            "target": 6,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2863142490386963
+            },
+            "source": 1,
+            "target": 6,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 12.59999942779541
+            },
+            "source": 9,
+            "target": 7,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.053612232208252
+            },
+            "source": 10,
+            "target": 8,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2813498973846436
+            },
+            "source": 5,
+            "target": 6,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2858279943466187
+            },
+            "source": 9,
+            "target": 2,
+            "value": "film crew role (26)"
+        },
+        {
+            "lineStyle": {
+                "width": 11.546387672424316
+            },
+            "source": 6,
+            "target": 8,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2858279943466187
+            },
+            "source": 6,
+            "target": 2,
+            "value": "film crew role (26)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.628312110900879
+            },
+            "source": 1,
+            "target": 9,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2821805477142334
+            },
+            "source": 6,
+            "target": 4,
+            "value": "award (30)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.562734365463257
+            },
+            "source": 4,
+            "target": 9,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2807644605636597
+            },
+            "source": 3,
+            "target": 9,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.053612232208252
+            },
+            "source": 1,
+            "target": 10,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 12.59999942779541
+            },
+            "source": 12,
+            "target": 7,
+            "value": "genre (31)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "drama movie (Q130232)",
+            "symbolSize": 7.957454204559326
+        },
+        {
+            "id": 1,
+            "name": "uk of gb and ni (Q145)",
+            "symbolSize": 9.56331729888916
+        },
+        {
+            "id": 2,
+            "name": "sfx supervisor (Q8313)",
+            "symbolSize": 7.9613800048828125
+        },
+        {
+            "id": 3,
+            "name": "academy award for outstanding picture (Q102427)",
+            "symbolSize": 7.957624435424805
+        },
+        {
+            "id": 4,
+            "name": "golden globe award for best original score 1947-1969 (Q1422140)",
+            "symbolSize": 8.866111755371094
+        },
+        {
+            "id": 5,
+            "name": "bafta award for best actor 1980\u20131999 (Q400007)",
+            "symbolSize": 7.958058834075928
+        },
+        {
+            "id": 6,
+            "name": "atonement (2007 film) (Q1626186)",
+            "symbolSize": 13.624234199523926
+        },
+        {
+            "id": 7,
+            "name": "political drama (Q7210294)",
+            "symbolSize": 14.059122085571289
+        },
+        {
+            "id": 8,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "military drama (Q369747)",
+            "symbolSize": 11.124220848083496
+        },
+        {
+            "id": 9,
+            "name": "/m/04j4tx",
+            "symbolSize": 14.059122085571289
+        },
+        {
+            "id": 10,
+            "name": "hotel riwanda (Q223884)",
+            "symbolSize": 7.787713527679443
+        },
+        {
+            "id": 11,
+            "name": "bafta award for best editing 1968\u20131984 (Q787145)",
+            "symbolSize": 7.95741081237793
+        },
+        {
+            "id": 12,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "the last king of scotland (film) (Q176826)",
+            "symbolSize": 11.124220848083496
+        }
+    ],
+    "title": "p(military drama (Q369747) | the last king of scotland (film) (Q176826), genre (31))\nranking = 7"
+}

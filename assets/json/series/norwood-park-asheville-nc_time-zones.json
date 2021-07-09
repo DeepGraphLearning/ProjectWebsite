@@ -1,0 +1,181 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.694986343383789
+            },
+            "source": 1,
+            "target": 2,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.7690963745117188
+            },
+            "source": 4,
+            "target": 1,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5513885021209717
+            },
+            "source": 6,
+            "target": 2,
+            "value": "place of birth (24)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.02407169342041
+            },
+            "source": 1,
+            "target": 2,
+            "value": "county seat (190)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.564630150794983
+            },
+            "source": 6,
+            "target": 2,
+            "value": "origin (160)"
+        },
+        {
+            "lineStyle": {
+                "width": 14.70002555847168
+            },
+            "source": 4,
+            "target": 5,
+            "value": "time zones (154)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6137717962265015
+            },
+            "source": 7,
+            "target": 2,
+            "value": "citytown (83)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5837962627410889
+            },
+            "source": 6,
+            "target": 2,
+            "value": "location (66)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5537257194519043
+            },
+            "source": 3,
+            "target": 4,
+            "value": "location of ceremony (161)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5310139656066895
+            },
+            "source": 0,
+            "target": 2,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5537257194519043
+            },
+            "source": 3,
+            "target": 2,
+            "value": "location of ceremony (161)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9499616622924805
+            },
+            "source": 1,
+            "target": 5,
+            "value": "time zones (154)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.699814796447754
+            },
+            "source": 6,
+            "target": 4,
+            "value": "location (66)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.532603144645691
+            },
+            "source": 2,
+            "target": 0,
+            "value": "country (133)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.6137717962265015
+            },
+            "source": 7,
+            "target": 4,
+            "value": "state province region (143)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.063616991043091
+            },
+            "source": 4,
+            "target": 0,
+            "value": "country (133)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "usofa (Q30)",
+            "symbolSize": 8.31651496887207
+        },
+        {
+            "id": 1,
+            "name": "buncombe county, nc (Q504360)",
+            "symbolSize": 10.219098091125488
+        },
+        {
+            "id": 2,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "norwood park, asheville, nc (Q648501)",
+            "symbolSize": 11.71560287475586
+        },
+        {
+            "id": 3,
+            "name": "bonds of matrimony (Q8445)",
+            "symbolSize": 6.977570056915283
+        },
+        {
+            "id": 4,
+            "name": "from murphy to manteo (Q1454)",
+            "symbolSize": 14.476457595825195
+        },
+        {
+            "id": 5,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "clevland time zone (Q941023)",
+            "symbolSize": 11.71560287475586
+        },
+        {
+            "id": 6,
+            "name": "dupri (Q349434)",
+            "symbolSize": 9.543607711791992
+        },
+        {
+            "id": 7,
+            "name": "black mountain school (Q880447)",
+            "symbolSize": 7.035543441772461
+        }
+    ],
+    "title": "p(clevland time zone (Q941023) | norwood park, asheville, nc (Q648501), time zones (154))\nranking = 1"
+}

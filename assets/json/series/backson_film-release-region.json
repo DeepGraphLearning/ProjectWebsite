@@ -1,0 +1,233 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.9859472513198853
+            },
+            "source": 10,
+            "target": 7,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9832614660263062
+            },
+            "source": 10,
+            "target": 9,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9807472229003906
+            },
+            "source": 10,
+            "target": 6,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9835901260375977
+            },
+            "source": 11,
+            "target": 2,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 20.0
+            },
+            "source": 10,
+            "target": 4,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9842867851257324
+            },
+            "source": 10,
+            "target": 3,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9807472229003906
+            },
+            "source": 11,
+            "target": 6,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9832614660263062
+            },
+            "source": 11,
+            "target": 9,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9877554178237915
+            },
+            "source": 10,
+            "target": 5,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9877554178237915
+            },
+            "source": 11,
+            "target": 5,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9859472513198853
+            },
+            "source": 11,
+            "target": 7,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9879034757614136
+            },
+            "source": 11,
+            "target": 0,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9943886995315552
+            },
+            "source": 11,
+            "target": 0,
+            "value": "country (28)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.9822921752929688
+            },
+            "source": 10,
+            "target": 0,
+            "value": "country (28)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.070034980773926
+            },
+            "source": 11,
+            "target": 1,
+            "value": "language (14)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.070034980773926
+            },
+            "source": 10,
+            "target": 1,
+            "value": "language (14)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.0420846939086914
+            },
+            "source": 11,
+            "target": 8,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9842867851257324
+            },
+            "source": 11,
+            "target": 3,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.9835901260375977
+            },
+            "source": 10,
+            "target": 2,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.0420846939086914
+            },
+            "source": 10,
+            "target": 8,
+            "value": "film release region (13)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "usofa (Q30)",
+            "symbolSize": 9.7770414352417
+        },
+        {
+            "id": 1,
+            "name": "english vernacular (Q1860)",
+            "symbolSize": 9.135563850402832
+        },
+        {
+            "id": 2,
+            "name": "australia (commonwealth) (Q408)",
+            "symbolSize": 9.105748176574707
+        },
+        {
+            "id": 3,
+            "name": "philippines republic (Q928)",
+            "symbolSize": 9.105989456176758
+        },
+        {
+            "id": 4,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "the french colonial empire (Q142)",
+            "symbolSize": 11.599122047424316
+        },
+        {
+            "id": 5,
+            "name": "new zealand at the 2015 commonwealth youth games (Q664)",
+            "symbolSize": 9.107185363769531
+        },
+        {
+            "id": 6,
+            "name": "etymology of germany (Q183)",
+            "symbolSize": 9.104765892028809
+        },
+        {
+            "id": 7,
+            "name": "bulgary (Q219)",
+            "symbolSize": 9.106561660766602
+        },
+        {
+            "id": 8,
+            "name": "turkia (Q43)",
+            "symbolSize": 9.125931739807129
+        },
+        {
+            "id": 9,
+            "name": "russia (Q159)",
+            "symbolSize": 9.105634689331055
+        },
+        {
+            "id": 10,
+            "name": "kill them softly (Q136264)",
+            "symbolSize": 14.127334594726562
+        },
+        {
+            "id": 11,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "backson (Q922193)",
+            "symbolSize": 11.599122047424316
+        }
+    ],
+    "title": "p(the french colonial empire (Q142) | backson (Q922193), film release region (13))\nranking = 1"
+}

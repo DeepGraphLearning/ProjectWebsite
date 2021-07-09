@@ -1,0 +1,207 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.7737001180648804
+            },
+            "source": 5,
+            "target": 1,
+            "value": "medal (73)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.3712406158447266
+            },
+            "source": 8,
+            "target": 1,
+            "value": "medal (171)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2384531497955322
+            },
+            "source": 7,
+            "target": 1,
+            "value": "medal (171)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7817968130111694
+            },
+            "source": 6,
+            "target": 1,
+            "value": "medal (73)"
+        },
+        {
+            "lineStyle": {
+                "width": 17.63144302368164
+            },
+            "source": 9,
+            "target": 8,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.771126627922058
+            },
+            "source": 3,
+            "target": 8,
+            "value": "olympics (72)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.618669033050537
+            },
+            "source": 2,
+            "target": 1,
+            "value": "medal (73)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7817968130111694
+            },
+            "source": 6,
+            "target": 8,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7638564109802246
+            },
+            "source": 0,
+            "target": 8,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.846512794494629
+            },
+            "source": 8,
+            "target": 2,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2384531497955322
+            },
+            "source": 9,
+            "target": 7,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.771126627922058
+            },
+            "source": 3,
+            "target": 1,
+            "value": "medal (73)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7737001180648804
+            },
+            "source": 5,
+            "target": 8,
+            "value": "olympics (72)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.773550033569336
+            },
+            "source": 4,
+            "target": 8,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7775030136108398
+            },
+            "source": 0,
+            "target": 8,
+            "value": "olympics (72)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7721564769744873
+            },
+            "source": 2,
+            "target": 8,
+            "value": "olympics (72)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.773550033569336
+            },
+            "source": 4,
+            "target": 1,
+            "value": "medal (73)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.5413594245910645
+            },
+            "source": 0,
+            "target": 1,
+            "value": "medal (73)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "swedish climate (Q34)",
+            "symbolSize": 9.325079917907715
+        },
+        {
+            "id": 1,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "bronze medals (Q873364)",
+            "symbolSize": 12.162240982055664
+        },
+        {
+            "id": 2,
+            "name": "uk of gb and ni (Q145)",
+            "symbolSize": 9.364339828491211
+        },
+        {
+            "id": 3,
+            "name": "the french colonial empire (Q142)",
+            "symbolSize": 8.383856773376465
+        },
+        {
+            "id": 4,
+            "name": "rephaboliki ya afrika borwa (Q258)",
+            "symbolSize": 8.38520336151123
+        },
+        {
+            "id": 5,
+            "name": "etymology of germany (Q183)",
+            "symbolSize": 8.385286331176758
+        },
+        {
+            "id": 6,
+            "name": "state of chile (Q298)",
+            "symbolSize": 8.389786720275879
+        },
+        {
+            "id": 7,
+            "name": "london 1908 (Q8111)",
+            "symbolSize": 8.640560150146484
+        },
+        {
+            "id": 8,
+            "name": "1912 olympic games (Q8118)",
+            "symbolSize": 14.80140209197998
+        },
+        {
+            "id": 9,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "czechs (bohemians) (Q39193)",
+            "symbolSize": 12.162240982055664
+        }
+    ],
+    "title": "p(czechs (bohemians) (Q39193) | bronze medals (Q873364), medal (73)^(-1))\nranking = 9"
+}

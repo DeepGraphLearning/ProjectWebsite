@@ -1,0 +1,246 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 2.1567273139953613
+            },
+            "source": 7,
+            "target": 11,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1604080200195312
+            },
+            "source": 7,
+            "target": 3,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1690235137939453
+            },
+            "source": 7,
+            "target": 6,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1762211322784424
+            },
+            "source": 7,
+            "target": 8,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.226552963256836
+            },
+            "source": 7,
+            "target": 1,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.163200616836548
+            },
+            "source": 4,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.161620855331421
+            },
+            "source": 10,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1690235137939453
+            },
+            "source": 6,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1720547676086426
+            },
+            "source": 7,
+            "target": 0,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.226552963256836
+            },
+            "source": 1,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1604080200195312
+            },
+            "source": 3,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1626710891723633
+            },
+            "source": 5,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.163200616836548
+            },
+            "source": 7,
+            "target": 4,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1762211322784424
+            },
+            "source": 2,
+            "target": 8,
+            "value": "adjoins (58)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1626710891723633
+            },
+            "source": 7,
+            "target": 5,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.161620855331421
+            },
+            "source": 7,
+            "target": 10,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1769278049468994
+            },
+            "source": 7,
+            "target": 9,
+            "value": "film release region (13)"
+        },
+        {
+            "lineStyle": {
+                "width": 19.5491886138916
+            },
+            "source": 2,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1567273139953613
+            },
+            "source": 11,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1769278049468994
+            },
+            "source": 9,
+            "target": 12,
+            "value": "organization (23)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.1720547676086426
+            },
+            "source": 0,
+            "target": 12,
+            "value": "organization (23)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "republica portuguesa (Q45)",
+            "symbolSize": 9.212016105651855
+        },
+        {
+            "id": 1,
+            "name": "usofa (Q30)",
+            "symbolSize": 9.230817794799805
+        },
+        {
+            "id": 2,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "argentinia (Q414)",
+            "symbolSize": 11.894184112548828
+        },
+        {
+            "id": 3,
+            "name": "belgium (Q31)",
+            "symbolSize": 9.20799446105957
+        },
+        {
+            "id": 4,
+            "name": "\ud83c\uddee\ud83c\uddf9 (Q38)",
+            "symbolSize": 9.20895767211914
+        },
+        {
+            "id": 5,
+            "name": "ja (Q17)",
+            "symbolSize": 9.20877456665039
+        },
+        {
+            "id": 6,
+            "name": "current events/canada/archive-box (Q16)",
+            "symbolSize": 9.210968971252441
+        },
+        {
+            "id": 7,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "restless (2011 film) (Q1782383)",
+            "symbolSize": 11.894184112548828
+        },
+        {
+            "id": 8,
+            "name": "barzil (Q155)",
+            "symbolSize": 9.213454246520996
+        },
+        {
+            "id": 9,
+            "name": "swissenergy (Q39)",
+            "symbolSize": 9.21369743347168
+        },
+        {
+            "id": 10,
+            "name": "/m/059j2",
+            "symbolSize": 9.208412170410156
+        },
+        {
+            "id": 11,
+            "name": "finn land (Q33)",
+            "symbolSize": 9.206721305847168
+        },
+        {
+            "id": 12,
+            "name": "african bank of development (Q340195)",
+            "symbolSize": 14.089811325073242
+        }
+    ],
+    "title": "p(argentinia (Q414) | restless (2011 film) (Q1782383), film release region (13))\nranking = 2"
+}

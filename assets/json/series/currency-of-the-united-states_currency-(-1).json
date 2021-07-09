@@ -1,0 +1,272 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 2.2240495681762695
+            },
+            "source": 10,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.228109836578369
+            },
+            "source": 7,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.216174602508545
+            },
+            "source": 2,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2642266750335693
+            },
+            "source": 6,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.228109836578369
+            },
+            "source": 7,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2120652198791504
+            },
+            "source": 1,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2098889350891113
+            },
+            "source": 9,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.241257429122925
+            },
+            "source": 12,
+            "target": 11,
+            "value": "county seat (190)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2120652198791504
+            },
+            "source": 1,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.241257429122925
+            },
+            "source": 11,
+            "target": 5,
+            "value": "time zones (154)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2642266750335693
+            },
+            "source": 6,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.239673614501953
+            },
+            "source": 8,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.216174602508545
+            },
+            "source": 2,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.208547592163086
+            },
+            "source": 13,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2089226245880127
+            },
+            "source": 4,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.241257429122925
+            },
+            "source": 14,
+            "target": 5,
+            "value": "time zones (154)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2089226245880127
+            },
+            "source": 4,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.241257429122925
+            },
+            "source": 14,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2098889350891113
+            },
+            "source": 9,
+            "target": 0,
+            "value": "currency (33)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.2240495681762695
+            },
+            "source": 10,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.208547592163086
+            },
+            "source": 13,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 20.011659622192383
+            },
+            "source": 12,
+            "target": 3,
+            "value": "source (120)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.239673614501953
+            },
+            "source": 8,
+            "target": 0,
+            "value": "currency (33)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "currency of the united states (Q4917)",
+            "symbolSize": 12.955085754394531
+        },
+        {
+            "id": 1,
+            "name": "/m/02cl1",
+            "symbolSize": 9.010839462280273
+        },
+        {
+            "id": 2,
+            "name": "lehigh county, pa. (Q494117)",
+            "symbolSize": 9.013018608093262
+        },
+        {
+            "id": 3,
+            "name": "department of housing and urban development (Q811595)",
+            "symbolSize": 15.858725547790527
+        },
+        {
+            "id": 4,
+            "name": "hunterdon county, new jersey (Q502451)",
+            "symbolSize": 9.009173393249512
+        },
+        {
+            "id": 5,
+            "name": "clevland time zone (Q941023)",
+            "symbolSize": 9.0263090133667
+        },
+        {
+            "id": 6,
+            "name": "eden, ca (Q107146)",
+            "symbolSize": 9.038466453552246
+        },
+        {
+            "id": 7,
+            "name": "brownell middle school (Q195664)",
+            "symbolSize": 9.019344329833984
+        },
+        {
+            "id": 8,
+            "name": "mericopa county, arizona (Q58691)",
+            "symbolSize": 9.025469779968262
+        },
+        {
+            "id": 9,
+            "name": "burlington county, nj (Q138141)",
+            "symbolSize": 9.009686470031738
+        },
+        {
+            "id": 10,
+            "name": "chester county, pa (Q27840)",
+            "symbolSize": 9.017191886901855
+        },
+        {
+            "id": 11,
+            "name": "williamsport, pennsylvania metropolitan area (Q1016159)",
+            "symbolSize": 9.0263090133667
+        },
+        {
+            "id": 12,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "williamsport, pa msa (Q495633)",
+            "symbolSize": 12.955085754394531
+        },
+        {
+            "id": 13,
+            "name": "altoona, pa metropolitan statistical area (Q494152)",
+            "symbolSize": 9.0089750289917
+        },
+        {
+            "id": 14,
+            "name": "gaston county, north carolina (Q511849)",
+            "symbolSize": 9.0263090133667
+        }
+    ],
+    "title": "p(williamsport, pa msa (Q495633) | currency of the united states (Q4917), currency (33)^(-1))\nranking = 9"
+}

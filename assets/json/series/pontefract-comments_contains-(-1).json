@@ -1,0 +1,144 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 1.7137904167175293
+            },
+            "source": 3,
+            "target": 0,
+            "value": "country (133)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.8935991525650024
+            },
+            "source": 4,
+            "target": 2,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7512826919555664
+            },
+            "source": 0,
+            "target": 3,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.7696142196655273
+            },
+            "source": 4,
+            "target": 0,
+            "value": "country (135)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5307137966156006
+            },
+            "source": 0,
+            "target": 5,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.2694820165634155
+            },
+            "source": 0,
+            "target": 2,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.665920734405518
+            },
+            "source": 4,
+            "target": 6,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.6241172552108765
+            },
+            "source": 2,
+            "target": 0,
+            "value": "country (135)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.119771957397461
+            },
+            "source": 0,
+            "target": 4,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.665920734405518
+            },
+            "source": 1,
+            "target": 4,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5307137966156006
+            },
+            "source": 4,
+            "target": 5,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.4650731086730957
+            },
+            "source": 4,
+            "target": 3,
+            "value": "contains (15)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "uk of gb and ni (Q145)",
+            "symbolSize": 11.395913124084473
+        },
+        {
+            "id": 1,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "england, u.k. (Q21)",
+            "symbolSize": 9.444507598876953
+        },
+        {
+            "id": 2,
+            "name": "new victoria theatre (bradford) (Q22905)",
+            "symbolSize": 7.940118312835693
+        },
+        {
+            "id": 3,
+            "name": "wakefield rural district (Q216638)",
+            "symbolSize": 9.177976608276367
+        },
+        {
+            "id": 4,
+            "name": "west yorkshire, england (Q23083)",
+            "symbolSize": 14.96890926361084
+        },
+        {
+            "id": 5,
+            "name": "dewsbury bus station (Q525508)",
+            "symbolSize": 7.628063678741455
+        },
+        {
+            "id": 6,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "pontefract/comments (Q1009235)",
+            "symbolSize": 9.444507598876953
+        }
+    ],
+    "title": "p(england, u.k. (Q21) | pontefract/comments (Q1009235), contains (15)^(-1))\nranking = 1"
+}

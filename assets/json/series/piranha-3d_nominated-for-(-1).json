@@ -1,0 +1,191 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 3.4624104499816895
+            },
+            "source": 5,
+            "target": 2,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.4210410118103027
+            },
+            "source": 2,
+            "target": 9,
+            "value": "award winner (12)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8457494974136353
+            },
+            "source": 7,
+            "target": 3,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.681997537612915
+            },
+            "source": 7,
+            "target": 1,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.333345890045166
+            },
+            "source": 8,
+            "target": 7,
+            "value": "prequel (230)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8835327625274658
+            },
+            "source": 3,
+            "target": 6,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.7292823791503906
+            },
+            "source": 3,
+            "target": 7,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.370043992996216
+            },
+            "source": 4,
+            "target": 9,
+            "value": "people (71)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.240979194641113
+            },
+            "source": 9,
+            "target": 5,
+            "value": "award (19)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8835327625274658
+            },
+            "source": 5,
+            "target": 6,
+            "value": "nominated for (7)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.333345890045166
+            },
+            "source": 8,
+            "target": 3,
+            "value": "genre (31)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.3747148513793945
+            },
+            "source": 9,
+            "target": 2,
+            "value": "nominated for (38)"
+        },
+        {
+            "lineStyle": {
+                "width": 5.8969221115112305
+            },
+            "source": 7,
+            "target": 0,
+            "value": "country (28)"
+        },
+        {
+            "lineStyle": {
+                "width": 4.333345890045166
+            },
+            "source": 3,
+            "target": 2,
+            "value": "titles (2)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.370043992996216
+            },
+            "source": 4,
+            "target": 0,
+            "value": "geographic distribution (151)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8397132754325867
+            },
+            "source": 7,
+            "target": 0,
+            "value": "film release region (193)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "usofa (Q30)",
+            "symbolSize": 10.609886169433594
+        },
+        {
+            "id": 1,
+            "name": "so bad it's good (Q219557)",
+            "symbolSize": 5.821739196777344
+        },
+        {
+            "id": 2,
+            "name": "house of wax (2005 film) (Q679679)",
+            "symbolSize": 12.441969871520996
+        },
+        {
+            "id": 3,
+            "name": "Q193606",
+            "symbolSize": 11.351049423217773
+        },
+        {
+            "id": 4,
+            "name": "germans of usa (Q141817)",
+            "symbolSize": 9.123208045959473
+        },
+        {
+            "id": 5,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "mtv movie award for best frightened performance (Q425675)",
+            "symbolSize": 9.984106063842773
+        },
+        {
+            "id": 6,
+            "name": "welcome to zombieland (Q219810)",
+            "symbolSize": 5.895420074462891
+        },
+        {
+            "id": 7,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "piranha 3d (Q733995)",
+            "symbolSize": 12.365396499633789
+        },
+        {
+            "id": 8,
+            "name": "piranha 3dd (Q328208)",
+            "symbolSize": 10.018634796142578
+        },
+        {
+            "id": 9,
+            "name": "paris hilton energy plan (Q47899)",
+            "symbolSize": 12.388593673706055
+        }
+    ],
+    "title": "p(mtv movie award for best frightened performance (Q425675) | piranha 3d (Q733995), nominated for (7)^(-1))\nranking = 6"
+}

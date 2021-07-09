@@ -1,0 +1,154 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 9.000000953674316
+            },
+            "source": 5,
+            "target": 0,
+            "value": "medal (171)"
+        },
+        {
+            "lineStyle": {
+                "width": 9.000000953674316
+            },
+            "source": 8,
+            "target": 5,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.7664954662323
+            },
+            "source": 1,
+            "target": 8,
+            "value": "combatants (152)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8992893695831299
+            },
+            "source": 4,
+            "target": 8,
+            "value": "combatants (131)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.80551815032959
+            },
+            "source": 8,
+            "target": 2,
+            "value": "combatants (152)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.755094051361084
+            },
+            "source": 7,
+            "target": 8,
+            "value": "combatants (131)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9326895475387573
+            },
+            "source": 2,
+            "target": 8,
+            "value": "combatants (152)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.9370774626731873
+            },
+            "source": 8,
+            "target": 1,
+            "value": "combatants (152)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.61673641204834
+            },
+            "source": 3,
+            "target": 8,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8725545406341553
+            },
+            "source": 8,
+            "target": 3,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.662424087524414
+            },
+            "source": 4,
+            "target": 8,
+            "value": "entity involved (88)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.752121925354004
+            },
+            "source": 6,
+            "target": 8,
+            "value": "entity involved (88)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "bronze medals (Q873364)",
+            "symbolSize": 11.67601490020752
+        },
+        {
+            "id": 1,
+            "name": "the french colonial empire (Q142)",
+            "symbolSize": 8.403631210327148
+        },
+        {
+            "id": 2,
+            "name": "realm of scotland (Q230791)",
+            "symbolSize": 8.432038307189941
+        },
+        {
+            "id": 3,
+            "name": "1900 olympic games (Q8088)",
+            "symbolSize": 8.224817276000977
+        },
+        {
+            "id": 4,
+            "name": "the second crusade (Q51654)",
+            "symbolSize": 8.28585147857666
+        },
+        {
+            "id": 5,
+            "name": "1912 olympic games (Q8118)",
+            "symbolSize": 14.907447814941406
+        },
+        {
+            "id": 6,
+            "name": "ottoman wars in europe (Q698985)",
+            "symbolSize": 6.5360822677612305
+        },
+        {
+            "id": 7,
+            "name": "30-year war (Q2487)",
+            "symbolSize": 6.539418697357178
+        },
+        {
+            "id": 8,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "czechs (bohemians) (Q39193)",
+            "symbolSize": 16.994691848754883
+        }
+    ],
+    "title": "p(bronze medals (Q873364) | czechs (bohemians) (Q39193), medal (73))\nranking = 1"
+}

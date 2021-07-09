@@ -1,0 +1,172 @@
+{
+    "edges": [
+        {
+            "lineStyle": {
+                "width": 7.799999237060547
+            },
+            "source": 6,
+            "target": 4,
+            "value": "jurisdiction of office (37)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.799999237060547
+            },
+            "source": 1,
+            "target": 4,
+            "value": "jurisdiction of office (37)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5374854803085327
+            },
+            "source": 5,
+            "target": 9,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5259315967559814
+            },
+            "source": 5,
+            "target": 10,
+            "value": "teams (94)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5234042406082153
+            },
+            "source": 2,
+            "target": 5,
+            "value": "contains (15)"
+        },
+        {
+            "lineStyle": {
+                "width": 7.799999237060547
+            },
+            "source": 6,
+            "target": 5,
+            "value": "jurisdiction of office (37)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5265727043151855
+            },
+            "source": 5,
+            "target": 7,
+            "value": "form of government (0)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8098293542861938
+            },
+            "source": 5,
+            "target": 0,
+            "value": "currency (139)"
+        },
+        {
+            "lineStyle": {
+                "width": 1.5268943309783936
+            },
+            "source": 5,
+            "target": 8,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 2.329310178756714
+            },
+            "source": 5,
+            "target": 3,
+            "value": "olympics (69)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.8085339069366455
+            },
+            "source": 5,
+            "target": 0,
+            "value": "adjustment currency (206)"
+        },
+        {
+            "lineStyle": {
+                "width": 0.780602753162384
+            },
+            "source": 3,
+            "target": 5,
+            "value": "participating countries (157)"
+        },
+        {
+            "lineStyle": {
+                "width": 3.2314348220825195
+            },
+            "source": 5,
+            "target": 0,
+            "value": "currency (219)"
+        }
+    ],
+    "nodes": [
+        {
+            "id": 0,
+            "name": "currency of the united states (Q4917)",
+            "symbolSize": 9.493000984191895
+        },
+        {
+            "id": 1,
+            "itemStyle": {
+                "color": "#3ba272"
+            },
+            "name": "list of prime ministers and premiers (Q14212)",
+            "symbolSize": 10.413047790527344
+        },
+        {
+            "id": 2,
+            "name": "the old continent (Q46)",
+            "symbolSize": 8.356475830078125
+        },
+        {
+            "id": 3,
+            "name": "1980 winter olympics games (Q9652)",
+            "symbolSize": 8.91287899017334
+        },
+        {
+            "id": 4,
+            "name": "san vicente y las granadinas (Q757)",
+            "symbolSize": 12.535247802734375
+        },
+        {
+            "id": 5,
+            "itemStyle": {
+                "color": "#ee6666"
+            },
+            "name": "lichenstein (Q347)",
+            "symbolSize": 14.31983470916748
+        },
+        {
+            "id": 6,
+            "name": "monarchs (Q116)",
+            "symbolSize": 12.535247802734375
+        },
+        {
+            "id": 7,
+            "name": "unitary states (Q179164)",
+            "symbolSize": 8.357614517211914
+        },
+        {
+            "id": 8,
+            "name": "1984 winter olympics (Q9657)",
+            "symbolSize": 8.357728958129883
+        },
+        {
+            "id": 9,
+            "name": "rhine (river) (Q584)",
+            "symbolSize": 8.361536026000977
+        },
+        {
+            "id": 10,
+            "name": "liechtenstein national football team (Q186690)",
+            "symbolSize": 8.357383728027344
+        }
+    ],
+    "title": "p(list of prime ministers and premiers (Q14212) | lichenstein (Q347), jurisdiction of office (37)^(-1))\nranking = 1"
+}
