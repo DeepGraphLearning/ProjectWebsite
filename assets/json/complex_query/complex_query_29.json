@@ -1,0 +1,1423 @@
+{
+    "edges": [
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "international film festival of berlin (Q130871) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "/m/0325pb 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "2011 toronto film festival (Q3950969) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "2010 sundance (Q1285856) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "/m/0kfhjq0 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "2009 berlin festival (Q572335) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "berlinale 2010 (Q574075) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "/m/04_m9gk 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "moco chinatown (Q327022) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "tsxu (Q626591) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "harrisburg county, tx (Q26676) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "texas tech college (Q1423756) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "wichita truck (Q128349) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "history of beaumont, texas (Q128282) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "rapid city (Q213325) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "garland, tex. (Q49274) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "green bay, wi. (Q47430) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "gadsden, alabama (Q79389) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "religion in texas (Q1439) 2",
+            "target": "pueblo, colorado (Q675576) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "tsxu (Q626591) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "harrisburg county, tx (Q26676) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "texas tech college (Q1423756) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "wichita truck (Q128349) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.007195487457614669
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.00686116203231002
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "rapid city (Q213325) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.0066869877274262635
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "garland, tex. (Q49274) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.006388163423802773
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.0063251476066154
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "gadsden, alabama (Q79389) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.0061386673270463765
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "midland, texas (Q128321) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "galveston, tex. (Q135744) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "texas tech college (Q1423756) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "longview, tx (Q852645) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "delta lodge (Q128306) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "port arthur (tx) (Q45400) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "city of fort worth (Q16558) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "odessa (texas) (Q128361) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "el paso (tx) (Q16562) 4",
+            "value": 0.005942361818052189
+        },
+        {
+            "source": "pueblo, colorado (Q675576) 3",
+            "target": "wichita truck (Q128349) 4",
+            "value": 0.005942361818052189
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08mbj5d 0",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "international film festival of berlin (Q130871) 1",
+            "url": "https://www.wikidata.org/wiki/Q130871",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0325pb 1",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "2011 toronto film festival (Q3950969) 1",
+            "url": "https://www.wikidata.org/wiki/Q3950969",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "2010 sundance (Q1285856) 1",
+            "url": "https://www.wikidata.org/wiki/Q1285856",
+            "value": 0.9832131266593933
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0kfhjq0 1",
+            "value": 0.9724279642105103
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "2009 berlin festival (Q572335) 1",
+            "url": "https://www.wikidata.org/wiki/Q572335",
+            "value": 0.9595931768417358
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "berlinale 2010 (Q574075) 1",
+            "url": "https://www.wikidata.org/wiki/Q574075",
+            "value": 0.9558846950531006
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/04_m9gk 1",
+            "value": 0.9511580467224121
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "moco chinatown (Q327022) 1",
+            "url": "https://www.wikidata.org/wiki/Q327022",
+            "value": 0.9060980081558228
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "url": "https://www.wikidata.org/wiki/Q329485",
+            "value": 0.8940292000770569
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "religion in texas (Q1439) 2",
+            "url": "https://www.wikidata.org/wiki/Q1439",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tsxu (Q626591) 3",
+            "url": "https://www.wikidata.org/wiki/Q626591",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "harrisburg county, tx (Q26676) 3",
+            "url": "https://www.wikidata.org/wiki/Q26676",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "texas tech college (Q1423756) 3",
+            "url": "https://www.wikidata.org/wiki/Q1423756",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "wichita truck (Q128349) 3",
+            "url": "https://www.wikidata.org/wiki/Q128349",
+            "value": 0.719548761844635
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of beaumont, texas (Q128282) 3",
+            "url": "https://www.wikidata.org/wiki/Q128282",
+            "value": 0.6861162185668945
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rapid city (Q213325) 3",
+            "url": "https://www.wikidata.org/wiki/Q213325",
+            "value": 0.668698787689209
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "garland, tex. (Q49274) 3",
+            "url": "https://www.wikidata.org/wiki/Q49274",
+            "value": 0.6388163566589355
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "green bay, wi. (Q47430) 3",
+            "url": "https://www.wikidata.org/wiki/Q47430",
+            "value": 0.6325147747993469
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "gadsden, alabama (Q79389) 3",
+            "url": "https://www.wikidata.org/wiki/Q79389",
+            "value": 0.6138667464256287
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "pueblo, colorado (Q675576) 3",
+            "url": "https://www.wikidata.org/wiki/Q675576",
+            "value": 0.5942361950874329
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "midland, texas (Q128321) 4",
+            "url": "https://www.wikidata.org/wiki/Q128321",
+            "value": 0.9999947547912598
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "galveston, tex. (Q135744) 4",
+            "url": "https://www.wikidata.org/wiki/Q135744",
+            "value": 0.9999884366989136
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "texas tech college (Q1423756) 4",
+            "url": "https://www.wikidata.org/wiki/Q1423756",
+            "value": 0.9999843835830688
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "longview, tx (Q852645) 4",
+            "url": "https://www.wikidata.org/wiki/Q852645",
+            "value": 0.7727326154708862
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "delta lodge (Q128306) 4",
+            "url": "https://www.wikidata.org/wiki/Q128306",
+            "value": 0.7685981392860413
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "port arthur (tx) (Q45400) 4",
+            "url": "https://www.wikidata.org/wiki/Q45400",
+            "value": 0.7631972432136536
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "city of fort worth (Q16558) 4",
+            "url": "https://www.wikidata.org/wiki/Q16558",
+            "value": 0.7630928158760071
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "odessa (texas) (Q128361) 4",
+            "url": "https://www.wikidata.org/wiki/Q128361",
+            "value": 0.7471793293952942
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "el paso (tx) (Q16562) 4",
+            "url": "https://www.wikidata.org/wiki/Q16562",
+            "value": 0.7400782108306885
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "wichita truck (Q128349) 4",
+            "url": "https://www.wikidata.org/wiki/Q128349",
+            "value": 0.7195401191711426
+        }
+    ],
+    "title": "[E] /m/08mbj5d, [R] category- (51), [E] religion in texas (Q1439), [R] contains+ (30), conjunction"
+}

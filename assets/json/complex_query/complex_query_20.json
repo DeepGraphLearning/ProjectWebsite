@@ -1,0 +1,1027 @@
+{
+    "edges": [
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "razzie award for worst screen combo (Q1535145) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "worst picture (Q1780634) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0",
+            "target": "raspberry award for worst actress (Q602866) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "worst picture (Q1780634) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "worst picture (Q1780634) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "worst picture (Q1780634) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "worst picture (Q1780634) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "worst picture (Q1780634) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0015351219132142824
+        },
+        {
+            "source": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0015351219132142824
+        },
+        {
+            "source": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0015351219132142824
+        },
+        {
+            "source": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0015351219132142824
+        },
+        {
+            "source": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0015351219132142824
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0015240379827312078
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0015240379827312078
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0015240379827312078
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0015240379827312078
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0015240379827312078
+        },
+        {
+            "source": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.001506380703157617
+        },
+        {
+            "source": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.001506380703157617
+        },
+        {
+            "source": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.001506380703157617
+        },
+        {
+            "source": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.001506380703157617
+        },
+        {
+            "source": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.001506380703157617
+        },
+        {
+            "source": "raspberry award for worst actress (Q602866) 1",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0011216688650473455
+        },
+        {
+            "source": "raspberry award for worst actress (Q602866) 1",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0011216688650473455
+        },
+        {
+            "source": "raspberry award for worst actress (Q602866) 1",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0011216688650473455
+        },
+        {
+            "source": "raspberry award for worst actress (Q602866) 1",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0011216688650473455
+        },
+        {
+            "source": "raspberry award for worst actress (Q602866) 1",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0011216688650473455
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "best animated short film (Q917808) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "best short subject, two-reel (Q1324407) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "academy award for best story (Q504298) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "oscar for best documentary (Q111332) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "satellite award for best adapted screenplay (Q1634847) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 2",
+            "target": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.003099260856972763
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.003099260856972763
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.003099260856972763
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.003099260856972763
+        },
+        {
+            "source": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.003099260856972763
+        },
+        {
+            "source": "best animated short film (Q917808) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0026402502661887484
+        },
+        {
+            "source": "best animated short film (Q917808) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0026402502661887484
+        },
+        {
+            "source": "best animated short film (Q917808) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0026402502661887484
+        },
+        {
+            "source": "best animated short film (Q917808) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0026402502661887484
+        },
+        {
+            "source": "best animated short film (Q917808) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0026402502661887484
+        },
+        {
+            "source": "best short subject, two-reel (Q1324407) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0018307604976573466
+        },
+        {
+            "source": "best short subject, two-reel (Q1324407) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0018307604976573466
+        },
+        {
+            "source": "best short subject, two-reel (Q1324407) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0018307604976573466
+        },
+        {
+            "source": "best short subject, two-reel (Q1324407) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0018307604976573466
+        },
+        {
+            "source": "best short subject, two-reel (Q1324407) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0018307604976573466
+        },
+        {
+            "source": "academy award for best story (Q504298) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0018203150819171565
+        },
+        {
+            "source": "academy award for best story (Q504298) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0018203150819171565
+        },
+        {
+            "source": "academy award for best story (Q504298) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0018203150819171565
+        },
+        {
+            "source": "academy award for best story (Q504298) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0018203150819171565
+        },
+        {
+            "source": "academy award for best story (Q504298) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0018203150819171565
+        },
+        {
+            "source": "oscar for best documentary (Q111332) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0017912812130611855
+        },
+        {
+            "source": "oscar for best documentary (Q111332) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0017912812130611855
+        },
+        {
+            "source": "oscar for best documentary (Q111332) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0017912812130611855
+        },
+        {
+            "source": "oscar for best documentary (Q111332) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0017912812130611855
+        },
+        {
+            "source": "oscar for best documentary (Q111332) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0017912812130611855
+        },
+        {
+            "source": "satellite award for best adapted screenplay (Q1634847) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0017633865379530211
+        },
+        {
+            "source": "satellite award for best adapted screenplay (Q1634847) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0017633865379530211
+        },
+        {
+            "source": "satellite award for best adapted screenplay (Q1634847) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0017633865379530211
+        },
+        {
+            "source": "satellite award for best adapted screenplay (Q1634847) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0017633865379530211
+        },
+        {
+            "source": "satellite award for best adapted screenplay (Q1634847) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0017633865379530211
+        },
+        {
+            "source": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "value": 0.0017454100755137925
+        },
+        {
+            "source": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "target": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "value": 0.0017454100755137925
+        },
+        {
+            "source": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "target": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "value": 0.0017454100755137925
+        },
+        {
+            "source": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "target": "worst picture (Q1780634) 4",
+            "value": 0.0017454100755137925
+        },
+        {
+            "source": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "target": "razzie award for worst screen combo (Q1535145) 4",
+            "value": 0.0017454100755137925
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "battleship (film) (Q474033) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "new year's eve (film) (Q1052260) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "dressed to kill (1980 movie) (Q980308) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "swept away (2002) (Q600364) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "cristal connors (Q532264) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "spirit of vengeance (film) (Q41854) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "jaws 3 (Q1199837) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "bolero (1984 film) (Q1754755) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "gigli (film) (Q260533) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "target": "3000 miles to graceland (Q348534) 5",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "battleship (film) (Q474033) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "new year's eve (film) (Q1052260) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "dressed to kill (1980 movie) (Q980308) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "swept away (2002) (Q600364) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "cristal connors (Q532264) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "spirit of vengeance (film) (Q41854) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "jaws 3 (Q1199837) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "bolero (1984 film) (Q1754755) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "gigli (film) (Q260533) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "target": "3000 miles to graceland (Q348534) 5",
+            "value": 0.0013723168960440846
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "battleship (film) (Q474033) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "new year's eve (film) (Q1052260) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "dressed to kill (1980 movie) (Q980308) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "swept away (2002) (Q600364) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "cristal connors (Q532264) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "spirit of vengeance (film) (Q41854) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "jaws 3 (Q1199837) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "bolero (1984 film) (Q1754755) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "gigli (film) (Q260533) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "target": "3000 miles to graceland (Q348534) 5",
+            "value": 0.0013117415909824903
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "battleship (film) (Q474033) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "new year's eve (film) (Q1052260) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "dressed to kill (1980 movie) (Q980308) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "swept away (2002) (Q600364) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "cristal connors (Q532264) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "spirit of vengeance (film) (Q41854) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "jaws 3 (Q1199837) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "bolero (1984 film) (Q1754755) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "gigli (film) (Q260533) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "worst picture (Q1780634) 4",
+            "target": "3000 miles to graceland (Q348534) 5",
+            "value": 0.001217189180466774
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "battleship (film) (Q474033) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "new year's eve (film) (Q1052260) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "dressed to kill (1980 movie) (Q980308) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "swept away (2002) (Q600364) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "cristal connors (Q532264) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "spirit of vengeance (film) (Q41854) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "jaws 3 (Q1199837) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "bolero (1984 film) (Q1754755) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "gigli (film) (Q260533) 5",
+            "value": 0.0011099379261596959
+        },
+        {
+            "source": "razzie award for worst screen combo (Q1535145) 4",
+            "target": "3000 miles to graceland (Q348534) 5",
+            "value": 0.0011099379261596959
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "daddy would you like some sausage? (Q1452656) 0",
+            "url": "https://www.wikidata.org/wiki/Q1452656",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "razzie award for worst screen combo (Q1535145) 1",
+            "url": "https://www.wikidata.org/wiki/Q1535145",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "worst picture (Q1780634) 1",
+            "url": "https://www.wikidata.org/wiki/Q1780634",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 1",
+            "url": "https://www.wikidata.org/wiki/Q602299",
+            "value": 0.9999994039535522
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "razzie award for worst prequel, remake, rip-off or sequel (Q1535133) 1",
+            "url": "https://www.wikidata.org/wiki/Q1535133",
+            "value": 0.15351219475269318
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden raspberry award for worst supporting actor - motion picture (Q641316) 1",
+            "url": "https://www.wikidata.org/wiki/Q641316",
+            "value": 0.1524038016796112
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden raspberry award for worst supporting actress (Q977915) 1",
+            "url": "https://www.wikidata.org/wiki/Q977915",
+            "value": 0.15063807368278503
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "raspberry award for worst actress (Q602866) 1",
+            "url": "https://www.wikidata.org/wiki/Q602866",
+            "value": 0.1121668890118599
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "peter hyams (Q458766) 2",
+            "url": "https://www.wikidata.org/wiki/Q458766",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden raspberry award for worst director (2001-2020) (Q1238714) 3",
+            "url": "https://www.wikidata.org/wiki/Q1238714",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden raspberry award for worst supporting actor - motion picture (Q641316) 3",
+            "url": "https://www.wikidata.org/wiki/Q641316",
+            "value": 0.3099260926246643
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "best animated short film (Q917808) 3",
+            "url": "https://www.wikidata.org/wiki/Q917808",
+            "value": 0.2640250325202942
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "best short subject, two-reel (Q1324407) 3",
+            "url": "https://www.wikidata.org/wiki/Q1324407",
+            "value": 0.18307605385780334
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "academy award for best story (Q504298) 3",
+            "url": "https://www.wikidata.org/wiki/Q504298",
+            "value": 0.182031512260437
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "oscar for best documentary (Q111332) 3",
+            "url": "https://www.wikidata.org/wiki/Q111332",
+            "value": 0.17912812530994415
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "satellite award for best adapted screenplay (Q1634847) 3",
+            "url": "https://www.wikidata.org/wiki/Q1634847",
+            "value": 0.17633865773677826
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "best art direction-set decoration, black-and-white (Q277751) 3",
+            "url": "https://www.wikidata.org/wiki/Q277751",
+            "value": 0.17454101145267487
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden raspberry award for worst director (2001-2020) (Q1238714) 4",
+            "url": "https://www.wikidata.org/wiki/Q1238714",
+            "value": 0.9999963045120239
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden raspberry award for worst screenplay 1980\u20132000 (Q1421666) 4",
+            "url": "https://www.wikidata.org/wiki/Q1421666",
+            "value": 0.13723169267177582
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden raspberry award for worst actor - motion picture musical or comedy (Q602299) 4",
+            "url": "https://www.wikidata.org/wiki/Q602299",
+            "value": 0.13117416203022003
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "worst picture (Q1780634) 4",
+            "url": "https://www.wikidata.org/wiki/Q1780634",
+            "value": 0.12171892076730728
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "razzie award for worst screen combo (Q1535145) 4",
+            "url": "https://www.wikidata.org/wiki/Q1535145",
+            "value": 0.11099379509687424
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "battleship (film) (Q474033) 5",
+            "url": "https://www.wikidata.org/wiki/Q474033",
+            "value": 0.9999974966049194
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new year's eve (film) (Q1052260) 5",
+            "url": "https://www.wikidata.org/wiki/Q1052260",
+            "value": 0.9999946355819702
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dressed to kill (1980 movie) (Q980308) 5",
+            "url": "https://www.wikidata.org/wiki/Q980308",
+            "value": 0.999992847442627
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "swept away (2002) (Q600364) 5",
+            "url": "https://www.wikidata.org/wiki/Q600364",
+            "value": 0.492806077003479
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "cristal connors (Q532264) 5",
+            "url": "https://www.wikidata.org/wiki/Q532264",
+            "value": 0.47107988595962524
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "spirit of vengeance (film) (Q41854) 5",
+            "url": "https://www.wikidata.org/wiki/Q41854",
+            "value": 0.45566457509994507
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "jaws 3 (Q1199837) 5",
+            "url": "https://www.wikidata.org/wiki/Q1199837",
+            "value": 0.4493662416934967
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "bolero (1984 film) (Q1754755) 5",
+            "url": "https://www.wikidata.org/wiki/Q1754755",
+            "value": 0.4452432096004486
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "gigli (film) (Q260533) 5",
+            "url": "https://www.wikidata.org/wiki/Q260533",
+            "value": 0.4277781546115875
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "3000 miles to graceland (Q348534) 5",
+            "url": "https://www.wikidata.org/wiki/Q348534",
+            "value": 0.42665156722068787
+        }
+    ],
+    "title": "[E] daddy would you like some sausage? (Q1452656), [R] award+ (60), [E] peter hyams (Q458766), [R] award+ (38), conjunction, [R] nominated for+ (14)"
+}

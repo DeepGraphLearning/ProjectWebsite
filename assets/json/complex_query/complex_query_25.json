@@ -1,0 +1,166 @@
+{
+    "edges": [
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "emily blunt (Q193517) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "jane horrocks (Q237178) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "vera drake (Q916645) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "miranda jane richardson (Q229241) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "katherine mathilda swinton (Q200534) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "charlotte rampling (Q234679) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "sienna rose (Q193458) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "imaelda staunton (Q234798) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "robin wright (Q272972) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0fq9zdn 0",
+            "target": "jessica tandy (Q182104) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0fq9zdn 0",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "emily blunt (Q193517) 1",
+            "url": "https://www.wikidata.org/wiki/Q193517",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jane horrocks (Q237178) 1",
+            "url": "https://www.wikidata.org/wiki/Q237178",
+            "value": 0.9999994039535522
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "vera drake (Q916645) 1",
+            "url": "https://www.wikidata.org/wiki/Q916645",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "miranda jane richardson (Q229241) 1",
+            "url": "https://www.wikidata.org/wiki/Q229241",
+            "value": 0.42247897386550903
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "katherine mathilda swinton (Q200534) 1",
+            "url": "https://www.wikidata.org/wiki/Q200534",
+            "value": 0.38266777992248535
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "charlotte rampling (Q234679) 1",
+            "url": "https://www.wikidata.org/wiki/Q234679",
+            "value": 0.3645514249801636
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sienna rose (Q193458) 1",
+            "url": "https://www.wikidata.org/wiki/Q193458",
+            "value": 0.3151417076587677
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "imaelda staunton (Q234798) 1",
+            "url": "https://www.wikidata.org/wiki/Q234798",
+            "value": 0.30766791105270386
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "robin wright (Q272972) 1",
+            "url": "https://www.wikidata.org/wiki/Q272972",
+            "value": 0.30592840909957886
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jessica tandy (Q182104) 1",
+            "url": "https://www.wikidata.org/wiki/Q182104",
+            "value": 0.3057282269001007
+        }
+    ],
+    "title": "[E] /m/0fq9zdn, [R] award- (39)"
+}

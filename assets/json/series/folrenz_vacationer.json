@@ -92,17 +92,17 @@
     "nodes": [
         {
             "id": 0,
-            "name": "\ud83c\uddee\ud83c\uddf9 (Q38)",
+            "name": "Italy (Q38)",
             "symbolSize": 7.834630489349365
         },
         {
             "id": 1,
-            "name": "toscana (Q1273)",
+            "name": "Tuscany, Italy (Q1273)",
             "symbolSize": 10.307021141052246
         },
         {
             "id": 2,
-            "name": "rome/comments (Q220)",
+            "name": "Rome, Italy (Q220)",
             "symbolSize": 11.75686264038086
         },
         {
@@ -110,7 +110,7 @@
             "itemStyle": {
                 "color": "#ee6666"
             },
-            "name": "folrenz (Q2044)",
+            "name": "Florence, Italy (Q2044)",
             "symbolSize": 9.172307968139648
         },
         {
@@ -118,12 +118,12 @@
             "itemStyle": {
                 "color": "#3ba272"
             },
-            "name": "henrie, david (Q297128)",
+            "name": "David Henrie (Q297128)",
             "symbolSize": 9.172307968139648
         },
         {
             "id": 5,
-            "name": "region of lazio (Q1282)",
+            "name": "Lazio, Italy (Q1282)",
             "symbolSize": 11.75686264038086
         }
     ],

@@ -1,0 +1,1853 @@
+{
+    "edges": [
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "crime in tijuana (Q124739) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "jerusulam (Q1218) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "/m/05r7t 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "tehran office tower (Q3616) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "porto antico (genoa) (Q1449) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "tunis, tunisia (Q3572) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "san luis rey de francia (Q81033) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "green bay, wi. (Q47430) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "parlor city (Q213814) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 0",
+            "target": "kazan, russia (Q900) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "crime in tijuana (Q124739) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "jerusulam (Q1218) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.00999983407557381
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "/m/05r7t 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.009999809041623564
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "tehran office tower (Q3616) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.008126817163970679
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "porto antico (genoa) (Q1449) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.007572188208128772
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "tunis, tunisia (Q3572) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.007527242134647616
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "san luis rey de francia (Q81033) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.007519963811636776
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "green bay, wi. (Q47430) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.00745443625477471
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "parlor city (Q213814) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.006694013326748904
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "cf os beleneses (Q216510) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "williams hybrid power (Q171337) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "fc torpedo-d moscow (Q324338) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "blues of tehran (Q455971) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "la adiccion (Q768253) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "uc sampdoria (Q1457) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "2019 green bay packers season (Q213837) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "hask gradanski (Q172803) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "apoel fc (Q131378) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "kazan, russia (Q900) 1",
+            "target": "rubin (football club) (Q170040) 2",
+            "value": 0.006639405936612053
+        },
+        {
+            "source": "cf os beleneses (Q216510) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.009993399754314125
+        },
+        {
+            "source": "cf os beleneses (Q216510) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.009993399754314125
+        },
+        {
+            "source": "cf os beleneses (Q216510) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.009993399754314125
+        },
+        {
+            "source": "williams hybrid power (Q171337) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.009992798939508218
+        },
+        {
+            "source": "williams hybrid power (Q171337) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.009992798939508218
+        },
+        {
+            "source": "williams hybrid power (Q171337) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.009992798939508218
+        },
+        {
+            "source": "fc torpedo-d moscow (Q324338) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.00999211169796932
+        },
+        {
+            "source": "fc torpedo-d moscow (Q324338) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.00999211169796932
+        },
+        {
+            "source": "fc torpedo-d moscow (Q324338) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.00999211169796932
+        },
+        {
+            "source": "blues of tehran (Q455971) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.009744254728907609
+        },
+        {
+            "source": "blues of tehran (Q455971) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.009744254728907609
+        },
+        {
+            "source": "blues of tehran (Q455971) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.009744254728907609
+        },
+        {
+            "source": "la adiccion (Q768253) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.009152453337182398
+        },
+        {
+            "source": "la adiccion (Q768253) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.009152453337182398
+        },
+        {
+            "source": "la adiccion (Q768253) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.009152453337182398
+        },
+        {
+            "source": "uc sampdoria (Q1457) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.009007102049728433
+        },
+        {
+            "source": "uc sampdoria (Q1457) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.009007102049728433
+        },
+        {
+            "source": "uc sampdoria (Q1457) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.009007102049728433
+        },
+        {
+            "source": "2019 green bay packers season (Q213837) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.008180757578147402
+        },
+        {
+            "source": "2019 green bay packers season (Q213837) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.008180757578147402
+        },
+        {
+            "source": "2019 green bay packers season (Q213837) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.008180757578147402
+        },
+        {
+            "source": "hask gradanski (Q172803) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.007853077474540227
+        },
+        {
+            "source": "hask gradanski (Q172803) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.007853077474540227
+        },
+        {
+            "source": "hask gradanski (Q172803) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.007853077474540227
+        },
+        {
+            "source": "apoel fc (Q131378) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.007680436201085827
+        },
+        {
+            "source": "apoel fc (Q131378) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.007680436201085827
+        },
+        {
+            "source": "apoel fc (Q131378) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.007680436201085827
+        },
+        {
+            "source": "rubin (football club) (Q170040) 2",
+            "target": "times higher education world reputation rankings (Q1318318) 3",
+            "value": 0.006866881693894822
+        },
+        {
+            "source": "rubin (football club) (Q170040) 2",
+            "target": "chickon (Q780) 3",
+            "value": 0.006866881693894822
+        },
+        {
+            "source": "rubin (football club) (Q170040) 2",
+            "target": "2006 summer smtown (Q485188) 3",
+            "value": 0.006866881693894822
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "team teal (Q206381) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "/m/02r7lqg 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "times higher education world reputation rankings (Q1318318) 3",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.009999293461457781
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "team teal (Q206381) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "/m/02r7lqg 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "chickon (Q780) 3",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.009999098554273722
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "team teal (Q206381) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "/m/02r7lqg 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 3",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.009998973980568926
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "canadians third jersey (Q188143) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "la kings (Q203008) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "chicago black hawks (Q209636) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "sabresgm (Q131206) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "/m/02r7lqg 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "manchester monarchs (ahl) (Q925024) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "milwaukee wings (Q1267828) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "portland pirates (Q1543744) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4",
+            "target": "st. johns icecaps (Q2297053) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "canadians third jersey (Q188143) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.009999962821603647
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "la kings (Q203008) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "chicago black hawks (Q209636) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.009999942556024877
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "sabresgm (Q131206) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.0053483234640585575
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "/m/02r7lqg 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.005137218122097442
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "manchester monarchs (ahl) (Q925024) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.004572595553712644
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "milwaukee wings (Q1267828) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.004462285240092456
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "portland pirates (Q1543744) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.004392703077360172
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.004198555256458625
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "team teal (Q206381) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "rangerscoach (Q188984) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "hc salavat yulaev ufa (Q1142030) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "manchester monarchs (ahl) (Q925024) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "/m/02r7lqg 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "milwaukee wings (Q1267828) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "portland pirates (Q1543744) 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "/m/0gvt8sz 6",
+            "value": 0.003964550406533096
+        },
+        {
+            "source": "st. johns icecaps (Q2297053) 5",
+            "target": "hurricanesgm (Q201857) 6",
+            "value": 0.003964550406533096
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bonds of matrimony (Q8445) 0",
+            "url": "https://www.wikidata.org/wiki/Q8445",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "crime in tijuana (Q124739) 1",
+            "url": "https://www.wikidata.org/wiki/Q124739",
+            "value": 0.9999878406524658
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jerusulam (Q1218) 1",
+            "url": "https://www.wikidata.org/wiki/Q1218",
+            "value": 0.9999834299087524
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/05r7t 1",
+            "value": 0.9999809265136719
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tehran office tower (Q3616) 1",
+            "url": "https://www.wikidata.org/wiki/Q3616",
+            "value": 0.8126817345619202
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "porto antico (genoa) (Q1449) 1",
+            "url": "https://www.wikidata.org/wiki/Q1449",
+            "value": 0.7572188377380371
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tunis, tunisia (Q3572) 1",
+            "url": "https://www.wikidata.org/wiki/Q3572",
+            "value": 0.7527242302894592
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "san luis rey de francia (Q81033) 1",
+            "url": "https://www.wikidata.org/wiki/Q81033",
+            "value": 0.7519963979721069
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "green bay, wi. (Q47430) 1",
+            "url": "https://www.wikidata.org/wiki/Q47430",
+            "value": 0.7454436421394348
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "parlor city (Q213814) 1",
+            "url": "https://www.wikidata.org/wiki/Q213814",
+            "value": 0.6694013476371765
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kazan, russia (Q900) 1",
+            "url": "https://www.wikidata.org/wiki/Q900",
+            "value": 0.6639406085014343
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cf os beleneses (Q216510) 2",
+            "url": "https://www.wikidata.org/wiki/Q216510",
+            "value": 0.9993399977684021
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "williams hybrid power (Q171337) 2",
+            "url": "https://www.wikidata.org/wiki/Q171337",
+            "value": 0.9992799162864685
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fc torpedo-d moscow (Q324338) 2",
+            "url": "https://www.wikidata.org/wiki/Q324338",
+            "value": 0.9992111921310425
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "blues of tehran (Q455971) 2",
+            "url": "https://www.wikidata.org/wiki/Q455971",
+            "value": 0.9744254946708679
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "la adiccion (Q768253) 2",
+            "url": "https://www.wikidata.org/wiki/Q768253",
+            "value": 0.9152453541755676
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "uc sampdoria (Q1457) 2",
+            "url": "https://www.wikidata.org/wiki/Q1457",
+            "value": 0.9007102251052856
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "2019 green bay packers season (Q213837) 2",
+            "url": "https://www.wikidata.org/wiki/Q213837",
+            "value": 0.8180757761001587
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hask gradanski (Q172803) 2",
+            "url": "https://www.wikidata.org/wiki/Q172803",
+            "value": 0.785307765007019
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "apoel fc (Q131378) 2",
+            "url": "https://www.wikidata.org/wiki/Q131378",
+            "value": 0.7680436372756958
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rubin (football club) (Q170040) 2",
+            "url": "https://www.wikidata.org/wiki/Q170040",
+            "value": 0.6866881847381592
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "times higher education world reputation rankings (Q1318318) 3",
+            "url": "https://www.wikidata.org/wiki/Q1318318",
+            "value": 0.9999293684959412
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "chickon (Q780) 3",
+            "url": "https://www.wikidata.org/wiki/Q780",
+            "value": 0.9999098777770996
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "2006 summer smtown (Q485188) 3",
+            "url": "https://www.wikidata.org/wiki/Q485188",
+            "value": 0.9998974204063416
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "women's ice hockey (Q41466) 4",
+            "url": "https://www.wikidata.org/wiki/Q41466",
+            "value": 1.0
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "canadians third jersey (Q188143) 5",
+            "url": "https://www.wikidata.org/wiki/Q188143",
+            "value": 0.9999963045120239
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "la kings (Q203008) 5",
+            "url": "https://www.wikidata.org/wiki/Q203008",
+            "value": 0.9999954700469971
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "chicago black hawks (Q209636) 5",
+            "url": "https://www.wikidata.org/wiki/Q209636",
+            "value": 0.9999942779541016
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "sabresgm (Q131206) 5",
+            "url": "https://www.wikidata.org/wiki/Q131206",
+            "value": 0.5348323583602905
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/02r7lqg 5",
+            "value": 0.5137218236923218
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "manchester monarchs (ahl) (Q925024) 5",
+            "url": "https://www.wikidata.org/wiki/Q925024",
+            "value": 0.45725956559181213
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "milwaukee wings (Q1267828) 5",
+            "url": "https://www.wikidata.org/wiki/Q1267828",
+            "value": 0.4462285339832306
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "portland pirates (Q1543744) 5",
+            "url": "https://www.wikidata.org/wiki/Q1543744",
+            "value": 0.4392703175544739
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "houston aeros (1994\u20132013) (Q1474092) 5",
+            "url": "https://www.wikidata.org/wiki/Q1474092",
+            "value": 0.419855535030365
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "st. johns icecaps (Q2297053) 5",
+            "url": "https://www.wikidata.org/wiki/Q2297053",
+            "value": 0.3964550495147705
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "team teal (Q206381) 6",
+            "url": "https://www.wikidata.org/wiki/Q206381",
+            "value": 0.7911498546600342
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "rangerscoach (Q188984) 6",
+            "url": "https://www.wikidata.org/wiki/Q188984",
+            "value": 0.7832530736923218
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hc salavat yulaev ufa (Q1142030) 6",
+            "url": "https://www.wikidata.org/wiki/Q1142030",
+            "value": 0.7788199782371521
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "manchester monarchs (ahl) (Q925024) 6",
+            "url": "https://www.wikidata.org/wiki/Q925024",
+            "value": 0.38214126229286194
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "houston aeros (1994\u20132013) (Q1474092) 6",
+            "url": "https://www.wikidata.org/wiki/Q1474092",
+            "value": 0.379393994808197
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/02r7lqg 6",
+            "value": 0.3713494837284088
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "milwaukee wings (Q1267828) 6",
+            "url": "https://www.wikidata.org/wiki/Q1267828",
+            "value": 0.3710502088069916
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "portland pirates (Q1543744) 6",
+            "url": "https://www.wikidata.org/wiki/Q1543744",
+            "value": 0.3663390278816223
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0gvt8sz 6",
+            "value": 0.35413652658462524
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hurricanesgm (Q201857) 6",
+            "url": "https://www.wikidata.org/wiki/Q201857",
+            "value": 0.35087358951568604
+        }
+    ],
+    "title": "[E] bonds of matrimony (Q8445), [R] location of ceremony+ (322), [R] teams+ (188), negation, [E] women's ice hockey (Q41466), [R] sport- (161), conjunction"
+}

@@ -1,0 +1,597 @@
+{
+    "edges": [
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "bam margera (Q297173) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "jacobus franciscus \"jim\" thorpe (Q221482) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "matthew fox (Q185554) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "brian coffey (Q272076) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "clarkgable (Q71243) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "winston p. saunders (Q220883) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the coal state (Q1400) 0",
+            "target": "michael keaton (Q138005) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bam margera (Q297173) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.006172472696621578
+        },
+        {
+            "source": "bam margera (Q297173) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.006172472696621578
+        },
+        {
+            "source": "jacobus franciscus \"jim\" thorpe (Q221482) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.005951599941739438
+        },
+        {
+            "source": "jacobus franciscus \"jim\" thorpe (Q221482) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.005951599941739438
+        },
+        {
+            "source": "matthew fox (Q185554) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.005782724489657776
+        },
+        {
+            "source": "matthew fox (Q185554) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.005782724489657776
+        },
+        {
+            "source": "brian coffey (Q272076) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.005591691011376132
+        },
+        {
+            "source": "brian coffey (Q272076) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.005591691011376132
+        },
+        {
+            "source": "clarkgable (Q71243) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.005579308146700823
+        },
+        {
+            "source": "clarkgable (Q71243) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.005579308146700823
+        },
+        {
+            "source": "winston p. saunders (Q220883) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.005498241659293135
+        },
+        {
+            "source": "winston p. saunders (Q220883) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.005498241659293135
+        },
+        {
+            "source": "michael keaton (Q138005) 1",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.0054045652135186195
+        },
+        {
+            "source": "michael keaton (Q138005) 1",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.0054045652135186195
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "edward g. boyle (Q1292284) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "frank mckelvy (Q2386182) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "william horning (Q642196) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "peter lamont (Q1370251) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "adam, ken (Q63997) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "henry grace (Q1606794) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "cedric gibbons (Q727904) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "edwin booth willis (Q462905) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2",
+            "target": "edward carfagno (Q466680) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "edward g. boyle (Q1292284) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.009999983087182418
+        },
+        {
+            "source": "edward g. boyle (Q1292284) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.009999983087182418
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.00999998189508955
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.00999998189508955
+        },
+        {
+            "source": "william horning (Q642196) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.00999995924532504
+        },
+        {
+            "source": "william horning (Q642196) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.00999995924532504
+        },
+        {
+            "source": "peter lamont (Q1370251) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.005876473057050857
+        },
+        {
+            "source": "peter lamont (Q1370251) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.005876473057050857
+        },
+        {
+            "source": "adam, ken (Q63997) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.002635010123960446
+        },
+        {
+            "source": "adam, ken (Q63997) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.002635010123960446
+        },
+        {
+            "source": "henry grace (Q1606794) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.0022460974250861077
+        },
+        {
+            "source": "henry grace (Q1606794) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.0022460974250861077
+        },
+        {
+            "source": "cedric gibbons (Q727904) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.0014194431583707812
+        },
+        {
+            "source": "cedric gibbons (Q727904) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.0014194431583707812
+        },
+        {
+            "source": "edwin booth willis (Q462905) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.0012678828552093457
+        },
+        {
+            "source": "edwin booth willis (Q462905) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.0012678828552093457
+        },
+        {
+            "source": "edward carfagno (Q466680) 3",
+            "target": "frank mckelvy (Q2386182) 4",
+            "value": 0.0010283676305033046
+        },
+        {
+            "source": "edward carfagno (Q466680) 3",
+            "target": "edward g. boyle (Q1292284) 4",
+            "value": 0.0010283676305033046
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 4",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.002187445561868423
+        },
+        {
+            "source": "edward g. boyle (Q1292284) 4",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.0017529069985544599
+        },
+        {
+            "source": "hal pereira (Q1229499) 5",
+            "target": "frank mckelvy (Q2386182) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hal pereira (Q1229499) 5",
+            "target": "ray moyer (Q1728848) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hal pereira (Q1229499) 5",
+            "target": "henry bumstead (Q714747) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hal pereira (Q1229499) 5",
+            "target": "joseph kish (Q1707407) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hal pereira (Q1229499) 5",
+            "target": "hans dreier (Q70495) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hal pereira (Q1229499) 5",
+            "target": "richard day (art director) (Q1247808) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 6",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "ray moyer (Q1728848) 6",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.009999978318810943
+        },
+        {
+            "source": "henry bumstead (Q714747) 6",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.009999978318810943
+        },
+        {
+            "source": "joseph kish (Q1707407) 6",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.005148821358036515
+        },
+        {
+            "source": "hans dreier (Q70495) 6",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.0015231246905820506
+        },
+        {
+            "source": "richard day (art director) (Q1247808) 6",
+            "target": "frank mckelvy (Q2386182) 7",
+            "value": 0.001188807982456505
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the coal state (Q1400) 0",
+            "url": "https://www.wikidata.org/wiki/Q1400",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "bam margera (Q297173) 1",
+            "url": "https://www.wikidata.org/wiki/Q297173",
+            "value": 0.6172472834587097
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jacobus franciscus \"jim\" thorpe (Q221482) 1",
+            "url": "https://www.wikidata.org/wiki/Q221482",
+            "value": 0.5951600074768066
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "matthew fox (Q185554) 1",
+            "url": "https://www.wikidata.org/wiki/Q185554",
+            "value": 0.5782724618911743
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "brian coffey (Q272076) 1",
+            "url": "https://www.wikidata.org/wiki/Q272076",
+            "value": 0.5591691136360168
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "clarkgable (Q71243) 1",
+            "url": "https://www.wikidata.org/wiki/Q71243",
+            "value": 0.5579308271408081
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "winston p. saunders (Q220883) 1",
+            "url": "https://www.wikidata.org/wiki/Q220883",
+            "value": 0.5498241782188416
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "michael keaton (Q138005) 1",
+            "url": "https://www.wikidata.org/wiki/Q138005",
+            "value": 0.5404565334320068
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "robert f. boyle (Q521400) 2",
+            "url": "https://www.wikidata.org/wiki/Q521400",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "edward g. boyle (Q1292284) 3",
+            "url": "https://www.wikidata.org/wiki/Q1292284",
+            "value": 0.9999983310699463
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "frank mckelvy (Q2386182) 3",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 0.9999982118606567
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "william horning (Q642196) 3",
+            "url": "https://www.wikidata.org/wiki/Q642196",
+            "value": 0.9999959468841553
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "peter lamont (Q1370251) 3",
+            "url": "https://www.wikidata.org/wiki/Q1370251",
+            "value": 0.5876473188400269
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "adam, ken (Q63997) 3",
+            "url": "https://www.wikidata.org/wiki/Q63997",
+            "value": 0.26350101828575134
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "henry grace (Q1606794) 3",
+            "url": "https://www.wikidata.org/wiki/Q1606794",
+            "value": 0.22460974752902985
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "cedric gibbons (Q727904) 3",
+            "url": "https://www.wikidata.org/wiki/Q727904",
+            "value": 0.14194431900978088
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "edwin booth willis (Q462905) 3",
+            "url": "https://www.wikidata.org/wiki/Q462905",
+            "value": 0.12678828835487366
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "edward carfagno (Q466680) 3",
+            "url": "https://www.wikidata.org/wiki/Q466680",
+            "value": 0.10283676534891129
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "frank mckelvy (Q2386182) 4",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 0.21874456107616425
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "edward g. boyle (Q1292284) 4",
+            "url": "https://www.wikidata.org/wiki/Q1292284",
+            "value": 0.17529070377349854
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hal pereira (Q1229499) 5",
+            "url": "https://www.wikidata.org/wiki/Q1229499",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "frank mckelvy (Q2386182) 6",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 0.9999984502792358
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ray moyer (Q1728848) 6",
+            "url": "https://www.wikidata.org/wiki/Q1728848",
+            "value": 0.9999978542327881
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "henry bumstead (Q714747) 6",
+            "url": "https://www.wikidata.org/wiki/Q714747",
+            "value": 0.9999978542327881
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "joseph kish (Q1707407) 6",
+            "url": "https://www.wikidata.org/wiki/Q1707407",
+            "value": 0.5148821473121643
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hans dreier (Q70495) 6",
+            "url": "https://www.wikidata.org/wiki/Q70495",
+            "value": 0.1523124724626541
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "richard day (art director) (Q1247808) 6",
+            "url": "https://www.wikidata.org/wiki/Q1247808",
+            "value": 0.11888080090284348
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "frank mckelvy (Q2386182) 7",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 0.2187442183494568
+        }
+    ],
+    "title": "[E] the coal state (Q1400), [R] place of birth- (49), [E] robert f. boyle (Q521400), [R] award nominee- (17), conjunction, [E] hal pereira (Q1229499), [R] award nominee+ (16), conjunction"
+}

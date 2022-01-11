@@ -164,22 +164,22 @@
     "nodes": [
         {
             "id": 0,
-            "name": "usofa (Q30)",
+            "name": "United States of America (Q30)",
             "symbolSize": 9.7770414352417
         },
         {
             "id": 1,
-            "name": "english vernacular (Q1860)",
+            "name": "English language (Q1860)",
             "symbolSize": 9.135563850402832
         },
         {
             "id": 2,
-            "name": "australia (commonwealth) (Q408)",
+            "name": "Australia (Q408)",
             "symbolSize": 9.105748176574707
         },
         {
             "id": 3,
-            "name": "philippines republic (Q928)",
+            "name": "Philippines (Q928)",
             "symbolSize": 9.105989456176758
         },
         {
@@ -187,37 +187,37 @@
             "itemStyle": {
                 "color": "#3ba272"
             },
-            "name": "the french colonial empire (Q142)",
+            "name": "France (Q142)",
             "symbolSize": 11.599122047424316
         },
         {
             "id": 5,
-            "name": "new zealand at the 2015 commonwealth youth games (Q664)",
+            "name": "New Zealand (Q664)",
             "symbolSize": 9.107185363769531
         },
         {
             "id": 6,
-            "name": "etymology of germany (Q183)",
+            "name": "Germany (Q183)",
             "symbolSize": 9.104765892028809
         },
         {
             "id": 7,
-            "name": "bulgary (Q219)",
+            "name": "Bulgaria (Q219)",
             "symbolSize": 9.106561660766602
         },
         {
             "id": 8,
-            "name": "turkia (Q43)",
+            "name": "Turkey (Q43)",
             "symbolSize": 9.125931739807129
         },
         {
             "id": 9,
-            "name": "russia (Q159)",
+            "name": "Russia (Q159)",
             "symbolSize": 9.105634689331055
         },
         {
             "id": 10,
-            "name": "kill them softly (Q136264)",
+            "name": "Kill Them Softly (film) (Q136264)",
             "symbolSize": 14.127334594726562
         },
         {
@@ -225,7 +225,7 @@
             "itemStyle": {
                 "color": "#ee6666"
             },
-            "name": "backson (Q922193)",
+            "name": "Winnie the Pooh (film) (Q922193)",
             "symbolSize": 11.599122047424316
         }
     ],

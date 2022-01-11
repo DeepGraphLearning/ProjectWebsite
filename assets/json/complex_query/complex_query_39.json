@@ -1,0 +1,877 @@
+{
+    "edges": [
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "phil vischer (Q12969418) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "theodore geissel (Q298685) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "mike nesmith (Q954997) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "walter scharf (Q1231447) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "paul francis webster (Q1620897) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "fly with me later (Q223769) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "al jourgensen (Q713807) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "trey anastasio (Q466302) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "george duning (Q457727) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "song-writing (Q753110) 0",
+            "target": "lw3 (Q437752) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "phil vischer (Q12969418) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.009985458627668198
+        },
+        {
+            "source": "phil vischer (Q12969418) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.009985458627668198
+        },
+        {
+            "source": "phil vischer (Q12969418) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.009985458627668198
+        },
+        {
+            "source": "phil vischer (Q12969418) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.009985458627668198
+        },
+        {
+            "source": "theodore geissel (Q298685) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.009984551444994993
+        },
+        {
+            "source": "theodore geissel (Q298685) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.009984551444994993
+        },
+        {
+            "source": "theodore geissel (Q298685) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.009984551444994993
+        },
+        {
+            "source": "theodore geissel (Q298685) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.009984551444994993
+        },
+        {
+            "source": "mike nesmith (Q954997) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.009977774993081945
+        },
+        {
+            "source": "mike nesmith (Q954997) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.009977774993081945
+        },
+        {
+            "source": "mike nesmith (Q954997) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.009977774993081945
+        },
+        {
+            "source": "mike nesmith (Q954997) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.009977774993081945
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.005714549294533966
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.005714549294533966
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.005714549294533966
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.005714549294533966
+        },
+        {
+            "source": "paul francis webster (Q1620897) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.005709202758017118
+        },
+        {
+            "source": "paul francis webster (Q1620897) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.005709202758017118
+        },
+        {
+            "source": "paul francis webster (Q1620897) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.005709202758017118
+        },
+        {
+            "source": "paul francis webster (Q1620897) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.005709202758017118
+        },
+        {
+            "source": "fly with me later (Q223769) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.005446795699444507
+        },
+        {
+            "source": "fly with me later (Q223769) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.005446795699444507
+        },
+        {
+            "source": "fly with me later (Q223769) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.005446795699444507
+        },
+        {
+            "source": "fly with me later (Q223769) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.005446795699444507
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.005383864520850823
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.005383864520850823
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.005383864520850823
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.005383864520850823
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.005372173070039454
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.005372173070039454
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.005372173070039454
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.005372173070039454
+        },
+        {
+            "source": "george duning (Q457727) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.0053707330218538685
+        },
+        {
+            "source": "george duning (Q457727) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.0053707330218538685
+        },
+        {
+            "source": "george duning (Q457727) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.0053707330218538685
+        },
+        {
+            "source": "george duning (Q457727) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.0053707330218538685
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.0053578053707374895
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.0053578053707374895
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.0053578053707374895
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.0053578053707374895
+        },
+        {
+            "source": "bebe winans (Q339093) 2",
+            "target": "witney houston (Q34389) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bebe winans (Q339093) 2",
+            "target": "priscilla marie winans (Q538696) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bebe winans (Q339093) 2",
+            "target": "kenneth edmonds (Q344983) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bebe winans (Q339093) 2",
+            "target": "david walter foster (Q77112) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "witney houston (Q34389) 3",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "witney houston (Q34389) 3",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "witney houston (Q34389) 3",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "witney houston (Q34389) 3",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "priscilla marie winans (Q538696) 3",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.007603220769690999
+        },
+        {
+            "source": "priscilla marie winans (Q538696) 3",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.007603220769690999
+        },
+        {
+            "source": "priscilla marie winans (Q538696) 3",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.007603220769690999
+        },
+        {
+            "source": "priscilla marie winans (Q538696) 3",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.007603220769690999
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 3",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.004012204020942656
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 3",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.004012204020942656
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 3",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.004012204020942656
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 3",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.004012204020942656
+        },
+        {
+            "source": "david walter foster (Q77112) 3",
+            "target": "witney houston (Q34389) 4",
+            "value": 0.0038059832795117043
+        },
+        {
+            "source": "david walter foster (Q77112) 3",
+            "target": "kenneth edmonds (Q344983) 4",
+            "value": 0.0038059832795117043
+        },
+        {
+            "source": "david walter foster (Q77112) 3",
+            "target": "david walter foster (Q77112) 4",
+            "value": 0.0038059832795117043
+        },
+        {
+            "source": "david walter foster (Q77112) 3",
+            "target": "priscilla marie winans (Q538696) 4",
+            "value": 0.0038059832795117043
+        },
+        {
+            "source": "witney houston (Q34389) 4",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.00944857158999357
+        },
+        {
+            "source": "witney houston (Q34389) 4",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.00944857158999357
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 4",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.0039019762597536367
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 4",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.0039019762597536367
+        },
+        {
+            "source": "david walter foster (Q77112) 4",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.003691504515152322
+        },
+        {
+            "source": "david walter foster (Q77112) 4",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.003691504515152322
+        },
+        {
+            "source": "priscilla marie winans (Q538696) 4",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.0034655501663934385
+        },
+        {
+            "source": "priscilla marie winans (Q538696) 4",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.0034655501663934385
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "stephen schwartz (composer) (Q542484) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "eric clapton & his band (Q48187) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "t-pain presents: nappy boy mixtape vol. 1 (Q221155) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "barry eugene white (Q213647) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "the god box (album) (Q708506) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "kailand morris (Q714) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "steve garrett (Q1511182) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "witney houston (Q34389) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "bebe winans (Q339093) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5",
+            "target": "christopher maurice \"chris\" brown (Q155700) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "stephen schwartz (composer) (Q542484) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "stephen schwartz (composer) (Q542484) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "eric clapton & his band (Q48187) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "eric clapton & his band (Q48187) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "t-pain presents: nappy boy mixtape vol. 1 (Q221155) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "t-pain presents: nappy boy mixtape vol. 1 (Q221155) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "barry eugene white (Q213647) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.008154532727125297
+        },
+        {
+            "source": "barry eugene white (Q213647) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.008154532727125297
+        },
+        {
+            "source": "the god box (album) (Q708506) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.004948853739749182
+        },
+        {
+            "source": "the god box (album) (Q708506) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.004948853739749182
+        },
+        {
+            "source": "kailand morris (Q714) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.004865480254617027
+        },
+        {
+            "source": "kailand morris (Q714) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.004865480254617027
+        },
+        {
+            "source": "steve garrett (Q1511182) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.004629817799557345
+        },
+        {
+            "source": "steve garrett (Q1511182) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.004629817799557345
+        },
+        {
+            "source": "witney houston (Q34389) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.004565382795809592
+        },
+        {
+            "source": "witney houston (Q34389) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.004565382795809592
+        },
+        {
+            "source": "bebe winans (Q339093) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.002805073198562713
+        },
+        {
+            "source": "bebe winans (Q339093) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.002805073198562713
+        },
+        {
+            "source": "christopher maurice \"chris\" brown (Q155700) 6",
+            "target": "witney houston (Q34389) 7",
+            "value": 0.002326912678921683
+        },
+        {
+            "source": "christopher maurice \"chris\" brown (Q155700) 6",
+            "target": "david walter foster (Q77112) 7",
+            "value": 0.002326912678921683
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "song-writing (Q753110) 0",
+            "url": "https://www.wikidata.org/wiki/Q753110",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "phil vischer (Q12969418) 1",
+            "url": "https://www.wikidata.org/wiki/Q12969418",
+            "value": 0.9985458850860596
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "theodore geissel (Q298685) 1",
+            "url": "https://www.wikidata.org/wiki/Q298685",
+            "value": 0.9984551668167114
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mike nesmith (Q954997) 1",
+            "url": "https://www.wikidata.org/wiki/Q954997",
+            "value": 0.99777752161026
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "walter scharf (Q1231447) 1",
+            "url": "https://www.wikidata.org/wiki/Q1231447",
+            "value": 0.5714549422264099
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "paul francis webster (Q1620897) 1",
+            "url": "https://www.wikidata.org/wiki/Q1620897",
+            "value": 0.5709202885627747
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fly with me later (Q223769) 1",
+            "url": "https://www.wikidata.org/wiki/Q223769",
+            "value": 0.544679582118988
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "al jourgensen (Q713807) 1",
+            "url": "https://www.wikidata.org/wiki/Q713807",
+            "value": 0.5383864641189575
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "trey anastasio (Q466302) 1",
+            "url": "https://www.wikidata.org/wiki/Q466302",
+            "value": 0.5372173190116882
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "george duning (Q457727) 1",
+            "url": "https://www.wikidata.org/wiki/Q457727",
+            "value": 0.5370733141899109
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lw3 (Q437752) 1",
+            "url": "https://www.wikidata.org/wiki/Q437752",
+            "value": 0.5357805490493774
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bebe winans (Q339093) 2",
+            "url": "https://www.wikidata.org/wiki/Q339093",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "witney houston (Q34389) 3",
+            "url": "https://www.wikidata.org/wiki/Q34389",
+            "value": 0.9999910593032837
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "priscilla marie winans (Q538696) 3",
+            "url": "https://www.wikidata.org/wiki/Q538696",
+            "value": 0.760322093963623
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kenneth edmonds (Q344983) 3",
+            "url": "https://www.wikidata.org/wiki/Q344983",
+            "value": 0.4012204110622406
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "david walter foster (Q77112) 3",
+            "url": "https://www.wikidata.org/wiki/Q77112",
+            "value": 0.3805983364582062
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "witney houston (Q34389) 4",
+            "url": "https://www.wikidata.org/wiki/Q34389",
+            "value": 0.9448571801185608
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kenneth edmonds (Q344983) 4",
+            "url": "https://www.wikidata.org/wiki/Q344983",
+            "value": 0.39019763469696045
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "david walter foster (Q77112) 4",
+            "url": "https://www.wikidata.org/wiki/Q77112",
+            "value": 0.36915045976638794
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "priscilla marie winans (Q538696) 4",
+            "url": "https://www.wikidata.org/wiki/Q538696",
+            "value": 0.34655502438545227
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kenneth edmonds (Q344983) 5",
+            "url": "https://www.wikidata.org/wiki/Q344983",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "stephen schwartz (composer) (Q542484) 6",
+            "url": "https://www.wikidata.org/wiki/Q542484",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "eric clapton & his band (Q48187) 6",
+            "url": "https://www.wikidata.org/wiki/Q48187",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "t-pain presents: nappy boy mixtape vol. 1 (Q221155) 6",
+            "url": "https://www.wikidata.org/wiki/Q221155",
+            "value": 0.999998927116394
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "barry eugene white (Q213647) 6",
+            "url": "https://www.wikidata.org/wiki/Q213647",
+            "value": 0.815453290939331
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the god box (album) (Q708506) 6",
+            "url": "https://www.wikidata.org/wiki/Q708506",
+            "value": 0.4948853850364685
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kailand morris (Q714) 6",
+            "url": "https://www.wikidata.org/wiki/Q714",
+            "value": 0.4865480363368988
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "steve garrett (Q1511182) 6",
+            "url": "https://www.wikidata.org/wiki/Q1511182",
+            "value": 0.46298179030418396
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "witney houston (Q34389) 6",
+            "url": "https://www.wikidata.org/wiki/Q34389",
+            "value": 0.45653828978538513
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "bebe winans (Q339093) 6",
+            "url": "https://www.wikidata.org/wiki/Q339093",
+            "value": 0.28050732612609863
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "christopher maurice \"chris\" brown (Q155700) 6",
+            "url": "https://www.wikidata.org/wiki/Q155700",
+            "value": 0.23269127309322357
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "witney houston (Q34389) 7",
+            "url": "https://www.wikidata.org/wiki/Q34389",
+            "value": 0.4313634932041168
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "david walter foster (Q77112) 7",
+            "url": "https://www.wikidata.org/wiki/Q77112",
+            "value": 0.3691498935222626
+        }
+    ],
+    "title": "[E] song-writing (Q753110), [R] profession- (35), [E] bebe winans (Q339093), [R] award winner- (7), conjunction, [E] kenneth edmonds (Q344983), [R] award nominee+ (16), conjunction"
+}

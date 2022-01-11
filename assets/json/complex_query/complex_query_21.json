@@ -1,0 +1,121 @@
+{
+    "edges": [
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "hindusim (Q9089) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "/m/0flw86 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "buddhism/doc (Q748) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "kristendom (Q5043) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "catholic religion (Q1841) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "sikh literature (Q9316) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "shirpa shetti (Q270665) 0",
+            "target": "atheism (Q7066) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "shirpa shetti (Q270665) 0",
+            "url": "https://www.wikidata.org/wiki/Q270665",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hindusim (Q9089) 1",
+            "url": "https://www.wikidata.org/wiki/Q9089",
+            "value": 0.2840098738670349
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0flw86 1",
+            "value": 0.2560219168663025
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "buddhism/doc (Q748) 1",
+            "url": "https://www.wikidata.org/wiki/Q748",
+            "value": 0.25330665707588196
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kristendom (Q5043) 1",
+            "url": "https://www.wikidata.org/wiki/Q5043",
+            "value": 0.23125451803207397
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "catholic religion (Q1841) 1",
+            "url": "https://www.wikidata.org/wiki/Q1841",
+            "value": 0.22973720729351044
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sikh literature (Q9316) 1",
+            "url": "https://www.wikidata.org/wiki/Q9316",
+            "value": 0.1905202716588974
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "atheism (Q7066) 1",
+            "url": "https://www.wikidata.org/wiki/Q7066",
+            "value": 0.18723590672016144
+        }
+    ],
+    "title": "[E] shirpa shetti (Q270665), [R] religion+ (164)"
+}

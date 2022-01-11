@@ -1,0 +1,121 @@
+{
+    "edges": [
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "/m/0177z 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "r\u012bga (Q1773) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "kbh (Q1748) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "kyiw (Q1899) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "protestant rome (Q71) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "bak\u0131 \u015f\u00e4h\u00e4ri, azerbaijan (Q9248) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "europaradet (Q8908) 0",
+            "target": "christiana, norway (Q585) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "europaradet (Q8908) 0",
+            "url": "https://www.wikidata.org/wiki/Q8908",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0177z 1",
+            "value": 0.6536452770233154
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "r\u012bga (Q1773) 1",
+            "url": "https://www.wikidata.org/wiki/Q1773",
+            "value": 0.5580605864524841
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kbh (Q1748) 1",
+            "url": "https://www.wikidata.org/wiki/Q1748",
+            "value": 0.5454785823822021
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kyiw (Q1899) 1",
+            "url": "https://www.wikidata.org/wiki/Q1899",
+            "value": 0.44042447209358215
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "protestant rome (Q71) 1",
+            "url": "https://www.wikidata.org/wiki/Q71",
+            "value": 0.3728633522987366
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "bak\u0131 \u015f\u00e4h\u00e4ri, azerbaijan (Q9248) 1",
+            "url": "https://www.wikidata.org/wiki/Q9248",
+            "value": 0.3681130111217499
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "christiana, norway (Q585) 1",
+            "url": "https://www.wikidata.org/wiki/Q585",
+            "value": 0.35352084040641785
+        }
+    ],
+    "title": "[E] europaradet (Q8908), [R] citytown+ (166)"
+}

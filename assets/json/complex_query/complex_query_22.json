@@ -1,0 +1,62 @@
+{
+    "edges": [
+        {
+            "source": "north of the huang he (Q21208) 0",
+            "target": "parks in beijing (Q956) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "north of the huang he (Q21208) 0",
+            "target": "shandong dialect (Q43407) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "north of the huang he (Q21208) 0",
+            "target": "tien-tsin (Q11736) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "north of the huang he (Q21208) 0",
+            "url": "https://www.wikidata.org/wiki/Q21208",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "parks in beijing (Q956) 1",
+            "url": "https://www.wikidata.org/wiki/Q956",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "shandong dialect (Q43407) 1",
+            "url": "https://www.wikidata.org/wiki/Q43407",
+            "value": 0.9999352693557739
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tien-tsin (Q11736) 1",
+            "url": "https://www.wikidata.org/wiki/Q11736",
+            "value": 0.9996192455291748
+        }
+    ],
+    "title": "[E] north of the huang he (Q21208), [R] adjoins- (117)"
+}

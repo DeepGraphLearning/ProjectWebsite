@@ -1,0 +1,1257 @@
+{
+    "edges": [
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "peter hyams (Q458766) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "adam levine (Q219631) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "james marsters (Q312885) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "al jourgensen (Q713807) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "walter scharf (Q1231447) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "lw3 (Q437752) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "john douglas lord (Q192114) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "aimee mann (Q239587) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "trey anastasio (Q466302) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "teenage musicians (Q639669) 0",
+            "target": "keith jarett (Q207034) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.009989660755030938
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "adam levine (Q219631) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.009986474886838903
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "james marsters (Q312885) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.00998562850090201
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "al jourgensen (Q713807) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.005569156879876025
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "walter scharf (Q1231447) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.005559527749727788
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "lw3 (Q437752) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.005549093360846635
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "john douglas lord (Q192114) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.0055425559235537936
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "aimee mann (Q239587) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.005469217774214941
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "trey anastasio (Q466302) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.005466701862215206
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "keith jarett (Q207034) 1",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.005453224656286282
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "fred \"the hammer\" williamson (Q1452569) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "mya rudolph (Q236527) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "ben harper and relentless7 (Q380849) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "adams, yolanda (Q270869) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "ladies love cool james (Q52440) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "florida (rapper) (Q213538) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "barry eugene white (Q213647) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "fat joe (Q309888) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "remix & soundtrack collection (Q179257) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "political views of african-americans (Q49085) 2",
+            "target": "rickey nelson henley (Q601521) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "fred \"the hammer\" williamson (Q1452569) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "fred \"the hammer\" williamson (Q1452569) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "fred \"the hammer\" williamson (Q1452569) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "mya rudolph (Q236527) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "mya rudolph (Q236527) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "mya rudolph (Q236527) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "ben harper and relentless7 (Q380849) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "ben harper and relentless7 (Q380849) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "ben harper and relentless7 (Q380849) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "adams, yolanda (Q270869) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.00572254108512682
+        },
+        {
+            "source": "adams, yolanda (Q270869) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.00572254108512682
+        },
+        {
+            "source": "adams, yolanda (Q270869) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.00572254108512682
+        },
+        {
+            "source": "ladies love cool james (Q52440) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.005507602568545877
+        },
+        {
+            "source": "ladies love cool james (Q52440) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.005507602568545877
+        },
+        {
+            "source": "ladies love cool james (Q52440) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.005507602568545877
+        },
+        {
+            "source": "florida (rapper) (Q213538) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.005475649711288888
+        },
+        {
+            "source": "florida (rapper) (Q213538) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.005475649711288888
+        },
+        {
+            "source": "florida (rapper) (Q213538) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.005475649711288888
+        },
+        {
+            "source": "barry eugene white (Q213647) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.005414209244827717
+        },
+        {
+            "source": "barry eugene white (Q213647) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.005414209244827717
+        },
+        {
+            "source": "barry eugene white (Q213647) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.005414209244827717
+        },
+        {
+            "source": "fat joe (Q309888) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.005350285648920705
+        },
+        {
+            "source": "fat joe (Q309888) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.005350285648920705
+        },
+        {
+            "source": "fat joe (Q309888) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.005350285648920705
+        },
+        {
+            "source": "remix & soundtrack collection (Q179257) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.005314497828904585
+        },
+        {
+            "source": "remix & soundtrack collection (Q179257) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.005314497828904585
+        },
+        {
+            "source": "remix & soundtrack collection (Q179257) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.005314497828904585
+        },
+        {
+            "source": "rickey nelson henley (Q601521) 3",
+            "target": "sports illustrated sportsman of the year (Q1653207) 4",
+            "value": 0.00530655431807292
+        },
+        {
+            "source": "rickey nelson henley (Q601521) 3",
+            "target": "ben 10 classic (Q207746) 4",
+            "value": 0.00530655431807292
+        },
+        {
+            "source": "rickey nelson henley (Q601521) 3",
+            "target": "hugo award for best short fiction (Q1056251) 4",
+            "value": 0.00530655431807292
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "sports illustrated sportsman of the year (Q1653207) 4",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.009951007143758073
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "ben 10 classic (Q207746) 4",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.009945037738717244
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "gordon matthew thomas sumner (Q483203) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "guy pearce (Q223745) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "wendy melvoin (Q460852) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "ambeon (Q455959) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "george sholti (Q128085) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "schostakowitsch (Q80135) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "jerry wonda (Q6183524) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "schw\u00e4mmerl (Q7312) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "dave gilmore (Q178517) 5",
+            "value": 0.009936842100243815
+        },
+        {
+            "source": "hugo award for best short fiction (Q1056251) 4",
+            "target": "joss stone (Q217280) 5",
+            "value": 0.009936842100243815
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "teenage musicians (Q639669) 0",
+            "url": "https://www.wikidata.org/wiki/Q639669",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "peter hyams (Q458766) 1",
+            "url": "https://www.wikidata.org/wiki/Q458766",
+            "value": 0.9989660978317261
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "adam levine (Q219631) 1",
+            "url": "https://www.wikidata.org/wiki/Q219631",
+            "value": 0.9986475110054016
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "james marsters (Q312885) 1",
+            "url": "https://www.wikidata.org/wiki/Q312885",
+            "value": 0.9985628724098206
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "al jourgensen (Q713807) 1",
+            "url": "https://www.wikidata.org/wiki/Q713807",
+            "value": 0.5569157004356384
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "walter scharf (Q1231447) 1",
+            "url": "https://www.wikidata.org/wiki/Q1231447",
+            "value": 0.555952787399292
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lw3 (Q437752) 1",
+            "url": "https://www.wikidata.org/wiki/Q437752",
+            "value": 0.554909348487854
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "john douglas lord (Q192114) 1",
+            "url": "https://www.wikidata.org/wiki/Q192114",
+            "value": 0.5542556047439575
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "aimee mann (Q239587) 1",
+            "url": "https://www.wikidata.org/wiki/Q239587",
+            "value": 0.5469217896461487
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "trey anastasio (Q466302) 1",
+            "url": "https://www.wikidata.org/wiki/Q466302",
+            "value": 0.5466701984405518
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "keith jarett (Q207034) 1",
+            "url": "https://www.wikidata.org/wiki/Q207034",
+            "value": 0.5453224778175354
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "political views of african-americans (Q49085) 2",
+            "url": "https://www.wikidata.org/wiki/Q49085",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fred \"the hammer\" williamson (Q1452569) 3",
+            "url": "https://www.wikidata.org/wiki/Q1452569",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mya rudolph (Q236527) 3",
+            "url": "https://www.wikidata.org/wiki/Q236527",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ben harper and relentless7 (Q380849) 3",
+            "url": "https://www.wikidata.org/wiki/Q380849",
+            "value": 0.9999994039535522
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "adams, yolanda (Q270869) 3",
+            "url": "https://www.wikidata.org/wiki/Q270869",
+            "value": 0.5722541213035583
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "ladies love cool james (Q52440) 3",
+            "url": "https://www.wikidata.org/wiki/Q52440",
+            "value": 0.5507602691650391
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "florida (rapper) (Q213538) 3",
+            "url": "https://www.wikidata.org/wiki/Q213538",
+            "value": 0.5475649833679199
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "barry eugene white (Q213647) 3",
+            "url": "https://www.wikidata.org/wiki/Q213647",
+            "value": 0.5414209365844727
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fat joe (Q309888) 3",
+            "url": "https://www.wikidata.org/wiki/Q309888",
+            "value": 0.5350285768508911
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "remix & soundtrack collection (Q179257) 3",
+            "url": "https://www.wikidata.org/wiki/Q179257",
+            "value": 0.5314497947692871
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "rickey nelson henley (Q601521) 3",
+            "url": "https://www.wikidata.org/wiki/Q601521",
+            "value": 0.5306554436683655
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "sports illustrated sportsman of the year (Q1653207) 4",
+            "url": "https://www.wikidata.org/wiki/Q1653207",
+            "value": 0.995100736618042
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ben 10 classic (Q207746) 4",
+            "url": "https://www.wikidata.org/wiki/Q207746",
+            "value": 0.9945037961006165
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hugo award for best short fiction (Q1056251) 4",
+            "url": "https://www.wikidata.org/wiki/Q1056251",
+            "value": 0.9936842322349548
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "gordon matthew thomas sumner (Q483203) 5",
+            "url": "https://www.wikidata.org/wiki/Q483203",
+            "value": 0.8905128240585327
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "guy pearce (Q223745) 5",
+            "url": "https://www.wikidata.org/wiki/Q223745",
+            "value": 0.8888020515441895
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wendy melvoin (Q460852) 5",
+            "url": "https://www.wikidata.org/wiki/Q460852",
+            "value": 0.8738465309143066
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "ambeon (Q455959) 5",
+            "url": "https://www.wikidata.org/wiki/Q455959",
+            "value": 0.4502609968185425
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "george sholti (Q128085) 5",
+            "url": "https://www.wikidata.org/wiki/Q128085",
+            "value": 0.44557473063468933
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "schostakowitsch (Q80135) 5",
+            "url": "https://www.wikidata.org/wiki/Q80135",
+            "value": 0.44524678587913513
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jerry wonda (Q6183524) 5",
+            "url": "https://www.wikidata.org/wiki/Q6183524",
+            "value": 0.4373247027397156
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "schw\u00e4mmerl (Q7312) 5",
+            "url": "https://www.wikidata.org/wiki/Q7312",
+            "value": 0.43526995182037354
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "dave gilmore (Q178517) 5",
+            "url": "https://www.wikidata.org/wiki/Q178517",
+            "value": 0.4332370162010193
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "joss stone (Q217280) 5",
+            "url": "https://www.wikidata.org/wiki/Q217280",
+            "value": 0.4276107847690582
+        }
+    ],
+    "title": "[E] teenage musicians (Q639669), [R] profession- (35), [E] political views of african-americans (Q49085), [R] people+ (142), negation, conjunction"
+}

@@ -1,0 +1,167 @@
+{
+    "edges": [
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "rolling stone's 100 greatest guitarists of all time (Q855091) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "composer/comments (Q36834) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "american actor (Q33999) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "list of record producers (Q183945) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "song-writing (Q753110) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "drum player (Q386854) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "singer-lyricist (Q822146) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "singer songwriters (Q488205) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "multi instrumentalist (Q1327329) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "reverend strychnine twitch (Q712592) 0",
+            "target": "contrabassist (Q584301) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "reverend strychnine twitch (Q712592) 0",
+            "url": "https://www.wikidata.org/wiki/Q712592",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "rolling stone's 100 greatest guitarists of all time (Q855091) 1",
+            "url": "https://www.wikidata.org/wiki/Q855091",
+            "value": 0.999998927116394
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "composer/comments (Q36834) 1",
+            "url": "https://www.wikidata.org/wiki/Q36834",
+            "value": 0.9999980926513672
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "american actor (Q33999) 1",
+            "url": "https://www.wikidata.org/wiki/Q33999",
+            "value": 0.9999977350234985
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "list of record producers (Q183945) 1",
+            "url": "https://www.wikidata.org/wiki/Q183945",
+            "value": 0.3246000409126282
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "song-writing (Q753110) 1",
+            "url": "https://www.wikidata.org/wiki/Q753110",
+            "value": 0.29574111104011536
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "drum player (Q386854) 1",
+            "url": "https://www.wikidata.org/wiki/Q386854",
+            "value": 0.27077606320381165
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "singer-lyricist (Q822146) 1",
+            "url": "https://www.wikidata.org/wiki/Q822146",
+            "value": 0.27053043246269226
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "singer songwriters (Q488205) 1",
+            "url": "https://www.wikidata.org/wiki/Q488205",
+            "value": 0.26718562841415405
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "multi instrumentalist (Q1327329) 1",
+            "url": "https://www.wikidata.org/wiki/Q1327329",
+            "value": 0.2662333846092224
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "contrabassist (Q584301) 1",
+            "url": "https://www.wikidata.org/wiki/Q584301",
+            "value": 0.2432779222726822
+        }
+    ],
+    "title": "[E] reverend strychnine twitch (Q712592), [R] profession+ (34)"
+}

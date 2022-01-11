@@ -1,0 +1,122 @@
+{
+    "edges": [
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "mumbai (bombay) (Q1156) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "thiruvananthpuram (Q167715) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "city of bombay (Q1348) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "chennai schools (Q1352) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "neu-delhi (Q987) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "banaras (Q79980) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ismail noormohamed abdul rehman (Q732397) 0",
+            "target": "hyderabad india (Q1361) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ismail noormohamed abdul rehman (Q732397) 0",
+            "url": "https://www.wikidata.org/wiki/Q732397",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mumbai (bombay) (Q1156) 1",
+            "url": "https://www.wikidata.org/wiki/Q1156",
+            "value": 0.7074907422065735
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "thiruvananthpuram (Q167715) 1",
+            "url": "https://www.wikidata.org/wiki/Q167715",
+            "value": 0.47678419947624207
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "city of bombay (Q1348) 1",
+            "url": "https://www.wikidata.org/wiki/Q1348",
+            "value": 0.4526205062866211
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "chennai schools (Q1352) 1",
+            "url": "https://www.wikidata.org/wiki/Q1352",
+            "value": 0.4231744706630707
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "neu-delhi (Q987) 1",
+            "url": "https://www.wikidata.org/wiki/Q987",
+            "value": 0.4108084440231323
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "banaras (Q79980) 1",
+            "url": "https://www.wikidata.org/wiki/Q79980",
+            "value": 0.4056657552719116
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hyderabad india (Q1361) 1",
+            "url": "https://www.wikidata.org/wiki/Q1361",
+            "value": 0.39928948879241943
+        }
+    ],
+    "title": "[E] ismail noormohamed abdul rehman (Q732397), [R] place of death+ (78)"
+}

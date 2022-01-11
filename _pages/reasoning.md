@@ -26,9 +26,9 @@ path: "assets/json/series"
   <option value="czechs-(bohemians)_medal">&lt;czechs (bohemians), medal, ?&gt;</option>
   <option value="currency-of-the-united-states_currency-(-1)">&lt;?, currency, currency of the united states&gt;</option>
   <option value="bronze-medals_medal-(-1)">&lt;?, medal, bronze medals&gt;</option>
-	<option value="backson_film-release-region">&lt;backson film, release region, ?&gt;</option>
-	<option value="2008-beijing-olympics_participating-countries">&lt;2008 beijing olympics, participating countries, ?&gt;</option>
-	<option value="58th-academy-awards-nominees-and-winners_honored-for">&lt;58th academy awards nominees and winners, honored for, ?&gt;</option>
+  <option value="backson_film-release-region">&lt;backson film, release region, ?&gt;</option>
+  <option value="2008-beijing-olympics_participating-countries">&lt;2008 beijing olympics, participating countries, ?&gt;</option>
+  <option value="58th-academy-awards-nominees-and-winners_honored-for">&lt;58th academy awards nominees and winners, honored for, ?&gt;</option>
 </select>
 
 <div id="container" style="height: 500px"></div>

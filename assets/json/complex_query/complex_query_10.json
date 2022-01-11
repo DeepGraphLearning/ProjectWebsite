@@ -1,0 +1,1164 @@
+{
+    "edges": [
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "tulsa (ok) (Q44989) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "terre-haute (Q492478) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "un/locode:usmei (Q118152) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "paducah, il (Q984377) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "nachez, mississippi (Q944044) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "albany (ga) (Q285599) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "city of biloxi (Q490720) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "waukesha (city), wisconsin (Q94919) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "spokane county (washington) (Q485276) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "/m/0mm0p 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "city of boston (Q100) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "taxachusetts (Q771) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "healthcare in south carolina (Q1456) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "new york n.y. (Q60) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "geography of ohio (Q1397) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "plainfield, new jersey (Q544890) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "allison brooks janney (Q229487) 2",
+            "target": "un/locode:uscsl (Q49012) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "city of boston (Q100) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.006869072760587791
+        },
+        {
+            "source": "city of boston (Q100) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.006869072760587791
+        },
+        {
+            "source": "city of boston (Q100) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.006869072760587791
+        },
+        {
+            "source": "taxachusetts (Q771) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.005612872713516515
+        },
+        {
+            "source": "taxachusetts (Q771) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.005612872713516515
+        },
+        {
+            "source": "taxachusetts (Q771) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.005612872713516515
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.005230018379613344
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.005230018379613344
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.005230018379613344
+        },
+        {
+            "source": "new york n.y. (Q60) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.005188604477302627
+        },
+        {
+            "source": "new york n.y. (Q60) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.005188604477302627
+        },
+        {
+            "source": "new york n.y. (Q60) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.005188604477302627
+        },
+        {
+            "source": "geography of ohio (Q1397) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.005129780058642175
+        },
+        {
+            "source": "geography of ohio (Q1397) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.005129780058642175
+        },
+        {
+            "source": "geography of ohio (Q1397) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.005129780058642175
+        },
+        {
+            "source": "plainfield, new jersey (Q544890) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.005127586607763468
+        },
+        {
+            "source": "plainfield, new jersey (Q544890) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.005127586607763468
+        },
+        {
+            "source": "plainfield, new jersey (Q544890) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.005127586607763468
+        },
+        {
+            "source": "un/locode:uscsl (Q49012) 3",
+            "target": "foliamin (Q127060) 4",
+            "value": 0.005009858496266784
+        },
+        {
+            "source": "un/locode:uscsl (Q49012) 3",
+            "target": "/m/014d7f 4",
+            "value": 0.005009858496266784
+        },
+        {
+            "source": "un/locode:uscsl (Q49012) 3",
+            "target": "/m/025s7j4 4",
+            "value": 0.005009858496266784
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "/m/0mm0p 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "foliamin (Q127060) 4",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.009987728372490512
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "/m/0mm0p 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/014d7f 4",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.009986800328192103
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "/m/0mm0p 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "delaware county, ny (Q115289) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "un/locode:usmei (Q118152) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "albany (ga) (Q285599) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "odessa (texas) (Q128361) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "history of high point, north carolina (Q631194) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "paducah, il (Q984377) 5",
+            "value": 0.009986128583860499
+        },
+        {
+            "source": "/m/025s7j4 4",
+            "target": "waukesha (city), wisconsin (Q94919) 5",
+            "value": 0.009986128583860499
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "department of housing and urban development (Q811595) 0",
+            "url": "https://www.wikidata.org/wiki/Q811595",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tulsa (ok) (Q44989) 1",
+            "url": "https://www.wikidata.org/wiki/Q44989",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "terre-haute (Q492478) 1",
+            "url": "https://www.wikidata.org/wiki/Q492478",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "url": "https://www.wikidata.org/wiki/Q47164",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "un/locode:usmei (Q118152) 1",
+            "url": "https://www.wikidata.org/wiki/Q118152",
+            "value": 0.8708174228668213
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "paducah, il (Q984377) 1",
+            "url": "https://www.wikidata.org/wiki/Q984377",
+            "value": 0.856619119644165
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "nachez, mississippi (Q944044) 1",
+            "url": "https://www.wikidata.org/wiki/Q944044",
+            "value": 0.8555536866188049
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "albany (ga) (Q285599) 1",
+            "url": "https://www.wikidata.org/wiki/Q285599",
+            "value": 0.8549103140830994
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "city of biloxi (Q490720) 1",
+            "url": "https://www.wikidata.org/wiki/Q490720",
+            "value": 0.8379570841789246
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "waukesha (city), wisconsin (Q94919) 1",
+            "url": "https://www.wikidata.org/wiki/Q94919",
+            "value": 0.8184773325920105
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "spokane county (washington) (Q485276) 1",
+            "url": "https://www.wikidata.org/wiki/Q485276",
+            "value": 0.7866057753562927
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "allison brooks janney (Q229487) 2",
+            "url": "https://www.wikidata.org/wiki/Q229487",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "city of boston (Q100) 3",
+            "url": "https://www.wikidata.org/wiki/Q100",
+            "value": 0.6869072914123535
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "taxachusetts (Q771) 3",
+            "url": "https://www.wikidata.org/wiki/Q771",
+            "value": 0.5612872838973999
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "healthcare in south carolina (Q1456) 3",
+            "url": "https://www.wikidata.org/wiki/Q1456",
+            "value": 0.5230018496513367
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "new york n.y. (Q60) 3",
+            "url": "https://www.wikidata.org/wiki/Q60",
+            "value": 0.5188604593276978
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "geography of ohio (Q1397) 3",
+            "url": "https://www.wikidata.org/wiki/Q1397",
+            "value": 0.5129780173301697
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "plainfield, new jersey (Q544890) 3",
+            "url": "https://www.wikidata.org/wiki/Q544890",
+            "value": 0.5127586722373962
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "un/locode:uscsl (Q49012) 3",
+            "url": "https://www.wikidata.org/wiki/Q49012",
+            "value": 0.500985860824585
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "foliamin (Q127060) 4",
+            "url": "https://www.wikidata.org/wiki/Q127060",
+            "value": 0.9987728595733643
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/014d7f 4",
+            "value": 0.998680055141449
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/025s7j4 4",
+            "value": 0.9986128807067871
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0mm0p 5",
+            "value": 0.9352763295173645
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 5",
+            "url": "https://www.wikidata.org/wiki/Q26519",
+            "value": 0.9309109449386597
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "delaware county, ny (Q115289) 5",
+            "url": "https://www.wikidata.org/wiki/Q115289",
+            "value": 0.9262033104896545
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "un/locode:usmei (Q118152) 5",
+            "url": "https://www.wikidata.org/wiki/Q118152",
+            "value": 0.6891868710517883
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "spokane county (washington) (Q485276) 5",
+            "url": "https://www.wikidata.org/wiki/Q485276",
+            "value": 0.6697269082069397
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "albany (ga) (Q285599) 5",
+            "url": "https://www.wikidata.org/wiki/Q285599",
+            "value": 0.6671939492225647
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "odessa (texas) (Q128361) 5",
+            "url": "https://www.wikidata.org/wiki/Q128361",
+            "value": 0.6646602749824524
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of high point, north carolina (Q631194) 5",
+            "url": "https://www.wikidata.org/wiki/Q631194",
+            "value": 0.6544579863548279
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "paducah, il (Q984377) 5",
+            "url": "https://www.wikidata.org/wiki/Q984377",
+            "value": 0.6533969044685364
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "waukesha (city), wisconsin (Q94919) 5",
+            "url": "https://www.wikidata.org/wiki/Q94919",
+            "value": 0.6389922499656677
+        }
+    ],
+    "title": "[E] department of housing and urban development (Q811595), [R] source- (241), [E] allison brooks janney (Q229487), [R] location+ (132), negation, conjunction"
+}
