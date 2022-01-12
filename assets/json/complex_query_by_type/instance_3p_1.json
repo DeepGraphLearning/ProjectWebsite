@@ -1,0 +1,62 @@
+{
+    "edges": [
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0 [rank = 1]",
+            "target": "republic of the fiji islands (Q712) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1 [rank = 1]",
+            "target": "presidential (Q30461) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "presidential (Q30461) 2 [rank = 1]",
+            "target": "manhattan school of music (Q1702106) 3 [rank = 121]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "organizaci\u00f3n mundial del comercio (Q7825) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q7825",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "republic of the fiji islands (Q712) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q712",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "presidential (Q30461) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30461",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "manhattan school of music (Q1702106) 3 [rank = 121]",
+            "url": "https://www.wikidata.org/wiki/Q1702106",
+            "value": 1
+        }
+    ],
+    "title": "[E] organizaci\u00f3n mundial del comercio (Q7825), [R] member states+ (336), [R] jurisdiction of office- (473), [R] organization+ (126)"
+}

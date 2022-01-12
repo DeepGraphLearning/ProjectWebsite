@@ -1,0 +1,1856 @@
+{
+    "edges": [
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "dennis leary (Q310283) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "hanna, william (Q263324) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "billy west (voice actor) (Q531624) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "shiozawa kaneto (Q2447488) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "greg ayres (Q4721515) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "dee bradley baker (Q837676) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "john matthew heard, jr. (Q462327) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "jan irving (Q272919) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "donald pleasants (Q314914) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "voice artist (Q2405480) 0",
+            "target": "john swasey (Q4119009) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "dennis leary (Q310283) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.009986856356556939
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "hanna, william (Q263324) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.009975219145971104
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "billy west (voice actor) (Q531624) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.00997496046181856
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "shiozawa kaneto (Q2447488) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.006945469820228145
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "greg ayres (Q4721515) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.006707715838230044
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "dee bradley baker (Q837676) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.006327805377666529
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "john matthew heard, jr. (Q462327) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.005696453920831068
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "jan irving (Q272919) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.005593583458805451
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "donald pleasants (Q314914) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.005501016851491847
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "solihul (Q397343) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "green bay, wi. (Q47430) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "/m/07ylj 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "teaneck township, new jersey (Q991387) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "st. philips academy (Q25395) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "mumbai (bombay) (Q1156) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "new rochelle, n.y. (Q744948) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "demographics of new jersey (Q1408) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "flora and fauna of tamil nadu (Q1445) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "john swasey (Q4119009) 1",
+            "target": "buffalonian (Q40435) 2",
+            "value": 0.005287949920715018
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "solihul (Q397343) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.009877148645881961
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "green bay, wi. (Q47430) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.009871642368920686
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "/m/07ylj 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.009868802803707055
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "teaneck township, new jersey (Q991387) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.004225420857397744
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "st. philips academy (Q25395) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.004220608378486146
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "mumbai (bombay) (Q1156) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.004196880067954656
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "new rochelle, n.y. (Q744948) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.004158959295772924
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "demographics of new jersey (Q1408) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.004065225629540703
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "flora and fauna of tamil nadu (Q1445) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.004008890300790435
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "buffalonian (Q40435) 2",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.0038899677122391507
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "hampton city public schools (Q342043) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "new kingston, jamaica (Q34692) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "berrien county, michigan (Q167656) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "allenton, florida (Q485186) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "pleasant valley, altoona, pennsylvania (Q444210) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "un/locode:uswct (Q1010244) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "history of waterbury, connecticut (Q49178) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "finlandia, pennsylvania (Q368045) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "litchfield, ct (Q755403) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "clevland time zone (Q941023) 3",
+            "target": "downtown greenville (Q574192) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hampton city public schools (Q342043) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "hampton city public schools (Q342043) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "hampton city public schools (Q342043) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "new kingston, jamaica (Q34692) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "new kingston, jamaica (Q34692) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "new kingston, jamaica (Q34692) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "berrien county, michigan (Q167656) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "berrien county, michigan (Q167656) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "berrien county, michigan (Q167656) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "allenton, florida (Q485186) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.007363914086731205
+        },
+        {
+            "source": "allenton, florida (Q485186) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.007363914086731205
+        },
+        {
+            "source": "allenton, florida (Q485186) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.007363914086731205
+        },
+        {
+            "source": "pleasant valley, altoona, pennsylvania (Q444210) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.007112936814585247
+        },
+        {
+            "source": "pleasant valley, altoona, pennsylvania (Q444210) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.007112936814585247
+        },
+        {
+            "source": "pleasant valley, altoona, pennsylvania (Q444210) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.007112936814585247
+        },
+        {
+            "source": "un/locode:uswct (Q1010244) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.00706358536190721
+        },
+        {
+            "source": "un/locode:uswct (Q1010244) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.00706358536190721
+        },
+        {
+            "source": "un/locode:uswct (Q1010244) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.00706358536190721
+        },
+        {
+            "source": "history of waterbury, connecticut (Q49178) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.007010222516725451
+        },
+        {
+            "source": "history of waterbury, connecticut (Q49178) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.007010222516725451
+        },
+        {
+            "source": "history of waterbury, connecticut (Q49178) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.007010222516725451
+        },
+        {
+            "source": "finlandia, pennsylvania (Q368045) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.007004884920905119
+        },
+        {
+            "source": "finlandia, pennsylvania (Q368045) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.007004884920905119
+        },
+        {
+            "source": "finlandia, pennsylvania (Q368045) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.007004884920905119
+        },
+        {
+            "source": "litchfield, ct (Q755403) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.006954228126535678
+        },
+        {
+            "source": "litchfield, ct (Q755403) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.006954228126535678
+        },
+        {
+            "source": "litchfield, ct (Q755403) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.006954228126535678
+        },
+        {
+            "source": "downtown greenville (Q574192) 4",
+            "target": "unitary states (Q179164) 5",
+            "value": 0.006951306306914096
+        },
+        {
+            "source": "downtown greenville (Q574192) 4",
+            "target": "list of prime ministers and premiers (Q14212) 5",
+            "value": 0.006951306306914096
+        },
+        {
+            "source": "downtown greenville (Q574192) 4",
+            "target": "congressional republic (Q49892) 5",
+            "value": 0.006951306306914096
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "unitary states (Q179164) 5",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.009931616561153156
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "list of prime ministers and premiers (Q14212) 5",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.009931537883023811
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "upper bangor (Q234178) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "saitama-ken (Q128186) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "biodiversity in africa (Q15) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "flora and fauna of tamil nadu (Q1445) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "mumbai (bombay) (Q1156) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "city of bombay (Q1348) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "state of kerala (Q1186) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "cultural capital of tamilnadu (Q228405) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "rome/comments (Q220) 6",
+            "value": 0.009930131809484988
+        },
+        {
+            "source": "congressional republic (Q49892) 5",
+            "target": "oxford astrophysics (Q34217) 6",
+            "value": 0.009930131809484988
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "voice artist (Q2405480) 0",
+            "url": "https://www.wikidata.org/wiki/Q2405480",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dennis leary (Q310283) 1",
+            "url": "https://www.wikidata.org/wiki/Q310283",
+            "value": 0.9986856579780579
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hanna, william (Q263324) 1",
+            "url": "https://www.wikidata.org/wiki/Q263324",
+            "value": 0.9975219368934631
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "billy west (voice actor) (Q531624) 1",
+            "url": "https://www.wikidata.org/wiki/Q531624",
+            "value": 0.9974960684776306
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "shiozawa kaneto (Q2447488) 1",
+            "url": "https://www.wikidata.org/wiki/Q2447488",
+            "value": 0.6945469975471497
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "greg ayres (Q4721515) 1",
+            "url": "https://www.wikidata.org/wiki/Q4721515",
+            "value": 0.670771598815918
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "dee bradley baker (Q837676) 1",
+            "url": "https://www.wikidata.org/wiki/Q837676",
+            "value": 0.6327805519104004
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "john matthew heard, jr. (Q462327) 1",
+            "url": "https://www.wikidata.org/wiki/Q462327",
+            "value": 0.5696454048156738
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "jan irving (Q272919) 1",
+            "url": "https://www.wikidata.org/wiki/Q272919",
+            "value": 0.5593583583831787
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "donald pleasants (Q314914) 1",
+            "url": "https://www.wikidata.org/wiki/Q314914",
+            "value": 0.5501016974449158
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "john swasey (Q4119009) 1",
+            "url": "https://www.wikidata.org/wiki/Q4119009",
+            "value": 0.5287950038909912
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "solihul (Q397343) 2",
+            "url": "https://www.wikidata.org/wiki/Q397343",
+            "value": 0.9877148866653442
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "green bay, wi. (Q47430) 2",
+            "url": "https://www.wikidata.org/wiki/Q47430",
+            "value": 0.9871642589569092
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/07ylj 2",
+            "value": 0.9868803024291992
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "teaneck township, new jersey (Q991387) 2",
+            "url": "https://www.wikidata.org/wiki/Q991387",
+            "value": 0.42254209518432617
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "st. philips academy (Q25395) 2",
+            "url": "https://www.wikidata.org/wiki/Q25395",
+            "value": 0.42206084728240967
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "mumbai (bombay) (Q1156) 2",
+            "url": "https://www.wikidata.org/wiki/Q1156",
+            "value": 0.41968801617622375
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "new rochelle, n.y. (Q744948) 2",
+            "url": "https://www.wikidata.org/wiki/Q744948",
+            "value": 0.415895938873291
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "demographics of new jersey (Q1408) 2",
+            "url": "https://www.wikidata.org/wiki/Q1408",
+            "value": 0.40652257204055786
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "flora and fauna of tamil nadu (Q1445) 2",
+            "url": "https://www.wikidata.org/wiki/Q1445",
+            "value": 0.4008890390396118
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "buffalonian (Q40435) 2",
+            "url": "https://www.wikidata.org/wiki/Q40435",
+            "value": 0.38899677991867065
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "clevland time zone (Q941023) 3",
+            "url": "https://www.wikidata.org/wiki/Q941023",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hampton city public schools (Q342043) 4",
+            "url": "https://www.wikidata.org/wiki/Q342043",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new kingston, jamaica (Q34692) 4",
+            "url": "https://www.wikidata.org/wiki/Q34692",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "berrien county, michigan (Q167656) 4",
+            "url": "https://www.wikidata.org/wiki/Q167656",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "allenton, florida (Q485186) 4",
+            "url": "https://www.wikidata.org/wiki/Q485186",
+            "value": 0.7363914251327515
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "pleasant valley, altoona, pennsylvania (Q444210) 4",
+            "url": "https://www.wikidata.org/wiki/Q444210",
+            "value": 0.7112936973571777
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "un/locode:uswct (Q1010244) 4",
+            "url": "https://www.wikidata.org/wiki/Q1010244",
+            "value": 0.7063585519790649
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of waterbury, connecticut (Q49178) 4",
+            "url": "https://www.wikidata.org/wiki/Q49178",
+            "value": 0.7010222673416138
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "finlandia, pennsylvania (Q368045) 4",
+            "url": "https://www.wikidata.org/wiki/Q368045",
+            "value": 0.7004885077476501
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "litchfield, ct (Q755403) 4",
+            "url": "https://www.wikidata.org/wiki/Q755403",
+            "value": 0.6954228281974792
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "downtown greenville (Q574192) 4",
+            "url": "https://www.wikidata.org/wiki/Q574192",
+            "value": 0.6951306462287903
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "unitary states (Q179164) 5",
+            "url": "https://www.wikidata.org/wiki/Q179164",
+            "value": 0.993161678314209
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "list of prime ministers and premiers (Q14212) 5",
+            "url": "https://www.wikidata.org/wiki/Q14212",
+            "value": 0.9931538105010986
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "congressional republic (Q49892) 5",
+            "url": "https://www.wikidata.org/wiki/Q49892",
+            "value": 0.9930132031440735
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "upper bangor (Q234178) 6",
+            "url": "https://www.wikidata.org/wiki/Q234178",
+            "value": 0.909958004951477
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "saitama-ken (Q128186) 6",
+            "url": "https://www.wikidata.org/wiki/Q128186",
+            "value": 0.9087799191474915
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "biodiversity in africa (Q15) 6",
+            "url": "https://www.wikidata.org/wiki/Q15",
+            "value": 0.8999276161193848
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "flora and fauna of tamil nadu (Q1445) 6",
+            "url": "https://www.wikidata.org/wiki/Q1445",
+            "value": 0.34696587920188904
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "mumbai (bombay) (Q1156) 6",
+            "url": "https://www.wikidata.org/wiki/Q1156",
+            "value": 0.34523236751556396
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "city of bombay (Q1348) 6",
+            "url": "https://www.wikidata.org/wiki/Q1348",
+            "value": 0.33200106024742126
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "state of kerala (Q1186) 6",
+            "url": "https://www.wikidata.org/wiki/Q1186",
+            "value": 0.3264297842979431
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "cultural capital of tamilnadu (Q228405) 6",
+            "url": "https://www.wikidata.org/wiki/Q228405",
+            "value": 0.32151341438293457
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rome/comments (Q220) 6",
+            "url": "https://www.wikidata.org/wiki/Q220",
+            "value": 0.3136693239212036
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "oxford astrophysics (Q34217) 6",
+            "url": "https://www.wikidata.org/wiki/Q34217",
+            "value": 0.3073306381702423
+        }
+    ],
+    "title": "[E] voice artist (Q2405480), [R] profession- (35), [R] location+ (132), [E] clevland time zone (Q941023), [R] time zones- (309), negation, conjunction"
+}

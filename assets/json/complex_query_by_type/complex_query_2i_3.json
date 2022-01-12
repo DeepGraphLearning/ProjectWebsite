@@ -1,0 +1,397 @@
+{
+    "edges": [
+        {
+            "source": "san fransisco (Q62) 0",
+            "target": "panda shepherd (Q38280) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "san fransisco (Q62) 0",
+            "target": "booper (Q38726) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "san fransisco (Q62) 0",
+            "target": "bull dog (Q38383) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "san fransisco (Q62) 0",
+            "target": "scottish broken-haired terrier (Q39330) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "panda shepherd (Q38280) 1",
+            "target": "booper (Q38726) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "panda shepherd (Q38280) 1",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "panda shepherd (Q38280) 1",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "panda shepherd (Q38280) 1",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "panda shepherd (Q38280) 1",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "booper (Q38726) 1",
+            "target": "booper (Q38726) 4",
+            "value": 0.009999919906260368
+        },
+        {
+            "source": "booper (Q38726) 1",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.009999919906260368
+        },
+        {
+            "source": "booper (Q38726) 1",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.009999919906260368
+        },
+        {
+            "source": "booper (Q38726) 1",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.009999919906260368
+        },
+        {
+            "source": "booper (Q38726) 1",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.009999919906260368
+        },
+        {
+            "source": "bull dog (Q38383) 1",
+            "target": "booper (Q38726) 4",
+            "value": 0.0099999187141675
+        },
+        {
+            "source": "bull dog (Q38383) 1",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.0099999187141675
+        },
+        {
+            "source": "bull dog (Q38383) 1",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.0099999187141675
+        },
+        {
+            "source": "bull dog (Q38383) 1",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.0099999187141675
+        },
+        {
+            "source": "bull dog (Q38383) 1",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.0099999187141675
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 1",
+            "target": "booper (Q38726) 4",
+            "value": 0.0018895805949811495
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 1",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.0018895805949811495
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 1",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.0018895805949811495
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 1",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.0018895805949811495
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 1",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.0018895805949811495
+        },
+        {
+            "source": "miami (afl) (Q8652) 2",
+            "target": "booper (Q38726) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "miami (afl) (Q8652) 2",
+            "target": "bull dog (Q38383) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "miami (afl) (Q8652) 2",
+            "target": "scottish broken-haired terrier (Q39330) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "miami (afl) (Q8652) 2",
+            "target": "panda shepherd (Q38280) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "booper (Q38726) 3",
+            "target": "booper (Q38726) 4",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "booper (Q38726) 3",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "booper (Q38726) 3",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "booper (Q38726) 3",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "booper (Q38726) 3",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.009999878183009958
+        },
+        {
+            "source": "bull dog (Q38383) 3",
+            "target": "booper (Q38726) 4",
+            "value": 0.00999987699091709
+        },
+        {
+            "source": "bull dog (Q38383) 3",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.00999987699091709
+        },
+        {
+            "source": "bull dog (Q38383) 3",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.00999987699091709
+        },
+        {
+            "source": "bull dog (Q38383) 3",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.00999987699091709
+        },
+        {
+            "source": "bull dog (Q38383) 3",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.00999987699091709
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 3",
+            "target": "booper (Q38726) 4",
+            "value": 0.00999987579882422
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 3",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.00999987579882422
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 3",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.00999987579882422
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 3",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.00999987579882422
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 3",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.00999987579882422
+        },
+        {
+            "source": "panda shepherd (Q38280) 3",
+            "target": "booper (Q38726) 4",
+            "value": 0.0019129916597979135
+        },
+        {
+            "source": "panda shepherd (Q38280) 3",
+            "target": "bull dog (Q38383) 4",
+            "value": 0.0019129916597979135
+        },
+        {
+            "source": "panda shepherd (Q38280) 3",
+            "target": "golden retreiver (Q38686) 4",
+            "value": 0.0019129916597979135
+        },
+        {
+            "source": "panda shepherd (Q38280) 3",
+            "target": "panda shepherd (Q38280) 4",
+            "value": 0.0019129916597979135
+        },
+        {
+            "source": "panda shepherd (Q38280) 3",
+            "target": "scottish broken-haired terrier (Q39330) 4",
+            "value": 0.0019129916597979135
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "san fransisco (Q62) 0",
+            "url": "https://www.wikidata.org/wiki/Q62",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "panda shepherd (Q38280) 1",
+            "url": "https://www.wikidata.org/wiki/Q38280",
+            "value": 0.9999921321868896
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "booper (Q38726) 1",
+            "url": "https://www.wikidata.org/wiki/Q38726",
+            "value": 0.9999920129776001
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bull dog (Q38383) 1",
+            "url": "https://www.wikidata.org/wiki/Q38383",
+            "value": 0.9999918937683105
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "scottish broken-haired terrier (Q39330) 1",
+            "url": "https://www.wikidata.org/wiki/Q39330",
+            "value": 0.1889580637216568
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "miami (afl) (Q8652) 2",
+            "url": "https://www.wikidata.org/wiki/Q8652",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "booper (Q38726) 3",
+            "url": "https://www.wikidata.org/wiki/Q38726",
+            "value": 0.9999878406524658
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bull dog (Q38383) 3",
+            "url": "https://www.wikidata.org/wiki/Q38383",
+            "value": 0.9999877214431763
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "scottish broken-haired terrier (Q39330) 3",
+            "url": "https://www.wikidata.org/wiki/Q39330",
+            "value": 0.9999876022338867
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "panda shepherd (Q38280) 3",
+            "url": "https://www.wikidata.org/wiki/Q38280",
+            "value": 0.191299170255661
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "booper (Q38726) 4",
+            "url": "https://www.wikidata.org/wiki/Q38726",
+            "value": 0.9999798536300659
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bull dog (Q38383) 4",
+            "url": "https://www.wikidata.org/wiki/Q38383",
+            "value": 0.9999796152114868
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden retreiver (Q38686) 4",
+            "url": "https://www.wikidata.org/wiki/Q38686",
+            "value": 0.9999790191650391
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "panda shepherd (Q38280) 4",
+            "url": "https://www.wikidata.org/wiki/Q38280",
+            "value": 0.19129766523838043
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "scottish broken-haired terrier (Q39330) 4",
+            "url": "https://www.wikidata.org/wiki/Q39330",
+            "value": 0.18895572423934937
+        }
+    ],
+    "title": "[E] san fransisco (Q62), [R] dog breed+ (312), [E] miami (afl) (Q8652), [R] dog breed+ (312), conjunction"
+}

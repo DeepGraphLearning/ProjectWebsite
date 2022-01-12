@@ -1,0 +1,1255 @@
+{
+    "edges": [
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "temple university (philadelphia, pa) (Q1420239) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "ivory 503 (Q432637) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "wake forest u (Q392667) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "university of texas at arlington department of military science (Q1230739) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "centre colonels men's basketball (Q1804942) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "the university of vermont and state agricultural college (Q1048898) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "edmund walsh school of foreign service (Q128047) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubs (Q157376) 0",
+            "target": "univ of fla (Q501758) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "temple university (philadelphia, pa) (Q1420239) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.009999954476953565
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.00999994970858209
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "ivory 503 (Q432637) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.009999946132303483
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "wake forest u (Q392667) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.004517946142302165
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.004502562779875929
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "centre colonels men's basketball (Q1804942) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.004452185233261019
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "the university of vermont and state agricultural college (Q1048898) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.004429717858961568
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "edmund walsh school of foreign service (Q128047) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.004395630857446098
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.00438731839387152
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "/m/01s7j5 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "hbs (Q49126) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "univ of fla (Q501758) 1",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.004380661747291792
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "duke alumni association (Q168751) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "university of kentucky (Q1360303) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "university of south carolina columbia (Q1024426) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "mccollum hall (Q52413) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "nm state (Q1353248) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "univ of fla (Q501758) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "carolina quarterly (Q192334) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "boston college college of arts & sciences (Q49118) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "u nevada (Q1185955) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "nba draft 06 (Q1471357) 2",
+            "target": "west virginia university at morgantown (Q115376) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "duke alumni association (Q168751) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.00999993897974627
+        },
+        {
+            "source": "duke alumni association (Q168751) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.00999993897974627
+        },
+        {
+            "source": "duke alumni association (Q168751) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.00999993897974627
+        },
+        {
+            "source": "university of kentucky (Q1360303) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "university of kentucky (Q1360303) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "university of kentucky (Q1360303) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.009999921098353237
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.009999900832774467
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.009999900832774467
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.009999900832774467
+        },
+        {
+            "source": "mccollum hall (Q52413) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.004164007511049339
+        },
+        {
+            "source": "mccollum hall (Q52413) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.004164007511049339
+        },
+        {
+            "source": "mccollum hall (Q52413) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.004164007511049339
+        },
+        {
+            "source": "nm state (Q1353248) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.00412250718200563
+        },
+        {
+            "source": "nm state (Q1353248) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.00412250718200563
+        },
+        {
+            "source": "nm state (Q1353248) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.00412250718200563
+        },
+        {
+            "source": "univ of fla (Q501758) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.004098149744462598
+        },
+        {
+            "source": "univ of fla (Q501758) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.004098149744462598
+        },
+        {
+            "source": "univ of fla (Q501758) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.004098149744462598
+        },
+        {
+            "source": "carolina quarterly (Q192334) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.004067645578064494
+        },
+        {
+            "source": "carolina quarterly (Q192334) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.004067645578064494
+        },
+        {
+            "source": "carolina quarterly (Q192334) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.004067645578064494
+        },
+        {
+            "source": "boston college college of arts & sciences (Q49118) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.004060912637541159
+        },
+        {
+            "source": "boston college college of arts & sciences (Q49118) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.004060912637541159
+        },
+        {
+            "source": "boston college college of arts & sciences (Q49118) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.004060912637541159
+        },
+        {
+            "source": "u nevada (Q1185955) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.004055236189322853
+        },
+        {
+            "source": "u nevada (Q1185955) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.004055236189322853
+        },
+        {
+            "source": "u nevada (Q1185955) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.004055236189322853
+        },
+        {
+            "source": "west virginia university at morgantown (Q115376) 3",
+            "target": "cameo apperance (Q191796) 4",
+            "value": 0.004038890509928228
+        },
+        {
+            "source": "west virginia university at morgantown (Q115376) 3",
+            "target": "/m/08mbj5d 4",
+            "value": 0.004038890509928228
+        },
+        {
+            "source": "west virginia university at morgantown (Q115376) 3",
+            "target": "unseen footage (Q5253643) 4",
+            "value": 0.004038890509928228
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "/m/01s7j5 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "hbs (Q49126) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "cameo apperance (Q191796) 4",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.009965091721003683
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "/m/01s7j5 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "hbs (Q49126) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "/m/08mbj5d 4",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.009963906780692033
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "university of san diego (Q262663) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "sanctae crucis award (Q2620177) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "southern methodist (Q1536258) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "columbia university graduate school of business (Q907481) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "/m/01s7j5 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "edmund walsh school of foreign service (Q128047) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "hbs (Q49126) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "stanford university graduate school of business (Q1413558) 5",
+            "value": 0.009958547131153628
+        },
+        {
+            "source": "unseen footage (Q5253643) 4",
+            "target": "stanford law library (Q8012895) 5",
+            "value": 0.009958547131153628
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dubs (Q157376) 0",
+            "url": "https://www.wikidata.org/wiki/Q157376",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "temple university (philadelphia, pa) (Q1420239) 1",
+            "url": "https://www.wikidata.org/wiki/Q1420239",
+            "value": 0.9999954700469971
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "faculty authoring development program and courseware authoring tools project (Q41506) 1",
+            "url": "https://www.wikidata.org/wiki/Q41506",
+            "value": 0.9999949932098389
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ivory 503 (Q432637) 1",
+            "url": "https://www.wikidata.org/wiki/Q432637",
+            "value": 0.9999946355819702
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "wake forest u (Q392667) 1",
+            "url": "https://www.wikidata.org/wiki/Q392667",
+            "value": 0.4517946243286133
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "university of texas at arlington department of military science (Q1230739) 1",
+            "url": "https://www.wikidata.org/wiki/Q1230739",
+            "value": 0.4502562880516052
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "centre colonels men's basketball (Q1804942) 1",
+            "url": "https://www.wikidata.org/wiki/Q1804942",
+            "value": 0.4452185332775116
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the university of vermont and state agricultural college (Q1048898) 1",
+            "url": "https://www.wikidata.org/wiki/Q1048898",
+            "value": 0.442971795797348
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "edmund walsh school of foreign service (Q128047) 1",
+            "url": "https://www.wikidata.org/wiki/Q128047",
+            "value": 0.4395630955696106
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "wharton school of the university of pennsylvania (Q1329269) 1",
+            "url": "https://www.wikidata.org/wiki/Q1329269",
+            "value": 0.438731849193573
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "univ of fla (Q501758) 1",
+            "url": "https://www.wikidata.org/wiki/Q501758",
+            "value": 0.43806618452072144
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "nba draft 06 (Q1471357) 2",
+            "url": "https://www.wikidata.org/wiki/Q1471357",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "duke alumni association (Q168751) 3",
+            "url": "https://www.wikidata.org/wiki/Q168751",
+            "value": 0.9999939203262329
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university of kentucky (Q1360303) 3",
+            "url": "https://www.wikidata.org/wiki/Q1360303",
+            "value": 0.9999921321868896
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university of south carolina columbia (Q1024426) 3",
+            "url": "https://www.wikidata.org/wiki/Q1024426",
+            "value": 0.9999901056289673
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mccollum hall (Q52413) 3",
+            "url": "https://www.wikidata.org/wiki/Q52413",
+            "value": 0.4164007604122162
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "nm state (Q1353248) 3",
+            "url": "https://www.wikidata.org/wiki/Q1353248",
+            "value": 0.41225072741508484
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "univ of fla (Q501758) 3",
+            "url": "https://www.wikidata.org/wiki/Q501758",
+            "value": 0.4098149836063385
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "carolina quarterly (Q192334) 3",
+            "url": "https://www.wikidata.org/wiki/Q192334",
+            "value": 0.40676456689834595
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "boston college college of arts & sciences (Q49118) 3",
+            "url": "https://www.wikidata.org/wiki/Q49118",
+            "value": 0.40609127283096313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "u nevada (Q1185955) 3",
+            "url": "https://www.wikidata.org/wiki/Q1185955",
+            "value": 0.4055236279964447
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "west virginia university at morgantown (Q115376) 3",
+            "url": "https://www.wikidata.org/wiki/Q115376",
+            "value": 0.4038890600204468
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cameo apperance (Q191796) 4",
+            "url": "https://www.wikidata.org/wiki/Q191796",
+            "value": 0.9965091943740845
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08mbj5d 4",
+            "value": 0.996390700340271
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "unseen footage (Q5253643) 4",
+            "url": "https://www.wikidata.org/wiki/Q5253643",
+            "value": 0.9958547353744507
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university of san diego (Q262663) 5",
+            "url": "https://www.wikidata.org/wiki/Q262663",
+            "value": 0.7496532201766968
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "sanctae crucis award (Q2620177) 5",
+            "url": "https://www.wikidata.org/wiki/Q2620177",
+            "value": 0.7344256639480591
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "southern methodist (Q1536258) 5",
+            "url": "https://www.wikidata.org/wiki/Q1536258",
+            "value": 0.7289479374885559
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "columbia university graduate school of business (Q907481) 5",
+            "url": "https://www.wikidata.org/wiki/Q907481",
+            "value": 0.3984540104866028
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/01s7j5 5",
+            "value": 0.38832542300224304
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "wharton school of the university of pennsylvania (Q1329269) 5",
+            "url": "https://www.wikidata.org/wiki/Q1329269",
+            "value": 0.3878520429134369
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "edmund walsh school of foreign service (Q128047) 5",
+            "url": "https://www.wikidata.org/wiki/Q128047",
+            "value": 0.3843483328819275
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hbs (Q49126) 5",
+            "url": "https://www.wikidata.org/wiki/Q49126",
+            "value": 0.37816759943962097
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "stanford university graduate school of business (Q1413558) 5",
+            "url": "https://www.wikidata.org/wiki/Q1413558",
+            "value": 0.3757267892360687
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "stanford law library (Q8012895) 5",
+            "url": "https://www.wikidata.org/wiki/Q8012895",
+            "value": 0.37086087465286255
+        }
+    ],
+    "title": "[E] dubs (Q157376), [R] school+ (136), [E] nba draft 06 (Q1471357), [R] school+ (158), negation, conjunction"
+}

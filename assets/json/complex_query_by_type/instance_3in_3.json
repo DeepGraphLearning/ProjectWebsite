@@ -1,0 +1,137 @@
+{
+    "edges": [
+        {
+            "source": "bonds of matrimony (Q8445) 0 [rank = 1]",
+            "target": "fred armison (Q14535) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "fred armison (Q14535) 1 [rank = 1]",
+            "target": "fred armison (Q14535) 4 [rank = 670]",
+            "value": 0.5
+        },
+        {
+            "source": "new york n.y. (Q60) 2 [rank = 1]",
+            "target": "fred armison (Q14535) 3 [rank = 959]",
+            "value": 0.5
+        },
+        {
+            "source": "fred armison (Q14535) 3 [rank = 959]",
+            "target": "fred armison (Q14535) 4 [rank = 670]",
+            "value": 0.5
+        },
+        {
+            "source": "fred armison (Q14535) 4 [rank = 670]",
+            "target": "fred armison (Q14535) 8 [rank = 618]",
+            "value": 0.5
+        },
+        {
+            "source": "executive produced (Q1053574) 5 [rank = 1]",
+            "target": "paul lieberstein (Q2671438) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "paul lieberstein (Q2671438) 6 [rank = 1]",
+            "target": "fred armison (Q14535) 7 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "fred armison (Q14535) 7 [rank = 2]",
+            "target": "fred armison (Q14535) 8 [rank = 618]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bonds of matrimony (Q8445) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8445",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fred armison (Q14535) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q14535",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new york n.y. (Q60) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q60",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "fred armison (Q14535) 3 [rank = 959]",
+            "url": "https://www.wikidata.org/wiki/Q14535",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "fred armison (Q14535) 4 [rank = 670]",
+            "url": "https://www.wikidata.org/wiki/Q14535",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "executive produced (Q1053574) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1053574",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "paul lieberstein (Q2671438) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2671438",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fred armison (Q14535) 7 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q14535",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "fred armison (Q14535) 8 [rank = 618]",
+            "url": "https://www.wikidata.org/wiki/Q14535",
+            "value": 1
+        }
+    ],
+    "title": "[E] bonds of matrimony (Q8445), [R] type of union- (171), [E] new york n.y. (Q60), [R] location- (133), conjunction, [E] executive produced (Q1053574), [R] producer type- (221), negation, conjunction"
+}

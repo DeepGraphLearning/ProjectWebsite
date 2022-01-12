@@ -1,0 +1,136 @@
+{
+    "edges": [
+        {
+            "source": "right winger (football) (Q193592) 0 [rank = 1]",
+            "target": "wimbledon f.c. (Q19482) 1 [rank = 130]",
+            "value": 0.5
+        },
+        {
+            "source": "wimbledon f.c. (Q19482) 1 [rank = 130]",
+            "target": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/0dgrmp 2 [rank = 1]",
+            "target": "wimbledon f.c. (Q19482) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "wimbledon f.c. (Q19482) 3 [rank = 1]",
+            "target": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "value": 0.5
+        },
+        {
+            "source": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "target": "wimbledon f.c. (Q19482) 8 [rank = 128]",
+            "value": 0.5
+        },
+        {
+            "source": "f\u00fatbol (Q2736) 5 [rank = 1]",
+            "target": "pfc cska moscow (Q176371) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "pfc cska moscow (Q176371) 6 [rank = 1]",
+            "target": "wimbledon f.c. (Q19482) 7 [rank = 3]",
+            "value": 0.5
+        },
+        {
+            "source": "wimbledon f.c. (Q19482) 7 [rank = 3]",
+            "target": "wimbledon f.c. (Q19482) 8 [rank = 128]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "right winger (football) (Q193592) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q193592",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "wimbledon f.c. (Q19482) 1 [rank = 130]",
+            "url": "https://www.wikidata.org/wiki/Q19482",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0dgrmp 2 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wimbledon f.c. (Q19482) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q19482",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "url": "https://www.wikidata.org/wiki/Q19482",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "f\u00fatbol (Q2736) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2736",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "pfc cska moscow (Q176371) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q176371",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wimbledon f.c. (Q19482) 7 [rank = 3]",
+            "url": "https://www.wikidata.org/wiki/Q19482",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "wimbledon f.c. (Q19482) 8 [rank = 128]",
+            "url": "https://www.wikidata.org/wiki/Q19482",
+            "value": 1
+        }
+    ],
+    "title": "[E] right winger (football) (Q193592), [R] position- (11), [E] /m/0dgrmp, [R] position- (9), conjunction, [E] f\u00fatbol (Q2736), [R] sport- (161), negation, conjunction"
+}

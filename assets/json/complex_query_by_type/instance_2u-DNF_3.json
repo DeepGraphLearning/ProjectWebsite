@@ -1,0 +1,77 @@
+{
+    "edges": [
+        {
+            "source": "state of berlin (Q64) 0 [rank = 1]",
+            "target": "the livesof others (Q153882) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "the livesof others (Q153882) 1 [rank = 1]",
+            "target": "breaking and entering (film) (Q241391) 4 [rank = 58]",
+            "value": 0.5
+        },
+        {
+            "source": "gabriel yared (Q502957) 2 [rank = 1]",
+            "target": "breaking and entering (film) (Q241391) 3 [rank = 7]",
+            "value": 0.5
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3 [rank = 7]",
+            "target": "breaking and entering (film) (Q241391) 4 [rank = 58]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "state of berlin (Q64) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q64",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the livesof others (Q153882) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q153882",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "gabriel yared (Q502957) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q502957",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "breaking and entering (film) (Q241391) 3 [rank = 7]",
+            "url": "https://www.wikidata.org/wiki/Q241391",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "breaking and entering (film) (Q241391) 4 [rank = 58]",
+            "url": "https://www.wikidata.org/wiki/Q241391",
+            "value": 1
+        }
+    ],
+    "title": "[E] state of berlin (Q64), [R] featured film locations- (213), [E] gabriel yared (Q502957), [R] music- (233), disjunction"
+}

@@ -1,0 +1,1365 @@
+{
+    "edges": [
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "philippines republic (Q928) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "climate of hong kong (Q8646) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "republic of the fiji islands (Q712) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "yugo. (Q36704) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "cooperative republic of guyana (Q734) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "luxembourgh (Q32) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "griekenland (Q41) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "iso 3166-1:gh (Q117) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "p:tjk (Q863) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "target": "czech republic (Q213) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "/m/079dy 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "philippines republic (Q928) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.009999975934625205
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "/m/079dy 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "climate of hong kong (Q8646) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "/m/079dy 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "republic of the fiji islands (Q712) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "/m/079dy 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "yugo. (Q36704) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.00480664778932971
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "/m/079dy 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "cooperative republic of guyana (Q734) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.004666489556435727
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "/m/079dy 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "luxembourgh (Q32) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.004642295733638946
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "/m/079dy 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "griekenland (Q41) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.004602651493192056
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "/m/079dy 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "iso 3166-1:gh (Q117) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.00460200776304287
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "/m/079dy 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "p:tjk (Q863) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.004571424620492204
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "bobby kennedy (Q25310) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "3rd president of the united states (Q11812) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "early years of john f. kennedy (Q9696) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "ershiba hua sheng (Q5816) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "/m/079dy 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "death of yasser arafat (Q34211) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "marshall zhukov (Q124617) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "donald payne, sr. (Q1240103) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "czech republic (Q213) 1",
+            "target": "sara palen (Q43144) 2",
+            "value": 0.004565047519690224
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "bobby kennedy (Q25310) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.00998611666293181
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "3rd president of the united states (Q11812) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.009983445182812689
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "early years of john f. kennedy (Q9696) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.009983340874686664
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "ershiba hua sheng (Q5816) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.0027499526124458162
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "/m/079dy 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.002658871054823597
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "death of yasser arafat (Q34211) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.0024769299668759848
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.0023253821806896724
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "marshall zhukov (Q124617) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.0022769996014908034
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "donald payne, sr. (Q1240103) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.002215965340674697
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "manitoba, university of (Q1191833) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "kansas state u (Q31249) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "king's college (new york) (Q49088) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "cullum number (Q9219) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "usn a (Q559549) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "spyglass entertainment (Q512858) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "/m/02bq1j 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "king's college (new york) (Q4569677) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "harvard university law school (Q49122) 3",
+            "value": 0.002200935582795688
+        },
+        {
+            "source": "sara palen (Q43144) 2",
+            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "value": 0.002200935582795688
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "url": "https://www.wikidata.org/wiki/Q7825",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "philippines republic (Q928) 1",
+            "url": "https://www.wikidata.org/wiki/Q928",
+            "value": 0.999997615814209
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "climate of hong kong (Q8646) 1",
+            "url": "https://www.wikidata.org/wiki/Q8646",
+            "value": 0.9999964237213135
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "republic of the fiji islands (Q712) 1",
+            "url": "https://www.wikidata.org/wiki/Q712",
+            "value": 0.9999964237213135
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "yugo. (Q36704) 1",
+            "url": "https://www.wikidata.org/wiki/Q36704",
+            "value": 0.48066478967666626
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cooperative republic of guyana (Q734) 1",
+            "url": "https://www.wikidata.org/wiki/Q734",
+            "value": 0.46664896607398987
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "luxembourgh (Q32) 1",
+            "url": "https://www.wikidata.org/wiki/Q32",
+            "value": 0.4642295837402344
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "griekenland (Q41) 1",
+            "url": "https://www.wikidata.org/wiki/Q41",
+            "value": 0.4602651596069336
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "iso 3166-1:gh (Q117) 1",
+            "url": "https://www.wikidata.org/wiki/Q117",
+            "value": 0.46020078659057617
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "p:tjk (Q863) 1",
+            "url": "https://www.wikidata.org/wiki/Q863",
+            "value": 0.4571424722671509
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "czech republic (Q213) 1",
+            "url": "https://www.wikidata.org/wiki/Q213",
+            "value": 0.456504762172699
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bobby kennedy (Q25310) 2",
+            "url": "https://www.wikidata.org/wiki/Q25310",
+            "value": 0.9986116886138916
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "3rd president of the united states (Q11812) 2",
+            "url": "https://www.wikidata.org/wiki/Q11812",
+            "value": 0.9983445405960083
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "early years of john f. kennedy (Q9696) 2",
+            "url": "https://www.wikidata.org/wiki/Q9696",
+            "value": 0.9983341097831726
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "ershiba hua sheng (Q5816) 2",
+            "url": "https://www.wikidata.org/wiki/Q5816",
+            "value": 0.27499526739120483
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/079dy 2",
+            "value": 0.2658871114253998
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "death of yasser arafat (Q34211) 2",
+            "url": "https://www.wikidata.org/wiki/Q34211",
+            "value": 0.2476930022239685
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "url": "https://www.wikidata.org/wiki/Q16574",
+            "value": 0.23253822326660156
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "marshall zhukov (Q124617) 2",
+            "url": "https://www.wikidata.org/wiki/Q124617",
+            "value": 0.22769996523857117
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "donald payne, sr. (Q1240103) 2",
+            "url": "https://www.wikidata.org/wiki/Q1240103",
+            "value": 0.22159653902053833
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sara palen (Q43144) 2",
+            "url": "https://www.wikidata.org/wiki/Q43144",
+            "value": 0.22009356319904327
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "manitoba, university of (Q1191833) 3",
+            "url": "https://www.wikidata.org/wiki/Q1191833",
+            "value": 0.9972688555717468
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kansas state u (Q31249) 3",
+            "url": "https://www.wikidata.org/wiki/Q31249",
+            "value": 0.9962766766548157
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "king's college (new york) (Q49088) 3",
+            "url": "https://www.wikidata.org/wiki/Q49088",
+            "value": 0.9962263107299805
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "cullum number (Q9219) 3",
+            "url": "https://www.wikidata.org/wiki/Q9219",
+            "value": 0.3999662697315216
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "usn a (Q559549) 3",
+            "url": "https://www.wikidata.org/wiki/Q559549",
+            "value": 0.39870962500572205
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "spyglass entertainment (Q512858) 3",
+            "url": "https://www.wikidata.org/wiki/Q512858",
+            "value": 0.38565701246261597
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/02bq1j 3",
+            "value": 0.38262102007865906
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "king's college (new york) (Q4569677) 3",
+            "url": "https://www.wikidata.org/wiki/Q4569677",
+            "value": 0.3814167380332947
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "harvard university law school (Q49122) 3",
+            "url": "https://www.wikidata.org/wiki/Q49122",
+            "value": 0.3533373177051544
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "london school of economics and political science (lse) (Q174570) 3",
+            "url": "https://www.wikidata.org/wiki/Q174570",
+            "value": 0.34796079993247986
+        }
+    ],
+    "title": "[E] organizaci\u00f3n mundial del comercio (Q7825), [R] member states+ (336), [R] jurisdiction of office- (473), [R] organization+ (126)"
+}

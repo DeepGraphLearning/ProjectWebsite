@@ -1,0 +1,1426 @@
+{
+    "edges": [
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "paul jonas (Q134233) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "christopher french (musician) (Q127471) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "emma roberts (Q228598) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "vanessa anne hutchinson (Q123174) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "jesse mac (Q191842) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "drift (emily osment song) (Q188401) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "2006 summer smtown (Q485188) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "letoya jackson (Q217427) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "beliebers (Q34086) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tpop (Q739138) 0",
+            "target": "lukasz gottwald (Q350588) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "paul jonas (Q134233) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "christopher french (musician) (Q127471) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "emma roberts (Q228598) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "vanessa anne hutchinson (Q123174) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.0051734833753075415
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "jesse mac (Q191842) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.00498617548526431
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "drift (emily osment song) (Q188401) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.004916143605497247
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "2006 summer smtown (Q485188) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.004804194462205591
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "letoya jackson (Q217427) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.004772323859356553
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "beliebers (Q34086) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.0043973084301358045
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "nsync (Q154454) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "lukasz gottwald (Q350588) 1",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.004179839100394267
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "blondie (band) (Q202741) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "widescreen (album) (Q1383270) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "bon jovi songs (Q259254) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "monkees, the (Q464036) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "/m/02r1tx7 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "the who: performance (Q93346) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "history of queen (Q15862) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "the sun goes down (thin lizzy) (Q202314) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "ba i (Q806231) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "pop rock (Q484641) 2",
+            "target": "the police (Q178095) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "blondie (band) (Q202741) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "widescreen (album) (Q1383270) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "bon jovi songs (Q259254) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "monkees, the (Q464036) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.005984282955878606
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "/m/02r1tx7 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.005932658182099648
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "the who: performance (Q93346) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.005787604321816464
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "history of queen (Q15862) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.0057794057031108625
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "the sun goes down (thin lizzy) (Q202314) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.005767816772286216
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "ba i (Q806231) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.005582030290766871
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "christopher french (musician) (Q127471) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "emma roberts (Q228598) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "morning musume '16 (Q174291) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "paul jonas (Q134233) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "nsync (Q154454) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "joseph adam \"joe\" jonas (Q191088) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "sam lutfi (Q11975) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "kevin jonas bio (Q210172) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "lukasz gottwald (Q350588) 4",
+            "value": 0.005570447916453003
+        },
+        {
+            "source": "the police (Q178095) 3",
+            "target": "donny osmand (Q386053) 4",
+            "value": 0.005570447916453003
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tpop (Q739138) 0",
+            "url": "https://www.wikidata.org/wiki/Q739138",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "paul jonas (Q134233) 1",
+            "url": "https://www.wikidata.org/wiki/Q134233",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "christopher french (musician) (Q127471) 1",
+            "url": "https://www.wikidata.org/wiki/Q127471",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "emma roberts (Q228598) 1",
+            "url": "https://www.wikidata.org/wiki/Q228598",
+            "value": 0.999998927116394
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "vanessa anne hutchinson (Q123174) 1",
+            "url": "https://www.wikidata.org/wiki/Q123174",
+            "value": 0.5173483490943909
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "jesse mac (Q191842) 1",
+            "url": "https://www.wikidata.org/wiki/Q191842",
+            "value": 0.498617559671402
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "drift (emily osment song) (Q188401) 1",
+            "url": "https://www.wikidata.org/wiki/Q188401",
+            "value": 0.49161437153816223
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "2006 summer smtown (Q485188) 1",
+            "url": "https://www.wikidata.org/wiki/Q485188",
+            "value": 0.48041945695877075
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "letoya jackson (Q217427) 1",
+            "url": "https://www.wikidata.org/wiki/Q217427",
+            "value": 0.4772323966026306
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "beliebers (Q34086) 1",
+            "url": "https://www.wikidata.org/wiki/Q34086",
+            "value": 0.43973085284233093
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lukasz gottwald (Q350588) 1",
+            "url": "https://www.wikidata.org/wiki/Q350588",
+            "value": 0.41798391938209534
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "pop rock (Q484641) 2",
+            "url": "https://www.wikidata.org/wiki/Q484641",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "blondie (band) (Q202741) 3",
+            "url": "https://www.wikidata.org/wiki/Q202741",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "widescreen (album) (Q1383270) 3",
+            "url": "https://www.wikidata.org/wiki/Q1383270",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bon jovi songs (Q259254) 3",
+            "url": "https://www.wikidata.org/wiki/Q259254",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "monkees, the (Q464036) 3",
+            "url": "https://www.wikidata.org/wiki/Q464036",
+            "value": 0.5984283089637756
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/02r1tx7 3",
+            "value": 0.5932658314704895
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the who: performance (Q93346) 3",
+            "url": "https://www.wikidata.org/wiki/Q93346",
+            "value": 0.5787604451179504
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "history of queen (Q15862) 3",
+            "url": "https://www.wikidata.org/wiki/Q15862",
+            "value": 0.5779405832290649
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the sun goes down (thin lizzy) (Q202314) 3",
+            "url": "https://www.wikidata.org/wiki/Q202314",
+            "value": 0.576781690120697
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "ba i (Q806231) 3",
+            "url": "https://www.wikidata.org/wiki/Q806231",
+            "value": 0.5582030415534973
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the police (Q178095) 3",
+            "url": "https://www.wikidata.org/wiki/Q178095",
+            "value": 0.5570448040962219
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "christopher french (musician) (Q127471) 4",
+            "url": "https://www.wikidata.org/wiki/Q127471",
+            "value": 0.999997615814209
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "emma roberts (Q228598) 4",
+            "url": "https://www.wikidata.org/wiki/Q228598",
+            "value": 0.9999972581863403
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "morning musume '16 (Q174291) 4",
+            "url": "https://www.wikidata.org/wiki/Q174291",
+            "value": 0.999996542930603
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "paul jonas (Q134233) 4",
+            "url": "https://www.wikidata.org/wiki/Q134233",
+            "value": 0.5567334294319153
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "nsync (Q154454) 4",
+            "url": "https://www.wikidata.org/wiki/Q154454",
+            "value": 0.534611165523529
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "joseph adam \"joe\" jonas (Q191088) 4",
+            "url": "https://www.wikidata.org/wiki/Q191088",
+            "value": 0.4820149838924408
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sam lutfi (Q11975) 4",
+            "url": "https://www.wikidata.org/wiki/Q11975",
+            "value": 0.4755936861038208
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "kevin jonas bio (Q210172) 4",
+            "url": "https://www.wikidata.org/wiki/Q210172",
+            "value": 0.4593629837036133
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lukasz gottwald (Q350588) 4",
+            "url": "https://www.wikidata.org/wiki/Q350588",
+            "value": 0.4179834723472595
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "donny osmand (Q386053) 4",
+            "url": "https://www.wikidata.org/wiki/Q386053",
+            "value": 0.408843070268631
+        }
+    ],
+    "title": "[E] tpop (Q739138), [R] artists+ (40), [E] pop rock (Q484641), [R] artists+ (40), conjunction"
+}

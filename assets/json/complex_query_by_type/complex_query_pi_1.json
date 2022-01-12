@@ -1,0 +1,957 @@
+{
+    "edges": [
+        {
+            "source": "un/locode:uscae (Q38453) 0",
+            "target": "healthcare in south carolina (Q1456) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "un/locode:uscae (Q38453) 0",
+            "target": "lexington county, sc (Q502411) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "university of south carolina columbia (Q1024426) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "the university of clemson (Q631066) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "furman academy and theological institution (Q1475020) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "the florida keys, florida (Q537749) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "marquette, mi msa (Q498155) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "bethesda, us-md (Q584451) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "fairbanks, al (Q79638) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1",
+            "target": "new laguardia airport (Q319654) 2",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "university of south carolina columbia (Q1024426) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "the university of clemson (Q631066) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "furman academy and theological institution (Q1475020) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "the florida keys, florida (Q537749) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "marquette, mi msa (Q498155) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "bethesda, us-md (Q584451) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "fairbanks, al (Q79638) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "lexington county, sc (Q502411) 1",
+            "target": "new laguardia airport (Q319654) 2",
+            "value": 0.00608248816246193
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.009999913945796024
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.009999913945796024
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.009999913945796024
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.009999913945796024
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.009999913945796024
+        },
+        {
+            "source": "the university of clemson (Q631066) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "the university of clemson (Q631066) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "the university of clemson (Q631066) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "the university of clemson (Q631066) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "the university of clemson (Q631066) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.009999910369517417
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.00999976016581594
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.00999976016581594
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.00999976016581594
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.00999976016581594
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.00999976016581594
+        },
+        {
+            "source": "the florida keys, florida (Q537749) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.003500577133136007
+        },
+        {
+            "source": "the florida keys, florida (Q537749) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.003500577133136007
+        },
+        {
+            "source": "the florida keys, florida (Q537749) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.003500577133136007
+        },
+        {
+            "source": "the florida keys, florida (Q537749) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.003500577133136007
+        },
+        {
+            "source": "the florida keys, florida (Q537749) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.003500577133136007
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0027817171190295253
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0027817171190295253
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0027817171190295253
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0027817171190295253
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0027817171190295253
+        },
+        {
+            "source": "bethesda, us-md (Q584451) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0026012130990353266
+        },
+        {
+            "source": "bethesda, us-md (Q584451) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0026012130990353266
+        },
+        {
+            "source": "bethesda, us-md (Q584451) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0026012130990353266
+        },
+        {
+            "source": "bethesda, us-md (Q584451) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0026012130990353266
+        },
+        {
+            "source": "bethesda, us-md (Q584451) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0026012130990353266
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.002566819133606124
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.002566819133606124
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.002566819133606124
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.002566819133606124
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.002566819133606124
+        },
+        {
+            "source": "fairbanks, al (Q79638) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0024777769488593115
+        },
+        {
+            "source": "fairbanks, al (Q79638) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0024777769488593115
+        },
+        {
+            "source": "fairbanks, al (Q79638) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0024777769488593115
+        },
+        {
+            "source": "fairbanks, al (Q79638) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0024777769488593115
+        },
+        {
+            "source": "fairbanks, al (Q79638) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0024777769488593115
+        },
+        {
+            "source": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0023234807925638368
+        },
+        {
+            "source": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0023234807925638368
+        },
+        {
+            "source": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0023234807925638368
+        },
+        {
+            "source": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0023234807925638368
+        },
+        {
+            "source": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0023234807925638368
+        },
+        {
+            "source": "new laguardia airport (Q319654) 2",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.00230234126070869
+        },
+        {
+            "source": "new laguardia airport (Q319654) 2",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.00230234126070869
+        },
+        {
+            "source": "new laguardia airport (Q319654) 2",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.00230234126070869
+        },
+        {
+            "source": "new laguardia airport (Q319654) 2",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.00230234126070869
+        },
+        {
+            "source": "new laguardia airport (Q319654) 2",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.00230234126070869
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "the university of clemson (Q631066) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "furman academy and theological institution (Q1475020) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "university of south carolina columbia (Q1024426) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "marquette, mi msa (Q498155) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "parlor city (Q213814) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "green bay, wi. (Q47430) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "rochester, minn. (Q486479) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3",
+            "target": "atlantic city beach (Q139564) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the university of clemson (Q631066) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.009999992623925369
+        },
+        {
+            "source": "the university of clemson (Q631066) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.009999992623925369
+        },
+        {
+            "source": "the university of clemson (Q631066) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.009999992623925369
+        },
+        {
+            "source": "the university of clemson (Q631066) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.009999992623925369
+        },
+        {
+            "source": "the university of clemson (Q631066) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.009999992623925369
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "furman academy and theological institution (Q1475020) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "university of south carolina columbia (Q1024426) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.00431022515199575
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.00431022515199575
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.00431022515199575
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.00431022515199575
+        },
+        {
+            "source": "marquette, mi msa (Q498155) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.00431022515199575
+        },
+        {
+            "source": "parlor city (Q213814) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0037397386787890174
+        },
+        {
+            "source": "parlor city (Q213814) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0037397386787890174
+        },
+        {
+            "source": "parlor city (Q213814) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0037397386787890174
+        },
+        {
+            "source": "parlor city (Q213814) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0037397386787890174
+        },
+        {
+            "source": "parlor city (Q213814) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0037397386787890174
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0035877411755679267
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0035877411755679267
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0035877411755679267
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0035877411755679267
+        },
+        {
+            "source": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0035877411755679267
+        },
+        {
+            "source": "green bay, wi. (Q47430) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0035406633420140277
+        },
+        {
+            "source": "green bay, wi. (Q47430) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0035406633420140277
+        },
+        {
+            "source": "green bay, wi. (Q47430) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0035406633420140277
+        },
+        {
+            "source": "green bay, wi. (Q47430) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0035406633420140277
+        },
+        {
+            "source": "green bay, wi. (Q47430) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0035406633420140277
+        },
+        {
+            "source": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0035073801091153878
+        },
+        {
+            "source": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0035073801091153878
+        },
+        {
+            "source": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0035073801091153878
+        },
+        {
+            "source": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0035073801091153878
+        },
+        {
+            "source": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0035073801091153878
+        },
+        {
+            "source": "rochester, minn. (Q486479) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0034335314460054445
+        },
+        {
+            "source": "rochester, minn. (Q486479) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0034335314460054445
+        },
+        {
+            "source": "rochester, minn. (Q486479) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0034335314460054445
+        },
+        {
+            "source": "rochester, minn. (Q486479) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0034335314460054445
+        },
+        {
+            "source": "rochester, minn. (Q486479) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0034335314460054445
+        },
+        {
+            "source": "atlantic city beach (Q139564) 4",
+            "target": "the university of clemson (Q631066) 5",
+            "value": 0.0033860873419175874
+        },
+        {
+            "source": "atlantic city beach (Q139564) 4",
+            "target": "university of south carolina columbia (Q1024426) 5",
+            "value": 0.0033860873419175874
+        },
+        {
+            "source": "atlantic city beach (Q139564) 4",
+            "target": "furman academy and theological institution (Q1475020) 5",
+            "value": 0.0033860873419175874
+        },
+        {
+            "source": "atlantic city beach (Q139564) 4",
+            "target": "marquette, mi msa (Q498155) 5",
+            "value": 0.0033860873419175874
+        },
+        {
+            "source": "atlantic city beach (Q139564) 4",
+            "target": "the florida keys, florida (Q537749) 5",
+            "value": 0.0033860873419175874
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "un/locode:uscae (Q38453) 0",
+            "url": "https://www.wikidata.org/wiki/Q38453",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "healthcare in south carolina (Q1456) 1",
+            "url": "https://www.wikidata.org/wiki/Q1456",
+            "value": 0.9999972581863403
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lexington county, sc (Q502411) 1",
+            "url": "https://www.wikidata.org/wiki/Q502411",
+            "value": 0.6082488298416138
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university of south carolina columbia (Q1024426) 2",
+            "url": "https://www.wikidata.org/wiki/Q1024426",
+            "value": 0.9999914169311523
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the university of clemson (Q631066) 2",
+            "url": "https://www.wikidata.org/wiki/Q631066",
+            "value": 0.9999910593032837
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "furman academy and theological institution (Q1475020) 2",
+            "url": "https://www.wikidata.org/wiki/Q1475020",
+            "value": 0.9999760389328003
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the florida keys, florida (Q537749) 2",
+            "url": "https://www.wikidata.org/wiki/Q537749",
+            "value": 0.3500577211380005
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "marquette, mi msa (Q498155) 2",
+            "url": "https://www.wikidata.org/wiki/Q498155",
+            "value": 0.27817171812057495
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "bethesda, us-md (Q584451) 2",
+            "url": "https://www.wikidata.org/wiki/Q584451",
+            "value": 0.26012131571769714
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "passaic-clifton orthodox jewish community (Q170433) 2",
+            "url": "https://www.wikidata.org/wiki/Q170433",
+            "value": 0.2566819190979004
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fairbanks, al (Q79638) 2",
+            "url": "https://www.wikidata.org/wiki/Q79638",
+            "value": 0.24777770042419434
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "johnstown, pennsylvania metropolitan area (Q1070763) 2",
+            "url": "https://www.wikidata.org/wiki/Q1070763",
+            "value": 0.23234808444976807
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "new laguardia airport (Q319654) 2",
+            "url": "https://www.wikidata.org/wiki/Q319654",
+            "value": 0.23023413121700287
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "healthcare in south carolina (Q1456) 3",
+            "url": "https://www.wikidata.org/wiki/Q1456",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the university of clemson (Q631066) 4",
+            "url": "https://www.wikidata.org/wiki/Q631066",
+            "value": 0.9999992847442627
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "furman academy and theological institution (Q1475020) 4",
+            "url": "https://www.wikidata.org/wiki/Q1475020",
+            "value": 0.999998927116394
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university of south carolina columbia (Q1024426) 4",
+            "url": "https://www.wikidata.org/wiki/Q1024426",
+            "value": 0.9999986886978149
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "marquette, mi msa (Q498155) 4",
+            "url": "https://www.wikidata.org/wiki/Q498155",
+            "value": 0.4310225248336792
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "parlor city (Q213814) 4",
+            "url": "https://www.wikidata.org/wiki/Q213814",
+            "value": 0.37397387623786926
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "passaic-clifton orthodox jewish community (Q170433) 4",
+            "url": "https://www.wikidata.org/wiki/Q170433",
+            "value": 0.3587741255760193
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "green bay, wi. (Q47430) 4",
+            "url": "https://www.wikidata.org/wiki/Q47430",
+            "value": 0.3540663421154022
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "pauline, glenn-springs, south carolina (Q507488) 4",
+            "url": "https://www.wikidata.org/wiki/Q507488",
+            "value": 0.3507380187511444
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rochester, minn. (Q486479) 4",
+            "url": "https://www.wikidata.org/wiki/Q486479",
+            "value": 0.34335315227508545
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "atlantic city beach (Q139564) 4",
+            "url": "https://www.wikidata.org/wiki/Q139564",
+            "value": 0.3386087417602539
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the university of clemson (Q631066) 5",
+            "url": "https://www.wikidata.org/wiki/Q631066",
+            "value": 0.9999903440475464
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university of south carolina columbia (Q1024426) 5",
+            "url": "https://www.wikidata.org/wiki/Q1024426",
+            "value": 0.9999901056289673
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "furman academy and theological institution (Q1475020) 5",
+            "url": "https://www.wikidata.org/wiki/Q1475020",
+            "value": 0.9999749660491943
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "marquette, mi msa (Q498155) 5",
+            "url": "https://www.wikidata.org/wiki/Q498155",
+            "value": 0.11989827454090118
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the florida keys, florida (Q537749) 5",
+            "url": "https://www.wikidata.org/wiki/Q537749",
+            "value": 0.11750097572803497
+        }
+    ],
+    "title": "[E] un/locode:uscae (Q38453), [R] administrative division+ (388), [R] contains+ (30), [E] healthcare in south carolina (Q1456), [R] contains+ (30), conjunction"
+}

@@ -1,0 +1,1427 @@
+{
+    "edges": [
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "ghost writer (Q157879) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "unknown (2011 film) (Q158759) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "valkyrie (movie) (Q159054) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "germany in autumn (Q664532) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "good (film) (Q2601102) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "speed racer(movie) (Q312078) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "das boot versions (Q62730) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "the constant gardener (film) (Q645168) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "in bruge (Q244931) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "state of berlin (Q64) 0",
+            "target": "never say never again (film) (Q180279) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "ghost writer (Q157879) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "unknown (2011 film) (Q158759) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "valkyrie (movie) (Q159054) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "germany in autumn (Q664532) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.004391034445366981
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "good (film) (Q2601102) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.004361692569516018
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "speed racer(movie) (Q312078) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.004235764349197646
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "das boot versions (Q62730) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.004031210749643799
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "the constant gardener (film) (Q645168) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.00396980425782939
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "in bruge (Q244931) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0038977187000724944
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "never say never again (film) (Q180279) 1",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0037637280576587884
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "the livesof others (Q153882) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "next best thing (Q1247216) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "city of angels (film) (Q168010) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "peter smith kingsley (Q390052) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "amelia (2009 film) (Q461447) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "mansfield park (film) (Q291180) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "jack reacher (film) (Q590252) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "the philosophy of time travel (book) (Q426828) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "never say never again (film) (Q180279) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "gabriel yared (Q502957) 2",
+            "target": "breaking and entering (film) (Q241391) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "the livesof others (Q153882) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "next best thing (Q1247216) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "city of angels (film) (Q168010) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "peter smith kingsley (Q390052) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0044559316831246365
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "amelia (2009 film) (Q461447) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.004334348343290051
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "mansfield park (film) (Q291180) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0021575645620175166
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "jack reacher (film) (Q590252) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0020727957321823587
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "the philosophy of time travel (book) (Q426828) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0019119396378411424
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "never say never again (film) (Q180279) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0018565205814722041
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "the livesof others (Q153882) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "unknown (2011 film) (Q158759) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "valkyrie (movie) (Q159054) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "amelia (2009 film) (Q461447) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "peter smith kingsley (Q390052) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "good (film) (Q2601102) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "germany in autumn (Q664532) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "speed racer(movie) (Q312078) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "never say never again (film) (Q180279) 4",
+            "value": 0.0017922052340461625
+        },
+        {
+            "source": "breaking and entering (film) (Q241391) 3",
+            "target": "the constant gardener (film) (Q645168) 4",
+            "value": 0.0017922052340461625
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "state of berlin (Q64) 0",
+            "url": "https://www.wikidata.org/wiki/Q64",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ghost writer (Q157879) 1",
+            "url": "https://www.wikidata.org/wiki/Q157879",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "unknown (2011 film) (Q158759) 1",
+            "url": "https://www.wikidata.org/wiki/Q158759",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "valkyrie (movie) (Q159054) 1",
+            "url": "https://www.wikidata.org/wiki/Q159054",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "germany in autumn (Q664532) 1",
+            "url": "https://www.wikidata.org/wiki/Q664532",
+            "value": 0.43910345435142517
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "good (film) (Q2601102) 1",
+            "url": "https://www.wikidata.org/wiki/Q2601102",
+            "value": 0.43616926670074463
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "speed racer(movie) (Q312078) 1",
+            "url": "https://www.wikidata.org/wiki/Q312078",
+            "value": 0.4235764443874359
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "das boot versions (Q62730) 1",
+            "url": "https://www.wikidata.org/wiki/Q62730",
+            "value": 0.40312108397483826
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the constant gardener (film) (Q645168) 1",
+            "url": "https://www.wikidata.org/wiki/Q645168",
+            "value": 0.3969804346561432
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "in bruge (Q244931) 1",
+            "url": "https://www.wikidata.org/wiki/Q244931",
+            "value": 0.38977187871932983
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "never say never again (film) (Q180279) 1",
+            "url": "https://www.wikidata.org/wiki/Q180279",
+            "value": 0.3763728141784668
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "gabriel yared (Q502957) 2",
+            "url": "https://www.wikidata.org/wiki/Q502957",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the livesof others (Q153882) 3",
+            "url": "https://www.wikidata.org/wiki/Q153882",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "next best thing (Q1247216) 3",
+            "url": "https://www.wikidata.org/wiki/Q1247216",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "city of angels (film) (Q168010) 3",
+            "url": "https://www.wikidata.org/wiki/Q168010",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "peter smith kingsley (Q390052) 3",
+            "url": "https://www.wikidata.org/wiki/Q390052",
+            "value": 0.4455931782722473
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "amelia (2009 film) (Q461447) 3",
+            "url": "https://www.wikidata.org/wiki/Q461447",
+            "value": 0.4334348440170288
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mansfield park (film) (Q291180) 3",
+            "url": "https://www.wikidata.org/wiki/Q291180",
+            "value": 0.21575646102428436
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jack reacher (film) (Q590252) 3",
+            "url": "https://www.wikidata.org/wiki/Q590252",
+            "value": 0.20727957785129547
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the philosophy of time travel (book) (Q426828) 3",
+            "url": "https://www.wikidata.org/wiki/Q426828",
+            "value": 0.19119396805763245
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "never say never again (film) (Q180279) 3",
+            "url": "https://www.wikidata.org/wiki/Q180279",
+            "value": 0.18565206229686737
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "breaking and entering (film) (Q241391) 3",
+            "url": "https://www.wikidata.org/wiki/Q241391",
+            "value": 0.1792205274105072
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the livesof others (Q153882) 4",
+            "url": "https://www.wikidata.org/wiki/Q153882",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "unknown (2011 film) (Q158759) 4",
+            "url": "https://www.wikidata.org/wiki/Q158759",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "valkyrie (movie) (Q159054) 4",
+            "url": "https://www.wikidata.org/wiki/Q159054",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "amelia (2009 film) (Q461447) 4",
+            "url": "https://www.wikidata.org/wiki/Q461447",
+            "value": 0.5475147366523743
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "peter smith kingsley (Q390052) 4",
+            "url": "https://www.wikidata.org/wiki/Q390052",
+            "value": 0.5470517873764038
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "good (film) (Q2601102) 4",
+            "url": "https://www.wikidata.org/wiki/Q2601102",
+            "value": 0.5172097086906433
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "germany in autumn (Q664532) 4",
+            "url": "https://www.wikidata.org/wiki/Q664532",
+            "value": 0.5038480758666992
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "speed racer(movie) (Q312078) 4",
+            "url": "https://www.wikidata.org/wiki/Q312078",
+            "value": 0.4933405816555023
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "never say never again (film) (Q180279) 4",
+            "url": "https://www.wikidata.org/wiki/Q180279",
+            "value": 0.4921504855155945
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the constant gardener (film) (Q645168) 4",
+            "url": "https://www.wikidata.org/wiki/Q645168",
+            "value": 0.47502079606056213
+        }
+    ],
+    "title": "[E] state of berlin (Q64), [R] featured film locations- (213), [E] gabriel yared (Q502957), [R] music- (233), disjunction"
+}

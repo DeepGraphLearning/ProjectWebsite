@@ -1,0 +1,1299 @@
+{
+    "edges": [
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "yahood (Q7325) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "cymry (Q188353) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "/m/02ctzb 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "german peoples (Q42884) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "/m/02rbdlq 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "british natives (Q7994501) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "english/anglo-saxons (Q42406) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harold pinter, ch, cbe (Q41042) 0",
+            "target": "the poles (Q1026) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.009999742284422908
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "yahood (Q7325) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.009999592080721431
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "cymry (Q188353) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.003366298004248036
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.0026838713284461635
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "german peoples (Q42884) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.002645741045942729
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "/m/02rbdlq 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.002606534005555494
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "british natives (Q7994501) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.0024358766726580994
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "english/anglo-saxons (Q42406) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.002348587013440123
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "english vernacular (Q1860) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "russkiy yazyk (Q7737) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "history of hebrew (Q9288) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "engvara spelling (Q7976) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "hungarian (language) (Q9067) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "arabic language (Q13955) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "revitalization of welsh (Q9309) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "latin (language) (Q397) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "spanyol nyelv (Q1321) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "the poles (Q1026) 1",
+            "target": "history of the polish language (Q809) 2",
+            "value": 0.002310182698588459
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "english vernacular (Q1860) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.009944276587420475
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "russkiy yazyk (Q7737) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.009908254521155624
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "history of hebrew (Q9288) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.009902804272559185
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "engvara spelling (Q7976) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.0024814836126234308
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "hungarian (language) (Q9067) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.002076743198705988
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "arabic language (Q13955) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.0020369186542126827
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "revitalization of welsh (Q9309) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.002007429107857589
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "latin (language) (Q397) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.0019087427427900705
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.0018211827765140798
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "nbc today show (Q130838) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "abc after school special (Q3600481) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "dancing with the stars:juniors (Q2674710) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "scarlett (tv miniseries) (Q1520271) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "tom&jerry (Q131144) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "lieutenant thomas peacock (Q208048) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "search for tomorrow (Q588602) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "/m/06r4f 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "nurse jackie (Q23614) 3",
+            "value": 0.0018018063500119808
+        },
+        {
+            "source": "history of the polish language (Q809) 2",
+            "target": "rome (tv series) production (Q209878) 3",
+            "value": 0.0018018063500119808
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "harold pinter, ch, cbe (Q41042) 0",
+            "url": "https://www.wikidata.org/wiki/Q41042",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1",
+            "url": "https://www.wikidata.org/wiki/Q34069",
+            "value": 0.999974250793457
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "yahood (Q7325) 1",
+            "url": "https://www.wikidata.org/wiki/Q7325",
+            "value": 0.9999592304229736
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "cymry (Q188353) 1",
+            "url": "https://www.wikidata.org/wiki/Q188353",
+            "value": 0.33662980794906616
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/02ctzb 1",
+            "value": 0.2683871388435364
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "german peoples (Q42884) 1",
+            "url": "https://www.wikidata.org/wiki/Q42884",
+            "value": 0.2645741105079651
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/02rbdlq 1",
+            "value": 0.26065340638160706
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "british natives (Q7994501) 1",
+            "url": "https://www.wikidata.org/wiki/Q7994501",
+            "value": 0.2435876727104187
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "english/anglo-saxons (Q42406) 1",
+            "url": "https://www.wikidata.org/wiki/Q42406",
+            "value": 0.2348587065935135
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the poles (Q1026) 1",
+            "url": "https://www.wikidata.org/wiki/Q1026",
+            "value": 0.2310182750225067
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "english vernacular (Q1860) 2",
+            "url": "https://www.wikidata.org/wiki/Q1860",
+            "value": 0.9944276809692383
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "russkiy yazyk (Q7737) 2",
+            "url": "https://www.wikidata.org/wiki/Q7737",
+            "value": 0.9908254742622375
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of hebrew (Q9288) 2",
+            "url": "https://www.wikidata.org/wiki/Q9288",
+            "value": 0.9902804493904114
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "engvara spelling (Q7976) 2",
+            "url": "https://www.wikidata.org/wiki/Q7976",
+            "value": 0.2481483668088913
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hungarian (language) (Q9067) 2",
+            "url": "https://www.wikidata.org/wiki/Q9067",
+            "value": 0.2076743245124817
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "arabic language (Q13955) 2",
+            "url": "https://www.wikidata.org/wiki/Q13955",
+            "value": 0.20369186997413635
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "revitalization of welsh (Q9309) 2",
+            "url": "https://www.wikidata.org/wiki/Q9309",
+            "value": 0.2007429152727127
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "latin (language) (Q397) 2",
+            "url": "https://www.wikidata.org/wiki/Q397",
+            "value": 0.19087427854537964
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "spanyol nyelv (Q1321) 2",
+            "url": "https://www.wikidata.org/wiki/Q1321",
+            "value": 0.1821182817220688
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "history of the polish language (Q809) 2",
+            "url": "https://www.wikidata.org/wiki/Q809",
+            "value": 0.1801806390285492
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "nbc today show (Q130838) 3",
+            "url": "https://www.wikidata.org/wiki/Q130838",
+            "value": 0.9980223178863525
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "abc after school special (Q3600481) 3",
+            "url": "https://www.wikidata.org/wiki/Q3600481",
+            "value": 0.9975301623344421
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dancing with the stars:juniors (Q2674710) 3",
+            "url": "https://www.wikidata.org/wiki/Q2674710",
+            "value": 0.9973076581954956
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "scarlett (tv miniseries) (Q1520271) 3",
+            "url": "https://www.wikidata.org/wiki/Q1520271",
+            "value": 0.294356107711792
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "tom&jerry (Q131144) 3",
+            "url": "https://www.wikidata.org/wiki/Q131144",
+            "value": 0.29169943928718567
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lieutenant thomas peacock (Q208048) 3",
+            "url": "https://www.wikidata.org/wiki/Q208048",
+            "value": 0.2879236936569214
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "search for tomorrow (Q588602) 3",
+            "url": "https://www.wikidata.org/wiki/Q588602",
+            "value": 0.286296546459198
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/06r4f 3",
+            "value": 0.27847006916999817
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "nurse jackie (Q23614) 3",
+            "url": "https://www.wikidata.org/wiki/Q23614",
+            "value": 0.27833208441734314
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "rome (tv series) production (Q209878) 3",
+            "url": "https://www.wikidata.org/wiki/Q209878",
+            "value": 0.27636271715164185
+        }
+    ],
+    "title": "[E] harold pinter, ch, cbe (Q41042), [R] people- (143), [R] languages spoken+ (428), [R] languages- (103)"
+}

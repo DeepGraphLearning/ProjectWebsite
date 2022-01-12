@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "paris time (Q25989) 0 [rank = 1]",
+            "target": "state of berlin (Q64) 1 [rank = 1257]",
+            "value": 0.5
+        },
+        {
+            "source": "state of berlin (Q64) 1 [rank = 1257]",
+            "target": "state of berlin (Q64) 4 [rank = 1298]",
+            "value": 0.5
+        },
+        {
+            "source": "emilia\u2011romagna (Q1263) 2 [rank = 1]",
+            "target": "parma (Q2683) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "parma (Q2683) 3 [rank = 1]",
+            "target": "state of berlin (Q64) 4 [rank = 1298]",
+            "value": 0.5
+        },
+        {
+            "source": "state of berlin (Q64) 4 [rank = 1298]",
+            "target": "united germany (Q43287) 5 [rank = 6]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "paris time (Q25989) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q25989",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "state of berlin (Q64) 1 [rank = 1257]",
+            "url": "https://www.wikidata.org/wiki/Q64",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "emilia\u2011romagna (Q1263) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1263",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "parma (Q2683) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2683",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "state of berlin (Q64) 4 [rank = 1298]",
+            "url": "https://www.wikidata.org/wiki/Q64",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "united germany (Q43287) 5 [rank = 6]",
+            "url": "https://www.wikidata.org/wiki/Q43287",
+            "value": 1
+        }
+    ],
+    "title": "[E] paris time (Q25989), [R] time zones- (309), [E] emilia\u2011romagna (Q1263), [R] contains+ (30), disjunction, [R] capital- (109)"
+}

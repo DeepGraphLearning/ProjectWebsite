@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: complex_query
-title: Complex Query
+title: Complex Query (Precision)
 path: "assets/json/complex_query"
 ---
 

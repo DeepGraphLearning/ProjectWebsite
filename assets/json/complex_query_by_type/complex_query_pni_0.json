@@ -1,0 +1,2621 @@
+{
+    "edges": [
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "/m/05zppz 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "weight control (Q12174) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "old-age (Q191089) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "anti-vegan (Q181138) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "vegitarianism (Q83364) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "tobacco use disorder (Q152100) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "/m/02ctzb 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "diabetus (Q12206) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "heavy drinker (Q15326) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "multiple myeloma (Q467635) 0",
+            "target": "femaleness (Q43445) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "/m/05zppz 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.009999973550439467
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "weight control (Q12174) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.009999629035600366
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "old-age (Q191089) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.009999516978870693
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "anti-vegan (Q181138) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.003080263963037788
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "vegitarianism (Q83364) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.003054308525004046
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "tobacco use disorder (Q152100) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.0030466093932104976
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "/m/02ctzb 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.0025236522587317456
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "diabetus (Q12206) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.0025029995478019207
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "heavy drinker (Q15326) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.0024541015374488773
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "lundendorff (Q58579) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "ryan kavanaugh (Q202945) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "stuart craig (Q979511) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "saint augustine of hippo (Q8018) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "adam, ken (Q63997) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "mathavan (Q729982) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "stormare (Q295148) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "george bernard shaw (Q19185) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "fred tatasciore (Q847133) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "femaleness (Q43445) 1",
+            "target": "vilijam friedkin (Q51582) 2",
+            "value": 0.002445491646703518
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "lundendorff (Q58579) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.009987408295555222
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "ryan kavanaugh (Q202945) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.009986239448497303
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "stuart craig (Q979511) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.00998343445397687
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "saint augustine of hippo (Q8018) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.0054202185849796525
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "adam, ken (Q63997) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.0050819664057649705
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "mathavan (Q729982) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.005067797785972106
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "stormare (Q295148) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.005057855731445793
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "george bernard shaw (Q19185) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.005048595554040469
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "fred tatasciore (Q847133) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.0050324891872892685
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "/m/03xq0f 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "department of housing and urban development (Q811595) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "hayden pantierre (Q171571) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "antwone fisher (film) (Q610339) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "application developer (Q5482740) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "m.v.o. (Q94050) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "james fallon (Q335680) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "/m/09f5rr 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "/m/027dcbn 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "vilijam friedkin (Q51582) 2",
+            "target": "john clayton iii (Q170241) 3",
+            "value": 0.0050117396188138486
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "/m/03xq0f 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.009934983031414824
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.009931978361338856
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "hayden pantierre (Q171571) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.009905854838210604
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "antwone fisher (film) (Q610339) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.005872703659399514
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "application developer (Q5482740) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.005537212963315552
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "m.v.o. (Q94050) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.003691252983556992
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "james fallon (Q335680) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.0031150519151601497
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/09f5rr 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/027dcbn 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "john clayton iii (Q170241) 3",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.003085188796702276
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "edward john izzard (Q254022) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "james david graham niven (Q181917) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "julie frances christie (Q181413) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "newton (Q935) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "prince charles, wales (Q43274) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "anthony b. richmond (Q572838) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "list of awards and nominations for tom hardy (Q208026) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "queen elizabeth ii of new zealand (Q9682) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "joely kim richardson (Q234131) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d7wh 4",
+            "target": "norman foster, baron foster of thames bank (Q104898) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "edward john izzard (Q254022) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "james david graham niven (Q181917) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "julie frances christie (Q181413) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.009999989047646762
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "newton (Q935) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.005069023257441296
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "prince charles, wales (Q43274) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.004894657919675305
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "anthony b. richmond (Q572838) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.004817116152857626
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "list of awards and nominations for tom hardy (Q208026) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.004815055620333797
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "queen elizabeth ii of new zealand (Q9682) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.004750209642569503
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "joely kim richardson (Q234131) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.004651818767521854
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "siobhan margaret finneran (Q3485101) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "natasha richardson (Q212545) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "ms. emma thompson (Q168724) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "joely kim richardson (Q234131) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "queen elizabeth ii of new zealand (Q9682) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "claire forlani (Q40228) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "shirley ann russell (Q7498688) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "emily mortimer (Q230308) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "haley mills (Q237805) 6",
+            "value": 0.004631208971935308
+        },
+        {
+            "source": "norman foster, baron foster of thames bank (Q104898) 5",
+            "target": "jane horrocks (Q237178) 6",
+            "value": 0.004631208971935308
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "multiple myeloma (Q467635) 0",
+            "url": "https://www.wikidata.org/wiki/Q467635",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/05zppz 1",
+            "value": 0.9999973773956299
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "weight control (Q12174) 1",
+            "url": "https://www.wikidata.org/wiki/Q12174",
+            "value": 0.9999629259109497
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "old-age (Q191089) 1",
+            "url": "https://www.wikidata.org/wiki/Q191089",
+            "value": 0.9999517202377319
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "anti-vegan (Q181138) 1",
+            "url": "https://www.wikidata.org/wiki/Q181138",
+            "value": 0.30802640318870544
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "vegitarianism (Q83364) 1",
+            "url": "https://www.wikidata.org/wiki/Q83364",
+            "value": 0.3054308593273163
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tobacco use disorder (Q152100) 1",
+            "url": "https://www.wikidata.org/wiki/Q152100",
+            "value": 0.30466094613075256
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/02ctzb 1",
+            "value": 0.25236523151397705
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "diabetus (Q12206) 1",
+            "url": "https://www.wikidata.org/wiki/Q12206",
+            "value": 0.25029996037483215
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "heavy drinker (Q15326) 1",
+            "url": "https://www.wikidata.org/wiki/Q15326",
+            "value": 0.24541015923023224
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "femaleness (Q43445) 1",
+            "url": "https://www.wikidata.org/wiki/Q43445",
+            "value": 0.24454917013645172
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "lundendorff (Q58579) 2",
+            "url": "https://www.wikidata.org/wiki/Q58579",
+            "value": 0.9987408518791199
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ryan kavanaugh (Q202945) 2",
+            "url": "https://www.wikidata.org/wiki/Q202945",
+            "value": 0.9986239671707153
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "stuart craig (Q979511) 2",
+            "url": "https://www.wikidata.org/wiki/Q979511",
+            "value": 0.9983434677124023
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "saint augustine of hippo (Q8018) 2",
+            "url": "https://www.wikidata.org/wiki/Q8018",
+            "value": 0.5420218706130981
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "adam, ken (Q63997) 2",
+            "url": "https://www.wikidata.org/wiki/Q63997",
+            "value": 0.5081966519355774
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "mathavan (Q729982) 2",
+            "url": "https://www.wikidata.org/wiki/Q729982",
+            "value": 0.5067797899246216
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "stormare (Q295148) 2",
+            "url": "https://www.wikidata.org/wiki/Q295148",
+            "value": 0.5057855844497681
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "george bernard shaw (Q19185) 2",
+            "url": "https://www.wikidata.org/wiki/Q19185",
+            "value": 0.5048595666885376
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "fred tatasciore (Q847133) 2",
+            "url": "https://www.wikidata.org/wiki/Q847133",
+            "value": 0.503248929977417
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "vilijam friedkin (Q51582) 2",
+            "url": "https://www.wikidata.org/wiki/Q51582",
+            "value": 0.5011739730834961
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/03xq0f 3",
+            "value": 0.9934983253479004
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "department of housing and urban development (Q811595) 3",
+            "url": "https://www.wikidata.org/wiki/Q811595",
+            "value": 0.9931978583335876
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hayden pantierre (Q171571) 3",
+            "url": "https://www.wikidata.org/wiki/Q171571",
+            "value": 0.9905855059623718
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "antwone fisher (film) (Q610339) 3",
+            "url": "https://www.wikidata.org/wiki/Q610339",
+            "value": 0.5872703790664673
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "application developer (Q5482740) 3",
+            "url": "https://www.wikidata.org/wiki/Q5482740",
+            "value": 0.5537213087081909
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "m.v.o. (Q94050) 3",
+            "url": "https://www.wikidata.org/wiki/Q94050",
+            "value": 0.3691253066062927
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "james fallon (Q335680) 3",
+            "url": "https://www.wikidata.org/wiki/Q335680",
+            "value": 0.31150519847869873
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/09f5rr 3",
+            "value": 0.3085188865661621
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/027dcbn 3",
+            "value": 0.3085188865661621
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "john clayton iii (Q170241) 3",
+            "url": "https://www.wikidata.org/wiki/Q170241",
+            "value": 0.3085188865661621
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0d7wh 4",
+            "value": 1.0
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "edward john izzard (Q254022) 5",
+            "url": "https://www.wikidata.org/wiki/Q254022",
+            "value": 0.9999991655349731
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "james david graham niven (Q181917) 5",
+            "url": "https://www.wikidata.org/wiki/Q181917",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "julie frances christie (Q181413) 5",
+            "url": "https://www.wikidata.org/wiki/Q181413",
+            "value": 0.999998927116394
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "newton (Q935) 5",
+            "url": "https://www.wikidata.org/wiki/Q935",
+            "value": 0.5069023370742798
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "prince charles, wales (Q43274) 5",
+            "url": "https://www.wikidata.org/wiki/Q43274",
+            "value": 0.4894658029079437
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "anthony b. richmond (Q572838) 5",
+            "url": "https://www.wikidata.org/wiki/Q572838",
+            "value": 0.48171162605285645
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "list of awards and nominations for tom hardy (Q208026) 5",
+            "url": "https://www.wikidata.org/wiki/Q208026",
+            "value": 0.4815055727958679
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "queen elizabeth ii of new zealand (Q9682) 5",
+            "url": "https://www.wikidata.org/wiki/Q9682",
+            "value": 0.47502097487449646
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "joely kim richardson (Q234131) 5",
+            "url": "https://www.wikidata.org/wiki/Q234131",
+            "value": 0.4651818871498108
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "norman foster, baron foster of thames bank (Q104898) 5",
+            "url": "https://www.wikidata.org/wiki/Q104898",
+            "value": 0.4631209075450897
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "siobhan margaret finneran (Q3485101) 6",
+            "url": "https://www.wikidata.org/wiki/Q3485101",
+            "value": 0.9723120927810669
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "natasha richardson (Q212545) 6",
+            "url": "https://www.wikidata.org/wiki/Q212545",
+            "value": 0.9693900346755981
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ms. emma thompson (Q168724) 6",
+            "url": "https://www.wikidata.org/wiki/Q168724",
+            "value": 0.9669160842895508
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "joely kim richardson (Q234131) 6",
+            "url": "https://www.wikidata.org/wiki/Q234131",
+            "value": 0.453479140996933
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "queen elizabeth ii of new zealand (Q9682) 6",
+            "url": "https://www.wikidata.org/wiki/Q9682",
+            "value": 0.4516395628452301
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "claire forlani (Q40228) 6",
+            "url": "https://www.wikidata.org/wiki/Q40228",
+            "value": 0.4392426311969757
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "shirley ann russell (Q7498688) 6",
+            "url": "https://www.wikidata.org/wiki/Q7498688",
+            "value": 0.41783300042152405
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "emily mortimer (Q230308) 6",
+            "url": "https://www.wikidata.org/wiki/Q230308",
+            "value": 0.41226017475128174
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "haley mills (Q237805) 6",
+            "url": "https://www.wikidata.org/wiki/Q237805",
+            "value": 0.40882429480552673
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jane horrocks (Q237178) 6",
+            "url": "https://www.wikidata.org/wiki/Q237178",
+            "value": 0.40642863512039185
+        }
+    ],
+    "title": "[E] multiple myeloma (Q467635), [R] risk factors+ (458), [R] gender- (87), negation, [E] /m/0d7wh, [R] people+ (142), conjunction"
+}

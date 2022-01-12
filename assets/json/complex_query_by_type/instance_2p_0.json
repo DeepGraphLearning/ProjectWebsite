@@ -1,0 +1,47 @@
+{
+    "edges": [
+        {
+            "source": "k2h2 (Q623336) 0 [rank = 1]",
+            "target": "filmfareawardbestsupportingactor (Q966068) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "filmfareawardbestsupportingactor (Q966068) 1 [rank = 1]",
+            "target": "the legend of kunal (Q442668) 2 [rank = 25]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "k2h2 (Q623336) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q623336",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "filmfareawardbestsupportingactor (Q966068) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q966068",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the legend of kunal (Q442668) 2 [rank = 25]",
+            "url": "https://www.wikidata.org/wiki/Q442668",
+            "value": 1
+        }
+    ],
+    "title": "[E] k2h2 (Q623336), [R] award+ (60), [R] award- (39)"
+}

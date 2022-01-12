@@ -1,0 +1,483 @@
+{
+    "edges": [
+        {
+            "source": "wimbledon f.c. (Q19482) 0",
+            "target": "outside forward (Q280658) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wimbledon f.c. (Q19482) 0",
+            "target": "leftwingback (Q336286) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wimbledon f.c. (Q19482) 0",
+            "target": "/m/0dgrmp 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "outside forward (Q280658) 1",
+            "target": "outside forward (Q280658) 4",
+            "value": 0.009998481050167651
+        },
+        {
+            "source": "outside forward (Q280658) 1",
+            "target": "leftwingback (Q336286) 4",
+            "value": 0.009998481050167651
+        },
+        {
+            "source": "outside forward (Q280658) 1",
+            "target": "/m/0dgrmp 4",
+            "value": 0.009998481050167651
+        },
+        {
+            "source": "leftwingback (Q336286) 1",
+            "target": "outside forward (Q280658) 4",
+            "value": 0.009998329654373306
+        },
+        {
+            "source": "leftwingback (Q336286) 1",
+            "target": "leftwingback (Q336286) 4",
+            "value": 0.009998329654373306
+        },
+        {
+            "source": "leftwingback (Q336286) 1",
+            "target": "/m/0dgrmp 4",
+            "value": 0.009998329654373306
+        },
+        {
+            "source": "/m/0dgrmp 1",
+            "target": "outside forward (Q280658) 4",
+            "value": 0.002811051246276841
+        },
+        {
+            "source": "/m/0dgrmp 1",
+            "target": "leftwingback (Q336286) 4",
+            "value": 0.002811051246276841
+        },
+        {
+            "source": "/m/0dgrmp 1",
+            "target": "/m/0dgrmp 4",
+            "value": 0.002811051246276841
+        },
+        {
+            "source": "deportivo cali (Q663400) 2",
+            "target": "/m/0dgrmp 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "deportivo cali (Q663400) 2",
+            "target": "right winger (football) (Q193592) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "deportivo cali (Q663400) 2",
+            "target": "outside forward (Q280658) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 3",
+            "target": "outside forward (Q280658) 4",
+            "value": 0.009999868646267007
+        },
+        {
+            "source": "/m/0dgrmp 3",
+            "target": "leftwingback (Q336286) 4",
+            "value": 0.009999868646267007
+        },
+        {
+            "source": "/m/0dgrmp 3",
+            "target": "/m/0dgrmp 4",
+            "value": 0.009999868646267007
+        },
+        {
+            "source": "right winger (football) (Q193592) 3",
+            "target": "outside forward (Q280658) 4",
+            "value": 0.009999694600708153
+        },
+        {
+            "source": "right winger (football) (Q193592) 3",
+            "target": "leftwingback (Q336286) 4",
+            "value": 0.009999694600708153
+        },
+        {
+            "source": "right winger (football) (Q193592) 3",
+            "target": "/m/0dgrmp 4",
+            "value": 0.009999694600708153
+        },
+        {
+            "source": "outside forward (Q280658) 3",
+            "target": "outside forward (Q280658) 4",
+            "value": 0.009999276176111183
+        },
+        {
+            "source": "outside forward (Q280658) 3",
+            "target": "leftwingback (Q336286) 4",
+            "value": 0.009999276176111183
+        },
+        {
+            "source": "outside forward (Q280658) 3",
+            "target": "/m/0dgrmp 4",
+            "value": 0.009999276176111183
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "fc raketa gorky (Q643083) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "rasenballsport leipzig (Q702455) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "hong kong national football team (Q242119) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "hnk hajduk (Q181216) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "/m/06zpgb2 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "granada club de f\u00fatbol (Q8812) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "southampton f.c. (Q18732) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "outside forward (Q280658) 4",
+            "target": "wigan athletic afc (Q18750) 5",
+            "value": 0.009997757449796252
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "fc raketa gorky (Q643083) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "rasenballsport leipzig (Q702455) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "hong kong national football team (Q242119) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "hnk hajduk (Q181216) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "/m/06zpgb2 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "granada club de f\u00fatbol (Q8812) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "southampton f.c. (Q18732) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "leftwingback (Q336286) 4",
+            "target": "wigan athletic afc (Q18750) 5",
+            "value": 0.00999677397317944
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "fc raketa gorky (Q643083) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "rasenballsport leipzig (Q702455) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "hong kong national football team (Q242119) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "hnk hajduk (Q181216) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "/m/06zpgb2 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "granada club de f\u00fatbol (Q8812) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "southampton f.c. (Q18732) 5",
+            "value": 0.0028110142913979064
+        },
+        {
+            "source": "/m/0dgrmp 4",
+            "target": "wigan athletic afc (Q18750) 5",
+            "value": 0.0028110142913979064
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wimbledon f.c. (Q19482) 0",
+            "url": "https://www.wikidata.org/wiki/Q19482",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "outside forward (Q280658) 1",
+            "url": "https://www.wikidata.org/wiki/Q280658",
+            "value": 0.9998481273651123
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "leftwingback (Q336286) 1",
+            "url": "https://www.wikidata.org/wiki/Q336286",
+            "value": 0.9998329877853394
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0dgrmp 1",
+            "value": 0.2811051309108734
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "deportivo cali (Q663400) 2",
+            "url": "https://www.wikidata.org/wiki/Q663400",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0dgrmp 3",
+            "value": 0.9999868869781494
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "right winger (football) (Q193592) 3",
+            "url": "https://www.wikidata.org/wiki/Q193592",
+            "value": 0.999969482421875
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "outside forward (Q280658) 3",
+            "url": "https://www.wikidata.org/wiki/Q280658",
+            "value": 0.9999276399612427
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "outside forward (Q280658) 4",
+            "url": "https://www.wikidata.org/wiki/Q280658",
+            "value": 0.999775767326355
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "leftwingback (Q336286) 4",
+            "url": "https://www.wikidata.org/wiki/Q336286",
+            "value": 0.9996774196624756
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0dgrmp 4",
+            "value": 0.28110143542289734
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hannoverscher sportverein von 1896 (Q33748) 5",
+            "url": "https://www.wikidata.org/wiki/Q33748",
+            "value": 0.9999547004699707
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fc raketa gorky (Q643083) 5",
+            "url": "https://www.wikidata.org/wiki/Q643083",
+            "value": 0.9998440742492676
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "rasenballsport leipzig (Q702455) 5",
+            "url": "https://www.wikidata.org/wiki/Q702455",
+            "value": 0.9997621178627014
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hong kong national football team (Q242119) 5",
+            "url": "https://www.wikidata.org/wiki/Q242119",
+            "value": 0.2915732264518738
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hnk hajduk (Q181216) 5",
+            "url": "https://www.wikidata.org/wiki/Q181216",
+            "value": 0.2807411253452301
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/06zpgb2 5",
+            "value": 0.27882638573646545
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "granada club de f\u00fatbol (Q8812) 5",
+            "url": "https://www.wikidata.org/wiki/Q8812",
+            "value": 0.2742464542388916
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "url": "https://www.wikidata.org/wiki/Q186262",
+            "value": 0.2644236981868744
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "southampton f.c. (Q18732) 5",
+            "url": "https://www.wikidata.org/wiki/Q18732",
+            "value": 0.2629191279411316
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "wigan athletic afc (Q18750) 5",
+            "url": "https://www.wikidata.org/wiki/Q18750",
+            "value": 0.25940218567848206
+        }
+    ],
+    "title": "[E] wimbledon f.c. (Q19482), [R] position+ (10), [E] deportivo cali (Q663400), [R] team- (261), conjunction, [R] position- (9)"
+}

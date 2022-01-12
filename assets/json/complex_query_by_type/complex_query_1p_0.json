@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "mattel (Q596139) 0",
+            "target": "english vernacular (Q1860) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mattel (Q596139) 0",
+            "target": "spanyol nyelv (Q1321) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mattel (Q596139) 0",
+            "target": "iso 639:zho (Q7850) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mattel (Q596139) 0",
+            "target": "russkiy yazyk (Q7737) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mattel (Q596139) 0",
+            "target": "franska (Q150) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mattel (Q596139) 0",
+            "target": "arabic language (Q13955) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mattel (Q596139) 0",
+            "url": "https://www.wikidata.org/wiki/Q596139",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "english vernacular (Q1860) 1",
+            "url": "https://www.wikidata.org/wiki/Q1860",
+            "value": 0.9999977350234985
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "spanyol nyelv (Q1321) 1",
+            "url": "https://www.wikidata.org/wiki/Q1321",
+            "value": 0.9999954700469971
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "iso 639:zho (Q7850) 1",
+            "url": "https://www.wikidata.org/wiki/Q7850",
+            "value": 0.14088541269302368
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "russkiy yazyk (Q7737) 1",
+            "url": "https://www.wikidata.org/wiki/Q7737",
+            "value": 0.12885817885398865
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "franska (Q150) 1",
+            "url": "https://www.wikidata.org/wiki/Q150",
+            "value": 0.12438930571079254
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "arabic language (Q13955) 1",
+            "url": "https://www.wikidata.org/wiki/Q13955",
+            "value": 0.11016751080751419
+        }
+    ],
+    "title": "[E] mattel (Q596139), [R] service language+ (396)"
+}

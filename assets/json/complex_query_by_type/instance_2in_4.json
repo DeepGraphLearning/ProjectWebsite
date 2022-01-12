@@ -1,0 +1,88 @@
+{
+    "edges": [
+        {
+            "source": "usofa (Q30) 0 [rank = 1]",
+            "target": "/m/09v3hq_ 1 [rank = 333]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/09v3hq_ 1 [rank = 333]",
+            "target": "/m/09v3hq_ 5 [rank = 272]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/08mbj5d 2 [rank = 1]",
+            "target": "cmu (Q190080) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "cmu (Q190080) 3 [rank = 1]",
+            "target": "/m/09v3hq_ 4 [rank = 561]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/09v3hq_ 4 [rank = 561]",
+            "target": "/m/09v3hq_ 5 [rank = 272]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/09v3hq_ 1 [rank = 333]",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08mbj5d 2 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cmu (Q190080) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q190080",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/09v3hq_ 4 [rank = 561]",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/09v3hq_ 5 [rank = 272]",
+            "value": 1
+        }
+    ],
+    "title": "[E] usofa (Q30), [R] country- (33), [E] /m/08mbj5d, [R] category- (51), negation, conjunction"
+}

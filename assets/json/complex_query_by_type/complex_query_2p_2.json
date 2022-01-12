@@ -1,0 +1,766 @@
+{
+    "edges": [
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "best supporting actress oscar (Q106301) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "Q1285983 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "prix d'interpretation feminine (Q840286) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "tony award for best actress in a play (Q185299) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "lyova haskell rosenthal (Q230184) 0",
+            "target": "bafta for best supporting actress (Q787123) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.00999992944300332
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.009999916329981762
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "best supporting actress oscar (Q106301) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.009999899640681598
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "Q1285983 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.004537864822047988
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "prix d'interpretation feminine (Q840286) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.003507960956365741
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.0029300236047054007
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.002827276822314928
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.0028072794644397603
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.0027334394440031162
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "catherine elise blanchett (Q80966) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "anna paquin filmography (Q199884) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "juliette binoche (Q106275) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "laura linney (Q223281) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "jessica phyllis lange (Q173585) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "sally m field (Q187033) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "helen miren (Q349391) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "jane fonda foundation (Q41142) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "mary louise streep (Q873) 2",
+            "value": 0.0026617282034070433
+        },
+        {
+            "source": "bafta for best supporting actress (Q787123) 1",
+            "target": "joanne woodward (Q1111542) 2",
+            "value": 0.0026617282034070433
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "lyova haskell rosenthal (Q230184) 0",
+            "url": "https://www.wikidata.org/wiki/Q230184",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "primetime emmy award for outstanding supporting actress \u2013 drama series (Q1285504) 1",
+            "url": "https://www.wikidata.org/wiki/Q1285504",
+            "value": 0.9999929666519165
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "primetime emmy award for outstanding lead actress - comedy series (Q1287335) 1",
+            "url": "https://www.wikidata.org/wiki/Q1287335",
+            "value": 0.9999916553497314
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "best supporting actress oscar (Q106301) 1",
+            "url": "https://www.wikidata.org/wiki/Q106301",
+            "value": 0.9999899864196777
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "Q1285983 1",
+            "value": 0.4537864923477173
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "prix d'interpretation feminine (Q840286) 1",
+            "url": "https://www.wikidata.org/wiki/Q840286",
+            "value": 0.350796103477478
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tony award for best actress in a play (Q185299) 1",
+            "url": "https://www.wikidata.org/wiki/Q185299",
+            "value": 0.2930023670196533
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tony award for best performance by a featured actress in a play (Q627778) 1",
+            "url": "https://www.wikidata.org/wiki/Q627778",
+            "value": 0.2827276885509491
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "screen actors guild award for outstanding female actor - miniseries or television film (Q2462064) 1",
+            "url": "https://www.wikidata.org/wiki/Q2462064",
+            "value": 0.28072795271873474
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "primetime emmy award for outstanding guest actress in a drama series (Q3062632) 1",
+            "url": "https://www.wikidata.org/wiki/Q3062632",
+            "value": 0.273343950510025
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "bafta for best supporting actress (Q787123) 1",
+            "url": "https://www.wikidata.org/wiki/Q787123",
+            "value": 0.2661728262901306
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "catherine elise blanchett (Q80966) 2",
+            "url": "https://www.wikidata.org/wiki/Q80966",
+            "value": 0.9958547949790955
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "anna paquin filmography (Q199884) 2",
+            "url": "https://www.wikidata.org/wiki/Q199884",
+            "value": 0.9957333207130432
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "juliette binoche (Q106275) 2",
+            "url": "https://www.wikidata.org/wiki/Q106275",
+            "value": 0.9952971339225769
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "laura linney (Q223281) 2",
+            "url": "https://www.wikidata.org/wiki/Q223281",
+            "value": 0.4354715943336487
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jessica phyllis lange (Q173585) 2",
+            "url": "https://www.wikidata.org/wiki/Q173585",
+            "value": 0.41590848565101624
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sally m field (Q187033) 2",
+            "url": "https://www.wikidata.org/wiki/Q187033",
+            "value": 0.407376766204834
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "helen miren (Q349391) 2",
+            "url": "https://www.wikidata.org/wiki/Q349391",
+            "value": 0.4061315357685089
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jane fonda foundation (Q41142) 2",
+            "url": "https://www.wikidata.org/wiki/Q41142",
+            "value": 0.39096134901046753
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mary louise streep (Q873) 2",
+            "url": "https://www.wikidata.org/wiki/Q873",
+            "value": 0.3802153766155243
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "joanne woodward (Q1111542) 2",
+            "url": "https://www.wikidata.org/wiki/Q1111542",
+            "value": 0.3790002763271332
+        }
+    ],
+    "title": "[E] lyova haskell rosenthal (Q230184), [R] award+ (38), [R] award winner+ (94)"
+}

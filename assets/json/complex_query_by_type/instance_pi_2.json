@@ -1,0 +1,91 @@
+{
+    "edges": [
+        {
+            "source": "cullum number (Q9219) 0 [rank = 1]",
+            "target": "/m/028rk 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/028rk 1 [rank = 1]",
+            "target": "usa space agency (Q23548) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "usa space agency (Q23548) 2 [rank = 1]",
+            "target": "usa space agency (Q23548) 5 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "buzz aldren (Q2252) 3 [rank = 1]",
+            "target": "usa space agency (Q23548) 4 [rank = 934]",
+            "value": 0.5
+        },
+        {
+            "source": "usa space agency (Q23548) 4 [rank = 934]",
+            "target": "usa space agency (Q23548) 5 [rank = 2]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cullum number (Q9219) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9219",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/028rk 1 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usa space agency (Q23548) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q23548",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "buzz aldren (Q2252) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2252",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "usa space agency (Q23548) 4 [rank = 934]",
+            "url": "https://www.wikidata.org/wiki/Q23548",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "usa space agency (Q23548) 5 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q23548",
+            "value": 1
+        }
+    ],
+    "title": "[E] cullum number (Q9219), [R] student+ (44), [R] organizations founded+ (452), [E] buzz aldren (Q2252), [R] company+ (318), conjunction"
+}

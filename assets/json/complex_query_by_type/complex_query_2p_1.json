@@ -1,0 +1,699 @@
+{
+    "edges": [
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "civilian engineering (Q77590) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "/m/019mlh 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "video game industry practices (Q941594) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "/m/01mw1 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "medium (Q340169) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "airline companies (Q46970) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "/m/0hz28 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "television rights (Q15078788) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "harland & wolff (Q848977) 0",
+            "target": "live entertainment (Q173799) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "civilian engineering (Q77590) 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.009999998584389713
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "/m/019mlh 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.009999979510903811
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "video game industry practices (Q941594) 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.00279955380857988
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "/m/01mw1 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.002713767825504365
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "medium (Q340169) 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.0021767152359325748
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "airline companies (Q46970) 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.0021338833391543466
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "/m/0hz28 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.0020506886679525216
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "television rights (Q15078788) 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.0020347652874566913
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "cullum number (Q9219) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "yale model united nations (Q49112) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "newcastle university spin-out companies (Q837164) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "umn.edu (Q238101) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "forrestal research center (Q21578) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "universitas brunensis (Q49114) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "edinburgh university conservative and unionist association (Q160302) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "ivory 503 (Q432637) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "rutgers, the state university of new jersey (Q499451) 2",
+            "value": 0.00197826872814591
+        },
+        {
+            "source": "live entertainment (Q173799) 1",
+            "target": "boston university's (Q49110) 2",
+            "value": 0.00197826872814591
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "harland & wolff (Q848977) 0",
+            "url": "https://www.wikidata.org/wiki/Q848977",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "civilian engineering (Q77590) 1",
+            "url": "https://www.wikidata.org/wiki/Q77590",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/019mlh 1",
+            "value": 0.9999979734420776
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "video game industry practices (Q941594) 1",
+            "url": "https://www.wikidata.org/wiki/Q941594",
+            "value": 0.2799553871154785
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/01mw1 1",
+            "value": 0.2713767886161804
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "medium (Q340169) 1",
+            "url": "https://www.wikidata.org/wiki/Q340169",
+            "value": 0.21767152845859528
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "airline companies (Q46970) 1",
+            "url": "https://www.wikidata.org/wiki/Q46970",
+            "value": 0.2133883386850357
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0hz28 1",
+            "value": 0.20506887137889862
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "television rights (Q15078788) 1",
+            "url": "https://www.wikidata.org/wiki/Q15078788",
+            "value": 0.20347653329372406
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "live entertainment (Q173799) 1",
+            "url": "https://www.wikidata.org/wiki/Q173799",
+            "value": 0.19782687723636627
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cullum number (Q9219) 2",
+            "url": "https://www.wikidata.org/wiki/Q9219",
+            "value": 0.996442973613739
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "yale model united nations (Q49112) 2",
+            "url": "https://www.wikidata.org/wiki/Q49112",
+            "value": 0.9957267045974731
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "newcastle university spin-out companies (Q837164) 2",
+            "url": "https://www.wikidata.org/wiki/Q837164",
+            "value": 0.9953621029853821
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "umn.edu (Q238101) 2",
+            "url": "https://www.wikidata.org/wiki/Q238101",
+            "value": 0.23725008964538574
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "forrestal research center (Q21578) 2",
+            "url": "https://www.wikidata.org/wiki/Q21578",
+            "value": 0.2371465563774109
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "universitas brunensis (Q49114) 2",
+            "url": "https://www.wikidata.org/wiki/Q49114",
+            "value": 0.23379889130592346
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "edinburgh university conservative and unionist association (Q160302) 2",
+            "url": "https://www.wikidata.org/wiki/Q160302",
+            "value": 0.23335060477256775
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "ivory 503 (Q432637) 2",
+            "url": "https://www.wikidata.org/wiki/Q432637",
+            "value": 0.2333468347787857
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rutgers, the state university of new jersey (Q499451) 2",
+            "url": "https://www.wikidata.org/wiki/Q499451",
+            "value": 0.2320490926504135
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "boston university's (Q49110) 2",
+            "url": "https://www.wikidata.org/wiki/Q49110",
+            "value": 0.22717200219631195
+        }
+    ],
+    "title": "[E] harland & wolff (Q848977), [R] industry+ (92), [R] major field of study- (203)"
+}

@@ -1,0 +1,137 @@
+{
+    "edges": [
+        {
+            "source": "dual layer (Q5294) 0 [rank = 1]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 1 [rank = 219]",
+            "value": 0.5
+        },
+        {
+            "source": "detective dee and the mystery of the phantom flame (Q2412823) 1 [rank = 219]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 4 [rank = 98]",
+            "value": 0.5
+        },
+        {
+            "source": "new zealand at the 2015 commonwealth youth games (Q664) 2 [rank = 1]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "detective dee and the mystery of the phantom flame (Q2412823) 3 [rank = 1]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 4 [rank = 98]",
+            "value": 0.5
+        },
+        {
+            "source": "detective dee and the mystery of the phantom flame (Q2412823) 4 [rank = 98]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 8 [rank = 44]",
+            "value": 0.5
+        },
+        {
+            "source": "english vernacular (Q1860) 5 [rank = 1]",
+            "target": "dangerous liaisons (Q830553) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "dangerous liaisons (Q830553) 6 [rank = 1]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 7 [rank = 45]",
+            "value": 0.5
+        },
+        {
+            "source": "detective dee and the mystery of the phantom flame (Q2412823) 7 [rank = 45]",
+            "target": "detective dee and the mystery of the phantom flame (Q2412823) 8 [rank = 44]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dual layer (Q5294) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q5294",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "detective dee and the mystery of the phantom flame (Q2412823) 1 [rank = 219]",
+            "url": "https://www.wikidata.org/wiki/Q2412823",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new zealand at the 2015 commonwealth youth games (Q664) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q664",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "detective dee and the mystery of the phantom flame (Q2412823) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2412823",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "detective dee and the mystery of the phantom flame (Q2412823) 4 [rank = 98]",
+            "url": "https://www.wikidata.org/wiki/Q2412823",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "english vernacular (Q1860) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1860",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dangerous liaisons (Q830553) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q830553",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "detective dee and the mystery of the phantom flame (Q2412823) 7 [rank = 45]",
+            "url": "https://www.wikidata.org/wiki/Q2412823",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "detective dee and the mystery of the phantom flame (Q2412823) 8 [rank = 44]",
+            "url": "https://www.wikidata.org/wiki/Q2412823",
+            "value": 1
+        }
+    ],
+    "title": "[E] dual layer (Q5294), [R] film release distribution medium- (23), [E] new zealand at the 2015 commonwealth youth games (Q664), [R] film release region- (27), conjunction, [E] english vernacular (Q1860), [R] language- (29), negation, conjunction"
+}

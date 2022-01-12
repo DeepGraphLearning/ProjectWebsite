@@ -1,0 +1,47 @@
+{
+    "edges": [
+        {
+            "source": "harland & wolff (Q848977) 0 [rank = 1]",
+            "target": "civilian engineering (Q77590) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "civilian engineering (Q77590) 1 [rank = 1]",
+            "target": "john c. conboy (Q168515) 2 [rank = 26]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "harland & wolff (Q848977) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q848977",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "civilian engineering (Q77590) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q77590",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "john c. conboy (Q168515) 2 [rank = 26]",
+            "url": "https://www.wikidata.org/wiki/Q168515",
+            "value": 1
+        }
+    ],
+    "title": "[E] harland & wolff (Q848977), [R] industry+ (92), [R] major field of study- (203)"
+}

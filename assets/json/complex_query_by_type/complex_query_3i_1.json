@@ -1,0 +1,2680 @@
+{
+    "edges": [
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "international film festival of berlin (Q130871) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "/m/0325pb 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "2011 toronto film festival (Q3950969) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "2010 sundance (Q1285856) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "/m/0kfhjq0 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "2009 berlin festival (Q572335) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "berlinale 2010 (Q574075) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "/m/04_m9gk 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "moco chinatown (Q327022) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/08mbj5d 0",
+            "target": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "international film festival of berlin (Q130871) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0325pb 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2011 toronto film festival (Q3950969) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "2010 sundance (Q1285856) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009832131046828674
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "/m/0kfhjq0 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009724279424750515
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "2009 berlin festival (Q572335) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.00959593155393157
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "berlinale 2010 (Q574075) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009558846736874127
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "/m/04_m9gk 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.00951158025462373
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "moco chinatown (Q327022) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.00906097987902954
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.00894029180093947
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "u new brunswick (Q1112515) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "macewan hall ballroom (Q1067471) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "craigdarroch residences (Q1458113) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "makeerere university (Q261506) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "the university of ghana (Q2303765) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "national & kapodistrian university of athens (Q547867) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "archibold alexander (Q909696) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "gmu press (Q1411222) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "uom (Q1364464) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "presidential (Q30461) 2",
+            "target": "university of texas at arlington department of military science (Q1230739) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "u new brunswick (Q1112515) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "macewan hall ballroom (Q1067471) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "craigdarroch residences (Q1458113) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "makeerere university (Q261506) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.0067195592808821925
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "the university of ghana (Q2303765) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.0065393064944601065
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "national & kapodistrian university of athens (Q547867) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.006439712499684558
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "archibold alexander (Q909696) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.0063729642397247765
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "gmu press (Q1411222) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.006345487691190366
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "uom (Q1364464) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.006341847635615294
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "u new brunswick (Q1112515) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "university college, dublin (Q1068258) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "st. mary magdalen college, oxford (Q81162) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "punjab university medical and dental college (Q1549932) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "university of singapore (Q738236) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "philipps-universitat marburg (Q155354) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "national university of ireland, cork (Q1574185) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "university of technology munich (Q157808) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "university of texas at arlington department of military science (Q1230739) 3",
+            "target": "gonzaga u (Q1537303) 4",
+            "value": 0.00633748219152952
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "u new brunswick (Q1112515) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.009999972358346598
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "university college, dublin (Q1068258) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.009999952092767828
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "st. mary magdalen college, oxford (Q81162) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.009999934211374795
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "punjab university medical and dental college (Q1549932) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.00763565940479205
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.007433611584448552
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "university of singapore (Q738236) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.007387035920015661
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "philipps-universitat marburg (Q155354) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.007361019685245607
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "national university of ireland, cork (Q1574185) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.00719197018760509
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "university of technology munich (Q157808) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.007026712141333991
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "gonzaga u (Q1537303) 4",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.006977633677922923
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "target com (Q1046951) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "rock and roll hall of fame museum (Q179191) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "new york art students league (Q705737) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "macalester scots men's basketball (Q1141571) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "/m/05nrkb 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "drexel university publications (Q603034) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "/m/0lwkh 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "winter park institute (Q2164222) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "/m/07gyp7 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 5",
+            "target": "delta airlines (Q188920) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "target com (Q1046951) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.009999922290446106
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "rock and roll hall of fame museum (Q179191) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.009999905601145942
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "new york art students league (Q705737) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.009999893680217253
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "macalester scots men's basketball (Q1141571) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004299999677389865
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "/m/05nrkb 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004222353304422943
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "drexel university publications (Q603034) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004216056967912829
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "/m/0lwkh 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004203587080458093
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "winter park institute (Q2164222) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004155890550705255
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "/m/07gyp7 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004136863556425341
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "villanova u (Q1466001) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "communication, culture & technology (Q333886) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "student sexuality information services (Q49119) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "university of san diego (Q262663) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "robert e. cook honors college (Q1661325) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "spelman seminary (Q7575916) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "pennsylvania college football (Q1520129) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "stn channel 2 (Q747053) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "butler university (Q1017974) 7",
+            "value": 0.004127096739550751
+        },
+        {
+            "source": "delta airlines (Q188920) 6",
+            "target": "cooper union school of the arts (Q130981) 7",
+            "value": 0.004127096739550751
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08mbj5d 0",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "international film festival of berlin (Q130871) 1",
+            "url": "https://www.wikidata.org/wiki/Q130871",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0325pb 1",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "2011 toronto film festival (Q3950969) 1",
+            "url": "https://www.wikidata.org/wiki/Q3950969",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "2010 sundance (Q1285856) 1",
+            "url": "https://www.wikidata.org/wiki/Q1285856",
+            "value": 0.9832131266593933
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0kfhjq0 1",
+            "value": 0.9724279642105103
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "2009 berlin festival (Q572335) 1",
+            "url": "https://www.wikidata.org/wiki/Q572335",
+            "value": 0.9595931768417358
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "berlinale 2010 (Q574075) 1",
+            "url": "https://www.wikidata.org/wiki/Q574075",
+            "value": 0.9558846950531006
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/04_m9gk 1",
+            "value": 0.9511580467224121
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "moco chinatown (Q327022) 1",
+            "url": "https://www.wikidata.org/wiki/Q327022",
+            "value": 0.9060980081558228
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "parkersburg, west virginia metropolitan area (Q329485) 1",
+            "url": "https://www.wikidata.org/wiki/Q329485",
+            "value": 0.8940292000770569
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "presidential (Q30461) 2",
+            "url": "https://www.wikidata.org/wiki/Q30461",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "u new brunswick (Q1112515) 3",
+            "url": "https://www.wikidata.org/wiki/Q1112515",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "macewan hall ballroom (Q1067471) 3",
+            "url": "https://www.wikidata.org/wiki/Q1067471",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "craigdarroch residences (Q1458113) 3",
+            "url": "https://www.wikidata.org/wiki/Q1458113",
+            "value": 0.9999994039535522
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "makeerere university (Q261506) 3",
+            "url": "https://www.wikidata.org/wiki/Q261506",
+            "value": 0.671955943107605
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the university of ghana (Q2303765) 3",
+            "url": "https://www.wikidata.org/wiki/Q2303765",
+            "value": 0.6539306640625
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "national & kapodistrian university of athens (Q547867) 3",
+            "url": "https://www.wikidata.org/wiki/Q547867",
+            "value": 0.6439712643623352
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "archibold alexander (Q909696) 3",
+            "url": "https://www.wikidata.org/wiki/Q909696",
+            "value": 0.6372964382171631
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "gmu press (Q1411222) 3",
+            "url": "https://www.wikidata.org/wiki/Q1411222",
+            "value": 0.6345487833023071
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "uom (Q1364464) 3",
+            "url": "https://www.wikidata.org/wiki/Q1364464",
+            "value": 0.6341847777366638
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "university of texas at arlington department of military science (Q1230739) 3",
+            "url": "https://www.wikidata.org/wiki/Q1230739",
+            "value": 0.6337482333183289
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "u new brunswick (Q1112515) 4",
+            "url": "https://www.wikidata.org/wiki/Q1112515",
+            "value": 0.9999972581863403
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "university college, dublin (Q1068258) 4",
+            "url": "https://www.wikidata.org/wiki/Q1068258",
+            "value": 0.999995231628418
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "st. mary magdalen college, oxford (Q81162) 4",
+            "url": "https://www.wikidata.org/wiki/Q81162",
+            "value": 0.9999934434890747
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "punjab university medical and dental college (Q1549932) 4",
+            "url": "https://www.wikidata.org/wiki/Q1549932",
+            "value": 0.7635659575462341
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "paris conservatoire national de musique et de declamation (Q463055) 4",
+            "url": "https://www.wikidata.org/wiki/Q463055",
+            "value": 0.7433611750602722
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "university of singapore (Q738236) 4",
+            "url": "https://www.wikidata.org/wiki/Q738236",
+            "value": 0.7387036085128784
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "philipps-universitat marburg (Q155354) 4",
+            "url": "https://www.wikidata.org/wiki/Q155354",
+            "value": 0.7361019849777222
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "national university of ireland, cork (Q1574185) 4",
+            "url": "https://www.wikidata.org/wiki/Q1574185",
+            "value": 0.7191970348358154
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "university of technology munich (Q157808) 4",
+            "url": "https://www.wikidata.org/wiki/Q157808",
+            "value": 0.702671229839325
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "gonzaga u (Q1537303) 4",
+            "url": "https://www.wikidata.org/wiki/Q1537303",
+            "value": 0.6977633833885193
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "currency of the united states (Q4917) 5",
+            "url": "https://www.wikidata.org/wiki/Q4917",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "target com (Q1046951) 6",
+            "url": "https://www.wikidata.org/wiki/Q1046951",
+            "value": 0.9999922513961792
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "rock and roll hall of fame museum (Q179191) 6",
+            "url": "https://www.wikidata.org/wiki/Q179191",
+            "value": 0.9999905824661255
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new york art students league (Q705737) 6",
+            "url": "https://www.wikidata.org/wiki/Q705737",
+            "value": 0.99998939037323
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "macalester scots men's basketball (Q1141571) 6",
+            "url": "https://www.wikidata.org/wiki/Q1141571",
+            "value": 0.429999977350235
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/05nrkb 6",
+            "value": 0.4222353398799896
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "drexel university publications (Q603034) 6",
+            "url": "https://www.wikidata.org/wiki/Q603034",
+            "value": 0.4216057062149048
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/0lwkh 6",
+            "value": 0.42035871744155884
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "winter park institute (Q2164222) 6",
+            "url": "https://www.wikidata.org/wiki/Q2164222",
+            "value": 0.4155890643596649
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/07gyp7 6",
+            "value": 0.4136863648891449
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "delta airlines (Q188920) 6",
+            "url": "https://www.wikidata.org/wiki/Q188920",
+            "value": 0.41270968317985535
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "villanova u (Q1466001) 7",
+            "url": "https://www.wikidata.org/wiki/Q1466001",
+            "value": 0.9998513460159302
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "communication, culture & technology (Q333886) 7",
+            "url": "https://www.wikidata.org/wiki/Q333886",
+            "value": 0.9997786283493042
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "student sexuality information services (Q49119) 7",
+            "url": "https://www.wikidata.org/wiki/Q49119",
+            "value": 0.9997676610946655
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "university of san diego (Q262663) 7",
+            "url": "https://www.wikidata.org/wiki/Q262663",
+            "value": 0.6124160885810852
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "robert e. cook honors college (Q1661325) 7",
+            "url": "https://www.wikidata.org/wiki/Q1661325",
+            "value": 0.6046786904335022
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "spelman seminary (Q7575916) 7",
+            "url": "https://www.wikidata.org/wiki/Q7575916",
+            "value": 0.600404679775238
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "pennsylvania college football (Q1520129) 7",
+            "url": "https://www.wikidata.org/wiki/Q1520129",
+            "value": 0.5987529754638672
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "stn channel 2 (Q747053) 7",
+            "url": "https://www.wikidata.org/wiki/Q747053",
+            "value": 0.5915221571922302
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "butler university (Q1017974) 7",
+            "url": "https://www.wikidata.org/wiki/Q1017974",
+            "value": 0.5896975994110107
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cooper union school of the arts (Q130981) 7",
+            "url": "https://www.wikidata.org/wiki/Q130981",
+            "value": 0.5841972231864929
+        }
+    ],
+    "title": "[E] /m/08mbj5d, [R] category- (51), [E] presidential (Q30461), [R] organization+ (126), conjunction, [E] currency of the united states (Q4917), [R] currency- (417), conjunction"
+}

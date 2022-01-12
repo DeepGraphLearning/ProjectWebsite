@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "belgium (Q31) 0 [rank = 1]",
+            "target": "usofa (Q30) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "usofa (Q30) 1 [rank = 1]",
+            "target": "usofa (Q30) 4 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "dubai emirate (Q613) 2 [rank = 1]",
+            "target": "usofa (Q30) 3 [rank = 18]",
+            "value": 0.5
+        },
+        {
+            "source": "usofa (Q30) 3 [rank = 18]",
+            "target": "usofa (Q30) 4 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "usofa (Q30) 4 [rank = 2]",
+            "target": "mad about you (sitcom) (Q752365) 5 [rank = 12]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "belgium (Q31) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q31",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dubai emirate (Q613) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q613",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "usofa (Q30) 3 [rank = 18]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "usofa (Q30) 4 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "mad about you (sitcom) (Q752365) 5 [rank = 12]",
+            "url": "https://www.wikidata.org/wiki/Q752365",
+            "value": 1
+        }
+    ],
+    "title": "[E] belgium (Q31), [R] exported to- (437), [E] dubai emirate (Q613), [R] exported to- (437), conjunction, [R] country of origin- (371)"
+}

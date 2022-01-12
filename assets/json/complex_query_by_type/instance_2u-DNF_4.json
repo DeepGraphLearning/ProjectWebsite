@@ -1,0 +1,77 @@
+{
+    "edges": [
+        {
+            "source": "silver medalist (Q847956) 0 [rank = 1]",
+            "target": "1912 olympic games (Q8118) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "1912 olympic games (Q8118) 1 [rank = 1]",
+            "target": "1912 olympic games (Q8118) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "speedskating (Q192431) 2 [rank = 1]",
+            "target": "the 1968 winter olympics (Q9642) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "the 1968 winter olympics (Q9642) 3 [rank = 1]",
+            "target": "1912 olympic games (Q8118) 4 [rank = 1]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "silver medalist (Q847956) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q847956",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "1912 olympic games (Q8118) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8118",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "speedskating (Q192431) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q192431",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the 1968 winter olympics (Q9642) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9642",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "1912 olympic games (Q8118) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8118",
+            "value": 1
+        }
+    ],
+    "title": "[E] silver medalist (Q847956), [R] medal- (343), [E] speedskating (Q192431), [R] sports- (349), disjunction"
+}

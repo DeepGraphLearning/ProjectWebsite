@@ -1,0 +1,62 @@
+{
+    "edges": [
+        {
+            "source": "regions of alaska (Q797) 0 [rank = 1]",
+            "target": "sara palen (Q43144) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "sara palen (Q43144) 1 [rank = 1]",
+            "target": "state governor (Q132050) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "state governor (Q132050) 2 [rank = 1]",
+            "target": "education in delaware (Q1393) 3 [rank = 2]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "regions of alaska (Q797) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q797",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "sara palen (Q43144) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q43144",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "state governor (Q132050) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q132050",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "education in delaware (Q1393) 3 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q1393",
+            "value": 1
+        }
+    ],
+    "title": "[E] regions of alaska (Q797), [R] jurisdiction of office- (473), [R] basic title+ (358), [R] jurisdiction of office+ (74)"
+}

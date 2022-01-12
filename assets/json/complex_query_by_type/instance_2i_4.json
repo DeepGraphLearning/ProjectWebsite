@@ -1,0 +1,75 @@
+{
+    "edges": [
+        {
+            "source": "/m/0263cyj 0 [rank = 1]",
+            "target": "2004 march madness (Q3994980) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "2004 march madness (Q3994980) 1 [rank = 1]",
+            "target": "2004 march madness (Q3994980) 4 [rank = 11]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/02q4ntp 2 [rank = 1]",
+            "target": "2004 march madness (Q3994980) 3 [rank = 4]",
+            "value": 0.5
+        },
+        {
+            "source": "2004 march madness (Q3994980) 3 [rank = 4]",
+            "target": "2004 march madness (Q3994980) 4 [rank = 11]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0263cyj 0 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "2004 march madness (Q3994980) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q3994980",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/02q4ntp 2 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "2004 march madness (Q3994980) 3 [rank = 4]",
+            "url": "https://www.wikidata.org/wiki/Q3994980",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "2004 march madness (Q3994980) 4 [rank = 11]",
+            "url": "https://www.wikidata.org/wiki/Q3994980",
+            "value": 1
+        }
+    ],
+    "title": "[E] /m/0263cyj, [R] team- (353), [E] /m/02q4ntp, [R] team- (353), conjunction"
+}

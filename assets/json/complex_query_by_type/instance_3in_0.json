@@ -1,0 +1,137 @@
+{
+    "edges": [
+        {
+            "source": "screen actors guild for outstanding cast - motion picture (Q518675) 0 [rank = 1]",
+            "target": "charlise theron (Q80046) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "charlise theron (Q80046) 1 [rank = 1]",
+            "target": "charlise theron (Q80046) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "usofa (Q30) 2 [rank = 1]",
+            "target": "charlise theron (Q80046) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "charlise theron (Q80046) 3 [rank = 1]",
+            "target": "charlise theron (Q80046) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "charlise theron (Q80046) 4 [rank = 1]",
+            "target": "charlise theron (Q80046) 8 [rank = 24]",
+            "value": 0.5
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 5 [rank = 1]",
+            "target": "joel silver (Q539718) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "joel silver (Q539718) 6 [rank = 1]",
+            "target": "charlise theron (Q80046) 7 [rank = 8]",
+            "value": 0.5
+        },
+        {
+            "source": "charlise theron (Q80046) 7 [rank = 8]",
+            "target": "charlise theron (Q80046) 8 [rank = 24]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "screen actors guild for outstanding cast - motion picture (Q518675) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q518675",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "charlise theron (Q80046) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q80046",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "charlise theron (Q80046) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q80046",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "charlise theron (Q80046) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q80046",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bonds of matrimony (Q8445) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8445",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "joel silver (Q539718) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q539718",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "charlise theron (Q80046) 7 [rank = 8]",
+            "url": "https://www.wikidata.org/wiki/Q80046",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "charlise theron (Q80046) 8 [rank = 24]",
+            "url": "https://www.wikidata.org/wiki/Q80046",
+            "value": 1
+        }
+    ],
+    "title": "[E] screen actors guild for outstanding cast - motion picture (Q518675), [R] award- (39), [E] usofa (Q30), [R] nationality- (97), conjunction, [E] bonds of matrimony (Q8445), [R] type of union- (171), negation, conjunction"
+}

@@ -1,0 +1,77 @@
+{
+    "edges": [
+        {
+            "source": "san fransisco (Q62) 0 [rank = 1]",
+            "target": "scottish broken-haired terrier (Q39330) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 1 [rank = 1]",
+            "target": "scottish broken-haired terrier (Q39330) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "miami (afl) (Q8652) 2 [rank = 1]",
+            "target": "scottish broken-haired terrier (Q39330) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "scottish broken-haired terrier (Q39330) 3 [rank = 1]",
+            "target": "scottish broken-haired terrier (Q39330) 4 [rank = 1]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "san fransisco (Q62) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q62",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "scottish broken-haired terrier (Q39330) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q39330",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "miami (afl) (Q8652) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8652",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "scottish broken-haired terrier (Q39330) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q39330",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "scottish broken-haired terrier (Q39330) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q39330",
+            "value": 1
+        }
+    ],
+    "title": "[E] san fransisco (Q62), [R] dog breed+ (312), [E] miami (afl) (Q8652), [R] dog breed+ (312), conjunction"
+}

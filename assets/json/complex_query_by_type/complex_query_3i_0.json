@@ -1,0 +1,2682 @@
+{
+    "edges": [
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "austrian national football team (Q163534) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "the bluebirds (Q18662) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "fc middlesbrough (Q18661) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "uc sampdoria (Q1457) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "orlando pirates (Q607939) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "tsg hoffenheim (Q22707) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "sj quakes (Q575370) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "/m/04btgp 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "fc rostov (Q182930) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "leftwingback (Q336286) 0",
+            "target": "e.c. bahia (Q198032) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "austrian national football team (Q163534) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.009997783079792932
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "the bluebirds (Q18662) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.009997616186791292
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "fc middlesbrough (Q18661) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.00999752439564039
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "uc sampdoria (Q1457) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.0056657181903931875
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "orlando pirates (Q607939) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005539291377232414
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.00549899565803269
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "sj quakes (Q575370) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005463725206321657
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "/m/04btgp 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "/m/04btgp 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005414534686180916
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "fc rostov (Q182930) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.00541272866548459
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "/m/04btgp 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "e.c. bahia (Q198032) 1",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005353767156144218
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "villarreal (Q12297) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "fc porto (Q128446) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "rasenballsport leipzig (Q702455) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "kaizer chiefs football team (Q247731) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "lewes f c (Q1927145) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "busan i park (Q495027) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "nagoya grampus eight (Q249662) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "right winger (football) (Q193592) 2",
+            "target": "fc rostov (Q182930) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.00999991752207463
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "villarreal (Q12297) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.009999804273252089
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "fc porto (Q128446) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.009999779239301843
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005417368290930202
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "kaizer chiefs football team (Q247731) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005245907785462411
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005229425909457519
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "lewes f c (Q1927145) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.0052106397179371156
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "busan i park (Q495027) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005185725573024325
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "nagoya grampus eight (Q249662) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005182722095041226
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "austrian national football team (Q163534) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "sbv vitesse arnhem (Q219233) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "bristol rovers (Q48925) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "orlando pirates (Q607939) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "tsg hoffenheim (Q22707) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "sj quakes (Q575370) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "/m/04btgp 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "rasenballsport leipzig (Q702455) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "e.c. bahia (Q198032) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "fc rostov (Q182930) 3",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "value": 0.005181100252693138
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "austrian national football team (Q163534) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.009996755495739973
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "sbv vitesse arnhem (Q219233) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.009996703043653743
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "bristol rovers (Q48925) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.009996626749710136
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "orlando pirates (Q607939) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005538747186837778
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "tsg hoffenheim (Q22707) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.0054986737929580976
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "sj quakes (Q575370) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.00546341228194358
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "/m/04btgp 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "/m/04btgp 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.0054144023638724725
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005414322493650259
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "e.c. bahia (Q198032) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005353332042247083
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "/m/04btgp 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005283594013372195
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "rasenballsport leipzig (Q702455) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "vizekusen (Q104761) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "kazakhstan football team (Q183468) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "schweizer nati (Q165141) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "busan i park (Q495027) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "/m/03y_f8 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "brescia calcio (Q6651) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "senegal national football team (Q207441) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0dgrmp 5",
+            "target": "d.c. united (Q238593) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.009999458566320119
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "rasenballsport leipzig (Q702455) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.009999367967262085
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "vizekusen (Q104761) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.009998916164064786
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "kazakhstan football team (Q183468) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.0052554326074846225
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "schweizer nati (Q165141) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005245780231525443
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "busan i park (Q495027) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005213484051522221
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "/m/04btgp 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "/m/03y_f8 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005143897418441679
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "brescia calcio (Q6651) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.0051025902084427255
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "senegal national football team (Q207441) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.0050775848684254665
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "bristol rovers (Q48925) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "sbv vitesse arnhem (Q219233) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "tsg hoffenheim (Q22707) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "sj quakes (Q575370) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "rasenballsport leipzig (Q702455) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "/m/04btgp 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "e.c. bahia (Q198032) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "value": 0.005077555662150179
+        },
+        {
+            "source": "d.c. united (Q238593) 6",
+            "target": "fc sparta (Q209895) 7",
+            "value": 0.005077555662150179
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "leftwingback (Q336286) 0",
+            "url": "https://www.wikidata.org/wiki/Q336286",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "austrian national football team (Q163534) 1",
+            "url": "https://www.wikidata.org/wiki/Q163534",
+            "value": 0.9997783303260803
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the bluebirds (Q18662) 1",
+            "url": "https://www.wikidata.org/wiki/Q18662",
+            "value": 0.9997616410255432
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fc middlesbrough (Q18661) 1",
+            "url": "https://www.wikidata.org/wiki/Q18661",
+            "value": 0.9997524619102478
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "uc sampdoria (Q1457) 1",
+            "url": "https://www.wikidata.org/wiki/Q1457",
+            "value": 0.566571831703186
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "orlando pirates (Q607939) 1",
+            "url": "https://www.wikidata.org/wiki/Q607939",
+            "value": 0.5539291501045227
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tsg hoffenheim (Q22707) 1",
+            "url": "https://www.wikidata.org/wiki/Q22707",
+            "value": 0.5498995780944824
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sj quakes (Q575370) 1",
+            "url": "https://www.wikidata.org/wiki/Q575370",
+            "value": 0.5463725328445435
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/04btgp 1",
+            "value": 0.54145348072052
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fc rostov (Q182930) 1",
+            "url": "https://www.wikidata.org/wiki/Q182930",
+            "value": 0.5412728786468506
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "e.c. bahia (Q198032) 1",
+            "url": "https://www.wikidata.org/wiki/Q198032",
+            "value": 0.5353767275810242
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "right winger (football) (Q193592) 2",
+            "url": "https://www.wikidata.org/wiki/Q193592",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "url": "https://www.wikidata.org/wiki/Q33748",
+            "value": 0.999991774559021
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "villarreal (Q12297) 3",
+            "url": "https://www.wikidata.org/wiki/Q12297",
+            "value": 0.9999804496765137
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fc porto (Q128446) 3",
+            "url": "https://www.wikidata.org/wiki/Q128446",
+            "value": 0.9999779462814331
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rasenballsport leipzig (Q702455) 3",
+            "url": "https://www.wikidata.org/wiki/Q702455",
+            "value": 0.5417368412017822
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kaizer chiefs football team (Q247731) 3",
+            "url": "https://www.wikidata.org/wiki/Q247731",
+            "value": 0.524590790271759
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 3",
+            "url": "https://www.wikidata.org/wiki/Q212564",
+            "value": 0.5229426026344299
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lewes f c (Q1927145) 3",
+            "url": "https://www.wikidata.org/wiki/Q1927145",
+            "value": 0.5210639834403992
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "busan i park (Q495027) 3",
+            "url": "https://www.wikidata.org/wiki/Q495027",
+            "value": 0.5185725688934326
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "nagoya grampus eight (Q249662) 3",
+            "url": "https://www.wikidata.org/wiki/Q249662",
+            "value": 0.5182722210884094
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fc rostov (Q182930) 3",
+            "url": "https://www.wikidata.org/wiki/Q182930",
+            "value": 0.5181100368499756
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "austrian national football team (Q163534) 4",
+            "url": "https://www.wikidata.org/wiki/Q163534",
+            "value": 0.9996755719184875
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "sbv vitesse arnhem (Q219233) 4",
+            "url": "https://www.wikidata.org/wiki/Q219233",
+            "value": 0.9996703267097473
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bristol rovers (Q48925) 4",
+            "url": "https://www.wikidata.org/wiki/Q48925",
+            "value": 0.9996626973152161
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "orlando pirates (Q607939) 4",
+            "url": "https://www.wikidata.org/wiki/Q607939",
+            "value": 0.5538747310638428
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tsg hoffenheim (Q22707) 4",
+            "url": "https://www.wikidata.org/wiki/Q22707",
+            "value": 0.5498673915863037
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sj quakes (Q575370) 4",
+            "url": "https://www.wikidata.org/wiki/Q575370",
+            "value": 0.5463412404060364
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/04btgp 4",
+            "value": 0.5414402484893799
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rasenballsport leipzig (Q702455) 4",
+            "url": "https://www.wikidata.org/wiki/Q702455",
+            "value": 0.54143226146698
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "e.c. bahia (Q198032) 4",
+            "url": "https://www.wikidata.org/wiki/Q198032",
+            "value": 0.5353332161903381
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "komb\u00ebtarja shqiptare e futbollit (Q186262) 4",
+            "url": "https://www.wikidata.org/wiki/Q186262",
+            "value": 0.5283594131469727
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0dgrmp 5",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "url": "https://www.wikidata.org/wiki/Q33748",
+            "value": 0.999945878982544
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "rasenballsport leipzig (Q702455) 6",
+            "url": "https://www.wikidata.org/wiki/Q702455",
+            "value": 0.9999368190765381
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "vizekusen (Q104761) 6",
+            "url": "https://www.wikidata.org/wiki/Q104761",
+            "value": 0.9998916387557983
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "kazakhstan football team (Q183468) 6",
+            "url": "https://www.wikidata.org/wiki/Q183468",
+            "value": 0.5255432724952698
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "schweizer nati (Q165141) 6",
+            "url": "https://www.wikidata.org/wiki/Q165141",
+            "value": 0.5245780348777771
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "busan i park (Q495027) 6",
+            "url": "https://www.wikidata.org/wiki/Q495027",
+            "value": 0.5213484168052673
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/03y_f8 6",
+            "value": 0.5143897533416748
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "brescia calcio (Q6651) 6",
+            "url": "https://www.wikidata.org/wiki/Q6651",
+            "value": 0.5102590322494507
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "senegal national football team (Q207441) 6",
+            "url": "https://www.wikidata.org/wiki/Q207441",
+            "value": 0.5077584981918335
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "d.c. united (Q238593) 6",
+            "url": "https://www.wikidata.org/wiki/Q238593",
+            "value": 0.5077555775642395
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "url": "https://www.wikidata.org/wiki/Q33748",
+            "value": 0.9995091557502747
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bristol rovers (Q48925) 7",
+            "url": "https://www.wikidata.org/wiki/Q48925",
+            "value": 0.9994696974754333
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "sbv vitesse arnhem (Q219233) 7",
+            "url": "https://www.wikidata.org/wiki/Q219233",
+            "value": 0.9994636178016663
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tsg hoffenheim (Q22707) 7",
+            "url": "https://www.wikidata.org/wiki/Q22707",
+            "value": 0.5496878623962402
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sj quakes (Q575370) 7",
+            "url": "https://www.wikidata.org/wiki/Q575370",
+            "value": 0.5462570786476135
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rasenballsport leipzig (Q702455) 7",
+            "url": "https://www.wikidata.org/wiki/Q702455",
+            "value": 0.5413980484008789
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/04btgp 7",
+            "value": 0.5412421822547913
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "e.c. bahia (Q198032) 7",
+            "url": "https://www.wikidata.org/wiki/Q198032",
+            "value": 0.5352568626403809
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "komb\u00ebtarja shqiptare e futbollit (Q186262) 7",
+            "url": "https://www.wikidata.org/wiki/Q186262",
+            "value": 0.5281952619552612
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fc sparta (Q209895) 7",
+            "url": "https://www.wikidata.org/wiki/Q209895",
+            "value": 0.5258190035820007
+        }
+    ],
+    "title": "[E] leftwingback (Q336286), [R] team+ (260), [E] right winger (football) (Q193592), [R] position- (9), conjunction, [E] /m/0dgrmp, [R] position- (11), conjunction"
+}

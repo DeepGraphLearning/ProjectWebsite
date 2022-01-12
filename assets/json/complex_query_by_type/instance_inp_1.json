@@ -1,0 +1,103 @@
+{
+    "edges": [
+        {
+            "source": "/m/0l14j_ 0 [rank = 1]",
+            "target": "/m/01vdm0 1 [rank = 16]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/01vdm0 1 [rank = 16]",
+            "target": "/m/01vdm0 5 [rank = 16]",
+            "value": 0.5
+        },
+        {
+            "source": "blondie (band) (Q202741) 2 [rank = 1]",
+            "target": "frontman (Q1045845) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "frontman (Q1045845) 3 [rank = 1]",
+            "target": "/m/01vdm0 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/01vdm0 4 [rank = 1]",
+            "target": "/m/01vdm0 5 [rank = 16]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/01vdm0 5 [rank = 16]",
+            "target": "c.\"tricky\" stewart (Q2026379) 6 [rank = 58]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0l14j_ 0 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/01vdm0 1 [rank = 16]",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "blondie (band) (Q202741) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q202741",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "frontman (Q1045845) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1045845",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/01vdm0 4 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/01vdm0 5 [rank = 16]",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "c.\"tricky\" stewart (Q2026379) 6 [rank = 58]",
+            "url": "https://www.wikidata.org/wiki/Q2026379",
+            "value": 1
+        }
+    ],
+    "title": "[E] /m/0l14j_, [R] role- (151), [E] blondie (band) (Q202741), [R] group- (185), negation, conjunction, [R] role- (83)"
+}

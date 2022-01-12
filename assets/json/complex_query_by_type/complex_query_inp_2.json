@@ -1,0 +1,1821 @@
+{
+    "edges": [
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "electrical engingeering (Q43035) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "/m/01lhf 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "anthropology/testcases (Q23404) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "/m/01mkq 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "applications of chemical engineering (Q83588) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "\u0153conomics (Q8134) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "physics/further reading (Q413) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "filosophy (Q5891) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "polisci (Q36442) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "mcgill athletics (Q201492) 0",
+            "target": "neuroscince (Q207011) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "electrical engingeering (Q43035) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "/m/01lhf 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "/m/04gb7 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "/m/01mkq 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "/m/01lhf 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.009999958053232172
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "anthropology/testcases (Q23404) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.009999947324396352
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "/m/01lhf 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "/m/04gb7 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "/m/01mkq 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "/m/01mkq 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.0035008033327578736
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.0034850519116583767
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "\u0153conomics (Q8134) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.0034689017354942453
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "physics/further reading (Q413) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.003366489931199923
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "filosophy (Q5891) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.0033488609638319677
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "polisci (Q36442) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.0033421253410996776
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "/m/01lhf 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "/m/04gb7 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "/m/01mkq 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "polisci (Q36442) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "neuroscince (Q207011) 1",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.0032962014534428374
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "franska (Q150) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "spanyol nyelv (Q1321) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "english vernacular (Q1860) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "history of the italian language (Q652) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "iso 639:zho (Q7850) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "germanophone (Q188) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "l\u00edngua portuguesa (Q5146) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "czech (language) (Q9056) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "footer albums nico (Q44634) 2",
+            "target": "arabic language (Q13955) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "franska (Q150) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.009999819770459384
+        },
+        {
+            "source": "franska (Q150) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.009999819770459384
+        },
+        {
+            "source": "franska (Q150) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.009999819770459384
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.009999787583951925
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.009999787583951925
+        },
+        {
+            "source": "spanyol nyelv (Q1321) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.009999787583951925
+        },
+        {
+            "source": "english vernacular (Q1860) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.0020309344970226018
+        },
+        {
+            "source": "english vernacular (Q1860) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.0020309344970226018
+        },
+        {
+            "source": "english vernacular (Q1860) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.0020309344970226018
+        },
+        {
+            "source": "history of the italian language (Q652) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.0019078957608067437
+        },
+        {
+            "source": "history of the italian language (Q652) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.0019078957608067437
+        },
+        {
+            "source": "history of the italian language (Q652) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.0019078957608067437
+        },
+        {
+            "source": "iso 639:zho (Q7850) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.0016645238921525196
+        },
+        {
+            "source": "iso 639:zho (Q7850) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.0016645238921525196
+        },
+        {
+            "source": "iso 639:zho (Q7850) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.0016645238921525196
+        },
+        {
+            "source": "germanophone (Q188) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.0015497181963238515
+        },
+        {
+            "source": "germanophone (Q188) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.0015497181963238515
+        },
+        {
+            "source": "germanophone (Q188) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.0015497181963238515
+        },
+        {
+            "source": "l\u00edngua portuguesa (Q5146) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.0011998753726510242
+        },
+        {
+            "source": "l\u00edngua portuguesa (Q5146) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.0011998753726510242
+        },
+        {
+            "source": "l\u00edngua portuguesa (Q5146) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.0011998753726510242
+        },
+        {
+            "source": "czech (language) (Q9056) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.001114568312885575
+        },
+        {
+            "source": "czech (language) (Q9056) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.001114568312885575
+        },
+        {
+            "source": "czech (language) (Q9056) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.001114568312885575
+        },
+        {
+            "source": "arabic language (Q13955) 3",
+            "target": "footer albums nico (Q44634) 4",
+            "value": 0.0010757795480837024
+        },
+        {
+            "source": "arabic language (Q13955) 3",
+            "target": "mannequin (Q4610556) 4",
+            "value": 0.0010757795480837024
+        },
+        {
+            "source": "arabic language (Q13955) 3",
+            "target": "american actor (Q33999) 4",
+            "value": 0.0010757795480837024
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "/m/01lhf 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "/m/04gb7 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "/m/01mkq 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "polisci (Q36442) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "footer albums nico (Q44634) 4",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.009999471083295242
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "/m/01lhf 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "/m/04gb7 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "/m/01mkq 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "polisci (Q36442) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "mannequin (Q4610556) 4",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.009999201670306879
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "/m/01lhf 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "/m/04gb7 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "architecturally (Q12271) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "applications of chemical engineering (Q83588) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "\u0153conomics (Q8134) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "/m/01mkq 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "physics/further reading (Q413) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "filosophy (Q5891) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "polisci (Q36442) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "american actor (Q33999) 4",
+            "target": "neuroscince (Q207011) 5",
+            "value": 0.009999055638930443
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "/m/0db86 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/01lhf 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.009972247854495464
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "/m/0db86 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "/m/04gb7 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.009970706478416025
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "/m/0db86 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "architecturally (Q12271) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.009970215932200488
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "/m/0db86 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "applications of chemical engineering (Q83588) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.0034688457071294088
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "/m/0db86 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "\u0153conomics (Q8134) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.0034558620276481933
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "/m/0db86 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "/m/01mkq 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.00343566618631036
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "/m/0db86 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "physics/further reading (Q413) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.0033533125366275174
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "/m/0db86 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "filosophy (Q5891) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.0032973309614360846
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "/m/0db86 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "polisci (Q36442) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.0032946410038774965
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "/m/0db86 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "machine engineer (Q101333) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "latin (language) (Q397) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "classical scholars (Q841090) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "fine art (Q219625) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "literature portal (Q8242) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "meaning (music) (Q638) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "t.v. (Q289) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "financials (Q43015) 6",
+            "value": 0.0032838874321307054
+        },
+        {
+            "source": "neuroscince (Q207011) 5",
+            "target": "wikiportal/film (Q11424) 6",
+            "value": 0.0032838874321307054
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mcgill athletics (Q201492) 0",
+            "url": "https://www.wikidata.org/wiki/Q201492",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "electrical engingeering (Q43035) 1",
+            "url": "https://www.wikidata.org/wiki/Q43035",
+            "value": 0.9999974966049194
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/01lhf 1",
+            "value": 0.9999958276748657
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "anthropology/testcases (Q23404) 1",
+            "url": "https://www.wikidata.org/wiki/Q23404",
+            "value": 0.9999947547912598
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/01mkq 1",
+            "value": 0.35008034110069275
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "applications of chemical engineering (Q83588) 1",
+            "url": "https://www.wikidata.org/wiki/Q83588",
+            "value": 0.3485051989555359
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "\u0153conomics (Q8134) 1",
+            "url": "https://www.wikidata.org/wiki/Q8134",
+            "value": 0.3468901813030243
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "physics/further reading (Q413) 1",
+            "url": "https://www.wikidata.org/wiki/Q413",
+            "value": 0.33664900064468384
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "filosophy (Q5891) 1",
+            "url": "https://www.wikidata.org/wiki/Q5891",
+            "value": 0.3348861038684845
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "polisci (Q36442) 1",
+            "url": "https://www.wikidata.org/wiki/Q36442",
+            "value": 0.3342125415802002
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "neuroscince (Q207011) 1",
+            "url": "https://www.wikidata.org/wiki/Q207011",
+            "value": 0.3296201527118683
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "footer albums nico (Q44634) 2",
+            "url": "https://www.wikidata.org/wiki/Q44634",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "franska (Q150) 3",
+            "url": "https://www.wikidata.org/wiki/Q150",
+            "value": 0.9999819993972778
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "spanyol nyelv (Q1321) 3",
+            "url": "https://www.wikidata.org/wiki/Q1321",
+            "value": 0.99997878074646
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "english vernacular (Q1860) 3",
+            "url": "https://www.wikidata.org/wiki/Q1860",
+            "value": 0.20309345424175262
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "history of the italian language (Q652) 3",
+            "url": "https://www.wikidata.org/wiki/Q652",
+            "value": 0.1907895803451538
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "iso 639:zho (Q7850) 3",
+            "url": "https://www.wikidata.org/wiki/Q7850",
+            "value": 0.16645239293575287
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "germanophone (Q188) 3",
+            "url": "https://www.wikidata.org/wiki/Q188",
+            "value": 0.15497182309627533
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "l\u00edngua portuguesa (Q5146) 3",
+            "url": "https://www.wikidata.org/wiki/Q5146",
+            "value": 0.11998753994703293
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "czech (language) (Q9056) 3",
+            "url": "https://www.wikidata.org/wiki/Q9056",
+            "value": 0.11145683377981186
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "arabic language (Q13955) 3",
+            "url": "https://www.wikidata.org/wiki/Q13955",
+            "value": 0.10757795721292496
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "footer albums nico (Q44634) 4",
+            "url": "https://www.wikidata.org/wiki/Q44634",
+            "value": 0.9999471306800842
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mannequin (Q4610556) 4",
+            "url": "https://www.wikidata.org/wiki/Q4610556",
+            "value": 0.9999201893806458
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "american actor (Q33999) 4",
+            "url": "https://www.wikidata.org/wiki/Q33999",
+            "value": 0.9999055862426758
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/01lhf 5",
+            "value": 0.9972248077392578
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/04gb7 5",
+            "value": 0.9970706701278687
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "architecturally (Q12271) 5",
+            "url": "https://www.wikidata.org/wiki/Q12271",
+            "value": 0.9970216155052185
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "applications of chemical engineering (Q83588) 5",
+            "url": "https://www.wikidata.org/wiki/Q83588",
+            "value": 0.3468845784664154
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "\u0153conomics (Q8134) 5",
+            "url": "https://www.wikidata.org/wiki/Q8134",
+            "value": 0.34558621048927307
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/01mkq 5",
+            "value": 0.3435666263103485
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "physics/further reading (Q413) 5",
+            "url": "https://www.wikidata.org/wiki/Q413",
+            "value": 0.3353312611579895
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "filosophy (Q5891) 5",
+            "url": "https://www.wikidata.org/wiki/Q5891",
+            "value": 0.32973310351371765
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "polisci (Q36442) 5",
+            "url": "https://www.wikidata.org/wiki/Q36442",
+            "value": 0.3294641077518463
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "neuroscince (Q207011) 5",
+            "url": "https://www.wikidata.org/wiki/Q207011",
+            "value": 0.3283887505531311
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0db86 6",
+            "value": 0.9735109806060791
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "machine engineer (Q101333) 6",
+            "url": "https://www.wikidata.org/wiki/Q101333",
+            "value": 0.9666756391525269
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "latin (language) (Q397) 6",
+            "url": "https://www.wikidata.org/wiki/Q397",
+            "value": 0.9613512754440308
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "classical scholars (Q841090) 6",
+            "url": "https://www.wikidata.org/wiki/Q841090",
+            "value": 0.25755515694618225
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "fine art (Q219625) 6",
+            "url": "https://www.wikidata.org/wiki/Q219625",
+            "value": 0.23636174201965332
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "literature portal (Q8242) 6",
+            "url": "https://www.wikidata.org/wiki/Q8242",
+            "value": 0.23633301258087158
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "meaning (music) (Q638) 6",
+            "url": "https://www.wikidata.org/wiki/Q638",
+            "value": 0.21731550991535187
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "t.v. (Q289) 6",
+            "url": "https://www.wikidata.org/wiki/Q289",
+            "value": 0.20714429020881653
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "financials (Q43015) 6",
+            "url": "https://www.wikidata.org/wiki/Q43015",
+            "value": 0.1999501734972
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "wikiportal/film (Q11424) 6",
+            "url": "https://www.wikidata.org/wiki/Q11424",
+            "value": 0.1969614326953888
+        }
+    ],
+    "title": "[E] mcgill athletics (Q201492), [R] major field of study+ (202), [E] footer albums nico (Q44634), [R] languages+ (200), negation, conjunction, [R] major field of study- (377)"
+}

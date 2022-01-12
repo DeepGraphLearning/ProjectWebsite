@@ -1,0 +1,121 @@
+{
+    "edges": [
+        {
+            "source": "leftwingback (Q336286) 0 [rank = 1]",
+            "target": "cheltenham town f. c. (Q48932) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "cheltenham town f. c. (Q48932) 1 [rank = 1]",
+            "target": "cheltenham town f. c. (Q48932) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "right winger (football) (Q193592) 2 [rank = 1]",
+            "target": "cheltenham town f. c. (Q48932) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "cheltenham town f. c. (Q48932) 3 [rank = 1]",
+            "target": "cheltenham town f. c. (Q48932) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "cheltenham town f. c. (Q48932) 4 [rank = 1]",
+            "target": "cheltenham town f. c. (Q48932) 7 [rank = 255]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/0dgrmp 5 [rank = 1]",
+            "target": "cheltenham town f. c. (Q48932) 6 [rank = 173]",
+            "value": 0.5
+        },
+        {
+            "source": "cheltenham town f. c. (Q48932) 6 [rank = 173]",
+            "target": "cheltenham town f. c. (Q48932) 7 [rank = 255]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "leftwingback (Q336286) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q336286",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cheltenham town f. c. (Q48932) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q48932",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "right winger (football) (Q193592) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q193592",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cheltenham town f. c. (Q48932) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q48932",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cheltenham town f. c. (Q48932) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q48932",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0dgrmp 5 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cheltenham town f. c. (Q48932) 6 [rank = 173]",
+            "url": "https://www.wikidata.org/wiki/Q48932",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cheltenham town f. c. (Q48932) 7 [rank = 255]",
+            "url": "https://www.wikidata.org/wiki/Q48932",
+            "value": 1
+        }
+    ],
+    "title": "[E] leftwingback (Q336286), [R] team+ (260), [E] right winger (football) (Q193592), [R] position- (9), conjunction, [E] /m/0dgrmp, [R] position- (11), conjunction"
+}

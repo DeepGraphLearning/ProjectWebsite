@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "anguilla/military (Q25228) 0 [rank = 1]",
+            "target": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "target": "sikh literature (Q9316) 2 [rank = 6]",
+            "value": 0.5
+        },
+        {
+            "source": "sikh literature (Q9316) 2 [rank = 6]",
+            "target": "sikh literature (Q9316) 5 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "ajay singh deol (Q944546) 3 [rank = 1]",
+            "target": "sikh literature (Q9316) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "sikh literature (Q9316) 4 [rank = 1]",
+            "target": "sikh literature (Q9316) 5 [rank = 2]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "anguilla/military (Q25228) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q25228",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q145",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "sikh literature (Q9316) 2 [rank = 6]",
+            "url": "https://www.wikidata.org/wiki/Q9316",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ajay singh deol (Q944546) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q944546",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "sikh literature (Q9316) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9316",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "sikh literature (Q9316) 5 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q9316",
+            "value": 1
+        }
+    ],
+    "title": "[E] anguilla/military (Q25228), [R] exported to+ (436), [R] religion+ (36), [E] ajay singh deol (Q944546), [R] religion+ (164), conjunction"
+}

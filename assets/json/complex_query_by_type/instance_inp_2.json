@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "mcgill athletics (Q201492) 0 [rank = 1]",
+            "target": "phsycology (Q9418) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "phsycology (Q9418) 1 [rank = 1]",
+            "target": "phsycology (Q9418) 5 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "footer albums nico (Q44634) 2 [rank = 1]",
+            "target": "english vernacular (Q1860) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "english vernacular (Q1860) 3 [rank = 1]",
+            "target": "phsycology (Q9418) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "phsycology (Q9418) 4 [rank = 1]",
+            "target": "phsycology (Q9418) 5 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "phsycology (Q9418) 5 [rank = 1]",
+            "target": "technology of photography (Q11633) 6 [rank = 43]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mcgill athletics (Q201492) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q201492",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "phsycology (Q9418) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9418",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "footer albums nico (Q44634) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q44634",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "english vernacular (Q1860) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1860",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "phsycology (Q9418) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9418",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "phsycology (Q9418) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9418",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "technology of photography (Q11633) 6 [rank = 43]",
+            "url": "https://www.wikidata.org/wiki/Q11633",
+            "value": 1
+        }
+    ],
+    "title": "[E] mcgill athletics (Q201492), [R] major field of study+ (202), [E] footer albums nico (Q44634), [R] languages+ (200), negation, conjunction, [R] major field of study- (377)"
+}

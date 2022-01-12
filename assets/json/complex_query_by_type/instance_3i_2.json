@@ -1,0 +1,122 @@
+{
+    "edges": [
+        {
+            "source": "song-writing (Q753110) 0 [rank = 1]",
+            "target": "antonio \"la reid\" reid (Q604575) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "antonio \"la reid\" reid (Q604575) 1 [rank = 1]",
+            "target": "antonio \"la reid\" reid (Q604575) 4 [rank = 6]",
+            "value": 0.5
+        },
+        {
+            "source": "bebe winans (Q339093) 2 [rank = 1]",
+            "target": "antonio \"la reid\" reid (Q604575) 3 [rank = 6]",
+            "value": 0.5
+        },
+        {
+            "source": "antonio \"la reid\" reid (Q604575) 3 [rank = 6]",
+            "target": "antonio \"la reid\" reid (Q604575) 4 [rank = 6]",
+            "value": 0.5
+        },
+        {
+            "source": "antonio \"la reid\" reid (Q604575) 4 [rank = 6]",
+            "target": "antonio \"la reid\" reid (Q604575) 7 [rank = 3]",
+            "value": 0.5
+        },
+        {
+            "source": "kenneth edmonds (Q344983) 5 [rank = 1]",
+            "target": "antonio \"la reid\" reid (Q604575) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "antonio \"la reid\" reid (Q604575) 6 [rank = 1]",
+            "target": "antonio \"la reid\" reid (Q604575) 7 [rank = 3]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "song-writing (Q753110) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q753110",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "antonio \"la reid\" reid (Q604575) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q604575",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bebe winans (Q339093) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q339093",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "antonio \"la reid\" reid (Q604575) 3 [rank = 6]",
+            "url": "https://www.wikidata.org/wiki/Q604575",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "antonio \"la reid\" reid (Q604575) 4 [rank = 6]",
+            "url": "https://www.wikidata.org/wiki/Q604575",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kenneth edmonds (Q344983) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q344983",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "antonio \"la reid\" reid (Q604575) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q604575",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "antonio \"la reid\" reid (Q604575) 7 [rank = 3]",
+            "url": "https://www.wikidata.org/wiki/Q604575",
+            "value": 1
+        }
+    ],
+    "title": "[E] song-writing (Q753110), [R] profession- (35), [E] bebe winans (Q339093), [R] award winner- (7), conjunction, [E] kenneth edmonds (Q344983), [R] award nominee+ (16), conjunction"
+}

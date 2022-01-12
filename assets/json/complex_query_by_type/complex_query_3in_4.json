@@ -1,0 +1,2514 @@
+{
+    "edges": [
+        {
+            "source": "/m/0d8qb 0",
+            "target": "peter hyams (Q458766) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "wong jim (Q709317) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "richard hamond (Q297265) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "jz msholozi (Q57282) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "/m/079dy 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "/m/05yjhm 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "field marshall haig (Q312564) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "englehart, steve (Q964815) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "charles john huffam dickens, frsa (Q5686) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/0d8qb 0",
+            "target": "neilson ross (Q3053268) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "peter hyams (Q458766) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.009988478198905026
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "wong jim (Q709317) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.009985611811601847
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "richard hamond (Q297265) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.009985211268397909
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "jz msholozi (Q57282) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004504909414688285
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/079dy 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004430957337521968
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "/m/05yjhm 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004305687152467208
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "field marshall haig (Q312564) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004297753476401711
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "englehart, steve (Q964815) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004255924129726196
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "charles john huffam dickens, frsa (Q5686) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004136915412465136
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "neilson ross (Q3053268) 1",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.004119111207445458
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "kar-wai wong (Q55431) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "chang i-mou (Q55430) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "roger harry daltrey (Q311672) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "hugh michael horace dancy (Q314603) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "gretta sachi (Q235351) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "preston sturgis (Q546204) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "amy mccarthy (Q230993) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "the creed of violence (Q670296) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "nathaniel hawethorne (Q69339) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "bonds of matrimony (Q8445) 2",
+            "target": "lesley anne warren (Q237214) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "kar-wai wong (Q55431) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "chang i-mou (Q55430) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "roger harry daltrey (Q311672) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.009999986663461025
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "hugh michael horace dancy (Q314603) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.006664940565863087
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "gretta sachi (Q235351) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.006503811929289727
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "preston sturgis (Q546204) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.006433983897403239
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "amy mccarthy (Q230993) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.006425325130850257
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "the creed of violence (Q670296) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.006410704707860093
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "nathaniel hawethorne (Q69339) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.00637898132848036
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "richard hamond (Q297265) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "baum, frank (Q207544) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "29th president of the united states (Q35286) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "whitman, walt (Q81438) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "wong jim (Q709317) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "peter hyams (Q458766) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "hg wells (Q42511) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "thomas wolfe jr. (Q216195) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "frederick quimby (Q555910) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "lesley anne warren (Q237214) 3",
+            "target": "murray rothbard (Q297079) 4",
+            "value": 0.006371943212182596
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "richard hamond (Q297265) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.009985055104232088
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "baum, frank (Q207544) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.009981552139336936
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "29th president of the united states (Q35286) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.009977429286149975
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "whitman, walt (Q81438) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.0056463854242924105
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "wong jim (Q709317) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.005565094823425376
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "peter hyams (Q458766) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.005363104819586018
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "hg wells (Q42511) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.005269595862859577
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "thomas wolfe jr. (Q216195) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.005252956630595995
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "frederick quimby (Q555910) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.0052109752920797
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "murray rothbard (Q297079) 4",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.0051500563662486565
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "james david graham niven (Q181917) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "verne, jules (Q33977) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "alexandre dumas, p\u00e8re (Q38337) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "henri l. bergson (Q42156) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "lacan (Q169906) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "rousseauan (Q6527) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "david guetta (Q8298) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "albert wolsky (Q726671) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "french (Q121842) 5",
+            "target": "yo-yo ma, m\u01ce y\u01d2uy\u01d2u (Q234891) 6",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "james david graham niven (Q181917) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "james david graham niven (Q181917) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "james david graham niven (Q181917) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.0099999914318325
+        },
+        {
+            "source": "verne, jules (Q33977) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "verne, jules (Q33977) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "verne, jules (Q33977) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "alexandre dumas, p\u00e8re (Q38337) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.004661503031965275
+        },
+        {
+            "source": "alexandre dumas, p\u00e8re (Q38337) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.004661503031965275
+        },
+        {
+            "source": "alexandre dumas, p\u00e8re (Q38337) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.004661503031965275
+        },
+        {
+            "source": "henri l. bergson (Q42156) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.004457705219290287
+        },
+        {
+            "source": "henri l. bergson (Q42156) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.004457705219290287
+        },
+        {
+            "source": "henri l. bergson (Q42156) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.004457705219290287
+        },
+        {
+            "source": "lacan (Q169906) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.004449379642694151
+        },
+        {
+            "source": "lacan (Q169906) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.004449379642694151
+        },
+        {
+            "source": "lacan (Q169906) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.004449379642694151
+        },
+        {
+            "source": "rousseauan (Q6527) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.0044010113686097085
+        },
+        {
+            "source": "rousseauan (Q6527) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.0044010113686097085
+        },
+        {
+            "source": "rousseauan (Q6527) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.0044010113686097085
+        },
+        {
+            "source": "david guetta (Q8298) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.004306358896798812
+        },
+        {
+            "source": "david guetta (Q8298) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.004306358896798812
+        },
+        {
+            "source": "david guetta (Q8298) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.004306358896798812
+        },
+        {
+            "source": "albert wolsky (Q726671) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.0040664633199617994
+        },
+        {
+            "source": "albert wolsky (Q726671) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.0040664633199617994
+        },
+        {
+            "source": "albert wolsky (Q726671) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.0040664633199617994
+        },
+        {
+            "source": "yo-yo ma, m\u01ce y\u01d2uy\u01d2u (Q234891) 6",
+            "target": "tony award for best actress in a play (Q185299) 7",
+            "value": 0.004024759441060732
+        },
+        {
+            "source": "yo-yo ma, m\u01ce y\u01d2uy\u01d2u (Q234891) 6",
+            "target": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "value": 0.004024759441060732
+        },
+        {
+            "source": "yo-yo ma, m\u01ce y\u01d2uy\u01d2u (Q234891) 6",
+            "target": "national board of review award for best lead actor (Q1790292) 7",
+            "value": 0.004024759441060732
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "tony award for best actress in a play (Q185299) 7",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.009936897532562217
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.009929114358221414
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "ruby dee (Q234360) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "katie couric (Q230739) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "marc twain (Q7245) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "wong jim (Q709317) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "peter hyams (Q458766) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "whitman, walt (Q81438) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "thomas wolfe jr. (Q216195) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "murray rothbard (Q297079) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "frederick quimby (Q555910) 8",
+            "value": 0.009928039686500134
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 7",
+            "target": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "value": 0.009928039686500134
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0d8qb 0",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "peter hyams (Q458766) 1",
+            "url": "https://www.wikidata.org/wiki/Q458766",
+            "value": 0.9988478422164917
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wong jim (Q709317) 1",
+            "url": "https://www.wikidata.org/wiki/Q709317",
+            "value": 0.9985612034797668
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "richard hamond (Q297265) 1",
+            "url": "https://www.wikidata.org/wiki/Q297265",
+            "value": 0.9985211491584778
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jz msholozi (Q57282) 1",
+            "url": "https://www.wikidata.org/wiki/Q57282",
+            "value": 0.45049095153808594
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/079dy 1",
+            "value": 0.44309574365615845
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/05yjhm 1",
+            "value": 0.43056872487068176
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "field marshall haig (Q312564) 1",
+            "url": "https://www.wikidata.org/wiki/Q312564",
+            "value": 0.4297753572463989
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "englehart, steve (Q964815) 1",
+            "url": "https://www.wikidata.org/wiki/Q964815",
+            "value": 0.42559242248535156
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "charles john huffam dickens, frsa (Q5686) 1",
+            "url": "https://www.wikidata.org/wiki/Q5686",
+            "value": 0.41369155049324036
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "neilson ross (Q3053268) 1",
+            "url": "https://www.wikidata.org/wiki/Q3053268",
+            "value": 0.41191112995147705
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bonds of matrimony (Q8445) 2",
+            "url": "https://www.wikidata.org/wiki/Q8445",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kar-wai wong (Q55431) 3",
+            "url": "https://www.wikidata.org/wiki/Q55431",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "chang i-mou (Q55430) 3",
+            "url": "https://www.wikidata.org/wiki/Q55430",
+            "value": 0.9999988079071045
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "roger harry daltrey (Q311672) 3",
+            "url": "https://www.wikidata.org/wiki/Q311672",
+            "value": 0.9999986886978149
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hugh michael horace dancy (Q314603) 3",
+            "url": "https://www.wikidata.org/wiki/Q314603",
+            "value": 0.6664940714836121
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "gretta sachi (Q235351) 3",
+            "url": "https://www.wikidata.org/wiki/Q235351",
+            "value": 0.6503812074661255
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "preston sturgis (Q546204) 3",
+            "url": "https://www.wikidata.org/wiki/Q546204",
+            "value": 0.6433984041213989
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "amy mccarthy (Q230993) 3",
+            "url": "https://www.wikidata.org/wiki/Q230993",
+            "value": 0.6425325274467468
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the creed of violence (Q670296) 3",
+            "url": "https://www.wikidata.org/wiki/Q670296",
+            "value": 0.6410704851150513
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "nathaniel hawethorne (Q69339) 3",
+            "url": "https://www.wikidata.org/wiki/Q69339",
+            "value": 0.6378981471061707
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "lesley anne warren (Q237214) 3",
+            "url": "https://www.wikidata.org/wiki/Q237214",
+            "value": 0.6371943354606628
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "richard hamond (Q297265) 4",
+            "url": "https://www.wikidata.org/wiki/Q297265",
+            "value": 0.9985055327415466
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "baum, frank (Q207544) 4",
+            "url": "https://www.wikidata.org/wiki/Q207544",
+            "value": 0.9981552362442017
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "29th president of the united states (Q35286) 4",
+            "url": "https://www.wikidata.org/wiki/Q35286",
+            "value": 0.9977429509162903
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "whitman, walt (Q81438) 4",
+            "url": "https://www.wikidata.org/wiki/Q81438",
+            "value": 0.5646385550498962
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "wong jim (Q709317) 4",
+            "url": "https://www.wikidata.org/wiki/Q709317",
+            "value": 0.5565094947814941
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "peter hyams (Q458766) 4",
+            "url": "https://www.wikidata.org/wiki/Q458766",
+            "value": 0.5363104939460754
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hg wells (Q42511) 4",
+            "url": "https://www.wikidata.org/wiki/Q42511",
+            "value": 0.5269595980644226
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "thomas wolfe jr. (Q216195) 4",
+            "url": "https://www.wikidata.org/wiki/Q216195",
+            "value": 0.5252956748008728
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "frederick quimby (Q555910) 4",
+            "url": "https://www.wikidata.org/wiki/Q555910",
+            "value": 0.5210975408554077
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "murray rothbard (Q297079) 4",
+            "url": "https://www.wikidata.org/wiki/Q297079",
+            "value": 0.5150056481361389
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "french (Q121842) 5",
+            "url": "https://www.wikidata.org/wiki/Q121842",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "james david graham niven (Q181917) 6",
+            "url": "https://www.wikidata.org/wiki/Q181917",
+            "value": 0.9999994039535522
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "url": "https://www.wikidata.org/wiki/Q229056",
+            "value": 0.9999991655349731
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "verne, jules (Q33977) 6",
+            "url": "https://www.wikidata.org/wiki/Q33977",
+            "value": 0.9999988079071045
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "alexandre dumas, p\u00e8re (Q38337) 6",
+            "url": "https://www.wikidata.org/wiki/Q38337",
+            "value": 0.46615031361579895
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "henri l. bergson (Q42156) 6",
+            "url": "https://www.wikidata.org/wiki/Q42156",
+            "value": 0.4457705318927765
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lacan (Q169906) 6",
+            "url": "https://www.wikidata.org/wiki/Q169906",
+            "value": 0.44493797421455383
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "rousseauan (Q6527) 6",
+            "url": "https://www.wikidata.org/wiki/Q6527",
+            "value": 0.44010114669799805
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "david guetta (Q8298) 6",
+            "url": "https://www.wikidata.org/wiki/Q8298",
+            "value": 0.43063589930534363
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "albert wolsky (Q726671) 6",
+            "url": "https://www.wikidata.org/wiki/Q726671",
+            "value": 0.40664634108543396
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "yo-yo ma, m\u01ce y\u01d2uy\u01d2u (Q234891) 6",
+            "url": "https://www.wikidata.org/wiki/Q234891",
+            "value": 0.4024759531021118
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tony award for best actress in a play (Q185299) 7",
+            "url": "https://www.wikidata.org/wiki/Q185299",
+            "value": 0.993689775466919
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "primetime emmy award for outstanding lead actor in a miniseries or a movie (Q989453) 7",
+            "url": "https://www.wikidata.org/wiki/Q989453",
+            "value": 0.9929114580154419
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "national board of review award for best lead actor (Q1790292) 7",
+            "url": "https://www.wikidata.org/wiki/Q1790292",
+            "value": 0.9928039908409119
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ruby dee (Q234360) 8",
+            "url": "https://www.wikidata.org/wiki/Q234360",
+            "value": 0.834550142288208
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "katie couric (Q230739) 8",
+            "url": "https://www.wikidata.org/wiki/Q230739",
+            "value": 0.8326389193534851
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "marc twain (Q7245) 8",
+            "url": "https://www.wikidata.org/wiki/Q7245",
+            "value": 0.8275536894798279
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "wong jim (Q709317) 8",
+            "url": "https://www.wikidata.org/wiki/Q709317",
+            "value": 0.4690019190311432
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "peter hyams (Q458766) 8",
+            "url": "https://www.wikidata.org/wiki/Q458766",
+            "value": 0.4408933222293854
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "whitman, walt (Q81438) 8",
+            "url": "https://www.wikidata.org/wiki/Q81438",
+            "value": 0.4383317530155182
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "thomas wolfe jr. (Q216195) 8",
+            "url": "https://www.wikidata.org/wiki/Q216195",
+            "value": 0.43468335270881653
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "murray rothbard (Q297079) 8",
+            "url": "https://www.wikidata.org/wiki/Q297079",
+            "value": 0.4222116470336914
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "frederick quimby (Q555910) 8",
+            "url": "https://www.wikidata.org/wiki/Q555910",
+            "value": 0.4202949106693268
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "pierre philippe yves elliott trudeau (Q8619) 8",
+            "url": "https://www.wikidata.org/wiki/Q8619",
+            "value": 0.3935611844062805
+        }
+    ],
+    "title": "[E] /m/0d8qb, [R] profession- (35), [E] bonds of matrimony (Q8445), [R] type of union- (171), conjunction, [E] french (Q121842), [R] people+ (142), negation, conjunction"
+}

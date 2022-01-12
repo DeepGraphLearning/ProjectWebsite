@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "new zealand at the 2015 commonwealth youth games (Q664) 0 [rank = 1]",
+            "target": "karl-heinz urban (Q132430) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "karl-heinz urban (Q132430) 1 [rank = 1]",
+            "target": "howard shore (Q207773) 4 [rank = 50]",
+            "value": 0.5
+        },
+        {
+            "source": "76th academy awards (Q458646) 2 [rank = 1]",
+            "target": "howard shore (Q207773) 3 [rank = 15]",
+            "value": 0.5
+        },
+        {
+            "source": "howard shore (Q207773) 3 [rank = 15]",
+            "target": "howard shore (Q207773) 4 [rank = 50]",
+            "value": 0.5
+        },
+        {
+            "source": "howard shore (Q207773) 4 [rank = 50]",
+            "target": "golden globe award for best original score 1947-1969 (Q1422140) 5 [rank = 26]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new zealand at the 2015 commonwealth youth games (Q664) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q664",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "karl-heinz urban (Q132430) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q132430",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "76th academy awards (Q458646) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q458646",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "howard shore (Q207773) 3 [rank = 15]",
+            "url": "https://www.wikidata.org/wiki/Q207773",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "howard shore (Q207773) 4 [rank = 50]",
+            "url": "https://www.wikidata.org/wiki/Q207773",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "golden globe award for best original score 1947-1969 (Q1422140) 5 [rank = 26]",
+            "url": "https://www.wikidata.org/wiki/Q1422140",
+            "value": 1
+        }
+    ],
+    "title": "[E] new zealand at the 2015 commonwealth youth games (Q664), [R] nationality- (97), [E] 76th academy awards (Q458646), [R] award winner+ (54), disjunction, [R] award+ (38)"
+}

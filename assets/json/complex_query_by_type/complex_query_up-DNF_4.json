@@ -1,0 +1,2025 @@
+{
+    "edges": [
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "los angeles film critics association award for best actor (Q503034) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "new york film critics circle award for best actor (Q1790281) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "mtv movie award for best comedic performance (Q905247) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "national board of review award for best lead actor (Q1790292) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "screen actors guild life achievement award (Q1631998) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "chicago film critics association award for best actor (Q1071903) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dustin lee hoffman (Q42930) 0",
+            "target": "Q7574756 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "new york film critics circle award for best actor (Q1790281) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.009999993816018238
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "mtv movie award for best comedic performance (Q905247) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.009999984279275287
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.004165700878969558
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.003763506626408397
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild life achievement award (Q1631998) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.0033400728552027137
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.002874100442064542
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.0026728218196446774
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "chicago film critics association award for best actor (Q1071903) 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.002610258699724255
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "Q7574756 1",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.00259498977821343
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "goldon lion award (Q209459) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "jury prize (Q164200) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "goya award for best supporting actress (Q429700) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "goya award for best actress (Q1379415) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "golden bear 1951-1959 (Q154590) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "/m/03ybrwc 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "japan academy prize for best actress (Q1467106) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "european film award for best actress (Q1377738) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2",
+            "target": "los angeles film critics association award for best director (Q505449) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "goldon lion award (Q209459) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "jury prize (Q164200) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.009999995008111107
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.0051466547292473575
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.004907615075090188
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.004576391475430319
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "/m/03ybrwc 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.004194064940644837
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "japan academy prize for best actress (Q1467106) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.004085204509976403
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "european film award for best actress (Q1377738) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.0040614612982840526
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "goldon lion award (Q209459) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "los angeles film critics association award for best actor (Q503034) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "goya award for best supporting actress (Q429700) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "goya award for best actress (Q1379415) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "los angeles film critics association award for best director (Q505449) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "national board of review award for best lead actor (Q1790292) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "golden bear 1951-1959 (Q154590) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "national society of film critics award for best director (Q1315008) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 3",
+            "target": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "value": 0.0035905574949706143
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "goldon lion award (Q209459) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.00999999679625041
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "los angeles film critics association award for best actor (Q503034) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.009999995604157541
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best supporting actress (Q429700) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.005436881659100612
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "goya award for best actress (Q1379415) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.005151383761658135
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "los angeles film critics association award for best director (Q505449) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.005032879597703821
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "national board of review award for best lead actor (Q1790292) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.004965537675495346
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "golden bear 1951-1959 (Q154590) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.004813116085236158
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "national society of film critics award for best director (Q1315008) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.004737936450438129
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "bruce beresford (Q449220) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "donald mcalpine (Q1240097) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "mastroianni, marcello (Q55469) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "w. r. thornton (Q202735) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "james earl jones (Q203960) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "footer films danny boyle (Q134867) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "joe pesce (Q20178) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "frederico fellini (Q7371) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "payne, alexander (Q313566) 5",
+            "value": 0.004734440042053756
+        },
+        {
+            "source": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "target": "sir peter jackson (Q4465) 5",
+            "value": 0.004734440042053756
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dustin lee hoffman (Q42930) 0",
+            "url": "https://www.wikidata.org/wiki/Q42930",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "los angeles film critics association award for best actor (Q503034) 1",
+            "url": "https://www.wikidata.org/wiki/Q503034",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "new york film critics circle award for best actor (Q1790281) 1",
+            "url": "https://www.wikidata.org/wiki/Q1790281",
+            "value": 0.9999994039535522
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mtv movie award for best comedic performance (Q905247) 1",
+            "url": "https://www.wikidata.org/wiki/Q905247",
+            "value": 0.9999984502792358
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tony award for best performance by a leading actor in a play (Q1445521) 1",
+            "url": "https://www.wikidata.org/wiki/Q1445521",
+            "value": 0.41657009720802307
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "national board of review award for best lead actor (Q1790292) 1",
+            "url": "https://www.wikidata.org/wiki/Q1790292",
+            "value": 0.37635067105293274
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "screen actors guild life achievement award (Q1631998) 1",
+            "url": "https://www.wikidata.org/wiki/Q1631998",
+            "value": 0.33400729298591614
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "screen actors guild award for best actor - motion picture (Q654620) 1",
+            "url": "https://www.wikidata.org/wiki/Q654620",
+            "value": 0.28741005063056946
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "prix d'interpr\u00e9tation masculine du festival de cannes (Q586140) 1",
+            "url": "https://www.wikidata.org/wiki/Q586140",
+            "value": 0.2672821879386902
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "chicago film critics association award for best actor (Q1071903) 1",
+            "url": "https://www.wikidata.org/wiki/Q1071903",
+            "value": 0.26102587580680847
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "Q7574756 1",
+            "value": 0.2594989836215973
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wikiportal/film (Q11424) 2",
+            "url": "https://www.wikidata.org/wiki/Q11424",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "goldon lion award (Q209459) 3",
+            "url": "https://www.wikidata.org/wiki/Q209459",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jury prize (Q164200) 3",
+            "url": "https://www.wikidata.org/wiki/Q164200",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "japan academy prize for outstanding foreign language film (Q499789) 3",
+            "url": "https://www.wikidata.org/wiki/Q499789",
+            "value": 0.9999995231628418
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "goya award for best supporting actress (Q429700) 3",
+            "url": "https://www.wikidata.org/wiki/Q429700",
+            "value": 0.5146654844284058
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "goya award for best actress (Q1379415) 3",
+            "url": "https://www.wikidata.org/wiki/Q1379415",
+            "value": 0.49076151847839355
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden bear 1951-1959 (Q154590) 3",
+            "url": "https://www.wikidata.org/wiki/Q154590",
+            "value": 0.4576391577720642
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/03ybrwc 3",
+            "value": 0.4194065034389496
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "japan academy prize for best actress (Q1467106) 3",
+            "url": "https://www.wikidata.org/wiki/Q1467106",
+            "value": 0.4085204601287842
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "european film award for best actress (Q1377738) 3",
+            "url": "https://www.wikidata.org/wiki/Q1377738",
+            "value": 0.4061461389064789
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "los angeles film critics association award for best director (Q505449) 3",
+            "url": "https://www.wikidata.org/wiki/Q505449",
+            "value": 0.359055757522583
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cecil b. demille award 1976\u20132000 (Q640353) 4",
+            "url": "https://www.wikidata.org/wiki/Q640353",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "goldon lion award (Q209459) 4",
+            "url": "https://www.wikidata.org/wiki/Q209459",
+            "value": 0.9999997019767761
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "los angeles film critics association award for best actor (Q503034) 4",
+            "url": "https://www.wikidata.org/wiki/Q503034",
+            "value": 0.9999995827674866
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "goya award for best supporting actress (Q429700) 4",
+            "url": "https://www.wikidata.org/wiki/Q429700",
+            "value": 0.543688178062439
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "goya award for best actress (Q1379415) 4",
+            "url": "https://www.wikidata.org/wiki/Q1379415",
+            "value": 0.5151383876800537
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "los angeles film critics association award for best director (Q505449) 4",
+            "url": "https://www.wikidata.org/wiki/Q505449",
+            "value": 0.5032879710197449
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "national board of review award for best lead actor (Q1790292) 4",
+            "url": "https://www.wikidata.org/wiki/Q1790292",
+            "value": 0.49655377864837646
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "golden bear 1951-1959 (Q154590) 4",
+            "url": "https://www.wikidata.org/wiki/Q154590",
+            "value": 0.4813116192817688
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "national society of film critics award for best director (Q1315008) 4",
+            "url": "https://www.wikidata.org/wiki/Q1315008",
+            "value": 0.4737936556339264
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "tony award for best performance by a leading actor in a play (Q1445521) 4",
+            "url": "https://www.wikidata.org/wiki/Q1445521",
+            "value": 0.47344401478767395
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bruce beresford (Q449220) 5",
+            "url": "https://www.wikidata.org/wiki/Q449220",
+            "value": 0.9966013431549072
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "donald mcalpine (Q1240097) 5",
+            "url": "https://www.wikidata.org/wiki/Q1240097",
+            "value": 0.9961615800857544
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mastroianni, marcello (Q55469) 5",
+            "url": "https://www.wikidata.org/wiki/Q55469",
+            "value": 0.9960663914680481
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "w. r. thornton (Q202735) 5",
+            "url": "https://www.wikidata.org/wiki/Q202735",
+            "value": 0.4293663203716278
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "james earl jones (Q203960) 5",
+            "url": "https://www.wikidata.org/wiki/Q203960",
+            "value": 0.42111942172050476
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "footer films danny boyle (Q134867) 5",
+            "url": "https://www.wikidata.org/wiki/Q134867",
+            "value": 0.41547882556915283
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "joe pesce (Q20178) 5",
+            "url": "https://www.wikidata.org/wiki/Q20178",
+            "value": 0.41001713275909424
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "frederico fellini (Q7371) 5",
+            "url": "https://www.wikidata.org/wiki/Q7371",
+            "value": 0.4067992866039276
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "payne, alexander (Q313566) 5",
+            "url": "https://www.wikidata.org/wiki/Q313566",
+            "value": 0.3949034512042999
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "sir peter jackson (Q4465) 5",
+            "url": "https://www.wikidata.org/wiki/Q4465",
+            "value": 0.3899800479412079
+        }
+    ],
+    "title": "[E] dustin lee hoffman (Q42930), [R] award winner- (95), [E] wikiportal/film (Q11424), [R] disciplines or subjects- (135), disjunction, [R] award winner+ (94)"
+}

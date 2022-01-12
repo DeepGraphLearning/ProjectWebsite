@@ -1,0 +1,307 @@
+{
+    "edges": [
+        {
+            "source": "belgium (Q31) 0",
+            "target": "languages of kiribati (Q710) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "republic of sierra leone (Q1044) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "usofa (Q30) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "toovaloo (Q672) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "island of the moon (Q1019) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "mosambique (Q1029) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "lao please don't rush (Q819) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "the scottish nation (Q22) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "dubai emirate (Q613) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "belgium (Q31) 0",
+            "target": "jumh\u016briyyat al-s\u016bd\u0101n (Q1049) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubai emirate (Q613) 2",
+            "target": "ja (Q17) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubai emirate (Q613) 2",
+            "target": "india proper (Q668) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubai emirate (Q613) 2",
+            "target": "iran (islamic republic of) (Q794) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "dubai emirate (Q613) 2",
+            "target": "the arabia of the sauds (Q851) 3",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "belgium (Q31) 0",
+            "url": "https://www.wikidata.org/wiki/Q31",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "languages of kiribati (Q710) 1",
+            "url": "https://www.wikidata.org/wiki/Q710",
+            "value": 0.9999960660934448
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "republic of sierra leone (Q1044) 1",
+            "url": "https://www.wikidata.org/wiki/Q1044",
+            "value": 0.9999935626983643
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 1",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 0.9991106390953064
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "toovaloo (Q672) 1",
+            "url": "https://www.wikidata.org/wiki/Q672",
+            "value": 0.18221794068813324
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "island of the moon (Q1019) 1",
+            "url": "https://www.wikidata.org/wiki/Q1019",
+            "value": 0.1644010841846466
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mosambique (Q1029) 1",
+            "url": "https://www.wikidata.org/wiki/Q1029",
+            "value": 0.15024986863136292
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lao please don't rush (Q819) 1",
+            "url": "https://www.wikidata.org/wiki/Q819",
+            "value": 0.13765111565589905
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the scottish nation (Q22) 1",
+            "url": "https://www.wikidata.org/wiki/Q22",
+            "value": 0.12779776751995087
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "dubai emirate (Q613) 1",
+            "url": "https://www.wikidata.org/wiki/Q613",
+            "value": 0.12758955359458923
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jumh\u016briyyat al-s\u016bd\u0101n (Q1049) 1",
+            "url": "https://www.wikidata.org/wiki/Q1049",
+            "value": 0.12730400264263153
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dubai emirate (Q613) 2",
+            "url": "https://www.wikidata.org/wiki/Q613",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "ja (Q17) 3",
+            "url": "https://www.wikidata.org/wiki/Q17",
+            "value": 0.9999983310699463
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "india proper (Q668) 3",
+            "url": "https://www.wikidata.org/wiki/Q668",
+            "value": 0.16801269352436066
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "iran (islamic republic of) (Q794) 3",
+            "url": "https://www.wikidata.org/wiki/Q794",
+            "value": 0.13049858808517456
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "the arabia of the sauds (Q851) 3",
+            "url": "https://www.wikidata.org/wiki/Q851",
+            "value": 0.11402037739753723
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cleveland (tv series) (Q34397) 5",
+            "url": "https://www.wikidata.org/wiki/Q34397",
+            "value": 0.81180340051651
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "tis the season to be smurfy (Q1216045) 5",
+            "url": "https://www.wikidata.org/wiki/Q1216045",
+            "value": 0.7941077947616577
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "battelstar galactica (2004) (Q237072) 5",
+            "url": "https://www.wikidata.org/wiki/Q237072",
+            "value": 0.7929889559745789
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "atl\u00e5ntis (Q215287) 5",
+            "url": "https://www.wikidata.org/wiki/Q215287",
+            "value": 0.7731388807296753
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "weeds (tv show) (Q23609) 5",
+            "url": "https://www.wikidata.org/wiki/Q23609",
+            "value": 0.7720856070518494
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "langley falls (Q210311) 5",
+            "url": "https://www.wikidata.org/wiki/Q210311",
+            "value": 0.7527039647102356
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "arthur dietrich (Q808487) 5",
+            "url": "https://www.wikidata.org/wiki/Q808487",
+            "value": 0.7516882419586182
+        }
+    ],
+    "title": "[E] belgium (Q31), [R] exported to- (437), [E] dubai emirate (Q613), [R] exported to- (437), conjunction, [R] country of origin- (371)"
+}

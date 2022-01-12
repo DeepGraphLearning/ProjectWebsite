@@ -1,0 +1,1857 @@
+{
+    "edges": [
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "tulsa (ok) (Q44989) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "terre-haute (Q492478) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "un/locode:usmei (Q118152) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "paducah, il (Q984377) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "nachez, mississippi (Q944044) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "albany (ga) (Q285599) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "city of biloxi (Q490720) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "waukesha (city), wisconsin (Q94919) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 0",
+            "target": "spokane county (washington) (Q485276) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "tulsa (ok) (Q44989) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "terre-haute (Q492478) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "un/locode:usmei (Q118152) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.008708174034025351
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "paducah, il (Q984377) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.008566191004972357
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "nachez, mississippi (Q944044) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.008555536674956898
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "albany (ga) (Q285599) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.008549102949743648
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "city of biloxi (Q490720) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.008379570654491242
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "waukesha (city), wisconsin (Q94919) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.008184773142976165
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 1",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.007866057577742835
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "un/locode:usyum (Q79820) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "fairbanks, al (Q79638) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "scu (Q992830) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "green bay, wi. (Q47430) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "mansfield, oh (Q983698) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "history of valdosta, georgia (Q1010240) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "history of beaumont, texas (Q128282) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "muskogee, ok (Q524233) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "usofa (Q30) 2",
+            "target": "racine, wisconsin (Q40340) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "un/locode:usyum (Q79820) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "un/locode:usyum (Q79820) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "un/locode:usyum (Q79820) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "fairbanks, al (Q79638) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "fairbanks, al (Q79638) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "fairbanks, al (Q79638) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.009999990239739631
+        },
+        {
+            "source": "scu (Q992830) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "scu (Q992830) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "scu (Q992830) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.007811348263665696
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.007811348263665696
+        },
+        {
+            "source": "green bay, wi. (Q47430) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.007811348263665696
+        },
+        {
+            "source": "mansfield, oh (Q983698) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.0076300869666765525
+        },
+        {
+            "source": "mansfield, oh (Q983698) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.0076300869666765525
+        },
+        {
+            "source": "mansfield, oh (Q983698) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.0076300869666765525
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.0075929830761332084
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.0075929830761332084
+        },
+        {
+            "source": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.0075929830761332084
+        },
+        {
+            "source": "history of valdosta, georgia (Q1010240) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.007468571495967247
+        },
+        {
+            "source": "history of valdosta, georgia (Q1010240) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.007468571495967247
+        },
+        {
+            "source": "history of valdosta, georgia (Q1010240) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.007468571495967247
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.007399052216133795
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.007399052216133795
+        },
+        {
+            "source": "history of beaumont, texas (Q128282) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.007399052216133795
+        },
+        {
+            "source": "muskogee, ok (Q524233) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.007369555666233096
+        },
+        {
+            "source": "muskogee, ok (Q524233) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.007369555666233096
+        },
+        {
+            "source": "muskogee, ok (Q524233) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.007369555666233096
+        },
+        {
+            "source": "racine, wisconsin (Q40340) 3",
+            "target": "broad australian (Q44679) 4",
+            "value": 0.007359445526612274
+        },
+        {
+            "source": "racine, wisconsin (Q40340) 3",
+            "target": "folk music (Q43343) 4",
+            "value": 0.007359445526612274
+        },
+        {
+            "source": "racine, wisconsin (Q40340) 3",
+            "target": "indie dance (Q2187392) 4",
+            "value": 0.007359445526612274
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "broad australian (Q44679) 4",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.00999073304256648
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "folk music (Q43343) 4",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.009988015070825473
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "st louis county, mn (Q111549) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "history of monroe county, new york (Q115104) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "flint, mi msa (Q497695) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "spokane county (washington) (Q485276) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "krista allen-moritt (Q240436) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "jeffery gordon (Q313565) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "cupcake land (Q374979) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "joan geraldine bennett (Q128944) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "heather werry (Q271127) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "indie dance (Q2187392) 4",
+            "target": "meckstroth (Q3807787) 5",
+            "value": 0.009986592307986486
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "st louis county, mn (Q111549) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.008274208122323268
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "history of monroe county, new york (Q115104) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.007868075194923385
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "flint, mi msa (Q497695) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.007807341639533449
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "spokane county (washington) (Q485276) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.006347616769054154
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "krista allen-moritt (Q240436) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.0056499348808094485
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "jeffery gordon (Q313565) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.00563352214619095
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "cupcake land (Q374979) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.005187044623783721
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "joan geraldine bennett (Q128944) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.005138491277281387
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "heather werry (Q271127) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.005133775953938602
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "san jose, usa (Q16553) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "history of evanston, illinois (Q462799) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "williamsburg, va. (Q492346) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "new haven,ct (Q49145) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "charolettesville, virginia (Q123766) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "the city beautiful (Q49233) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "falls church county, virginia (Q408744) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "oswego (city), new york (Q1017583) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "history of iowa city, iowa (Q487977) 6",
+            "value": 0.005047957784355628
+        },
+        {
+            "source": "meckstroth (Q3807787) 5",
+            "target": "cornhill utica ny (Q2495519) 6",
+            "value": 0.005047957784355628
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "department of housing and urban development (Q811595) 0",
+            "url": "https://www.wikidata.org/wiki/Q811595",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tulsa (ok) (Q44989) 1",
+            "url": "https://www.wikidata.org/wiki/Q44989",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "terre-haute (Q492478) 1",
+            "url": "https://www.wikidata.org/wiki/Q492478",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "garfield elementary school (santa monica, california) (Q47164) 1",
+            "url": "https://www.wikidata.org/wiki/Q47164",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "un/locode:usmei (Q118152) 1",
+            "url": "https://www.wikidata.org/wiki/Q118152",
+            "value": 0.8708174228668213
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "paducah, il (Q984377) 1",
+            "url": "https://www.wikidata.org/wiki/Q984377",
+            "value": 0.856619119644165
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "nachez, mississippi (Q944044) 1",
+            "url": "https://www.wikidata.org/wiki/Q944044",
+            "value": 0.8555536866188049
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "albany (ga) (Q285599) 1",
+            "url": "https://www.wikidata.org/wiki/Q285599",
+            "value": 0.8549103140830994
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "city of biloxi (Q490720) 1",
+            "url": "https://www.wikidata.org/wiki/Q490720",
+            "value": 0.8379570841789246
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "waukesha (city), wisconsin (Q94919) 1",
+            "url": "https://www.wikidata.org/wiki/Q94919",
+            "value": 0.8184773325920105
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "spokane county (washington) (Q485276) 1",
+            "url": "https://www.wikidata.org/wiki/Q485276",
+            "value": 0.7866057753562927
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 2",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "un/locode:usyum (Q79820) 3",
+            "url": "https://www.wikidata.org/wiki/Q79820",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fairbanks, al (Q79638) 3",
+            "url": "https://www.wikidata.org/wiki/Q79638",
+            "value": 0.9999990463256836
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "scu (Q992830) 3",
+            "url": "https://www.wikidata.org/wiki/Q992830",
+            "value": 0.9999971389770508
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "green bay, wi. (Q47430) 3",
+            "url": "https://www.wikidata.org/wiki/Q47430",
+            "value": 0.781134843826294
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mansfield, oh (Q983698) 3",
+            "url": "https://www.wikidata.org/wiki/Q983698",
+            "value": 0.763008713722229
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "url": "https://www.wikidata.org/wiki/Q329485",
+            "value": 0.7592983245849609
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of valdosta, georgia (Q1010240) 3",
+            "url": "https://www.wikidata.org/wiki/Q1010240",
+            "value": 0.7468571662902832
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "history of beaumont, texas (Q128282) 3",
+            "url": "https://www.wikidata.org/wiki/Q128282",
+            "value": 0.7399052381515503
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "muskogee, ok (Q524233) 3",
+            "url": "https://www.wikidata.org/wiki/Q524233",
+            "value": 0.7369555830955505
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "racine, wisconsin (Q40340) 3",
+            "url": "https://www.wikidata.org/wiki/Q40340",
+            "value": 0.7359445691108704
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "broad australian (Q44679) 4",
+            "url": "https://www.wikidata.org/wiki/Q44679",
+            "value": 0.999073326587677
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "folk music (Q43343) 4",
+            "url": "https://www.wikidata.org/wiki/Q43343",
+            "value": 0.9988015294075012
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "indie dance (Q2187392) 4",
+            "url": "https://www.wikidata.org/wiki/Q2187392",
+            "value": 0.9986592531204224
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "st louis county, mn (Q111549) 5",
+            "url": "https://www.wikidata.org/wiki/Q111549",
+            "value": 0.8274208307266235
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of monroe county, new york (Q115104) 5",
+            "url": "https://www.wikidata.org/wiki/Q115104",
+            "value": 0.7868075370788574
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "flint, mi msa (Q497695) 5",
+            "url": "https://www.wikidata.org/wiki/Q497695",
+            "value": 0.7807341814041138
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "spokane county (washington) (Q485276) 5",
+            "url": "https://www.wikidata.org/wiki/Q485276",
+            "value": 0.6347616910934448
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "krista allen-moritt (Q240436) 5",
+            "url": "https://www.wikidata.org/wiki/Q240436",
+            "value": 0.5649935007095337
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jeffery gordon (Q313565) 5",
+            "url": "https://www.wikidata.org/wiki/Q313565",
+            "value": 0.5633522272109985
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cupcake land (Q374979) 5",
+            "url": "https://www.wikidata.org/wiki/Q374979",
+            "value": 0.5187044739723206
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "joan geraldine bennett (Q128944) 5",
+            "url": "https://www.wikidata.org/wiki/Q128944",
+            "value": 0.513849139213562
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "heather werry (Q271127) 5",
+            "url": "https://www.wikidata.org/wiki/Q271127",
+            "value": 0.5133776068687439
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "meckstroth (Q3807787) 5",
+            "url": "https://www.wikidata.org/wiki/Q3807787",
+            "value": 0.5047957897186279
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "san jose, usa (Q16553) 6",
+            "url": "https://www.wikidata.org/wiki/Q16553",
+            "value": 0.7493208050727844
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of evanston, illinois (Q462799) 6",
+            "url": "https://www.wikidata.org/wiki/Q462799",
+            "value": 0.7357990741729736
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "williamsburg, va. (Q492346) 6",
+            "url": "https://www.wikidata.org/wiki/Q492346",
+            "value": 0.5587629675865173
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "new haven,ct (Q49145) 6",
+            "url": "https://www.wikidata.org/wiki/Q49145",
+            "value": 0.4153897762298584
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "charolettesville, virginia (Q123766) 6",
+            "url": "https://www.wikidata.org/wiki/Q123766",
+            "value": 0.359301894903183
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the city beautiful (Q49233) 6",
+            "url": "https://www.wikidata.org/wiki/Q49233",
+            "value": 0.33262014389038086
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "falls church county, virginia (Q408744) 6",
+            "url": "https://www.wikidata.org/wiki/Q408744",
+            "value": 0.3048849105834961
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "oswego (city), new york (Q1017583) 6",
+            "url": "https://www.wikidata.org/wiki/Q1017583",
+            "value": 0.28188520669937134
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of iowa city, iowa (Q487977) 6",
+            "url": "https://www.wikidata.org/wiki/Q487977",
+            "value": 0.281406968832016
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cornhill utica ny (Q2495519) 6",
+            "url": "https://www.wikidata.org/wiki/Q2495519",
+            "value": 0.22799110412597656
+        }
+    ],
+    "title": "[E] department of housing and urban development (Q811595), [R] source- (241), [E] usofa (Q30), [R] contains+ (30), negation, conjunction, [R] place- (113)"
+}

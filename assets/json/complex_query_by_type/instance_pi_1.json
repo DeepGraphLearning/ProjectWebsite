@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "un/locode:uscae (Q38453) 0 [rank = 1]",
+            "target": "healthcare in south carolina (Q1456) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 1 [rank = 1]",
+            "target": "greenville county, south carolina (Q502273) 2 [rank = 34]",
+            "value": 0.5
+        },
+        {
+            "source": "greenville county, south carolina (Q502273) 2 [rank = 34]",
+            "target": "greenville county, south carolina (Q502273) 5 [rank = 33]",
+            "value": 0.5
+        },
+        {
+            "source": "healthcare in south carolina (Q1456) 3 [rank = 1]",
+            "target": "greenville county, south carolina (Q502273) 4 [rank = 34]",
+            "value": 0.5
+        },
+        {
+            "source": "greenville county, south carolina (Q502273) 4 [rank = 34]",
+            "target": "greenville county, south carolina (Q502273) 5 [rank = 33]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "un/locode:uscae (Q38453) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q38453",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "healthcare in south carolina (Q1456) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1456",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "greenville county, south carolina (Q502273) 2 [rank = 34]",
+            "url": "https://www.wikidata.org/wiki/Q502273",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "healthcare in south carolina (Q1456) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1456",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "greenville county, south carolina (Q502273) 4 [rank = 34]",
+            "url": "https://www.wikidata.org/wiki/Q502273",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "greenville county, south carolina (Q502273) 5 [rank = 33]",
+            "url": "https://www.wikidata.org/wiki/Q502273",
+            "value": 1
+        }
+    ],
+    "title": "[E] un/locode:uscae (Q38453), [R] administrative division+ (388), [R] contains+ (30), [E] healthcare in south carolina (Q1456), [R] contains+ (30), conjunction"
+}

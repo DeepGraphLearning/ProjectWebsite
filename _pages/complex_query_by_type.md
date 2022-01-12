@@ -1,68 +1,39 @@
 ---
 layout: default
-permalink: complex_query_instance
-title: Complex Query (Recall)
-path: "assets/json/complex_query"
+permalink: complex_query_by_type
+title: Complex Query (Precision)
+path: "assets/json/complex_query_by_type"
 ---
 
-<label for="sample">random FB15k-237 test sample:</label>
+[Recall](complex_query_instance_by_type)
+<label for="type">random FB15k-237 test sample:</label>
+<select id="type" onchange="updateFigure()">
+  <option value="1p">1p</option>
+  <option value="2p">2p</option>
+  <option value="3p">3p</option>
+  <option value="2i">2i</option>
+  <option value="3i">3i</option>
+  <option value="pi">pi</option>
+  <option value="ip">ip</option>
+  <option value="2u-DNF">2u</option>
+  <option value="up-DNF">up</option>
+  <option value="2in">2in</option>
+  <option value="3in">3in</option>
+  <option value="inp">inp</option>
+  <option value="pin">pin</option>
+  <option value="pni">pni</option>
+</select>
 <select id="sample" onchange="updateFigure()">
   <option value="0">0</option>
   <option value="1">1</option>
   <option value="2">2</option>
   <option value="3">3</option>
   <option value="4">4</option>
-  <option value="5">5</option>
-  <option value="6">6</option>
-  <option value="7">7</option>
-  <option value="8">8</option>
-  <option value="9">9</option>
-  <option value="10">10</option>
-  <option value="11">11</option>
-  <option value="12">12</option>
-  <option value="13">13</option>
-  <option value="14">14</option>
-  <option value="15">15</option>
-  <option value="16">16</option>
-  <option value="17">17</option>
-  <option value="18">18</option>
-  <option value="19">19</option>
-  <option value="20">20</option>
-  <option value="21">21</option>
-  <option value="22">22</option>
-  <option value="23">23</option>
-  <option value="24">24</option>
-  <option value="25">25</option>
-  <option value="26">26</option>
-  <option value="27">27</option>
-  <option value="28">28</option>
-  <option value="29">29</option>
-  <option value="30">30</option>
-  <option value="31">31</option>
-  <option value="32">32</option>
-  <option value="33">33</option>
-  <option value="34">34</option>
-  <option value="35">35</option>
-  <option value="36">36</option>
-  <option value="37">37</option>
-  <option value="38">38</option>
-  <option value="39">39</option>
-  <option value="40">40</option>
-  <option value="41">41</option>
-  <option value="42">42</option>
-  <option value="43">43</option>
-  <option value="44">44</option>
-  <option value="45">45</option>
-  <option value="46">46</option>
-  <option value="47">47</option>
-  <option value="48">48</option>
-  <option value="49">49</option>
 </select>
 
-We random pick a hard answer and find a random valid grounding for latent entities.
-We visualize the ranking of each grounded entity.
+We visualize the top-3 entities (mostly easy) and top-7 non-easy entities for each variable.
 The entity is labeled as blue if it is an anchor variable or can be reached by traversal.
-Otherwise, it is labeled as green.
+If the entity requires reasoning, it is labeled as green if it is correct, and red otherwise.
 Click on the nodes to redirect to the corresponding Wikidata page.
 
 <div id="container" style="height: 600px"></div>
@@ -78,9 +49,10 @@ Click on the nodes to redirect to the corresponding Wikidata page.
 	myChart.on(myChart.on('click', 'series.sankey', e => window.open(e.data.url)));
 	
     function updateFigure() {
+		var type = document.getElementById("type").value;
 		var sample = document.getElementById("sample").value;
 		myChart.showLoading();
-		$.get("{{ page.path }}/instance_" + sample + ".json", function (graph) {
+		$.get("{{ page.path }}/complex_query_" + type + "_" + sample + ".json", function (graph) {
 			myChart.hideLoading();
 			option = {
 				title: {

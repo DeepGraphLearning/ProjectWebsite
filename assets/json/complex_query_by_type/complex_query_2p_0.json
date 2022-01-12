@@ -1,0 +1,376 @@
+{
+    "edges": [
+        {
+            "source": "k2h2 (Q623336) 0",
+            "target": "filmfare best actor award (Q1414533) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "k2h2 (Q623336) 0",
+            "target": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "k2h2 (Q623336) 0",
+            "target": "filmfare award for best actress (Q1414482) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "k2h2 (Q623336) 0",
+            "target": "filmfare best director awards (Q1113428) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "girish raghunath karnad (Q3518444) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "parathasarathi srinivasan (Q381477) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "muhammad yousuf khan (Q377789) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "vijay anand (hindi film maker) (Q732416) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "aamir khan (Q9557) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "k balachander (Q3520369) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "/m/05b1062 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "shree amma yanger ayyapan (Q270691) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "aishwarya rai bhachchan (Q47059) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfare best actor award (Q1414533) 1",
+            "target": "satish kaushik (Q3121114) 2",
+            "value": 0.009999977126718074
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "girish raghunath karnad (Q3518444) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "parathasarathi srinivasan (Q381477) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "muhammad yousuf khan (Q377789) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "vijay anand (hindi film maker) (Q732416) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "aamir khan (Q9557) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "k balachander (Q3520369) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "/m/05b1062 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "shree amma yanger ayyapan (Q270691) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "aishwarya rai bhachchan (Q47059) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "target": "satish kaushik (Q3121114) 2",
+            "value": 0.009999974742532336
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "girish raghunath karnad (Q3518444) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "parathasarathi srinivasan (Q381477) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "muhammad yousuf khan (Q377789) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "vijay anand (hindi film maker) (Q732416) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "aamir khan (Q9557) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "k balachander (Q3520369) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "/m/05b1062 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "shree amma yanger ayyapan (Q270691) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "aishwarya rai bhachchan (Q47059) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare award for best actress (Q1414482) 1",
+            "target": "satish kaushik (Q3121114) 2",
+            "value": 0.00999997116625373
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "girish raghunath karnad (Q3518444) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "parathasarathi srinivasan (Q381477) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "muhammad yousuf khan (Q377789) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "vijay anand (hindi film maker) (Q732416) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "aamir khan (Q9557) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "k balachander (Q3520369) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "/m/05b1062 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "shree amma yanger ayyapan (Q270691) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "aishwarya rai bhachchan (Q47059) 2",
+            "value": 0.004456435044338514
+        },
+        {
+            "source": "filmfare best director awards (Q1113428) 1",
+            "target": "satish kaushik (Q3121114) 2",
+            "value": 0.004456435044338514
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "k2h2 (Q623336) 0",
+            "url": "https://www.wikidata.org/wiki/Q623336",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "filmfare best actor award (Q1414533) 1",
+            "url": "https://www.wikidata.org/wiki/Q1414533",
+            "value": 0.9999977350234985
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "filmfareawardbestfilm 2011-2030 (Q1414525) 1",
+            "url": "https://www.wikidata.org/wiki/Q1414525",
+            "value": 0.9999974966049194
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "filmfare award for best actress (Q1414482) 1",
+            "url": "https://www.wikidata.org/wiki/Q1414482",
+            "value": 0.9999971389770508
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "filmfare best director awards (Q1113428) 1",
+            "url": "https://www.wikidata.org/wiki/Q1113428",
+            "value": 0.44564351439476013
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "girish raghunath karnad (Q3518444) 2",
+            "url": "https://www.wikidata.org/wiki/Q3518444",
+            "value": 0.9989776611328125
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "parathasarathi srinivasan (Q381477) 2",
+            "url": "https://www.wikidata.org/wiki/Q381477",
+            "value": 0.9981020092964172
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "muhammad yousuf khan (Q377789) 2",
+            "url": "https://www.wikidata.org/wiki/Q377789",
+            "value": 0.9974070191383362
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "vijay anand (hindi film maker) (Q732416) 2",
+            "url": "https://www.wikidata.org/wiki/Q732416",
+            "value": 0.38692599534988403
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "aamir khan (Q9557) 2",
+            "url": "https://www.wikidata.org/wiki/Q9557",
+            "value": 0.34516555070877075
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "k balachander (Q3520369) 2",
+            "url": "https://www.wikidata.org/wiki/Q3520369",
+            "value": 0.33460134267807007
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "/m/05b1062 2",
+            "value": 0.3240579068660736
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "shree amma yanger ayyapan (Q270691) 2",
+            "url": "https://www.wikidata.org/wiki/Q270691",
+            "value": 0.32256677746772766
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "aishwarya rai bhachchan (Q47059) 2",
+            "url": "https://www.wikidata.org/wiki/Q47059",
+            "value": 0.32060983777046204
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "satish kaushik (Q3121114) 2",
+            "url": "https://www.wikidata.org/wiki/Q3121114",
+            "value": 0.3204759359359741
+        }
+    ],
+    "title": "[E] k2h2 (Q623336), [R] award+ (60), [R] award- (39)"
+}

@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "department of housing and urban development (Q811595) 0 [rank = 1]",
+            "target": "history of high point, north carolina (Q631194) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "history of high point, north carolina (Q631194) 1 [rank = 1]",
+            "target": "history of high point, north carolina (Q631194) 5 [rank = 223]",
+            "value": 0.5
+        },
+        {
+            "source": "usofa (Q30) 2 [rank = 1]",
+            "target": "michigan fallen heroes memorial (Q847596) 3 [rank = 25]",
+            "value": 0.5
+        },
+        {
+            "source": "michigan fallen heroes memorial (Q847596) 3 [rank = 25]",
+            "target": "history of high point, north carolina (Q631194) 4 [rank = 95]",
+            "value": 0.5
+        },
+        {
+            "source": "history of high point, north carolina (Q631194) 4 [rank = 95]",
+            "target": "history of high point, north carolina (Q631194) 5 [rank = 223]",
+            "value": 0.5
+        },
+        {
+            "source": "history of high point, north carolina (Q631194) 5 [rank = 223]",
+            "target": "history of high point, north carolina (Q631194) 6 [rank = 620]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "department of housing and urban development (Q811595) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q811595",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of high point, north carolina (Q631194) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q631194",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "michigan fallen heroes memorial (Q847596) 3 [rank = 25]",
+            "url": "https://www.wikidata.org/wiki/Q847596",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of high point, north carolina (Q631194) 4 [rank = 95]",
+            "url": "https://www.wikidata.org/wiki/Q631194",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of high point, north carolina (Q631194) 5 [rank = 223]",
+            "url": "https://www.wikidata.org/wiki/Q631194",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "history of high point, north carolina (Q631194) 6 [rank = 620]",
+            "url": "https://www.wikidata.org/wiki/Q631194",
+            "value": 1
+        }
+    ],
+    "title": "[E] department of housing and urban development (Q811595), [R] source- (241), [E] usofa (Q30), [R] contains+ (30), negation, conjunction, [R] place- (113)"
+}

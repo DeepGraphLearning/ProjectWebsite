@@ -1,0 +1,106 @@
+{
+    "edges": [
+        {
+            "source": "80th oscars (Q215132) 0 [rank = 1]",
+            "target": "academy award for best actress (Q103618) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "academy award for best actress (Q103618) 1 [rank = 1]",
+            "target": "doris day album (Q104372) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "doris day album (Q104372) 2 [rank = 1]",
+            "target": "doris day album (Q104372) 6 [rank = 104]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/05zppz 3 [rank = 1]",
+            "target": "billy cristal (Q186485) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "billy cristal (Q186485) 4 [rank = 1]",
+            "target": "doris day album (Q104372) 5 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "doris day album (Q104372) 5 [rank = 1]",
+            "target": "doris day album (Q104372) 6 [rank = 104]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "80th oscars (Q215132) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q215132",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "academy award for best actress (Q103618) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q103618",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "doris day album (Q104372) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q104372",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/05zppz 3 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "billy cristal (Q186485) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q186485",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "doris day album (Q104372) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q104372",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "doris day album (Q104372) 6 [rank = 104]",
+            "url": "https://www.wikidata.org/wiki/Q104372",
+            "value": 1
+        }
+    ],
+    "title": "[E] 80th oscars (Q215132), [R] ceremony- (21), [R] award- (39), [E] /m/05zppz, [R] gender- (87), negation, conjunction"
+}

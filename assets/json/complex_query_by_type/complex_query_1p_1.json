@@ -1,0 +1,167 @@
+{
+    "edges": [
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "never say never again (film) (Q180279) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "carrie (film) (Q162672) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "the roger rabbit (Q379873) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "she's having a baby (Q910178) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "mickey's magical christmas: snowed in at the house of mouse (Q656396) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "terror in the aisles (Q3984794) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "think like a man (Q548148) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "harry block (Q500460) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "i love you, man (Q958257) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "amy irving (Q235020) 0",
+            "target": "solitary man (film) (Q1753498) 1",
+            "value": 0.009999999776482582
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "amy irving (Q235020) 0",
+            "url": "https://www.wikidata.org/wiki/Q235020",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "never say never again (film) (Q180279) 1",
+            "url": "https://www.wikidata.org/wiki/Q180279",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "carrie (film) (Q162672) 1",
+            "url": "https://www.wikidata.org/wiki/Q162672",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the roger rabbit (Q379873) 1",
+            "url": "https://www.wikidata.org/wiki/Q379873",
+            "value": 0.9999998807907104
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "she's having a baby (Q910178) 1",
+            "url": "https://www.wikidata.org/wiki/Q910178",
+            "value": 0.37613141536712646
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "mickey's magical christmas: snowed in at the house of mouse (Q656396) 1",
+            "url": "https://www.wikidata.org/wiki/Q656396",
+            "value": 0.29024428129196167
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "terror in the aisles (Q3984794) 1",
+            "url": "https://www.wikidata.org/wiki/Q3984794",
+            "value": 0.2813150882720947
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "think like a man (Q548148) 1",
+            "url": "https://www.wikidata.org/wiki/Q548148",
+            "value": 0.2730344533920288
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "harry block (Q500460) 1",
+            "url": "https://www.wikidata.org/wiki/Q500460",
+            "value": 0.27178260684013367
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "i love you, man (Q958257) 1",
+            "url": "https://www.wikidata.org/wiki/Q958257",
+            "value": 0.26769694685935974
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "solitary man (film) (Q1753498) 1",
+            "url": "https://www.wikidata.org/wiki/Q1753498",
+            "value": 0.26653629541397095
+        }
+    ],
+    "title": "[E] amy irving (Q235020), [R] film+ (12)"
+}

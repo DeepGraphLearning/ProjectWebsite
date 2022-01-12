@@ -1,0 +1,106 @@
+{
+    "edges": [
+        {
+            "source": "theprodigy (Q7256860) 0 [rank = 1]",
+            "target": "post punk (Q598929) 1 [rank = 21]",
+            "value": 0.5
+        },
+        {
+            "source": "post punk (Q598929) 1 [rank = 21]",
+            "target": "kosmische musik (Q320592) 2 [rank = 13]",
+            "value": 0.5
+        },
+        {
+            "source": "kosmische musik (Q320592) 2 [rank = 13]",
+            "target": "kosmische musik (Q320592) 6 [rank = 28]",
+            "value": 0.5
+        },
+        {
+            "source": "fulldress drum and bass (Q188994) 3 [rank = 1]",
+            "target": "/m/08cyft 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/08cyft 4 [rank = 1]",
+            "target": "kosmische musik (Q320592) 5 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "kosmische musik (Q320592) 5 [rank = 2]",
+            "target": "kosmische musik (Q320592) 6 [rank = 28]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "theprodigy (Q7256860) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q7256860",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "post punk (Q598929) 1 [rank = 21]",
+            "url": "https://www.wikidata.org/wiki/Q598929",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "kosmische musik (Q320592) 2 [rank = 13]",
+            "url": "https://www.wikidata.org/wiki/Q320592",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fulldress drum and bass (Q188994) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q188994",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08cyft 4 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kosmische musik (Q320592) 5 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q320592",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "kosmische musik (Q320592) 6 [rank = 28]",
+            "url": "https://www.wikidata.org/wiki/Q320592",
+            "value": 1
+        }
+    ],
+    "title": "[E] theprodigy (Q7256860), [R] artists- (41), [R] parent genre+ (104), [E] fulldress drum and bass (Q188994), [R] parent genre+ (104), negation, conjunction"
+}

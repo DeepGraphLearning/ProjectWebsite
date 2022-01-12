@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "usofa (Q30) 0 [rank = 1]",
+            "target": "los angeles city college (Q1727138) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "los angeles city college (Q1727138) 1 [rank = 1]",
+            "target": "the thunder of imperial names (Q235077) 2 [rank = 699]",
+            "value": 0.5
+        },
+        {
+            "source": "the thunder of imperial names (Q235077) 2 [rank = 699]",
+            "target": "the thunder of imperial names (Q235077) 6 [rank = 316]",
+            "value": 0.5
+        },
+        {
+            "source": "malcolm x (1992 movie) (Q923925) 3 [rank = 1]",
+            "target": "delroy lindo (Q362559) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "delroy lindo (Q362559) 4 [rank = 1]",
+            "target": "the thunder of imperial names (Q235077) 5 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "the thunder of imperial names (Q235077) 5 [rank = 1]",
+            "target": "the thunder of imperial names (Q235077) 6 [rank = 316]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "los angeles city college (Q1727138) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1727138",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the thunder of imperial names (Q235077) 2 [rank = 699]",
+            "url": "https://www.wikidata.org/wiki/Q235077",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "malcolm x (1992 movie) (Q923925) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q923925",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "delroy lindo (Q362559) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q362559",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the thunder of imperial names (Q235077) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q235077",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the thunder of imperial names (Q235077) 6 [rank = 316]",
+            "url": "https://www.wikidata.org/wiki/Q235077",
+            "value": 1
+        }
+    ],
+    "title": "[E] usofa (Q30), [R] country- (33), [R] student+ (44), [E] malcolm x (1992 movie) (Q923925), [R] film- (13), negation, conjunction"
+}

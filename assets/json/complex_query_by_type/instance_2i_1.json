@@ -1,0 +1,77 @@
+{
+    "edges": [
+        {
+            "source": "science fiction literature (Q24925) 0 [rank = 1]",
+            "target": "'' priest '' (Q967683) 1 [rank = 82]",
+            "value": 0.5
+        },
+        {
+            "source": "'' priest '' (Q967683) 1 [rank = 82]",
+            "target": "'' priest '' (Q967683) 4 [rank = 28]",
+            "value": 0.5
+        },
+        {
+            "source": "warnerbros (Q126399) 2 [rank = 1]",
+            "target": "'' priest '' (Q967683) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "'' priest '' (Q967683) 3 [rank = 1]",
+            "target": "'' priest '' (Q967683) 4 [rank = 28]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "science fiction literature (Q24925) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q24925",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "'' priest '' (Q967683) 1 [rank = 82]",
+            "url": "https://www.wikidata.org/wiki/Q967683",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "warnerbros (Q126399) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q126399",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "'' priest '' (Q967683) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q967683",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "'' priest '' (Q967683) 4 [rank = 28]",
+            "url": "https://www.wikidata.org/wiki/Q967683",
+            "value": 1
+        }
+    ],
+    "title": "[E] science fiction literature (Q24925), [R] genre- (63), [E] warnerbros (Q126399), [R] film+ (64), conjunction"
+}

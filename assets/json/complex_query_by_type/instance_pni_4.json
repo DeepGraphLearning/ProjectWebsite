@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "american actor (Q33999) 0 [rank = 1]",
+            "target": "american actor (Q33999) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "american actor (Q33999) 1 [rank = 1]",
+            "target": "mark wahlberg (Q164119) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "mark wahlberg (Q164119) 2 [rank = 1]",
+            "target": "john maxwell coetzee (Q43293) 3 [rank = 3]",
+            "value": 0.5
+        },
+        {
+            "source": "john maxwell coetzee (Q43293) 3 [rank = 3]",
+            "target": "john maxwell coetzee (Q43293) 6 [rank = 320]",
+            "value": 0.5
+        },
+        {
+            "source": "vegitarianism (Q83364) 4 [rank = 1]",
+            "target": "john maxwell coetzee (Q43293) 5 [rank = 564]",
+            "value": 0.5
+        },
+        {
+            "source": "john maxwell coetzee (Q43293) 5 [rank = 564]",
+            "target": "john maxwell coetzee (Q43293) 6 [rank = 320]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "american actor (Q33999) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q33999",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "american actor (Q33999) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q33999",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mark wahlberg (Q164119) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q164119",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "john maxwell coetzee (Q43293) 3 [rank = 3]",
+            "url": "https://www.wikidata.org/wiki/Q43293",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "vegitarianism (Q83364) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q83364",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "john maxwell coetzee (Q43293) 5 [rank = 564]",
+            "url": "https://www.wikidata.org/wiki/Q43293",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "john maxwell coetzee (Q43293) 6 [rank = 320]",
+            "url": "https://www.wikidata.org/wiki/Q43293",
+            "value": 1
+        }
+    ],
+    "title": "[E] american actor (Q33999), [R] split to- (457), [R] profession- (35), negation, [E] vegitarianism (Q83364), [R] diet- (401), conjunction"
+}

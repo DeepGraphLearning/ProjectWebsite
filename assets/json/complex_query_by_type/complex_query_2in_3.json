@@ -1,0 +1,1256 @@
+{
+    "edges": [
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "history of jefferson parish, louisiana (Q498276) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "history of hattiesburg, mississippi (Q384464) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "cameron county, tx (Q27051) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "alton, ill. (Q443852) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "cupcake land (Q374979) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "un/locode:usgwo (Q986376) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "lake forest, il (Q575355) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "marhsall texas (Q52996) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "u.s. central time (Q2086913) 0",
+            "target": "san angelo, tx (Q925598) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of jefferson parish, louisiana (Q498276) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "history of hattiesburg, mississippi (Q384464) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.009999997392296844
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "cameron county, tx (Q27051) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.007279208139794879
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "alton, ill. (Q443852) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.007158135015708167
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "cupcake land (Q374979) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.0068743644608326715
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "un/locode:usgwo (Q986376) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.006840591873811364
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "lake forest, il (Q575355) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.006817006912447354
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "marhsall texas (Q52996) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "usofa (Q30) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "san angelo, tx (Q925598) 1",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.0067456732672674935
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "metropolitan government of nashville and davidson county, tennessee (Q1177705) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "history of pulaski county, arkansas (Q61160) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "niagara county, new york (Q114969) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "jefferson county, oh (Q114140) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "scott county, ia (Q485474) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "williamsport, pa msa (Q495633) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "fredericksburg county, virginia (Q492342) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "oklahoma- county, oklahoma (Q485038) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "dekalb county board of comissioners (Q486398) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "currency of the united states (Q4917) 2",
+            "target": "nescopeck pass, pennsylvania (Q501292) 3",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "metropolitan government of nashville and davidson county, tennessee (Q1177705) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "metropolitan government of nashville and davidson county, tennessee (Q1177705) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "metropolitan government of nashville and davidson county, tennessee (Q1177705) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "history of pulaski county, arkansas (Q61160) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "history of pulaski county, arkansas (Q61160) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "history of pulaski county, arkansas (Q61160) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "niagara county, new york (Q114969) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "niagara county, new york (Q114969) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "niagara county, new york (Q114969) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "jefferson county, oh (Q114140) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.00693984791025859
+        },
+        {
+            "source": "jefferson county, oh (Q114140) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.00693984791025859
+        },
+        {
+            "source": "jefferson county, oh (Q114140) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.00693984791025859
+        },
+        {
+            "source": "scott county, ia (Q485474) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.0064266751760242435
+        },
+        {
+            "source": "scott county, ia (Q485474) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.0064266751760242435
+        },
+        {
+            "source": "scott county, ia (Q485474) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.0064266751760242435
+        },
+        {
+            "source": "williamsport, pa msa (Q495633) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.006224482516397178
+        },
+        {
+            "source": "williamsport, pa msa (Q495633) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.006224482516397178
+        },
+        {
+            "source": "williamsport, pa msa (Q495633) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.006224482516397178
+        },
+        {
+            "source": "fredericksburg county, virginia (Q492342) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.006032743319137168
+        },
+        {
+            "source": "fredericksburg county, virginia (Q492342) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.006032743319137168
+        },
+        {
+            "source": "fredericksburg county, virginia (Q492342) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.006032743319137168
+        },
+        {
+            "source": "oklahoma- county, oklahoma (Q485038) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.006017532810176918
+        },
+        {
+            "source": "oklahoma- county, oklahoma (Q485038) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.006017532810176918
+        },
+        {
+            "source": "oklahoma- county, oklahoma (Q485038) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.006017532810176918
+        },
+        {
+            "source": "dekalb county board of comissioners (Q486398) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.0060030083506626974
+        },
+        {
+            "source": "dekalb county board of comissioners (Q486398) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.0060030083506626974
+        },
+        {
+            "source": "dekalb county board of comissioners (Q486398) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.0060030083506626974
+        },
+        {
+            "source": "nescopeck pass, pennsylvania (Q501292) 3",
+            "target": "/m/07tf8 4",
+            "value": 0.005975378618194638
+        },
+        {
+            "source": "nescopeck pass, pennsylvania (Q501292) 3",
+            "target": "land grant colleges (Q615150) 4",
+            "value": 0.005975378618194638
+        },
+        {
+            "source": "nescopeck pass, pennsylvania (Q501292) 3",
+            "target": "atlantic time zone (Q2085376) 4",
+            "value": 0.005975378618194638
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "usofa (Q30) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "/m/07tf8 4",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.009999516382824258
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "usofa (Q30) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "land grant colleges (Q615150) 4",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.00999949373305975
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "west nashville (Q23197) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "religion in texas (Q1439) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "usofa (Q30) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "alton, ill. (Q443852) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "san salvador (Q3110) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "highland park, illinois, u.s.a. (Q576671) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "lake forest, il (Q575355) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "un/locode:gtgua (Q1555) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "un/locode:uspia (Q233129) 5",
+            "value": 0.009999454393995078
+        },
+        {
+            "source": "atlantic time zone (Q2085376) 4",
+            "target": "waukegan (Q578289) 5",
+            "value": 0.009999454393995078
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "u.s. central time (Q2086913) 0",
+            "url": "https://www.wikidata.org/wiki/Q2086913",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of jefferson parish, louisiana (Q498276) 1",
+            "url": "https://www.wikidata.org/wiki/Q498276",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mcallen-edinburg-mission, tx metropolitan statistical area (Q26519) 1",
+            "url": "https://www.wikidata.org/wiki/Q26519",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of hattiesburg, mississippi (Q384464) 1",
+            "url": "https://www.wikidata.org/wiki/Q384464",
+            "value": 0.9999997615814209
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cameron county, tx (Q27051) 1",
+            "url": "https://www.wikidata.org/wiki/Q27051",
+            "value": 0.7279208302497864
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "alton, ill. (Q443852) 1",
+            "url": "https://www.wikidata.org/wiki/Q443852",
+            "value": 0.7158135175704956
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "cupcake land (Q374979) 1",
+            "url": "https://www.wikidata.org/wiki/Q374979",
+            "value": 0.6874364614486694
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "un/locode:usgwo (Q986376) 1",
+            "url": "https://www.wikidata.org/wiki/Q986376",
+            "value": 0.684059202671051
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lake forest, il (Q575355) 1",
+            "url": "https://www.wikidata.org/wiki/Q575355",
+            "value": 0.6817007064819336
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "marhsall texas (Q52996) 1",
+            "url": "https://www.wikidata.org/wiki/Q52996",
+            "value": 0.6745673418045044
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "san angelo, tx (Q925598) 1",
+            "url": "https://www.wikidata.org/wiki/Q925598",
+            "value": 0.6745673418045044
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "currency of the united states (Q4917) 2",
+            "url": "https://www.wikidata.org/wiki/Q4917",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "metropolitan government of nashville and davidson county, tennessee (Q1177705) 3",
+            "url": "https://www.wikidata.org/wiki/Q1177705",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "history of pulaski county, arkansas (Q61160) 3",
+            "url": "https://www.wikidata.org/wiki/Q61160",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "niagara county, new york (Q114969) 3",
+            "url": "https://www.wikidata.org/wiki/Q114969",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "jefferson county, oh (Q114140) 3",
+            "url": "https://www.wikidata.org/wiki/Q114140",
+            "value": 0.6939848065376282
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "scott county, ia (Q485474) 3",
+            "url": "https://www.wikidata.org/wiki/Q485474",
+            "value": 0.6426675319671631
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "williamsport, pa msa (Q495633) 3",
+            "url": "https://www.wikidata.org/wiki/Q495633",
+            "value": 0.6224482655525208
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "fredericksburg county, virginia (Q492342) 3",
+            "url": "https://www.wikidata.org/wiki/Q492342",
+            "value": 0.6032743453979492
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "oklahoma- county, oklahoma (Q485038) 3",
+            "url": "https://www.wikidata.org/wiki/Q485038",
+            "value": 0.601753294467926
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "dekalb county board of comissioners (Q486398) 3",
+            "url": "https://www.wikidata.org/wiki/Q486398",
+            "value": 0.6003008484840393
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "nescopeck pass, pennsylvania (Q501292) 3",
+            "url": "https://www.wikidata.org/wiki/Q501292",
+            "value": 0.5975378751754761
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/07tf8 4",
+            "value": 0.9999516606330872
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "land grant colleges (Q615150) 4",
+            "url": "https://www.wikidata.org/wiki/Q615150",
+            "value": 0.9999493956565857
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "atlantic time zone (Q2085376) 4",
+            "url": "https://www.wikidata.org/wiki/Q2085376",
+            "value": 0.9999454617500305
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "west nashville (Q23197) 5",
+            "url": "https://www.wikidata.org/wiki/Q23197",
+            "value": 0.9959502816200256
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "religion in texas (Q1439) 5",
+            "url": "https://www.wikidata.org/wiki/Q1439",
+            "value": 0.9951450228691101
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 5",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 0.9947349429130554
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "alton, ill. (Q443852) 5",
+            "url": "https://www.wikidata.org/wiki/Q443852",
+            "value": 0.6905593276023865
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "san salvador (Q3110) 5",
+            "url": "https://www.wikidata.org/wiki/Q3110",
+            "value": 0.6543768644332886
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "highland park, illinois, u.s.a. (Q576671) 5",
+            "url": "https://www.wikidata.org/wiki/Q576671",
+            "value": 0.6263844966888428
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "lake forest, il (Q575355) 5",
+            "url": "https://www.wikidata.org/wiki/Q575355",
+            "value": 0.6248586177825928
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "un/locode:gtgua (Q1555) 5",
+            "url": "https://www.wikidata.org/wiki/Q1555",
+            "value": 0.6188307404518127
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "un/locode:uspia (Q233129) 5",
+            "url": "https://www.wikidata.org/wiki/Q233129",
+            "value": 0.6167669892311096
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "waukegan (Q578289) 5",
+            "url": "https://www.wikidata.org/wiki/Q578289",
+            "value": 0.6093096733093262
+        }
+    ],
+    "title": "[E] u.s. central time (Q2086913), [R] time zones- (309), [E] currency of the united states (Q4917), [R] currency- (67), negation, conjunction"
+}

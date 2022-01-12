@@ -1,0 +1,105 @@
+{
+    "edges": [
+        {
+            "source": "multiple myeloma (Q467635) 0 [rank = 1]",
+            "target": "/m/05zppz 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/05zppz 1 [rank = 1]",
+            "target": "erik gunden (Q1369625) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "erik gunden (Q1369625) 2 [rank = 1]",
+            "target": "shirley ann russell (Q7498688) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "shirley ann russell (Q7498688) 3 [rank = 1]",
+            "target": "shirley ann russell (Q7498688) 6 [rank = 13]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/0d7wh 4 [rank = 1]",
+            "target": "shirley ann russell (Q7498688) 5 [rank = 21]",
+            "value": 0.5
+        },
+        {
+            "source": "shirley ann russell (Q7498688) 5 [rank = 21]",
+            "target": "shirley ann russell (Q7498688) 6 [rank = 13]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "multiple myeloma (Q467635) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q467635",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/05zppz 1 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "erik gunden (Q1369625) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1369625",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "shirley ann russell (Q7498688) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q7498688",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0d7wh 4 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "shirley ann russell (Q7498688) 5 [rank = 21]",
+            "url": "https://www.wikidata.org/wiki/Q7498688",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "shirley ann russell (Q7498688) 6 [rank = 13]",
+            "url": "https://www.wikidata.org/wiki/Q7498688",
+            "value": 1
+        }
+    ],
+    "title": "[E] multiple myeloma (Q467635), [R] risk factors+ (458), [R] gender- (87), negation, [E] /m/0d7wh, [R] people+ (142), conjunction"
+}

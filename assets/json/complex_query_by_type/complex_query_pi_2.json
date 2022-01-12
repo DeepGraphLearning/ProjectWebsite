@@ -1,0 +1,1027 @@
+{
+    "edges": [
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "timothy leary terminus (Q211731) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "david h. petraeus (Q28591) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "edgar allan poe and the stories he has written (Q16867) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "22nd president of the united states (Q35171) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "t. roosevelt (Q33866) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "monroe, james (Q11815) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "d. clinton (Q527462) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "chris elliot (Q377424) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "gary robert durdin (Q355038) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "cullum number (Q9219) 0",
+            "target": "charles van dell johnson (Q436638) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "timothy leary terminus (Q211731) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.009999964013696516
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "david h. petraeus (Q28591) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.009999933019281926
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "edgar allan poe and the stories he has written (Q16867) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.009999927058817581
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "22nd president of the united states (Q35171) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.003673813856978403
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "t. roosevelt (Q33866) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.003490524511996107
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "monroe, james (Q11815) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.0034642442286555997
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "d. clinton (Q527462) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.0034259249994324503
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "chris elliot (Q377424) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.0033961885408418935
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "gary robert durdin (Q355038) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.003382097705108722
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "c.i.a (Q37230) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "usa space agency (Q23548) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "energy conservation investment program (Q11209) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "university of california extension - cmil (Q168756) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "king's college (new york) (Q49088) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "department of housing and urban development (Q811595) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "hqusaf (Q1465252) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "un.int (Q1065) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "charles van dell johnson (Q436638) 1",
+            "target": "classics building (Q131252) 2",
+            "value": 0.0033682429037635853
+        },
+        {
+            "source": "c.i.a (Q37230) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.009710411212360603
+        },
+        {
+            "source": "c.i.a (Q37230) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.009710411212360603
+        },
+        {
+            "source": "usa space agency (Q23548) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.00958790817287769
+        },
+        {
+            "source": "usa space agency (Q23548) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.00958790817287769
+        },
+        {
+            "source": "energy conservation investment program (Q11209) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0031312247410887895
+        },
+        {
+            "source": "energy conservation investment program (Q11209) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0031312247410887895
+        },
+        {
+            "source": "university of california extension - cmil (Q168756) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0027239593254634875
+        },
+        {
+            "source": "university of california extension - cmil (Q168756) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0027239593254634875
+        },
+        {
+            "source": "king's college (new york) (Q49088) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.002628027141957867
+        },
+        {
+            "source": "king's college (new york) (Q49088) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.002628027141957867
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0024386152080010937
+        },
+        {
+            "source": "department of housing and urban development (Q811595) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0024386152080010937
+        },
+        {
+            "source": "hqusaf (Q1465252) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.002425875907557995
+        },
+        {
+            "source": "hqusaf (Q1465252) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.002425875907557995
+        },
+        {
+            "source": "un.int (Q1065) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0023332818821084067
+        },
+        {
+            "source": "un.int (Q1065) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0023332818821084067
+        },
+        {
+            "source": "classics building (Q131252) 2",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0023196495550949214
+        },
+        {
+            "source": "classics building (Q131252) 2",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0023196495550949214
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "hqusaf (Q1465252) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "espn hd (Q217776) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "king's college (new york) (Q49088) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "microsoft logo (Q2283) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "harvard university concord field station (Q13371) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "inquira (Q19900) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "dartmouth (Q49116) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "buzz aldren (Q2252) 3",
+            "target": "cornell university historic sites (Q49115) 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "hqusaf (Q1465252) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "hqusaf (Q1465252) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.009999996200203976
+        },
+        {
+            "source": "espn hd (Q217776) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.003923544199983531
+        },
+        {
+            "source": "espn hd (Q217776) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.003923544199983531
+        },
+        {
+            "source": "king's college (new york) (Q49088) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.003724493897158787
+        },
+        {
+            "source": "king's college (new york) (Q49088) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.003724493897158787
+        },
+        {
+            "source": "microsoft logo (Q2283) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.003592945555010163
+        },
+        {
+            "source": "microsoft logo (Q2283) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.003592945555010163
+        },
+        {
+            "source": "harvard university concord field station (Q13371) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0035128920485177906
+        },
+        {
+            "source": "harvard university concord field station (Q13371) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0035128920485177906
+        },
+        {
+            "source": "inquira (Q19900) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.003453398567734689
+        },
+        {
+            "source": "inquira (Q19900) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.003453398567734689
+        },
+        {
+            "source": "dartmouth (Q49116) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.0034501066032773253
+        },
+        {
+            "source": "dartmouth (Q49116) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.0034501066032773253
+        },
+        {
+            "source": "cornell university historic sites (Q49115) 4",
+            "target": "hqusaf (Q1465252) 5",
+            "value": 0.003435467404824477
+        },
+        {
+            "source": "cornell university historic sites (Q49115) 4",
+            "target": "usa space agency (Q23548) 5",
+            "value": 0.003435467404824477
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "cullum number (Q9219) 0",
+            "url": "https://www.wikidata.org/wiki/Q9219",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "timothy leary terminus (Q211731) 1",
+            "url": "https://www.wikidata.org/wiki/Q211731",
+            "value": 0.9999964237213135
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "david h. petraeus (Q28591) 1",
+            "url": "https://www.wikidata.org/wiki/Q28591",
+            "value": 0.9999933242797852
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "edgar allan poe and the stories he has written (Q16867) 1",
+            "url": "https://www.wikidata.org/wiki/Q16867",
+            "value": 0.9999927282333374
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "22nd president of the united states (Q35171) 1",
+            "url": "https://www.wikidata.org/wiki/Q35171",
+            "value": 0.36738139390945435
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "t. roosevelt (Q33866) 1",
+            "url": "https://www.wikidata.org/wiki/Q33866",
+            "value": 0.34905245900154114
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "monroe, james (Q11815) 1",
+            "url": "https://www.wikidata.org/wiki/Q11815",
+            "value": 0.3464244306087494
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "d. clinton (Q527462) 1",
+            "url": "https://www.wikidata.org/wiki/Q527462",
+            "value": 0.3425925076007843
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "chris elliot (Q377424) 1",
+            "url": "https://www.wikidata.org/wiki/Q377424",
+            "value": 0.33961886167526245
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "gary robert durdin (Q355038) 1",
+            "url": "https://www.wikidata.org/wiki/Q355038",
+            "value": 0.33820977807044983
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "charles van dell johnson (Q436638) 1",
+            "url": "https://www.wikidata.org/wiki/Q436638",
+            "value": 0.33682429790496826
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "c.i.a (Q37230) 2",
+            "url": "https://www.wikidata.org/wiki/Q37230",
+            "value": 0.9710411429405212
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usa space agency (Q23548) 2",
+            "url": "https://www.wikidata.org/wiki/Q23548",
+            "value": 0.9587908387184143
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "energy conservation investment program (Q11209) 2",
+            "url": "https://www.wikidata.org/wiki/Q11209",
+            "value": 0.3131224811077118
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "university of california extension - cmil (Q168756) 2",
+            "url": "https://www.wikidata.org/wiki/Q168756",
+            "value": 0.27239593863487244
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "king's college (new york) (Q49088) 2",
+            "url": "https://www.wikidata.org/wiki/Q49088",
+            "value": 0.26280272006988525
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "department of housing and urban development (Q811595) 2",
+            "url": "https://www.wikidata.org/wiki/Q811595",
+            "value": 0.24386152625083923
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hqusaf (Q1465252) 2",
+            "url": "https://www.wikidata.org/wiki/Q1465252",
+            "value": 0.2425875961780548
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "un.int (Q1065) 2",
+            "url": "https://www.wikidata.org/wiki/Q1065",
+            "value": 0.2333281934261322
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "classics building (Q131252) 2",
+            "url": "https://www.wikidata.org/wiki/Q131252",
+            "value": 0.23196496069431305
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "buzz aldren (Q2252) 3",
+            "url": "https://www.wikidata.org/wiki/Q2252",
+            "value": 1.0
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hqusaf (Q1465252) 4",
+            "url": "https://www.wikidata.org/wiki/Q1465252",
+            "value": 0.9999996423721313
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "espn hd (Q217776) 4",
+            "url": "https://www.wikidata.org/wiki/Q217776",
+            "value": 0.39235442876815796
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "king's college (new york) (Q49088) 4",
+            "url": "https://www.wikidata.org/wiki/Q49088",
+            "value": 0.3724493980407715
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "microsoft logo (Q2283) 4",
+            "url": "https://www.wikidata.org/wiki/Q2283",
+            "value": 0.3592945635318756
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "harvard university concord field station (Q13371) 4",
+            "url": "https://www.wikidata.org/wiki/Q13371",
+            "value": 0.35128921270370483
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "inquira (Q19900) 4",
+            "url": "https://www.wikidata.org/wiki/Q19900",
+            "value": 0.3453398644924164
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "dartmouth (Q49116) 4",
+            "url": "https://www.wikidata.org/wiki/Q49116",
+            "value": 0.3450106680393219
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "cornell university historic sites (Q49115) 4",
+            "url": "https://www.wikidata.org/wiki/Q49115",
+            "value": 0.3435467481613159
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "hqusaf (Q1465252) 5",
+            "url": "https://www.wikidata.org/wiki/Q1465252",
+            "value": 0.24258750677108765
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "usa space agency (Q23548) 5",
+            "url": "https://www.wikidata.org/wiki/Q23548",
+            "value": 0.1360950767993927
+        }
+    ],
+    "title": "[E] cullum number (Q9219), [R] student+ (44), [R] organizations founded+ (452), [E] buzz aldren (Q2252), [R] company+ (318), conjunction"
+}

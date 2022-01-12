@@ -1,0 +1,536 @@
+{
+    "edges": [
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "/m/01445t 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "american actor (Q33999) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "scenario writer (Q28389) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "voice artist (Q2405480) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "movie direction (Q2526255) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "political leader (Q82955) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "list of football players (Q937857) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "djoko (Q5812) 0",
+            "target": "teenage musicians (Q639669) 1",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "/m/01445t 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "/m/01445t 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "/m/01445t 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.009999987855553893
+        },
+        {
+            "source": "american actor (Q33999) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.0018959423475874426
+        },
+        {
+            "source": "american actor (Q33999) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.0018959423475874426
+        },
+        {
+            "source": "american actor (Q33999) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.0018959423475874426
+        },
+        {
+            "source": "scenario writer (Q28389) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.001717587224000977
+        },
+        {
+            "source": "scenario writer (Q28389) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.001717587224000977
+        },
+        {
+            "source": "scenario writer (Q28389) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.001717587224000977
+        },
+        {
+            "source": "voice artist (Q2405480) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.001679244301932059
+        },
+        {
+            "source": "voice artist (Q2405480) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.001679244301932059
+        },
+        {
+            "source": "voice artist (Q2405480) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.001679244301932059
+        },
+        {
+            "source": "movie direction (Q2526255) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.001597140842740069
+        },
+        {
+            "source": "movie direction (Q2526255) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.001597140842740069
+        },
+        {
+            "source": "movie direction (Q2526255) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.001597140842740069
+        },
+        {
+            "source": "political leader (Q82955) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.001562737191556307
+        },
+        {
+            "source": "political leader (Q82955) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.001562737191556307
+        },
+        {
+            "source": "political leader (Q82955) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.001562737191556307
+        },
+        {
+            "source": "list of football players (Q937857) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.0014185414891270953
+        },
+        {
+            "source": "list of football players (Q937857) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.0014185414891270953
+        },
+        {
+            "source": "list of football players (Q937857) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.0014185414891270953
+        },
+        {
+            "source": "teenage musicians (Q639669) 1",
+            "target": "list of football players (Q937857) 2",
+            "value": 0.0013844218540693398
+        },
+        {
+            "source": "teenage musicians (Q639669) 1",
+            "target": "outside forward (Q280658) 2",
+            "value": 0.0013844218540693398
+        },
+        {
+            "source": "teenage musicians (Q639669) 1",
+            "target": "strongman (circus) (Q1852228) 2",
+            "value": 0.0013844218540693398
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "jermaine easter (Q93828) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "jonathan ronald walters (Q319810) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "taiwo leo awuonda atieno (Q1625059) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "delroy facey/comments (Q3021900) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "kevin betsy (Q3195661) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "carl cort (Q1037408) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "jung sungryong (Q350199) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "leon cort (Q569028) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "aamir bouazza (Q359377) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "list of football players (Q937857) 2",
+            "target": "roy carroll (Q258824) 3",
+            "value": 0.009989309683681058
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "jermaine easter (Q93828) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "jonathan ronald walters (Q319810) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "taiwo leo awuonda atieno (Q1625059) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "delroy facey/comments (Q3021900) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "kevin betsy (Q3195661) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "carl cort (Q1037408) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "jung sungryong (Q350199) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "leon cort (Q569028) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "aamir bouazza (Q359377) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "outside forward (Q280658) 2",
+            "target": "roy carroll (Q258824) 3",
+            "value": 0.009988035932450678
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "jermaine easter (Q93828) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "jonathan ronald walters (Q319810) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "taiwo leo awuonda atieno (Q1625059) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "delroy facey/comments (Q3021900) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "kevin betsy (Q3195661) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "carl cort (Q1037408) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "jung sungryong (Q350199) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "leon cort (Q569028) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "aamir bouazza (Q359377) 3",
+            "value": 0.0098517260733606
+        },
+        {
+            "source": "strongman (circus) (Q1852228) 2",
+            "target": "roy carroll (Q258824) 3",
+            "value": 0.0098517260733606
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "djoko (Q5812) 0",
+            "url": "https://www.wikidata.org/wiki/Q5812",
+            "value": 1.0
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/01445t 1",
+            "value": 0.9999988079071045
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "american actor (Q33999) 1",
+            "url": "https://www.wikidata.org/wiki/Q33999",
+            "value": 0.18959423899650574
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "scenario writer (Q28389) 1",
+            "url": "https://www.wikidata.org/wiki/Q28389",
+            "value": 0.1717587262392044
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "voice artist (Q2405480) 1",
+            "url": "https://www.wikidata.org/wiki/Q2405480",
+            "value": 0.1679244339466095
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "movie direction (Q2526255) 1",
+            "url": "https://www.wikidata.org/wiki/Q2526255",
+            "value": 0.15971408784389496
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "political leader (Q82955) 1",
+            "url": "https://www.wikidata.org/wiki/Q82955",
+            "value": 0.1562737226486206
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "list of football players (Q937857) 1",
+            "url": "https://www.wikidata.org/wiki/Q937857",
+            "value": 0.1418541520833969
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "teenage musicians (Q639669) 1",
+            "url": "https://www.wikidata.org/wiki/Q639669",
+            "value": 0.13844218850135803
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "list of football players (Q937857) 2",
+            "url": "https://www.wikidata.org/wiki/Q937857",
+            "value": 0.9989309906959534
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "outside forward (Q280658) 2",
+            "url": "https://www.wikidata.org/wiki/Q280658",
+            "value": 0.9988036155700684
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "strongman (circus) (Q1852228) 2",
+            "url": "https://www.wikidata.org/wiki/Q1852228",
+            "value": 0.9851726293563843
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jermaine easter (Q93828) 3",
+            "url": "https://www.wikidata.org/wiki/Q93828",
+            "value": 0.79817795753479
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jonathan ronald walters (Q319810) 3",
+            "url": "https://www.wikidata.org/wiki/Q319810",
+            "value": 0.777293860912323
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "taiwo leo awuonda atieno (Q1625059) 3",
+            "url": "https://www.wikidata.org/wiki/Q1625059",
+            "value": 0.7740834355354309
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "delroy facey/comments (Q3021900) 3",
+            "url": "https://www.wikidata.org/wiki/Q3021900",
+            "value": 0.525361180305481
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "kevin betsy (Q3195661) 3",
+            "url": "https://www.wikidata.org/wiki/Q3195661",
+            "value": 0.5227439403533936
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "carl cort (Q1037408) 3",
+            "url": "https://www.wikidata.org/wiki/Q1037408",
+            "value": 0.5180231928825378
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "jung sungryong (Q350199) 3",
+            "url": "https://www.wikidata.org/wiki/Q350199",
+            "value": 0.5093163847923279
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#d62728",
+                "color": "#d62728"
+            },
+            "name": "leon cort (Q569028) 3",
+            "url": "https://www.wikidata.org/wiki/Q569028",
+            "value": 0.49640071392059326
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "aamir bouazza (Q359377) 3",
+            "url": "https://www.wikidata.org/wiki/Q359377",
+            "value": 0.49265384674072266
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "roy carroll (Q258824) 3",
+            "url": "https://www.wikidata.org/wiki/Q258824",
+            "value": 0.49202200770378113
+        }
+    ],
+    "title": "[E] djoko (Q5812), [R] profession+ (34), [R] specialization of- (363), [R] profession- (35)"
+}

@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "dustin lee hoffman (Q42930) 0 [rank = 1]",
+            "target": "best actor academy award (Q103916) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "best actor academy award (Q103916) 1 [rank = 1]",
+            "target": "golden globe award for best screenplay (Q849124) 4 [rank = 34]",
+            "value": 0.5
+        },
+        {
+            "source": "wikiportal/film (Q11424) 2 [rank = 1]",
+            "target": "golden globe award for best screenplay (Q849124) 3 [rank = 48]",
+            "value": 0.5
+        },
+        {
+            "source": "golden globe award for best screenplay (Q849124) 3 [rank = 48]",
+            "target": "golden globe award for best screenplay (Q849124) 4 [rank = 34]",
+            "value": 0.5
+        },
+        {
+            "source": "golden globe award for best screenplay (Q849124) 4 [rank = 34]",
+            "target": "stirling dale silliphant (Q347945) 5 [rank = 307]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "dustin lee hoffman (Q42930) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q42930",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "best actor academy award (Q103916) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q103916",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "wikiportal/film (Q11424) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q11424",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "golden globe award for best screenplay (Q849124) 3 [rank = 48]",
+            "url": "https://www.wikidata.org/wiki/Q849124",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "golden globe award for best screenplay (Q849124) 4 [rank = 34]",
+            "url": "https://www.wikidata.org/wiki/Q849124",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "stirling dale silliphant (Q347945) 5 [rank = 307]",
+            "url": "https://www.wikidata.org/wiki/Q347945",
+            "value": 1
+        }
+    ],
+    "title": "[E] dustin lee hoffman (Q42930), [R] award winner- (95), [E] wikiportal/film (Q11424), [R] disciplines or subjects- (135), disjunction, [R] award winner+ (94)"
+}

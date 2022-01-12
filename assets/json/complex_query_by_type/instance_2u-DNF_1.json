@@ -1,0 +1,77 @@
+{
+    "edges": [
+        {
+            "source": "catherine cymone fourshey (Q3444679) 0 [rank = 1]",
+            "target": "philip m. roth (Q187019) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "philip m. roth (Q187019) 1 [rank = 1]",
+            "target": "ursual k. le guin (Q181659) 4 [rank = 40]",
+            "value": 0.5
+        },
+        {
+            "source": "national book award for fiction (Q3873144) 2 [rank = 1]",
+            "target": "ursual k. le guin (Q181659) 3 [rank = 24]",
+            "value": 0.5
+        },
+        {
+            "source": "ursual k. le guin (Q181659) 3 [rank = 24]",
+            "target": "ursual k. le guin (Q181659) 4 [rank = 40]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "catherine cymone fourshey (Q3444679) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q3444679",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "philip m. roth (Q187019) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q187019",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "national book award for fiction (Q3873144) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q3873144",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "ursual k. le guin (Q181659) 3 [rank = 24]",
+            "url": "https://www.wikidata.org/wiki/Q181659",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "ursual k. le guin (Q181659) 4 [rank = 40]",
+            "url": "https://www.wikidata.org/wiki/Q181659",
+            "value": 1
+        }
+    ],
+    "title": "[E] catherine cymone fourshey (Q3444679), [R] student+ (44), [E] national book award for fiction (Q3873144), [R] award- (39), disjunction"
+}

@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "daddy would you like some sausage? (Q1452656) 0 [rank = 1]",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1 [rank = 1]",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "peter hyams (Q458766) 2 [rank = 1]",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 3 [rank = 1]",
+            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 4 [rank = 1]",
+            "target": "arnold braunschweiger (Q858840) 5 [rank = 119]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "daddy would you like some sausage? (Q1452656) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1452656",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden raspberry award for worst director (2001-2020) (Q1238714) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1238714",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "peter hyams (Q458766) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q458766",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden raspberry award for worst director (2001-2020) (Q1238714) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1238714",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "golden raspberry award for worst director (2001-2020) (Q1238714) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1238714",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "arnold braunschweiger (Q858840) 5 [rank = 119]",
+            "url": "https://www.wikidata.org/wiki/Q858840",
+            "value": 1
+        }
+    ],
+    "title": "[E] daddy would you like some sausage? (Q1452656), [R] award+ (60), [E] peter hyams (Q458766), [R] award+ (38), conjunction, [R] nominated for+ (14)"
+}

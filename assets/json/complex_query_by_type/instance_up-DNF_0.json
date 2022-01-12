@@ -1,0 +1,91 @@
+{
+    "edges": [
+        {
+            "source": "jazz music (Q8341) 0 [rank = 1]",
+            "target": "bluegrass music/comments (Q213714) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "bluegrass music/comments (Q213714) 1 [rank = 1]",
+            "target": "pop song (Q37073) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "maroon 5's third studio album (Q182223) 2 [rank = 1]",
+            "target": "pop song (Q37073) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "pop song (Q37073) 3 [rank = 1]",
+            "target": "pop song (Q37073) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "pop song (Q37073) 4 [rank = 1]",
+            "target": "/m/0ggx5q 5 [rank = 96]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jazz music (Q8341) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8341",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bluegrass music/comments (Q213714) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q213714",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "maroon 5's third studio album (Q182223) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q182223",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "pop song (Q37073) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q37073",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "pop song (Q37073) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q37073",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/0ggx5q 5 [rank = 96]",
+            "value": 1
+        }
+    ],
+    "title": "[E] jazz music (Q8341), [R] parent genre- (105), [E] maroon 5's third studio album (Q182223), [R] artists- (41), disjunction, [R] parent genre+ (104)"
+}

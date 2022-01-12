@@ -1,0 +1,47 @@
+{
+    "edges": [
+        {
+            "source": "north american (Q49) 0 [rank = 1]",
+            "target": "usofa (Q30) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "usofa (Q30) 1 [rank = 1]",
+            "target": "americas next top model cycle 9 (Q31426) 2 [rank = 8]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "north american (Q49) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q49",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "usofa (Q30) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "americas next top model cycle 9 (Q31426) 2 [rank = 8]",
+            "url": "https://www.wikidata.org/wiki/Q31426",
+            "value": 1
+        }
+    ],
+    "title": "[E] north american (Q49), [R] countries within+ (156), [R] country of origin- (371)"
+}
