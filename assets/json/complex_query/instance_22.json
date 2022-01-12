@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "source": "north of the huang he (Q21208) 0 [rank = 1]",
+            "target": "li\u00e1o (Q43934) 1 [rank = 294]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "north of the huang he (Q21208) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q21208",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "li\u00e1o (Q43934) 1 [rank = 294]",
+            "url": "https://www.wikidata.org/wiki/Q43934",
+            "value": 1
+        }
+    ],
+    "title": "[E] north of the huang he (Q21208), [R] adjoins- (117)"
+}

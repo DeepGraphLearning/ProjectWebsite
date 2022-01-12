@@ -1,0 +1,106 @@
+{
+    "edges": [
+        {
+            "source": "/m/08mbj5d 0 [rank = 1]",
+            "target": "aum (Q540672) 1 [rank = 361]",
+            "value": 0.5
+        },
+        {
+            "source": "aum (Q540672) 1 [rank = 361]",
+            "target": "aum (Q540672) 5 [rank = 5409]",
+            "value": 0.5
+        },
+        {
+            "source": "public university (Q875538) 2 [rank = 1]",
+            "target": "umn.edu (Q238101) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "umn.edu (Q238101) 3 [rank = 1]",
+            "target": "aum (Q540672) 4 [rank = 16]",
+            "value": 0.5
+        },
+        {
+            "source": "aum (Q540672) 4 [rank = 16]",
+            "target": "aum (Q540672) 5 [rank = 5409]",
+            "value": 0.5
+        },
+        {
+            "source": "aum (Q540672) 5 [rank = 5409]",
+            "target": "aum (Q540672) 6 [rank = 90]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08mbj5d 0 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "aum (Q540672) 1 [rank = 361]",
+            "url": "https://www.wikidata.org/wiki/Q540672",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "public university (Q875538) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q875538",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "umn.edu (Q238101) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q238101",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "aum (Q540672) 4 [rank = 16]",
+            "url": "https://www.wikidata.org/wiki/Q540672",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "aum (Q540672) 5 [rank = 5409]",
+            "url": "https://www.wikidata.org/wiki/Q540672",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "aum (Q540672) 6 [rank = 90]",
+            "url": "https://www.wikidata.org/wiki/Q540672",
+            "value": 1
+        }
+    ],
+    "title": "[E] /m/08mbj5d, [R] category- (51), [E] public university (Q875538), [R] school type- (249), negation, conjunction, [R] educational institution+ (162)"
+}

@@ -1,0 +1,90 @@
+{
+    "edges": [
+        {
+            "source": "kirschner, david (Q3018205) 0 [rank = 1]",
+            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1 [rank = 1]",
+            "target": "/m/02vm9nd 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "39th annual daytime emmy awards (Q2816448) 2 [rank = 1]",
+            "target": "/m/02vm9nd 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/02vm9nd 3 [rank = 1]",
+            "target": "/m/02vm9nd 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/02vm9nd 4 [rank = 1]",
+            "target": "leslie zemeckis (Q187364) 5 [rank = 81]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kirschner, david (Q3018205) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q3018205",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "daytime emmy award for outstanding children's animated program (Q3019369) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q3019369",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "39th annual daytime emmy awards (Q2816448) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2816448",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/02vm9nd 3 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/02vm9nd 4 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "leslie zemeckis (Q187364) 5 [rank = 81]",
+            "url": "https://www.wikidata.org/wiki/Q187364",
+            "value": 1
+        }
+    ],
+    "title": "[E] kirschner, david (Q3018205), [R] award+ (38), [E] 39th annual daytime emmy awards (Q2816448), [R] ceremony- (21), disjunction, [R] award- (39)"
+}

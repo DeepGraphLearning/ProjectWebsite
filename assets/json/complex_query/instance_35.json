@@ -1,0 +1,92 @@
+{
+    "edges": [
+        {
+            "source": "miriam weinstein (Q465449) 0 [rank = 1]",
+            "target": "managing directors (Q484876) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "managing directors (Q484876) 1 [rank = 1]",
+            "target": "managing directors (Q484876) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "warner media, llc (Q191715) 2 [rank = 1]",
+            "target": "managing directors (Q484876) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "managing directors (Q484876) 3 [rank = 1]",
+            "target": "managing directors (Q484876) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "managing directors (Q484876) 4 [rank = 1]",
+            "target": "abc 5 sports (Q4015057) 5 [rank = 425]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "miriam weinstein (Q465449) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q465449",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "managing directors (Q484876) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q484876",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "warner media, llc (Q191715) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q191715",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "managing directors (Q484876) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q484876",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "managing directors (Q484876) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q484876",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "abc 5 sports (Q4015057) 5 [rank = 425]",
+            "url": "https://www.wikidata.org/wiki/Q4015057",
+            "value": 1
+        }
+    ],
+    "title": "[E] miriam weinstein (Q465449), [R] organization- (127), [E] warner media, llc (Q191715), [R] company- (89), conjunction, [R] organization+ (126)"
+}

@@ -1,0 +1,47 @@
+{
+    "edges": [
+        {
+            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0 [rank = 1]",
+            "target": "mumlikat e khudad e pakistan (Q843) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "mumlikat e khudad e pakistan (Q843) 1 [rank = 1]",
+            "target": "pashtoon language (Q58680) 2 [rank = 1]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "organizaci\u00f3n mundial del comercio (Q7825) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q7825",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "mumlikat e khudad e pakistan (Q843) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q843",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "pashtoon language (Q58680) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q58680",
+            "value": 1
+        }
+    ],
+    "title": "[E] organizaci\u00f3n mundial del comercio (Q7825), [R] member states+ (336), [R] countries spoken in- (141)"
+}

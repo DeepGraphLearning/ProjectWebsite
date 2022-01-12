@@ -1,0 +1,61 @@
+{
+    "edges": [
+        {
+            "source": "djoko (Q5812) 0 [rank = 1]",
+            "target": "/m/01445t 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "/m/01445t 1 [rank = 1]",
+            "target": "list of football players (Q937857) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "list of football players (Q937857) 2 [rank = 1]",
+            "target": "roy carroll (Q258824) 3 [rank = 4]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "djoko (Q5812) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q5812",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/01445t 1 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "list of football players (Q937857) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q937857",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "roy carroll (Q258824) 3 [rank = 4]",
+            "url": "https://www.wikidata.org/wiki/Q258824",
+            "value": 1
+        }
+    ],
+    "title": "[E] djoko (Q5812), [R] profession+ (34), [R] specialization of- (363), [R] profession- (35)"
+}

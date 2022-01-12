@@ -1,0 +1,121 @@
+{
+    "edges": [
+        {
+            "source": "/m/08mbj5d 0 [rank = 1]",
+            "target": "creighton university students and alumni (Q770544) 1 [rank = 1742]",
+            "value": 0.5
+        },
+        {
+            "source": "creighton university students and alumni (Q770544) 1 [rank = 1742]",
+            "target": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "value": 0.5
+        },
+        {
+            "source": "presidential (Q30461) 2 [rank = 1]",
+            "target": "creighton university students and alumni (Q770544) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "creighton university students and alumni (Q770544) 3 [rank = 1]",
+            "target": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "value": 0.5
+        },
+        {
+            "source": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "target": "creighton university students and alumni (Q770544) 7 [rank = 5]",
+            "value": 0.5
+        },
+        {
+            "source": "currency of the united states (Q4917) 5 [rank = 1]",
+            "target": "creighton university students and alumni (Q770544) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "creighton university students and alumni (Q770544) 6 [rank = 1]",
+            "target": "creighton university students and alumni (Q770544) 7 [rank = 5]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/08mbj5d 0 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "creighton university students and alumni (Q770544) 1 [rank = 1742]",
+            "url": "https://www.wikidata.org/wiki/Q770544",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "presidential (Q30461) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q30461",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "creighton university students and alumni (Q770544) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q770544",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "url": "https://www.wikidata.org/wiki/Q770544",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "currency of the united states (Q4917) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q4917",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "creighton university students and alumni (Q770544) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q770544",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "creighton university students and alumni (Q770544) 7 [rank = 5]",
+            "url": "https://www.wikidata.org/wiki/Q770544",
+            "value": 1
+        }
+    ],
+    "title": "[E] /m/08mbj5d, [R] category- (51), [E] presidential (Q30461), [R] organization+ (126), conjunction, [E] currency of the united states (Q4917), [R] currency- (417), conjunction"
+}

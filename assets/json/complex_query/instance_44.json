@@ -1,0 +1,122 @@
+{
+    "edges": [
+        {
+            "source": "the coal state (Q1400) 0 [rank = 1]",
+            "target": "frank mckelvy (Q2386182) 1 [rank = 770]",
+            "value": 0.5
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 1 [rank = 770]",
+            "target": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "robert f. boyle (Q521400) 2 [rank = 1]",
+            "target": "frank mckelvy (Q2386182) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 3 [rank = 1]",
+            "target": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "target": "frank mckelvy (Q2386182) 7 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "hal pereira (Q1229499) 5 [rank = 1]",
+            "target": "frank mckelvy (Q2386182) 6 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "frank mckelvy (Q2386182) 6 [rank = 1]",
+            "target": "frank mckelvy (Q2386182) 7 [rank = 1]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the coal state (Q1400) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1400",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "frank mckelvy (Q2386182) 1 [rank = 770]",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "robert f. boyle (Q521400) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q521400",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "frank mckelvy (Q2386182) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hal pereira (Q1229499) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1229499",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "frank mckelvy (Q2386182) 6 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "frank mckelvy (Q2386182) 7 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2386182",
+            "value": 1
+        }
+    ],
+    "title": "[E] the coal state (Q1400), [R] place of birth- (49), [E] robert f. boyle (Q521400), [R] award nominee- (17), conjunction, [E] hal pereira (Q1229499), [R] award nominee+ (16), conjunction"
+}

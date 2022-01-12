@@ -1,0 +1,31 @@
+{
+    "edges": [
+        {
+            "source": "jozef teodor nalecz konrad korzeniowski (Q82925) 0 [rank = 1]",
+            "target": "/m/05zppz 1 [rank = 1]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jozef teodor nalecz konrad korzeniowski (Q82925) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q82925",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "/m/05zppz 1 [rank = 1]",
+            "value": 1
+        }
+    ],
+    "title": "[E] jozef teodor nalecz konrad korzeniowski (Q82925), [R] gender+ (86)"
+}

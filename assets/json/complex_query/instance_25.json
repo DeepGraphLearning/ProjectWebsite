@@ -1,0 +1,31 @@
+{
+    "edges": [
+        {
+            "source": "/m/0fq9zdn 0 [rank = 1]",
+            "target": "ms. emma thompson (Q168724) 1 [rank = 324]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0fq9zdn 0 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "ms. emma thompson (Q168724) 1 [rank = 324]",
+            "url": "https://www.wikidata.org/wiki/Q168724",
+            "value": 1
+        }
+    ],
+    "title": "[E] /m/0fq9zdn, [R] award- (39)"
+}

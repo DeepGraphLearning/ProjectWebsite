@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "bonds of matrimony (Q8445) 0 [rank = 1]",
+            "target": "moskva, russia (Q649) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "moskva, russia (Q649) 1 [rank = 1]",
+            "target": "fc spartak-d moscow (Q29112) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "fc spartak-d moscow (Q29112) 2 [rank = 1]",
+            "target": "hurricanesgm (Q201857) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "hurricanesgm (Q201857) 3 [rank = 1]",
+            "target": "hurricanesgm (Q201857) 6 [rank = 15]",
+            "value": 0.5
+        },
+        {
+            "source": "women's ice hockey (Q41466) 4 [rank = 1]",
+            "target": "hurricanesgm (Q201857) 5 [rank = 6]",
+            "value": 0.5
+        },
+        {
+            "source": "hurricanesgm (Q201857) 5 [rank = 6]",
+            "target": "hurricanesgm (Q201857) 6 [rank = 15]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "bonds of matrimony (Q8445) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8445",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "moskva, russia (Q649) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q649",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fc spartak-d moscow (Q29112) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q29112",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "hurricanesgm (Q201857) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q201857",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "women's ice hockey (Q41466) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q41466",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hurricanesgm (Q201857) 5 [rank = 6]",
+            "url": "https://www.wikidata.org/wiki/Q201857",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "hurricanesgm (Q201857) 6 [rank = 15]",
+            "url": "https://www.wikidata.org/wiki/Q201857",
+            "value": 1
+        }
+    ],
+    "title": "[E] bonds of matrimony (Q8445), [R] location of ceremony+ (322), [R] teams+ (188), negation, [E] women's ice hockey (Q41466), [R] sport- (161), conjunction"
+}

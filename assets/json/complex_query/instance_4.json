@@ -1,0 +1,77 @@
+{
+    "edges": [
+        {
+            "source": "tpop (Q739138) 0 [rank = 1]",
+            "target": "kevin jonas bio (Q210172) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "kevin jonas bio (Q210172) 1 [rank = 1]",
+            "target": "kevin jonas bio (Q210172) 4 [rank = 3]",
+            "value": 0.5
+        },
+        {
+            "source": "pop rock (Q484641) 2 [rank = 1]",
+            "target": "kevin jonas bio (Q210172) 3 [rank = 336]",
+            "value": 0.5
+        },
+        {
+            "source": "kevin jonas bio (Q210172) 3 [rank = 336]",
+            "target": "kevin jonas bio (Q210172) 4 [rank = 3]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "tpop (Q739138) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q739138",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "kevin jonas bio (Q210172) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q210172",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "pop rock (Q484641) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q484641",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "kevin jonas bio (Q210172) 3 [rank = 336]",
+            "url": "https://www.wikidata.org/wiki/Q210172",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "kevin jonas bio (Q210172) 4 [rank = 3]",
+            "url": "https://www.wikidata.org/wiki/Q210172",
+            "value": 1
+        }
+    ],
+    "title": "[E] tpop (Q739138), [R] artists+ (40), [E] pop rock (Q484641), [R] artists+ (40), conjunction"
+}

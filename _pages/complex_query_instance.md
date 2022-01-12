@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: complex_query
+permalink: complex_query_instance
 title: Complex Query
 path: "assets/json/complex_query"
 ---
@@ -59,9 +59,10 @@ path: "assets/json/complex_query"
   <option value="49">49</option>
 </select>
 
-We visualize the top-3 entities (mostly easy) and top-7 non-easy entities for each variable.
+We random pick a hard answer and find a random valid grounding for latent entities.
+We visualize the ranking of each grounded entity.
 The entity is labeled as blue if it is an anchor variable or can be reached by traversal.
-If the entity requires reasoning, it is labeled as green if it is correct, and red otherwise.
+Otherwise, it is labeled as green.
 Click on the nodes to redirect to the corresponding Wikidata page.
 
 <div id="container" style="height: 600px"></div>
@@ -79,7 +80,7 @@ Click on the nodes to redirect to the corresponding Wikidata page.
     function updateFigure() {
 		var sample = document.getElementById("sample").value;
 		myChart.showLoading();
-		$.get("{{ page.path }}/complex_query_" + sample + ".json", function (graph) {
+		$.get("{{ page.path }}/instance_" + sample + ".json", function (graph) {
 			myChart.hideLoading();
 			option = {
 				title: {

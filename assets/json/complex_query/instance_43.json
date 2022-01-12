@@ -1,0 +1,62 @@
+{
+    "edges": [
+        {
+            "source": "griekenland (Q41) 0 [rank = 1]",
+            "target": "xxi olympic winter games 2010 (Q9674) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "xxi olympic winter games 2010 (Q9674) 1 [rank = 1]",
+            "target": "women's ice hockey (Q41466) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "women's ice hockey (Q41466) 2 [rank = 1]",
+            "target": "floridapanthersgm (Q204623) 3 [rank = 433]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "griekenland (Q41) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q41",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "xxi olympic winter games 2010 (Q9674) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q9674",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "women's ice hockey (Q41466) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q41466",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "floridapanthersgm (Q204623) 3 [rank = 433]",
+            "url": "https://www.wikidata.org/wiki/Q204623",
+            "value": 1
+        }
+    ],
+    "title": "[E] griekenland (Q41), [R] participating countries- (315), [R] sports+ (130), [R] sport- (161)"
+}

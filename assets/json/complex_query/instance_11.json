@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "screen actors guild award for outstanding performance by an ensemble in a drama series (Q2530270) 0 [rank = 1]",
+            "target": "taraji p henson (Q235511) 1 [rank = 607]",
+            "value": 0.5
+        },
+        {
+            "source": "taraji p henson (Q235511) 1 [rank = 607]",
+            "target": "the curious case of benjamin button (film) (Q183239) 2 [rank = 95]",
+            "value": 0.5
+        },
+        {
+            "source": "the curious case of benjamin button (film) (Q183239) 2 [rank = 95]",
+            "target": "the curious case of benjamin button (film) (Q183239) 6 [rank = 92]",
+            "value": 0.5
+        },
+        {
+            "source": "english vernacular (Q1860) 3 [rank = 1]",
+            "target": "entourage (u.s. tv series) (Q253205) 4 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "entourage (u.s. tv series) (Q253205) 4 [rank = 1]",
+            "target": "the curious case of benjamin button (film) (Q183239) 5 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "the curious case of benjamin button (film) (Q183239) 5 [rank = 1]",
+            "target": "the curious case of benjamin button (film) (Q183239) 6 [rank = 92]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "screen actors guild award for outstanding performance by an ensemble in a drama series (Q2530270) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q2530270",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "taraji p henson (Q235511) 1 [rank = 607]",
+            "url": "https://www.wikidata.org/wiki/Q235511",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the curious case of benjamin button (film) (Q183239) 2 [rank = 95]",
+            "url": "https://www.wikidata.org/wiki/Q183239",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "english vernacular (Q1860) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q1860",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "entourage (u.s. tv series) (Q253205) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q253205",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "the curious case of benjamin button (film) (Q183239) 5 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q183239",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "the curious case of benjamin button (film) (Q183239) 6 [rank = 92]",
+            "url": "https://www.wikidata.org/wiki/Q183239",
+            "value": 1
+        }
+    ],
+    "title": "[E] screen actors guild award for outstanding performance by an ensemble in a drama series (Q2530270), [R] award- (39), [R] nominated for+ (76), [E] english vernacular (Q1860), [R] languages- (103), negation, conjunction"
+}

@@ -1,0 +1,107 @@
+{
+    "edges": [
+        {
+            "source": "member of british parliament (Q486839) 0 [rank = 1]",
+            "target": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "target": "terminator: salvation (Q191543) 2 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "terminator: salvation (Q191543) 2 [rank = 1]",
+            "target": "abraham lincoln, vampire hunter (film) (Q587707) 3 [rank = 9]",
+            "value": 0.5
+        },
+        {
+            "source": "abraham lincoln, vampire hunter (film) (Q587707) 3 [rank = 9]",
+            "target": "abraham lincoln, vampire hunter (film) (Q587707) 6 [rank = 539]",
+            "value": 0.5
+        },
+        {
+            "source": "fantasy (fiction) (Q132311) 4 [rank = 1]",
+            "target": "abraham lincoln, vampire hunter (film) (Q587707) 5 [rank = 848]",
+            "value": 0.5
+        },
+        {
+            "source": "abraham lincoln, vampire hunter (film) (Q587707) 5 [rank = 848]",
+            "target": "abraham lincoln, vampire hunter (film) (Q587707) 6 [rank = 539]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "member of british parliament (Q486839) 0 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q486839",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q145",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "terminator: salvation (Q191543) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q191543",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "abraham lincoln, vampire hunter (film) (Q587707) 3 [rank = 9]",
+            "url": "https://www.wikidata.org/wiki/Q587707",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "fantasy (fiction) (Q132311) 4 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q132311",
+            "value": 1
+        },
+        {
+            "depth": 3,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "abraham lincoln, vampire hunter (film) (Q587707) 5 [rank = 848]",
+            "url": "https://www.wikidata.org/wiki/Q587707",
+            "value": 1
+        },
+        {
+            "depth": 4,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "abraham lincoln, vampire hunter (film) (Q587707) 6 [rank = 539]",
+            "url": "https://www.wikidata.org/wiki/Q587707",
+            "value": 1
+        }
+    ],
+    "title": "[E] member of british parliament (Q486839), [R] jurisdiction of office+ (74), [R] country- (57), negation, [E] fantasy (fiction) (Q132311), [R] titles+ (4), conjunction"
+}

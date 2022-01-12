@@ -1,0 +1,76 @@
+{
+    "edges": [
+        {
+            "source": "/m/0fpjd_g 0 [rank = 1]",
+            "target": "bop era (Q105513) 1 [rank = 3]",
+            "value": 0.5
+        },
+        {
+            "source": "bop era (Q105513) 1 [rank = 3]",
+            "target": "bop era (Q105513) 4 [rank = 2]",
+            "value": 0.5
+        },
+        {
+            "source": "keith jarett (Q207034) 2 [rank = 1]",
+            "target": "jazz music (Q8341) 3 [rank = 1]",
+            "value": 0.5
+        },
+        {
+            "source": "jazz music (Q8341) 3 [rank = 1]",
+            "target": "bop era (Q105513) 4 [rank = 2]",
+            "value": 0.5
+        }
+    ],
+    "nodes": [
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "/m/0fpjd_g 0 [rank = 1]",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "bop era (Q105513) 1 [rank = 3]",
+            "url": "https://www.wikidata.org/wiki/Q105513",
+            "value": 1
+        },
+        {
+            "depth": 0,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "keith jarett (Q207034) 2 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q207034",
+            "value": 1
+        },
+        {
+            "depth": 1,
+            "itemStyle": {
+                "borderColor": "#1f77b4",
+                "color": "#1f77b4"
+            },
+            "name": "jazz music (Q8341) 3 [rank = 1]",
+            "url": "https://www.wikidata.org/wiki/Q8341",
+            "value": 1
+        },
+        {
+            "depth": 2,
+            "itemStyle": {
+                "borderColor": "#2ca02c",
+                "color": "#2ca02c"
+            },
+            "name": "bop era (Q105513) 4 [rank = 2]",
+            "url": "https://www.wikidata.org/wiki/Q105513",
+            "value": 1
+        }
+    ],
+    "title": "[E] /m/0fpjd_g, [R] artists- (41), [E] keith jarett (Q207034), [R] artists- (41), disjunction"
+}
