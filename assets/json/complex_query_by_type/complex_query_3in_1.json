@@ -1,1953 +1,1953 @@
 {
     "edges": [
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 1",
+            "source": "midfielder 0",
+            "target": "Hannover 96 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "rasenballsport leipzig (Q702455) 1",
+            "source": "midfielder 0",
+            "target": "RB Leipzig 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "f.c. bayern m\u00fcnchen (Q15789) 1",
+            "source": "midfielder 0",
+            "target": "FC Bayern Munich 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "bulgarian national football team (Q180845) 1",
+            "source": "midfielder 0",
+            "target": "Bulgaria national football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "kazakhstan football team (Q183468) 1",
+            "source": "midfielder 0",
+            "target": "Kazakhstan national football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "france\u2013croatia football rivalry (Q134479) 1",
+            "source": "midfielder 0",
+            "target": "Croatia national association football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "chile football team (Q172025) 1",
+            "source": "midfielder 0",
+            "target": "Chile national football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "fc torpedo-d moscow (Q324338) 1",
+            "source": "midfielder 0",
+            "target": "FC Torpedo Moscow 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "e. cotbuss (Q107818) 1",
+            "source": "midfielder 0",
+            "target": "FC Energie Cottbus 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 0",
-            "target": "a.f.c. wimbledon (Q48851) 1",
+            "source": "midfielder 0",
+            "target": "AFC Wimbledon 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Hannover 96 1",
+            "target": "Hannover 96 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Hannover 96 1",
+            "target": "RB Leipzig 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Hannover 96 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Hannover 96 1",
+            "target": "D.C. United 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Hannover 96 1",
+            "target": "F.C. Lorient 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Hannover 96 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Hannover 96 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Hannover 96 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Hannover 96 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Hannover 96 1",
+            "target": "South Africa national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "RB Leipzig 1",
+            "target": "Hannover 96 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "RB Leipzig 1",
+            "target": "RB Leipzig 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "RB Leipzig 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "RB Leipzig 1",
+            "target": "D.C. United 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "RB Leipzig 1",
+            "target": "F.C. Lorient 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "RB Leipzig 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "RB Leipzig 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "RB Leipzig 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "RB Leipzig 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "RB Leipzig 1",
+            "target": "South Africa national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "Hannover 96 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "RB Leipzig 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "D.C. United 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "F.C. Lorient 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "FC Bayern Munich 1",
+            "target": "South Africa national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "Hannover 96 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "D.C. United 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "F.C. Lorient 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Bulgaria national football team 1",
+            "target": "South Africa national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "Hannover 96 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "D.C. United 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "F.C. Lorient 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Kazakhstan national football team 1",
+            "target": "South Africa national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Croatia national association football team 1",
+            "target": "Hannover 96 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Croatia national association football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Croatia national association football team 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Croatia national association football team 1",
+            "target": "D.C. United 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Croatia national association football team 1",
+            "target": "F.C. Lorient 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Croatia national association football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Croatia national association football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Croatia national association football team 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Croatia national association football team 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Croatia national association football team 1",
+            "target": "South Africa national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Chile national football team 1",
+            "target": "Hannover 96 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Chile national football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Chile national football team 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Chile national football team 1",
+            "target": "D.C. United 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Chile national football team 1",
+            "target": "F.C. Lorient 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Chile national football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Chile national football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Chile national football team 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Chile national football team 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Chile national football team 1",
+            "target": "South Africa national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Hannover 96 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "RB Leipzig 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "D.C. United 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "F.C. Lorient 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "South Africa national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "Hannover 96 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "RB Leipzig 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "D.C. United 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "F.C. Lorient 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "FC Energie Cottbus 1",
+            "target": "South Africa national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "Hannover 96 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "RB Leipzig 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "d.c. united (Q238593) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "D.C. United 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "fc lorient (Q48911) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "F.C. Lorient 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "Coritiba F.C. 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 1",
-            "target": "south africa football team (Q170327) 4",
+            "source": "AFC Wimbledon 1",
+            "target": "South Africa national football team 4",
             "value": 0.0051042460254375754
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "rasenballsport leipzig (Q702455) 3",
+            "target": "RB Leipzig 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "target": "Hannover 96 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "fc raketa gorky (Q643083) 3",
+            "target": "FC Volga Nizhny Novgorod 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "d.c. united (Q238593) 3",
+            "target": "D.C. United 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "fc lorient (Q48911) 3",
+            "target": "F.C. Lorient 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "coritiba foot ball club (Q478317) 3",
+            "target": "Coritiba F.C. 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "south africa football team (Q170327) 3",
+            "target": "South Africa national football team 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "france\u2013croatia football rivalry (Q134479) 3",
+            "target": "Croatia national association football team 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "suwon samsung bluewings f.c. (Q482449) 3",
+            "target": "Suwon Samsung Bluewings FC 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 2",
-            "target": "fussbal club luzern (Q223262) 3",
+            "target": "FC Luzern 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "RB Leipzig 3",
+            "target": "Hannover 96 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "RB Leipzig 3",
+            "target": "RB Leipzig 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "RB Leipzig 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "RB Leipzig 3",
+            "target": "D.C. United 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "RB Leipzig 3",
+            "target": "F.C. Lorient 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "RB Leipzig 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "RB Leipzig 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "RB Leipzig 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "RB Leipzig 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "RB Leipzig 3",
+            "target": "South Africa national football team 4",
             "value": 0.00999990798533168
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Hannover 96 3",
+            "target": "Hannover 96 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Hannover 96 3",
+            "target": "RB Leipzig 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Hannover 96 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Hannover 96 3",
+            "target": "D.C. United 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Hannover 96 3",
+            "target": "F.C. Lorient 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Hannover 96 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Hannover 96 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Hannover 96 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Hannover 96 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Hannover 96 3",
+            "target": "South Africa national football team 4",
             "value": 0.009999811425809302
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "Hannover 96 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "RB Leipzig 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "D.C. United 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "F.C. Lorient 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "FC Volga Nizhny Novgorod 3",
+            "target": "South Africa national football team 4",
             "value": 0.009999804273252089
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "D.C. United 3",
+            "target": "Hannover 96 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "D.C. United 3",
+            "target": "RB Leipzig 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "D.C. United 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "D.C. United 3",
+            "target": "D.C. United 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "D.C. United 3",
+            "target": "F.C. Lorient 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "D.C. United 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "D.C. United 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "D.C. United 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "D.C. United 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "D.C. United 3",
+            "target": "South Africa national football team 4",
             "value": 0.005345691323004109
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "F.C. Lorient 3",
+            "target": "Hannover 96 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "F.C. Lorient 3",
+            "target": "RB Leipzig 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "F.C. Lorient 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "F.C. Lorient 3",
+            "target": "D.C. United 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "F.C. Lorient 3",
+            "target": "F.C. Lorient 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "F.C. Lorient 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "F.C. Lorient 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "F.C. Lorient 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "F.C. Lorient 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "F.C. Lorient 3",
+            "target": "South Africa national football team 4",
             "value": 0.0053008227355594295
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "Hannover 96 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "RB Leipzig 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "D.C. United 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "F.C. Lorient 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Coritiba F.C. 3",
+            "target": "South Africa national football team 4",
             "value": 0.005202677133619549
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "South Africa national football team 3",
+            "target": "Hannover 96 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "South Africa national football team 3",
+            "target": "RB Leipzig 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "South Africa national football team 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "South Africa national football team 3",
+            "target": "D.C. United 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "South Africa national football team 3",
+            "target": "F.C. Lorient 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "South Africa national football team 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "South Africa national football team 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "South Africa national football team 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "South Africa national football team 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "South Africa national football team 3",
+            "target": "South Africa national football team 4",
             "value": 0.005155562643209932
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Hannover 96 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Croatia national association football team 3",
+            "target": "RB Leipzig 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Croatia national association football team 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Croatia national association football team 3",
+            "target": "D.C. United 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Croatia national association football team 3",
+            "target": "F.C. Lorient 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Croatia national association football team 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Croatia national association football team 3",
+            "target": "South Africa national football team 4",
             "value": 0.005128866915504626
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "Hannover 96 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "RB Leipzig 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "D.C. United 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "F.C. Lorient 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "Suwon Samsung Bluewings FC 3",
+            "target": "South Africa national football team 4",
             "value": 0.0051231877850773655
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Luzern 3",
+            "target": "Hannover 96 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Luzern 3",
+            "target": "RB Leipzig 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "fc raketa gorky (Q643083) 4",
+            "source": "FC Luzern 3",
+            "target": "FC Volga Nizhny Novgorod 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "d.c. united (Q238593) 4",
+            "source": "FC Luzern 3",
+            "target": "D.C. United 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "fc lorient (Q48911) 4",
+            "source": "FC Luzern 3",
+            "target": "F.C. Lorient 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Luzern 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Luzern 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "coritiba foot ball club (Q478317) 4",
+            "source": "FC Luzern 3",
+            "target": "Coritiba F.C. 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "fc torpedo-d moscow (Q324338) 4",
+            "source": "FC Luzern 3",
+            "target": "FC Torpedo Moscow 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 3",
-            "target": "south africa football team (Q170327) 4",
+            "source": "FC Luzern 3",
+            "target": "South Africa national football team 4",
             "value": 0.005119844560626641
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "Hannover 96 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "Hannover 96 4",
+            "target": "Barnet F.C. 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "Hannover 96 4",
+            "target": "Lewes F.C. 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "Hannover 96 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "Hannover 96 4",
+            "target": "Odense Boldklub 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "Hannover 96 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "Hannover 96 4",
+            "target": "Seongnam FC 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "Hannover 96 4",
+            "target": "AC Arles 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "Hannover 96 4",
+            "target": "FC Vaslui 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "Hannover 96 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.009999214187282002
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "RB Leipzig 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "RB Leipzig 4",
+            "target": "Barnet F.C. 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "RB Leipzig 4",
+            "target": "Lewes F.C. 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "RB Leipzig 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "RB Leipzig 4",
+            "target": "Odense Boldklub 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "RB Leipzig 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "RB Leipzig 4",
+            "target": "Seongnam FC 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "RB Leipzig 4",
+            "target": "AC Arles 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "RB Leipzig 4",
+            "target": "FC Vaslui 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "RB Leipzig 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.009998537078532488
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Barnet F.C. 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Lewes F.C. 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Odense Boldklub 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Seongnam FC 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "AC Arles 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "FC Vaslui 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "fc raketa gorky (Q643083) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "FC Volga Nizhny Novgorod 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.009997744932821129
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "D.C. United 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "D.C. United 4",
+            "target": "Barnet F.C. 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "D.C. United 4",
+            "target": "Lewes F.C. 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "D.C. United 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "D.C. United 4",
+            "target": "Odense Boldklub 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "D.C. United 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "D.C. United 4",
+            "target": "Seongnam FC 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "D.C. United 4",
+            "target": "AC Arles 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "D.C. United 4",
+            "target": "FC Vaslui 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "d.c. united (Q238593) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "D.C. United 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.005342652082234944
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Barnet F.C. 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Lewes F.C. 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Odense Boldklub 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "F.C. Lorient 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Seongnam FC 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "F.C. Lorient 4",
+            "target": "AC Arles 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "F.C. Lorient 4",
+            "target": "FC Vaslui 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "fc lorient (Q48911) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "F.C. Lorient 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.005298694253742076
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Barnet F.C. 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Lewes F.C. 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Odense Boldklub 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Seongnam FC 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "AC Arles 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "FC Vaslui 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "Bulgaria national football team 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.0052841298591167485
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Barnet F.C. 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Lewes F.C. 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Odense Boldklub 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Seongnam FC 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "AC Arles 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "FC Vaslui 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "Kazakhstan national football team 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.00525770414044624
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Barnet F.C. 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Lewes F.C. 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Odense Boldklub 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Seongnam FC 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "AC Arles 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "FC Vaslui 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "coritiba foot ball club (Q478317) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "Coritiba F.C. 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.0052001487046446915
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Barnet F.C. 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Lewes F.C. 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Odense Boldklub 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Seongnam FC 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "AC Arles 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "FC Vaslui 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "FC Torpedo Moscow 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.0051769112383519555
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "South Africa national football team 4",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "South Africa national football team 4",
+            "target": "Barnet F.C. 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "South Africa national football team 4",
+            "target": "Lewes F.C. 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "South Africa national football team 4",
+            "target": "Saba Qom F.C. 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "South Africa national football team 4",
+            "target": "Odense Boldklub 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "South Africa national football team 4",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "South Africa national football team 4",
+            "target": "Seongnam FC 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "South Africa national football team 4",
+            "target": "AC Arles 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "South Africa national football team 4",
+            "target": "FC Vaslui 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "south africa football team (Q170327) 4",
-            "target": "silkmen (Q18521) 8",
+            "source": "South Africa national football team 4",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.005153051499581673
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "british india national football team (Q212206) 6",
+            "source": "association football 5",
+            "target": "India national football team 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "real gimn\u00e1stico cf (Q8823) 6",
+            "source": "association football 5",
+            "target": "Levante UD 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "singapore national football team/comments (Q239528) 6",
+            "source": "association football 5",
+            "target": "Singapore national football team 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "france\u2013croatia football rivalry (Q134479) 6",
+            "source": "association football 5",
+            "target": "Croatia national association football team 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "tunisia national football team (Q27971) 6",
+            "source": "association football 5",
+            "target": "Tunisia national football team 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 6",
+            "source": "association football 5",
+            "target": "Colombia national football team 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "mainz 05 (Q105254) 6",
+            "source": "association football 5",
+            "target": "1. FSV Mainz 05 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "e.c. bahia (Q198032) 6",
+            "source": "association football 5",
+            "target": "Esporte Clube Bahia 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "kp legia warsaw (Q193749) 6",
+            "source": "association football 5",
+            "target": "Legia Warsaw 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "f\u00fatbol (Q2736) 5",
-            "target": "grenada national football team (Q270666) 6",
+            "source": "association football 5",
+            "target": "Grenada national football team 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "british india national football team (Q212206) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "India national football team 6",
+            "target": "French Revolution 7",
             "value": 0.009999905601145942
         },
         {
-            "source": "british india national football team (Q212206) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "India national football team 6",
+            "target": "African popular music 7",
             "value": 0.009999905601145942
         },
         {
-            "source": "british india national football team (Q212206) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "India national football team 6",
+            "target": "Nine Years' War 7",
             "value": 0.009999905601145942
         },
         {
-            "source": "real gimn\u00e1stico cf (Q8823) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Levante UD 6",
+            "target": "French Revolution 7",
             "value": 0.009999903216960204
         },
         {
-            "source": "real gimn\u00e1stico cf (Q8823) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Levante UD 6",
+            "target": "African popular music 7",
             "value": 0.009999903216960204
         },
         {
-            "source": "real gimn\u00e1stico cf (Q8823) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Levante UD 6",
+            "target": "Nine Years' War 7",
             "value": 0.009999903216960204
         },
         {
-            "source": "singapore national football team/comments (Q239528) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Singapore national football team 6",
+            "target": "French Revolution 7",
             "value": 0.009999887719752909
         },
         {
-            "source": "singapore national football team/comments (Q239528) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Singapore national football team 6",
+            "target": "African popular music 7",
             "value": 0.009999887719752909
         },
         {
-            "source": "singapore national football team/comments (Q239528) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Singapore national football team 6",
+            "target": "Nine Years' War 7",
             "value": 0.009999887719752909
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Croatia national association football team 6",
+            "target": "French Revolution 7",
             "value": 0.005325090766137297
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Croatia national association football team 6",
+            "target": "African popular music 7",
             "value": 0.005325090766137297
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Croatia national association football team 6",
+            "target": "Nine Years' War 7",
             "value": 0.005325090766137297
         },
         {
-            "source": "tunisia national football team (Q27971) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Tunisia national football team 6",
+            "target": "French Revolution 7",
             "value": 0.005262194754283245
         },
         {
-            "source": "tunisia national football team (Q27971) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Tunisia national football team 6",
+            "target": "African popular music 7",
             "value": 0.005262194754283245
         },
         {
-            "source": "tunisia national football team (Q27971) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Tunisia national football team 6",
+            "target": "Nine Years' War 7",
             "value": 0.005262194754283245
         },
         {
-            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Colombia national football team 6",
+            "target": "French Revolution 7",
             "value": 0.0052515153903175404
         },
         {
-            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Colombia national football team 6",
+            "target": "African popular music 7",
             "value": 0.0052515153903175404
         },
         {
-            "source": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Colombia national football team 6",
+            "target": "Nine Years' War 7",
             "value": 0.0052515153903175404
         },
         {
-            "source": "mainz 05 (Q105254) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "1. FSV Mainz 05 6",
+            "target": "French Revolution 7",
             "value": 0.0052497862596112554
         },
         {
-            "source": "mainz 05 (Q105254) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "1. FSV Mainz 05 6",
+            "target": "African popular music 7",
             "value": 0.0052497862596112554
         },
         {
-            "source": "mainz 05 (Q105254) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "1. FSV Mainz 05 6",
+            "target": "Nine Years' War 7",
             "value": 0.0052497862596112554
         },
         {
-            "source": "e.c. bahia (Q198032) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Esporte Clube Bahia 6",
+            "target": "French Revolution 7",
             "value": 0.005206845882381961
         },
         {
-            "source": "e.c. bahia (Q198032) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Esporte Clube Bahia 6",
+            "target": "African popular music 7",
             "value": 0.005206845882381961
         },
         {
-            "source": "e.c. bahia (Q198032) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Esporte Clube Bahia 6",
+            "target": "Nine Years' War 7",
             "value": 0.005206845882381961
         },
         {
-            "source": "kp legia warsaw (Q193749) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Legia Warsaw 6",
+            "target": "French Revolution 7",
             "value": 0.005195579412678342
         },
         {
-            "source": "kp legia warsaw (Q193749) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Legia Warsaw 6",
+            "target": "African popular music 7",
             "value": 0.005195579412678342
         },
         {
-            "source": "kp legia warsaw (Q193749) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Legia Warsaw 6",
+            "target": "Nine Years' War 7",
             "value": 0.005195579412678342
         },
         {
-            "source": "grenada national football team (Q270666) 6",
-            "target": "revolution of 1789 (Q6534) 7",
+            "source": "Grenada national football team 6",
+            "target": "French Revolution 7",
             "value": 0.005160137895640626
         },
         {
-            "source": "grenada national football team (Q270666) 6",
-            "target": "afropop music (Q972634) 7",
+            "source": "Grenada national football team 6",
+            "target": "African popular music 7",
             "value": 0.005160137895640626
         },
         {
-            "source": "grenada national football team (Q270666) 6",
-            "target": "the 9 years' war (Q152218) 7",
+            "source": "Grenada national football team 6",
+            "target": "Nine Years' War 7",
             "value": 0.005160137895640626
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "French Revolution 7",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "French Revolution 7",
+            "target": "Barnet F.C. 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "French Revolution 7",
+            "target": "Lewes F.C. 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "French Revolution 7",
+            "target": "Saba Qom F.C. 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "French Revolution 7",
+            "target": "Odense Boldklub 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "French Revolution 7",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "French Revolution 7",
+            "target": "Seongnam FC 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "French Revolution 7",
+            "target": "AC Arles 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "French Revolution 7",
+            "target": "FC Vaslui 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "revolution of 1789 (Q6534) 7",
-            "target": "silkmen (Q18521) 8",
+            "source": "French Revolution 7",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.009998824372913884
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "African popular music 7",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "African popular music 7",
+            "target": "Barnet F.C. 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "African popular music 7",
+            "target": "Lewes F.C. 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "African popular music 7",
+            "target": "Saba Qom F.C. 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "African popular music 7",
+            "target": "Odense Boldklub 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "African popular music 7",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "African popular music 7",
+            "target": "Seongnam FC 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "African popular music 7",
+            "target": "AC Arles 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "African popular music 7",
+            "target": "FC Vaslui 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "afropop music (Q972634) 7",
-            "target": "silkmen (Q18521) 8",
+            "source": "African popular music 7",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.00999876596036331
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "hamilton academical football club (Q498473) 8",
+            "source": "Nine Years' War 7",
+            "target": "Hamilton Academical F.C. 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "barnet f. c. (Q9408) 8",
+            "source": "Nine Years' War 7",
+            "target": "Barnet F.C. 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "lewes f c (Q1927145) 8",
+            "source": "Nine Years' War 7",
+            "target": "Lewes F.C. 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "saba battery f.c. (Q613931) 8",
+            "source": "Nine Years' War 7",
+            "target": "Saba Qom F.C. 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "odense boldklub (Q211912) 8",
+            "source": "Nine Years' War 7",
+            "target": "Odense Boldklub 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "source": "Nine Years' War 7",
+            "target": "FC Vorskla Poltava 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "seongnam ilhwa chunma fc (Q482540) 8",
+            "source": "Nine Years' War 7",
+            "target": "Seongnam FC 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "ac arles-avignon (Q222837) 8",
+            "source": "Nine Years' War 7",
+            "target": "AC Arles 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "sporting club vaslui (Q453925) 8",
+            "source": "Nine Years' War 7",
+            "target": "FC Vaslui 8",
             "value": 0.009998630657822694
         },
         {
-            "source": "the 9 years' war (Q152218) 7",
-            "target": "silkmen (Q18521) 8",
+            "source": "Nine Years' War 7",
+            "target": "Macclesfield Town F.C. 8",
             "value": 0.009998630657822694
         }
     ],
@@ -1958,7 +1958,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "right winger (football) (Q193592) 0",
+            "name": "midfielder 0",
             "url": "https://www.wikidata.org/wiki/Q193592",
             "value": 1.0
         },
@@ -1968,7 +1968,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 1",
+            "name": "Hannover 96 1",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.9999402761459351
         },
@@ -1978,7 +1978,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 1",
+            "name": "RB Leipzig 1",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9998629093170166
         },
@@ -1988,7 +1988,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "f.c. bayern m\u00fcnchen (Q15789) 1",
+            "name": "FC Bayern Munich 1",
             "url": "https://www.wikidata.org/wiki/Q15789",
             "value": 0.9998434782028198
         },
@@ -1998,7 +1998,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bulgarian national football team (Q180845) 1",
+            "name": "Bulgaria national football team 1",
             "url": "https://www.wikidata.org/wiki/Q180845",
             "value": 0.5284735560417175
         },
@@ -2008,7 +2008,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kazakhstan football team (Q183468) 1",
+            "name": "Kazakhstan national football team 1",
             "url": "https://www.wikidata.org/wiki/Q183468",
             "value": 0.5258470177650452
         },
@@ -2018,7 +2018,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "france\u2013croatia football rivalry (Q134479) 1",
+            "name": "Croatia national association football team 1",
             "url": "https://www.wikidata.org/wiki/Q134479",
             "value": 0.5213193893432617
         },
@@ -2028,7 +2028,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chile football team (Q172025) 1",
+            "name": "Chile national football team 1",
             "url": "https://www.wikidata.org/wiki/Q172025",
             "value": 0.5209539532661438
         },
@@ -2038,7 +2038,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc torpedo-d moscow (Q324338) 1",
+            "name": "FC Torpedo Moscow 1",
             "url": "https://www.wikidata.org/wiki/Q324338",
             "value": 0.5177321434020996
         },
@@ -2048,7 +2048,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "e. cotbuss (Q107818) 1",
+            "name": "FC Energie Cottbus 1",
             "url": "https://www.wikidata.org/wiki/Q107818",
             "value": 0.5105932354927063
         },
@@ -2058,7 +2058,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "a.f.c. wimbledon (Q48851) 1",
+            "name": "AFC Wimbledon 1",
             "url": "https://www.wikidata.org/wiki/Q48851",
             "value": 0.5104246139526367
         },
@@ -2077,7 +2077,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 3",
+            "name": "RB Leipzig 3",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9999908208847046
         },
@@ -2087,7 +2087,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "name": "Hannover 96 3",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.999981164932251
         },
@@ -2097,7 +2097,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fc raketa gorky (Q643083) 3",
+            "name": "FC Volga Nizhny Novgorod 3",
             "url": "https://www.wikidata.org/wiki/Q643083",
             "value": 0.9999804496765137
         },
@@ -2107,7 +2107,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "d.c. united (Q238593) 3",
+            "name": "D.C. United 3",
             "url": "https://www.wikidata.org/wiki/Q238593",
             "value": 0.5345691442489624
         },
@@ -2117,7 +2117,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc lorient (Q48911) 3",
+            "name": "F.C. Lorient 3",
             "url": "https://www.wikidata.org/wiki/Q48911",
             "value": 0.5300822854042053
         },
@@ -2127,7 +2127,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "coritiba foot ball club (Q478317) 3",
+            "name": "Coritiba F.C. 3",
             "url": "https://www.wikidata.org/wiki/Q478317",
             "value": 0.5202677249908447
         },
@@ -2137,7 +2137,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "south africa football team (Q170327) 3",
+            "name": "South Africa national football team 3",
             "url": "https://www.wikidata.org/wiki/Q170327",
             "value": 0.515556275844574
         },
@@ -2147,7 +2147,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "france\u2013croatia football rivalry (Q134479) 3",
+            "name": "Croatia national association football team 3",
             "url": "https://www.wikidata.org/wiki/Q134479",
             "value": 0.5128867030143738
         },
@@ -2157,7 +2157,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "suwon samsung bluewings f.c. (Q482449) 3",
+            "name": "Suwon Samsung Bluewings FC 3",
             "url": "https://www.wikidata.org/wiki/Q482449",
             "value": 0.5123187899589539
         },
@@ -2167,7 +2167,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fussbal club luzern (Q223262) 3",
+            "name": "FC Luzern 3",
             "url": "https://www.wikidata.org/wiki/Q223262",
             "value": 0.5119844675064087
         },
@@ -2177,7 +2177,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "name": "Hannover 96 4",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.999921441078186
         },
@@ -2187,7 +2187,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 4",
+            "name": "RB Leipzig 4",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9998537302017212
         },
@@ -2197,7 +2197,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fc raketa gorky (Q643083) 4",
+            "name": "FC Volga Nizhny Novgorod 4",
             "url": "https://www.wikidata.org/wiki/Q643083",
             "value": 0.9997745156288147
         },
@@ -2207,7 +2207,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "d.c. united (Q238593) 4",
+            "name": "D.C. United 4",
             "url": "https://www.wikidata.org/wiki/Q238593",
             "value": 0.5342652201652527
         },
@@ -2217,7 +2217,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc lorient (Q48911) 4",
+            "name": "F.C. Lorient 4",
             "url": "https://www.wikidata.org/wiki/Q48911",
             "value": 0.5298694372177124
         },
@@ -2227,7 +2227,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bulgarian national football team (Q180845) 4",
+            "name": "Bulgaria national football team 4",
             "url": "https://www.wikidata.org/wiki/Q180845",
             "value": 0.5284129977226257
         },
@@ -2237,7 +2237,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kazakhstan football team (Q183468) 4",
+            "name": "Kazakhstan national football team 4",
             "url": "https://www.wikidata.org/wiki/Q183468",
             "value": 0.5257704257965088
         },
@@ -2247,7 +2247,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "coritiba foot ball club (Q478317) 4",
+            "name": "Coritiba F.C. 4",
             "url": "https://www.wikidata.org/wiki/Q478317",
             "value": 0.5200148820877075
         },
@@ -2257,7 +2257,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc torpedo-d moscow (Q324338) 4",
+            "name": "FC Torpedo Moscow 4",
             "url": "https://www.wikidata.org/wiki/Q324338",
             "value": 0.5176911354064941
         },
@@ -2267,7 +2267,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "south africa football team (Q170327) 4",
+            "name": "South Africa national football team 4",
             "url": "https://www.wikidata.org/wiki/Q170327",
             "value": 0.5153051614761353
         },
@@ -2277,7 +2277,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "f\u00fatbol (Q2736) 5",
+            "name": "association football 5",
             "url": "https://www.wikidata.org/wiki/Q2736",
             "value": 1.0
         },
@@ -2287,7 +2287,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "british india national football team (Q212206) 6",
+            "name": "India national football team 6",
             "url": "https://www.wikidata.org/wiki/Q212206",
             "value": 0.9999905824661255
         },
@@ -2297,7 +2297,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "real gimn\u00e1stico cf (Q8823) 6",
+            "name": "Levante UD 6",
             "url": "https://www.wikidata.org/wiki/Q8823",
             "value": 0.9999903440475464
         },
@@ -2307,7 +2307,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "singapore national football team/comments (Q239528) 6",
+            "name": "Singapore national football team 6",
             "url": "https://www.wikidata.org/wiki/Q239528",
             "value": 0.9999887943267822
         },
@@ -2317,7 +2317,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "france\u2013croatia football rivalry (Q134479) 6",
+            "name": "Croatia national association football team 6",
             "url": "https://www.wikidata.org/wiki/Q134479",
             "value": 0.5325090885162354
         },
@@ -2327,7 +2327,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "tunisia national football team (Q27971) 6",
+            "name": "Tunisia national football team 6",
             "url": "https://www.wikidata.org/wiki/Q27971",
             "value": 0.5262194871902466
         },
@@ -2337,7 +2337,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "selecci\u00f3n de f\u00fatbol de colombia (Q212564) 6",
+            "name": "Colombia national football team 6",
             "url": "https://www.wikidata.org/wiki/Q212564",
             "value": 0.5251515507698059
         },
@@ -2347,7 +2347,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "mainz 05 (Q105254) 6",
+            "name": "1. FSV Mainz 05 6",
             "url": "https://www.wikidata.org/wiki/Q105254",
             "value": 0.5249786376953125
         },
@@ -2357,7 +2357,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "e.c. bahia (Q198032) 6",
+            "name": "Esporte Clube Bahia 6",
             "url": "https://www.wikidata.org/wiki/Q198032",
             "value": 0.5206845998764038
         },
@@ -2367,7 +2367,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "kp legia warsaw (Q193749) 6",
+            "name": "Legia Warsaw 6",
             "url": "https://www.wikidata.org/wiki/Q193749",
             "value": 0.5195579528808594
         },
@@ -2377,7 +2377,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "grenada national football team (Q270666) 6",
+            "name": "Grenada national football team 6",
             "url": "https://www.wikidata.org/wiki/Q270666",
             "value": 0.5160138010978699
         },
@@ -2387,7 +2387,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "revolution of 1789 (Q6534) 7",
+            "name": "French Revolution 7",
             "url": "https://www.wikidata.org/wiki/Q6534",
             "value": 0.9998824596405029
         },
@@ -2397,7 +2397,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "afropop music (Q972634) 7",
+            "name": "African popular music 7",
             "url": "https://www.wikidata.org/wiki/Q972634",
             "value": 0.9998766183853149
         },
@@ -2407,7 +2407,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the 9 years' war (Q152218) 7",
+            "name": "Nine Years' War 7",
             "url": "https://www.wikidata.org/wiki/Q152218",
             "value": 0.9998630881309509
         },
@@ -2417,7 +2417,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hamilton academical football club (Q498473) 8",
+            "name": "Hamilton Academical F.C. 8",
             "url": "https://www.wikidata.org/wiki/Q498473",
             "value": 0.764675498008728
         },
@@ -2427,7 +2427,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "barnet f. c. (Q9408) 8",
+            "name": "Barnet F.C. 8",
             "url": "https://www.wikidata.org/wiki/Q9408",
             "value": 0.752475380897522
         },
@@ -2437,7 +2437,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "lewes f c (Q1927145) 8",
+            "name": "Lewes F.C. 8",
             "url": "https://www.wikidata.org/wiki/Q1927145",
             "value": 0.7473443150520325
         },
@@ -2447,7 +2447,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "saba battery f.c. (Q613931) 8",
+            "name": "Saba Qom F.C. 8",
             "url": "https://www.wikidata.org/wiki/Q613931",
             "value": 0.3814862072467804
         },
@@ -2457,7 +2457,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "odense boldklub (Q211912) 8",
+            "name": "Odense Boldklub 8",
             "url": "https://www.wikidata.org/wiki/Q211912",
             "value": 0.3624800741672516
         },
@@ -2467,7 +2467,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc vorskla poltava reserves and youth team (Q274762) 8",
+            "name": "FC Vorskla Poltava 8",
             "url": "https://www.wikidata.org/wiki/Q274762",
             "value": 0.3621484637260437
         },
@@ -2477,7 +2477,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "seongnam ilhwa chunma fc (Q482540) 8",
+            "name": "Seongnam FC 8",
             "url": "https://www.wikidata.org/wiki/Q482540",
             "value": 0.3605519235134125
         },
@@ -2487,7 +2487,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "ac arles-avignon (Q222837) 8",
+            "name": "AC Arles 8",
             "url": "https://www.wikidata.org/wiki/Q222837",
             "value": 0.3604290187358856
         },
@@ -2497,7 +2497,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sporting club vaslui (Q453925) 8",
+            "name": "FC Vaslui 8",
             "url": "https://www.wikidata.org/wiki/Q453925",
             "value": 0.3589661121368408
         },
@@ -2507,7 +2507,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "silkmen (Q18521) 8",
+            "name": "Macclesfield Town F.C. 8",
             "url": "https://www.wikidata.org/wiki/Q18521",
             "value": 0.35828426480293274
         }

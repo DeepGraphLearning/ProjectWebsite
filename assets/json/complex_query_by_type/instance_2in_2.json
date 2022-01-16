@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "teenage musicians (Q639669) 0 [rank = 1]",
-            "target": "rap monkey (Q158175) 1 [rank = 173]",
+            "source": "musician 0 [rank = 1]",
+            "target": "Kid Rock 1 [rank = 173]",
             "value": 0.5
         },
         {
-            "source": "rap monkey (Q158175) 1 [rank = 173]",
-            "target": "rap monkey (Q158175) 5 [rank = 278]",
+            "source": "Kid Rock 1 [rank = 173]",
+            "target": "Kid Rock 5 [rank = 278]",
             "value": 0.5
         },
         {
-            "source": "political views of african-americans (Q49085) 2 [rank = 1]",
-            "target": "sk8brd (Q14313) 3 [rank = 1]",
+            "source": "African Americans 2 [rank = 1]",
+            "target": "Pharrell Williams 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "sk8brd (Q14313) 3 [rank = 1]",
-            "target": "rap monkey (Q158175) 4 [rank = 12]",
+            "source": "Pharrell Williams 3 [rank = 1]",
+            "target": "Kid Rock 4 [rank = 12]",
             "value": 0.5
         },
         {
-            "source": "rap monkey (Q158175) 4 [rank = 12]",
-            "target": "rap monkey (Q158175) 5 [rank = 278]",
+            "source": "Kid Rock 4 [rank = 12]",
+            "target": "Kid Rock 5 [rank = 278]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "teenage musicians (Q639669) 0 [rank = 1]",
+            "name": "musician 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q639669",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "rap monkey (Q158175) 1 [rank = 173]",
+            "name": "Kid Rock 1 [rank = 173]",
             "url": "https://www.wikidata.org/wiki/Q158175",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "political views of african-americans (Q49085) 2 [rank = 1]",
+            "name": "African Americans 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q49085",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sk8brd (Q14313) 3 [rank = 1]",
+            "name": "Pharrell Williams 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q14313",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rap monkey (Q158175) 4 [rank = 12]",
+            "name": "Kid Rock 4 [rank = 12]",
             "url": "https://www.wikidata.org/wiki/Q158175",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "rap monkey (Q158175) 5 [rank = 278]",
+            "name": "Kid Rock 5 [rank = 278]",
             "url": "https://www.wikidata.org/wiki/Q158175",
             "value": 1
         }

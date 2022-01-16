@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "u.s. central time (Q2086913) 0 [rank = 1]",
-            "target": "history of moline, illinois (Q579736) 1 [rank = 69]",
+            "source": "Central Time Zone 0 [rank = 1]",
+            "target": "Moline 1 [rank = 69]",
             "value": 0.5
         },
         {
-            "source": "history of moline, illinois (Q579736) 1 [rank = 69]",
-            "target": "history of moline, illinois (Q579736) 5 [rank = 214]",
+            "source": "Moline 1 [rank = 69]",
+            "target": "Moline 5 [rank = 214]",
             "value": 0.5
         },
         {
-            "source": "currency of the united states (Q4917) 2 [rank = 1]",
-            "target": "history of rockland county, new york (Q111098) 3 [rank = 1]",
+            "source": "United States dollar 2 [rank = 1]",
+            "target": "Rockland County 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "history of rockland county, new york (Q111098) 3 [rank = 1]",
-            "target": "history of moline, illinois (Q579736) 4 [rank = 3]",
+            "source": "Rockland County 3 [rank = 1]",
+            "target": "Moline 4 [rank = 3]",
             "value": 0.5
         },
         {
-            "source": "history of moline, illinois (Q579736) 4 [rank = 3]",
-            "target": "history of moline, illinois (Q579736) 5 [rank = 214]",
+            "source": "Moline 4 [rank = 3]",
+            "target": "Moline 5 [rank = 214]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "u.s. central time (Q2086913) 0 [rank = 1]",
+            "name": "Central Time Zone 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2086913",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "history of moline, illinois (Q579736) 1 [rank = 69]",
+            "name": "Moline 1 [rank = 69]",
             "url": "https://www.wikidata.org/wiki/Q579736",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "currency of the united states (Q4917) 2 [rank = 1]",
+            "name": "United States dollar 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q4917",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "history of rockland county, new york (Q111098) 3 [rank = 1]",
+            "name": "Rockland County 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q111098",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "history of moline, illinois (Q579736) 4 [rank = 3]",
+            "name": "Moline 4 [rank = 3]",
             "url": "https://www.wikidata.org/wiki/Q579736",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "history of moline, illinois (Q579736) 5 [rank = 214]",
+            "name": "Moline 5 [rank = 214]",
             "url": "https://www.wikidata.org/wiki/Q579736",
             "value": 1
         }

@@ -1,273 +1,273 @@
 {
     "edges": [
         {
-            "source": "usofa (Q30) 0",
-            "target": "the university of san francisco (Q1887879) 1",
+            "source": "United States of America 0",
+            "target": "University of San Francisco 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "dorothy day center for faith and justice (Q1849843) 1",
+            "source": "United States of America 0",
+            "target": "Xavier University 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "adelphi wildcats softball (Q4682076) 1",
+            "source": "United States of America 0",
+            "target": "Adelphi University 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "golan globus (Q1033465) 1",
+            "source": "United States of America 0",
+            "target": "The Cannon Group 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
+            "source": "United States of America 0",
             "target": "/m/05f260 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "interplay value products division (Q628249) 1",
+            "source": "United States of America 0",
+            "target": "Interplay Entertainment 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "floyd of the jungle (Q652421) 1",
+            "source": "United States of America 0",
+            "target": "MicroProse 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "europacorp distribution (Q1375196) 1",
+            "source": "United States of America 0",
+            "target": "EuropaCorp 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "origin (software company) (Q1193678) 1",
+            "source": "United States of America 0",
+            "target": "Origin Systems 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "wb games (Q2319420) 1",
+            "source": "United States of America 0",
+            "target": "Warner Bros. Interactive Entertainment 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "University of San Francisco 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "University of San Francisco 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "University of San Francisco 1",
+            "target": "National Gallery of Art 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "University of San Francisco 1",
+            "target": "The Cannon Group 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
+            "source": "University of San Francisco 1",
             "target": "/m/04qhdf 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "University of San Francisco 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "University of San Francisco 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "University of San Francisco 1",
+            "target": "Sun Microsystems 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
+            "source": "University of San Francisco 1",
             "target": "/m/061v5m 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "University of San Francisco 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.009999993816018238
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "Xavier University 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "Xavier University 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "Xavier University 1",
+            "target": "National Gallery of Art 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "Xavier University 1",
+            "target": "The Cannon Group 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
+            "source": "Xavier University 1",
             "target": "/m/04qhdf 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "Xavier University 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "Xavier University 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "Xavier University 1",
+            "target": "Sun Microsystems 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
+            "source": "Xavier University 1",
             "target": "/m/061v5m 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "Xavier University 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.009999987855553893
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "Adelphi University 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "Adelphi University 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "Adelphi University 1",
+            "target": "National Gallery of Art 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "Adelphi University 1",
+            "target": "The Cannon Group 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
+            "source": "Adelphi University 1",
             "target": "/m/04qhdf 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "Adelphi University 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "Adelphi University 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "Adelphi University 1",
+            "target": "Sun Microsystems 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
+            "source": "Adelphi University 1",
             "target": "/m/061v5m 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "Adelphi University 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.009999986663461025
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "The Cannon Group 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "The Cannon Group 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "The Cannon Group 1",
+            "target": "National Gallery of Art 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "The Cannon Group 1",
+            "target": "The Cannon Group 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
+            "source": "The Cannon Group 1",
             "target": "/m/04qhdf 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "The Cannon Group 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "The Cannon Group 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "The Cannon Group 1",
+            "target": "Sun Microsystems 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
+            "source": "The Cannon Group 1",
             "target": "/m/061v5m 5",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "The Cannon Group 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.007821172897044426
         },
         {
             "source": "/m/05f260 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "target": "National Gallery of Art 5",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "golan globus (Q1033465) 5",
+            "target": "The Cannon Group 5",
             "value": 0.0069445387956975635
         },
         {
@@ -277,17 +277,17 @@
         },
         {
             "source": "/m/05f260 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "global star software (Q94933) 5",
+            "target": "Take-Two Interactive 5",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "stanford university network (Q14647) 5",
+            "target": "Sun Microsystems 5",
             "value": 0.0069445387956975635
         },
         {
@@ -297,262 +297,262 @@
         },
         {
             "source": "/m/05f260 1",
-            "target": "imagine television (Q511731) 5",
+            "target": "Imagine Entertainment 5",
             "value": 0.0069445387956975635
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "National Gallery of Art 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "The Cannon Group 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
+            "source": "Interplay Entertainment 1",
             "target": "/m/04qhdf 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "Sun Microsystems 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
+            "source": "Interplay Entertainment 1",
             "target": "/m/061v5m 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "Interplay Entertainment 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.006804508414763766
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "MicroProse 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "MicroProse 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "MicroProse 1",
+            "target": "National Gallery of Art 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "MicroProse 1",
+            "target": "The Cannon Group 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
+            "source": "MicroProse 1",
             "target": "/m/04qhdf 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "MicroProse 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "MicroProse 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "MicroProse 1",
+            "target": "Sun Microsystems 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
+            "source": "MicroProse 1",
             "target": "/m/061v5m 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "MicroProse 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.006611708254850468
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "EuropaCorp 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "EuropaCorp 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "EuropaCorp 1",
+            "target": "National Gallery of Art 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "EuropaCorp 1",
+            "target": "The Cannon Group 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
+            "source": "EuropaCorp 1",
             "target": "/m/04qhdf 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "EuropaCorp 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "EuropaCorp 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "EuropaCorp 1",
+            "target": "Sun Microsystems 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
+            "source": "EuropaCorp 1",
             "target": "/m/061v5m 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "EuropaCorp 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.005957164035204854
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "Origin Systems 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "Origin Systems 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "Origin Systems 1",
+            "target": "National Gallery of Art 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "Origin Systems 1",
+            "target": "The Cannon Group 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
+            "source": "Origin Systems 1",
             "target": "/m/04qhdf 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "Origin Systems 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "Origin Systems 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "Origin Systems 1",
+            "target": "Sun Microsystems 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
+            "source": "Origin Systems 1",
             "target": "/m/061v5m 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "Origin Systems 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.0058594088436795255
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "National Gallery of Art 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "golan globus (Q1033465) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "The Cannon Group 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
+            "source": "Warner Bros. Interactive Entertainment 1",
             "target": "/m/04qhdf 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "global star software (Q94933) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Take-Two Interactive 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "stanford university network (Q14647) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Sun Microsystems 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
+            "source": "Warner Bros. Interactive Entertainment 1",
             "target": "/m/061v5m 5",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "imagine television (Q511731) 5",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Imagine Entertainment 5",
             "value": 0.0055693428463635675
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "international film festival of berlin (Q130871) 3",
+            "target": "Berlin International Film Festival 3",
             "value": 0.009999999776482582
         },
         {
@@ -562,12 +562,12 @@
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "2011 toronto film festival (Q3950969) 3",
+            "target": "2011 Toronto International Film Festival 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "2010 sundance (Q1285856) 3",
+            "target": "2010 Sundance Film Festival 3",
             "value": 0.009999999776482582
         },
         {
@@ -577,12 +577,12 @@
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "2009 berlin festival (Q572335) 3",
+            "target": "59th Berlin International Film Festival 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "berlinale 2010 (Q574075) 3",
+            "target": "60th Berlin International Film Festival 3",
             "value": 0.009999999776482582
         },
         {
@@ -592,312 +592,312 @@
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "moco chinatown (Q327022) 3",
+            "target": "Rockville 3",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/08mbj5d 2",
-            "target": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "target": "Parkersburg 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "international film festival of berlin (Q130871) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "Berlin International Film Festival 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "international film festival of berlin (Q130871) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "Berlin International Film Festival 3",
+            "target": "record producer 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "international film festival of berlin (Q130871) 3",
-            "target": "radio deejaying (Q130857) 4",
-            "value": 0.009999999776482582
-        },
-        {
-            "source": "/m/0325pb 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "Berlin International Film Festival 3",
+            "target": "disc jockey 4",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0325pb 3",
-            "target": "list of record producers (Q183945) 4",
+            "target": "multi-instrumentalist 4",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0325pb 3",
-            "target": "radio deejaying (Q130857) 4",
+            "target": "record producer 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "2011 toronto film festival (Q3950969) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "/m/0325pb 3",
+            "target": "disc jockey 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "2011 toronto film festival (Q3950969) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "2011 Toronto International Film Festival 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "2011 toronto film festival (Q3950969) 3",
-            "target": "radio deejaying (Q130857) 4",
+            "source": "2011 Toronto International Film Festival 3",
+            "target": "record producer 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "2010 sundance (Q1285856) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "2011 Toronto International Film Festival 3",
+            "target": "disc jockey 4",
+            "value": 0.009999999776482582
+        },
+        {
+            "source": "2010 Sundance Film Festival 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.009832131046828674
         },
         {
-            "source": "2010 sundance (Q1285856) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "2010 Sundance Film Festival 3",
+            "target": "record producer 4",
             "value": 0.009832131046828674
         },
         {
-            "source": "2010 sundance (Q1285856) 3",
-            "target": "radio deejaying (Q130857) 4",
+            "source": "2010 Sundance Film Festival 3",
+            "target": "disc jockey 4",
             "value": 0.009832131046828674
         },
         {
             "source": "/m/0kfhjq0 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "target": "multi-instrumentalist 4",
             "value": 0.009724279424750515
         },
         {
             "source": "/m/0kfhjq0 3",
-            "target": "list of record producers (Q183945) 4",
+            "target": "record producer 4",
             "value": 0.009724279424750515
         },
         {
             "source": "/m/0kfhjq0 3",
-            "target": "radio deejaying (Q130857) 4",
+            "target": "disc jockey 4",
             "value": 0.009724279424750515
         },
         {
-            "source": "2009 berlin festival (Q572335) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "59th Berlin International Film Festival 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.00959593155393157
         },
         {
-            "source": "2009 berlin festival (Q572335) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "59th Berlin International Film Festival 3",
+            "target": "record producer 4",
             "value": 0.00959593155393157
         },
         {
-            "source": "2009 berlin festival (Q572335) 3",
-            "target": "radio deejaying (Q130857) 4",
+            "source": "59th Berlin International Film Festival 3",
+            "target": "disc jockey 4",
             "value": 0.00959593155393157
         },
         {
-            "source": "berlinale 2010 (Q574075) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "60th Berlin International Film Festival 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.009558846736874127
         },
         {
-            "source": "berlinale 2010 (Q574075) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "60th Berlin International Film Festival 3",
+            "target": "record producer 4",
             "value": 0.009558846736874127
         },
         {
-            "source": "berlinale 2010 (Q574075) 3",
-            "target": "radio deejaying (Q130857) 4",
+            "source": "60th Berlin International Film Festival 3",
+            "target": "disc jockey 4",
             "value": 0.009558846736874127
         },
         {
             "source": "/m/04_m9gk 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "target": "multi-instrumentalist 4",
             "value": 0.00951158025462373
         },
         {
             "source": "/m/04_m9gk 3",
-            "target": "list of record producers (Q183945) 4",
+            "target": "record producer 4",
             "value": 0.00951158025462373
         },
         {
             "source": "/m/04_m9gk 3",
-            "target": "radio deejaying (Q130857) 4",
+            "target": "disc jockey 4",
             "value": 0.00951158025462373
         },
         {
-            "source": "moco chinatown (Q327022) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "Rockville 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.00906097987902954
         },
         {
-            "source": "moco chinatown (Q327022) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "Rockville 3",
+            "target": "record producer 4",
             "value": 0.00906097987902954
         },
         {
-            "source": "moco chinatown (Q327022) 3",
-            "target": "radio deejaying (Q130857) 4",
+            "source": "Rockville 3",
+            "target": "disc jockey 4",
             "value": 0.00906097987902954
         },
         {
-            "source": "parkersburg, west virginia metropolitan area (Q329485) 3",
-            "target": "multi instrumentalist (Q1327329) 4",
+            "source": "Parkersburg 3",
+            "target": "multi-instrumentalist 4",
             "value": 0.00894029180093947
         },
         {
-            "source": "parkersburg, west virginia metropolitan area (Q329485) 3",
-            "target": "list of record producers (Q183945) 4",
+            "source": "Parkersburg 3",
+            "target": "record producer 4",
             "value": 0.00894029180093947
         },
         {
-            "source": "parkersburg, west virginia metropolitan area (Q329485) 3",
-            "target": "radio deejaying (Q130857) 4",
+            "source": "Parkersburg 3",
+            "target": "disc jockey 4",
             "value": 0.00894029180093947
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "National Gallery of Art 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "golan globus (Q1033465) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "The Cannon Group 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
+            "source": "multi-instrumentalist 4",
             "target": "/m/04qhdf 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "global star software (Q94933) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "Take-Two Interactive 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "stanford university network (Q14647) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "Sun Microsystems 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
+            "source": "multi-instrumentalist 4",
             "target": "/m/061v5m 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "multi instrumentalist (Q1327329) 4",
-            "target": "imagine television (Q511731) 5",
+            "source": "multi-instrumentalist 4",
+            "target": "Imagine Entertainment 5",
             "value": 0.009870320337929117
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "record producer 4",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "record producer 4",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "record producer 4",
+            "target": "National Gallery of Art 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "golan globus (Q1033465) 5",
+            "source": "record producer 4",
+            "target": "The Cannon Group 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
+            "source": "record producer 4",
             "target": "/m/04qhdf 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "record producer 4",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "global star software (Q94933) 5",
+            "source": "record producer 4",
+            "target": "Take-Two Interactive 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "stanford university network (Q14647) 5",
+            "source": "record producer 4",
+            "target": "Sun Microsystems 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
+            "source": "record producer 4",
             "target": "/m/061v5m 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "list of record producers (Q183945) 4",
-            "target": "imagine television (Q511731) 5",
+            "source": "record producer 4",
+            "target": "Imagine Entertainment 5",
             "value": 0.009856411594381664
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "hall of fame (baseball) (Q809892) 5",
+            "source": "disc jockey 4",
+            "target": "National Baseball Hall of Fame and Museum 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "rock and roll hall of fame museum (Q179191) 5",
+            "source": "disc jockey 4",
+            "target": "Rock and Roll Hall of Fame 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "national gallery of art (u.s.) (Q214867) 5",
+            "source": "disc jockey 4",
+            "target": "National Gallery of Art 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "golan globus (Q1033465) 5",
+            "source": "disc jockey 4",
+            "target": "The Cannon Group 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
+            "source": "disc jockey 4",
             "target": "/m/04qhdf 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "national institute of arts and letters (Q463281) 5",
+            "source": "disc jockey 4",
+            "target": "American Academy of Arts and Letters 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "global star software (Q94933) 5",
+            "source": "disc jockey 4",
+            "target": "Take-Two Interactive 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "stanford university network (Q14647) 5",
+            "source": "disc jockey 4",
+            "target": "Sun Microsystems 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
+            "source": "disc jockey 4",
             "target": "/m/061v5m 5",
             "value": 0.009855201024073335
         },
         {
-            "source": "radio deejaying (Q130857) 4",
-            "target": "imagine television (Q511731) 5",
+            "source": "disc jockey 4",
+            "target": "Imagine Entertainment 5",
             "value": 0.009855201024073335
         }
     ],
@@ -908,7 +908,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "usofa (Q30) 0",
+            "name": "United States of America 0",
             "url": "https://www.wikidata.org/wiki/Q30",
             "value": 1.0
         },
@@ -918,7 +918,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the university of san francisco (Q1887879) 1",
+            "name": "University of San Francisco 1",
             "url": "https://www.wikidata.org/wiki/Q1887879",
             "value": 0.9999994039535522
         },
@@ -928,7 +928,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dorothy day center for faith and justice (Q1849843) 1",
+            "name": "Xavier University 1",
             "url": "https://www.wikidata.org/wiki/Q1849843",
             "value": 0.9999988079071045
         },
@@ -938,7 +938,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "adelphi wildcats softball (Q4682076) 1",
+            "name": "Adelphi University 1",
             "url": "https://www.wikidata.org/wiki/Q4682076",
             "value": 0.9999986886978149
         },
@@ -948,7 +948,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "golan globus (Q1033465) 1",
+            "name": "The Cannon Group 1",
             "url": "https://www.wikidata.org/wiki/Q1033465",
             "value": 0.7821173071861267
         },
@@ -967,7 +967,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "interplay value products division (Q628249) 1",
+            "name": "Interplay Entertainment 1",
             "url": "https://www.wikidata.org/wiki/Q628249",
             "value": 0.6804508566856384
         },
@@ -977,7 +977,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "floyd of the jungle (Q652421) 1",
+            "name": "MicroProse 1",
             "url": "https://www.wikidata.org/wiki/Q652421",
             "value": 0.6611708402633667
         },
@@ -987,7 +987,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "europacorp distribution (Q1375196) 1",
+            "name": "EuropaCorp 1",
             "url": "https://www.wikidata.org/wiki/Q1375196",
             "value": 0.5957164168357849
         },
@@ -997,7 +997,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "origin (software company) (Q1193678) 1",
+            "name": "Origin Systems 1",
             "url": "https://www.wikidata.org/wiki/Q1193678",
             "value": 0.5859408974647522
         },
@@ -1007,7 +1007,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "wb games (Q2319420) 1",
+            "name": "Warner Bros. Interactive Entertainment 1",
             "url": "https://www.wikidata.org/wiki/Q2319420",
             "value": 0.5569342970848083
         },
@@ -1026,7 +1026,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "international film festival of berlin (Q130871) 3",
+            "name": "Berlin International Film Festival 3",
             "url": "https://www.wikidata.org/wiki/Q130871",
             "value": 1.0
         },
@@ -1045,7 +1045,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "2011 toronto film festival (Q3950969) 3",
+            "name": "2011 Toronto International Film Festival 3",
             "url": "https://www.wikidata.org/wiki/Q3950969",
             "value": 1.0
         },
@@ -1055,7 +1055,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "2010 sundance (Q1285856) 3",
+            "name": "2010 Sundance Film Festival 3",
             "url": "https://www.wikidata.org/wiki/Q1285856",
             "value": 0.9832131266593933
         },
@@ -1074,7 +1074,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "2009 berlin festival (Q572335) 3",
+            "name": "59th Berlin International Film Festival 3",
             "url": "https://www.wikidata.org/wiki/Q572335",
             "value": 0.9595931768417358
         },
@@ -1084,7 +1084,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "berlinale 2010 (Q574075) 3",
+            "name": "60th Berlin International Film Festival 3",
             "url": "https://www.wikidata.org/wiki/Q574075",
             "value": 0.9558846950531006
         },
@@ -1103,7 +1103,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "moco chinatown (Q327022) 3",
+            "name": "Rockville 3",
             "url": "https://www.wikidata.org/wiki/Q327022",
             "value": 0.9060980081558228
         },
@@ -1113,7 +1113,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "parkersburg, west virginia metropolitan area (Q329485) 3",
+            "name": "Parkersburg 3",
             "url": "https://www.wikidata.org/wiki/Q329485",
             "value": 0.8940292000770569
         },
@@ -1123,7 +1123,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "multi instrumentalist (Q1327329) 4",
+            "name": "multi-instrumentalist 4",
             "url": "https://www.wikidata.org/wiki/Q1327329",
             "value": 0.9870320558547974
         },
@@ -1133,7 +1133,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "list of record producers (Q183945) 4",
+            "name": "record producer 4",
             "url": "https://www.wikidata.org/wiki/Q183945",
             "value": 0.9856411814689636
         },
@@ -1143,7 +1143,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "radio deejaying (Q130857) 4",
+            "name": "disc jockey 4",
             "url": "https://www.wikidata.org/wiki/Q130857",
             "value": 0.9855201244354248
         },
@@ -1153,7 +1153,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hall of fame (baseball) (Q809892) 5",
+            "name": "National Baseball Hall of Fame and Museum 5",
             "url": "https://www.wikidata.org/wiki/Q809892",
             "value": 0.804115355014801
         },
@@ -1163,7 +1163,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rock and roll hall of fame museum (Q179191) 5",
+            "name": "Rock and Roll Hall of Fame 5",
             "url": "https://www.wikidata.org/wiki/Q179191",
             "value": 0.7783606648445129
         },
@@ -1173,7 +1173,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "national gallery of art (u.s.) (Q214867) 5",
+            "name": "National Gallery of Art 5",
             "url": "https://www.wikidata.org/wiki/Q214867",
             "value": 0.7698848247528076
         },
@@ -1183,7 +1183,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "golan globus (Q1033465) 5",
+            "name": "The Cannon Group 5",
             "url": "https://www.wikidata.org/wiki/Q1033465",
             "value": 0.36452868580818176
         },
@@ -1202,7 +1202,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "national institute of arts and letters (Q463281) 5",
+            "name": "American Academy of Arts and Letters 5",
             "url": "https://www.wikidata.org/wiki/Q463281",
             "value": 0.33918845653533936
         },
@@ -1212,7 +1212,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "global star software (Q94933) 5",
+            "name": "Take-Two Interactive 5",
             "url": "https://www.wikidata.org/wiki/Q94933",
             "value": 0.32679688930511475
         },
@@ -1222,7 +1222,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "stanford university network (Q14647) 5",
+            "name": "Sun Microsystems 5",
             "url": "https://www.wikidata.org/wiki/Q14647",
             "value": 0.3244173526763916
         },
@@ -1241,7 +1241,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "imagine television (Q511731) 5",
+            "name": "Imagine Entertainment 5",
             "url": "https://www.wikidata.org/wiki/Q511731",
             "value": 0.31030625104904175
         }

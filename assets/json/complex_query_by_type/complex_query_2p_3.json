@@ -1,553 +1,553 @@
 {
     "edges": [
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "philippines republic (Q928) 1",
+            "source": "World Trade Organization 0",
+            "target": "Philippines 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "climate of hong kong (Q8646) 1",
+            "source": "World Trade Organization 0",
+            "target": "Hong Kong 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "republic of the fiji islands (Q712) 1",
+            "source": "World Trade Organization 0",
+            "target": "Fiji 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "yugo. (Q36704) 1",
+            "source": "World Trade Organization 0",
+            "target": "Yugoslavia 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "cooperative republic of guyana (Q734) 1",
+            "source": "World Trade Organization 0",
+            "target": "Guyana 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "luxembourgh (Q32) 1",
+            "source": "World Trade Organization 0",
+            "target": "Luxembourg 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "griekenland (Q41) 1",
+            "source": "World Trade Organization 0",
+            "target": "Greece 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "iso 3166-1:gh (Q117) 1",
+            "source": "World Trade Organization 0",
+            "target": "Ghana 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "p:tjk (Q863) 1",
+            "source": "World Trade Organization 0",
+            "target": "Tajikistan 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "czech republic (Q213) 1",
+            "source": "World Trade Organization 0",
+            "target": "Czech Republic 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Philippines 1",
+            "target": "Hebrew 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Philippines 1",
+            "target": "Kannada 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
+            "source": "Philippines 1",
             "target": "/m/0653m 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Philippines 1",
+            "target": "Pashto 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Philippines 1",
+            "target": "Danish 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Philippines 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Philippines 1",
+            "target": "Indonesian 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Philippines 1",
+            "target": "Bengali 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Philippines 1",
+            "target": "Filipino 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Philippines 1",
+            "target": "American English 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Hong Kong 1",
+            "target": "Hebrew 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Hong Kong 1",
+            "target": "Kannada 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
+            "source": "Hong Kong 1",
             "target": "/m/0653m 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Hong Kong 1",
+            "target": "Pashto 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Hong Kong 1",
+            "target": "Danish 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Hong Kong 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Hong Kong 1",
+            "target": "Indonesian 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Hong Kong 1",
+            "target": "Bengali 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Hong Kong 1",
+            "target": "Filipino 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Hong Kong 1",
+            "target": "American English 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Fiji 1",
+            "target": "Hebrew 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Fiji 1",
+            "target": "Kannada 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
+            "source": "Fiji 1",
             "target": "/m/0653m 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Fiji 1",
+            "target": "Pashto 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Fiji 1",
+            "target": "Danish 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Fiji 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Fiji 1",
+            "target": "Indonesian 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Fiji 1",
+            "target": "Bengali 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Fiji 1",
+            "target": "Filipino 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Fiji 1",
+            "target": "American English 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Yugoslavia 1",
+            "target": "Hebrew 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Yugoslavia 1",
+            "target": "Kannada 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
+            "source": "Yugoslavia 1",
             "target": "/m/0653m 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Yugoslavia 1",
+            "target": "Pashto 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Yugoslavia 1",
+            "target": "Danish 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Yugoslavia 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Yugoslavia 1",
+            "target": "Indonesian 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Yugoslavia 1",
+            "target": "Bengali 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Yugoslavia 1",
+            "target": "Filipino 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Yugoslavia 1",
+            "target": "American English 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Guyana 1",
+            "target": "Hebrew 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Guyana 1",
+            "target": "Kannada 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
+            "source": "Guyana 1",
             "target": "/m/0653m 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Guyana 1",
+            "target": "Pashto 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Guyana 1",
+            "target": "Danish 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Guyana 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Guyana 1",
+            "target": "Indonesian 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Guyana 1",
+            "target": "Bengali 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Guyana 1",
+            "target": "Filipino 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Guyana 1",
+            "target": "American English 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Luxembourg 1",
+            "target": "Hebrew 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Luxembourg 1",
+            "target": "Kannada 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
+            "source": "Luxembourg 1",
             "target": "/m/0653m 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Luxembourg 1",
+            "target": "Pashto 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Luxembourg 1",
+            "target": "Danish 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Luxembourg 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Luxembourg 1",
+            "target": "Indonesian 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Luxembourg 1",
+            "target": "Bengali 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Luxembourg 1",
+            "target": "Filipino 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Luxembourg 1",
+            "target": "American English 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Greece 1",
+            "target": "Hebrew 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Greece 1",
+            "target": "Kannada 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
+            "source": "Greece 1",
             "target": "/m/0653m 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Greece 1",
+            "target": "Pashto 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Greece 1",
+            "target": "Danish 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Greece 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Greece 1",
+            "target": "Indonesian 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Greece 1",
+            "target": "Bengali 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Greece 1",
+            "target": "Filipino 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Greece 1",
+            "target": "American English 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Ghana 1",
+            "target": "Hebrew 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Ghana 1",
+            "target": "Kannada 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
+            "source": "Ghana 1",
             "target": "/m/0653m 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Ghana 1",
+            "target": "Pashto 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Ghana 1",
+            "target": "Danish 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Ghana 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Ghana 1",
+            "target": "Indonesian 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Ghana 1",
+            "target": "Bengali 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Ghana 1",
+            "target": "Filipino 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Ghana 1",
+            "target": "American English 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Tajikistan 1",
+            "target": "Hebrew 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Tajikistan 1",
+            "target": "Kannada 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
+            "source": "Tajikistan 1",
             "target": "/m/0653m 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Tajikistan 1",
+            "target": "Pashto 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Tajikistan 1",
+            "target": "Danish 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Tajikistan 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Tajikistan 1",
+            "target": "Indonesian 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Tajikistan 1",
+            "target": "Bengali 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Tajikistan 1",
+            "target": "Filipino 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Tajikistan 1",
+            "target": "American English 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "history of hebrew (Q9288) 2",
+            "source": "Czech Republic 1",
+            "target": "Hebrew 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "kn (Q33673) 2",
+            "source": "Czech Republic 1",
+            "target": "Kannada 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
+            "source": "Czech Republic 1",
             "target": "/m/0653m 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "pashtoon language (Q58680) 2",
+            "source": "Czech Republic 1",
+            "target": "Pashto 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "iso 639:da (Q9035) 2",
+            "source": "Czech Republic 1",
+            "target": "Danish 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "history of pre-standard serbo-croatian (Q9301) 2",
+            "source": "Czech Republic 1",
+            "target": "Serbo-Croatian 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "malay-indonesian (Q9240) 2",
+            "source": "Czech Republic 1",
+            "target": "Indonesian 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "bengali language topics (Q9610) 2",
+            "source": "Czech Republic 1",
+            "target": "Bengali 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "filipino-language (Q33298) 2",
+            "source": "Czech Republic 1",
+            "target": "Filipino 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "engvara spelling (Q7976) 2",
+            "source": "Czech Republic 1",
+            "target": "American English 2",
             "value": 0.004565047519690224
         }
     ],
@@ -558,7 +558,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "name": "World Trade Organization 0",
             "url": "https://www.wikidata.org/wiki/Q7825",
             "value": 1.0
         },
@@ -568,7 +568,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "philippines republic (Q928) 1",
+            "name": "Philippines 1",
             "url": "https://www.wikidata.org/wiki/Q928",
             "value": 0.999997615814209
         },
@@ -578,7 +578,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "climate of hong kong (Q8646) 1",
+            "name": "Hong Kong 1",
             "url": "https://www.wikidata.org/wiki/Q8646",
             "value": 0.9999964237213135
         },
@@ -588,7 +588,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "republic of the fiji islands (Q712) 1",
+            "name": "Fiji 1",
             "url": "https://www.wikidata.org/wiki/Q712",
             "value": 0.9999964237213135
         },
@@ -598,7 +598,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "yugo. (Q36704) 1",
+            "name": "Yugoslavia 1",
             "url": "https://www.wikidata.org/wiki/Q36704",
             "value": 0.48066478967666626
         },
@@ -608,7 +608,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "cooperative republic of guyana (Q734) 1",
+            "name": "Guyana 1",
             "url": "https://www.wikidata.org/wiki/Q734",
             "value": 0.46664896607398987
         },
@@ -618,7 +618,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "luxembourgh (Q32) 1",
+            "name": "Luxembourg 1",
             "url": "https://www.wikidata.org/wiki/Q32",
             "value": 0.4642295837402344
         },
@@ -628,7 +628,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "griekenland (Q41) 1",
+            "name": "Greece 1",
             "url": "https://www.wikidata.org/wiki/Q41",
             "value": 0.4602651596069336
         },
@@ -638,7 +638,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "iso 3166-1:gh (Q117) 1",
+            "name": "Ghana 1",
             "url": "https://www.wikidata.org/wiki/Q117",
             "value": 0.46020078659057617
         },
@@ -648,7 +648,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "p:tjk (Q863) 1",
+            "name": "Tajikistan 1",
             "url": "https://www.wikidata.org/wiki/Q863",
             "value": 0.4571424722671509
         },
@@ -658,7 +658,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "czech republic (Q213) 1",
+            "name": "Czech Republic 1",
             "url": "https://www.wikidata.org/wiki/Q213",
             "value": 0.456504762172699
         },
@@ -668,7 +668,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "history of hebrew (Q9288) 2",
+            "name": "Hebrew 2",
             "url": "https://www.wikidata.org/wiki/Q9288",
             "value": 0.9995549321174622
         },
@@ -678,7 +678,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "kn (Q33673) 2",
+            "name": "Kannada 2",
             "url": "https://www.wikidata.org/wiki/Q33673",
             "value": 0.999494194984436
         },
@@ -697,7 +697,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "pashtoon language (Q58680) 2",
+            "name": "Pashto 2",
             "url": "https://www.wikidata.org/wiki/Q58680",
             "value": 0.42763033509254456
         },
@@ -707,7 +707,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "iso 639:da (Q9035) 2",
+            "name": "Danish 2",
             "url": "https://www.wikidata.org/wiki/Q9035",
             "value": 0.29706740379333496
         },
@@ -717,7 +717,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "history of pre-standard serbo-croatian (Q9301) 2",
+            "name": "Serbo-Croatian 2",
             "url": "https://www.wikidata.org/wiki/Q9301",
             "value": 0.28890109062194824
         },
@@ -727,7 +727,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "malay-indonesian (Q9240) 2",
+            "name": "Indonesian 2",
             "url": "https://www.wikidata.org/wiki/Q9240",
             "value": 0.2519321143627167
         },
@@ -737,7 +737,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "bengali language topics (Q9610) 2",
+            "name": "Bengali 2",
             "url": "https://www.wikidata.org/wiki/Q9610",
             "value": 0.2150430679321289
         },
@@ -747,7 +747,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "filipino-language (Q33298) 2",
+            "name": "Filipino 2",
             "url": "https://www.wikidata.org/wiki/Q33298",
             "value": 0.2042780965566635
         },
@@ -757,7 +757,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "engvara spelling (Q7976) 2",
+            "name": "American English 2",
             "url": "https://www.wikidata.org/wiki/Q7976",
             "value": 0.1323254406452179
         }

@@ -1,993 +1,993 @@
 {
     "edges": [
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "philip m. roth (Q187019) 1",
+            "source": "Bucknell University 0",
+            "target": "Philip Roth 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "kate flannery (Q3028200) 1",
+            "source": "Bucknell University 0",
+            "target": "Kate Flannery 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "hogan sheffer (Q5877090) 1",
+            "source": "Bucknell University 0",
+            "target": "Hogan Sheffer 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
+            "source": "Bucknell University 0",
             "target": "/m/01svq8 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "president buchanan (Q12325) 1",
+            "source": "Bucknell University 0",
+            "target": "James Buchanan 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "pandro s. berman (Q347473) 1",
+            "source": "Bucknell University 0",
+            "target": "Pandro S. Berman 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "gary robert durdin (Q355038) 1",
+            "source": "Bucknell University 0",
+            "target": "Gary Dourdan 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "catherine cymone fourshey (Q3444679) 0",
-            "target": "martie maguire (Q1373347) 1",
+            "source": "Bucknell University 0",
+            "target": "Martie Maguire 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Philip Roth 1",
+            "target": "Philip Roth 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Philip Roth 1",
+            "target": "James Baldwin 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Philip Roth 1",
+            "target": "J. D. Salinger 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Philip Roth 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Philip Roth 1",
+            "target": "James A. Michener 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "Philip Roth 1",
+            "target": "Michael Chabon 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Philip Roth 1",
+            "target": "Andy Warhol 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Philip Roth 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Philip Roth 1",
+            "target": "Noam Chomsky 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "philip m. roth (Q187019) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "Philip Roth 1",
+            "target": "Paul Auster 4",
             "value": 0.009999973550439467
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Kate Flannery 1",
+            "target": "Philip Roth 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Kate Flannery 1",
+            "target": "James Baldwin 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Kate Flannery 1",
+            "target": "J. D. Salinger 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Kate Flannery 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Kate Flannery 1",
+            "target": "James A. Michener 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "Kate Flannery 1",
+            "target": "Michael Chabon 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Kate Flannery 1",
+            "target": "Andy Warhol 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Kate Flannery 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Kate Flannery 1",
+            "target": "Noam Chomsky 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "kate flannery (Q3028200) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "Kate Flannery 1",
+            "target": "Paul Auster 4",
             "value": 0.003989378720759329
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Philip Roth 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "James Baldwin 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "J. D. Salinger 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "James A. Michener 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Michael Chabon 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Andy Warhol 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Noam Chomsky 4",
             "value": 0.00373233488800373
         },
         {
-            "source": "hogan sheffer (Q5877090) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "Hogan Sheffer 1",
+            "target": "Paul Auster 4",
             "value": 0.00373233488800373
         },
         {
             "source": "/m/01svq8 1",
-            "target": "philip m. roth (Q187019) 4",
+            "target": "Philip Roth 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "james baldwin (Q273210) 4",
+            "target": "James Baldwin 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "jerome salinger (Q79904) 4",
+            "target": "J. D. Salinger 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "target": "Joyce Carol Oates 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "james a. michener (Q361653) 4",
+            "target": "James A. Michener 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "chabon (Q313466) 4",
+            "target": "Michael Chabon 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "target": "Andy Warhol 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "target": "Lloyd Alexander 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "noam chomskey (Q9049) 4",
+            "target": "Noam Chomsky 4",
             "value": 0.003461542350168323
         },
         {
             "source": "/m/01svq8 1",
-            "target": "paul auster (Q214642) 4",
+            "target": "Paul Auster 4",
             "value": 0.003461542350168323
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "James Buchanan 1",
+            "target": "Philip Roth 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "James Buchanan 1",
+            "target": "James Baldwin 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "James Buchanan 1",
+            "target": "J. D. Salinger 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "James Buchanan 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "James Buchanan 1",
+            "target": "James A. Michener 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "James Buchanan 1",
+            "target": "Michael Chabon 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "James Buchanan 1",
+            "target": "Andy Warhol 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "James Buchanan 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "James Buchanan 1",
+            "target": "Noam Chomsky 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "president buchanan (Q12325) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "James Buchanan 1",
+            "target": "Paul Auster 4",
             "value": 0.003420303089462895
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Philip Roth 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "James Baldwin 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "J. D. Salinger 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "James A. Michener 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Michael Chabon 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Andy Warhol 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Noam Chomsky 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "pandro s. berman (Q347473) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "Pandro S. Berman 1",
+            "target": "Paul Auster 4",
             "value": 0.0033718036851628774
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Philip Roth 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Gary Dourdan 1",
+            "target": "James Baldwin 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Gary Dourdan 1",
+            "target": "J. D. Salinger 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Gary Dourdan 1",
+            "target": "James A. Michener 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Michael Chabon 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Andy Warhol 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Noam Chomsky 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "gary robert durdin (Q355038) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "Gary Dourdan 1",
+            "target": "Paul Auster 4",
             "value": 0.0033583753550415762
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Martie Maguire 1",
+            "target": "Philip Roth 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Martie Maguire 1",
+            "target": "James Baldwin 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Martie Maguire 1",
+            "target": "J. D. Salinger 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Martie Maguire 1",
+            "target": "Joyce Carol Oates 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Martie Maguire 1",
+            "target": "James A. Michener 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "chabon (Q313466) 4",
+            "source": "Martie Maguire 1",
+            "target": "Michael Chabon 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Martie Maguire 1",
+            "target": "Andy Warhol 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Martie Maguire 1",
+            "target": "Lloyd Alexander 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Martie Maguire 1",
+            "target": "Noam Chomsky 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "martie maguire (Q1373347) 1",
-            "target": "paul auster (Q214642) 4",
+            "source": "Martie Maguire 1",
+            "target": "Paul Auster 4",
             "value": 0.00331234507309619
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "james baldwin (Q273210) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "James Baldwin 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "jerome salinger (Q79904) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "J. D. Salinger 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
+            "source": "National Book Award for Fiction 2",
             "target": "/m/03f47xl 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "joyce carol oates (Q217557) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "Joyce Carol Oates 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "chabon (Q313466) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "Michael Chabon 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "james a. michener (Q361653) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "James A. Michener 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "mcmurtry, larry (Q611672) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "Larry McMurtry 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "james augustine joyce (Q6882) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "James Joyce 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "fyodor dostoievski (Q991) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "Fyodor Dostoyevsky 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "national book award for fiction (Q3873144) 2",
-            "target": "paul auster (Q214642) 3",
+            "source": "National Book Award for Fiction 2",
+            "target": "Paul Auster 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "James Baldwin 3",
+            "target": "Philip Roth 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "James Baldwin 3",
+            "target": "James Baldwin 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "James Baldwin 3",
+            "target": "J. D. Salinger 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "James Baldwin 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "James Baldwin 3",
+            "target": "James A. Michener 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "James Baldwin 3",
+            "target": "Michael Chabon 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "James Baldwin 3",
+            "target": "Andy Warhol 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "James Baldwin 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "James Baldwin 3",
+            "target": "Noam Chomsky 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "james baldwin (Q273210) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "James Baldwin 3",
+            "target": "Paul Auster 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Philip Roth 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "J. D. Salinger 3",
+            "target": "James Baldwin 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "J. D. Salinger 3",
+            "target": "J. D. Salinger 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "J. D. Salinger 3",
+            "target": "James A. Michener 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Michael Chabon 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Andy Warhol 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Noam Chomsky 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "jerome salinger (Q79904) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "J. D. Salinger 3",
+            "target": "Paul Auster 4",
             "value": 0.009999998584389713
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "philip m. roth (Q187019) 4",
+            "target": "Philip Roth 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "james baldwin (Q273210) 4",
+            "target": "James Baldwin 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "jerome salinger (Q79904) 4",
+            "target": "J. D. Salinger 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "target": "Joyce Carol Oates 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "james a. michener (Q361653) 4",
+            "target": "James A. Michener 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "chabon (Q313466) 4",
+            "target": "Michael Chabon 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "target": "Andy Warhol 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "target": "Lloyd Alexander 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "noam chomskey (Q9049) 4",
+            "target": "Noam Chomsky 4",
             "value": 0.009999996200203976
         },
         {
             "source": "/m/03f47xl 3",
-            "target": "paul auster (Q214642) 4",
+            "target": "Paul Auster 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Philip Roth 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "James Baldwin 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "J. D. Salinger 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "James A. Michener 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Michael Chabon 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Andy Warhol 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Noam Chomsky 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "joyce carol oates (Q217557) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "Joyce Carol Oates 3",
+            "target": "Paul Auster 4",
             "value": 0.00500469554205174
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Michael Chabon 3",
+            "target": "Philip Roth 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Michael Chabon 3",
+            "target": "James Baldwin 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Michael Chabon 3",
+            "target": "J. D. Salinger 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Michael Chabon 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Michael Chabon 3",
+            "target": "James A. Michener 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "Michael Chabon 3",
+            "target": "Michael Chabon 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Michael Chabon 3",
+            "target": "Andy Warhol 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Michael Chabon 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Michael Chabon 3",
+            "target": "Noam Chomsky 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "chabon (Q313466) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "Michael Chabon 3",
+            "target": "Paul Auster 4",
             "value": 0.004229084754830192
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "James A. Michener 3",
+            "target": "Philip Roth 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "James A. Michener 3",
+            "target": "James Baldwin 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "James A. Michener 3",
+            "target": "J. D. Salinger 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "James A. Michener 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "James A. Michener 3",
+            "target": "James A. Michener 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "James A. Michener 3",
+            "target": "Michael Chabon 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "James A. Michener 3",
+            "target": "Andy Warhol 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "James A. Michener 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "James A. Michener 3",
+            "target": "Noam Chomsky 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "james a. michener (Q361653) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "James A. Michener 3",
+            "target": "Paul Auster 4",
             "value": 0.00418940862589906
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Philip Roth 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Larry McMurtry 3",
+            "target": "James Baldwin 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Larry McMurtry 3",
+            "target": "J. D. Salinger 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Larry McMurtry 3",
+            "target": "James A. Michener 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Michael Chabon 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Andy Warhol 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Noam Chomsky 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "mcmurtry, larry (Q611672) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "Larry McMurtry 3",
+            "target": "Paul Auster 4",
             "value": 0.0040187319214925465
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "James Joyce 3",
+            "target": "Philip Roth 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "James Joyce 3",
+            "target": "James Baldwin 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "James Joyce 3",
+            "target": "J. D. Salinger 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "James Joyce 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "James Joyce 3",
+            "target": "James A. Michener 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "James Joyce 3",
+            "target": "Michael Chabon 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "James Joyce 3",
+            "target": "Andy Warhol 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "James Joyce 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "James Joyce 3",
+            "target": "Noam Chomsky 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "james augustine joyce (Q6882) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "James Joyce 3",
+            "target": "Paul Auster 4",
             "value": 0.003978696078538235
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Philip Roth 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "James Baldwin 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "J. D. Salinger 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "James A. Michener 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Michael Chabon 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Andy Warhol 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Noam Chomsky 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "fyodor dostoievski (Q991) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "Fyodor Dostoyevsky 3",
+            "target": "Paul Auster 4",
             "value": 0.003869116219823443
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "philip m. roth (Q187019) 4",
+            "source": "Paul Auster 3",
+            "target": "Philip Roth 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "james baldwin (Q273210) 4",
+            "source": "Paul Auster 3",
+            "target": "James Baldwin 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "jerome salinger (Q79904) 4",
+            "source": "Paul Auster 3",
+            "target": "J. D. Salinger 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "joyce carol oates (Q217557) 4",
+            "source": "Paul Auster 3",
+            "target": "Joyce Carol Oates 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "james a. michener (Q361653) 4",
+            "source": "Paul Auster 3",
+            "target": "James A. Michener 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "chabon (Q313466) 4",
+            "source": "Paul Auster 3",
+            "target": "Michael Chabon 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "andy warhol/comments (Q5603) 4",
+            "source": "Paul Auster 3",
+            "target": "Andy Warhol 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "lloyd chudley alexander (Q366643) 4",
+            "source": "Paul Auster 3",
+            "target": "Lloyd Alexander 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "noam chomskey (Q9049) 4",
+            "source": "Paul Auster 3",
+            "target": "Noam Chomsky 4",
             "value": 0.0037633450978246663
         },
         {
-            "source": "paul auster (Q214642) 3",
-            "target": "paul auster (Q214642) 4",
+            "source": "Paul Auster 3",
+            "target": "Paul Auster 4",
             "value": 0.0037633450978246663
         }
     ],
@@ -998,7 +998,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "catherine cymone fourshey (Q3444679) 0",
+            "name": "Bucknell University 0",
             "url": "https://www.wikidata.org/wiki/Q3444679",
             "value": 1.0
         },
@@ -1008,7 +1008,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "philip m. roth (Q187019) 1",
+            "name": "Philip Roth 1",
             "url": "https://www.wikidata.org/wiki/Q187019",
             "value": 0.9999973773956299
         },
@@ -1018,7 +1018,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kate flannery (Q3028200) 1",
+            "name": "Kate Flannery 1",
             "url": "https://www.wikidata.org/wiki/Q3028200",
             "value": 0.3989378809928894
         },
@@ -1028,7 +1028,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hogan sheffer (Q5877090) 1",
+            "name": "Hogan Sheffer 1",
             "url": "https://www.wikidata.org/wiki/Q5877090",
             "value": 0.37323349714279175
         },
@@ -1047,7 +1047,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "president buchanan (Q12325) 1",
+            "name": "James Buchanan 1",
             "url": "https://www.wikidata.org/wiki/Q12325",
             "value": 0.3420303165912628
         },
@@ -1057,7 +1057,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pandro s. berman (Q347473) 1",
+            "name": "Pandro S. Berman 1",
             "url": "https://www.wikidata.org/wiki/Q347473",
             "value": 0.33718037605285645
         },
@@ -1067,7 +1067,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "gary robert durdin (Q355038) 1",
+            "name": "Gary Dourdan 1",
             "url": "https://www.wikidata.org/wiki/Q355038",
             "value": 0.33583754301071167
         },
@@ -1077,7 +1077,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "martie maguire (Q1373347) 1",
+            "name": "Martie Maguire 1",
             "url": "https://www.wikidata.org/wiki/Q1373347",
             "value": 0.33123451471328735
         },
@@ -1087,7 +1087,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "national book award for fiction (Q3873144) 2",
+            "name": "National Book Award for Fiction 2",
             "url": "https://www.wikidata.org/wiki/Q3873144",
             "value": 1.0
         },
@@ -1097,7 +1097,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "james baldwin (Q273210) 3",
+            "name": "James Baldwin 3",
             "url": "https://www.wikidata.org/wiki/Q273210",
             "value": 0.9999998807907104
         },
@@ -1107,7 +1107,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jerome salinger (Q79904) 3",
+            "name": "J. D. Salinger 3",
             "url": "https://www.wikidata.org/wiki/Q79904",
             "value": 0.9999998807907104
         },
@@ -1126,7 +1126,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "joyce carol oates (Q217557) 3",
+            "name": "Joyce Carol Oates 3",
             "url": "https://www.wikidata.org/wiki/Q217557",
             "value": 0.5004695653915405
         },
@@ -1136,7 +1136,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chabon (Q313466) 3",
+            "name": "Michael Chabon 3",
             "url": "https://www.wikidata.org/wiki/Q313466",
             "value": 0.4229084849357605
         },
@@ -1146,7 +1146,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "james a. michener (Q361653) 3",
+            "name": "James A. Michener 3",
             "url": "https://www.wikidata.org/wiki/Q361653",
             "value": 0.41894087195396423
         },
@@ -1156,7 +1156,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "mcmurtry, larry (Q611672) 3",
+            "name": "Larry McMurtry 3",
             "url": "https://www.wikidata.org/wiki/Q611672",
             "value": 0.4018732011318207
         },
@@ -1166,7 +1166,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "james augustine joyce (Q6882) 3",
+            "name": "James Joyce 3",
             "url": "https://www.wikidata.org/wiki/Q6882",
             "value": 0.39786961674690247
         },
@@ -1176,7 +1176,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fyodor dostoievski (Q991) 3",
+            "name": "Fyodor Dostoyevsky 3",
             "url": "https://www.wikidata.org/wiki/Q991",
             "value": 0.38691163063049316
         },
@@ -1186,7 +1186,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "paul auster (Q214642) 3",
+            "name": "Paul Auster 3",
             "url": "https://www.wikidata.org/wiki/Q214642",
             "value": 0.3763345181941986
         },
@@ -1196,7 +1196,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "philip m. roth (Q187019) 4",
+            "name": "Philip Roth 4",
             "url": "https://www.wikidata.org/wiki/Q187019",
             "value": 1.0
         },
@@ -1206,7 +1206,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "james baldwin (Q273210) 4",
+            "name": "James Baldwin 4",
             "url": "https://www.wikidata.org/wiki/Q273210",
             "value": 0.9999998807907104
         },
@@ -1216,7 +1216,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jerome salinger (Q79904) 4",
+            "name": "J. D. Salinger 4",
             "url": "https://www.wikidata.org/wiki/Q79904",
             "value": 0.9999998807907104
         },
@@ -1226,7 +1226,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "joyce carol oates (Q217557) 4",
+            "name": "Joyce Carol Oates 4",
             "url": "https://www.wikidata.org/wiki/Q217557",
             "value": 0.564591646194458
         },
@@ -1236,7 +1236,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "james a. michener (Q361653) 4",
+            "name": "James A. Michener 4",
             "url": "https://www.wikidata.org/wiki/Q361653",
             "value": 0.5341641306877136
         },
@@ -1246,7 +1246,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chabon (Q313466) 4",
+            "name": "Michael Chabon 4",
             "url": "https://www.wikidata.org/wiki/Q313466",
             "value": 0.5127917528152466
         },
@@ -1256,7 +1256,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "andy warhol/comments (Q5603) 4",
+            "name": "Andy Warhol 4",
             "url": "https://www.wikidata.org/wiki/Q5603",
             "value": 0.4951590299606323
         },
@@ -1266,7 +1266,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lloyd chudley alexander (Q366643) 4",
+            "name": "Lloyd Alexander 4",
             "url": "https://www.wikidata.org/wiki/Q366643",
             "value": 0.4866717457771301
         },
@@ -1276,7 +1276,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "noam chomskey (Q9049) 4",
+            "name": "Noam Chomsky 4",
             "url": "https://www.wikidata.org/wiki/Q9049",
             "value": 0.4635159969329834
         },
@@ -1286,7 +1286,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "paul auster (Q214642) 4",
+            "name": "Paul Auster 4",
             "url": "https://www.wikidata.org/wiki/Q214642",
             "value": 0.4617856740951538
         }

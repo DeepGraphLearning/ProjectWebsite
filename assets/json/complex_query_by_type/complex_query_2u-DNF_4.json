@@ -1,883 +1,883 @@
 {
     "edges": [
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "2012 olympic games logo (Q8577) 1",
+            "source": "silver medal 0",
+            "target": "2012 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "2008 beijing olympics (Q8567) 1",
+            "source": "silver medal 0",
+            "target": "2008 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "the 2006 winter olympics (Q9672) 1",
+            "source": "silver medal 0",
+            "target": "2006 Winter Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "2000 olympics (Q8544) 1",
+            "source": "silver medal 0",
+            "target": "2000 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "barcelona'92 (Q8488) 1",
+            "source": "silver medal 0",
+            "target": "1992 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "summer olympic games of 1924 (Q8132) 1",
+            "source": "silver medal 0",
+            "target": "1924 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "the 1952 summer olympics (Q8407) 1",
+            "source": "silver medal 0",
+            "target": "1952 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "1968 mexico city olympic games (Q8429) 1",
+            "source": "silver medal 0",
+            "target": "1968 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "rome (1960) (Q8415) 1",
+            "source": "silver medal 0",
+            "target": "1960 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "silver medalist (Q847956) 0",
-            "target": "summer olympics of 1988 (Q8470) 1",
+            "source": "silver medal 0",
+            "target": "1988 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "2012 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.009999872222545614
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "2008 beijing olympics (Q8567) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "2008 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.009999711290008317
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "the 2006 winter olympics (Q9672) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "2006 Winter Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.009999578967699874
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "2000 olympics (Q8544) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "2000 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.005369808553834066
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1992 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.00511805820946265
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "summer olympic games of 1924 (Q8132) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1924 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.004924894163201132
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "the 1952 summer olympics (Q8407) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1952 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.0048883600930491045
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "1968 mexico city olympic games (Q8429) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1968 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.004706368639177783
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "rome (1960) (Q8415) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1960 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.004620908991525119
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "2006 Winter Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1998 Winter Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "2002 Winter Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1992 Winter Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "2000 Summer Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1992 Summer Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1924 Summer Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1952 Summer Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1968 Summer Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1988 Summer Olympics 1",
+            "target": "1960 Summer Olympics 4",
             "value": 0.004446420868193635
         },
         {
-            "source": "speedskating (Q192431) 2",
-            "target": "xi olympic winter games (Q9646) 3",
+            "source": "speed skating 2",
+            "target": "1972 Winter Olympics 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "speedskating (Q192431) 2",
-            "target": "bids for the 1948 winter olympics (Q9615) 3",
+            "source": "speed skating 2",
+            "target": "1948 Winter Olympics 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "speedskating (Q192431) 2",
-            "target": "the 1968 winter olympics (Q9642) 3",
+            "source": "speed skating 2",
+            "target": "1968 Winter Olympics 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "speedskating (Q192431) 2",
-            "target": "1992 albertville olympics (Q9660) 3",
+            "source": "speed skating 2",
+            "target": "1992 Winter Olympics 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "speedskating (Q192431) 2",
-            "target": "1920 olympic games (Q8128) 3",
+            "source": "speed skating 2",
+            "target": "1920 Summer Olympics 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "speedskating (Q192431) 2",
-            "target": "london 1908 (Q8111) 3",
+            "source": "speed skating 2",
+            "target": "1908 Summer Olympics 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "2006 Winter Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1998 Winter Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "2002 Winter Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1992 Winter Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "2000 Summer Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1992 Summer Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1924 Summer Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1952 Summer Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1968 Summer Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "xi olympic winter games (Q9646) 3",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1972 Winter Olympics 3",
+            "target": "1960 Summer Olympics 4",
             "value": 0.00999997116625373
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "2006 Winter Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1998 Winter Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "2002 Winter Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1992 Winter Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "2000 Summer Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1992 Summer Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1924 Summer Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1952 Summer Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1968 Summer Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "bids for the 1948 winter olympics (Q9615) 3",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1948 Winter Olympics 3",
+            "target": "1960 Summer Olympics 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "2006 Winter Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1998 Winter Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "2002 Winter Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1992 Winter Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "2000 Summer Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1992 Summer Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1924 Summer Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1952 Summer Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1968 Summer Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "the 1968 winter olympics (Q9642) 3",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1968 Winter Olympics 3",
+            "target": "1960 Summer Olympics 4",
             "value": 0.009999962821603647
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "2006 Winter Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1998 Winter Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "2002 Winter Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1992 Winter Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "2000 Summer Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1992 Summer Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1924 Summer Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1952 Summer Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1968 Summer Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1992 albertville olympics (Q9660) 3",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1992 Winter Olympics 3",
+            "target": "1960 Summer Olympics 4",
             "value": 0.004464567799913111
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "2006 Winter Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1998 Winter Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "2002 Winter Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1992 Winter Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "2000 Summer Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1992 Summer Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1924 Summer Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1952 Summer Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1968 Summer Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "1920 olympic games (Q8128) 3",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1920 Summer Olympics 3",
+            "target": "1960 Summer Olympics 4",
             "value": 0.0015764240568185428
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "the 2006 winter olympics (Q9672) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "2006 Winter Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "nagano 1998 olympic bid (Q9664) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1998 Winter Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "2002 olympics (Q9668) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "2002 Winter Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "1992 albertville olympics (Q9660) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1992 Winter Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "2000 olympics (Q8544) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "2000 Summer Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "barcelona'92 (Q8488) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1992 Summer Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "summer olympic games of 1924 (Q8132) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1924 Summer Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "the 1952 summer olympics (Q8407) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1952 Summer Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "1968 mexico city olympic games (Q8429) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1968 Summer Olympics 4",
             "value": 0.0013682266763994089
         },
         {
-            "source": "london 1908 (Q8111) 3",
-            "target": "rome (1960) (Q8415) 4",
+            "source": "1908 Summer Olympics 3",
+            "target": "1960 Summer Olympics 4",
             "value": 0.0013682266763994089
         }
     ],
@@ -888,7 +888,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "silver medalist (Q847956) 0",
+            "name": "silver medal 0",
             "url": "https://www.wikidata.org/wiki/Q847956",
             "value": 1.0
         },
@@ -898,7 +898,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "2012 olympic games logo (Q8577) 1",
+            "name": "2012 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8577",
             "value": 0.9999872446060181
         },
@@ -908,7 +908,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "2008 beijing olympics (Q8567) 1",
+            "name": "2008 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8567",
             "value": 0.9999711513519287
         },
@@ -918,7 +918,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the 2006 winter olympics (Q9672) 1",
+            "name": "2006 Winter Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q9672",
             "value": 0.9999579191207886
         },
@@ -928,7 +928,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "2000 olympics (Q8544) 1",
+            "name": "2000 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8544",
             "value": 0.5369808673858643
         },
@@ -938,7 +938,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "barcelona'92 (Q8488) 1",
+            "name": "1992 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8488",
             "value": 0.5118058323860168
         },
@@ -948,7 +948,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "summer olympic games of 1924 (Q8132) 1",
+            "name": "1924 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8132",
             "value": 0.49248942732810974
         },
@@ -958,7 +958,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "the 1952 summer olympics (Q8407) 1",
+            "name": "1952 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8407",
             "value": 0.48883602023124695
         },
@@ -968,7 +968,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1968 mexico city olympic games (Q8429) 1",
+            "name": "1968 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8429",
             "value": 0.47063687443733215
         },
@@ -978,7 +978,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "rome (1960) (Q8415) 1",
+            "name": "1960 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8415",
             "value": 0.4620909094810486
         },
@@ -988,7 +988,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "summer olympics of 1988 (Q8470) 1",
+            "name": "1988 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8470",
             "value": 0.4446420967578888
         },
@@ -998,7 +998,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "speedskating (Q192431) 2",
+            "name": "speed skating 2",
             "url": "https://www.wikidata.org/wiki/Q192431",
             "value": 1.0
         },
@@ -1008,7 +1008,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "xi olympic winter games (Q9646) 3",
+            "name": "1972 Winter Olympics 3",
             "url": "https://www.wikidata.org/wiki/Q9646",
             "value": 0.9999971389770508
         },
@@ -1018,7 +1018,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bids for the 1948 winter olympics (Q9615) 3",
+            "name": "1948 Winter Olympics 3",
             "url": "https://www.wikidata.org/wiki/Q9615",
             "value": 0.9999966621398926
         },
@@ -1028,7 +1028,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the 1968 winter olympics (Q9642) 3",
+            "name": "1968 Winter Olympics 3",
             "url": "https://www.wikidata.org/wiki/Q9642",
             "value": 0.9999963045120239
         },
@@ -1038,7 +1038,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1992 albertville olympics (Q9660) 3",
+            "name": "1992 Winter Olympics 3",
             "url": "https://www.wikidata.org/wiki/Q9660",
             "value": 0.44645678997039795
         },
@@ -1048,7 +1048,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1920 olympic games (Q8128) 3",
+            "name": "1920 Summer Olympics 3",
             "url": "https://www.wikidata.org/wiki/Q8128",
             "value": 0.1576424092054367
         },
@@ -1058,7 +1058,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "london 1908 (Q8111) 3",
+            "name": "1908 Summer Olympics 3",
             "url": "https://www.wikidata.org/wiki/Q8111",
             "value": 0.1368226706981659
         },
@@ -1068,7 +1068,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the 2006 winter olympics (Q9672) 4",
+            "name": "2006 Winter Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q9672",
             "value": 1.0
         },
@@ -1078,7 +1078,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "nagano 1998 olympic bid (Q9664) 4",
+            "name": "1998 Winter Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q9664",
             "value": 1.0
         },
@@ -1088,7 +1088,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "2002 olympics (Q9668) 4",
+            "name": "2002 Winter Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q9668",
             "value": 1.0
         },
@@ -1098,7 +1098,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1992 albertville olympics (Q9660) 4",
+            "name": "1992 Winter Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q9660",
             "value": 0.660557746887207
         },
@@ -1108,7 +1108,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "2000 olympics (Q8544) 4",
+            "name": "2000 Summer Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q8544",
             "value": 0.5711126327514648
         },
@@ -1118,7 +1118,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "barcelona'92 (Q8488) 4",
+            "name": "1992 Summer Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q8488",
             "value": 0.515869140625
         },
@@ -1128,7 +1128,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "summer olympic games of 1924 (Q8132) 4",
+            "name": "1924 Summer Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q8132",
             "value": 0.49504297971725464
         },
@@ -1138,7 +1138,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "the 1952 summer olympics (Q8407) 4",
+            "name": "1952 Summer Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q8407",
             "value": 0.49179384112358093
         },
@@ -1148,7 +1148,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1968 mexico city olympic games (Q8429) 4",
+            "name": "1968 Summer Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q8429",
             "value": 0.4737274646759033
         },
@@ -1158,7 +1158,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "rome (1960) (Q8415) 4",
+            "name": "1960 Summer Olympics 4",
             "url": "https://www.wikidata.org/wiki/Q8415",
             "value": 0.46462130546569824
         }

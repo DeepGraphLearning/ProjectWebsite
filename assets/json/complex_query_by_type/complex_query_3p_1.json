@@ -1,783 +1,783 @@
 {
     "edges": [
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "philippines republic (Q928) 1",
+            "source": "World Trade Organization 0",
+            "target": "Philippines 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "climate of hong kong (Q8646) 1",
+            "source": "World Trade Organization 0",
+            "target": "Hong Kong 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "republic of the fiji islands (Q712) 1",
+            "source": "World Trade Organization 0",
+            "target": "Fiji 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "yugo. (Q36704) 1",
+            "source": "World Trade Organization 0",
+            "target": "Yugoslavia 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "cooperative republic of guyana (Q734) 1",
+            "source": "World Trade Organization 0",
+            "target": "Guyana 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "luxembourgh (Q32) 1",
+            "source": "World Trade Organization 0",
+            "target": "Luxembourg 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "griekenland (Q41) 1",
+            "source": "World Trade Organization 0",
+            "target": "Greece 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "iso 3166-1:gh (Q117) 1",
+            "source": "World Trade Organization 0",
+            "target": "Ghana 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "p:tjk (Q863) 1",
+            "source": "World Trade Organization 0",
+            "target": "Tajikistan 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0",
-            "target": "czech republic (Q213) 1",
+            "source": "World Trade Organization 0",
+            "target": "Czech Republic 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Philippines 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Philippines 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Philippines 1",
+            "target": "John F. Kennedy 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Philippines 1",
+            "target": "Mao Zedong 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
+            "source": "Philippines 1",
             "target": "/m/079dy 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Philippines 1",
+            "target": "Yasser Arafat 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Philippines 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Philippines 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Philippines 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "philippines republic (Q928) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Philippines 1",
+            "target": "Sarah Palin 2",
             "value": 0.009999975934625205
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Hong Kong 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Hong Kong 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Hong Kong 1",
+            "target": "John F. Kennedy 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Hong Kong 1",
+            "target": "Mao Zedong 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
+            "source": "Hong Kong 1",
             "target": "/m/079dy 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Hong Kong 1",
+            "target": "Yasser Arafat 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Hong Kong 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Hong Kong 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Hong Kong 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "climate of hong kong (Q8646) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Hong Kong 1",
+            "target": "Sarah Palin 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Fiji 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Fiji 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Fiji 1",
+            "target": "John F. Kennedy 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Fiji 1",
+            "target": "Mao Zedong 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
+            "source": "Fiji 1",
             "target": "/m/079dy 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Fiji 1",
+            "target": "Yasser Arafat 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Fiji 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Fiji 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Fiji 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "republic of the fiji islands (Q712) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Fiji 1",
+            "target": "Sarah Palin 2",
             "value": 0.009999964013696516
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Yugoslavia 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Yugoslavia 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Yugoslavia 1",
+            "target": "John F. Kennedy 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Yugoslavia 1",
+            "target": "Mao Zedong 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
+            "source": "Yugoslavia 1",
             "target": "/m/079dy 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Yugoslavia 1",
+            "target": "Yasser Arafat 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Yugoslavia 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Yugoslavia 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Yugoslavia 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "yugo. (Q36704) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Yugoslavia 1",
+            "target": "Sarah Palin 2",
             "value": 0.00480664778932971
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Guyana 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Guyana 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Guyana 1",
+            "target": "John F. Kennedy 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Guyana 1",
+            "target": "Mao Zedong 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
+            "source": "Guyana 1",
             "target": "/m/079dy 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Guyana 1",
+            "target": "Yasser Arafat 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Guyana 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Guyana 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Guyana 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "cooperative republic of guyana (Q734) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Guyana 1",
+            "target": "Sarah Palin 2",
             "value": 0.004666489556435727
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Luxembourg 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Luxembourg 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Luxembourg 1",
+            "target": "John F. Kennedy 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Luxembourg 1",
+            "target": "Mao Zedong 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
+            "source": "Luxembourg 1",
             "target": "/m/079dy 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Luxembourg 1",
+            "target": "Yasser Arafat 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Luxembourg 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Luxembourg 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Luxembourg 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "luxembourgh (Q32) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Luxembourg 1",
+            "target": "Sarah Palin 2",
             "value": 0.004642295733638946
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Greece 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Greece 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Greece 1",
+            "target": "John F. Kennedy 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Greece 1",
+            "target": "Mao Zedong 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
+            "source": "Greece 1",
             "target": "/m/079dy 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Greece 1",
+            "target": "Yasser Arafat 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Greece 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Greece 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Greece 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "griekenland (Q41) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Greece 1",
+            "target": "Sarah Palin 2",
             "value": 0.004602651493192056
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Ghana 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Ghana 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Ghana 1",
+            "target": "John F. Kennedy 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Ghana 1",
+            "target": "Mao Zedong 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
+            "source": "Ghana 1",
             "target": "/m/079dy 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Ghana 1",
+            "target": "Yasser Arafat 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Ghana 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Ghana 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Ghana 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "iso 3166-1:gh (Q117) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Ghana 1",
+            "target": "Sarah Palin 2",
             "value": 0.00460200776304287
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Tajikistan 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Tajikistan 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Tajikistan 1",
+            "target": "John F. Kennedy 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Tajikistan 1",
+            "target": "Mao Zedong 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
+            "source": "Tajikistan 1",
             "target": "/m/079dy 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Tajikistan 1",
+            "target": "Yasser Arafat 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Tajikistan 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Tajikistan 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Tajikistan 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "p:tjk (Q863) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Tajikistan 1",
+            "target": "Sarah Palin 2",
             "value": 0.004571424620492204
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "bobby kennedy (Q25310) 2",
+            "source": "Czech Republic 1",
+            "target": "Robert F. Kennedy 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "3rd president of the united states (Q11812) 2",
+            "source": "Czech Republic 1",
+            "target": "Thomas Jefferson 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "early years of john f. kennedy (Q9696) 2",
+            "source": "Czech Republic 1",
+            "target": "John F. Kennedy 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "ershiba hua sheng (Q5816) 2",
+            "source": "Czech Republic 1",
+            "target": "Mao Zedong 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
+            "source": "Czech Republic 1",
             "target": "/m/079dy 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "death of yasser arafat (Q34211) 2",
+            "source": "Czech Republic 1",
+            "target": "Yasser Arafat 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Czech Republic 1",
+            "target": "Chiang Kai-shek 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "marshall zhukov (Q124617) 2",
+            "source": "Czech Republic 1",
+            "target": "Georgy Zhukov 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "donald payne, sr. (Q1240103) 2",
+            "source": "Czech Republic 1",
+            "target": "Donaldus Milford Payne 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "czech republic (Q213) 1",
-            "target": "sara palen (Q43144) 2",
+            "source": "Czech Republic 1",
+            "target": "Sarah Palin 2",
             "value": 0.004565047519690224
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "University of Manitoba 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "Kansas State University 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "Columbia University 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "United States Military Academy 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "United States Naval Academy 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
+            "source": "Robert F. Kennedy 2",
             "target": "/m/02bq1j 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "Columbia College 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "Harvard Law School 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "bobby kennedy (Q25310) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Robert F. Kennedy 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.00998611666293181
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "University of Manitoba 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "Kansas State University 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "Columbia University 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "United States Military Academy 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "United States Naval Academy 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
+            "source": "Thomas Jefferson 2",
             "target": "/m/02bq1j 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "Columbia College 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "Harvard Law School 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "3rd president of the united states (Q11812) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Thomas Jefferson 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.009983445182812689
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "John F. Kennedy 2",
+            "target": "University of Manitoba 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "John F. Kennedy 2",
+            "target": "Kansas State University 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "John F. Kennedy 2",
+            "target": "Columbia University 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "John F. Kennedy 2",
+            "target": "United States Military Academy 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "John F. Kennedy 2",
+            "target": "United States Naval Academy 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "John F. Kennedy 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
+            "source": "John F. Kennedy 2",
             "target": "/m/02bq1j 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "John F. Kennedy 2",
+            "target": "Columbia College 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "John F. Kennedy 2",
+            "target": "Harvard Law School 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "early years of john f. kennedy (Q9696) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "John F. Kennedy 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.009983340874686664
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Mao Zedong 2",
+            "target": "University of Manitoba 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Mao Zedong 2",
+            "target": "Kansas State University 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Mao Zedong 2",
+            "target": "Columbia University 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Mao Zedong 2",
+            "target": "United States Military Academy 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Mao Zedong 2",
+            "target": "United States Naval Academy 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Mao Zedong 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
+            "source": "Mao Zedong 2",
             "target": "/m/02bq1j 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Mao Zedong 2",
+            "target": "Columbia College 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Mao Zedong 2",
+            "target": "Harvard Law School 3",
             "value": 0.0027499526124458162
         },
         {
-            "source": "ershiba hua sheng (Q5816) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Mao Zedong 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.0027499526124458162
         },
         {
             "source": "/m/079dy 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "target": "University of Manitoba 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "kansas state u (Q31249) 3",
+            "target": "Kansas State University 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "target": "Columbia University 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "cullum number (Q9219) 3",
+            "target": "United States Military Academy 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "usn a (Q559549) 3",
+            "target": "United States Naval Academy 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "target": "Spyglass Media Group 3",
             "value": 0.002658871054823597
         },
         {
@@ -787,267 +787,267 @@
         },
         {
             "source": "/m/079dy 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "target": "Columbia College 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "harvard university law school (Q49122) 3",
+            "target": "Harvard Law School 3",
             "value": 0.002658871054823597
         },
         {
             "source": "/m/079dy 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.002658871054823597
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Yasser Arafat 2",
+            "target": "University of Manitoba 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Yasser Arafat 2",
+            "target": "Kansas State University 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Yasser Arafat 2",
+            "target": "Columbia University 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Yasser Arafat 2",
+            "target": "United States Military Academy 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Yasser Arafat 2",
+            "target": "United States Naval Academy 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Yasser Arafat 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
+            "source": "Yasser Arafat 2",
             "target": "/m/02bq1j 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Yasser Arafat 2",
+            "target": "Columbia College 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Yasser Arafat 2",
+            "target": "Harvard Law School 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "death of yasser arafat (Q34211) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Yasser Arafat 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.0024769299668759848
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "University of Manitoba 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "Kansas State University 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "Columbia University 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "United States Military Academy 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "United States Naval Academy 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "source": "Chiang Kai-shek 2",
             "target": "/m/02bq1j 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "Columbia College 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "Harvard Law School 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Chiang Kai-shek 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.0023253821806896724
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "University of Manitoba 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "Kansas State University 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "Columbia University 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "United States Military Academy 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "United States Naval Academy 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
+            "source": "Georgy Zhukov 2",
             "target": "/m/02bq1j 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "Columbia College 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "Harvard Law School 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "marshall zhukov (Q124617) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Georgy Zhukov 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.0022769996014908034
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "University of Manitoba 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "Kansas State University 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "Columbia University 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "United States Military Academy 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "United States Naval Academy 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
+            "source": "Donaldus Milford Payne 2",
             "target": "/m/02bq1j 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "Columbia College 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "Harvard Law School 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "donald payne, sr. (Q1240103) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Donaldus Milford Payne 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.002215965340674697
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "manitoba, university of (Q1191833) 3",
+            "source": "Sarah Palin 2",
+            "target": "University of Manitoba 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "kansas state u (Q31249) 3",
+            "source": "Sarah Palin 2",
+            "target": "Kansas State University 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "king's college (new york) (Q49088) 3",
+            "source": "Sarah Palin 2",
+            "target": "Columbia University 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "cullum number (Q9219) 3",
+            "source": "Sarah Palin 2",
+            "target": "United States Military Academy 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "usn a (Q559549) 3",
+            "source": "Sarah Palin 2",
+            "target": "United States Naval Academy 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "spyglass entertainment (Q512858) 3",
+            "source": "Sarah Palin 2",
+            "target": "Spyglass Media Group 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
+            "source": "Sarah Palin 2",
             "target": "/m/02bq1j 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "king's college (new york) (Q4569677) 3",
+            "source": "Sarah Palin 2",
+            "target": "Columbia College 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "harvard university law school (Q49122) 3",
+            "source": "Sarah Palin 2",
+            "target": "Harvard Law School 3",
             "value": 0.002200935582795688
         },
         {
-            "source": "sara palen (Q43144) 2",
-            "target": "london school of economics and political science (lse) (Q174570) 3",
+            "source": "Sarah Palin 2",
+            "target": "London School of Economics and Political Science 3",
             "value": 0.002200935582795688
         }
     ],
@@ -1058,7 +1058,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "organizaci\u00f3n mundial del comercio (Q7825) 0",
+            "name": "World Trade Organization 0",
             "url": "https://www.wikidata.org/wiki/Q7825",
             "value": 1.0
         },
@@ -1068,7 +1068,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "philippines republic (Q928) 1",
+            "name": "Philippines 1",
             "url": "https://www.wikidata.org/wiki/Q928",
             "value": 0.999997615814209
         },
@@ -1078,7 +1078,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "climate of hong kong (Q8646) 1",
+            "name": "Hong Kong 1",
             "url": "https://www.wikidata.org/wiki/Q8646",
             "value": 0.9999964237213135
         },
@@ -1088,7 +1088,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "republic of the fiji islands (Q712) 1",
+            "name": "Fiji 1",
             "url": "https://www.wikidata.org/wiki/Q712",
             "value": 0.9999964237213135
         },
@@ -1098,7 +1098,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "yugo. (Q36704) 1",
+            "name": "Yugoslavia 1",
             "url": "https://www.wikidata.org/wiki/Q36704",
             "value": 0.48066478967666626
         },
@@ -1108,7 +1108,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "cooperative republic of guyana (Q734) 1",
+            "name": "Guyana 1",
             "url": "https://www.wikidata.org/wiki/Q734",
             "value": 0.46664896607398987
         },
@@ -1118,7 +1118,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "luxembourgh (Q32) 1",
+            "name": "Luxembourg 1",
             "url": "https://www.wikidata.org/wiki/Q32",
             "value": 0.4642295837402344
         },
@@ -1128,7 +1128,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "griekenland (Q41) 1",
+            "name": "Greece 1",
             "url": "https://www.wikidata.org/wiki/Q41",
             "value": 0.4602651596069336
         },
@@ -1138,7 +1138,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "iso 3166-1:gh (Q117) 1",
+            "name": "Ghana 1",
             "url": "https://www.wikidata.org/wiki/Q117",
             "value": 0.46020078659057617
         },
@@ -1148,7 +1148,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "p:tjk (Q863) 1",
+            "name": "Tajikistan 1",
             "url": "https://www.wikidata.org/wiki/Q863",
             "value": 0.4571424722671509
         },
@@ -1158,7 +1158,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "czech republic (Q213) 1",
+            "name": "Czech Republic 1",
             "url": "https://www.wikidata.org/wiki/Q213",
             "value": 0.456504762172699
         },
@@ -1168,7 +1168,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bobby kennedy (Q25310) 2",
+            "name": "Robert F. Kennedy 2",
             "url": "https://www.wikidata.org/wiki/Q25310",
             "value": 0.9986116886138916
         },
@@ -1178,7 +1178,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "3rd president of the united states (Q11812) 2",
+            "name": "Thomas Jefferson 2",
             "url": "https://www.wikidata.org/wiki/Q11812",
             "value": 0.9983445405960083
         },
@@ -1188,7 +1188,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "early years of john f. kennedy (Q9696) 2",
+            "name": "John F. Kennedy 2",
             "url": "https://www.wikidata.org/wiki/Q9696",
             "value": 0.9983341097831726
         },
@@ -1198,7 +1198,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "ershiba hua sheng (Q5816) 2",
+            "name": "Mao Zedong 2",
             "url": "https://www.wikidata.org/wiki/Q5816",
             "value": 0.27499526739120483
         },
@@ -1217,7 +1217,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "death of yasser arafat (Q34211) 2",
+            "name": "Yasser Arafat 2",
             "url": "https://www.wikidata.org/wiki/Q34211",
             "value": 0.2476930022239685
         },
@@ -1227,7 +1227,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "ji\u01ceng zh\u014dngzh\u00e8ng (Q16574) 2",
+            "name": "Chiang Kai-shek 2",
             "url": "https://www.wikidata.org/wiki/Q16574",
             "value": 0.23253822326660156
         },
@@ -1237,7 +1237,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "marshall zhukov (Q124617) 2",
+            "name": "Georgy Zhukov 2",
             "url": "https://www.wikidata.org/wiki/Q124617",
             "value": 0.22769996523857117
         },
@@ -1247,7 +1247,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "donald payne, sr. (Q1240103) 2",
+            "name": "Donaldus Milford Payne 2",
             "url": "https://www.wikidata.org/wiki/Q1240103",
             "value": 0.22159653902053833
         },
@@ -1257,7 +1257,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sara palen (Q43144) 2",
+            "name": "Sarah Palin 2",
             "url": "https://www.wikidata.org/wiki/Q43144",
             "value": 0.22009356319904327
         },
@@ -1267,7 +1267,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "manitoba, university of (Q1191833) 3",
+            "name": "University of Manitoba 3",
             "url": "https://www.wikidata.org/wiki/Q1191833",
             "value": 0.9972688555717468
         },
@@ -1277,7 +1277,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "kansas state u (Q31249) 3",
+            "name": "Kansas State University 3",
             "url": "https://www.wikidata.org/wiki/Q31249",
             "value": 0.9962766766548157
         },
@@ -1287,7 +1287,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "king's college (new york) (Q49088) 3",
+            "name": "Columbia University 3",
             "url": "https://www.wikidata.org/wiki/Q49088",
             "value": 0.9962263107299805
         },
@@ -1297,7 +1297,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "cullum number (Q9219) 3",
+            "name": "United States Military Academy 3",
             "url": "https://www.wikidata.org/wiki/Q9219",
             "value": 0.3999662697315216
         },
@@ -1307,7 +1307,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "usn a (Q559549) 3",
+            "name": "United States Naval Academy 3",
             "url": "https://www.wikidata.org/wiki/Q559549",
             "value": 0.39870962500572205
         },
@@ -1317,7 +1317,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "spyglass entertainment (Q512858) 3",
+            "name": "Spyglass Media Group 3",
             "url": "https://www.wikidata.org/wiki/Q512858",
             "value": 0.38565701246261597
         },
@@ -1336,7 +1336,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "king's college (new york) (Q4569677) 3",
+            "name": "Columbia College 3",
             "url": "https://www.wikidata.org/wiki/Q4569677",
             "value": 0.3814167380332947
         },
@@ -1346,7 +1346,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "harvard university law school (Q49122) 3",
+            "name": "Harvard Law School 3",
             "url": "https://www.wikidata.org/wiki/Q49122",
             "value": 0.3533373177051544
         },
@@ -1356,7 +1356,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "london school of economics and political science (lse) (Q174570) 3",
+            "name": "London School of Economics and Political Science 3",
             "url": "https://www.wikidata.org/wiki/Q174570",
             "value": 0.34796079993247986
         }

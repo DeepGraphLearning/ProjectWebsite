@@ -2,42 +2,42 @@
     "edges": [
         {
             "source": "/m/0d8qb 0 [rank = 1]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 1 [rank = 1]",
+            "target": "Pierre Trudeau 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "pierre philippe yves elliott trudeau (Q8619) 1 [rank = 1]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 4 [rank = 7]",
+            "source": "Pierre Trudeau 1 [rank = 1]",
+            "target": "Pierre Trudeau 4 [rank = 7]",
             "value": 0.5
         },
         {
-            "source": "bonds of matrimony (Q8445) 2 [rank = 1]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 3 [rank = 417]",
+            "source": "marriage 2 [rank = 1]",
+            "target": "Pierre Trudeau 3 [rank = 417]",
             "value": 0.5
         },
         {
-            "source": "pierre philippe yves elliott trudeau (Q8619) 3 [rank = 417]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 4 [rank = 7]",
+            "source": "Pierre Trudeau 3 [rank = 417]",
+            "target": "Pierre Trudeau 4 [rank = 7]",
             "value": 0.5
         },
         {
-            "source": "pierre philippe yves elliott trudeau (Q8619) 4 [rank = 7]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 8 [rank = 7]",
+            "source": "Pierre Trudeau 4 [rank = 7]",
+            "target": "Pierre Trudeau 8 [rank = 7]",
             "value": 0.5
         },
         {
-            "source": "french (Q121842) 5 [rank = 1]",
-            "target": "achille-claude (Q4700) 6 [rank = 1]",
+            "source": "French 5 [rank = 1]",
+            "target": "Claude Debussy 6 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "achille-claude (Q4700) 6 [rank = 1]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 7 [rank = 1]",
+            "source": "Claude Debussy 6 [rank = 1]",
+            "target": "Pierre Trudeau 7 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "pierre philippe yves elliott trudeau (Q8619) 7 [rank = 1]",
-            "target": "pierre philippe yves elliott trudeau (Q8619) 8 [rank = 7]",
+            "source": "Pierre Trudeau 7 [rank = 1]",
+            "target": "Pierre Trudeau 8 [rank = 7]",
             "value": 0.5
         }
     ],
@@ -57,7 +57,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "pierre philippe yves elliott trudeau (Q8619) 1 [rank = 1]",
+            "name": "Pierre Trudeau 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q8619",
             "value": 1
         },
@@ -67,7 +67,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bonds of matrimony (Q8445) 2 [rank = 1]",
+            "name": "marriage 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q8445",
             "value": 1
         },
@@ -77,7 +77,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "pierre philippe yves elliott trudeau (Q8619) 3 [rank = 417]",
+            "name": "Pierre Trudeau 3 [rank = 417]",
             "url": "https://www.wikidata.org/wiki/Q8619",
             "value": 1
         },
@@ -87,7 +87,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "pierre philippe yves elliott trudeau (Q8619) 4 [rank = 7]",
+            "name": "Pierre Trudeau 4 [rank = 7]",
             "url": "https://www.wikidata.org/wiki/Q8619",
             "value": 1
         },
@@ -97,7 +97,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "french (Q121842) 5 [rank = 1]",
+            "name": "French 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q121842",
             "value": 1
         },
@@ -107,7 +107,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "achille-claude (Q4700) 6 [rank = 1]",
+            "name": "Claude Debussy 6 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q4700",
             "value": 1
         },
@@ -117,7 +117,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "pierre philippe yves elliott trudeau (Q8619) 7 [rank = 1]",
+            "name": "Pierre Trudeau 7 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q8619",
             "value": 1
         },
@@ -127,7 +127,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "pierre philippe yves elliott trudeau (Q8619) 8 [rank = 7]",
+            "name": "Pierre Trudeau 8 [rank = 7]",
             "url": "https://www.wikidata.org/wiki/Q8619",
             "value": 1
         }

@@ -1,23 +1,23 @@
 {
     "edges": [
         {
-            "source": "san fransisco (Q62) 0 [rank = 1]",
-            "target": "scottish broken-haired terrier (Q39330) 1 [rank = 1]",
+            "source": "San Francisco 0 [rank = 1]",
+            "target": "Yorkshire Terrier 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "scottish broken-haired terrier (Q39330) 1 [rank = 1]",
-            "target": "scottish broken-haired terrier (Q39330) 4 [rank = 1]",
+            "source": "Yorkshire Terrier 1 [rank = 1]",
+            "target": "Yorkshire Terrier 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "miami (afl) (Q8652) 2 [rank = 1]",
-            "target": "scottish broken-haired terrier (Q39330) 3 [rank = 1]",
+            "source": "Miami 2 [rank = 1]",
+            "target": "Yorkshire Terrier 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "scottish broken-haired terrier (Q39330) 3 [rank = 1]",
-            "target": "scottish broken-haired terrier (Q39330) 4 [rank = 1]",
+            "source": "Yorkshire Terrier 3 [rank = 1]",
+            "target": "Yorkshire Terrier 4 [rank = 1]",
             "value": 0.5
         }
     ],
@@ -28,7 +28,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "san fransisco (Q62) 0 [rank = 1]",
+            "name": "San Francisco 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q62",
             "value": 1
         },
@@ -38,7 +38,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "scottish broken-haired terrier (Q39330) 1 [rank = 1]",
+            "name": "Yorkshire Terrier 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q39330",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "miami (afl) (Q8652) 2 [rank = 1]",
+            "name": "Miami 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q8652",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "scottish broken-haired terrier (Q39330) 3 [rank = 1]",
+            "name": "Yorkshire Terrier 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q39330",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "scottish broken-haired terrier (Q39330) 4 [rank = 1]",
+            "name": "Yorkshire Terrier 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q39330",
             "value": 1
         }

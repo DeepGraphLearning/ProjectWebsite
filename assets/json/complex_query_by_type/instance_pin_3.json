@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "voice artist (Q2405480) 0 [rank = 1]",
-            "target": "sacha cohen (Q29055) 1 [rank = 1065]",
+            "source": "voice actor 0 [rank = 1]",
+            "target": "Sacha Baron Cohen 1 [rank = 1065]",
             "value": 0.5
         },
         {
-            "source": "sacha cohen (Q29055) 1 [rank = 1065]",
-            "target": "hammersmith, london (Q277162) 2 [rank = 85]",
+            "source": "Sacha Baron Cohen 1 [rank = 1065]",
+            "target": "Hammersmith 2 [rank = 85]",
             "value": 0.5
         },
         {
-            "source": "hammersmith, london (Q277162) 2 [rank = 85]",
-            "target": "hammersmith, london (Q277162) 6 [rank = 97]",
+            "source": "Hammersmith 2 [rank = 85]",
+            "target": "Hammersmith 6 [rank = 97]",
             "value": 0.5
         },
         {
-            "source": "clevland time zone (Q941023) 3 [rank = 1]",
-            "target": "warren county, new york (Q56151) 4 [rank = 1]",
+            "source": "Eastern Time Zone 3 [rank = 1]",
+            "target": "Warren County 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "warren county, new york (Q56151) 4 [rank = 1]",
-            "target": "hammersmith, london (Q277162) 5 [rank = 3]",
+            "source": "Warren County 4 [rank = 1]",
+            "target": "Hammersmith 5 [rank = 3]",
             "value": 0.5
         },
         {
-            "source": "hammersmith, london (Q277162) 5 [rank = 3]",
-            "target": "hammersmith, london (Q277162) 6 [rank = 97]",
+            "source": "Hammersmith 5 [rank = 3]",
+            "target": "Hammersmith 6 [rank = 97]",
             "value": 0.5
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "voice artist (Q2405480) 0 [rank = 1]",
+            "name": "voice actor 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2405480",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "sacha cohen (Q29055) 1 [rank = 1065]",
+            "name": "Sacha Baron Cohen 1 [rank = 1065]",
             "url": "https://www.wikidata.org/wiki/Q29055",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "hammersmith, london (Q277162) 2 [rank = 85]",
+            "name": "Hammersmith 2 [rank = 85]",
             "url": "https://www.wikidata.org/wiki/Q277162",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "clevland time zone (Q941023) 3 [rank = 1]",
+            "name": "Eastern Time Zone 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q941023",
             "value": 1
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "warren county, new york (Q56151) 4 [rank = 1]",
+            "name": "Warren County 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q56151",
             "value": 1
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hammersmith, london (Q277162) 5 [rank = 3]",
+            "name": "Hammersmith 5 [rank = 3]",
             "url": "https://www.wikidata.org/wiki/Q277162",
             "value": 1
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "hammersmith, london (Q277162) 6 [rank = 97]",
+            "name": "Hammersmith 6 [rank = 97]",
             "url": "https://www.wikidata.org/wiki/Q277162",
             "value": 1
         }

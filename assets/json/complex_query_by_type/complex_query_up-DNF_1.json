@@ -1,543 +1,543 @@
 {
     "edges": [
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
+            "source": "David Kirschner 0",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "best animated short film (Q917808) 1",
+            "source": "David Kirschner 0",
+            "target": "Academy Award for Best Animated Short Film 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "primetime emmy award for outstanding comedy series (Q2110156) 1",
+            "source": "David Kirschner 0",
+            "target": "Primetime Emmy Award for Outstanding Comedy Series 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "best writing, screenplay based on material from another medium (Q107258) 1",
+            "source": "David Kirschner 0",
+            "target": "Academy Award for Best Writing, Adapted Screenplay 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "academy award for best story (Q504298) 1",
+            "source": "David Kirschner 0",
+            "target": "Academy Award for Best Story 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "academy award for writing (original screenplay) (Q41417) 1",
+            "source": "David Kirschner 0",
+            "target": "Academy Award for Best Writing, Original Screenplay 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
+            "source": "David Kirschner 0",
+            "target": "Golden Raspberry Award for Worst Director 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "kirschner, david (Q3018205) 0",
-            "target": "golden screen award (canada) (Q2549777) 1",
+            "source": "David Kirschner 0",
+            "target": "Golden Screen Award 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
             "target": "/m/03hkv_r 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
             "target": "/m/03hl6lc 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
             "target": "/m/0h53c_5 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
+            "target": "Golden Screen Award 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "best animated short film (Q917808) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Academy Award for Best Animated Short Film 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
+            "source": "Academy Award for Best Animated Short Film 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Academy Award for Best Animated Short Film 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Academy Award for Best Animated Short Film 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
+            "source": "Academy Award for Best Animated Short Film 1",
             "target": "/m/03hkv_r 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
+            "source": "Academy Award for Best Animated Short Film 1",
             "target": "/m/03hl6lc 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
+            "source": "Academy Award for Best Animated Short Film 1",
             "target": "/m/0h53c_5 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Animated Short Film 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Academy Award for Best Animated Short Film 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "best animated short film (Q917808) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Academy Award for Best Animated Short Film 1",
+            "target": "Golden Screen Award 4",
             "value": 0.001889218347760624
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
             "target": "/m/03hkv_r 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
             "target": "/m/03hl6lc 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
             "target": "/m/0h53c_5 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "primetime emmy award for outstanding comedy series (Q2110156) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Primetime Emmy Award for Outstanding Comedy Series 1",
+            "target": "Golden Screen Award 4",
             "value": 0.0017235256346272154
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
             "target": "/m/03hkv_r 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
             "target": "/m/03hl6lc 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
             "target": "/m/0h53c_5 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "best writing, screenplay based on material from another medium (Q107258) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Academy Award for Best Writing, Adapted Screenplay 1",
+            "target": "Golden Screen Award 4",
             "value": 0.0016232461864520709
         },
         {
-            "source": "academy award for best story (Q504298) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Academy Award for Best Story 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
+            "source": "Academy Award for Best Story 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Academy Award for Best Story 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Academy Award for Best Story 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
+            "source": "Academy Award for Best Story 1",
             "target": "/m/03hkv_r 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
+            "source": "Academy Award for Best Story 1",
             "target": "/m/03hl6lc 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
+            "source": "Academy Award for Best Story 1",
             "target": "/m/0h53c_5 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Story 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Academy Award for Best Story 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for best story (Q504298) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Academy Award for Best Story 1",
+            "target": "Golden Screen Award 4",
             "value": 0.0016160353656999304
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
             "target": "/m/03hkv_r 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
             "target": "/m/03hl6lc 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
             "target": "/m/0h53c_5 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "academy award for writing (original screenplay) (Q41417) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Academy Award for Best Writing, Original Screenplay 1",
+            "target": "Golden Screen Award 4",
             "value": 0.0015919920446278435
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Golden Raspberry Award for Worst Director 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
+            "source": "Golden Raspberry Award for Worst Director 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Golden Raspberry Award for Worst Director 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Golden Raspberry Award for Worst Director 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
+            "source": "Golden Raspberry Award for Worst Director 1",
             "target": "/m/03hkv_r 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
+            "source": "Golden Raspberry Award for Worst Director 1",
             "target": "/m/03hl6lc 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
+            "source": "Golden Raspberry Award for Worst Director 1",
             "target": "/m/0h53c_5 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Golden Raspberry Award for Worst Director 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Golden Raspberry Award for Worst Director 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Golden Raspberry Award for Worst Director 1",
+            "target": "Golden Screen Award 4",
             "value": 0.0015769987945929431
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Golden Screen Award 1",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
+            "source": "Golden Screen Award 1",
             "target": "/m/04fgkf_ 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Golden Screen Award 1",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Golden Screen Award 1",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
+            "source": "Golden Screen Award 1",
             "target": "/m/03hkv_r 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
+            "source": "Golden Screen Award 1",
             "target": "/m/03hl6lc 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
+            "source": "Golden Screen Award 1",
             "target": "/m/0h53c_5 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Golden Screen Award 1",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Golden Screen Award 1",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 1",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Golden Screen Award 1",
+            "target": "Golden Screen Award 4",
             "value": 0.0015498692940949799
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
+            "source": "39th Daytime Emmy Awards 2",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
+            "source": "39th Daytime Emmy Awards 2",
             "target": "/m/04fgkf_ 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
+            "source": "39th Daytime Emmy Awards 2",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
-            "target": "outstanding daytime drama series (Q3019365) 3",
+            "source": "39th Daytime Emmy Awards 2",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
+            "source": "39th Daytime Emmy Awards 2",
             "target": "/m/03hkv_r 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
+            "source": "39th Daytime Emmy Awards 2",
             "target": "/m/03hl6lc 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
+            "source": "39th Daytime Emmy Awards 2",
             "target": "/m/0h53c_5 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
-            "target": "decline of soap operas in the united states (Q23739) 3",
+            "source": "39th Daytime Emmy Awards 2",
+            "target": "soap opera 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "39th annual daytime emmy awards (Q2816448) 2",
-            "target": "television game show (Q846662) 3",
+            "source": "39th Daytime Emmy Awards 2",
+            "target": "game show 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
             "target": "/m/04fgkf_ 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
             "target": "/m/03hkv_r 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
             "target": "/m/03hl6lc 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
             "target": "/m/0h53c_5 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.009996866956423212
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
+            "target": "Golden Screen Award 4",
             "value": 0.009996866956423212
         },
         {
             "source": "/m/04fgkf_ 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.009996517673212635
         },
         {
@@ -547,12 +547,12 @@
         },
         {
             "source": "/m/04fgkf_ 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.009996517673212635
         },
         {
             "source": "/m/04fgkf_ 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.009996517673212635
         },
         {
@@ -572,122 +572,122 @@
         },
         {
             "source": "/m/04fgkf_ 3",
-            "target": "best animated short film (Q917808) 4",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.009996517673212635
         },
         {
             "source": "/m/04fgkf_ 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.009996517673212635
         },
         {
             "source": "/m/04fgkf_ 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "target": "Golden Screen Award 4",
             "value": 0.009996517673212635
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
             "target": "/m/04fgkf_ 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
             "target": "/m/03hkv_r 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
             "target": "/m/03hl6lc 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
             "target": "/m/0h53c_5 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
+            "target": "Golden Screen Award 4",
             "value": 0.009995923414917507
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
             "target": "/m/04fgkf_ 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
             "target": "/m/03hkv_r 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
             "target": "/m/03hl6lc 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
             "target": "/m/0h53c_5 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
-            "target": "best animated short film (Q917808) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.005042791253861978
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 3",
+            "target": "Golden Screen Award 4",
             "value": 0.005042791253861978
         },
         {
             "source": "/m/03hkv_r 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0024263411218000686
         },
         {
@@ -697,12 +697,12 @@
         },
         {
             "source": "/m/03hkv_r 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0024263411218000686
         },
         {
             "source": "/m/03hkv_r 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0024263411218000686
         },
         {
@@ -722,22 +722,22 @@
         },
         {
             "source": "/m/03hkv_r 3",
-            "target": "best animated short film (Q917808) 4",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0024263411218000686
         },
         {
             "source": "/m/03hkv_r 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0024263411218000686
         },
         {
             "source": "/m/03hkv_r 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "target": "Golden Screen Award 4",
             "value": 0.0024263411218000686
         },
         {
             "source": "/m/03hl6lc 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0020475902695747394
         },
         {
@@ -747,12 +747,12 @@
         },
         {
             "source": "/m/03hl6lc 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0020475902695747394
         },
         {
             "source": "/m/03hl6lc 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0020475902695747394
         },
         {
@@ -772,22 +772,22 @@
         },
         {
             "source": "/m/03hl6lc 3",
-            "target": "best animated short film (Q917808) 4",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0020475902695747394
         },
         {
             "source": "/m/03hl6lc 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0020475902695747394
         },
         {
             "source": "/m/03hl6lc 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "target": "Golden Screen Award 4",
             "value": 0.0020475902695747394
         },
         {
             "source": "/m/0h53c_5 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0012261829251159068
         },
         {
@@ -797,12 +797,12 @@
         },
         {
             "source": "/m/0h53c_5 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0012261829251159068
         },
         {
             "source": "/m/0h53c_5 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0012261829251159068
         },
         {
@@ -822,187 +822,187 @@
         },
         {
             "source": "/m/0h53c_5 3",
-            "target": "best animated short film (Q917808) 4",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0012261829251159068
         },
         {
             "source": "/m/0h53c_5 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0012261829251159068
         },
         {
             "source": "/m/0h53c_5 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "target": "Golden Screen Award 4",
             "value": 0.0012261829251159068
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "soap opera 3",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
+            "source": "soap opera 3",
             "target": "/m/04fgkf_ 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "soap opera 3",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "soap opera 3",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
+            "source": "soap opera 3",
             "target": "/m/03hkv_r 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
+            "source": "soap opera 3",
             "target": "/m/03hl6lc 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
+            "source": "soap opera 3",
             "target": "/m/0h53c_5 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
-            "target": "best animated short film (Q917808) 4",
+            "source": "soap opera 3",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "soap opera 3",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "decline of soap operas in the united states (Q23739) 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "soap opera 3",
+            "target": "Golden Screen Award 4",
             "value": 0.0011896963151612205
         },
         {
-            "source": "television game show (Q846662) 3",
-            "target": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "game show 3",
+            "target": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
+            "source": "game show 3",
             "target": "/m/04fgkf_ 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
-            "target": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "game show 3",
+            "target": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
-            "target": "outstanding daytime drama series (Q3019365) 4",
+            "source": "game show 3",
+            "target": "Daytime Emmy Award for Outstanding Drama Series 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
+            "source": "game show 3",
             "target": "/m/03hkv_r 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
+            "source": "game show 3",
             "target": "/m/03hl6lc 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
+            "source": "game show 3",
             "target": "/m/0h53c_5 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
-            "target": "best animated short film (Q917808) 4",
+            "source": "game show 3",
+            "target": "Academy Award for Best Animated Short Film 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
-            "target": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "game show 3",
+            "target": "MTV Movie Award for Best On-Screen Duo 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "television game show (Q846662) 3",
-            "target": "golden screen award (canada) (Q2549777) 4",
+            "source": "game show 3",
+            "target": "Golden Screen Award 4",
             "value": 0.0011608861127297698
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "Bill Melendez 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "susan blu (Q3142726) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "Susan Blu 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "ben stine (Q816605) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "Ben Stein 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "William J. Bell 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "target": "/m/0275_pj 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "andy heyward (Q2783694) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "Andy Heyward 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "target": "/m/025vwmy 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "target": "/m/04gtdnh 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "source": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
+            "target": "Jim Henson 5",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "target": "Bill Melendez 5",
             "value": 0.00999664761133534
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "susan blu (Q3142726) 5",
+            "target": "Susan Blu 5",
             "value": 0.00999664761133534
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "ben stine (Q816605) 5",
+            "target": "Ben Stein 5",
             "value": 0.00999664761133534
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "target": "William J. Bell 5",
             "value": 0.00999664761133534
         },
         {
@@ -1012,12 +1012,12 @@
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "andy heyward (Q2783694) 5",
+            "target": "Andy Heyward 5",
             "value": 0.00999664761133534
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.00999664761133534
         },
         {
@@ -1032,127 +1032,127 @@
         },
         {
             "source": "/m/04fgkf_ 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "target": "Jim Henson 5",
             "value": 0.00999664761133534
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "Bill Melendez 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "susan blu (Q3142726) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "Susan Blu 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "ben stine (Q816605) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "Ben Stein 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "William J. Bell 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "target": "/m/0275_pj 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "andy heyward (Q2783694) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "Andy Heyward 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "target": "/m/025vwmy 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "target": "/m/04gtdnh 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "source": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
+            "target": "Jim Henson 5",
             "value": 0.009996064677922467
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "Bill Melendez 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "susan blu (Q3142726) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "Susan Blu 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "ben stine (Q816605) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "Ben Stein 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "William J. Bell 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
             "target": "/m/0275_pj 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "andy heyward (Q2783694) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "Andy Heyward 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
             "target": "/m/025vwmy 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
             "target": "/m/04gtdnh 5",
             "value": 0.005446954247796065
         },
         {
-            "source": "outstanding daytime drama series (Q3019365) 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "source": "Daytime Emmy Award for Outstanding Drama Series 4",
+            "target": "Jim Henson 5",
             "value": 0.005446954247796065
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "target": "Bill Melendez 5",
             "value": 0.0033835577208498613
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "susan blu (Q3142726) 5",
+            "target": "Susan Blu 5",
             "value": 0.0033835577208498613
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "ben stine (Q816605) 5",
+            "target": "Ben Stein 5",
             "value": 0.0033835577208498613
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "target": "William J. Bell 5",
             "value": 0.0033835577208498613
         },
         {
@@ -1162,12 +1162,12 @@
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "andy heyward (Q2783694) 5",
+            "target": "Andy Heyward 5",
             "value": 0.0033835577208498613
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.0033835577208498613
         },
         {
@@ -1182,27 +1182,27 @@
         },
         {
             "source": "/m/03hkv_r 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "target": "Jim Henson 5",
             "value": 0.0033835577208498613
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "target": "Bill Melendez 5",
             "value": 0.003166788149622346
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "susan blu (Q3142726) 5",
+            "target": "Susan Blu 5",
             "value": 0.003166788149622346
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "ben stine (Q816605) 5",
+            "target": "Ben Stein 5",
             "value": 0.003166788149622346
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "target": "William J. Bell 5",
             "value": 0.003166788149622346
         },
         {
@@ -1212,12 +1212,12 @@
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "andy heyward (Q2783694) 5",
+            "target": "Andy Heyward 5",
             "value": 0.003166788149622346
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.003166788149622346
         },
         {
@@ -1232,27 +1232,27 @@
         },
         {
             "source": "/m/03hl6lc 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "target": "Jim Henson 5",
             "value": 0.003166788149622346
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "target": "Bill Melendez 5",
             "value": 0.0019193580317640735
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "susan blu (Q3142726) 5",
+            "target": "Susan Blu 5",
             "value": 0.0019193580317640735
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "ben stine (Q816605) 5",
+            "target": "Ben Stein 5",
             "value": 0.0019193580317640735
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "target": "William J. Bell 5",
             "value": 0.0019193580317640735
         },
         {
@@ -1262,12 +1262,12 @@
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "andy heyward (Q2783694) 5",
+            "target": "Andy Heyward 5",
             "value": 0.0019193580317640735
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.0019193580317640735
         },
         {
@@ -1282,157 +1282,157 @@
         },
         {
             "source": "/m/0h53c_5 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "target": "Jim Henson 5",
             "value": 0.0019193580317640735
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "Bill Melendez 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "susan blu (Q3142726) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "Susan Blu 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "ben stine (Q816605) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "Ben Stein 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "William J. Bell 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Animated Short Film 4",
             "target": "/m/0275_pj 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "andy heyward (Q2783694) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "Andy Heyward 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Animated Short Film 4",
             "target": "/m/025vwmy 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
+            "source": "Academy Award for Best Animated Short Film 4",
             "target": "/m/04gtdnh 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "best animated short film (Q917808) 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "source": "Academy Award for Best Animated Short Film 4",
+            "target": "Jim Henson 5",
             "value": 0.0018959962897897586
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "Bill Melendez 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "susan blu (Q3142726) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "Susan Blu 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "ben stine (Q816605) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "Ben Stein 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "William J. Bell 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
             "target": "/m/0275_pj 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "andy heyward (Q2783694) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "Andy Heyward 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
             "target": "/m/025vwmy 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
             "target": "/m/04gtdnh 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "mtv movie award for best on-screen team (Q4220900) 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "source": "MTV Movie Award for Best On-Screen Duo 4",
+            "target": "Jim Henson 5",
             "value": 0.0018601420105961997
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "bill mel\u00e9ndez (Q862316) 5",
+            "source": "Golden Screen Award 4",
+            "target": "Bill Melendez 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "susan blu (Q3142726) 5",
+            "source": "Golden Screen Award 4",
+            "target": "Susan Blu 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "ben stine (Q816605) 5",
+            "source": "Golden Screen Award 4",
+            "target": "Ben Stein 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "bell-phillip television productions inc. (Q3568752) 5",
+            "source": "Golden Screen Award 4",
+            "target": "William J. Bell 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
+            "source": "Golden Screen Award 4",
             "target": "/m/0275_pj 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "andy heyward (Q2783694) 5",
+            "source": "Golden Screen Award 4",
+            "target": "Andy Heyward 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "mary-ellis bunim (Q3296123) 5",
+            "source": "Golden Screen Award 4",
+            "target": "Mary-Ellis Bunim 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
+            "source": "Golden Screen Award 4",
             "target": "/m/025vwmy 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
+            "source": "Golden Screen Award 4",
             "target": "/m/04gtdnh 5",
             "value": 0.0018190824578907527
         },
         {
-            "source": "golden screen award (canada) (Q2549777) 4",
-            "target": "muppet meeting films (Q191037) 5",
+            "source": "Golden Screen Award 4",
+            "target": "Jim Henson 5",
             "value": 0.0018190824578907527
         }
     ],
@@ -1443,7 +1443,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "kirschner, david (Q3018205) 0",
+            "name": "David Kirschner 0",
             "url": "https://www.wikidata.org/wiki/Q3018205",
             "value": 1.0
         },
@@ -1453,7 +1453,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "daytime emmy award for outstanding children's animated program (Q3019369) 1",
+            "name": "Daytime Emmy Award for Outstanding Children's Animated Program 1",
             "url": "https://www.wikidata.org/wiki/Q3019369",
             "value": 0.9999982118606567
         },
@@ -1463,7 +1463,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "best animated short film (Q917808) 1",
+            "name": "Academy Award for Best Animated Short Film 1",
             "url": "https://www.wikidata.org/wiki/Q917808",
             "value": 0.18892183899879456
         },
@@ -1473,7 +1473,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "primetime emmy award for outstanding comedy series (Q2110156) 1",
+            "name": "Primetime Emmy Award for Outstanding Comedy Series 1",
             "url": "https://www.wikidata.org/wiki/Q2110156",
             "value": 0.17235256731510162
         },
@@ -1483,7 +1483,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "best writing, screenplay based on material from another medium (Q107258) 1",
+            "name": "Academy Award for Best Writing, Adapted Screenplay 1",
             "url": "https://www.wikidata.org/wiki/Q107258",
             "value": 0.16232462227344513
         },
@@ -1493,7 +1493,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "academy award for best story (Q504298) 1",
+            "name": "Academy Award for Best Story 1",
             "url": "https://www.wikidata.org/wiki/Q504298",
             "value": 0.16160354018211365
         },
@@ -1503,7 +1503,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "academy award for writing (original screenplay) (Q41417) 1",
+            "name": "Academy Award for Best Writing, Original Screenplay 1",
             "url": "https://www.wikidata.org/wiki/Q41417",
             "value": 0.15919920802116394
         },
@@ -1513,7 +1513,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "golden raspberry award for worst director (2001-2020) (Q1238714) 1",
+            "name": "Golden Raspberry Award for Worst Director 1",
             "url": "https://www.wikidata.org/wiki/Q1238714",
             "value": 0.15769988298416138
         },
@@ -1523,7 +1523,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "golden screen award (canada) (Q2549777) 1",
+            "name": "Golden Screen Award 1",
             "url": "https://www.wikidata.org/wiki/Q2549777",
             "value": 0.1549869328737259
         },
@@ -1533,7 +1533,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "39th annual daytime emmy awards (Q2816448) 2",
+            "name": "39th Daytime Emmy Awards 2",
             "url": "https://www.wikidata.org/wiki/Q2816448",
             "value": 1.0
         },
@@ -1543,7 +1543,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "daytime emmy award for outstanding children's animated program (Q3019369) 3",
+            "name": "Daytime Emmy Award for Outstanding Children's Animated Program 3",
             "url": "https://www.wikidata.org/wiki/Q3019369",
             "value": 0.9996867179870605
         },
@@ -1562,7 +1562,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 3",
+            "name": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 3",
             "url": "https://www.wikidata.org/wiki/Q5243457",
             "value": 0.9995923638343811
         },
@@ -1572,7 +1572,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "outstanding daytime drama series (Q3019365) 3",
+            "name": "Daytime Emmy Award for Outstanding Drama Series 3",
             "url": "https://www.wikidata.org/wiki/Q3019365",
             "value": 0.5042791366577148
         },
@@ -1609,7 +1609,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "decline of soap operas in the united states (Q23739) 3",
+            "name": "soap opera 3",
             "url": "https://www.wikidata.org/wiki/Q23739",
             "value": 0.1189696341753006
         },
@@ -1619,7 +1619,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "television game show (Q846662) 3",
+            "name": "game show 3",
             "url": "https://www.wikidata.org/wiki/Q846662",
             "value": 0.1160886138677597
         },
@@ -1629,7 +1629,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "daytime emmy award for outstanding children's animated program (Q3019369) 4",
+            "name": "Daytime Emmy Award for Outstanding Children's Animated Program 4",
             "url": "https://www.wikidata.org/wiki/Q3019369",
             "value": 1.0
         },
@@ -1648,7 +1648,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "daytime emmy award for outstanding younger actress in a drama series (Q5243457) 4",
+            "name": "Daytime Emmy Award for Outstanding Younger Actress in a Drama Series 4",
             "url": "https://www.wikidata.org/wiki/Q5243457",
             "value": 0.9996064901351929
         },
@@ -1658,7 +1658,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "outstanding daytime drama series (Q3019365) 4",
+            "name": "Daytime Emmy Award for Outstanding Drama Series 4",
             "url": "https://www.wikidata.org/wiki/Q3019365",
             "value": 0.5446954369544983
         },
@@ -1695,7 +1695,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "best animated short film (Q917808) 4",
+            "name": "Academy Award for Best Animated Short Film 4",
             "url": "https://www.wikidata.org/wiki/Q917808",
             "value": 0.1895996332168579
         },
@@ -1705,7 +1705,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "mtv movie award for best on-screen team (Q4220900) 4",
+            "name": "MTV Movie Award for Best On-Screen Duo 4",
             "url": "https://www.wikidata.org/wiki/Q4220900",
             "value": 0.18601420521736145
         },
@@ -1715,7 +1715,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "golden screen award (canada) (Q2549777) 4",
+            "name": "Golden Screen Award 4",
             "url": "https://www.wikidata.org/wiki/Q2549777",
             "value": 0.1819082498550415
         },
@@ -1725,7 +1725,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bill mel\u00e9ndez (Q862316) 5",
+            "name": "Bill Melendez 5",
             "url": "https://www.wikidata.org/wiki/Q862316",
             "value": 0.9951011538505554
         },
@@ -1735,7 +1735,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "susan blu (Q3142726) 5",
+            "name": "Susan Blu 5",
             "url": "https://www.wikidata.org/wiki/Q3142726",
             "value": 0.9950721859931946
         },
@@ -1745,7 +1745,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ben stine (Q816605) 5",
+            "name": "Ben Stein 5",
             "url": "https://www.wikidata.org/wiki/Q816605",
             "value": 0.9946933388710022
         },
@@ -1755,7 +1755,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "bell-phillip television productions inc. (Q3568752) 5",
+            "name": "William J. Bell 5",
             "url": "https://www.wikidata.org/wiki/Q3568752",
             "value": 0.3269207775592804
         },
@@ -1774,7 +1774,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "andy heyward (Q2783694) 5",
+            "name": "Andy Heyward 5",
             "url": "https://www.wikidata.org/wiki/Q2783694",
             "value": 0.3090288043022156
         },
@@ -1784,7 +1784,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "mary-ellis bunim (Q3296123) 5",
+            "name": "Mary-Ellis Bunim 5",
             "url": "https://www.wikidata.org/wiki/Q3296123",
             "value": 0.3082239031791687
         },
@@ -1812,7 +1812,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "muppet meeting films (Q191037) 5",
+            "name": "Jim Henson 5",
             "url": "https://www.wikidata.org/wiki/Q191037",
             "value": 0.242106094956398
         }

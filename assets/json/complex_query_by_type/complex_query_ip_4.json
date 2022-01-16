@@ -1,73 +1,73 @@
 {
     "edges": [
         {
-            "source": "belgium (Q31) 0",
-            "target": "languages of kiribati (Q710) 1",
+            "source": "Belgium 0",
+            "target": "Kiribati 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "republic of sierra leone (Q1044) 1",
+            "source": "Belgium 0",
+            "target": "Sierra Leone 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "usofa (Q30) 1",
+            "source": "Belgium 0",
+            "target": "United States of America 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "toovaloo (Q672) 1",
+            "source": "Belgium 0",
+            "target": "Tuvalu 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "island of the moon (Q1019) 1",
+            "source": "Belgium 0",
+            "target": "Madagascar 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "mosambique (Q1029) 1",
+            "source": "Belgium 0",
+            "target": "Mozambique 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "lao please don't rush (Q819) 1",
+            "source": "Belgium 0",
+            "target": "Laos 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "the scottish nation (Q22) 1",
+            "source": "Belgium 0",
+            "target": "Scotland 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "dubai emirate (Q613) 1",
+            "source": "Belgium 0",
+            "target": "Emirate of Dubai 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "belgium (Q31) 0",
-            "target": "jumh\u016briyyat al-s\u016bd\u0101n (Q1049) 1",
+            "source": "Belgium 0",
+            "target": "Sudan 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dubai emirate (Q613) 2",
-            "target": "ja (Q17) 3",
+            "source": "Emirate of Dubai 2",
+            "target": "Japan 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "dubai emirate (Q613) 2",
-            "target": "india proper (Q668) 3",
+            "source": "Emirate of Dubai 2",
+            "target": "India 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "dubai emirate (Q613) 2",
-            "target": "iran (islamic republic of) (Q794) 3",
+            "source": "Emirate of Dubai 2",
+            "target": "Iran 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "dubai emirate (Q613) 2",
-            "target": "the arabia of the sauds (Q851) 3",
+            "source": "Emirate of Dubai 2",
+            "target": "Saudi Arabia 3",
             "value": 0.009999999776482582
         }
     ],
@@ -78,7 +78,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "belgium (Q31) 0",
+            "name": "Belgium 0",
             "url": "https://www.wikidata.org/wiki/Q31",
             "value": 1.0
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "languages of kiribati (Q710) 1",
+            "name": "Kiribati 1",
             "url": "https://www.wikidata.org/wiki/Q710",
             "value": 0.9999960660934448
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "republic of sierra leone (Q1044) 1",
+            "name": "Sierra Leone 1",
             "url": "https://www.wikidata.org/wiki/Q1044",
             "value": 0.9999935626983643
         },
@@ -108,7 +108,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "usofa (Q30) 1",
+            "name": "United States of America 1",
             "url": "https://www.wikidata.org/wiki/Q30",
             "value": 0.9991106390953064
         },
@@ -118,7 +118,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "toovaloo (Q672) 1",
+            "name": "Tuvalu 1",
             "url": "https://www.wikidata.org/wiki/Q672",
             "value": 0.18221794068813324
         },
@@ -128,7 +128,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "island of the moon (Q1019) 1",
+            "name": "Madagascar 1",
             "url": "https://www.wikidata.org/wiki/Q1019",
             "value": 0.1644010841846466
         },
@@ -138,7 +138,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "mosambique (Q1029) 1",
+            "name": "Mozambique 1",
             "url": "https://www.wikidata.org/wiki/Q1029",
             "value": 0.15024986863136292
         },
@@ -148,7 +148,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lao please don't rush (Q819) 1",
+            "name": "Laos 1",
             "url": "https://www.wikidata.org/wiki/Q819",
             "value": 0.13765111565589905
         },
@@ -158,7 +158,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "the scottish nation (Q22) 1",
+            "name": "Scotland 1",
             "url": "https://www.wikidata.org/wiki/Q22",
             "value": 0.12779776751995087
         },
@@ -168,7 +168,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "dubai emirate (Q613) 1",
+            "name": "Emirate of Dubai 1",
             "url": "https://www.wikidata.org/wiki/Q613",
             "value": 0.12758955359458923
         },
@@ -178,7 +178,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "jumh\u016briyyat al-s\u016bd\u0101n (Q1049) 1",
+            "name": "Sudan 1",
             "url": "https://www.wikidata.org/wiki/Q1049",
             "value": 0.12730400264263153
         },
@@ -188,7 +188,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dubai emirate (Q613) 2",
+            "name": "Emirate of Dubai 2",
             "url": "https://www.wikidata.org/wiki/Q613",
             "value": 1.0
         },
@@ -198,7 +198,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ja (Q17) 3",
+            "name": "Japan 3",
             "url": "https://www.wikidata.org/wiki/Q17",
             "value": 0.9999983310699463
         },
@@ -208,7 +208,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "india proper (Q668) 3",
+            "name": "India 3",
             "url": "https://www.wikidata.org/wiki/Q668",
             "value": 0.16801269352436066
         },
@@ -218,7 +218,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "iran (islamic republic of) (Q794) 3",
+            "name": "Iran 3",
             "url": "https://www.wikidata.org/wiki/Q794",
             "value": 0.13049858808517456
         },
@@ -228,7 +228,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "the arabia of the sauds (Q851) 3",
+            "name": "Saudi Arabia 3",
             "url": "https://www.wikidata.org/wiki/Q851",
             "value": 0.11402037739753723
         },
@@ -238,7 +238,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "cleveland (tv series) (Q34397) 5",
+            "name": "The Cleveland Show 5",
             "url": "https://www.wikidata.org/wiki/Q34397",
             "value": 0.81180340051651
         },
@@ -248,7 +248,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "tis the season to be smurfy (Q1216045) 5",
+            "name": "The Smurfs 5",
             "url": "https://www.wikidata.org/wiki/Q1216045",
             "value": 0.7941077947616577
         },
@@ -258,7 +258,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "battelstar galactica (2004) (Q237072) 5",
+            "name": "Battlestar Galactica 5",
             "url": "https://www.wikidata.org/wiki/Q237072",
             "value": 0.7929889559745789
         },
@@ -268,7 +268,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "atl\u00e5ntis (Q215287) 5",
+            "name": "Stargate Atlantis 5",
             "url": "https://www.wikidata.org/wiki/Q215287",
             "value": 0.7731388807296753
         },
@@ -278,7 +278,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "weeds (tv show) (Q23609) 5",
+            "name": "Weeds 5",
             "url": "https://www.wikidata.org/wiki/Q23609",
             "value": 0.7720856070518494
         },
@@ -288,7 +288,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "langley falls (Q210311) 5",
+            "name": "American Dad! 5",
             "url": "https://www.wikidata.org/wiki/Q210311",
             "value": 0.7527039647102356
         },
@@ -298,7 +298,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "arthur dietrich (Q808487) 5",
+            "name": "Barney Miller 5",
             "url": "https://www.wikidata.org/wiki/Q808487",
             "value": 0.7516882419586182
         }

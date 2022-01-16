@@ -1,27 +1,27 @@
 {
     "edges": [
         {
-            "source": "wimbledon f.c. (Q19482) 0 [rank = 1]",
-            "target": "right winger (football) (Q193592) 1 [rank = 2]",
+            "source": "Wimbledon F.C. 0 [rank = 1]",
+            "target": "midfielder 1 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "right winger (football) (Q193592) 1 [rank = 2]",
-            "target": "right winger (football) (Q193592) 4 [rank = 2]",
+            "source": "midfielder 1 [rank = 2]",
+            "target": "midfielder 4 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "deportivo cali (Q663400) 2 [rank = 1]",
-            "target": "right winger (football) (Q193592) 3 [rank = 1]",
+            "source": "Deportivo Cali 2 [rank = 1]",
+            "target": "midfielder 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "right winger (football) (Q193592) 3 [rank = 1]",
-            "target": "right winger (football) (Q193592) 4 [rank = 2]",
+            "source": "midfielder 3 [rank = 1]",
+            "target": "midfielder 4 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "right winger (football) (Q193592) 4 [rank = 2]",
+            "source": "midfielder 4 [rank = 2]",
             "target": "/m/06zpgb2 5 [rank = 1]",
             "value": 0.5
         }
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "wimbledon f.c. (Q19482) 0 [rank = 1]",
+            "name": "Wimbledon F.C. 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q19482",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "right winger (football) (Q193592) 1 [rank = 2]",
+            "name": "midfielder 1 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q193592",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "deportivo cali (Q663400) 2 [rank = 1]",
+            "name": "Deportivo Cali 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q663400",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "right winger (football) (Q193592) 3 [rank = 1]",
+            "name": "midfielder 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q193592",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "right winger (football) (Q193592) 4 [rank = 2]",
+            "name": "midfielder 4 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q193592",
             "value": 1
         },

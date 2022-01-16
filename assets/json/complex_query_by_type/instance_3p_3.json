@@ -1,18 +1,18 @@
 {
     "edges": [
         {
-            "source": "griekenland (Q41) 0 [rank = 1]",
-            "target": "xxi olympic winter games 2010 (Q9674) 1 [rank = 1]",
+            "source": "Greece 0 [rank = 1]",
+            "target": "2010 Winter Olympics 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1 [rank = 1]",
-            "target": "women's ice hockey (Q41466) 2 [rank = 1]",
+            "source": "2010 Winter Olympics 1 [rank = 1]",
+            "target": "ice hockey 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "women's ice hockey (Q41466) 2 [rank = 1]",
-            "target": "floridapanthersgm (Q204623) 3 [rank = 433]",
+            "source": "ice hockey 2 [rank = 1]",
+            "target": "Florida Panthers 3 [rank = 433]",
             "value": 0.5
         }
     ],
@@ -23,7 +23,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "griekenland (Q41) 0 [rank = 1]",
+            "name": "Greece 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q41",
             "value": 1
         },
@@ -33,7 +33,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "xxi olympic winter games 2010 (Q9674) 1 [rank = 1]",
+            "name": "2010 Winter Olympics 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q9674",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "women's ice hockey (Q41466) 2 [rank = 1]",
+            "name": "ice hockey 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q41466",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "floridapanthersgm (Q204623) 3 [rank = 433]",
+            "name": "Florida Panthers 3 [rank = 433]",
             "url": "https://www.wikidata.org/wiki/Q204623",
             "value": 1
         }

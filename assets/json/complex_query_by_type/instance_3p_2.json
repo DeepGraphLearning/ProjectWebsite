@@ -1,18 +1,18 @@
 {
     "edges": [
         {
-            "source": "harold pinter, ch, cbe (Q41042) 0 [rank = 1]",
-            "target": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1 [rank = 1]",
+            "source": "Harold Pinter 0 [rank = 1]",
+            "target": "Ashkenazi Jews 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1 [rank = 1]",
-            "target": "english vernacular (Q1860) 2 [rank = 1]",
+            "source": "Ashkenazi Jews 1 [rank = 1]",
+            "target": "English 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "english vernacular (Q1860) 2 [rank = 1]",
-            "target": "list of recurring characters in the penguins of madagascar (Q323335) 3 [rank = 5]",
+            "source": "English 2 [rank = 1]",
+            "target": "The Penguins of Madagascar 3 [rank = 5]",
             "value": 0.5
         }
     ],
@@ -23,7 +23,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "harold pinter, ch, cbe (Q41042) 0 [rank = 1]",
+            "name": "Harold Pinter 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q41042",
             "value": 1
         },
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05db\u05b2\u05bc\u05e0\u05b8\u05d6\u05b4\u05d9\u05dd (Q34069) 1 [rank = 1]",
+            "name": "Ashkenazi Jews 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q34069",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "english vernacular (Q1860) 2 [rank = 1]",
+            "name": "English 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1860",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "list of recurring characters in the penguins of madagascar (Q323335) 3 [rank = 5]",
+            "name": "The Penguins of Madagascar 3 [rank = 5]",
             "url": "https://www.wikidata.org/wiki/Q323335",
             "value": 1
         }

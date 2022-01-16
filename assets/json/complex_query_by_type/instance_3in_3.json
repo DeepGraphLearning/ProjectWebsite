@@ -1,43 +1,43 @@
 {
     "edges": [
         {
-            "source": "bonds of matrimony (Q8445) 0 [rank = 1]",
-            "target": "fred armison (Q14535) 1 [rank = 1]",
+            "source": "marriage 0 [rank = 1]",
+            "target": "Fred Armisen 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "fred armison (Q14535) 1 [rank = 1]",
-            "target": "fred armison (Q14535) 4 [rank = 670]",
+            "source": "Fred Armisen 1 [rank = 1]",
+            "target": "Fred Armisen 4 [rank = 670]",
             "value": 0.5
         },
         {
-            "source": "new york n.y. (Q60) 2 [rank = 1]",
-            "target": "fred armison (Q14535) 3 [rank = 959]",
+            "source": "New York City 2 [rank = 1]",
+            "target": "Fred Armisen 3 [rank = 959]",
             "value": 0.5
         },
         {
-            "source": "fred armison (Q14535) 3 [rank = 959]",
-            "target": "fred armison (Q14535) 4 [rank = 670]",
+            "source": "Fred Armisen 3 [rank = 959]",
+            "target": "Fred Armisen 4 [rank = 670]",
             "value": 0.5
         },
         {
-            "source": "fred armison (Q14535) 4 [rank = 670]",
-            "target": "fred armison (Q14535) 8 [rank = 618]",
+            "source": "Fred Armisen 4 [rank = 670]",
+            "target": "Fred Armisen 8 [rank = 618]",
             "value": 0.5
         },
         {
-            "source": "executive produced (Q1053574) 5 [rank = 1]",
-            "target": "paul lieberstein (Q2671438) 6 [rank = 1]",
+            "source": "executive producer 5 [rank = 1]",
+            "target": "Paul Lieberstein 6 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "paul lieberstein (Q2671438) 6 [rank = 1]",
-            "target": "fred armison (Q14535) 7 [rank = 2]",
+            "source": "Paul Lieberstein 6 [rank = 1]",
+            "target": "Fred Armisen 7 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "fred armison (Q14535) 7 [rank = 2]",
-            "target": "fred armison (Q14535) 8 [rank = 618]",
+            "source": "Fred Armisen 7 [rank = 2]",
+            "target": "Fred Armisen 8 [rank = 618]",
             "value": 0.5
         }
     ],
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bonds of matrimony (Q8445) 0 [rank = 1]",
+            "name": "marriage 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q8445",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fred armison (Q14535) 1 [rank = 1]",
+            "name": "Fred Armisen 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q14535",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "new york n.y. (Q60) 2 [rank = 1]",
+            "name": "New York City 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q60",
             "value": 1
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "fred armison (Q14535) 3 [rank = 959]",
+            "name": "Fred Armisen 3 [rank = 959]",
             "url": "https://www.wikidata.org/wiki/Q14535",
             "value": 1
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "fred armison (Q14535) 4 [rank = 670]",
+            "name": "Fred Armisen 4 [rank = 670]",
             "url": "https://www.wikidata.org/wiki/Q14535",
             "value": 1
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "executive produced (Q1053574) 5 [rank = 1]",
+            "name": "executive producer 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1053574",
             "value": 1
         },
@@ -108,7 +108,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "paul lieberstein (Q2671438) 6 [rank = 1]",
+            "name": "Paul Lieberstein 6 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2671438",
             "value": 1
         },
@@ -118,7 +118,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fred armison (Q14535) 7 [rank = 2]",
+            "name": "Fred Armisen 7 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q14535",
             "value": 1
         },
@@ -128,7 +128,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "fred armison (Q14535) 8 [rank = 618]",
+            "name": "Fred Armisen 8 [rank = 618]",
             "url": "https://www.wikidata.org/wiki/Q14535",
             "value": 1
         }

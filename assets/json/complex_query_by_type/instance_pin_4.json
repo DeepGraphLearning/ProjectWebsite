@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "80th oscars (Q215132) 0 [rank = 1]",
-            "target": "academy award for best actress (Q103618) 1 [rank = 1]",
+            "source": "80th Academy Awards 0 [rank = 1]",
+            "target": "Academy Award for Best Actress 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "academy award for best actress (Q103618) 1 [rank = 1]",
-            "target": "doris day album (Q104372) 2 [rank = 1]",
+            "source": "Academy Award for Best Actress 1 [rank = 1]",
+            "target": "Doris Day 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "doris day album (Q104372) 2 [rank = 1]",
-            "target": "doris day album (Q104372) 6 [rank = 104]",
+            "source": "Doris Day 2 [rank = 1]",
+            "target": "Doris Day 6 [rank = 104]",
             "value": 0.5
         },
         {
-            "source": "/m/05zppz 3 [rank = 1]",
-            "target": "billy cristal (Q186485) 4 [rank = 1]",
+            "source": "male organism 3 [rank = 1]",
+            "target": "Billy Crystal 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "billy cristal (Q186485) 4 [rank = 1]",
-            "target": "doris day album (Q104372) 5 [rank = 1]",
+            "source": "Billy Crystal 4 [rank = 1]",
+            "target": "Doris Day 5 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "doris day album (Q104372) 5 [rank = 1]",
-            "target": "doris day album (Q104372) 6 [rank = 104]",
+            "source": "Doris Day 5 [rank = 1]",
+            "target": "Doris Day 6 [rank = 104]",
             "value": 0.5
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "80th oscars (Q215132) 0 [rank = 1]",
+            "name": "80th Academy Awards 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q215132",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "academy award for best actress (Q103618) 1 [rank = 1]",
+            "name": "Academy Award for Best Actress 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q103618",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "doris day album (Q104372) 2 [rank = 1]",
+            "name": "Doris Day 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q104372",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "/m/05zppz 3 [rank = 1]",
+            "name": "male organism 3 [rank = 1]",
             "value": 1
         },
         {
@@ -77,7 +77,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "billy cristal (Q186485) 4 [rank = 1]",
+            "name": "Billy Crystal 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q186485",
             "value": 1
         },
@@ -87,7 +87,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "doris day album (Q104372) 5 [rank = 1]",
+            "name": "Doris Day 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q104372",
             "value": 1
         },
@@ -97,7 +97,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "doris day album (Q104372) 6 [rank = 104]",
+            "name": "Doris Day 6 [rank = 104]",
             "url": "https://www.wikidata.org/wiki/Q104372",
             "value": 1
         }

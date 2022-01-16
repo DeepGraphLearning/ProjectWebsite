@@ -1,53 +1,53 @@
 {
     "edges": [
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "never say never again (film) (Q180279) 1",
+            "source": "Amy Irving 0",
+            "target": "Never Say Never Again 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "carrie (film) (Q162672) 1",
+            "source": "Amy Irving 0",
+            "target": "Carrie 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "the roger rabbit (Q379873) 1",
+            "source": "Amy Irving 0",
+            "target": "Who Framed Roger Rabbit 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "she's having a baby (Q910178) 1",
+            "source": "Amy Irving 0",
+            "target": "She's Having a Baby 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "mickey's magical christmas: snowed in at the house of mouse (Q656396) 1",
+            "source": "Amy Irving 0",
+            "target": "Mickey's Magical Christmas: Snowed in at the House of Mouse 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "terror in the aisles (Q3984794) 1",
+            "source": "Amy Irving 0",
+            "target": "Terror in the Aisles 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "think like a man (Q548148) 1",
+            "source": "Amy Irving 0",
+            "target": "Think like a Man 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "harry block (Q500460) 1",
+            "source": "Amy Irving 0",
+            "target": "Evolution 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "i love you, man (Q958257) 1",
+            "source": "Amy Irving 0",
+            "target": "I Love You, Man 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "amy irving (Q235020) 0",
-            "target": "solitary man (film) (Q1753498) 1",
+            "source": "Amy Irving 0",
+            "target": "Solitary Man 1",
             "value": 0.009999999776482582
         }
     ],
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "amy irving (Q235020) 0",
+            "name": "Amy Irving 0",
             "url": "https://www.wikidata.org/wiki/Q235020",
             "value": 1.0
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "never say never again (film) (Q180279) 1",
+            "name": "Never Say Never Again 1",
             "url": "https://www.wikidata.org/wiki/Q180279",
             "value": 1.0
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "carrie (film) (Q162672) 1",
+            "name": "Carrie 1",
             "url": "https://www.wikidata.org/wiki/Q162672",
             "value": 1.0
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the roger rabbit (Q379873) 1",
+            "name": "Who Framed Roger Rabbit 1",
             "url": "https://www.wikidata.org/wiki/Q379873",
             "value": 0.9999998807907104
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "she's having a baby (Q910178) 1",
+            "name": "She's Having a Baby 1",
             "url": "https://www.wikidata.org/wiki/Q910178",
             "value": 0.37613141536712646
         },
@@ -108,7 +108,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "mickey's magical christmas: snowed in at the house of mouse (Q656396) 1",
+            "name": "Mickey's Magical Christmas: Snowed in at the House of Mouse 1",
             "url": "https://www.wikidata.org/wiki/Q656396",
             "value": 0.29024428129196167
         },
@@ -118,7 +118,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "terror in the aisles (Q3984794) 1",
+            "name": "Terror in the Aisles 1",
             "url": "https://www.wikidata.org/wiki/Q3984794",
             "value": 0.2813150882720947
         },
@@ -128,7 +128,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "think like a man (Q548148) 1",
+            "name": "Think like a Man 1",
             "url": "https://www.wikidata.org/wiki/Q548148",
             "value": 0.2730344533920288
         },
@@ -138,7 +138,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "harry block (Q500460) 1",
+            "name": "Evolution 1",
             "url": "https://www.wikidata.org/wiki/Q500460",
             "value": 0.27178260684013367
         },
@@ -148,7 +148,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "i love you, man (Q958257) 1",
+            "name": "I Love You, Man 1",
             "url": "https://www.wikidata.org/wiki/Q958257",
             "value": 0.26769694685935974
         },
@@ -158,7 +158,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "solitary man (film) (Q1753498) 1",
+            "name": "Solitary Man 1",
             "url": "https://www.wikidata.org/wiki/Q1753498",
             "value": 0.26653629541397095
         }

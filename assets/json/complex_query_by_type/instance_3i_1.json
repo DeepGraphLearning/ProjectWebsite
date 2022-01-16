@@ -2,37 +2,37 @@
     "edges": [
         {
             "source": "/m/08mbj5d 0 [rank = 1]",
-            "target": "creighton university students and alumni (Q770544) 1 [rank = 1742]",
+            "target": "Creighton University 1 [rank = 1742]",
             "value": 0.5
         },
         {
-            "source": "creighton university students and alumni (Q770544) 1 [rank = 1742]",
-            "target": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "source": "Creighton University 1 [rank = 1742]",
+            "target": "Creighton University 4 [rank = 61]",
             "value": 0.5
         },
         {
-            "source": "presidential (Q30461) 2 [rank = 1]",
-            "target": "creighton university students and alumni (Q770544) 3 [rank = 1]",
+            "source": "president 2 [rank = 1]",
+            "target": "Creighton University 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "creighton university students and alumni (Q770544) 3 [rank = 1]",
-            "target": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "source": "Creighton University 3 [rank = 1]",
+            "target": "Creighton University 4 [rank = 61]",
             "value": 0.5
         },
         {
-            "source": "creighton university students and alumni (Q770544) 4 [rank = 61]",
-            "target": "creighton university students and alumni (Q770544) 7 [rank = 5]",
+            "source": "Creighton University 4 [rank = 61]",
+            "target": "Creighton University 7 [rank = 5]",
             "value": 0.5
         },
         {
-            "source": "currency of the united states (Q4917) 5 [rank = 1]",
-            "target": "creighton university students and alumni (Q770544) 6 [rank = 1]",
+            "source": "United States dollar 5 [rank = 1]",
+            "target": "Creighton University 6 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "creighton university students and alumni (Q770544) 6 [rank = 1]",
-            "target": "creighton university students and alumni (Q770544) 7 [rank = 5]",
+            "source": "Creighton University 6 [rank = 1]",
+            "target": "Creighton University 7 [rank = 5]",
             "value": 0.5
         }
     ],
@@ -52,7 +52,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "creighton university students and alumni (Q770544) 1 [rank = 1742]",
+            "name": "Creighton University 1 [rank = 1742]",
             "url": "https://www.wikidata.org/wiki/Q770544",
             "value": 1
         },
@@ -62,7 +62,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "presidential (Q30461) 2 [rank = 1]",
+            "name": "president 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q30461",
             "value": 1
         },
@@ -72,7 +72,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "creighton university students and alumni (Q770544) 3 [rank = 1]",
+            "name": "Creighton University 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q770544",
             "value": 1
         },
@@ -82,7 +82,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "creighton university students and alumni (Q770544) 4 [rank = 61]",
+            "name": "Creighton University 4 [rank = 61]",
             "url": "https://www.wikidata.org/wiki/Q770544",
             "value": 1
         },
@@ -92,7 +92,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "currency of the united states (Q4917) 5 [rank = 1]",
+            "name": "United States dollar 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q4917",
             "value": 1
         },
@@ -102,7 +102,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "creighton university students and alumni (Q770544) 6 [rank = 1]",
+            "name": "Creighton University 6 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q770544",
             "value": 1
         },
@@ -112,7 +112,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "creighton university students and alumni (Q770544) 7 [rank = 5]",
+            "name": "Creighton University 7 [rank = 5]",
             "url": "https://www.wikidata.org/wiki/Q770544",
             "value": 1
         }

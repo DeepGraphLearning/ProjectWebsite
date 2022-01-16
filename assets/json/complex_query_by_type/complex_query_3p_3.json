@@ -1,753 +1,753 @@
 {
     "edges": [
         {
-            "source": "griekenland (Q41) 0",
-            "target": "olympic games in berlin (Q8150) 1",
+            "source": "Greece 0",
+            "target": "1936 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "1980 winter olympics games (Q9652) 1",
+            "source": "Greece 0",
+            "target": "1980 Winter Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "2002 olympics (Q9668) 1",
+            "source": "Greece 0",
+            "target": "2002 Winter Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "xxi olympic winter games 2010 (Q9674) 1",
+            "source": "Greece 0",
+            "target": "2010 Winter Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "2012 olympic games logo (Q8577) 1",
+            "source": "Greece 0",
+            "target": "2012 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "1920 olympic games (Q8128) 1",
+            "source": "Greece 0",
+            "target": "1920 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "summer olympics of 1988 (Q8470) 1",
+            "source": "Greece 0",
+            "target": "1988 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "1928 amsterdam olympics (Q8138) 1",
+            "source": "Greece 0",
+            "target": "1928 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "barcelona'92 (Q8488) 1",
+            "source": "Greece 0",
+            "target": "1992 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "griekenland (Q41) 0",
-            "target": "1984 los angeles olympic games (Q8456) 1",
+            "source": "Greece 0",
+            "target": "1984 Summer Olympics 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "olympic games in berlin (Q8150) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1936 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.0099999914318325
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "association football 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "track and field 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "water polo 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "luge 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "1980 winter olympics games (Q9652) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1980 Winter Olympics 1",
+            "target": "tennis 2",
             "value": 0.009999989047646762
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "association football 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "track and field 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "water polo 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "luging (Q273285) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "luge 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "2002 olympics (Q9668) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "2002 Winter Olympics 1",
+            "target": "tennis 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "association football 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "track and field 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "water polo 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "luging (Q273285) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "luge 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "xxi olympic winter games 2010 (Q9674) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "2010 Winter Olympics 1",
+            "target": "tennis 2",
             "value": 0.003096373310021161
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "luging (Q273285) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "2012 olympic games logo (Q8577) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "2012 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.0021108442073126676
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "1920 olympic games (Q8128) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1920 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.0014262185672025696
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "summer olympics of 1988 (Q8470) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1988 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.0013978534624460304
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "1928 amsterdam olympics (Q8138) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1928 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.0013129433696059123
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "barcelona'92 (Q8488) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1992 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.0012456452568103682
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "f\u00fatbol (Q2736) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "association football 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "outdoor track and field (Q3312129) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "track and field 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "beach water polo (Q7707) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "water polo 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "luging (Q273285) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "luge 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "women's ice hockey (Q41466) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "ice hockey 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "short-track speed skating (Q193654) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "short track speed skating 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "1984 los angeles olympic games (Q8456) 1",
-            "target": "lawn tennis (Q847) 2",
+            "source": "1984 Summer Olympics 1",
+            "target": "tennis 2",
             "value": 0.001222128468257297
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "association football 2",
+            "target": "Sacramento Kings 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "association football 2",
+            "target": "Utah Jazz 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "association football 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "association football 2",
+            "target": "Algeria national football team 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "association football 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "association football 2",
+            "target": "Washington Nationals 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "association football 2",
+            "target": "Chile national football team 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "association football 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "association football 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "f\u00fatbol (Q2736) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "association football 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.009839542884240826
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "track and field 2",
+            "target": "Sacramento Kings 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "track and field 2",
+            "target": "Utah Jazz 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "track and field 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "track and field 2",
+            "target": "Algeria national football team 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "track and field 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "track and field 2",
+            "target": "Washington Nationals 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "track and field 2",
+            "target": "Chile national football team 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "track and field 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "track and field 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "outdoor track and field (Q3312129) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "track and field 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.009834755439279474
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "water polo 2",
+            "target": "Sacramento Kings 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "water polo 2",
+            "target": "Utah Jazz 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "water polo 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "water polo 2",
+            "target": "Algeria national football team 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "water polo 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "water polo 2",
+            "target": "Washington Nationals 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "water polo 2",
+            "target": "Chile national football team 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "water polo 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "water polo 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "beach water polo (Q7707) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "water polo 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.009814438600515452
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "luge 2",
+            "target": "Sacramento Kings 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "luge 2",
+            "target": "Utah Jazz 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "luge 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "luge 2",
+            "target": "Algeria national football team 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "luge 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "luge 2",
+            "target": "Washington Nationals 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "luge 2",
+            "target": "Chile national football team 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "luge 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "luge 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "luging (Q273285) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "luge 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.001859053331783711
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "ice hockey 2",
+            "target": "Sacramento Kings 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "ice hockey 2",
+            "target": "Utah Jazz 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "ice hockey 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "ice hockey 2",
+            "target": "Algeria national football team 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "ice hockey 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "ice hockey 2",
+            "target": "Washington Nationals 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "ice hockey 2",
+            "target": "Chile national football team 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "ice hockey 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "ice hockey 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "women's ice hockey (Q41466) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "ice hockey 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.0017039979613423795
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "short track speed skating 2",
+            "target": "Sacramento Kings 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "short track speed skating 2",
+            "target": "Utah Jazz 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "short track speed skating 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "short track speed skating 2",
+            "target": "Algeria national football team 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "short track speed skating 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "short track speed skating 2",
+            "target": "Washington Nationals 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "short track speed skating 2",
+            "target": "Chile national football team 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "short track speed skating 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "short track speed skating 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "short-track speed skating (Q193654) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "short track speed skating 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.0016306760542688647
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "rochester seagrams (Q166105) 3",
+            "source": "tennis 2",
+            "target": "Sacramento Kings 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "new orleans jazz (Q170649) 3",
+            "source": "tennis 2",
+            "target": "Utah Jazz 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "the supes (Q235326) 3",
+            "source": "tennis 2",
+            "target": "Seattle SuperSonics 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "algeria fc (Q181903) 3",
+            "source": "tennis 2",
+            "target": "Algeria national football team 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "cincincatti reds (Q826751) 3",
+            "source": "tennis 2",
+            "target": "Cincinnati Reds 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "source": "tennis 2",
+            "target": "Washington Nationals 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "tennis 2",
+            "target": "Chile national football team 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "the bluebirds (Q18662) 3",
+            "source": "tennis 2",
+            "target": "Cardiff City F.C. 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "blackburn f.c. (Q19446) 3",
+            "source": "tennis 2",
+            "target": "Blackburn Rovers F.C. 3",
             "value": 0.0014389481818911087
         },
         {
-            "source": "lawn tennis (Q847) 2",
-            "target": "fc middlesbrough (Q18661) 3",
+            "source": "tennis 2",
+            "target": "Middlesbrough F.C. 3",
             "value": 0.0014389481818911087
         }
     ],
@@ -758,7 +758,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "griekenland (Q41) 0",
+            "name": "Greece 0",
             "url": "https://www.wikidata.org/wiki/Q41",
             "value": 1.0
         },
@@ -768,7 +768,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "olympic games in berlin (Q8150) 1",
+            "name": "1936 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8150",
             "value": 0.9999991655349731
         },
@@ -778,7 +778,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "1980 winter olympics games (Q9652) 1",
+            "name": "1980 Winter Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q9652",
             "value": 0.999998927116394
         },
@@ -788,7 +788,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "2002 olympics (Q9668) 1",
+            "name": "2002 Winter Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q9668",
             "value": 0.9999988079071045
         },
@@ -798,7 +798,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "xxi olympic winter games 2010 (Q9674) 1",
+            "name": "2010 Winter Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q9674",
             "value": 0.3096373379230499
         },
@@ -808,7 +808,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "2012 olympic games logo (Q8577) 1",
+            "name": "2012 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8577",
             "value": 0.21108442544937134
         },
@@ -818,7 +818,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1920 olympic games (Q8128) 1",
+            "name": "1920 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8128",
             "value": 0.14262185990810394
         },
@@ -828,7 +828,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "summer olympics of 1988 (Q8470) 1",
+            "name": "1988 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8470",
             "value": 0.13978534936904907
         },
@@ -838,7 +838,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1928 amsterdam olympics (Q8138) 1",
+            "name": "1928 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8138",
             "value": 0.1312943398952484
         },
@@ -848,7 +848,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "barcelona'92 (Q8488) 1",
+            "name": "1992 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8488",
             "value": 0.124564528465271
         },
@@ -858,7 +858,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1984 los angeles olympic games (Q8456) 1",
+            "name": "1984 Summer Olympics 1",
             "url": "https://www.wikidata.org/wiki/Q8456",
             "value": 0.12221284955739975
         },
@@ -868,7 +868,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "f\u00fatbol (Q2736) 2",
+            "name": "association football 2",
             "url": "https://www.wikidata.org/wiki/Q2736",
             "value": 0.9839543104171753
         },
@@ -878,7 +878,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "outdoor track and field (Q3312129) 2",
+            "name": "track and field 2",
             "url": "https://www.wikidata.org/wiki/Q3312129",
             "value": 0.9834755659103394
         },
@@ -888,7 +888,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "beach water polo (Q7707) 2",
+            "name": "water polo 2",
             "url": "https://www.wikidata.org/wiki/Q7707",
             "value": 0.9814438819885254
         },
@@ -898,7 +898,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "luging (Q273285) 2",
+            "name": "luge 2",
             "url": "https://www.wikidata.org/wiki/Q273285",
             "value": 0.1859053373336792
         },
@@ -908,7 +908,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "women's ice hockey (Q41466) 2",
+            "name": "ice hockey 2",
             "url": "https://www.wikidata.org/wiki/Q41466",
             "value": 0.17039979994297028
         },
@@ -918,7 +918,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "short-track speed skating (Q193654) 2",
+            "name": "short track speed skating 2",
             "url": "https://www.wikidata.org/wiki/Q193654",
             "value": 0.16306760907173157
         },
@@ -928,7 +928,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lawn tennis (Q847) 2",
+            "name": "tennis 2",
             "url": "https://www.wikidata.org/wiki/Q847",
             "value": 0.14389482140541077
         },
@@ -938,7 +938,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rochester seagrams (Q166105) 3",
+            "name": "Sacramento Kings 3",
             "url": "https://www.wikidata.org/wiki/Q166105",
             "value": 0.9997534155845642
         },
@@ -948,7 +948,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "new orleans jazz (Q170649) 3",
+            "name": "Utah Jazz 3",
             "url": "https://www.wikidata.org/wiki/Q170649",
             "value": 0.9997242093086243
         },
@@ -958,7 +958,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the supes (Q235326) 3",
+            "name": "Seattle SuperSonics 3",
             "url": "https://www.wikidata.org/wiki/Q235326",
             "value": 0.9996769428253174
         },
@@ -968,7 +968,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "algeria fc (Q181903) 3",
+            "name": "Algeria national football team 3",
             "url": "https://www.wikidata.org/wiki/Q181903",
             "value": 0.34233254194259644
         },
@@ -978,7 +978,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "cincincatti reds (Q826751) 3",
+            "name": "Cincinnati Reds 3",
             "url": "https://www.wikidata.org/wiki/Q826751",
             "value": 0.3265019953250885
         },
@@ -988,7 +988,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "hall of fame ring of honor (washington, d.c.) (Q825838) 3",
+            "name": "Washington Nationals 3",
             "url": "https://www.wikidata.org/wiki/Q825838",
             "value": 0.31230050325393677
         },
@@ -998,7 +998,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "chile football team (Q172025) 3",
+            "name": "Chile national football team 3",
             "url": "https://www.wikidata.org/wiki/Q172025",
             "value": 0.3121911585330963
         },
@@ -1008,7 +1008,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "the bluebirds (Q18662) 3",
+            "name": "Cardiff City F.C. 3",
             "url": "https://www.wikidata.org/wiki/Q18662",
             "value": 0.30874085426330566
         },
@@ -1018,7 +1018,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "blackburn f.c. (Q19446) 3",
+            "name": "Blackburn Rovers F.C. 3",
             "url": "https://www.wikidata.org/wiki/Q19446",
             "value": 0.3064558207988739
         },
@@ -1028,7 +1028,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "fc middlesbrough (Q18661) 3",
+            "name": "Middlesbrough F.C. 3",
             "url": "https://www.wikidata.org/wiki/Q18661",
             "value": 0.3034950792789459
         }

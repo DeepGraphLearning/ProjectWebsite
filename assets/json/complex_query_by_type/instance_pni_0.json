@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "multiple myeloma (Q467635) 0 [rank = 1]",
-            "target": "/m/05zppz 1 [rank = 1]",
+            "source": "multiple myeloma 0 [rank = 1]",
+            "target": "male organism 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "/m/05zppz 1 [rank = 1]",
-            "target": "erik gunden (Q1369625) 2 [rank = 1]",
+            "source": "male organism 1 [rank = 1]",
+            "target": "Lou Scheimer 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "erik gunden (Q1369625) 2 [rank = 1]",
-            "target": "shirley ann russell (Q7498688) 3 [rank = 1]",
+            "source": "Lou Scheimer 2 [rank = 1]",
+            "target": "Shirley Ann Russell 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "shirley ann russell (Q7498688) 3 [rank = 1]",
-            "target": "shirley ann russell (Q7498688) 6 [rank = 13]",
+            "source": "Shirley Ann Russell 3 [rank = 1]",
+            "target": "Shirley Ann Russell 6 [rank = 13]",
             "value": 0.5
         },
         {
             "source": "/m/0d7wh 4 [rank = 1]",
-            "target": "shirley ann russell (Q7498688) 5 [rank = 21]",
+            "target": "Shirley Ann Russell 5 [rank = 21]",
             "value": 0.5
         },
         {
-            "source": "shirley ann russell (Q7498688) 5 [rank = 21]",
-            "target": "shirley ann russell (Q7498688) 6 [rank = 13]",
+            "source": "Shirley Ann Russell 5 [rank = 21]",
+            "target": "Shirley Ann Russell 6 [rank = 13]",
             "value": 0.5
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "multiple myeloma (Q467635) 0 [rank = 1]",
+            "name": "multiple myeloma 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q467635",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "/m/05zppz 1 [rank = 1]",
+            "name": "male organism 1 [rank = 1]",
             "value": 1
         },
         {
@@ -57,7 +57,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "erik gunden (Q1369625) 2 [rank = 1]",
+            "name": "Lou Scheimer 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1369625",
             "value": 1
         },
@@ -67,7 +67,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "shirley ann russell (Q7498688) 3 [rank = 1]",
+            "name": "Shirley Ann Russell 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q7498688",
             "value": 1
         },
@@ -86,7 +86,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "shirley ann russell (Q7498688) 5 [rank = 21]",
+            "name": "Shirley Ann Russell 5 [rank = 21]",
             "url": "https://www.wikidata.org/wiki/Q7498688",
             "value": 1
         },
@@ -96,7 +96,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "shirley ann russell (Q7498688) 6 [rank = 13]",
+            "name": "Shirley Ann Russell 6 [rank = 13]",
             "url": "https://www.wikidata.org/wiki/Q7498688",
             "value": 1
         }

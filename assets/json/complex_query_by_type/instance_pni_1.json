@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "dyspnoe (Q188008) 0 [rank = 1]",
-            "target": "extrapulmonary (Q12204) 1 [rank = 1]",
+            "source": "dyspnea 0 [rank = 1]",
+            "target": "tuberculosis 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "extrapulmonary (Q12204) 1 [rank = 1]",
-            "target": "denholm elliot (Q313047) 2 [rank = 1]",
+            "source": "tuberculosis 1 [rank = 1]",
+            "target": "Denholm Elliott 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "denholm elliot (Q313047) 2 [rank = 1]",
-            "target": "nicole kidman (Q37459) 3 [rank = 2]",
+            "source": "Denholm Elliott 2 [rank = 1]",
+            "target": "Nicole Kidman 3 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "nicole kidman (Q37459) 3 [rank = 2]",
-            "target": "nicole kidman (Q37459) 6 [rank = 2149]",
+            "source": "Nicole Kidman 3 [rank = 2]",
+            "target": "Nicole Kidman 6 [rank = 2149]",
             "value": 0.5
         },
         {
-            "source": "catholic religion (Q1841) 4 [rank = 1]",
-            "target": "nicole kidman (Q37459) 5 [rank = 2804]",
+            "source": "Catholicism 4 [rank = 1]",
+            "target": "Nicole Kidman 5 [rank = 2804]",
             "value": 0.5
         },
         {
-            "source": "nicole kidman (Q37459) 5 [rank = 2804]",
-            "target": "nicole kidman (Q37459) 6 [rank = 2149]",
+            "source": "Nicole Kidman 5 [rank = 2804]",
+            "target": "Nicole Kidman 6 [rank = 2149]",
             "value": 0.5
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dyspnoe (Q188008) 0 [rank = 1]",
+            "name": "dyspnea 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q188008",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "extrapulmonary (Q12204) 1 [rank = 1]",
+            "name": "tuberculosis 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q12204",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "denholm elliot (Q313047) 2 [rank = 1]",
+            "name": "Denholm Elliott 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q313047",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "nicole kidman (Q37459) 3 [rank = 2]",
+            "name": "Nicole Kidman 3 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q37459",
             "value": 1
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "catholic religion (Q1841) 4 [rank = 1]",
+            "name": "Catholicism 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1841",
             "value": 1
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "nicole kidman (Q37459) 5 [rank = 2804]",
+            "name": "Nicole Kidman 5 [rank = 2804]",
             "url": "https://www.wikidata.org/wiki/Q37459",
             "value": 1
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "nicole kidman (Q37459) 6 [rank = 2149]",
+            "name": "Nicole Kidman 6 [rank = 2149]",
             "url": "https://www.wikidata.org/wiki/Q37459",
             "value": 1
         }

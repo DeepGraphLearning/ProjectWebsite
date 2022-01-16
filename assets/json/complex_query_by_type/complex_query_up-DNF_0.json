@@ -1,1603 +1,1603 @@
 {
     "edges": [
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "fulldress drum and bass (Q188994) 1",
+            "source": "jazz 0",
+            "target": "drum and bass 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "experimental post-rock (Q209137) 1",
+            "source": "jazz 0",
+            "target": "post-rock 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "tech death metal (Q1076092) 1",
+            "source": "jazz 0",
+            "target": "technical death metal 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "dixieland jazz (Q906647) 1",
+            "source": "jazz 0",
+            "target": "Dixieland 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "bossa groove (Q486263) 1",
+            "source": "jazz 0",
+            "target": "bossa nova 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "sophisti-pop (Q264289) 1",
+            "source": "jazz 0",
+            "target": "sophisti-pop 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "soul-jazz (Q1615483) 1",
+            "source": "jazz 0",
+            "target": "soul jazz 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "do-wop (Q546359) 1",
+            "source": "jazz 0",
+            "target": "doo-wop 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "newgrass (Q3307225) 1",
+            "source": "jazz 0",
+            "target": "progressive bluegrass 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz music (Q8341) 0",
-            "target": "baroquesque music (Q8361) 1",
+            "source": "jazz 0",
+            "target": "Baroque music 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "drum and bass 1",
+            "target": "jazz fusion 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "drum and bass 1",
+            "target": "jazz rap 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "drum and bass 1",
+            "target": "techno 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "drum and bass 1",
+            "target": "jam band 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "drum and bass 1",
+            "target": "sophisti-pop 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "drum and bass 1",
+            "target": "doo-wop 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "drum and bass 1",
+            "target": "power pop 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "drum and bass 1",
+            "target": "progressive metal 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "drum and bass 1",
+            "target": "electro 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "fulldress drum and bass (Q188994) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "drum and bass 1",
+            "target": "Dixieland 4",
             "value": 0.009999946132303483
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "post-rock 1",
+            "target": "jazz fusion 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "post-rock 1",
+            "target": "jazz rap 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "post-rock 1",
+            "target": "techno 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "post-rock 1",
+            "target": "jam band 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "post-rock 1",
+            "target": "sophisti-pop 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "post-rock 1",
+            "target": "doo-wop 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "post-rock 1",
+            "target": "power pop 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "post-rock 1",
+            "target": "progressive metal 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "post-rock 1",
+            "target": "electro 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "experimental post-rock (Q209137) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "post-rock 1",
+            "target": "Dixieland 4",
             "value": 0.00999984480440963
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "technical death metal 1",
+            "target": "jazz fusion 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "technical death metal 1",
+            "target": "jazz rap 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "technical death metal 1",
+            "target": "techno 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "technical death metal 1",
+            "target": "jam band 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "technical death metal 1",
+            "target": "sophisti-pop 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "technical death metal 1",
+            "target": "doo-wop 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "technical death metal 1",
+            "target": "power pop 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "technical death metal 1",
+            "target": "progressive metal 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "technical death metal 1",
+            "target": "electro 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "tech death metal (Q1076092) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "technical death metal 1",
+            "target": "Dixieland 4",
             "value": 0.009999619498857415
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "Dixieland 1",
+            "target": "jazz fusion 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "Dixieland 1",
+            "target": "jazz rap 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "Dixieland 1",
+            "target": "techno 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "Dixieland 1",
+            "target": "jam band 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "Dixieland 1",
+            "target": "sophisti-pop 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "Dixieland 1",
+            "target": "doo-wop 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "Dixieland 1",
+            "target": "power pop 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "Dixieland 1",
+            "target": "progressive metal 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "Dixieland 1",
+            "target": "electro 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "dixieland jazz (Q906647) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "Dixieland 1",
+            "target": "Dixieland 4",
             "value": 0.005571707362568956
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "bossa nova 1",
+            "target": "jazz fusion 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "bossa nova 1",
+            "target": "jazz rap 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "bossa nova 1",
+            "target": "techno 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "bossa nova 1",
+            "target": "jam band 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "bossa nova 1",
+            "target": "sophisti-pop 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "bossa nova 1",
+            "target": "doo-wop 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "bossa nova 1",
+            "target": "power pop 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "bossa nova 1",
+            "target": "progressive metal 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "bossa nova 1",
+            "target": "electro 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "bossa groove (Q486263) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "bossa nova 1",
+            "target": "Dixieland 4",
             "value": 0.00502219665745951
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "sophisti-pop 1",
+            "target": "jazz fusion 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "sophisti-pop 1",
+            "target": "jazz rap 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "sophisti-pop 1",
+            "target": "techno 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "sophisti-pop 1",
+            "target": "jam band 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "sophisti-pop 1",
+            "target": "sophisti-pop 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "sophisti-pop 1",
+            "target": "doo-wop 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "sophisti-pop 1",
+            "target": "power pop 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "sophisti-pop 1",
+            "target": "progressive metal 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "sophisti-pop 1",
+            "target": "electro 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "sophisti-pop 1",
+            "target": "Dixieland 4",
             "value": 0.004815543782363596
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "soul jazz 1",
+            "target": "jazz fusion 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "soul jazz 1",
+            "target": "jazz rap 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "soul jazz 1",
+            "target": "techno 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "soul jazz 1",
+            "target": "jam band 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "soul jazz 1",
+            "target": "sophisti-pop 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "soul jazz 1",
+            "target": "doo-wop 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "soul jazz 1",
+            "target": "power pop 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "soul jazz 1",
+            "target": "progressive metal 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "soul jazz 1",
+            "target": "electro 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "soul-jazz (Q1615483) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "soul jazz 1",
+            "target": "Dixieland 4",
             "value": 0.004769348991602307
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "doo-wop 1",
+            "target": "jazz fusion 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "doo-wop 1",
+            "target": "jazz rap 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "doo-wop 1",
+            "target": "techno 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "doo-wop 1",
+            "target": "jam band 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "doo-wop 1",
+            "target": "sophisti-pop 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "doo-wop 1",
+            "target": "doo-wop 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "doo-wop 1",
+            "target": "power pop 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "doo-wop 1",
+            "target": "progressive metal 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "doo-wop 1",
+            "target": "electro 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "do-wop (Q546359) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "doo-wop 1",
+            "target": "Dixieland 4",
             "value": 0.004726693226545453
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "progressive bluegrass 1",
+            "target": "jazz fusion 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "progressive bluegrass 1",
+            "target": "jazz rap 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "progressive bluegrass 1",
+            "target": "techno 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "progressive bluegrass 1",
+            "target": "jam band 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "progressive bluegrass 1",
+            "target": "sophisti-pop 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "progressive bluegrass 1",
+            "target": "doo-wop 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "progressive bluegrass 1",
+            "target": "power pop 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "progressive bluegrass 1",
+            "target": "progressive metal 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "progressive bluegrass 1",
+            "target": "electro 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "newgrass (Q3307225) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "progressive bluegrass 1",
+            "target": "Dixieland 4",
             "value": 0.004661443427321832
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "horn rock (Q105527) 4",
+            "source": "Baroque music 1",
+            "target": "jazz fusion 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "Baroque music 1",
+            "target": "jazz rap 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "experimental techno (Q170611) 4",
+            "source": "Baroque music 1",
+            "target": "techno 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "jambands (Q2095173) 4",
+            "source": "Baroque music 1",
+            "target": "jam band 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "Baroque music 1",
+            "target": "sophisti-pop 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "do-wop (Q546359) 4",
+            "source": "Baroque music 1",
+            "target": "doo-wop 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "power-pop (Q837837) 4",
+            "source": "Baroque music 1",
+            "target": "power pop 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "Baroque music 1",
+            "target": "progressive metal 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "electro (music) (Q217597) 4",
+            "source": "Baroque music 1",
+            "target": "electro 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "baroquesque music (Q8361) 1",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "Baroque music 1",
+            "target": "Dixieland 4",
             "value": 0.00458419521337311
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "experimental techno (Q170611) 3",
+            "source": "Maroon 5 2",
+            "target": "techno 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "skunk rock (Q460674) 3",
+            "source": "Maroon 5 2",
+            "target": "ska punk 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "horn rock (Q105527) 3",
+            "source": "Maroon 5 2",
+            "target": "jazz fusion 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "power-pop (Q837837) 3",
+            "source": "Maroon 5 2",
+            "target": "power pop 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "britpop revival (Q189045) 3",
+            "source": "Maroon 5 2",
+            "target": "Britpop 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "1970s synthpop (Q1298934) 3",
+            "source": "Maroon 5 2",
+            "target": "synth-pop 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "runub (Q45981) 3",
+            "source": "Maroon 5 2",
+            "target": "rhythm and blues 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "post punk (Q598929) 3",
+            "source": "Maroon 5 2",
+            "target": "post-punk 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "electro (music) (Q217597) 3",
+            "source": "Maroon 5 2",
+            "target": "electro 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "maroon 5's third studio album (Q182223) 2",
-            "target": "new wave/rock (Q187760) 3",
+            "source": "Maroon 5 2",
+            "target": "new wave 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "techno 3",
+            "target": "jazz fusion 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "techno 3",
+            "target": "jazz rap 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "techno 3",
+            "target": "techno 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "techno 3",
+            "target": "jam band 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "techno 3",
+            "target": "sophisti-pop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "techno 3",
+            "target": "doo-wop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "techno 3",
+            "target": "power pop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "techno 3",
+            "target": "progressive metal 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "techno 3",
+            "target": "electro 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "techno 3",
+            "target": "Dixieland 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "ska punk 3",
+            "target": "jazz fusion 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "ska punk 3",
+            "target": "jazz rap 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "ska punk 3",
+            "target": "techno 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "ska punk 3",
+            "target": "jam band 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "ska punk 3",
+            "target": "sophisti-pop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "ska punk 3",
+            "target": "doo-wop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "ska punk 3",
+            "target": "power pop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "ska punk 3",
+            "target": "progressive metal 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "ska punk 3",
+            "target": "electro 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "skunk rock (Q460674) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "ska punk 3",
+            "target": "Dixieland 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "jazz fusion 3",
+            "target": "jazz fusion 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "jazz fusion 3",
+            "target": "jazz rap 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "jazz fusion 3",
+            "target": "techno 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "jazz fusion 3",
+            "target": "jam band 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "jazz fusion 3",
+            "target": "sophisti-pop 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "jazz fusion 3",
+            "target": "doo-wop 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "jazz fusion 3",
+            "target": "power pop 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "jazz fusion 3",
+            "target": "progressive metal 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "jazz fusion 3",
+            "target": "electro 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "jazz fusion 3",
+            "target": "Dixieland 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "power pop 3",
+            "target": "jazz fusion 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "power pop 3",
+            "target": "jazz rap 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "power pop 3",
+            "target": "techno 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "power pop 3",
+            "target": "jam band 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "power pop 3",
+            "target": "sophisti-pop 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "power pop 3",
+            "target": "doo-wop 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "power pop 3",
+            "target": "power pop 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "power pop 3",
+            "target": "progressive metal 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "power pop 3",
+            "target": "electro 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "power-pop (Q837837) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "power pop 3",
+            "target": "Dixieland 4",
             "value": 0.004822847139324682
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "Britpop 3",
+            "target": "jazz fusion 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "Britpop 3",
+            "target": "jazz rap 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "Britpop 3",
+            "target": "techno 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "Britpop 3",
+            "target": "jam band 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "Britpop 3",
+            "target": "sophisti-pop 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "Britpop 3",
+            "target": "doo-wop 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "Britpop 3",
+            "target": "power pop 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "Britpop 3",
+            "target": "progressive metal 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "Britpop 3",
+            "target": "electro 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "britpop revival (Q189045) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "Britpop 3",
+            "target": "Dixieland 4",
             "value": 0.004660801783335167
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "synth-pop 3",
+            "target": "jazz fusion 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "synth-pop 3",
+            "target": "jazz rap 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "synth-pop 3",
+            "target": "techno 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "synth-pop 3",
+            "target": "jam band 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "synth-pop 3",
+            "target": "sophisti-pop 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "synth-pop 3",
+            "target": "doo-wop 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "synth-pop 3",
+            "target": "power pop 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "synth-pop 3",
+            "target": "progressive metal 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "synth-pop 3",
+            "target": "electro 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "1970s synthpop (Q1298934) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "synth-pop 3",
+            "target": "Dixieland 4",
             "value": 0.004464918275216556
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "rhythm and blues 3",
+            "target": "jazz fusion 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "rhythm and blues 3",
+            "target": "jazz rap 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "rhythm and blues 3",
+            "target": "techno 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "rhythm and blues 3",
+            "target": "jam band 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "rhythm and blues 3",
+            "target": "sophisti-pop 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "rhythm and blues 3",
+            "target": "doo-wop 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "rhythm and blues 3",
+            "target": "power pop 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "rhythm and blues 3",
+            "target": "progressive metal 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "rhythm and blues 3",
+            "target": "electro 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "runub (Q45981) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "rhythm and blues 3",
+            "target": "Dixieland 4",
             "value": 0.004448182483430596
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "post-punk 3",
+            "target": "jazz fusion 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "post-punk 3",
+            "target": "jazz rap 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "post-punk 3",
+            "target": "techno 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "post-punk 3",
+            "target": "jam band 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "post-punk 3",
+            "target": "sophisti-pop 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "post-punk 3",
+            "target": "doo-wop 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "post-punk 3",
+            "target": "power pop 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "post-punk 3",
+            "target": "progressive metal 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "post-punk 3",
+            "target": "electro 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "post punk (Q598929) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "post-punk 3",
+            "target": "Dixieland 4",
             "value": 0.004426121910822645
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "electro 3",
+            "target": "jazz fusion 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "electro 3",
+            "target": "jazz rap 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "electro 3",
+            "target": "techno 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "electro 3",
+            "target": "jam band 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "electro 3",
+            "target": "sophisti-pop 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "electro 3",
+            "target": "doo-wop 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "electro 3",
+            "target": "power pop 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "electro 3",
+            "target": "progressive metal 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "electro 3",
+            "target": "electro 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "electro (music) (Q217597) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "electro 3",
+            "target": "Dixieland 4",
             "value": 0.004392934045353514
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "horn rock (Q105527) 4",
+            "source": "new wave 3",
+            "target": "jazz fusion 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "jazz-rap (Q255406) 4",
+            "source": "new wave 3",
+            "target": "jazz rap 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "experimental techno (Q170611) 4",
+            "source": "new wave 3",
+            "target": "techno 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "jambands (Q2095173) 4",
+            "source": "new wave 3",
+            "target": "jam band 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "sophisti-pop (Q264289) 4",
+            "source": "new wave 3",
+            "target": "sophisti-pop 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "do-wop (Q546359) 4",
+            "source": "new wave 3",
+            "target": "doo-wop 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "power-pop (Q837837) 4",
+            "source": "new wave 3",
+            "target": "power pop 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "proggressive metal (Q484344) 4",
+            "source": "new wave 3",
+            "target": "progressive metal 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "electro (music) (Q217597) 4",
+            "source": "new wave 3",
+            "target": "electro 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "new wave/rock (Q187760) 3",
-            "target": "dixieland jazz (Q906647) 4",
+            "source": "new wave 3",
+            "target": "Dixieland 4",
             "value": 0.004385220608445539
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "jazz fusion 4",
+            "target": "gospel music 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "jazz fusion 4",
+            "target": "folk music 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "jazz fusion 4",
+            "target": "blues 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "jazz fusion 4",
+            "target": "folk rock 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "jazz fusion 4",
+            "target": "blues rock 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "jazz fusion 4",
+            "target": "hard rock 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "jazz fusion 4",
+            "target": "psychedelic rock 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "jazz fusion 4",
+            "target": "pop rock 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "jazz fusion 4",
+            "target": "glam rock 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "horn rock (Q105527) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "jazz fusion 4",
+            "target": "jazz fusion 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "jazz rap 4",
+            "target": "gospel music 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "jazz rap 4",
+            "target": "folk music 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "jazz rap 4",
+            "target": "blues 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "jazz rap 4",
+            "target": "folk rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "jazz rap 4",
+            "target": "blues rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "jazz rap 4",
+            "target": "hard rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "jazz rap 4",
+            "target": "psychedelic rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "jazz rap 4",
+            "target": "pop rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "jazz rap 4",
+            "target": "glam rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jazz-rap (Q255406) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "jazz rap 4",
+            "target": "jazz fusion 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "techno 4",
+            "target": "gospel music 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "techno 4",
+            "target": "folk music 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "techno 4",
+            "target": "blues 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "techno 4",
+            "target": "folk rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "techno 4",
+            "target": "blues rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "techno 4",
+            "target": "hard rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "techno 4",
+            "target": "psychedelic rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "techno 4",
+            "target": "pop rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "techno 4",
+            "target": "glam rock 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "experimental techno (Q170611) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "techno 4",
+            "target": "jazz fusion 5",
             "value": 0.009999995604157541
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "jam band 4",
+            "target": "gospel music 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "jam band 4",
+            "target": "folk music 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "jam band 4",
+            "target": "blues 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "jam band 4",
+            "target": "folk rock 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "jam band 4",
+            "target": "blues rock 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "jam band 4",
+            "target": "hard rock 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "jam band 4",
+            "target": "psychedelic rock 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "jam band 4",
+            "target": "pop rock 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "jam band 4",
+            "target": "glam rock 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "jambands (Q2095173) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "jam band 4",
+            "target": "jazz fusion 5",
             "value": 0.006568531247186704
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "sophisti-pop 4",
+            "target": "gospel music 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "sophisti-pop 4",
+            "target": "folk music 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "sophisti-pop 4",
+            "target": "blues 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "sophisti-pop 4",
+            "target": "folk rock 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "sophisti-pop 4",
+            "target": "blues rock 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "sophisti-pop 4",
+            "target": "hard rock 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "sophisti-pop 4",
+            "target": "psychedelic rock 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "sophisti-pop 4",
+            "target": "pop rock 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "sophisti-pop 4",
+            "target": "glam rock 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "sophisti-pop (Q264289) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "sophisti-pop 4",
+            "target": "jazz fusion 5",
             "value": 0.0065394531218829766
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "doo-wop 4",
+            "target": "gospel music 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "doo-wop 4",
+            "target": "folk music 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "doo-wop 4",
+            "target": "blues 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "doo-wop 4",
+            "target": "folk rock 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "doo-wop 4",
+            "target": "blues rock 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "doo-wop 4",
+            "target": "hard rock 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "doo-wop 4",
+            "target": "psychedelic rock 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "doo-wop 4",
+            "target": "pop rock 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "doo-wop 4",
+            "target": "glam rock 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "do-wop (Q546359) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "doo-wop 4",
+            "target": "jazz fusion 5",
             "value": 0.006520747396631221
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "power pop 4",
+            "target": "gospel music 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "power pop 4",
+            "target": "folk music 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "power pop 4",
+            "target": "blues 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "power pop 4",
+            "target": "folk rock 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "power pop 4",
+            "target": "blues rock 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "power pop 4",
+            "target": "hard rock 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "power pop 4",
+            "target": "psychedelic rock 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "power pop 4",
+            "target": "pop rock 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "power pop 4",
+            "target": "glam rock 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "power-pop (Q837837) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "power pop 4",
+            "target": "jazz fusion 5",
             "value": 0.006338626004637193
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "progressive metal 4",
+            "target": "gospel music 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "progressive metal 4",
+            "target": "folk music 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "progressive metal 4",
+            "target": "blues 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "progressive metal 4",
+            "target": "folk rock 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "progressive metal 4",
+            "target": "blues rock 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "progressive metal 4",
+            "target": "hard rock 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "progressive metal 4",
+            "target": "psychedelic rock 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "progressive metal 4",
+            "target": "pop rock 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "progressive metal 4",
+            "target": "glam rock 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "proggressive metal (Q484344) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "progressive metal 4",
+            "target": "jazz fusion 5",
             "value": 0.006329769946714414
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "electro 4",
+            "target": "gospel music 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "electro 4",
+            "target": "folk music 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "electro 4",
+            "target": "blues 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "electro 4",
+            "target": "folk rock 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "electro 4",
+            "target": "blues rock 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "electro 4",
+            "target": "hard rock 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "electro 4",
+            "target": "psychedelic rock 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "electro 4",
+            "target": "pop rock 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "electro 4",
+            "target": "glam rock 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "electro (music) (Q217597) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "electro 4",
+            "target": "jazz fusion 5",
             "value": 0.006320018627047119
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "bluegrass gospel (Q180268) 5",
+            "source": "Dixieland 4",
+            "target": "gospel music 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "folk music (Q43343) 5",
+            "source": "Dixieland 4",
+            "target": "folk music 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "urban blues (Q9759) 5",
+            "source": "Dixieland 4",
+            "target": "blues 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "pop-folk (Q186472) 5",
+            "source": "Dixieland 4",
+            "target": "folk rock 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "rock blues (Q193355) 5",
+            "source": "Dixieland 4",
+            "target": "blues rock 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "1990s hard rock (Q83270) 5",
+            "source": "Dixieland 4",
+            "target": "hard rock 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "psychedelia (rock) (Q206159) 5",
+            "source": "Dixieland 4",
+            "target": "psychedelic rock 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "pop rock (Q484641) 5",
+            "source": "Dixieland 4",
+            "target": "pop rock 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "glamour rock (Q76092) 5",
+            "source": "Dixieland 4",
+            "target": "glam rock 5",
             "value": 0.006305508472647325
         },
         {
-            "source": "dixieland jazz (Q906647) 4",
-            "target": "horn rock (Q105527) 5",
+            "source": "Dixieland 4",
+            "target": "jazz fusion 5",
             "value": 0.006305508472647325
         }
     ],
@@ -1608,7 +1608,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jazz music (Q8341) 0",
+            "name": "jazz 0",
             "url": "https://www.wikidata.org/wiki/Q8341",
             "value": 1.0
         },
@@ -1618,7 +1618,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fulldress drum and bass (Q188994) 1",
+            "name": "drum and bass 1",
             "url": "https://www.wikidata.org/wiki/Q188994",
             "value": 0.9999946355819702
         },
@@ -1628,7 +1628,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "experimental post-rock (Q209137) 1",
+            "name": "post-rock 1",
             "url": "https://www.wikidata.org/wiki/Q209137",
             "value": 0.9999845027923584
         },
@@ -1638,7 +1638,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "tech death metal (Q1076092) 1",
+            "name": "technical death metal 1",
             "url": "https://www.wikidata.org/wiki/Q1076092",
             "value": 0.9999619722366333
         },
@@ -1648,7 +1648,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "dixieland jazz (Q906647) 1",
+            "name": "Dixieland 1",
             "url": "https://www.wikidata.org/wiki/Q906647",
             "value": 0.5571707487106323
         },
@@ -1658,7 +1658,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "bossa groove (Q486263) 1",
+            "name": "bossa nova 1",
             "url": "https://www.wikidata.org/wiki/Q486263",
             "value": 0.5022196769714355
         },
@@ -1668,7 +1668,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sophisti-pop (Q264289) 1",
+            "name": "sophisti-pop 1",
             "url": "https://www.wikidata.org/wiki/Q264289",
             "value": 0.48155438899993896
         },
@@ -1678,7 +1678,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "soul-jazz (Q1615483) 1",
+            "name": "soul jazz 1",
             "url": "https://www.wikidata.org/wiki/Q1615483",
             "value": 0.47693490982055664
         },
@@ -1688,7 +1688,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "do-wop (Q546359) 1",
+            "name": "doo-wop 1",
             "url": "https://www.wikidata.org/wiki/Q546359",
             "value": 0.4726693332195282
         },
@@ -1698,7 +1698,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "newgrass (Q3307225) 1",
+            "name": "progressive bluegrass 1",
             "url": "https://www.wikidata.org/wiki/Q3307225",
             "value": 0.4661443531513214
         },
@@ -1708,7 +1708,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "baroquesque music (Q8361) 1",
+            "name": "Baroque music 1",
             "url": "https://www.wikidata.org/wiki/Q8361",
             "value": 0.458419531583786
         },
@@ -1718,7 +1718,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "maroon 5's third studio album (Q182223) 2",
+            "name": "Maroon 5 2",
             "url": "https://www.wikidata.org/wiki/Q182223",
             "value": 1.0
         },
@@ -1728,7 +1728,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "experimental techno (Q170611) 3",
+            "name": "techno 3",
             "url": "https://www.wikidata.org/wiki/Q170611",
             "value": 0.9999994039535522
         },
@@ -1738,7 +1738,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "skunk rock (Q460674) 3",
+            "name": "ska punk 3",
             "url": "https://www.wikidata.org/wiki/Q460674",
             "value": 0.9999994039535522
         },
@@ -1748,7 +1748,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "horn rock (Q105527) 3",
+            "name": "jazz fusion 3",
             "url": "https://www.wikidata.org/wiki/Q105527",
             "value": 0.9999992847442627
         },
@@ -1758,7 +1758,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "power-pop (Q837837) 3",
+            "name": "power pop 3",
             "url": "https://www.wikidata.org/wiki/Q837837",
             "value": 0.4822847247123718
         },
@@ -1768,7 +1768,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "britpop revival (Q189045) 3",
+            "name": "Britpop 3",
             "url": "https://www.wikidata.org/wiki/Q189045",
             "value": 0.4660801887512207
         },
@@ -1778,7 +1778,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1970s synthpop (Q1298934) 3",
+            "name": "synth-pop 3",
             "url": "https://www.wikidata.org/wiki/Q1298934",
             "value": 0.4464918375015259
         },
@@ -1788,7 +1788,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "runub (Q45981) 3",
+            "name": "rhythm and blues 3",
             "url": "https://www.wikidata.org/wiki/Q45981",
             "value": 0.44481825828552246
         },
@@ -1798,7 +1798,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "post punk (Q598929) 3",
+            "name": "post-punk 3",
             "url": "https://www.wikidata.org/wiki/Q598929",
             "value": 0.4426122009754181
         },
@@ -1808,7 +1808,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "electro (music) (Q217597) 3",
+            "name": "electro 3",
             "url": "https://www.wikidata.org/wiki/Q217597",
             "value": 0.43929341435432434
         },
@@ -1818,7 +1818,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "new wave/rock (Q187760) 3",
+            "name": "new wave 3",
             "url": "https://www.wikidata.org/wiki/Q187760",
             "value": 0.438522070646286
         },
@@ -1828,7 +1828,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "horn rock (Q105527) 4",
+            "name": "jazz fusion 4",
             "url": "https://www.wikidata.org/wiki/Q105527",
             "value": 1.0
         },
@@ -1838,7 +1838,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jazz-rap (Q255406) 4",
+            "name": "jazz rap 4",
             "url": "https://www.wikidata.org/wiki/Q255406",
             "value": 0.9999995827674866
         },
@@ -1848,7 +1848,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "experimental techno (Q170611) 4",
+            "name": "techno 4",
             "url": "https://www.wikidata.org/wiki/Q170611",
             "value": 0.9999995827674866
         },
@@ -1858,7 +1858,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "jambands (Q2095173) 4",
+            "name": "jam band 4",
             "url": "https://www.wikidata.org/wiki/Q2095173",
             "value": 0.6568531394004822
         },
@@ -1868,7 +1868,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sophisti-pop (Q264289) 4",
+            "name": "sophisti-pop 4",
             "url": "https://www.wikidata.org/wiki/Q264289",
             "value": 0.6539453268051147
         },
@@ -1878,7 +1878,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "do-wop (Q546359) 4",
+            "name": "doo-wop 4",
             "url": "https://www.wikidata.org/wiki/Q546359",
             "value": 0.6520747542381287
         },
@@ -1888,7 +1888,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "power-pop (Q837837) 4",
+            "name": "power pop 4",
             "url": "https://www.wikidata.org/wiki/Q837837",
             "value": 0.6338626146316528
         },
@@ -1898,7 +1898,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "proggressive metal (Q484344) 4",
+            "name": "progressive metal 4",
             "url": "https://www.wikidata.org/wiki/Q484344",
             "value": 0.6329770088195801
         },
@@ -1908,7 +1908,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "electro (music) (Q217597) 4",
+            "name": "electro 4",
             "url": "https://www.wikidata.org/wiki/Q217597",
             "value": 0.6320018768310547
         },
@@ -1918,7 +1918,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "dixieland jazz (Q906647) 4",
+            "name": "Dixieland 4",
             "url": "https://www.wikidata.org/wiki/Q906647",
             "value": 0.6305508613586426
         },
@@ -1928,7 +1928,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bluegrass gospel (Q180268) 5",
+            "name": "gospel music 5",
             "url": "https://www.wikidata.org/wiki/Q180268",
             "value": 0.9928471446037292
         },
@@ -1938,7 +1938,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "folk music (Q43343) 5",
+            "name": "folk music 5",
             "url": "https://www.wikidata.org/wiki/Q43343",
             "value": 0.9901214838027954
         },
@@ -1948,7 +1948,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "urban blues (Q9759) 5",
+            "name": "blues 5",
             "url": "https://www.wikidata.org/wiki/Q9759",
             "value": 0.989840567111969
         },
@@ -1958,7 +1958,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pop-folk (Q186472) 5",
+            "name": "folk rock 5",
             "url": "https://www.wikidata.org/wiki/Q186472",
             "value": 0.5746316313743591
         },
@@ -1968,7 +1968,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "rock blues (Q193355) 5",
+            "name": "blues rock 5",
             "url": "https://www.wikidata.org/wiki/Q193355",
             "value": 0.539497971534729
         },
@@ -1978,7 +1978,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1990s hard rock (Q83270) 5",
+            "name": "hard rock 5",
             "url": "https://www.wikidata.org/wiki/Q83270",
             "value": 0.5260633826255798
         },
@@ -1988,7 +1988,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "psychedelia (rock) (Q206159) 5",
+            "name": "psychedelic rock 5",
             "url": "https://www.wikidata.org/wiki/Q206159",
             "value": 0.5190572142601013
         },
@@ -1998,7 +1998,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pop rock (Q484641) 5",
+            "name": "pop rock 5",
             "url": "https://www.wikidata.org/wiki/Q484641",
             "value": 0.5101821422576904
         },
@@ -2008,7 +2008,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "glamour rock (Q76092) 5",
+            "name": "glam rock 5",
             "url": "https://www.wikidata.org/wiki/Q76092",
             "value": 0.5091999769210815
         },
@@ -2018,7 +2018,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "horn rock (Q105527) 5",
+            "name": "jazz fusion 5",
             "url": "https://www.wikidata.org/wiki/Q105527",
             "value": 0.5065439343452454
         }

@@ -2,32 +2,32 @@
     "edges": [
         {
             "source": "/m/08mbj5d 0 [rank = 1]",
-            "target": "tia kar (Q4115199) 1 [rank = 640]",
+            "target": "Indian Idol 1 [rank = 640]",
             "value": 0.5
         },
         {
-            "source": "tia kar (Q4115199) 1 [rank = 640]",
-            "target": "tia kar (Q4115199) 5 [rank = 6119]",
+            "source": "Indian Idol 1 [rank = 640]",
+            "target": "Indian Idol 5 [rank = 6119]",
             "value": 0.5
         },
         {
-            "source": "english vernacular (Q1860) 2 [rank = 1]",
+            "source": "English 2 [rank = 1]",
             "target": "/m/024rwx 3 [rank = 1]",
             "value": 0.5
         },
         {
             "source": "/m/024rwx 3 [rank = 1]",
-            "target": "tia kar (Q4115199) 4 [rank = 12]",
+            "target": "Indian Idol 4 [rank = 12]",
             "value": 0.5
         },
         {
-            "source": "tia kar (Q4115199) 4 [rank = 12]",
-            "target": "tia kar (Q4115199) 5 [rank = 6119]",
+            "source": "Indian Idol 4 [rank = 12]",
+            "target": "Indian Idol 5 [rank = 6119]",
             "value": 0.5
         },
         {
-            "source": "tia kar (Q4115199) 5 [rank = 6119]",
-            "target": "airlines (tv series) (Q3631478) 6 [rank = 54]",
+            "source": "Indian Idol 5 [rank = 6119]",
+            "target": "Star Plus 6 [rank = 54]",
             "value": 0.5
         }
     ],
@@ -47,7 +47,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "tia kar (Q4115199) 1 [rank = 640]",
+            "name": "Indian Idol 1 [rank = 640]",
             "url": "https://www.wikidata.org/wiki/Q4115199",
             "value": 1
         },
@@ -57,7 +57,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "english vernacular (Q1860) 2 [rank = 1]",
+            "name": "English 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1860",
             "value": 1
         },
@@ -76,7 +76,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "tia kar (Q4115199) 4 [rank = 12]",
+            "name": "Indian Idol 4 [rank = 12]",
             "url": "https://www.wikidata.org/wiki/Q4115199",
             "value": 1
         },
@@ -86,7 +86,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "tia kar (Q4115199) 5 [rank = 6119]",
+            "name": "Indian Idol 5 [rank = 6119]",
             "url": "https://www.wikidata.org/wiki/Q4115199",
             "value": 1
         },
@@ -96,7 +96,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "airlines (tv series) (Q3631478) 6 [rank = 54]",
+            "name": "Star Plus 6 [rank = 54]",
             "url": "https://www.wikidata.org/wiki/Q3631478",
             "value": 1
         }

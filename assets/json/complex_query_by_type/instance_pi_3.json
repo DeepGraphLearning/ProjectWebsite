@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "anguilla/military (Q25228) 0 [rank = 1]",
-            "target": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "source": "Anguilla 0 [rank = 1]",
+            "target": "United Kingdom 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "uk of gb and ni (Q145) 1 [rank = 1]",
-            "target": "sikh literature (Q9316) 2 [rank = 6]",
+            "source": "United Kingdom 1 [rank = 1]",
+            "target": "Sikhism 2 [rank = 6]",
             "value": 0.5
         },
         {
-            "source": "sikh literature (Q9316) 2 [rank = 6]",
-            "target": "sikh literature (Q9316) 5 [rank = 2]",
+            "source": "Sikhism 2 [rank = 6]",
+            "target": "Sikhism 5 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "ajay singh deol (Q944546) 3 [rank = 1]",
-            "target": "sikh literature (Q9316) 4 [rank = 1]",
+            "source": "Sunny Deol 3 [rank = 1]",
+            "target": "Sikhism 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "sikh literature (Q9316) 4 [rank = 1]",
-            "target": "sikh literature (Q9316) 5 [rank = 2]",
+            "source": "Sikhism 4 [rank = 1]",
+            "target": "Sikhism 5 [rank = 2]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "anguilla/military (Q25228) 0 [rank = 1]",
+            "name": "Anguilla 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q25228",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "uk of gb and ni (Q145) 1 [rank = 1]",
+            "name": "United Kingdom 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q145",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "sikh literature (Q9316) 2 [rank = 6]",
+            "name": "Sikhism 2 [rank = 6]",
             "url": "https://www.wikidata.org/wiki/Q9316",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ajay singh deol (Q944546) 3 [rank = 1]",
+            "name": "Sunny Deol 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q944546",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sikh literature (Q9316) 4 [rank = 1]",
+            "name": "Sikhism 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q9316",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "sikh literature (Q9316) 5 [rank = 2]",
+            "name": "Sikhism 5 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q9316",
             "value": 1
         }

@@ -1,8 +1,8 @@
 {
     "edges": [
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0 [rank = 1]",
-            "target": "city of westminister act 1999 (Q179351) 1 [rank = 264]",
+            "source": "Ismail Merchant 0 [rank = 1]",
+            "target": "City of Westminster 1 [rank = 264]",
             "value": 0.5
         }
     ],
@@ -13,7 +13,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ismail noormohamed abdul rehman (Q732397) 0 [rank = 1]",
+            "name": "Ismail Merchant 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q732397",
             "value": 1
         },
@@ -23,7 +23,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "city of westminister act 1999 (Q179351) 1 [rank = 264]",
+            "name": "City of Westminster 1 [rank = 264]",
             "url": "https://www.wikidata.org/wiki/Q179351",
             "value": 1
         }

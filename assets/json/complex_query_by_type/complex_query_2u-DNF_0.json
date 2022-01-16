@@ -2,1102 +2,1102 @@
     "edges": [
         {
             "source": "/m/0fpjd_g 0",
-            "target": "smooth ac (Q831354) 1",
+            "target": "smooth jazz 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "funk-jazz (Q38656) 1",
+            "target": "jazz-funk 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "horn rock (Q105527) 1",
+            "target": "jazz fusion 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "free-jazz (Q211781) 1",
+            "target": "free jazz 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "hard bopper (Q181010) 1",
+            "target": "hard bop 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "bop era (Q105513) 1",
+            "target": "bebop 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "retro-funk (Q164444) 1",
+            "target": "funk 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "sophisti-pop (Q264289) 1",
+            "target": "sophisti-pop 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "big band jazz (Q207378) 1",
+            "target": "big band 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0fpjd_g 0",
-            "target": "runub (Q45981) 1",
+            "target": "rhythm and blues 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "smooth jazz 1",
+            "target": "post-bop 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "smooth jazz 1",
+            "target": "classical music 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "smooth jazz 1",
+            "target": "jazz 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "smooth jazz 1",
+            "target": "hard bop 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "smooth jazz 1",
+            "target": "bebop 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "smooth jazz 1",
+            "target": "rock music 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "smooth jazz 1",
+            "target": "Baroque music 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "smooth jazz 1",
+            "target": "cool jazz 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "smooth jazz 1",
+            "target": "funk 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "smooth ac (Q831354) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "smooth jazz 1",
+            "target": "progressive rock 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "jazz-funk 1",
+            "target": "post-bop 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "jazz-funk 1",
+            "target": "classical music 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "jazz-funk 1",
+            "target": "jazz 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "jazz-funk 1",
+            "target": "hard bop 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "jazz-funk 1",
+            "target": "bebop 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "jazz-funk 1",
+            "target": "rock music 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "jazz-funk 1",
+            "target": "Baroque music 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "jazz-funk 1",
+            "target": "cool jazz 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "jazz-funk 1",
+            "target": "funk 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "funk-jazz (Q38656) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "jazz-funk 1",
+            "target": "progressive rock 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "jazz fusion 1",
+            "target": "post-bop 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "jazz fusion 1",
+            "target": "classical music 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "jazz fusion 1",
+            "target": "jazz 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "jazz fusion 1",
+            "target": "hard bop 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "jazz fusion 1",
+            "target": "bebop 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "jazz fusion 1",
+            "target": "rock music 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "jazz fusion 1",
+            "target": "Baroque music 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "jazz fusion 1",
+            "target": "cool jazz 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "jazz fusion 1",
+            "target": "funk 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "horn rock (Q105527) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "jazz fusion 1",
+            "target": "progressive rock 4",
             "value": 0.0099999914318325
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "free jazz 1",
+            "target": "post-bop 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "free jazz 1",
+            "target": "classical music 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "free jazz 1",
+            "target": "jazz 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "free jazz 1",
+            "target": "hard bop 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "free jazz 1",
+            "target": "bebop 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "free jazz 1",
+            "target": "rock music 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "free jazz 1",
+            "target": "Baroque music 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "free jazz 1",
+            "target": "cool jazz 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "free jazz 1",
+            "target": "funk 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "free-jazz (Q211781) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "free jazz 1",
+            "target": "progressive rock 4",
             "value": 0.00426355203397083
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "hard bop 1",
+            "target": "post-bop 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "hard bop 1",
+            "target": "classical music 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "hard bop 1",
+            "target": "jazz 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "hard bop 1",
+            "target": "hard bop 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "hard bop 1",
+            "target": "bebop 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "hard bop 1",
+            "target": "rock music 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "hard bop 1",
+            "target": "Baroque music 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "hard bop 1",
+            "target": "cool jazz 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "hard bop 1",
+            "target": "funk 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "hard bopper (Q181010) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "hard bop 1",
+            "target": "progressive rock 4",
             "value": 0.004215508009146718
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "bebop 1",
+            "target": "post-bop 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "bebop 1",
+            "target": "classical music 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "bebop 1",
+            "target": "jazz 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "bebop 1",
+            "target": "hard bop 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "bebop 1",
+            "target": "bebop 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "bebop 1",
+            "target": "rock music 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "bebop 1",
+            "target": "Baroque music 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "bebop 1",
+            "target": "cool jazz 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "bebop 1",
+            "target": "funk 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "bop era (Q105513) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "bebop 1",
+            "target": "progressive rock 4",
             "value": 0.00411327233657377
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "funk 1",
+            "target": "post-bop 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "funk 1",
+            "target": "classical music 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "funk 1",
+            "target": "jazz 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "funk 1",
+            "target": "hard bop 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "funk 1",
+            "target": "bebop 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "funk 1",
+            "target": "rock music 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "funk 1",
+            "target": "Baroque music 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "funk 1",
+            "target": "cool jazz 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "funk 1",
+            "target": "funk 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "retro-funk (Q164444) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "funk 1",
+            "target": "progressive rock 4",
             "value": 0.003974901348913429
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "sophisti-pop 1",
+            "target": "post-bop 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "sophisti-pop 1",
+            "target": "classical music 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "sophisti-pop 1",
+            "target": "jazz 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "sophisti-pop 1",
+            "target": "hard bop 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "sophisti-pop 1",
+            "target": "bebop 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "sophisti-pop 1",
+            "target": "rock music 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "sophisti-pop 1",
+            "target": "Baroque music 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "sophisti-pop 1",
+            "target": "cool jazz 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "sophisti-pop 1",
+            "target": "funk 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "sophisti-pop (Q264289) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "sophisti-pop 1",
+            "target": "progressive rock 4",
             "value": 0.003839505229007334
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "big band 1",
+            "target": "post-bop 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "big band 1",
+            "target": "classical music 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "big band 1",
+            "target": "jazz 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "big band 1",
+            "target": "hard bop 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "big band 1",
+            "target": "bebop 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "big band 1",
+            "target": "rock music 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "big band 1",
+            "target": "Baroque music 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "big band 1",
+            "target": "cool jazz 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "big band 1",
+            "target": "funk 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "big band jazz (Q207378) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "big band 1",
+            "target": "progressive rock 4",
             "value": 0.0037633799665410805
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "post-bop (Q1092837) 4",
+            "source": "rhythm and blues 1",
+            "target": "post-bop 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "classical musicians (Q9730) 4",
+            "source": "rhythm and blues 1",
+            "target": "classical music 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "jazz music (Q8341) 4",
+            "source": "rhythm and blues 1",
+            "target": "jazz 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "hard bopper (Q181010) 4",
+            "source": "rhythm and blues 1",
+            "target": "hard bop 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "bop era (Q105513) 4",
+            "source": "rhythm and blues 1",
+            "target": "bebop 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "rock (music) (Q11399) 4",
+            "source": "rhythm and blues 1",
+            "target": "rock music 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "rhythm and blues 1",
+            "target": "Baroque music 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "cool jazz (Q327547) 4",
+            "source": "rhythm and blues 1",
+            "target": "cool jazz 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "retro-funk (Q164444) 4",
+            "source": "rhythm and blues 1",
+            "target": "funk 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "runub (Q45981) 1",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "rhythm and blues 1",
+            "target": "progressive rock 4",
             "value": 0.003720873511116052
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "free-jazz (Q211781) 3",
+            "source": "Keith Jarrett 2",
+            "target": "free jazz 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "horn rock (Q105527) 3",
+            "source": "Keith Jarrett 2",
+            "target": "jazz fusion 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "post-bop (Q1092837) 3",
+            "source": "Keith Jarrett 2",
+            "target": "post-bop 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "avant-garde jazz (Q790188) 3",
+            "source": "Keith Jarrett 2",
+            "target": "avant-garde jazz 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "hard bopper (Q181010) 3",
+            "source": "Keith Jarrett 2",
+            "target": "hard bop 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "bop era (Q105513) 3",
+            "source": "Keith Jarrett 2",
+            "target": "bebop 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "baroquesque music (Q8361) 3",
+            "source": "Keith Jarrett 2",
+            "target": "Baroque music 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "smooth ac (Q831354) 3",
+            "source": "Keith Jarrett 2",
+            "target": "smooth jazz 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "progressive rock'n'roll (Q49451) 3",
+            "source": "Keith Jarrett 2",
+            "target": "progressive rock 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "keith jarett (Q207034) 2",
-            "target": "rock (music) (Q11399) 3",
+            "source": "Keith Jarrett 2",
+            "target": "rock music 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "free jazz 3",
+            "target": "post-bop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "free jazz 3",
+            "target": "classical music 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "free jazz 3",
+            "target": "jazz 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "free jazz 3",
+            "target": "hard bop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "free jazz 3",
+            "target": "bebop 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "free jazz 3",
+            "target": "rock music 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "free jazz 3",
+            "target": "Baroque music 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "free jazz 3",
+            "target": "cool jazz 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "free jazz 3",
+            "target": "funk 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "free-jazz (Q211781) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "free jazz 3",
+            "target": "progressive rock 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "jazz fusion 3",
+            "target": "post-bop 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "jazz fusion 3",
+            "target": "classical music 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "jazz fusion 3",
+            "target": "jazz 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "jazz fusion 3",
+            "target": "hard bop 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "jazz fusion 3",
+            "target": "bebop 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "jazz fusion 3",
+            "target": "rock music 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "jazz fusion 3",
+            "target": "Baroque music 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "jazz fusion 3",
+            "target": "cool jazz 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "jazz fusion 3",
+            "target": "funk 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "horn rock (Q105527) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "jazz fusion 3",
+            "target": "progressive rock 4",
             "value": 0.009999992623925369
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "post-bop 3",
+            "target": "post-bop 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "post-bop 3",
+            "target": "classical music 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "post-bop 3",
+            "target": "jazz 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "post-bop 3",
+            "target": "hard bop 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "post-bop 3",
+            "target": "bebop 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "post-bop 3",
+            "target": "rock music 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "post-bop 3",
+            "target": "Baroque music 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "post-bop 3",
+            "target": "cool jazz 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "post-bop 3",
+            "target": "funk 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "post-bop (Q1092837) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "post-bop 3",
+            "target": "progressive rock 4",
             "value": 0.00999998189508955
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "avant-garde jazz 3",
+            "target": "post-bop 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "avant-garde jazz 3",
+            "target": "classical music 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "avant-garde jazz 3",
+            "target": "jazz 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "avant-garde jazz 3",
+            "target": "hard bop 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "avant-garde jazz 3",
+            "target": "bebop 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "avant-garde jazz 3",
+            "target": "rock music 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "avant-garde jazz 3",
+            "target": "Baroque music 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "avant-garde jazz 3",
+            "target": "cool jazz 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "avant-garde jazz 3",
+            "target": "funk 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "avant-garde jazz (Q790188) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "avant-garde jazz 3",
+            "target": "progressive rock 4",
             "value": 0.004140577521758282
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "hard bop 3",
+            "target": "post-bop 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "hard bop 3",
+            "target": "classical music 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "hard bop 3",
+            "target": "jazz 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "hard bop 3",
+            "target": "hard bop 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "hard bop 3",
+            "target": "bebop 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "hard bop 3",
+            "target": "rock music 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "hard bop 3",
+            "target": "Baroque music 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "hard bop 3",
+            "target": "cool jazz 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "hard bop 3",
+            "target": "funk 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "hard bopper (Q181010) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "hard bop 3",
+            "target": "progressive rock 4",
             "value": 0.0036249803686518867
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "bebop 3",
+            "target": "post-bop 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "bebop 3",
+            "target": "classical music 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "bebop 3",
+            "target": "jazz 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "bebop 3",
+            "target": "hard bop 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "bebop 3",
+            "target": "bebop 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "bebop 3",
+            "target": "rock music 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "bebop 3",
+            "target": "Baroque music 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "bebop 3",
+            "target": "cool jazz 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "bebop 3",
+            "target": "funk 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "bop era (Q105513) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "bebop 3",
+            "target": "progressive rock 4",
             "value": 0.0036035861759576293
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "Baroque music 3",
+            "target": "post-bop 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "Baroque music 3",
+            "target": "classical music 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "Baroque music 3",
+            "target": "jazz 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "Baroque music 3",
+            "target": "hard bop 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "Baroque music 3",
+            "target": "bebop 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "Baroque music 3",
+            "target": "rock music 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "Baroque music 3",
+            "target": "Baroque music 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "Baroque music 3",
+            "target": "cool jazz 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "Baroque music 3",
+            "target": "funk 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "baroquesque music (Q8361) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "Baroque music 3",
+            "target": "progressive rock 4",
             "value": 0.003470905345583586
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "smooth jazz 3",
+            "target": "post-bop 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "smooth jazz 3",
+            "target": "classical music 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "smooth jazz 3",
+            "target": "jazz 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "smooth jazz 3",
+            "target": "hard bop 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "smooth jazz 3",
+            "target": "bebop 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "smooth jazz 3",
+            "target": "rock music 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "smooth jazz 3",
+            "target": "Baroque music 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "smooth jazz 3",
+            "target": "cool jazz 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "smooth jazz 3",
+            "target": "funk 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "smooth ac (Q831354) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "smooth jazz 3",
+            "target": "progressive rock 4",
             "value": 0.0034445434038815614
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "progressive rock 3",
+            "target": "post-bop 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "progressive rock 3",
+            "target": "classical music 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "progressive rock 3",
+            "target": "jazz 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "progressive rock 3",
+            "target": "hard bop 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "progressive rock 3",
+            "target": "bebop 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "progressive rock 3",
+            "target": "rock music 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "progressive rock 3",
+            "target": "Baroque music 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "progressive rock 3",
+            "target": "cool jazz 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "progressive rock 3",
+            "target": "funk 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "progressive rock 3",
+            "target": "progressive rock 4",
             "value": 0.0033908613758341644
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "post-bop (Q1092837) 4",
+            "source": "rock music 3",
+            "target": "post-bop 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "classical musicians (Q9730) 4",
+            "source": "rock music 3",
+            "target": "classical music 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "rock music 3",
+            "target": "jazz 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "hard bopper (Q181010) 4",
+            "source": "rock music 3",
+            "target": "hard bop 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "bop era (Q105513) 4",
+            "source": "rock music 3",
+            "target": "bebop 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "rock (music) (Q11399) 4",
+            "source": "rock music 3",
+            "target": "rock music 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "baroquesque music (Q8361) 4",
+            "source": "rock music 3",
+            "target": "Baroque music 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "cool jazz (Q327547) 4",
+            "source": "rock music 3",
+            "target": "cool jazz 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "retro-funk (Q164444) 4",
+            "source": "rock music 3",
+            "target": "funk 4",
             "value": 0.003310416564857588
         },
         {
-            "source": "rock (music) (Q11399) 3",
-            "target": "progressive rock'n'roll (Q49451) 4",
+            "source": "rock music 3",
+            "target": "progressive rock 4",
             "value": 0.003310416564857588
         }
     ],
@@ -1117,7 +1117,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "smooth ac (Q831354) 1",
+            "name": "smooth jazz 1",
             "url": "https://www.wikidata.org/wiki/Q831354",
             "value": 0.9999996423721313
         },
@@ -1127,7 +1127,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "funk-jazz (Q38656) 1",
+            "name": "jazz-funk 1",
             "url": "https://www.wikidata.org/wiki/Q38656",
             "value": 0.9999995231628418
         },
@@ -1137,7 +1137,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "horn rock (Q105527) 1",
+            "name": "jazz fusion 1",
             "url": "https://www.wikidata.org/wiki/Q105527",
             "value": 0.9999991655349731
         },
@@ -1147,7 +1147,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "free-jazz (Q211781) 1",
+            "name": "free jazz 1",
             "url": "https://www.wikidata.org/wiki/Q211781",
             "value": 0.4263552129268646
         },
@@ -1157,7 +1157,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hard bopper (Q181010) 1",
+            "name": "hard bop 1",
             "url": "https://www.wikidata.org/wiki/Q181010",
             "value": 0.42155081033706665
         },
@@ -1167,7 +1167,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "bop era (Q105513) 1",
+            "name": "bebop 1",
             "url": "https://www.wikidata.org/wiki/Q105513",
             "value": 0.4113272428512573
         },
@@ -1177,7 +1177,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "retro-funk (Q164444) 1",
+            "name": "funk 1",
             "url": "https://www.wikidata.org/wiki/Q164444",
             "value": 0.39749014377593994
         },
@@ -1187,7 +1187,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sophisti-pop (Q264289) 1",
+            "name": "sophisti-pop 1",
             "url": "https://www.wikidata.org/wiki/Q264289",
             "value": 0.38395053148269653
         },
@@ -1197,7 +1197,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "big band jazz (Q207378) 1",
+            "name": "big band 1",
             "url": "https://www.wikidata.org/wiki/Q207378",
             "value": 0.37633800506591797
         },
@@ -1207,7 +1207,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "runub (Q45981) 1",
+            "name": "rhythm and blues 1",
             "url": "https://www.wikidata.org/wiki/Q45981",
             "value": 0.37208735942840576
         },
@@ -1217,7 +1217,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "keith jarett (Q207034) 2",
+            "name": "Keith Jarrett 2",
             "url": "https://www.wikidata.org/wiki/Q207034",
             "value": 1.0
         },
@@ -1227,7 +1227,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "free-jazz (Q211781) 3",
+            "name": "free jazz 3",
             "url": "https://www.wikidata.org/wiki/Q211781",
             "value": 0.9999994039535522
         },
@@ -1237,7 +1237,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "horn rock (Q105527) 3",
+            "name": "jazz fusion 3",
             "url": "https://www.wikidata.org/wiki/Q105527",
             "value": 0.9999992847442627
         },
@@ -1247,7 +1247,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "post-bop (Q1092837) 3",
+            "name": "post-bop 3",
             "url": "https://www.wikidata.org/wiki/Q1092837",
             "value": 0.9999982118606567
         },
@@ -1257,7 +1257,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "avant-garde jazz (Q790188) 3",
+            "name": "avant-garde jazz 3",
             "url": "https://www.wikidata.org/wiki/Q790188",
             "value": 0.41405776143074036
         },
@@ -1267,7 +1267,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hard bopper (Q181010) 3",
+            "name": "hard bop 3",
             "url": "https://www.wikidata.org/wiki/Q181010",
             "value": 0.36249804496765137
         },
@@ -1277,7 +1277,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bop era (Q105513) 3",
+            "name": "bebop 3",
             "url": "https://www.wikidata.org/wiki/Q105513",
             "value": 0.3603586256504059
         },
@@ -1287,7 +1287,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "baroquesque music (Q8361) 3",
+            "name": "Baroque music 3",
             "url": "https://www.wikidata.org/wiki/Q8361",
             "value": 0.34709054231643677
         },
@@ -1297,7 +1297,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "smooth ac (Q831354) 3",
+            "name": "smooth jazz 3",
             "url": "https://www.wikidata.org/wiki/Q831354",
             "value": 0.3444543480873108
         },
@@ -1307,7 +1307,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "progressive rock'n'roll (Q49451) 3",
+            "name": "progressive rock 3",
             "url": "https://www.wikidata.org/wiki/Q49451",
             "value": 0.3390861451625824
         },
@@ -1317,7 +1317,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "rock (music) (Q11399) 3",
+            "name": "rock music 3",
             "url": "https://www.wikidata.org/wiki/Q11399",
             "value": 0.3310416638851166
         },
@@ -1327,7 +1327,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "post-bop (Q1092837) 4",
+            "name": "post-bop 4",
             "url": "https://www.wikidata.org/wiki/Q1092837",
             "value": 1.0
         },
@@ -1337,7 +1337,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "classical musicians (Q9730) 4",
+            "name": "classical music 4",
             "url": "https://www.wikidata.org/wiki/Q9730",
             "value": 1.0
         },
@@ -1347,7 +1347,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jazz music (Q8341) 4",
+            "name": "jazz 4",
             "url": "https://www.wikidata.org/wiki/Q8341",
             "value": 1.0
         },
@@ -1357,7 +1357,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hard bopper (Q181010) 4",
+            "name": "hard bop 4",
             "url": "https://www.wikidata.org/wiki/Q181010",
             "value": 0.6312375068664551
         },
@@ -1367,7 +1367,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "bop era (Q105513) 4",
+            "name": "bebop 4",
             "url": "https://www.wikidata.org/wiki/Q105513",
             "value": 0.6234605312347412
         },
@@ -1377,7 +1377,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "rock (music) (Q11399) 4",
+            "name": "rock music 4",
             "url": "https://www.wikidata.org/wiki/Q11399",
             "value": 0.569829523563385
         },
@@ -1387,7 +1387,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "baroquesque music (Q8361) 4",
+            "name": "Baroque music 4",
             "url": "https://www.wikidata.org/wiki/Q8361",
             "value": 0.5694946050643921
         },
@@ -1397,7 +1397,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "cool jazz (Q327547) 4",
+            "name": "cool jazz 4",
             "url": "https://www.wikidata.org/wiki/Q327547",
             "value": 0.5689274668693542
         },
@@ -1407,7 +1407,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "retro-funk (Q164444) 4",
+            "name": "funk 4",
             "url": "https://www.wikidata.org/wiki/Q164444",
             "value": 0.5622769594192505
         },
@@ -1417,7 +1417,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "progressive rock'n'roll (Q49451) 4",
+            "name": "progressive rock 4",
             "url": "https://www.wikidata.org/wiki/Q49451",
             "value": 0.5555788278579712
         }

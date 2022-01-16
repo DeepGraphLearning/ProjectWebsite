@@ -1,298 +1,298 @@
 {
     "edges": [
         {
-            "source": "usofa (Q30) 0",
-            "target": "the university of san francisco (Q1887879) 1",
+            "source": "United States of America 0",
+            "target": "University of San Francisco 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "dorothy day center for faith and justice (Q1849843) 1",
+            "source": "United States of America 0",
+            "target": "Xavier University 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "adelphi wildcats softball (Q4682076) 1",
+            "source": "United States of America 0",
+            "target": "Adelphi University 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "golan globus (Q1033465) 1",
+            "source": "United States of America 0",
+            "target": "The Cannon Group 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
+            "source": "United States of America 0",
             "target": "/m/05f260 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "interplay value products division (Q628249) 1",
+            "source": "United States of America 0",
+            "target": "Interplay Entertainment 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "floyd of the jungle (Q652421) 1",
+            "source": "United States of America 0",
+            "target": "MicroProse 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "europacorp distribution (Q1375196) 1",
+            "source": "United States of America 0",
+            "target": "EuropaCorp 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "origin (software company) (Q1193678) 1",
+            "source": "United States of America 0",
+            "target": "Origin Systems 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 0",
-            "target": "wb games (Q2319420) 1",
+            "source": "United States of America 0",
+            "target": "Warner Bros. Interactive Entertainment 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "University of San Francisco 1",
+            "target": "Ann Roth 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "University of San Francisco 1",
+            "target": "Bruce Berman 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "University of San Francisco 1",
+            "target": "Roger Corman 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "University of San Francisco 1",
+            "target": "Lewis Cass 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "University of San Francisco 1",
+            "target": "John Irving 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "University of San Francisco 1",
+            "target": "Colin Powell 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "University of San Francisco 1",
+            "target": "Milton Friedman 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "University of San Francisco 1",
+            "target": "Robert Gates 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "University of San Francisco 1",
+            "target": "Gore Vidal 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "the university of san francisco (Q1887879) 1",
+            "source": "University of San Francisco 1",
             "target": "/m/01xndd 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "Xavier University 1",
+            "target": "Ann Roth 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "Xavier University 1",
+            "target": "Bruce Berman 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "Xavier University 1",
+            "target": "Roger Corman 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "Xavier University 1",
+            "target": "Lewis Cass 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "Xavier University 1",
+            "target": "John Irving 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "Xavier University 1",
+            "target": "Colin Powell 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "Xavier University 1",
+            "target": "Milton Friedman 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "Xavier University 1",
+            "target": "Robert Gates 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "Xavier University 1",
+            "target": "Gore Vidal 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "dorothy day center for faith and justice (Q1849843) 1",
+            "source": "Xavier University 1",
             "target": "/m/01xndd 2",
             "value": 0.009999987855553893
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "Adelphi University 1",
+            "target": "Ann Roth 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "Adelphi University 1",
+            "target": "Bruce Berman 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "Adelphi University 1",
+            "target": "Roger Corman 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "Adelphi University 1",
+            "target": "Lewis Cass 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "Adelphi University 1",
+            "target": "John Irving 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "Adelphi University 1",
+            "target": "Colin Powell 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "Adelphi University 1",
+            "target": "Milton Friedman 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "Adelphi University 1",
+            "target": "Robert Gates 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "Adelphi University 1",
+            "target": "Gore Vidal 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "adelphi wildcats softball (Q4682076) 1",
+            "source": "Adelphi University 1",
             "target": "/m/01xndd 2",
             "value": 0.009999986663461025
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "The Cannon Group 1",
+            "target": "Ann Roth 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "The Cannon Group 1",
+            "target": "Bruce Berman 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "The Cannon Group 1",
+            "target": "Roger Corman 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "The Cannon Group 1",
+            "target": "Lewis Cass 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "The Cannon Group 1",
+            "target": "John Irving 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "The Cannon Group 1",
+            "target": "Colin Powell 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "The Cannon Group 1",
+            "target": "Milton Friedman 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "The Cannon Group 1",
+            "target": "Robert Gates 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "The Cannon Group 1",
+            "target": "Gore Vidal 2",
             "value": 0.007821172897044426
         },
         {
-            "source": "golan globus (Q1033465) 1",
+            "source": "The Cannon Group 1",
             "target": "/m/01xndd 2",
             "value": 0.007821172897044426
         },
         {
             "source": "/m/05f260 1",
-            "target": "ann roth (Q508660) 2",
+            "target": "Ann Roth 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "bruce berman (Q4977147) 2",
+            "target": "Bruce Berman 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "target": "Roger Corman 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "cass, lewis (Q503119) 2",
+            "target": "Lewis Cass 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "irving, john (Q310379) 2",
+            "target": "John Irving 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "colin powell (Q150851) 2",
+            "target": "Colin Powell 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "m friedman (Q47426) 2",
+            "target": "Milton Friedman 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "rob gates (Q212979) 2",
+            "target": "Robert Gates 2",
             "value": 0.0069445387956975635
         },
         {
             "source": "/m/05f260 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "target": "Gore Vidal 2",
             "value": 0.0069445387956975635
         },
         {
@@ -301,733 +301,733 @@
             "value": 0.0069445387956975635
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Ann Roth 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Bruce Berman 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Roger Corman 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Lewis Cass 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "John Irving 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Colin Powell 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Milton Friedman 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Robert Gates 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "Interplay Entertainment 1",
+            "target": "Gore Vidal 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "interplay value products division (Q628249) 1",
+            "source": "Interplay Entertainment 1",
             "target": "/m/01xndd 2",
             "value": 0.006804508414763766
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "MicroProse 1",
+            "target": "Ann Roth 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "MicroProse 1",
+            "target": "Bruce Berman 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "MicroProse 1",
+            "target": "Roger Corman 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "MicroProse 1",
+            "target": "Lewis Cass 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "MicroProse 1",
+            "target": "John Irving 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "MicroProse 1",
+            "target": "Colin Powell 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "MicroProse 1",
+            "target": "Milton Friedman 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "MicroProse 1",
+            "target": "Robert Gates 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "MicroProse 1",
+            "target": "Gore Vidal 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "floyd of the jungle (Q652421) 1",
+            "source": "MicroProse 1",
             "target": "/m/01xndd 2",
             "value": 0.006611708254850468
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "EuropaCorp 1",
+            "target": "Ann Roth 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "EuropaCorp 1",
+            "target": "Bruce Berman 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "EuropaCorp 1",
+            "target": "Roger Corman 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "EuropaCorp 1",
+            "target": "Lewis Cass 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "EuropaCorp 1",
+            "target": "John Irving 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "EuropaCorp 1",
+            "target": "Colin Powell 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "EuropaCorp 1",
+            "target": "Milton Friedman 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "EuropaCorp 1",
+            "target": "Robert Gates 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "EuropaCorp 1",
+            "target": "Gore Vidal 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "europacorp distribution (Q1375196) 1",
+            "source": "EuropaCorp 1",
             "target": "/m/01xndd 2",
             "value": 0.005957164035204854
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "Origin Systems 1",
+            "target": "Ann Roth 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "Origin Systems 1",
+            "target": "Bruce Berman 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "Origin Systems 1",
+            "target": "Roger Corman 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "Origin Systems 1",
+            "target": "Lewis Cass 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "Origin Systems 1",
+            "target": "John Irving 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "Origin Systems 1",
+            "target": "Colin Powell 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "Origin Systems 1",
+            "target": "Milton Friedman 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "Origin Systems 1",
+            "target": "Robert Gates 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "Origin Systems 1",
+            "target": "Gore Vidal 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "origin (software company) (Q1193678) 1",
+            "source": "Origin Systems 1",
             "target": "/m/01xndd 2",
             "value": 0.0058594088436795255
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "ann roth (Q508660) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Ann Roth 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "bruce berman (Q4977147) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Bruce Berman 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "the doorway (film) (Q318292) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Roger Corman 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "cass, lewis (Q503119) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Lewis Cass 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "irving, john (Q310379) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "John Irving 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "colin powell (Q150851) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Colin Powell 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "m friedman (Q47426) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Milton Friedman 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "rob gates (Q212979) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Robert Gates 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
-            "target": "eugene luther vidal, jr (Q167821) 2",
+            "source": "Warner Bros. Interactive Entertainment 1",
+            "target": "Gore Vidal 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "wb games (Q2319420) 1",
+            "source": "Warner Bros. Interactive Entertainment 1",
             "target": "/m/01xndd 2",
             "value": 0.0055693428463635675
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Ann Roth 2",
+            "target": "Ann Roth 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Ann Roth 2",
+            "target": "James Buchanan 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Ann Roth 2",
+            "target": "Ron Paul 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Ann Roth 2",
+            "target": "Lewis Cass 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Ann Roth 2",
+            "target": "Colin Powell 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Ann Roth 2",
+            "target": "John Irving 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
+            "source": "Ann Roth 2",
             "target": "/m/01xndd 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Ann Roth 2",
+            "target": "Ted Kennedy 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Ann Roth 2",
+            "target": "Milton Friedman 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "ann roth (Q508660) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Ann Roth 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.009976206198866522
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Bruce Berman 2",
+            "target": "Ann Roth 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Bruce Berman 2",
+            "target": "James Buchanan 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Bruce Berman 2",
+            "target": "Ron Paul 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Bruce Berman 2",
+            "target": "Lewis Cass 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Bruce Berman 2",
+            "target": "Colin Powell 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Bruce Berman 2",
+            "target": "John Irving 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
+            "source": "Bruce Berman 2",
             "target": "/m/01xndd 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Bruce Berman 2",
+            "target": "Ted Kennedy 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Bruce Berman 2",
+            "target": "Milton Friedman 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "bruce berman (Q4977147) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Bruce Berman 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.009973093048339488
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Roger Corman 2",
+            "target": "Ann Roth 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Roger Corman 2",
+            "target": "James Buchanan 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Roger Corman 2",
+            "target": "Ron Paul 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Roger Corman 2",
+            "target": "Lewis Cass 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Roger Corman 2",
+            "target": "Colin Powell 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Roger Corman 2",
+            "target": "John Irving 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
+            "source": "Roger Corman 2",
             "target": "/m/01xndd 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Roger Corman 2",
+            "target": "Ted Kennedy 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Roger Corman 2",
+            "target": "Milton Friedman 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "the doorway (film) (Q318292) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Roger Corman 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.009970730320273402
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Lewis Cass 2",
+            "target": "Ann Roth 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Lewis Cass 2",
+            "target": "James Buchanan 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Lewis Cass 2",
+            "target": "Ron Paul 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Lewis Cass 2",
+            "target": "Lewis Cass 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Lewis Cass 2",
+            "target": "Colin Powell 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Lewis Cass 2",
+            "target": "John Irving 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
+            "source": "Lewis Cass 2",
             "target": "/m/01xndd 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Lewis Cass 2",
+            "target": "Ted Kennedy 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Lewis Cass 2",
+            "target": "Milton Friedman 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "cass, lewis (Q503119) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Lewis Cass 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.004336343310706092
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "John Irving 2",
+            "target": "Ann Roth 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "John Irving 2",
+            "target": "James Buchanan 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "John Irving 2",
+            "target": "Ron Paul 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "John Irving 2",
+            "target": "Lewis Cass 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "John Irving 2",
+            "target": "Colin Powell 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "John Irving 2",
+            "target": "John Irving 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
+            "source": "John Irving 2",
             "target": "/m/01xndd 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "John Irving 2",
+            "target": "Ted Kennedy 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "John Irving 2",
+            "target": "Milton Friedman 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "irving, john (Q310379) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "John Irving 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.004127991703272049
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Colin Powell 2",
+            "target": "Ann Roth 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Colin Powell 2",
+            "target": "James Buchanan 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Colin Powell 2",
+            "target": "Ron Paul 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Colin Powell 2",
+            "target": "Lewis Cass 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Colin Powell 2",
+            "target": "Colin Powell 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Colin Powell 2",
+            "target": "John Irving 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
+            "source": "Colin Powell 2",
             "target": "/m/01xndd 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Colin Powell 2",
+            "target": "Ted Kennedy 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Colin Powell 2",
+            "target": "Milton Friedman 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "colin powell (Q150851) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Colin Powell 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.004079712240106337
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Milton Friedman 2",
+            "target": "Ann Roth 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Milton Friedman 2",
+            "target": "James Buchanan 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Milton Friedman 2",
+            "target": "Ron Paul 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Milton Friedman 2",
+            "target": "Lewis Cass 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Milton Friedman 2",
+            "target": "Colin Powell 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Milton Friedman 2",
+            "target": "John Irving 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
+            "source": "Milton Friedman 2",
             "target": "/m/01xndd 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Milton Friedman 2",
+            "target": "Ted Kennedy 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Milton Friedman 2",
+            "target": "Milton Friedman 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "m friedman (Q47426) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Milton Friedman 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.004054256885031082
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Robert Gates 2",
+            "target": "Ann Roth 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Robert Gates 2",
+            "target": "James Buchanan 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Robert Gates 2",
+            "target": "Ron Paul 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Robert Gates 2",
+            "target": "Lewis Cass 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Robert Gates 2",
+            "target": "Colin Powell 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Robert Gates 2",
+            "target": "John Irving 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
+            "source": "Robert Gates 2",
             "target": "/m/01xndd 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Robert Gates 2",
+            "target": "Ted Kennedy 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Robert Gates 2",
+            "target": "Milton Friedman 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "rob gates (Q212979) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Robert Gates 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.003967260629670455
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "ann roth (Q508660) 6",
+            "source": "Gore Vidal 2",
+            "target": "Ann Roth 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "president buchanan (Q12325) 6",
+            "source": "Gore Vidal 2",
+            "target": "James Buchanan 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "Gore Vidal 2",
+            "target": "Ron Paul 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "Gore Vidal 2",
+            "target": "Lewis Cass 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "colin powell (Q150851) 6",
+            "source": "Gore Vidal 2",
+            "target": "Colin Powell 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "irving, john (Q310379) 6",
+            "source": "Gore Vidal 2",
+            "target": "John Irving 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
+            "source": "Gore Vidal 2",
             "target": "/m/01xndd 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "Gore Vidal 2",
+            "target": "Ted Kennedy 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "m friedman (Q47426) 6",
+            "source": "Gore Vidal 2",
+            "target": "Milton Friedman 6",
             "value": 0.00390307298519299
         },
         {
-            "source": "eugene luther vidal, jr (Q167821) 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "Gore Vidal 2",
+            "target": "John Dingell, Jr. 6",
             "value": 0.00390307298519299
         },
         {
             "source": "/m/01xndd 2",
-            "target": "ann roth (Q508660) 6",
+            "target": "Ann Roth 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "president buchanan (Q12325) 6",
+            "target": "James Buchanan 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "target": "Ron Paul 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "cass, lewis (Q503119) 6",
+            "target": "Lewis Cass 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "colin powell (Q150851) 6",
+            "target": "Colin Powell 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "irving, john (Q310379) 6",
+            "target": "John Irving 6",
             "value": 0.003889961453751589
         },
         {
@@ -1037,297 +1037,297 @@
         },
         {
             "source": "/m/01xndd 2",
-            "target": "kennedy, edward (Q134549) 6",
+            "target": "Ted Kennedy 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "m friedman (Q47426) 6",
+            "target": "Milton Friedman 6",
             "value": 0.003889961453751589
         },
         {
             "source": "/m/01xndd 2",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "target": "John Dingell, Jr. 6",
             "value": 0.003889961453751589
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "nelson rolihlahla mandela (Q8023) 4",
+            "source": "Malcolm X 3",
+            "target": "Nelson Mandela 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "angela bassett (Q232120) 4",
+            "source": "Malcolm X 3",
+            "target": "Angela Bassett 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "plummer, christopher (Q190523) 4",
+            "source": "Malcolm X 3",
+            "target": "Christopher Plummer 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "frankie russel faison (Q943589) 4",
+            "source": "Malcolm X 3",
+            "target": "Frankie Faison 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "jim brown (football) (Q927916) 4",
+            "source": "Malcolm X 3",
+            "target": "Jim Brown 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "lapaglia, anthony (Q308124) 4",
+            "source": "Malcolm X 3",
+            "target": "Anthony LaPaglia 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "john lequizamo (Q295233) 4",
+            "source": "Malcolm X 3",
+            "target": "John Leguizamo 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "martin fitzgerald lawrence (Q183542) 4",
+            "source": "Malcolm X 3",
+            "target": "Martin Lawrence 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "miguel sandoval (Q935122) 4",
+            "source": "Malcolm X 3",
+            "target": "Miguel Sandoval 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "malcolm x (1992 movie) (Q923925) 3",
-            "target": "daniel louis aiello, jr. (Q299314) 4",
+            "source": "Malcolm X 3",
+            "target": "Danny Aiello 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "nelson rolihlahla mandela (Q8023) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Nelson Mandela 4",
+            "target": "folic acid 5",
             "value": 0.009999950900674959
         },
         {
-            "source": "nelson rolihlahla mandela (Q8023) 4",
+            "source": "Nelson Mandela 4",
             "target": "/m/02y_3rt 5",
             "value": 0.009999950900674959
         },
         {
-            "source": "nelson rolihlahla mandela (Q8023) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Nelson Mandela 4",
+            "target": "cryptoxanthin 5",
             "value": 0.009999950900674959
         },
         {
-            "source": "angela bassett (Q232120) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Angela Bassett 4",
+            "target": "folic acid 5",
             "value": 0.00999994970858209
         },
         {
-            "source": "angela bassett (Q232120) 4",
+            "source": "Angela Bassett 4",
             "target": "/m/02y_3rt 5",
             "value": 0.00999994970858209
         },
         {
-            "source": "angela bassett (Q232120) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Angela Bassett 4",
+            "target": "cryptoxanthin 5",
             "value": 0.00999994970858209
         },
         {
-            "source": "plummer, christopher (Q190523) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Christopher Plummer 4",
+            "target": "folic acid 5",
             "value": 0.009999859109524056
         },
         {
-            "source": "plummer, christopher (Q190523) 4",
+            "source": "Christopher Plummer 4",
             "target": "/m/02y_3rt 5",
             "value": 0.009999859109524056
         },
         {
-            "source": "plummer, christopher (Q190523) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Christopher Plummer 4",
+            "target": "cryptoxanthin 5",
             "value": 0.009999859109524056
         },
         {
-            "source": "frankie russel faison (Q943589) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Frankie Faison 4",
+            "target": "folic acid 5",
             "value": 0.003770127212178842
         },
         {
-            "source": "frankie russel faison (Q943589) 4",
+            "source": "Frankie Faison 4",
             "target": "/m/02y_3rt 5",
             "value": 0.003770127212178842
         },
         {
-            "source": "frankie russel faison (Q943589) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Frankie Faison 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003770127212178842
         },
         {
-            "source": "jim brown (football) (Q927916) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Jim Brown 4",
+            "target": "folic acid 5",
             "value": 0.0036683093681564305
         },
         {
-            "source": "jim brown (football) (Q927916) 4",
+            "source": "Jim Brown 4",
             "target": "/m/02y_3rt 5",
             "value": 0.0036683093681564305
         },
         {
-            "source": "jim brown (football) (Q927916) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Jim Brown 4",
+            "target": "cryptoxanthin 5",
             "value": 0.0036683093681564305
         },
         {
-            "source": "lapaglia, anthony (Q308124) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Anthony LaPaglia 4",
+            "target": "folic acid 5",
             "value": 0.0034869974072203602
         },
         {
-            "source": "lapaglia, anthony (Q308124) 4",
+            "source": "Anthony LaPaglia 4",
             "target": "/m/02y_3rt 5",
             "value": 0.0034869974072203602
         },
         {
-            "source": "lapaglia, anthony (Q308124) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Anthony LaPaglia 4",
+            "target": "cryptoxanthin 5",
             "value": 0.0034869974072203602
         },
         {
-            "source": "john lequizamo (Q295233) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "John Leguizamo 4",
+            "target": "folic acid 5",
             "value": 0.003418024105920847
         },
         {
-            "source": "john lequizamo (Q295233) 4",
+            "source": "John Leguizamo 4",
             "target": "/m/02y_3rt 5",
             "value": 0.003418024105920847
         },
         {
-            "source": "john lequizamo (Q295233) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "John Leguizamo 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003418024105920847
         },
         {
-            "source": "martin fitzgerald lawrence (Q183542) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Martin Lawrence 4",
+            "target": "folic acid 5",
             "value": 0.0033238383384681103
         },
         {
-            "source": "martin fitzgerald lawrence (Q183542) 4",
+            "source": "Martin Lawrence 4",
             "target": "/m/02y_3rt 5",
             "value": 0.0033238383384681103
         },
         {
-            "source": "martin fitzgerald lawrence (Q183542) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Martin Lawrence 4",
+            "target": "cryptoxanthin 5",
             "value": 0.0033238383384681103
         },
         {
-            "source": "miguel sandoval (Q935122) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Miguel Sandoval 4",
+            "target": "folic acid 5",
             "value": 0.0032802402239984207
         },
         {
-            "source": "miguel sandoval (Q935122) 4",
+            "source": "Miguel Sandoval 4",
             "target": "/m/02y_3rt 5",
             "value": 0.0032802402239984207
         },
         {
-            "source": "miguel sandoval (Q935122) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Miguel Sandoval 4",
+            "target": "cryptoxanthin 5",
             "value": 0.0032802402239984207
         },
         {
-            "source": "daniel louis aiello, jr. (Q299314) 4",
-            "target": "foliamin (Q127060) 5",
+            "source": "Danny Aiello 4",
+            "target": "folic acid 5",
             "value": 0.003205800580848739
         },
         {
-            "source": "daniel louis aiello, jr. (Q299314) 4",
+            "source": "Danny Aiello 4",
             "target": "/m/02y_3rt 5",
             "value": 0.003205800580848739
         },
         {
-            "source": "daniel louis aiello, jr. (Q299314) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "Danny Aiello 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003205800580848739
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "ann roth (Q508660) 6",
+            "source": "folic acid 5",
+            "target": "Ann Roth 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "president buchanan (Q12325) 6",
+            "source": "folic acid 5",
+            "target": "James Buchanan 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "folic acid 5",
+            "target": "Ron Paul 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "folic acid 5",
+            "target": "Lewis Cass 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "colin powell (Q150851) 6",
+            "source": "folic acid 5",
+            "target": "Colin Powell 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "irving, john (Q310379) 6",
+            "source": "folic acid 5",
+            "target": "John Irving 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
+            "source": "folic acid 5",
             "target": "/m/01xndd 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "folic acid 5",
+            "target": "Ted Kennedy 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "m friedman (Q47426) 6",
+            "source": "folic acid 5",
+            "target": "Milton Friedman 6",
             "value": 0.00999995924532504
         },
         {
-            "source": "foliamin (Q127060) 5",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "folic acid 5",
+            "target": "John Dingell, Jr. 6",
             "value": 0.00999995924532504
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "ann roth (Q508660) 6",
+            "target": "Ann Roth 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "president buchanan (Q12325) 6",
+            "target": "James Buchanan 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "target": "Ron Paul 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "cass, lewis (Q503119) 6",
+            "target": "Lewis Cass 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "colin powell (Q150851) 6",
+            "target": "Colin Powell 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "irving, john (Q310379) 6",
+            "target": "John Irving 6",
             "value": 0.009999957457185737
         },
         {
@@ -1337,67 +1337,67 @@
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "kennedy, edward (Q134549) 6",
+            "target": "Ted Kennedy 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "m friedman (Q47426) 6",
+            "target": "Milton Friedman 6",
             "value": 0.009999957457185737
         },
         {
             "source": "/m/02y_3rt 5",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "target": "John Dingell, Jr. 6",
             "value": 0.009999957457185737
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "ann roth (Q508660) 6",
+            "source": "cryptoxanthin 5",
+            "target": "Ann Roth 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "president buchanan (Q12325) 6",
+            "source": "cryptoxanthin 5",
+            "target": "James Buchanan 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "gold, peace, and prosperity (Q15257) 6",
+            "source": "cryptoxanthin 5",
+            "target": "Ron Paul 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "cass, lewis (Q503119) 6",
+            "source": "cryptoxanthin 5",
+            "target": "Lewis Cass 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "colin powell (Q150851) 6",
+            "source": "cryptoxanthin 5",
+            "target": "Colin Powell 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "irving, john (Q310379) 6",
+            "source": "cryptoxanthin 5",
+            "target": "John Irving 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
+            "source": "cryptoxanthin 5",
             "target": "/m/01xndd 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "kennedy, edward (Q134549) 6",
+            "source": "cryptoxanthin 5",
+            "target": "Ted Kennedy 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "m friedman (Q47426) 6",
+            "source": "cryptoxanthin 5",
+            "target": "Milton Friedman 6",
             "value": 0.009999956861139303
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "john david, jr. dingell (Q600393) 6",
+            "source": "cryptoxanthin 5",
+            "target": "John Dingell, Jr. 6",
             "value": 0.009999956861139303
         }
     ],
@@ -1408,7 +1408,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "usofa (Q30) 0",
+            "name": "United States of America 0",
             "url": "https://www.wikidata.org/wiki/Q30",
             "value": 1.0
         },
@@ -1418,7 +1418,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the university of san francisco (Q1887879) 1",
+            "name": "University of San Francisco 1",
             "url": "https://www.wikidata.org/wiki/Q1887879",
             "value": 0.9999994039535522
         },
@@ -1428,7 +1428,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dorothy day center for faith and justice (Q1849843) 1",
+            "name": "Xavier University 1",
             "url": "https://www.wikidata.org/wiki/Q1849843",
             "value": 0.9999988079071045
         },
@@ -1438,7 +1438,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "adelphi wildcats softball (Q4682076) 1",
+            "name": "Adelphi University 1",
             "url": "https://www.wikidata.org/wiki/Q4682076",
             "value": 0.9999986886978149
         },
@@ -1448,7 +1448,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "golan globus (Q1033465) 1",
+            "name": "The Cannon Group 1",
             "url": "https://www.wikidata.org/wiki/Q1033465",
             "value": 0.7821173071861267
         },
@@ -1467,7 +1467,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "interplay value products division (Q628249) 1",
+            "name": "Interplay Entertainment 1",
             "url": "https://www.wikidata.org/wiki/Q628249",
             "value": 0.6804508566856384
         },
@@ -1477,7 +1477,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "floyd of the jungle (Q652421) 1",
+            "name": "MicroProse 1",
             "url": "https://www.wikidata.org/wiki/Q652421",
             "value": 0.6611708402633667
         },
@@ -1487,7 +1487,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "europacorp distribution (Q1375196) 1",
+            "name": "EuropaCorp 1",
             "url": "https://www.wikidata.org/wiki/Q1375196",
             "value": 0.5957164168357849
         },
@@ -1497,7 +1497,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "origin (software company) (Q1193678) 1",
+            "name": "Origin Systems 1",
             "url": "https://www.wikidata.org/wiki/Q1193678",
             "value": 0.5859408974647522
         },
@@ -1507,7 +1507,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "wb games (Q2319420) 1",
+            "name": "Warner Bros. Interactive Entertainment 1",
             "url": "https://www.wikidata.org/wiki/Q2319420",
             "value": 0.5569342970848083
         },
@@ -1517,7 +1517,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ann roth (Q508660) 2",
+            "name": "Ann Roth 2",
             "url": "https://www.wikidata.org/wiki/Q508660",
             "value": 0.9976206421852112
         },
@@ -1527,7 +1527,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bruce berman (Q4977147) 2",
+            "name": "Bruce Berman 2",
             "url": "https://www.wikidata.org/wiki/Q4977147",
             "value": 0.9973093271255493
         },
@@ -1537,7 +1537,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the doorway (film) (Q318292) 2",
+            "name": "Roger Corman 2",
             "url": "https://www.wikidata.org/wiki/Q318292",
             "value": 0.9970730543136597
         },
@@ -1547,7 +1547,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "cass, lewis (Q503119) 2",
+            "name": "Lewis Cass 2",
             "url": "https://www.wikidata.org/wiki/Q503119",
             "value": 0.43363434076309204
         },
@@ -1557,7 +1557,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "irving, john (Q310379) 2",
+            "name": "John Irving 2",
             "url": "https://www.wikidata.org/wiki/Q310379",
             "value": 0.4127991795539856
         },
@@ -1567,7 +1567,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "colin powell (Q150851) 2",
+            "name": "Colin Powell 2",
             "url": "https://www.wikidata.org/wiki/Q150851",
             "value": 0.40797123312950134
         },
@@ -1577,7 +1577,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "m friedman (Q47426) 2",
+            "name": "Milton Friedman 2",
             "url": "https://www.wikidata.org/wiki/Q47426",
             "value": 0.40542569756507874
         },
@@ -1587,7 +1587,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "rob gates (Q212979) 2",
+            "name": "Robert Gates 2",
             "url": "https://www.wikidata.org/wiki/Q212979",
             "value": 0.3967260718345642
         },
@@ -1597,7 +1597,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "eugene luther vidal, jr (Q167821) 2",
+            "name": "Gore Vidal 2",
             "url": "https://www.wikidata.org/wiki/Q167821",
             "value": 0.39030730724334717
         },
@@ -1616,7 +1616,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "malcolm x (1992 movie) (Q923925) 3",
+            "name": "Malcolm X 3",
             "url": "https://www.wikidata.org/wiki/Q923925",
             "value": 1.0
         },
@@ -1626,7 +1626,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "nelson rolihlahla mandela (Q8023) 4",
+            "name": "Nelson Mandela 4",
             "url": "https://www.wikidata.org/wiki/Q8023",
             "value": 0.9999951124191284
         },
@@ -1636,7 +1636,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "angela bassett (Q232120) 4",
+            "name": "Angela Bassett 4",
             "url": "https://www.wikidata.org/wiki/Q232120",
             "value": 0.9999949932098389
         },
@@ -1646,7 +1646,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "plummer, christopher (Q190523) 4",
+            "name": "Christopher Plummer 4",
             "url": "https://www.wikidata.org/wiki/Q190523",
             "value": 0.999985933303833
         },
@@ -1656,7 +1656,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "frankie russel faison (Q943589) 4",
+            "name": "Frankie Faison 4",
             "url": "https://www.wikidata.org/wiki/Q943589",
             "value": 0.3770127296447754
         },
@@ -1666,7 +1666,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "jim brown (football) (Q927916) 4",
+            "name": "Jim Brown 4",
             "url": "https://www.wikidata.org/wiki/Q927916",
             "value": 0.3668309450149536
         },
@@ -1676,7 +1676,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lapaglia, anthony (Q308124) 4",
+            "name": "Anthony LaPaglia 4",
             "url": "https://www.wikidata.org/wiki/Q308124",
             "value": 0.34869974851608276
         },
@@ -1686,7 +1686,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "john lequizamo (Q295233) 4",
+            "name": "John Leguizamo 4",
             "url": "https://www.wikidata.org/wiki/Q295233",
             "value": 0.3418024182319641
         },
@@ -1696,7 +1696,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "martin fitzgerald lawrence (Q183542) 4",
+            "name": "Martin Lawrence 4",
             "url": "https://www.wikidata.org/wiki/Q183542",
             "value": 0.3323838412761688
         },
@@ -1706,7 +1706,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "miguel sandoval (Q935122) 4",
+            "name": "Miguel Sandoval 4",
             "url": "https://www.wikidata.org/wiki/Q935122",
             "value": 0.3280240297317505
         },
@@ -1716,7 +1716,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "daniel louis aiello, jr. (Q299314) 4",
+            "name": "Danny Aiello 4",
             "url": "https://www.wikidata.org/wiki/Q299314",
             "value": 0.32058006525039673
         },
@@ -1726,7 +1726,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "foliamin (Q127060) 5",
+            "name": "folic acid 5",
             "url": "https://www.wikidata.org/wiki/Q127060",
             "value": 0.9999959468841553
         },
@@ -1745,7 +1745,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "kryptoxanthin (Q392062) 5",
+            "name": "cryptoxanthin 5",
             "url": "https://www.wikidata.org/wiki/Q392062",
             "value": 0.9999957084655762
         },
@@ -1755,7 +1755,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ann roth (Q508660) 6",
+            "name": "Ann Roth 6",
             "url": "https://www.wikidata.org/wiki/Q508660",
             "value": 0.9895287156105042
         },
@@ -1765,7 +1765,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "president buchanan (Q12325) 6",
+            "name": "James Buchanan 6",
             "url": "https://www.wikidata.org/wiki/Q12325",
             "value": 0.9880992770195007
         },
@@ -1775,7 +1775,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "gold, peace, and prosperity (Q15257) 6",
+            "name": "Ron Paul 6",
             "url": "https://www.wikidata.org/wiki/Q15257",
             "value": 0.9836210012435913
         },
@@ -1785,7 +1785,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "cass, lewis (Q503119) 6",
+            "name": "Lewis Cass 6",
             "url": "https://www.wikidata.org/wiki/Q503119",
             "value": 0.43099239468574524
         },
@@ -1795,7 +1795,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "colin powell (Q150851) 6",
+            "name": "Colin Powell 6",
             "url": "https://www.wikidata.org/wiki/Q150851",
             "value": 0.3807157278060913
         },
@@ -1805,7 +1805,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "irving, john (Q310379) 6",
+            "name": "John Irving 6",
             "url": "https://www.wikidata.org/wiki/Q310379",
             "value": 0.36702200770378113
         },
@@ -1824,7 +1824,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kennedy, edward (Q134549) 6",
+            "name": "Ted Kennedy 6",
             "url": "https://www.wikidata.org/wiki/Q134549",
             "value": 0.3619244694709778
         },
@@ -1834,7 +1834,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "m friedman (Q47426) 6",
+            "name": "Milton Friedman 6",
             "url": "https://www.wikidata.org/wiki/Q47426",
             "value": 0.3601963520050049
         },
@@ -1844,7 +1844,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "john david, jr. dingell (Q600393) 6",
+            "name": "John Dingell, Jr. 6",
             "url": "https://www.wikidata.org/wiki/Q600393",
             "value": 0.35980018973350525
         }

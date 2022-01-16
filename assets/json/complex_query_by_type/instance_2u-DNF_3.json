@@ -1,23 +1,23 @@
 {
     "edges": [
         {
-            "source": "state of berlin (Q64) 0 [rank = 1]",
-            "target": "the livesof others (Q153882) 1 [rank = 1]",
+            "source": "Berlin 0 [rank = 1]",
+            "target": "The Lives of Others 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "the livesof others (Q153882) 1 [rank = 1]",
-            "target": "breaking and entering (film) (Q241391) 4 [rank = 58]",
+            "source": "The Lives of Others 1 [rank = 1]",
+            "target": "Breaking and Entering 4 [rank = 58]",
             "value": 0.5
         },
         {
-            "source": "gabriel yared (Q502957) 2 [rank = 1]",
-            "target": "breaking and entering (film) (Q241391) 3 [rank = 7]",
+            "source": "Gabriel Yared 2 [rank = 1]",
+            "target": "Breaking and Entering 3 [rank = 7]",
             "value": 0.5
         },
         {
-            "source": "breaking and entering (film) (Q241391) 3 [rank = 7]",
-            "target": "breaking and entering (film) (Q241391) 4 [rank = 58]",
+            "source": "Breaking and Entering 3 [rank = 7]",
+            "target": "Breaking and Entering 4 [rank = 58]",
             "value": 0.5
         }
     ],
@@ -28,7 +28,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "state of berlin (Q64) 0 [rank = 1]",
+            "name": "Berlin 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q64",
             "value": 1
         },
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the livesof others (Q153882) 1 [rank = 1]",
+            "name": "The Lives of Others 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q153882",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "gabriel yared (Q502957) 2 [rank = 1]",
+            "name": "Gabriel Yared 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q502957",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "breaking and entering (film) (Q241391) 3 [rank = 7]",
+            "name": "Breaking and Entering 3 [rank = 7]",
             "url": "https://www.wikidata.org/wiki/Q241391",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "breaking and entering (film) (Q241391) 4 [rank = 58]",
+            "name": "Breaking and Entering 4 [rank = 58]",
             "url": "https://www.wikidata.org/wiki/Q241391",
             "value": 1
         }

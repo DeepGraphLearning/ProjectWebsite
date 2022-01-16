@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "department of housing and urban development (Q811595) 0 [rank = 1]",
-            "target": "anderson, s.c. (Q1150893) 1 [rank = 1]",
+            "source": "United States Department of Housing and Urban Development 0 [rank = 1]",
+            "target": "Anderson 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "anderson, s.c. (Q1150893) 1 [rank = 1]",
-            "target": "anderson, s.c. (Q1150893) 5 [rank = 8]",
+            "source": "Anderson 1 [rank = 1]",
+            "target": "Anderson 5 [rank = 8]",
             "value": 0.5
         },
         {
-            "source": "allison brooks janney (Q229487) 2 [rank = 1]",
-            "target": "ohio dayton (Q34739) 3 [rank = 8]",
+            "source": "Allison Janney 2 [rank = 1]",
+            "target": "Dayton 3 [rank = 8]",
             "value": 0.5
         },
         {
-            "source": "ohio dayton (Q34739) 3 [rank = 8]",
-            "target": "anderson, s.c. (Q1150893) 4 [rank = 1]",
+            "source": "Dayton 3 [rank = 8]",
+            "target": "Anderson 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "anderson, s.c. (Q1150893) 4 [rank = 1]",
-            "target": "anderson, s.c. (Q1150893) 5 [rank = 8]",
+            "source": "Anderson 4 [rank = 1]",
+            "target": "Anderson 5 [rank = 8]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "department of housing and urban development (Q811595) 0 [rank = 1]",
+            "name": "United States Department of Housing and Urban Development 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q811595",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "anderson, s.c. (Q1150893) 1 [rank = 1]",
+            "name": "Anderson 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1150893",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "allison brooks janney (Q229487) 2 [rank = 1]",
+            "name": "Allison Janney 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q229487",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "ohio dayton (Q34739) 3 [rank = 8]",
+            "name": "Dayton 3 [rank = 8]",
             "url": "https://www.wikidata.org/wiki/Q34739",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "anderson, s.c. (Q1150893) 4 [rank = 1]",
+            "name": "Anderson 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1150893",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "anderson, s.c. (Q1150893) 5 [rank = 8]",
+            "name": "Anderson 5 [rank = 8]",
             "url": "https://www.wikidata.org/wiki/Q1150893",
             "value": 1
         }

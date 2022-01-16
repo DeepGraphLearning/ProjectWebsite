@@ -1,43 +1,43 @@
 {
     "edges": [
         {
-            "source": "right winger (football) (Q193592) 0 [rank = 1]",
-            "target": "wimbledon f.c. (Q19482) 1 [rank = 130]",
+            "source": "midfielder 0 [rank = 1]",
+            "target": "Wimbledon F.C. 1 [rank = 130]",
             "value": 0.5
         },
         {
-            "source": "wimbledon f.c. (Q19482) 1 [rank = 130]",
-            "target": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "source": "Wimbledon F.C. 1 [rank = 130]",
+            "target": "Wimbledon F.C. 4 [rank = 202]",
             "value": 0.5
         },
         {
             "source": "/m/0dgrmp 2 [rank = 1]",
-            "target": "wimbledon f.c. (Q19482) 3 [rank = 1]",
+            "target": "Wimbledon F.C. 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "wimbledon f.c. (Q19482) 3 [rank = 1]",
-            "target": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "source": "Wimbledon F.C. 3 [rank = 1]",
+            "target": "Wimbledon F.C. 4 [rank = 202]",
             "value": 0.5
         },
         {
-            "source": "wimbledon f.c. (Q19482) 4 [rank = 202]",
-            "target": "wimbledon f.c. (Q19482) 8 [rank = 128]",
+            "source": "Wimbledon F.C. 4 [rank = 202]",
+            "target": "Wimbledon F.C. 8 [rank = 128]",
             "value": 0.5
         },
         {
-            "source": "f\u00fatbol (Q2736) 5 [rank = 1]",
-            "target": "pfc cska moscow (Q176371) 6 [rank = 1]",
+            "source": "association football 5 [rank = 1]",
+            "target": "PFC CSKA Moscow 6 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "pfc cska moscow (Q176371) 6 [rank = 1]",
-            "target": "wimbledon f.c. (Q19482) 7 [rank = 3]",
+            "source": "PFC CSKA Moscow 6 [rank = 1]",
+            "target": "Wimbledon F.C. 7 [rank = 3]",
             "value": 0.5
         },
         {
-            "source": "wimbledon f.c. (Q19482) 7 [rank = 3]",
-            "target": "wimbledon f.c. (Q19482) 8 [rank = 128]",
+            "source": "Wimbledon F.C. 7 [rank = 3]",
+            "target": "Wimbledon F.C. 8 [rank = 128]",
             "value": 0.5
         }
     ],
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "right winger (football) (Q193592) 0 [rank = 1]",
+            "name": "midfielder 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q193592",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "wimbledon f.c. (Q19482) 1 [rank = 130]",
+            "name": "Wimbledon F.C. 1 [rank = 130]",
             "url": "https://www.wikidata.org/wiki/Q19482",
             "value": 1
         },
@@ -77,7 +77,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "wimbledon f.c. (Q19482) 3 [rank = 1]",
+            "name": "Wimbledon F.C. 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q19482",
             "value": 1
         },
@@ -87,7 +87,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "wimbledon f.c. (Q19482) 4 [rank = 202]",
+            "name": "Wimbledon F.C. 4 [rank = 202]",
             "url": "https://www.wikidata.org/wiki/Q19482",
             "value": 1
         },
@@ -97,7 +97,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "f\u00fatbol (Q2736) 5 [rank = 1]",
+            "name": "association football 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2736",
             "value": 1
         },
@@ -107,7 +107,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "pfc cska moscow (Q176371) 6 [rank = 1]",
+            "name": "PFC CSKA Moscow 6 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q176371",
             "value": 1
         },
@@ -117,7 +117,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "wimbledon f.c. (Q19482) 7 [rank = 3]",
+            "name": "Wimbledon F.C. 7 [rank = 3]",
             "url": "https://www.wikidata.org/wiki/Q19482",
             "value": 1
         },
@@ -127,7 +127,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "wimbledon f.c. (Q19482) 8 [rank = 128]",
+            "name": "Wimbledon F.C. 8 [rank = 128]",
             "url": "https://www.wikidata.org/wiki/Q19482",
             "value": 1
         }

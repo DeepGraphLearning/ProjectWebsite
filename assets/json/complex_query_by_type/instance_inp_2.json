@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "mcgill athletics (Q201492) 0 [rank = 1]",
-            "target": "phsycology (Q9418) 1 [rank = 1]",
+            "source": "McGill University 0 [rank = 1]",
+            "target": "psychology 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "phsycology (Q9418) 1 [rank = 1]",
-            "target": "phsycology (Q9418) 5 [rank = 1]",
+            "source": "psychology 1 [rank = 1]",
+            "target": "psychology 5 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "footer albums nico (Q44634) 2 [rank = 1]",
-            "target": "english vernacular (Q1860) 3 [rank = 1]",
+            "source": "Nico 2 [rank = 1]",
+            "target": "English 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "english vernacular (Q1860) 3 [rank = 1]",
-            "target": "phsycology (Q9418) 4 [rank = 1]",
+            "source": "English 3 [rank = 1]",
+            "target": "psychology 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "phsycology (Q9418) 4 [rank = 1]",
-            "target": "phsycology (Q9418) 5 [rank = 1]",
+            "source": "psychology 4 [rank = 1]",
+            "target": "psychology 5 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "phsycology (Q9418) 5 [rank = 1]",
-            "target": "technology of photography (Q11633) 6 [rank = 43]",
+            "source": "psychology 5 [rank = 1]",
+            "target": "photography 6 [rank = 43]",
             "value": 0.5
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "mcgill athletics (Q201492) 0 [rank = 1]",
+            "name": "McGill University 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q201492",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "phsycology (Q9418) 1 [rank = 1]",
+            "name": "psychology 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q9418",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "footer albums nico (Q44634) 2 [rank = 1]",
+            "name": "Nico 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q44634",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "english vernacular (Q1860) 3 [rank = 1]",
+            "name": "English 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1860",
             "value": 1
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "phsycology (Q9418) 4 [rank = 1]",
+            "name": "psychology 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q9418",
             "value": 1
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "phsycology (Q9418) 5 [rank = 1]",
+            "name": "psychology 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q9418",
             "value": 1
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "technology of photography (Q11633) 6 [rank = 43]",
+            "name": "photography 6 [rank = 43]",
             "url": "https://www.wikidata.org/wiki/Q11633",
             "value": 1
         }

@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "bonds of matrimony (Q8445) 0 [rank = 1]",
-            "target": "la la land (Q65) 1 [rank = 1]",
+            "source": "marriage 0 [rank = 1]",
+            "target": "Los Angeles 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "la la land (Q65) 1 [rank = 1]",
-            "target": "la la land (Q65) 4 [rank = 1]",
+            "source": "Los Angeles 1 [rank = 1]",
+            "target": "Los Angeles 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "rojiblancos (Q642433) 2 [rank = 1]",
-            "target": "la la land (Q65) 3 [rank = 1]",
+            "source": "C.D. Chivas USA 2 [rank = 1]",
+            "target": "Los Angeles 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "la la land (Q65) 3 [rank = 1]",
-            "target": "la la land (Q65) 4 [rank = 1]",
+            "source": "Los Angeles 3 [rank = 1]",
+            "target": "Los Angeles 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "la la land (Q65) 4 [rank = 1]",
-            "target": "not wanted (Q148669) 5 [rank = 15]",
+            "source": "Los Angeles 4 [rank = 1]",
+            "target": "Ida Lupino 5 [rank = 15]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bonds of matrimony (Q8445) 0 [rank = 1]",
+            "name": "marriage 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q8445",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "la la land (Q65) 1 [rank = 1]",
+            "name": "Los Angeles 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q65",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rojiblancos (Q642433) 2 [rank = 1]",
+            "name": "C.D. Chivas USA 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q642433",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "la la land (Q65) 3 [rank = 1]",
+            "name": "Los Angeles 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q65",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "la la land (Q65) 4 [rank = 1]",
+            "name": "Los Angeles 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q65",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "not wanted (Q148669) 5 [rank = 15]",
+            "name": "Ida Lupino 5 [rank = 15]",
             "url": "https://www.wikidata.org/wiki/Q148669",
             "value": 1
         }

@@ -1,8 +1,8 @@
 {
     "edges": [
         {
-            "source": "mattel (Q596139) 0 [rank = 1]",
-            "target": "franska (Q150) 1 [rank = 3]",
+            "source": "Mattel 0 [rank = 1]",
+            "target": "French 1 [rank = 3]",
             "value": 0.5
         }
     ],
@@ -13,7 +13,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "mattel (Q596139) 0 [rank = 1]",
+            "name": "Mattel 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q596139",
             "value": 1
         },
@@ -23,7 +23,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "franska (Q150) 1 [rank = 3]",
+            "name": "French 1 [rank = 3]",
             "url": "https://www.wikidata.org/wiki/Q150",
             "value": 1
         }

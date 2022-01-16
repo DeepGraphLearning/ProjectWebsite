@@ -2,22 +2,22 @@
     "edges": [
         {
             "source": "/m/08mbj5d 0 [rank = 1]",
-            "target": "city of fort worth (Q16558) 1 [rank = 35]",
+            "target": "Fort Worth 1 [rank = 35]",
             "value": 0.5
         },
         {
-            "source": "city of fort worth (Q16558) 1 [rank = 35]",
-            "target": "city of fort worth (Q16558) 4 [rank = 2]",
+            "source": "Fort Worth 1 [rank = 35]",
+            "target": "Fort Worth 4 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "religion in texas (Q1439) 2 [rank = 1]",
-            "target": "city of fort worth (Q16558) 3 [rank = 1]",
+            "source": "Texas 2 [rank = 1]",
+            "target": "Fort Worth 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "city of fort worth (Q16558) 3 [rank = 1]",
-            "target": "city of fort worth (Q16558) 4 [rank = 2]",
+            "source": "Fort Worth 3 [rank = 1]",
+            "target": "Fort Worth 4 [rank = 2]",
             "value": 0.5
         }
     ],
@@ -37,7 +37,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "city of fort worth (Q16558) 1 [rank = 35]",
+            "name": "Fort Worth 1 [rank = 35]",
             "url": "https://www.wikidata.org/wiki/Q16558",
             "value": 1
         },
@@ -47,7 +47,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "religion in texas (Q1439) 2 [rank = 1]",
+            "name": "Texas 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1439",
             "value": 1
         },
@@ -57,7 +57,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "city of fort worth (Q16558) 3 [rank = 1]",
+            "name": "Fort Worth 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q16558",
             "value": 1
         },
@@ -67,7 +67,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "city of fort worth (Q16558) 4 [rank = 2]",
+            "name": "Fort Worth 4 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q16558",
             "value": 1
         }

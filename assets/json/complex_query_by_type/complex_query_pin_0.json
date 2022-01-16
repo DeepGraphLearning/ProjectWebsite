@@ -1,1403 +1,1403 @@
 {
     "edges": [
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "indust rock (Q968730) 1",
+            "source": "The Prodigy 0",
+            "target": "industrial rock 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "acoustic rap (Q438503) 1",
+            "source": "The Prodigy 0",
+            "target": "alternative hip hop 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "disco punk (Q1643549) 1",
+            "source": "The Prodigy 0",
+            "target": "dance-punk 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "experimental techno (Q170611) 1",
+            "source": "The Prodigy 0",
+            "target": "techno 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "breakbeat-footer (Q663519) 1",
+            "source": "The Prodigy 0",
+            "target": "breakbeat 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "intelligent dance (Q660984) 1",
+            "source": "The Prodigy 0",
+            "target": "intelligent dance music 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "progressive trance (Q170435) 1",
+            "source": "The Prodigy 0",
+            "target": "trance 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "electronic body music (Q372103) 1",
+            "source": "The Prodigy 0",
+            "target": "electronic body music 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "noise music (Q726239) 1",
+            "source": "The Prodigy 0",
+            "target": "noise music 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "theprodigy (Q7256860) 0",
-            "target": "alternative grunge (Q379671) 1",
+            "source": "The Prodigy 0",
+            "target": "post-grunge 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "industrial rock 1",
+            "target": "jazz 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "industrial rock 1",
+            "target": "hip hop music 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "industrial rock 1",
+            "target": "hard rock 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "industrial rock 1",
+            "target": "synth-pop 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "industrial rock 1",
+            "target": "pop music 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "industrial rock 1",
+            "target": "soul music 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "industrial rock 1",
+            "target": "psychedelic rock 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "industrial rock 1",
+            "target": "pop rock 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "industrial rock 1",
+            "target": "house music 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "indust rock (Q968730) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "industrial rock 1",
+            "target": "progressive rock 2",
             "value": 0.009999995008111107
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "alternative hip hop 1",
+            "target": "jazz 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "alternative hip hop 1",
+            "target": "hip hop music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "alternative hip hop 1",
+            "target": "hard rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "alternative hip hop 1",
+            "target": "synth-pop 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "alternative hip hop 1",
+            "target": "pop music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "alternative hip hop 1",
+            "target": "soul music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "alternative hip hop 1",
+            "target": "psychedelic rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "alternative hip hop 1",
+            "target": "pop rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "alternative hip hop 1",
+            "target": "house music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "acoustic rap (Q438503) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "alternative hip hop 1",
+            "target": "progressive rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "dance-punk 1",
+            "target": "jazz 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "dance-punk 1",
+            "target": "hip hop music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "dance-punk 1",
+            "target": "hard rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "dance-punk 1",
+            "target": "synth-pop 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "dance-punk 1",
+            "target": "pop music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "dance-punk 1",
+            "target": "soul music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "dance-punk 1",
+            "target": "psychedelic rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "dance-punk 1",
+            "target": "pop rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "dance-punk 1",
+            "target": "house music 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "disco punk (Q1643549) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "dance-punk 1",
+            "target": "progressive rock 2",
             "value": 0.009999993816018238
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "techno 1",
+            "target": "jazz 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "techno 1",
+            "target": "hip hop music 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "techno 1",
+            "target": "hard rock 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "techno 1",
+            "target": "synth-pop 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "techno 1",
+            "target": "pop music 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "techno 1",
+            "target": "soul music 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "techno 1",
+            "target": "psychedelic rock 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "techno 1",
+            "target": "pop rock 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "techno 1",
+            "target": "house music 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "experimental techno (Q170611) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "techno 1",
+            "target": "progressive rock 2",
             "value": 0.004623872832420328
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "breakbeat 1",
+            "target": "jazz 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "breakbeat 1",
+            "target": "hip hop music 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "breakbeat 1",
+            "target": "hard rock 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "breakbeat 1",
+            "target": "synth-pop 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "breakbeat 1",
+            "target": "pop music 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "breakbeat 1",
+            "target": "soul music 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "breakbeat 1",
+            "target": "psychedelic rock 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "breakbeat 1",
+            "target": "pop rock 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "breakbeat 1",
+            "target": "house music 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "breakbeat-footer (Q663519) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "breakbeat 1",
+            "target": "progressive rock 2",
             "value": 0.00435384353204421
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "intelligent dance music 1",
+            "target": "jazz 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "intelligent dance music 1",
+            "target": "hip hop music 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "intelligent dance music 1",
+            "target": "hard rock 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "intelligent dance music 1",
+            "target": "synth-pop 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "intelligent dance music 1",
+            "target": "pop music 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "intelligent dance music 1",
+            "target": "soul music 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "intelligent dance music 1",
+            "target": "psychedelic rock 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "intelligent dance music 1",
+            "target": "pop rock 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "intelligent dance music 1",
+            "target": "house music 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "intelligent dance (Q660984) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "intelligent dance music 1",
+            "target": "progressive rock 2",
             "value": 0.004329127572570868
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "trance 1",
+            "target": "jazz 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "trance 1",
+            "target": "hip hop music 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "trance 1",
+            "target": "hard rock 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "trance 1",
+            "target": "synth-pop 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "trance 1",
+            "target": "pop music 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "trance 1",
+            "target": "soul music 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "trance 1",
+            "target": "psychedelic rock 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "trance 1",
+            "target": "pop rock 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "trance 1",
+            "target": "house music 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "progressive trance (Q170435) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "trance 1",
+            "target": "progressive rock 2",
             "value": 0.004322172902773924
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "electronic body music 1",
+            "target": "jazz 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "electronic body music 1",
+            "target": "hip hop music 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "electronic body music 1",
+            "target": "hard rock 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "electronic body music 1",
+            "target": "synth-pop 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "electronic body music 1",
+            "target": "pop music 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "electronic body music 1",
+            "target": "soul music 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "electronic body music 1",
+            "target": "psychedelic rock 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "electronic body music 1",
+            "target": "pop rock 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "electronic body music 1",
+            "target": "house music 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "electronic body music (Q372103) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "electronic body music 1",
+            "target": "progressive rock 2",
             "value": 0.004241388345329722
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "noise music 1",
+            "target": "jazz 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "noise music 1",
+            "target": "hip hop music 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "noise music 1",
+            "target": "hard rock 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "noise music 1",
+            "target": "synth-pop 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "noise music 1",
+            "target": "pop music 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "noise music 1",
+            "target": "soul music 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "noise music 1",
+            "target": "psychedelic rock 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "noise music 1",
+            "target": "pop rock 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "noise music 1",
+            "target": "house music 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "noise music (Q726239) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "noise music 1",
+            "target": "progressive rock 2",
             "value": 0.004118107465249876
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "jazz music (Q8341) 2",
+            "source": "post-grunge 1",
+            "target": "jazz 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "list of hip hop mcs (Q11401) 2",
+            "source": "post-grunge 1",
+            "target": "hip hop music 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "1990s hard rock (Q83270) 2",
+            "source": "post-grunge 1",
+            "target": "hard rock 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "1970s synthpop (Q1298934) 2",
+            "source": "post-grunge 1",
+            "target": "synth-pop 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "pop song (Q37073) 2",
+            "source": "post-grunge 1",
+            "target": "pop music 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "soul (musical genre) (Q131272) 2",
+            "source": "post-grunge 1",
+            "target": "soul music 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "psychedelia (rock) (Q206159) 2",
+            "source": "post-grunge 1",
+            "target": "psychedelic rock 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "pop rock (Q484641) 2",
+            "source": "post-grunge 1",
+            "target": "pop rock 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "1990s house music (Q20502) 2",
+            "source": "post-grunge 1",
+            "target": "house music 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "alternative grunge (Q379671) 1",
-            "target": "progressive rock'n'roll (Q49451) 2",
+            "source": "post-grunge 1",
+            "target": "progressive rock 2",
             "value": 0.004110632744938891
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "jazz 2",
+            "target": "hard rock 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "jazz 2",
+            "target": "heavy metal 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "jazz 2",
+            "target": "rock music 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "jazz 2",
+            "target": "synth-pop 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "jazz 2",
+            "target": "pop rock 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "jazz 2",
+            "target": "pop music 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "jazz 2",
+            "target": "blues 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "jazz 2",
+            "target": "folk music 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "jazz 2",
+            "target": "experimental rock 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "jazz music (Q8341) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "jazz 2",
+            "target": "progressive rock 6",
             "value": 0.009914834873791745
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "hip hop music 2",
+            "target": "hard rock 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "hip hop music 2",
+            "target": "heavy metal 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "hip hop music 2",
+            "target": "rock music 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "hip hop music 2",
+            "target": "synth-pop 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "hip hop music 2",
+            "target": "pop rock 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "hip hop music 2",
+            "target": "pop music 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "hip hop music 2",
+            "target": "blues 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "hip hop music 2",
+            "target": "folk music 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "hip hop music 2",
+            "target": "experimental rock 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "list of hip hop mcs (Q11401) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "hip hop music 2",
+            "target": "progressive rock 6",
             "value": 0.009907616751470782
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "hard rock 2",
+            "target": "hard rock 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "hard rock 2",
+            "target": "heavy metal 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "hard rock 2",
+            "target": "rock music 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "hard rock 2",
+            "target": "synth-pop 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "hard rock 2",
+            "target": "pop rock 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "hard rock 2",
+            "target": "pop music 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "hard rock 2",
+            "target": "blues 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "hard rock 2",
+            "target": "folk music 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "hard rock 2",
+            "target": "experimental rock 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1990s hard rock (Q83270) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "hard rock 2",
+            "target": "progressive rock 6",
             "value": 0.009895386474682688
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "synth-pop 2",
+            "target": "hard rock 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "synth-pop 2",
+            "target": "heavy metal 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "synth-pop 2",
+            "target": "rock music 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "synth-pop 2",
+            "target": "synth-pop 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "synth-pop 2",
+            "target": "pop rock 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "synth-pop 2",
+            "target": "pop music 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "synth-pop 2",
+            "target": "blues 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "synth-pop 2",
+            "target": "folk music 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "synth-pop 2",
+            "target": "experimental rock 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "1970s synthpop (Q1298934) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "synth-pop 2",
+            "target": "progressive rock 6",
             "value": 0.003882020327105662
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "pop music 2",
+            "target": "hard rock 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "pop music 2",
+            "target": "heavy metal 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "pop music 2",
+            "target": "rock music 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "pop music 2",
+            "target": "synth-pop 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "pop music 2",
+            "target": "pop rock 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "pop music 2",
+            "target": "pop music 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "pop music 2",
+            "target": "blues 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "pop music 2",
+            "target": "folk music 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "pop music 2",
+            "target": "experimental rock 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "pop song (Q37073) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "pop music 2",
+            "target": "progressive rock 6",
             "value": 0.0036889799604792883
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "soul music 2",
+            "target": "hard rock 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "soul music 2",
+            "target": "heavy metal 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "soul music 2",
+            "target": "rock music 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "soul music 2",
+            "target": "synth-pop 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "soul music 2",
+            "target": "pop rock 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "soul music 2",
+            "target": "pop music 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "soul music 2",
+            "target": "blues 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "soul music 2",
+            "target": "folk music 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "soul music 2",
+            "target": "experimental rock 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "soul (musical genre) (Q131272) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "soul music 2",
+            "target": "progressive rock 6",
             "value": 0.003607730784839447
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "psychedelic rock 2",
+            "target": "hard rock 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "psychedelic rock 2",
+            "target": "heavy metal 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "psychedelic rock 2",
+            "target": "rock music 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "psychedelic rock 2",
+            "target": "synth-pop 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "psychedelic rock 2",
+            "target": "pop rock 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "psychedelic rock 2",
+            "target": "pop music 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "psychedelic rock 2",
+            "target": "blues 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "psychedelic rock 2",
+            "target": "folk music 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "psychedelic rock 2",
+            "target": "experimental rock 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "psychedelia (rock) (Q206159) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "psychedelic rock 2",
+            "target": "progressive rock 6",
             "value": 0.0036016952186443962
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "pop rock 2",
+            "target": "hard rock 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "pop rock 2",
+            "target": "heavy metal 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "pop rock 2",
+            "target": "rock music 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "pop rock 2",
+            "target": "synth-pop 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "pop rock 2",
+            "target": "pop rock 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "pop rock 2",
+            "target": "pop music 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "pop rock 2",
+            "target": "blues 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "pop rock 2",
+            "target": "folk music 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "pop rock 2",
+            "target": "experimental rock 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "pop rock (Q484641) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "pop rock 2",
+            "target": "progressive rock 6",
             "value": 0.003561462084320288
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "house music 2",
+            "target": "hard rock 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "house music 2",
+            "target": "heavy metal 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "house music 2",
+            "target": "rock music 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "house music 2",
+            "target": "synth-pop 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "house music 2",
+            "target": "pop rock 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "house music 2",
+            "target": "pop music 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "house music 2",
+            "target": "blues 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "house music 2",
+            "target": "folk music 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "house music 2",
+            "target": "experimental rock 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "1990s house music (Q20502) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "house music 2",
+            "target": "progressive rock 6",
             "value": 0.003555754939710609
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "progressive rock 2",
+            "target": "hard rock 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "true metal (Q38848) 6",
+            "source": "progressive rock 2",
+            "target": "heavy metal 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "rock (music) (Q11399) 6",
+            "source": "progressive rock 2",
+            "target": "rock music 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "progressive rock 2",
+            "target": "synth-pop 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "pop rock (Q484641) 6",
+            "source": "progressive rock 2",
+            "target": "pop rock 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "pop song (Q37073) 6",
+            "source": "progressive rock 2",
+            "target": "pop music 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "urban blues (Q9759) 6",
+            "source": "progressive rock 2",
+            "target": "blues 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "folk music (Q43343) 6",
+            "source": "progressive rock 2",
+            "target": "folk music 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "avant rock (Q1641839) 6",
+            "source": "progressive rock 2",
+            "target": "experimental rock 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "progressive rock'n'roll (Q49451) 2",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "progressive rock 2",
+            "target": "progressive rock 6",
             "value": 0.003515297393903938
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "dub reggae (Q212688) 4",
+            "source": "drum and bass 3",
+            "target": "dub music 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "jazz music (Q8341) 4",
+            "source": "drum and bass 3",
+            "target": "jazz 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "proto-ambient (Q193207) 4",
+            "source": "drum and bass 3",
+            "target": "ambient music 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "electronica (Q817138) 4",
+            "source": "drum and bass 3",
+            "target": "electronica 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "big-beat (Q858579) 4",
+            "source": "drum and bass 3",
+            "target": "big beat 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "ambient industrial (Q756956) 4",
+            "source": "drum and bass 3",
+            "target": "dark ambient 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "disco punk (Q1643549) 4",
+            "source": "drum and bass 3",
+            "target": "dance-punk 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "clicks n cuts (Q1100989) 4",
+            "source": "drum and bass 3",
+            "target": "glitch 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "progressive trance (Q170435) 4",
+            "source": "drum and bass 3",
+            "target": "trance 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "fulldress drum and bass (Q188994) 3",
-            "target": "indie landfill (Q183504) 4",
+            "source": "drum and bass 3",
+            "target": "indie rock 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "dub reggae (Q212688) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "dub music 4",
+            "target": "democracy 5",
             "value": 0.00999998070299668
         },
         {
-            "source": "dub reggae (Q212688) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "dub music 4",
+            "target": "cryptoxanthin 5",
             "value": 0.00999998070299668
         },
         {
-            "source": "dub reggae (Q212688) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "dub music 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.00999998070299668
         },
         {
-            "source": "jazz music (Q8341) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "jazz 4",
+            "target": "democracy 5",
             "value": 0.009999946132303483
         },
         {
-            "source": "jazz music (Q8341) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "jazz 4",
+            "target": "cryptoxanthin 5",
             "value": 0.009999946132303483
         },
         {
-            "source": "jazz music (Q8341) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "jazz 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.009999946132303483
         },
         {
-            "source": "proto-ambient (Q193207) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "ambient music 4",
+            "target": "democracy 5",
             "value": 0.009999941363932008
         },
         {
-            "source": "proto-ambient (Q193207) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "ambient music 4",
+            "target": "cryptoxanthin 5",
             "value": 0.009999941363932008
         },
         {
-            "source": "proto-ambient (Q193207) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "ambient music 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.009999941363932008
         },
         {
-            "source": "electronica (Q817138) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "electronica 4",
+            "target": "democracy 5",
             "value": 0.003911442967248491
         },
         {
-            "source": "electronica (Q817138) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "electronica 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003911442967248491
         },
         {
-            "source": "electronica (Q817138) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "electronica 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.003911442967248491
         },
         {
-            "source": "big-beat (Q858579) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "big beat 4",
+            "target": "democracy 5",
             "value": 0.003666516162458444
         },
         {
-            "source": "big-beat (Q858579) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "big beat 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003666516162458444
         },
         {
-            "source": "big-beat (Q858579) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "big beat 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.003666516162458444
         },
         {
-            "source": "ambient industrial (Q756956) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "dark ambient 4",
+            "target": "democracy 5",
             "value": 0.0035934054048343267
         },
         {
-            "source": "ambient industrial (Q756956) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "dark ambient 4",
+            "target": "cryptoxanthin 5",
             "value": 0.0035934054048343267
         },
         {
-            "source": "ambient industrial (Q756956) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "dark ambient 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.0035934054048343267
         },
         {
-            "source": "disco punk (Q1643549) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "dance-punk 4",
+            "target": "democracy 5",
             "value": 0.003569711963019251
         },
         {
-            "source": "disco punk (Q1643549) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "dance-punk 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003569711963019251
         },
         {
-            "source": "disco punk (Q1643549) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "dance-punk 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.003569711963019251
         },
         {
-            "source": "clicks n cuts (Q1100989) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "glitch 4",
+            "target": "democracy 5",
             "value": 0.003566383639729387
         },
         {
-            "source": "clicks n cuts (Q1100989) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "glitch 4",
+            "target": "cryptoxanthin 5",
             "value": 0.003566383639729387
         },
         {
-            "source": "clicks n cuts (Q1100989) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "glitch 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.003566383639729387
         },
         {
-            "source": "progressive trance (Q170435) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "trance 4",
+            "target": "democracy 5",
             "value": 0.00356261573219413
         },
         {
-            "source": "progressive trance (Q170435) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "trance 4",
+            "target": "cryptoxanthin 5",
             "value": 0.00356261573219413
         },
         {
-            "source": "progressive trance (Q170435) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "trance 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.00356261573219413
         },
         {
-            "source": "indie landfill (Q183504) 4",
-            "target": "democratic regime (Q7174) 5",
+            "source": "indie rock 4",
+            "target": "democracy 5",
             "value": 0.00356221757317593
         },
         {
-            "source": "indie landfill (Q183504) 4",
-            "target": "kryptoxanthin (Q392062) 5",
+            "source": "indie rock 4",
+            "target": "cryptoxanthin 5",
             "value": 0.00356221757317593
         },
         {
-            "source": "indie landfill (Q183504) 4",
-            "target": "congressional republic (Q49892) 5",
+            "source": "indie rock 4",
+            "target": "presidential r\u00e9gime 5",
             "value": 0.00356221757317593
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "democracy 5",
+            "target": "hard rock 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "true metal (Q38848) 6",
+            "source": "democracy 5",
+            "target": "heavy metal 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "rock (music) (Q11399) 6",
+            "source": "democracy 5",
+            "target": "rock music 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "democracy 5",
+            "target": "synth-pop 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "pop rock (Q484641) 6",
+            "source": "democracy 5",
+            "target": "pop rock 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "pop song (Q37073) 6",
+            "source": "democracy 5",
+            "target": "pop music 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "urban blues (Q9759) 6",
+            "source": "democracy 5",
+            "target": "blues 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "folk music (Q43343) 6",
+            "source": "democracy 5",
+            "target": "folk music 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "avant rock (Q1641839) 6",
+            "source": "democracy 5",
+            "target": "experimental rock 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "democratic regime (Q7174) 5",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "democracy 5",
+            "target": "progressive rock 6",
             "value": 0.009993453994539658
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "cryptoxanthin 5",
+            "target": "hard rock 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "true metal (Q38848) 6",
+            "source": "cryptoxanthin 5",
+            "target": "heavy metal 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "rock (music) (Q11399) 6",
+            "source": "cryptoxanthin 5",
+            "target": "rock music 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "cryptoxanthin 5",
+            "target": "synth-pop 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "pop rock (Q484641) 6",
+            "source": "cryptoxanthin 5",
+            "target": "pop rock 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "pop song (Q37073) 6",
+            "source": "cryptoxanthin 5",
+            "target": "pop music 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "urban blues (Q9759) 6",
+            "source": "cryptoxanthin 5",
+            "target": "blues 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "folk music (Q43343) 6",
+            "source": "cryptoxanthin 5",
+            "target": "folk music 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "avant rock (Q1641839) 6",
+            "source": "cryptoxanthin 5",
+            "target": "experimental rock 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "kryptoxanthin (Q392062) 5",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "cryptoxanthin 5",
+            "target": "progressive rock 6",
             "value": 0.009992137924012434
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "1990s hard rock (Q83270) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "hard rock 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "true metal (Q38848) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "heavy metal 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "rock (music) (Q11399) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "rock music 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "1970s synthpop (Q1298934) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "synth-pop 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "pop rock (Q484641) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "pop rock 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "pop song (Q37073) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "pop music 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "urban blues (Q9759) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "blues 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "folk music (Q43343) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "folk music 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "avant rock (Q1641839) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "experimental rock 6",
             "value": 0.009991945997060547
         },
         {
-            "source": "congressional republic (Q49892) 5",
-            "target": "progressive rock'n'roll (Q49451) 6",
+            "source": "presidential r\u00e9gime 5",
+            "target": "progressive rock 6",
             "value": 0.009991945997060547
         }
     ],
@@ -1408,7 +1408,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "theprodigy (Q7256860) 0",
+            "name": "The Prodigy 0",
             "url": "https://www.wikidata.org/wiki/Q7256860",
             "value": 1.0
         },
@@ -1418,7 +1418,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "indust rock (Q968730) 1",
+            "name": "industrial rock 1",
             "url": "https://www.wikidata.org/wiki/Q968730",
             "value": 0.9999995231628418
         },
@@ -1428,7 +1428,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "acoustic rap (Q438503) 1",
+            "name": "alternative hip hop 1",
             "url": "https://www.wikidata.org/wiki/Q438503",
             "value": 0.9999994039535522
         },
@@ -1438,7 +1438,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "disco punk (Q1643549) 1",
+            "name": "dance-punk 1",
             "url": "https://www.wikidata.org/wiki/Q1643549",
             "value": 0.9999994039535522
         },
@@ -1448,7 +1448,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "experimental techno (Q170611) 1",
+            "name": "techno 1",
             "url": "https://www.wikidata.org/wiki/Q170611",
             "value": 0.4623872935771942
         },
@@ -1458,7 +1458,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "breakbeat-footer (Q663519) 1",
+            "name": "breakbeat 1",
             "url": "https://www.wikidata.org/wiki/Q663519",
             "value": 0.4353843629360199
         },
@@ -1468,7 +1468,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "intelligent dance (Q660984) 1",
+            "name": "intelligent dance music 1",
             "url": "https://www.wikidata.org/wiki/Q660984",
             "value": 0.43291276693344116
         },
@@ -1478,7 +1478,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "progressive trance (Q170435) 1",
+            "name": "trance 1",
             "url": "https://www.wikidata.org/wiki/Q170435",
             "value": 0.4322172999382019
         },
@@ -1488,7 +1488,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "electronic body music (Q372103) 1",
+            "name": "electronic body music 1",
             "url": "https://www.wikidata.org/wiki/Q372103",
             "value": 0.4241388440132141
         },
@@ -1498,7 +1498,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "noise music (Q726239) 1",
+            "name": "noise music 1",
             "url": "https://www.wikidata.org/wiki/Q726239",
             "value": 0.4118107557296753
         },
@@ -1508,7 +1508,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "alternative grunge (Q379671) 1",
+            "name": "post-grunge 1",
             "url": "https://www.wikidata.org/wiki/Q379671",
             "value": 0.4110632836818695
         },
@@ -1518,7 +1518,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jazz music (Q8341) 2",
+            "name": "jazz 2",
             "url": "https://www.wikidata.org/wiki/Q8341",
             "value": 0.9914835095405579
         },
@@ -1528,7 +1528,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "list of hip hop mcs (Q11401) 2",
+            "name": "hip hop music 2",
             "url": "https://www.wikidata.org/wiki/Q11401",
             "value": 0.9907616972923279
         },
@@ -1538,7 +1538,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "1990s hard rock (Q83270) 2",
+            "name": "hard rock 2",
             "url": "https://www.wikidata.org/wiki/Q83270",
             "value": 0.9895386695861816
         },
@@ -1548,7 +1548,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1970s synthpop (Q1298934) 2",
+            "name": "synth-pop 2",
             "url": "https://www.wikidata.org/wiki/Q1298934",
             "value": 0.388202041387558
         },
@@ -1558,7 +1558,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pop song (Q37073) 2",
+            "name": "pop music 2",
             "url": "https://www.wikidata.org/wiki/Q37073",
             "value": 0.3688980042934418
         },
@@ -1568,7 +1568,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "soul (musical genre) (Q131272) 2",
+            "name": "soul music 2",
             "url": "https://www.wikidata.org/wiki/Q131272",
             "value": 0.36077308654785156
         },
@@ -1578,7 +1578,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "psychedelia (rock) (Q206159) 2",
+            "name": "psychedelic rock 2",
             "url": "https://www.wikidata.org/wiki/Q206159",
             "value": 0.36016952991485596
         },
@@ -1588,7 +1588,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pop rock (Q484641) 2",
+            "name": "pop rock 2",
             "url": "https://www.wikidata.org/wiki/Q484641",
             "value": 0.3561462163925171
         },
@@ -1598,7 +1598,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1990s house music (Q20502) 2",
+            "name": "house music 2",
             "url": "https://www.wikidata.org/wiki/Q20502",
             "value": 0.3555755019187927
         },
@@ -1608,7 +1608,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "progressive rock'n'roll (Q49451) 2",
+            "name": "progressive rock 2",
             "url": "https://www.wikidata.org/wiki/Q49451",
             "value": 0.3515297472476959
         },
@@ -1618,7 +1618,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fulldress drum and bass (Q188994) 3",
+            "name": "drum and bass 3",
             "url": "https://www.wikidata.org/wiki/Q188994",
             "value": 1.0
         },
@@ -1628,7 +1628,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dub reggae (Q212688) 4",
+            "name": "dub music 4",
             "url": "https://www.wikidata.org/wiki/Q212688",
             "value": 0.9999980926513672
         },
@@ -1638,7 +1638,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jazz music (Q8341) 4",
+            "name": "jazz 4",
             "url": "https://www.wikidata.org/wiki/Q8341",
             "value": 0.9999946355819702
         },
@@ -1648,7 +1648,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "proto-ambient (Q193207) 4",
+            "name": "ambient music 4",
             "url": "https://www.wikidata.org/wiki/Q193207",
             "value": 0.999994158744812
         },
@@ -1658,7 +1658,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "electronica (Q817138) 4",
+            "name": "electronica 4",
             "url": "https://www.wikidata.org/wiki/Q817138",
             "value": 0.3911443054676056
         },
@@ -1668,7 +1668,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "big-beat (Q858579) 4",
+            "name": "big beat 4",
             "url": "https://www.wikidata.org/wiki/Q858579",
             "value": 0.36665162444114685
         },
@@ -1678,7 +1678,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "ambient industrial (Q756956) 4",
+            "name": "dark ambient 4",
             "url": "https://www.wikidata.org/wiki/Q756956",
             "value": 0.3593405485153198
         },
@@ -1688,7 +1688,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "disco punk (Q1643549) 4",
+            "name": "dance-punk 4",
             "url": "https://www.wikidata.org/wiki/Q1643549",
             "value": 0.35697120428085327
         },
@@ -1698,7 +1698,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "clicks n cuts (Q1100989) 4",
+            "name": "glitch 4",
             "url": "https://www.wikidata.org/wiki/Q1100989",
             "value": 0.3566383719444275
         },
@@ -1708,7 +1708,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "progressive trance (Q170435) 4",
+            "name": "trance 4",
             "url": "https://www.wikidata.org/wiki/Q170435",
             "value": 0.35626158118247986
         },
@@ -1718,7 +1718,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "indie landfill (Q183504) 4",
+            "name": "indie rock 4",
             "url": "https://www.wikidata.org/wiki/Q183504",
             "value": 0.3562217652797699
         },
@@ -1728,7 +1728,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "democratic regime (Q7174) 5",
+            "name": "democracy 5",
             "url": "https://www.wikidata.org/wiki/Q7174",
             "value": 0.9993454217910767
         },
@@ -1738,7 +1738,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "kryptoxanthin (Q392062) 5",
+            "name": "cryptoxanthin 5",
             "url": "https://www.wikidata.org/wiki/Q392062",
             "value": 0.9992138147354126
         },
@@ -1748,7 +1748,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "congressional republic (Q49892) 5",
+            "name": "presidential r\u00e9gime 5",
             "url": "https://www.wikidata.org/wiki/Q49892",
             "value": 0.9991946220397949
         },
@@ -1758,7 +1758,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "1990s hard rock (Q83270) 6",
+            "name": "hard rock 6",
             "url": "https://www.wikidata.org/wiki/Q83270",
             "value": 0.7786566019058228
         },
@@ -1768,7 +1768,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "true metal (Q38848) 6",
+            "name": "heavy metal 6",
             "url": "https://www.wikidata.org/wiki/Q38848",
             "value": 0.7699070572853088
         },
@@ -1778,7 +1778,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rock (music) (Q11399) 6",
+            "name": "rock music 6",
             "url": "https://www.wikidata.org/wiki/Q11399",
             "value": 0.7688129544258118
         },
@@ -1788,7 +1788,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "1970s synthpop (Q1298934) 6",
+            "name": "synth-pop 6",
             "url": "https://www.wikidata.org/wiki/Q1298934",
             "value": 0.29160791635513306
         },
@@ -1798,7 +1798,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pop rock (Q484641) 6",
+            "name": "pop rock 6",
             "url": "https://www.wikidata.org/wiki/Q484641",
             "value": 0.2838621735572815
         },
@@ -1808,7 +1808,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pop song (Q37073) 6",
+            "name": "pop music 6",
             "url": "https://www.wikidata.org/wiki/Q37073",
             "value": 0.2775527834892273
         },
@@ -1818,7 +1818,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "urban blues (Q9759) 6",
+            "name": "blues 6",
             "url": "https://www.wikidata.org/wiki/Q9759",
             "value": 0.27694904804229736
         },
@@ -1828,7 +1828,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "folk music (Q43343) 6",
+            "name": "folk music 6",
             "url": "https://www.wikidata.org/wiki/Q43343",
             "value": 0.2765158712863922
         },
@@ -1838,7 +1838,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "avant rock (Q1641839) 6",
+            "name": "experimental rock 6",
             "url": "https://www.wikidata.org/wiki/Q1641839",
             "value": 0.2755453288555145
         },
@@ -1848,7 +1848,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "progressive rock'n'roll (Q49451) 6",
+            "name": "progressive rock 6",
             "url": "https://www.wikidata.org/wiki/Q49451",
             "value": 0.2737216651439667
         }

@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "mattel (Q596139) 0",
-            "target": "english vernacular (Q1860) 1",
+            "source": "Mattel 0",
+            "target": "English 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "mattel (Q596139) 0",
-            "target": "spanyol nyelv (Q1321) 1",
+            "source": "Mattel 0",
+            "target": "Spanish 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "mattel (Q596139) 0",
-            "target": "iso 639:zho (Q7850) 1",
+            "source": "Mattel 0",
+            "target": "Chinese 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "mattel (Q596139) 0",
-            "target": "russkiy yazyk (Q7737) 1",
+            "source": "Mattel 0",
+            "target": "Russian 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "mattel (Q596139) 0",
-            "target": "franska (Q150) 1",
+            "source": "Mattel 0",
+            "target": "French 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "mattel (Q596139) 0",
-            "target": "arabic language (Q13955) 1",
+            "source": "Mattel 0",
+            "target": "Arabic 1",
             "value": 0.009999999776482582
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "mattel (Q596139) 0",
+            "name": "Mattel 0",
             "url": "https://www.wikidata.org/wiki/Q596139",
             "value": 1.0
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "english vernacular (Q1860) 1",
+            "name": "English 1",
             "url": "https://www.wikidata.org/wiki/Q1860",
             "value": 0.9999977350234985
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "spanyol nyelv (Q1321) 1",
+            "name": "Spanish 1",
             "url": "https://www.wikidata.org/wiki/Q1321",
             "value": 0.9999954700469971
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "iso 639:zho (Q7850) 1",
+            "name": "Chinese 1",
             "url": "https://www.wikidata.org/wiki/Q7850",
             "value": 0.14088541269302368
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "russkiy yazyk (Q7737) 1",
+            "name": "Russian 1",
             "url": "https://www.wikidata.org/wiki/Q7737",
             "value": 0.12885817885398865
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "franska (Q150) 1",
+            "name": "French 1",
             "url": "https://www.wikidata.org/wiki/Q150",
             "value": 0.12438930571079254
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "arabic language (Q13955) 1",
+            "name": "Arabic 1",
             "url": "https://www.wikidata.org/wiki/Q13955",
             "value": 0.11016751080751419
         }

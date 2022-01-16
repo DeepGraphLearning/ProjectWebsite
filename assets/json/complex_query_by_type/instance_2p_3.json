@@ -1,13 +1,13 @@
 {
     "edges": [
         {
-            "source": "organizaci\u00f3n mundial del comercio (Q7825) 0 [rank = 1]",
-            "target": "mumlikat e khudad e pakistan (Q843) 1 [rank = 1]",
+            "source": "World Trade Organization 0 [rank = 1]",
+            "target": "Pakistan 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "mumlikat e khudad e pakistan (Q843) 1 [rank = 1]",
-            "target": "pashtoon language (Q58680) 2 [rank = 1]",
+            "source": "Pakistan 1 [rank = 1]",
+            "target": "Pashto 2 [rank = 1]",
             "value": 0.5
         }
     ],
@@ -18,7 +18,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "organizaci\u00f3n mundial del comercio (Q7825) 0 [rank = 1]",
+            "name": "World Trade Organization 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q7825",
             "value": 1
         },
@@ -28,7 +28,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "mumlikat e khudad e pakistan (Q843) 1 [rank = 1]",
+            "name": "Pakistan 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q843",
             "value": 1
         },
@@ -38,7 +38,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "pashtoon language (Q58680) 2 [rank = 1]",
+            "name": "Pashto 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q58680",
             "value": 1
         }

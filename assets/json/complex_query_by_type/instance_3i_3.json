@@ -1,38 +1,38 @@
 {
     "edges": [
         {
-            "source": "the coal state (Q1400) 0 [rank = 1]",
-            "target": "frank mckelvy (Q2386182) 1 [rank = 770]",
+            "source": "Pennsylvania 0 [rank = 1]",
+            "target": "Frank R. McKelvy 1 [rank = 770]",
             "value": 0.5
         },
         {
-            "source": "frank mckelvy (Q2386182) 1 [rank = 770]",
-            "target": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "source": "Frank R. McKelvy 1 [rank = 770]",
+            "target": "Frank R. McKelvy 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "robert f. boyle (Q521400) 2 [rank = 1]",
-            "target": "frank mckelvy (Q2386182) 3 [rank = 1]",
+            "source": "Robert F. Boyle 2 [rank = 1]",
+            "target": "Frank R. McKelvy 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "frank mckelvy (Q2386182) 3 [rank = 1]",
-            "target": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "source": "Frank R. McKelvy 3 [rank = 1]",
+            "target": "Frank R. McKelvy 4 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "frank mckelvy (Q2386182) 4 [rank = 1]",
-            "target": "frank mckelvy (Q2386182) 7 [rank = 1]",
+            "source": "Frank R. McKelvy 4 [rank = 1]",
+            "target": "Frank R. McKelvy 7 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "hal pereira (Q1229499) 5 [rank = 1]",
-            "target": "frank mckelvy (Q2386182) 6 [rank = 1]",
+            "source": "Hal Pereira 5 [rank = 1]",
+            "target": "Frank R. McKelvy 6 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "frank mckelvy (Q2386182) 6 [rank = 1]",
-            "target": "frank mckelvy (Q2386182) 7 [rank = 1]",
+            "source": "Frank R. McKelvy 6 [rank = 1]",
+            "target": "Frank R. McKelvy 7 [rank = 1]",
             "value": 0.5
         }
     ],
@@ -43,7 +43,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the coal state (Q1400) 0 [rank = 1]",
+            "name": "Pennsylvania 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1400",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "frank mckelvy (Q2386182) 1 [rank = 770]",
+            "name": "Frank R. McKelvy 1 [rank = 770]",
             "url": "https://www.wikidata.org/wiki/Q2386182",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "robert f. boyle (Q521400) 2 [rank = 1]",
+            "name": "Robert F. Boyle 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q521400",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "frank mckelvy (Q2386182) 3 [rank = 1]",
+            "name": "Frank R. McKelvy 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2386182",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "frank mckelvy (Q2386182) 4 [rank = 1]",
+            "name": "Frank R. McKelvy 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2386182",
             "value": 1
         },
@@ -93,7 +93,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hal pereira (Q1229499) 5 [rank = 1]",
+            "name": "Hal Pereira 5 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1229499",
             "value": 1
         },
@@ -103,7 +103,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "frank mckelvy (Q2386182) 6 [rank = 1]",
+            "name": "Frank R. McKelvy 6 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2386182",
             "value": 1
         },
@@ -113,7 +113,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "frank mckelvy (Q2386182) 7 [rank = 1]",
+            "name": "Frank R. McKelvy 7 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2386182",
             "value": 1
         }

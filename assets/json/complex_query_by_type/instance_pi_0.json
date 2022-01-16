@@ -2,27 +2,27 @@
     "edges": [
         {
             "source": "/m/01445t 0 [rank = 1]",
-            "target": "outside forward (Q280658) 1 [rank = 1]",
+            "target": "forward 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "outside forward (Q280658) 1 [rank = 1]",
-            "target": "efstratios gidopoulos (Q201584) 2 [rank = 1]",
+            "source": "forward 1 [rank = 1]",
+            "target": "A.E.K. Athens F.C. 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "efstratios gidopoulos (Q201584) 2 [rank = 1]",
-            "target": "efstratios gidopoulos (Q201584) 5 [rank = 99]",
+            "source": "A.E.K. Athens F.C. 2 [rank = 1]",
+            "target": "A.E.K. Athens F.C. 5 [rank = 99]",
             "value": 0.5
         },
         {
-            "source": "leftwingback (Q336286) 3 [rank = 1]",
-            "target": "efstratios gidopoulos (Q201584) 4 [rank = 120]",
+            "source": "defender 3 [rank = 1]",
+            "target": "A.E.K. Athens F.C. 4 [rank = 120]",
             "value": 0.5
         },
         {
-            "source": "efstratios gidopoulos (Q201584) 4 [rank = 120]",
-            "target": "efstratios gidopoulos (Q201584) 5 [rank = 99]",
+            "source": "A.E.K. Athens F.C. 4 [rank = 120]",
+            "target": "A.E.K. Athens F.C. 5 [rank = 99]",
             "value": 0.5
         }
     ],
@@ -42,7 +42,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "outside forward (Q280658) 1 [rank = 1]",
+            "name": "forward 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q280658",
             "value": 1
         },
@@ -52,7 +52,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "efstratios gidopoulos (Q201584) 2 [rank = 1]",
+            "name": "A.E.K. Athens F.C. 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q201584",
             "value": 1
         },
@@ -62,7 +62,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "leftwingback (Q336286) 3 [rank = 1]",
+            "name": "defender 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q336286",
             "value": 1
         },
@@ -72,7 +72,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "efstratios gidopoulos (Q201584) 4 [rank = 120]",
+            "name": "A.E.K. Athens F.C. 4 [rank = 120]",
             "url": "https://www.wikidata.org/wiki/Q201584",
             "value": 1
         },
@@ -82,7 +82,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "efstratios gidopoulos (Q201584) 5 [rank = 99]",
+            "name": "A.E.K. Athens F.C. 5 [rank = 99]",
             "url": "https://www.wikidata.org/wiki/Q201584",
             "value": 1
         }

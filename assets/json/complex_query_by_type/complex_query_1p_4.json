@@ -1,38 +1,38 @@
 {
     "edges": [
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "mumbai (bombay) (Q1156) 1",
+            "source": "Ismail Merchant 0",
+            "target": "Mumbai 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "thiruvananthpuram (Q167715) 1",
+            "source": "Ismail Merchant 0",
+            "target": "Thiruvananthapuram 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "city of bombay (Q1348) 1",
+            "source": "Ismail Merchant 0",
+            "target": "Kolkata 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "chennai schools (Q1352) 1",
+            "source": "Ismail Merchant 0",
+            "target": "Chennai 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "neu-delhi (Q987) 1",
+            "source": "Ismail Merchant 0",
+            "target": "New Delhi 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "banaras (Q79980) 1",
+            "source": "Ismail Merchant 0",
+            "target": "Varanasi 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "ismail noormohamed abdul rehman (Q732397) 0",
-            "target": "hyderabad india (Q1361) 1",
+            "source": "Ismail Merchant 0",
+            "target": "Hyderabad 1",
             "value": 0.009999999776482582
         }
     ],
@@ -43,7 +43,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ismail noormohamed abdul rehman (Q732397) 0",
+            "name": "Ismail Merchant 0",
             "url": "https://www.wikidata.org/wiki/Q732397",
             "value": 1.0
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "mumbai (bombay) (Q1156) 1",
+            "name": "Mumbai 1",
             "url": "https://www.wikidata.org/wiki/Q1156",
             "value": 0.7074907422065735
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "thiruvananthpuram (Q167715) 1",
+            "name": "Thiruvananthapuram 1",
             "url": "https://www.wikidata.org/wiki/Q167715",
             "value": 0.47678419947624207
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "city of bombay (Q1348) 1",
+            "name": "Kolkata 1",
             "url": "https://www.wikidata.org/wiki/Q1348",
             "value": 0.4526205062866211
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chennai schools (Q1352) 1",
+            "name": "Chennai 1",
             "url": "https://www.wikidata.org/wiki/Q1352",
             "value": 0.4231744706630707
         },
@@ -93,7 +93,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "neu-delhi (Q987) 1",
+            "name": "New Delhi 1",
             "url": "https://www.wikidata.org/wiki/Q987",
             "value": 0.4108084440231323
         },
@@ -103,7 +103,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "banaras (Q79980) 1",
+            "name": "Varanasi 1",
             "url": "https://www.wikidata.org/wiki/Q79980",
             "value": 0.4056657552719116
         },
@@ -113,7 +113,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hyderabad india (Q1361) 1",
+            "name": "Hyderabad 1",
             "url": "https://www.wikidata.org/wiki/Q1361",
             "value": 0.39928948879241943
         }

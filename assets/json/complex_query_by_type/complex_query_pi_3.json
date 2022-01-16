@@ -1,238 +1,238 @@
 {
     "edges": [
         {
-            "source": "anguilla/military (Q25228) 0",
-            "target": "usofa (Q30) 1",
+            "source": "Anguilla 0",
+            "target": "United States of America 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "anguilla/military (Q25228) 0",
-            "target": "uk of gb and ni (Q145) 1",
+            "source": "Anguilla 0",
+            "target": "United Kingdom 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "atheism (Q7066) 2",
+            "source": "United States of America 1",
+            "target": "atheism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "hindusim (Q9089) 2",
+            "source": "United States of America 1",
+            "target": "Hinduism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "juddaism (Q9268) 2",
+            "source": "United States of America 1",
+            "target": "Judaism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "kristendom (Q5043) 2",
+            "source": "United States of America 1",
+            "target": "Christianity 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "\u0628\u0631\u0648\u062a\u0633\u062a\u0627\u0646\u062a\u064a (Q23540) 2",
+            "source": "United States of America 1",
+            "target": "Protestantism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "agnostician (Q288928) 2",
+            "source": "United States of America 1",
+            "target": "agnosticism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "lutheran church\u3001lutheranism (Q75809) 2",
+            "source": "United States of America 1",
+            "target": "Lutheranism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "methodist church (Q33203) 2",
+            "source": "United States of America 1",
+            "target": "Methodism 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
+            "source": "United States of America 1",
             "target": "/m/0n2g 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "usofa (Q30) 1",
-            "target": "way of the elders (Q132265) 2",
+            "source": "United States of America 1",
+            "target": "Therav\u0101da 2",
             "value": 0.009999985471368156
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "atheism (Q7066) 2",
+            "source": "United Kingdom 1",
+            "target": "atheism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "hindusim (Q9089) 2",
+            "source": "United Kingdom 1",
+            "target": "Hinduism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "juddaism (Q9268) 2",
+            "source": "United Kingdom 1",
+            "target": "Judaism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "kristendom (Q5043) 2",
+            "source": "United Kingdom 1",
+            "target": "Christianity 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "\u0628\u0631\u0648\u062a\u0633\u062a\u0627\u0646\u062a\u064a (Q23540) 2",
+            "source": "United Kingdom 1",
+            "target": "Protestantism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "agnostician (Q288928) 2",
+            "source": "United Kingdom 1",
+            "target": "agnosticism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "lutheran church\u3001lutheranism (Q75809) 2",
+            "source": "United Kingdom 1",
+            "target": "Lutheranism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "methodist church (Q33203) 2",
+            "source": "United Kingdom 1",
+            "target": "Methodism 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
+            "source": "United Kingdom 1",
             "target": "/m/0n2g 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "uk of gb and ni (Q145) 1",
-            "target": "way of the elders (Q132265) 2",
+            "source": "United Kingdom 1",
+            "target": "Therav\u0101da 2",
             "value": 0.00999996997416086
         },
         {
-            "source": "atheism (Q7066) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "atheism 2",
+            "target": "Hinduism 5",
             "value": 0.009937407152263655
         },
         {
-            "source": "atheism (Q7066) 2",
+            "source": "atheism 2",
             "target": "/m/0flw86 5",
             "value": 0.009937407152263655
         },
         {
-            "source": "atheism (Q7066) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "atheism 2",
+            "target": "Sikhism 5",
             "value": 0.009937407152263655
         },
         {
-            "source": "hindusim (Q9089) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Hinduism 2",
+            "target": "Hinduism 5",
             "value": 0.009924390094182112
         },
         {
-            "source": "hindusim (Q9089) 2",
+            "source": "Hinduism 2",
             "target": "/m/0flw86 5",
             "value": 0.009924390094182112
         },
         {
-            "source": "hindusim (Q9089) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Hinduism 2",
+            "target": "Sikhism 5",
             "value": 0.009924390094182112
         },
         {
-            "source": "juddaism (Q9268) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Judaism 2",
+            "target": "Hinduism 5",
             "value": 0.009909167664293173
         },
         {
-            "source": "juddaism (Q9268) 2",
+            "source": "Judaism 2",
             "target": "/m/0flw86 5",
             "value": 0.009909167664293173
         },
         {
-            "source": "juddaism (Q9268) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Judaism 2",
+            "target": "Sikhism 5",
             "value": 0.009909167664293173
         },
         {
-            "source": "kristendom (Q5043) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Christianity 2",
+            "target": "Hinduism 5",
             "value": 0.001807444651258483
         },
         {
-            "source": "kristendom (Q5043) 2",
+            "source": "Christianity 2",
             "target": "/m/0flw86 5",
             "value": 0.001807444651258483
         },
         {
-            "source": "kristendom (Q5043) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Christianity 2",
+            "target": "Sikhism 5",
             "value": 0.001807444651258483
         },
         {
-            "source": "\u0628\u0631\u0648\u062a\u0633\u062a\u0627\u0646\u062a\u064a (Q23540) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Protestantism 2",
+            "target": "Hinduism 5",
             "value": 0.0016001061737513644
         },
         {
-            "source": "\u0628\u0631\u0648\u062a\u0633\u062a\u0627\u0646\u062a\u064a (Q23540) 2",
+            "source": "Protestantism 2",
             "target": "/m/0flw86 5",
             "value": 0.0016001061737513644
         },
         {
-            "source": "\u0628\u0631\u0648\u062a\u0633\u062a\u0627\u0646\u062a\u064a (Q23540) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Protestantism 2",
+            "target": "Sikhism 5",
             "value": 0.0016001061737513644
         },
         {
-            "source": "agnostician (Q288928) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "agnosticism 2",
+            "target": "Hinduism 5",
             "value": 0.0015908392908236535
         },
         {
-            "source": "agnostician (Q288928) 2",
+            "source": "agnosticism 2",
             "target": "/m/0flw86 5",
             "value": 0.0015908392908236535
         },
         {
-            "source": "agnostician (Q288928) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "agnosticism 2",
+            "target": "Sikhism 5",
             "value": 0.0015908392908236535
         },
         {
-            "source": "lutheran church\u3001lutheranism (Q75809) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Lutheranism 2",
+            "target": "Hinduism 5",
             "value": 0.0014990175925414795
         },
         {
-            "source": "lutheran church\u3001lutheranism (Q75809) 2",
+            "source": "Lutheranism 2",
             "target": "/m/0flw86 5",
             "value": 0.0014990175925414795
         },
         {
-            "source": "lutheran church\u3001lutheranism (Q75809) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Lutheranism 2",
+            "target": "Sikhism 5",
             "value": 0.0014990175925414795
         },
         {
-            "source": "methodist church (Q33203) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Methodism 2",
+            "target": "Hinduism 5",
             "value": 0.0013824085582254397
         },
         {
-            "source": "methodist church (Q33203) 2",
+            "source": "Methodism 2",
             "target": "/m/0flw86 5",
             "value": 0.0013824085582254397
         },
         {
-            "source": "methodist church (Q33203) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Methodism 2",
+            "target": "Sikhism 5",
             "value": 0.0013824085582254397
         },
         {
             "source": "/m/0n2g 2",
-            "target": "hindusim (Q9089) 5",
+            "target": "Hinduism 5",
             "value": 0.0013463504311513053
         },
         {
@@ -242,202 +242,202 @@
         },
         {
             "source": "/m/0n2g 2",
-            "target": "sikh literature (Q9316) 5",
+            "target": "Sikhism 5",
             "value": 0.0013463504311513053
         },
         {
-            "source": "way of the elders (Q132265) 2",
-            "target": "hindusim (Q9089) 5",
+            "source": "Therav\u0101da 2",
+            "target": "Hinduism 5",
             "value": 0.0012455130090077288
         },
         {
-            "source": "way of the elders (Q132265) 2",
+            "source": "Therav\u0101da 2",
             "target": "/m/0flw86 5",
             "value": 0.0012455130090077288
         },
         {
-            "source": "way of the elders (Q132265) 2",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Therav\u0101da 2",
+            "target": "Sikhism 5",
             "value": 0.0012455130090077288
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "hindusim (Q9089) 4",
+            "source": "Sunny Deol 3",
+            "target": "Hinduism 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "sikh literature (Q9316) 4",
+            "source": "Sunny Deol 3",
+            "target": "Sikhism 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "shrimant (Q10090) 4",
+            "source": "Sunny Deol 3",
+            "target": "Hindu 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "methodist church (Q33203) 4",
+            "source": "Sunny Deol 3",
+            "target": "Methodism 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "baptist churches (Q93191) 4",
+            "source": "Sunny Deol 3",
+            "target": "Baptists 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "cumberland presbyterian church of hong kong (Q178169) 4",
+            "source": "Sunny Deol 3",
+            "target": "Presbyterianism 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "pentacostalism (Q483978) 4",
+            "source": "Sunny Deol 3",
+            "target": "Pentecostalism 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "nondenominational protestantism (Q7049261) 4",
+            "source": "Sunny Deol 3",
+            "target": "Nondenominational Christianity 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "ajay singh deol (Q944546) 3",
-            "target": "christian courier (Q1272775) 4",
+            "source": "Sunny Deol 3",
+            "target": "Churches of Christ 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "hindusim (Q9089) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Hinduism 4",
+            "target": "Hinduism 5",
             "value": 0.009999863877895532
         },
         {
-            "source": "hindusim (Q9089) 4",
+            "source": "Hinduism 4",
             "target": "/m/0flw86 5",
             "value": 0.009999863877895532
         },
         {
-            "source": "hindusim (Q9089) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Hinduism 4",
+            "target": "Sikhism 5",
             "value": 0.009999863877895532
         },
         {
-            "source": "sikh literature (Q9316) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Sikhism 4",
+            "target": "Hinduism 5",
             "value": 0.009999775663023236
         },
         {
-            "source": "sikh literature (Q9316) 4",
+            "source": "Sikhism 4",
             "target": "/m/0flw86 5",
             "value": 0.009999775663023236
         },
         {
-            "source": "sikh literature (Q9316) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Sikhism 4",
+            "target": "Sikhism 5",
             "value": 0.009999775663023236
         },
         {
-            "source": "shrimant (Q10090) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Hindu 4",
+            "target": "Hinduism 5",
             "value": 0.0018073221637162074
         },
         {
-            "source": "shrimant (Q10090) 4",
+            "source": "Hindu 4",
             "target": "/m/0flw86 5",
             "value": 0.0018073221637162074
         },
         {
-            "source": "shrimant (Q10090) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Hindu 4",
+            "target": "Sikhism 5",
             "value": 0.0018073221637162074
         },
         {
-            "source": "methodist church (Q33203) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Methodism 4",
+            "target": "Hinduism 5",
             "value": 0.0016867732624685772
         },
         {
-            "source": "methodist church (Q33203) 4",
+            "source": "Methodism 4",
             "target": "/m/0flw86 5",
             "value": 0.0016867732624685772
         },
         {
-            "source": "methodist church (Q33203) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Methodism 4",
+            "target": "Sikhism 5",
             "value": 0.0016867732624685772
         },
         {
-            "source": "baptist churches (Q93191) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Baptists 4",
+            "target": "Hinduism 5",
             "value": 0.0015755621736743552
         },
         {
-            "source": "baptist churches (Q93191) 4",
+            "source": "Baptists 4",
             "target": "/m/0flw86 5",
             "value": 0.0015755621736743552
         },
         {
-            "source": "baptist churches (Q93191) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Baptists 4",
+            "target": "Sikhism 5",
             "value": 0.0015755621736743552
         },
         {
-            "source": "cumberland presbyterian church of hong kong (Q178169) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Presbyterianism 4",
+            "target": "Hinduism 5",
             "value": 0.001561001653350852
         },
         {
-            "source": "cumberland presbyterian church of hong kong (Q178169) 4",
+            "source": "Presbyterianism 4",
             "target": "/m/0flw86 5",
             "value": 0.001561001653350852
         },
         {
-            "source": "cumberland presbyterian church of hong kong (Q178169) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Presbyterianism 4",
+            "target": "Sikhism 5",
             "value": 0.001561001653350852
         },
         {
-            "source": "pentacostalism (Q483978) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Pentecostalism 4",
+            "target": "Hinduism 5",
             "value": 0.001470007863566103
         },
         {
-            "source": "pentacostalism (Q483978) 4",
+            "source": "Pentecostalism 4",
             "target": "/m/0flw86 5",
             "value": 0.001470007863566103
         },
         {
-            "source": "pentacostalism (Q483978) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Pentecostalism 4",
+            "target": "Sikhism 5",
             "value": 0.001470007863566103
         },
         {
-            "source": "nondenominational protestantism (Q7049261) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Nondenominational Christianity 4",
+            "target": "Hinduism 5",
             "value": 0.001432099608359494
         },
         {
-            "source": "nondenominational protestantism (Q7049261) 4",
+            "source": "Nondenominational Christianity 4",
             "target": "/m/0flw86 5",
             "value": 0.001432099608359494
         },
         {
-            "source": "nondenominational protestantism (Q7049261) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Nondenominational Christianity 4",
+            "target": "Sikhism 5",
             "value": 0.001432099608359494
         },
         {
-            "source": "christian courier (Q1272775) 4",
-            "target": "hindusim (Q9089) 5",
+            "source": "Churches of Christ 4",
+            "target": "Hinduism 5",
             "value": 0.0014279120841343973
         },
         {
-            "source": "christian courier (Q1272775) 4",
+            "source": "Churches of Christ 4",
             "target": "/m/0flw86 5",
             "value": 0.0014279120841343973
         },
         {
-            "source": "christian courier (Q1272775) 4",
-            "target": "sikh literature (Q9316) 5",
+            "source": "Churches of Christ 4",
+            "target": "Sikhism 5",
             "value": 0.0014279120841343973
         }
     ],
@@ -448,7 +448,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "anguilla/military (Q25228) 0",
+            "name": "Anguilla 0",
             "url": "https://www.wikidata.org/wiki/Q25228",
             "value": 1.0
         },
@@ -458,7 +458,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "usofa (Q30) 1",
+            "name": "United States of America 1",
             "url": "https://www.wikidata.org/wiki/Q30",
             "value": 0.9999985694885254
         },
@@ -468,7 +468,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "uk of gb and ni (Q145) 1",
+            "name": "United Kingdom 1",
             "url": "https://www.wikidata.org/wiki/Q145",
             "value": 0.9999970197677612
         },
@@ -478,7 +478,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "atheism (Q7066) 2",
+            "name": "atheism 2",
             "url": "https://www.wikidata.org/wiki/Q7066",
             "value": 0.9937407374382019
         },
@@ -488,7 +488,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hindusim (Q9089) 2",
+            "name": "Hinduism 2",
             "url": "https://www.wikidata.org/wiki/Q9089",
             "value": 0.9924390316009521
         },
@@ -498,7 +498,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "juddaism (Q9268) 2",
+            "name": "Judaism 2",
             "url": "https://www.wikidata.org/wiki/Q9268",
             "value": 0.9909167885780334
         },
@@ -508,7 +508,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "kristendom (Q5043) 2",
+            "name": "Christianity 2",
             "url": "https://www.wikidata.org/wiki/Q5043",
             "value": 0.180744469165802
         },
@@ -518,7 +518,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "\u0628\u0631\u0648\u062a\u0633\u062a\u0627\u0646\u062a\u064a (Q23540) 2",
+            "name": "Protestantism 2",
             "url": "https://www.wikidata.org/wiki/Q23540",
             "value": 0.16001062095165253
         },
@@ -528,7 +528,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "agnostician (Q288928) 2",
+            "name": "agnosticism 2",
             "url": "https://www.wikidata.org/wiki/Q288928",
             "value": 0.15908393263816833
         },
@@ -538,7 +538,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lutheran church\u3001lutheranism (Q75809) 2",
+            "name": "Lutheranism 2",
             "url": "https://www.wikidata.org/wiki/Q75809",
             "value": 0.14990176260471344
         },
@@ -548,7 +548,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "methodist church (Q33203) 2",
+            "name": "Methodism 2",
             "url": "https://www.wikidata.org/wiki/Q33203",
             "value": 0.13824085891246796
         },
@@ -567,7 +567,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "way of the elders (Q132265) 2",
+            "name": "Therav\u0101da 2",
             "url": "https://www.wikidata.org/wiki/Q132265",
             "value": 0.12455130368471146
         },
@@ -577,7 +577,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ajay singh deol (Q944546) 3",
+            "name": "Sunny Deol 3",
             "url": "https://www.wikidata.org/wiki/Q944546",
             "value": 1.0
         },
@@ -587,7 +587,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hindusim (Q9089) 4",
+            "name": "Hinduism 4",
             "url": "https://www.wikidata.org/wiki/Q9089",
             "value": 0.9999864101409912
         },
@@ -597,7 +597,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sikh literature (Q9316) 4",
+            "name": "Sikhism 4",
             "url": "https://www.wikidata.org/wiki/Q9316",
             "value": 0.9999775886535645
         },
@@ -607,7 +607,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "shrimant (Q10090) 4",
+            "name": "Hindu 4",
             "url": "https://www.wikidata.org/wiki/Q10090",
             "value": 0.18073222041130066
         },
@@ -617,7 +617,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "methodist church (Q33203) 4",
+            "name": "Methodism 4",
             "url": "https://www.wikidata.org/wiki/Q33203",
             "value": 0.16867733001708984
         },
@@ -627,7 +627,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "baptist churches (Q93191) 4",
+            "name": "Baptists 4",
             "url": "https://www.wikidata.org/wiki/Q93191",
             "value": 0.1575562208890915
         },
@@ -637,7 +637,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "cumberland presbyterian church of hong kong (Q178169) 4",
+            "name": "Presbyterianism 4",
             "url": "https://www.wikidata.org/wiki/Q178169",
             "value": 0.15610016882419586
         },
@@ -647,7 +647,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pentacostalism (Q483978) 4",
+            "name": "Pentecostalism 4",
             "url": "https://www.wikidata.org/wiki/Q483978",
             "value": 0.14700078964233398
         },
@@ -657,7 +657,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "nondenominational protestantism (Q7049261) 4",
+            "name": "Nondenominational Christianity 4",
             "url": "https://www.wikidata.org/wiki/Q7049261",
             "value": 0.14320996403694153
         },
@@ -667,7 +667,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "christian courier (Q1272775) 4",
+            "name": "Churches of Christ 4",
             "url": "https://www.wikidata.org/wiki/Q1272775",
             "value": 0.14279121160507202
         },
@@ -677,7 +677,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hindusim (Q9089) 5",
+            "name": "Hinduism 5",
             "url": "https://www.wikidata.org/wiki/Q9089",
             "value": 0.9924255609512329
         },
@@ -696,7 +696,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "sikh literature (Q9316) 5",
+            "name": "Sikhism 5",
             "url": "https://www.wikidata.org/wiki/Q9316",
             "value": 0.12065082043409348
         }

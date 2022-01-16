@@ -2,17 +2,17 @@
     "edges": [
         {
             "source": "/m/01445t 0",
-            "target": "list of football players (Q937857) 1",
+            "target": "association football player 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "outside forward (Q280658) 1",
+            "target": "forward 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "strongman (circus) (Q1852228) 1",
+            "target": "strongman 1",
             "value": 0.009999999776482582
         },
         {
@@ -22,1462 +22,1462 @@
         },
         {
             "source": "/m/01445t 0",
-            "target": "stunt persons (Q465501) 1",
+            "target": "stunt performer 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "combat pilot (Q618694) 1",
+            "target": "fighter pilot 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "animation supervisor (Q779815) 1",
+            "target": "animation director 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "short order cook (Q156839) 1",
+            "target": "cook 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "lt gov. (Q1516453) 1",
+            "target": "lieutenant governor 1",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/01445t 0",
-            "target": "madame speaker (Q1758037) 1",
+            "target": "speaker 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "association football player 1",
+            "target": "FC Baku 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "istres (Q797530) 2",
+            "source": "association football player 1",
+            "target": "FC Istres 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "association football player 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "association football player 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "association football player 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "association football player 1",
+            "target": "Club Libertad 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "association football player 1",
+            "target": "C.D. Nacional 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "association football player 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "association football player 1",
+            "target": "Toronto FC 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "list of football players (Q937857) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "association football player 1",
+            "target": "Hertha BSC 2",
             "value": 0.009999778047208974
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "forward 1",
+            "target": "FC Baku 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "istres (Q797530) 2",
+            "source": "forward 1",
+            "target": "FC Istres 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "forward 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "forward 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "forward 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "forward 1",
+            "target": "Club Libertad 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "forward 1",
+            "target": "C.D. Nacional 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "forward 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "forward 1",
+            "target": "Toronto FC 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "outside forward (Q280658) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "forward 1",
+            "target": "Hertha BSC 2",
             "value": 0.009999568238864054
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "strongman 1",
+            "target": "FC Baku 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "istres (Q797530) 2",
+            "source": "strongman 1",
+            "target": "FC Istres 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "strongman 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "strongman 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "strongman 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "strongman 1",
+            "target": "Club Libertad 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "strongman 1",
+            "target": "C.D. Nacional 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "strongman 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "strongman 1",
+            "target": "Toronto FC 2",
             "value": 0.009931233303295817
         },
         {
-            "source": "strongman (circus) (Q1852228) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "strongman 1",
+            "target": "Hertha BSC 2",
             "value": 0.009931233303295817
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "fk baku (Q54988) 2",
+            "target": "FC Baku 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "istres (Q797530) 2",
+            "target": "FC Istres 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "target": "RKC Waalwijk 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "sundowns fc (Q784965) 2",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "aarhus gf (Q301431) 2",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "club libertad (Q848642) 2",
+            "target": "Club Libertad 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "cd nacional (Q216459) 2",
+            "target": "C.D. Nacional 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "fc sparta (Q209895) 2",
+            "target": "Sparta Rotterdam 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "fc toronto (Q327238) 2",
+            "target": "Toronto FC 2",
             "value": 0.002277358868479157
         },
         {
             "source": "/m/03gkb0 1",
-            "target": "hertha (Q102720) 2",
+            "target": "Hertha BSC 2",
             "value": 0.002277358868479157
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "stunt performer 1",
+            "target": "FC Baku 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "istres (Q797530) 2",
+            "source": "stunt performer 1",
+            "target": "FC Istres 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "stunt performer 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "stunt performer 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "stunt performer 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "stunt performer 1",
+            "target": "Club Libertad 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "stunt performer 1",
+            "target": "C.D. Nacional 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "stunt performer 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "stunt performer 1",
+            "target": "Toronto FC 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "stunt persons (Q465501) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "stunt performer 1",
+            "target": "Hertha BSC 2",
             "value": 0.0019428389830252746
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "fighter pilot 1",
+            "target": "FC Baku 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "istres (Q797530) 2",
+            "source": "fighter pilot 1",
+            "target": "FC Istres 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "fighter pilot 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "fighter pilot 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "fighter pilot 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "fighter pilot 1",
+            "target": "Club Libertad 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "fighter pilot 1",
+            "target": "C.D. Nacional 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "fighter pilot 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "fighter pilot 1",
+            "target": "Toronto FC 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "combat pilot (Q618694) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "fighter pilot 1",
+            "target": "Hertha BSC 2",
             "value": 0.001934168444555212
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "animation director 1",
+            "target": "FC Baku 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "istres (Q797530) 2",
+            "source": "animation director 1",
+            "target": "FC Istres 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "animation director 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "animation director 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "animation director 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "animation director 1",
+            "target": "Club Libertad 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "animation director 1",
+            "target": "C.D. Nacional 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "animation director 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "animation director 1",
+            "target": "Toronto FC 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "animation supervisor (Q779815) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "animation director 1",
+            "target": "Hertha BSC 2",
             "value": 0.0018646139979821286
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "cook 1",
+            "target": "FC Baku 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "istres (Q797530) 2",
+            "source": "cook 1",
+            "target": "FC Istres 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "cook 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "cook 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "cook 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "cook 1",
+            "target": "Club Libertad 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "cook 1",
+            "target": "C.D. Nacional 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "cook 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "cook 1",
+            "target": "Toronto FC 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "short order cook (Q156839) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "cook 1",
+            "target": "Hertha BSC 2",
             "value": 0.0016499340165421206
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "lieutenant governor 1",
+            "target": "FC Baku 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "istres (Q797530) 2",
+            "source": "lieutenant governor 1",
+            "target": "FC Istres 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "lieutenant governor 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "lieutenant governor 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "lieutenant governor 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "lieutenant governor 1",
+            "target": "Club Libertad 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "lieutenant governor 1",
+            "target": "C.D. Nacional 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "lieutenant governor 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "lieutenant governor 1",
+            "target": "Toronto FC 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "lt gov. (Q1516453) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "lieutenant governor 1",
+            "target": "Hertha BSC 2",
             "value": 0.0016333889596151785
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "fk baku (Q54988) 2",
+            "source": "speaker 1",
+            "target": "FC Baku 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "istres (Q797530) 2",
+            "source": "speaker 1",
+            "target": "FC Istres 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "rkc waalwijk (Q24699) 2",
+            "source": "speaker 1",
+            "target": "RKC Waalwijk 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "sundowns fc (Q784965) 2",
+            "source": "speaker 1",
+            "target": "Mamelodi Sundowns F.C. 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "aarhus gf (Q301431) 2",
+            "source": "speaker 1",
+            "target": "Aarhus Gymnastikforening 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "club libertad (Q848642) 2",
+            "source": "speaker 1",
+            "target": "Club Libertad 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "cd nacional (Q216459) 2",
+            "source": "speaker 1",
+            "target": "C.D. Nacional 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "fc sparta (Q209895) 2",
+            "source": "speaker 1",
+            "target": "Sparta Rotterdam 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "fc toronto (Q327238) 2",
+            "source": "speaker 1",
+            "target": "Toronto FC 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "madame speaker (Q1758037) 1",
-            "target": "hertha (Q102720) 2",
+            "source": "speaker 1",
+            "target": "Hertha BSC 2",
             "value": 0.001632747762663339
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "FC Baku 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "FC Baku 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "FC Baku 2",
+            "target": "Spezia Calcio 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "FC Baku 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "FC Baku 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "FC Baku 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
+            "source": "FC Baku 2",
             "target": "/m/04btgp 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "FC Baku 2",
+            "target": "FC Rostov 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "FC Baku 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "fk baku (Q54988) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "FC Baku 2",
+            "target": "Albania national association football team 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "FC Istres 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "FC Istres 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "FC Istres 2",
+            "target": "Spezia Calcio 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "FC Istres 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "FC Istres 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "FC Istres 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
+            "source": "FC Istres 2",
             "target": "/m/04btgp 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "FC Istres 2",
+            "target": "FC Rostov 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "FC Istres 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "istres (Q797530) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "FC Istres 2",
+            "target": "Albania national association football team 5",
             "value": 0.00996013857513356
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "Spezia Calcio 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
+            "source": "RKC Waalwijk 2",
             "target": "/m/04btgp 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "FC Rostov 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "rkc waalwijk (Q24699) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "RKC Waalwijk 2",
+            "target": "Albania national association football team 5",
             "value": 0.009958373085594774
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "Spezia Calcio 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
+            "source": "Mamelodi Sundowns F.C. 2",
             "target": "/m/04btgp 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "FC Rostov 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "sundowns fc (Q784965) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Mamelodi Sundowns F.C. 2",
+            "target": "Albania national association football team 5",
             "value": 0.003668822862159693
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "Spezia Calcio 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
+            "source": "Aarhus Gymnastikforening 2",
             "target": "/m/04btgp 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "FC Rostov 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "aarhus gf (Q301431) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Aarhus Gymnastikforening 2",
+            "target": "Albania national association football team 5",
             "value": 0.0036659567728797304
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Club Libertad 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Club Libertad 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Club Libertad 2",
+            "target": "Spezia Calcio 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Club Libertad 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Club Libertad 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Club Libertad 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
+            "source": "Club Libertad 2",
             "target": "/m/04btgp 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Club Libertad 2",
+            "target": "FC Rostov 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Club Libertad 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "club libertad (Q848642) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Club Libertad 2",
+            "target": "Albania national association football team 5",
             "value": 0.003574164131861235
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "C.D. Nacional 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "C.D. Nacional 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "C.D. Nacional 2",
+            "target": "Spezia Calcio 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "C.D. Nacional 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "C.D. Nacional 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "C.D. Nacional 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
+            "source": "C.D. Nacional 2",
             "target": "/m/04btgp 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "C.D. Nacional 2",
+            "target": "FC Rostov 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "C.D. Nacional 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "cd nacional (Q216459) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "C.D. Nacional 2",
+            "target": "Albania national association football team 5",
             "value": 0.0034895270282880864
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "Spezia Calcio 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
+            "source": "Sparta Rotterdam 2",
             "target": "/m/04btgp 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "FC Rostov 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc sparta (Q209895) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Sparta Rotterdam 2",
+            "target": "Albania national association football team 5",
             "value": 0.003444176239277952
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Toronto FC 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Toronto FC 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Toronto FC 2",
+            "target": "Spezia Calcio 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Toronto FC 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Toronto FC 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Toronto FC 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
+            "source": "Toronto FC 2",
             "target": "/m/04btgp 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Toronto FC 2",
+            "target": "FC Rostov 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Toronto FC 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "fc toronto (Q327238) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Toronto FC 2",
+            "target": "Albania national association football team 5",
             "value": 0.003405223114671785
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Hertha BSC 2",
+            "target": "RCD Espanyol B 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Hertha BSC 2",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Hertha BSC 2",
+            "target": "Spezia Calcio 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Hertha BSC 2",
+            "target": "U.C. Sampdoria 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Hertha BSC 2",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Hertha BSC 2",
+            "target": "San Jose Earthquakes 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
+            "source": "Hertha BSC 2",
             "target": "/m/04btgp 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Hertha BSC 2",
+            "target": "FC Rostov 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Hertha BSC 2",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "hertha (Q102720) 2",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Hertha BSC 2",
+            "target": "Albania national association football team 5",
             "value": 0.0033914007978573246
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "austrian national football team (Q163534) 4",
+            "source": "defender 3",
+            "target": "Austria national association football team 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "the bluebirds (Q18662) 4",
+            "source": "defender 3",
+            "target": "Cardiff City F.C. 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "fc middlesbrough (Q18661) 4",
+            "source": "defender 3",
+            "target": "Middlesbrough F.C. 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "uc sampdoria (Q1457) 4",
+            "source": "defender 3",
+            "target": "U.C. Sampdoria 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "orlando pirates (Q607939) 4",
+            "source": "defender 3",
+            "target": "Orlando Pirates F.C. 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "tsg hoffenheim (Q22707) 4",
+            "source": "defender 3",
+            "target": "TSG 1899 Hoffenheim 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "sj quakes (Q575370) 4",
+            "source": "defender 3",
+            "target": "San Jose Earthquakes 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
+            "source": "defender 3",
             "target": "/m/04btgp 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "fc rostov (Q182930) 4",
+            "source": "defender 3",
+            "target": "FC Rostov 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 3",
-            "target": "e.c. bahia (Q198032) 4",
+            "source": "defender 3",
+            "target": "Esporte Clube Bahia 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Austria national association football team 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Austria national association football team 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Austria national association football team 4",
+            "target": "Spezia Calcio 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Austria national association football team 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Austria national association football team 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Austria national association football team 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
+            "source": "Austria national association football team 4",
             "target": "/m/04btgp 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Austria national association football team 4",
+            "target": "FC Rostov 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Austria national association football team 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "austrian national football team (Q163534) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Austria national association football team 4",
+            "target": "Albania national association football team 5",
             "value": 0.009997783079792932
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "Spezia Calcio 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
+            "source": "Cardiff City F.C. 4",
             "target": "/m/04btgp 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "FC Rostov 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "the bluebirds (Q18662) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Cardiff City F.C. 4",
+            "target": "Albania national association football team 5",
             "value": 0.009997616186791292
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "Spezia Calcio 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
+            "source": "Middlesbrough F.C. 4",
             "target": "/m/04btgp 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "FC Rostov 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "fc middlesbrough (Q18661) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Middlesbrough F.C. 4",
+            "target": "Albania national association football team 5",
             "value": 0.00999752439564039
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "Spezia Calcio 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
+            "source": "U.C. Sampdoria 4",
             "target": "/m/04btgp 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "FC Rostov 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "uc sampdoria (Q1457) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "U.C. Sampdoria 4",
+            "target": "Albania national association football team 5",
             "value": 0.0056657181903931875
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "Spezia Calcio 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
+            "source": "Orlando Pirates F.C. 4",
             "target": "/m/04btgp 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "FC Rostov 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "orlando pirates (Q607939) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Orlando Pirates F.C. 4",
+            "target": "Albania national association football team 5",
             "value": 0.005539291377232414
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "Spezia Calcio 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
+            "source": "TSG 1899 Hoffenheim 4",
             "target": "/m/04btgp 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "FC Rostov 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "tsg hoffenheim (Q22707) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "TSG 1899 Hoffenheim 4",
+            "target": "Albania national association football team 5",
             "value": 0.00549899565803269
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "Spezia Calcio 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
+            "source": "San Jose Earthquakes 4",
             "target": "/m/04btgp 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "FC Rostov 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.005463725206321657
         },
         {
-            "source": "sj quakes (Q575370) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "San Jose Earthquakes 4",
+            "target": "Albania national association football team 5",
             "value": 0.005463725206321657
         },
         {
             "source": "/m/04btgp 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "target": "RCD Espanyol B 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "target": "Spezia Calcio 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "target": "U.C. Sampdoria 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "sj quakes (Q575370) 5",
+            "target": "San Jose Earthquakes 5",
             "value": 0.005414534686180916
         },
         {
@@ -1487,117 +1487,117 @@
         },
         {
             "source": "/m/04btgp 4",
-            "target": "fc rostov (Q182930) 5",
+            "target": "FC Rostov 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.005414534686180916
         },
         {
             "source": "/m/04btgp 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "target": "Albania national association football team 5",
             "value": 0.005414534686180916
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "FC Rostov 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "FC Rostov 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "FC Rostov 4",
+            "target": "Spezia Calcio 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "FC Rostov 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "FC Rostov 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "FC Rostov 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
+            "source": "FC Rostov 4",
             "target": "/m/04btgp 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "FC Rostov 4",
+            "target": "FC Rostov 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "FC Rostov 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "fc rostov (Q182930) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "FC Rostov 4",
+            "target": "Albania national association football team 5",
             "value": 0.00541272866548459
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "r.c.d. espanyol b (Q32537) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "RCD Espanyol B 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "le mans uc 72 (Q210864) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "Le Mans U.C. 72 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "spezia 1906 calcio (Q8615) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "Spezia Calcio 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "uc sampdoria (Q1457) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "U.C. Sampdoria 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "tsg hoffenheim (Q22707) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "TSG 1899 Hoffenheim 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "sj quakes (Q575370) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "San Jose Earthquakes 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
+            "source": "Esporte Clube Bahia 4",
             "target": "/m/04btgp 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "fc rostov (Q182930) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "FC Rostov 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "e.c. bahia (Q198032) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "Esporte Clube Bahia 5",
             "value": 0.005353767156144218
         },
         {
-            "source": "e.c. bahia (Q198032) 4",
-            "target": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "source": "Esporte Clube Bahia 4",
+            "target": "Albania national association football team 5",
             "value": 0.005353767156144218
         }
     ],
@@ -1617,7 +1617,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "list of football players (Q937857) 1",
+            "name": "association football player 1",
             "url": "https://www.wikidata.org/wiki/Q937857",
             "value": 0.9999778270721436
         },
@@ -1627,7 +1627,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "outside forward (Q280658) 1",
+            "name": "forward 1",
             "url": "https://www.wikidata.org/wiki/Q280658",
             "value": 0.9999568462371826
         },
@@ -1637,7 +1637,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "strongman (circus) (Q1852228) 1",
+            "name": "strongman 1",
             "url": "https://www.wikidata.org/wiki/Q1852228",
             "value": 0.9931233525276184
         },
@@ -1656,7 +1656,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "stunt persons (Q465501) 1",
+            "name": "stunt performer 1",
             "url": "https://www.wikidata.org/wiki/Q465501",
             "value": 0.19428390264511108
         },
@@ -1666,7 +1666,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "combat pilot (Q618694) 1",
+            "name": "fighter pilot 1",
             "url": "https://www.wikidata.org/wiki/Q618694",
             "value": 0.19341684877872467
         },
@@ -1676,7 +1676,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "animation supervisor (Q779815) 1",
+            "name": "animation director 1",
             "url": "https://www.wikidata.org/wiki/Q779815",
             "value": 0.18646140396595
         },
@@ -1686,7 +1686,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "short order cook (Q156839) 1",
+            "name": "cook 1",
             "url": "https://www.wikidata.org/wiki/Q156839",
             "value": 0.16499340534210205
         },
@@ -1696,7 +1696,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lt gov. (Q1516453) 1",
+            "name": "lieutenant governor 1",
             "url": "https://www.wikidata.org/wiki/Q1516453",
             "value": 0.16333889961242676
         },
@@ -1706,7 +1706,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "madame speaker (Q1758037) 1",
+            "name": "speaker 1",
             "url": "https://www.wikidata.org/wiki/Q1758037",
             "value": 0.16327477991580963
         },
@@ -1716,7 +1716,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fk baku (Q54988) 2",
+            "name": "FC Baku 2",
             "url": "https://www.wikidata.org/wiki/Q54988",
             "value": 0.996013879776001
         },
@@ -1726,7 +1726,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "istres (Q797530) 2",
+            "name": "FC Istres 2",
             "url": "https://www.wikidata.org/wiki/Q797530",
             "value": 0.996013879776001
         },
@@ -1736,7 +1736,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rkc waalwijk (Q24699) 2",
+            "name": "RKC Waalwijk 2",
             "url": "https://www.wikidata.org/wiki/Q24699",
             "value": 0.9958373308181763
         },
@@ -1746,7 +1746,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sundowns fc (Q784965) 2",
+            "name": "Mamelodi Sundowns F.C. 2",
             "url": "https://www.wikidata.org/wiki/Q784965",
             "value": 0.3668822944164276
         },
@@ -1756,7 +1756,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "aarhus gf (Q301431) 2",
+            "name": "Aarhus Gymnastikforening 2",
             "url": "https://www.wikidata.org/wiki/Q301431",
             "value": 0.36659568548202515
         },
@@ -1766,7 +1766,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "club libertad (Q848642) 2",
+            "name": "Club Libertad 2",
             "url": "https://www.wikidata.org/wiki/Q848642",
             "value": 0.35741642117500305
         },
@@ -1776,7 +1776,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "cd nacional (Q216459) 2",
+            "name": "C.D. Nacional 2",
             "url": "https://www.wikidata.org/wiki/Q216459",
             "value": 0.3489527106285095
         },
@@ -1786,7 +1786,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc sparta (Q209895) 2",
+            "name": "Sparta Rotterdam 2",
             "url": "https://www.wikidata.org/wiki/Q209895",
             "value": 0.34441763162612915
         },
@@ -1796,7 +1796,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc toronto (Q327238) 2",
+            "name": "Toronto FC 2",
             "url": "https://www.wikidata.org/wiki/Q327238",
             "value": 0.34052231907844543
         },
@@ -1806,7 +1806,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hertha (Q102720) 2",
+            "name": "Hertha BSC 2",
             "url": "https://www.wikidata.org/wiki/Q102720",
             "value": 0.3391400873661041
         },
@@ -1816,7 +1816,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "leftwingback (Q336286) 3",
+            "name": "defender 3",
             "url": "https://www.wikidata.org/wiki/Q336286",
             "value": 1.0
         },
@@ -1826,7 +1826,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "austrian national football team (Q163534) 4",
+            "name": "Austria national association football team 4",
             "url": "https://www.wikidata.org/wiki/Q163534",
             "value": 0.9997783303260803
         },
@@ -1836,7 +1836,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "the bluebirds (Q18662) 4",
+            "name": "Cardiff City F.C. 4",
             "url": "https://www.wikidata.org/wiki/Q18662",
             "value": 0.9997616410255432
         },
@@ -1846,7 +1846,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fc middlesbrough (Q18661) 4",
+            "name": "Middlesbrough F.C. 4",
             "url": "https://www.wikidata.org/wiki/Q18661",
             "value": 0.9997524619102478
         },
@@ -1856,7 +1856,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "uc sampdoria (Q1457) 4",
+            "name": "U.C. Sampdoria 4",
             "url": "https://www.wikidata.org/wiki/Q1457",
             "value": 0.566571831703186
         },
@@ -1866,7 +1866,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "orlando pirates (Q607939) 4",
+            "name": "Orlando Pirates F.C. 4",
             "url": "https://www.wikidata.org/wiki/Q607939",
             "value": 0.5539291501045227
         },
@@ -1876,7 +1876,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "tsg hoffenheim (Q22707) 4",
+            "name": "TSG 1899 Hoffenheim 4",
             "url": "https://www.wikidata.org/wiki/Q22707",
             "value": 0.5498995780944824
         },
@@ -1886,7 +1886,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sj quakes (Q575370) 4",
+            "name": "San Jose Earthquakes 4",
             "url": "https://www.wikidata.org/wiki/Q575370",
             "value": 0.5463725328445435
         },
@@ -1905,7 +1905,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc rostov (Q182930) 4",
+            "name": "FC Rostov 4",
             "url": "https://www.wikidata.org/wiki/Q182930",
             "value": 0.5412728786468506
         },
@@ -1915,7 +1915,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "e.c. bahia (Q198032) 4",
+            "name": "Esporte Clube Bahia 4",
             "url": "https://www.wikidata.org/wiki/Q198032",
             "value": 0.5353767275810242
         },
@@ -1925,7 +1925,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "r.c.d. espanyol b (Q32537) 5",
+            "name": "RCD Espanyol B 5",
             "url": "https://www.wikidata.org/wiki/Q32537",
             "value": 0.9953668713569641
         },
@@ -1935,7 +1935,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "le mans uc 72 (Q210864) 5",
+            "name": "Le Mans U.C. 72 5",
             "url": "https://www.wikidata.org/wiki/Q210864",
             "value": 0.9951531291007996
         },
@@ -1945,7 +1945,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "spezia 1906 calcio (Q8615) 5",
+            "name": "Spezia Calcio 5",
             "url": "https://www.wikidata.org/wiki/Q8615",
             "value": 0.9949954152107239
         },
@@ -1955,7 +1955,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "uc sampdoria (Q1457) 5",
+            "name": "U.C. Sampdoria 5",
             "url": "https://www.wikidata.org/wiki/Q1457",
             "value": 0.5609343647956848
         },
@@ -1965,7 +1965,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "tsg hoffenheim (Q22707) 5",
+            "name": "TSG 1899 Hoffenheim 5",
             "url": "https://www.wikidata.org/wiki/Q22707",
             "value": 0.5458176732063293
         },
@@ -1975,7 +1975,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "sj quakes (Q575370) 5",
+            "name": "San Jose Earthquakes 5",
             "url": "https://www.wikidata.org/wiki/Q575370",
             "value": 0.5400025844573975
         },
@@ -1994,7 +1994,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc rostov (Q182930) 5",
+            "name": "FC Rostov 5",
             "url": "https://www.wikidata.org/wiki/Q182930",
             "value": 0.5368766188621521
         },
@@ -2004,7 +2004,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "e.c. bahia (Q198032) 5",
+            "name": "Esporte Clube Bahia 5",
             "url": "https://www.wikidata.org/wiki/Q198032",
             "value": 0.5311368703842163
         },
@@ -2014,7 +2014,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "komb\u00ebtarja shqiptare e futbollit (Q186262) 5",
+            "name": "Albania national association football team 5",
             "url": "https://www.wikidata.org/wiki/Q186262",
             "value": 0.5246104598045349
         }

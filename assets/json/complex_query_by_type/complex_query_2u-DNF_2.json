@@ -1,1103 +1,1103 @@
 {
     "edges": [
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "sheila escovedo (Q250905) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Sheila E. 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "xero (demo album) (Q261) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Linkin Park 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "metalicca (Q15920) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Metallica 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "los lobos (Q370400) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Los Lobos 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "christian tritsch (Q544024) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Gong 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "lotus (dir en grey song) (Q379852) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Dir En Grey 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "muesel (Q507863) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Gwar 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "the samshing pumpkins (Q184217) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "The Smashing Pumpkins 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "tony levin/comments (Q216986) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Tony Levin 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner bros. nashville (Q843402) 0",
-            "target": "curse of fallen soul (Q938630) 1",
+            "source": "Warner Bros. Records 0",
+            "target": "Dropkick Murphys 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Sheila E. 1",
+            "target": "Sheila E. 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Sheila E. 1",
+            "target": "Chaka Khan 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Sheila E. 1",
+            "target": "Metallica 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Sheila E. 1",
+            "target": "Los Lobos 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Sheila E. 1",
+            "target": "Glen Ballard 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Sheila E. 1",
+            "target": "Brad Paisley 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Sheila E. 1",
+            "target": "Tony Levin 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Sheila E. 1",
+            "target": "Rick Springfield 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Sheila E. 1",
+            "target": "Meat Loaf 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "sheila escovedo (Q250905) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Sheila E. 1",
+            "target": "James Ingram 4",
             "value": 0.009999999776482582
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Linkin Park 1",
+            "target": "Sheila E. 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Linkin Park 1",
+            "target": "Chaka Khan 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Linkin Park 1",
+            "target": "Metallica 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Linkin Park 1",
+            "target": "Los Lobos 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Linkin Park 1",
+            "target": "Glen Ballard 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Linkin Park 1",
+            "target": "Brad Paisley 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Linkin Park 1",
+            "target": "Tony Levin 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Linkin Park 1",
+            "target": "Rick Springfield 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Linkin Park 1",
+            "target": "Meat Loaf 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "xero (demo album) (Q261) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Linkin Park 1",
+            "target": "James Ingram 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Metallica 1",
+            "target": "Sheila E. 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Metallica 1",
+            "target": "Chaka Khan 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Metallica 1",
+            "target": "Metallica 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Metallica 1",
+            "target": "Los Lobos 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Metallica 1",
+            "target": "Glen Ballard 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Metallica 1",
+            "target": "Brad Paisley 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Metallica 1",
+            "target": "Tony Levin 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Metallica 1",
+            "target": "Rick Springfield 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Metallica 1",
+            "target": "Meat Loaf 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "metalicca (Q15920) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Metallica 1",
+            "target": "James Ingram 4",
             "value": 0.009999998584389713
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Los Lobos 1",
+            "target": "Sheila E. 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Los Lobos 1",
+            "target": "Chaka Khan 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Los Lobos 1",
+            "target": "Metallica 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Los Lobos 1",
+            "target": "Los Lobos 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Los Lobos 1",
+            "target": "Glen Ballard 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Los Lobos 1",
+            "target": "Brad Paisley 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Los Lobos 1",
+            "target": "Tony Levin 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Los Lobos 1",
+            "target": "Rick Springfield 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Los Lobos 1",
+            "target": "Meat Loaf 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "los lobos (Q370400) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Los Lobos 1",
+            "target": "James Ingram 4",
             "value": 0.0055262886242652964
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Gong 1",
+            "target": "Sheila E. 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Gong 1",
+            "target": "Chaka Khan 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Gong 1",
+            "target": "Metallica 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Gong 1",
+            "target": "Los Lobos 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Gong 1",
+            "target": "Glen Ballard 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Gong 1",
+            "target": "Brad Paisley 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Gong 1",
+            "target": "Tony Levin 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Gong 1",
+            "target": "Rick Springfield 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Gong 1",
+            "target": "Meat Loaf 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "christian tritsch (Q544024) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Gong 1",
+            "target": "James Ingram 4",
             "value": 0.0054539208385216975
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Dir En Grey 1",
+            "target": "Sheila E. 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Dir En Grey 1",
+            "target": "Chaka Khan 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Dir En Grey 1",
+            "target": "Metallica 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Dir En Grey 1",
+            "target": "Los Lobos 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Dir En Grey 1",
+            "target": "Glen Ballard 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Dir En Grey 1",
+            "target": "Brad Paisley 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Dir En Grey 1",
+            "target": "Tony Levin 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Dir En Grey 1",
+            "target": "Rick Springfield 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Dir En Grey 1",
+            "target": "Meat Loaf 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "lotus (dir en grey song) (Q379852) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Dir En Grey 1",
+            "target": "James Ingram 4",
             "value": 0.005092942600855022
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Gwar 1",
+            "target": "Sheila E. 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Gwar 1",
+            "target": "Chaka Khan 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Gwar 1",
+            "target": "Metallica 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Gwar 1",
+            "target": "Los Lobos 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Gwar 1",
+            "target": "Glen Ballard 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Gwar 1",
+            "target": "Brad Paisley 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Gwar 1",
+            "target": "Tony Levin 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Gwar 1",
+            "target": "Rick Springfield 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Gwar 1",
+            "target": "Meat Loaf 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "muesel (Q507863) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Gwar 1",
+            "target": "James Ingram 4",
             "value": 0.005092702394141946
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Sheila E. 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Chaka Khan 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Metallica 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Los Lobos 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Glen Ballard 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Brad Paisley 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Tony Levin 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Rick Springfield 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "Meat Loaf 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "the samshing pumpkins (Q184217) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "The Smashing Pumpkins 1",
+            "target": "James Ingram 4",
             "value": 0.005045983082518357
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Tony Levin 1",
+            "target": "Sheila E. 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Tony Levin 1",
+            "target": "Chaka Khan 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Tony Levin 1",
+            "target": "Metallica 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Tony Levin 1",
+            "target": "Los Lobos 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Tony Levin 1",
+            "target": "Glen Ballard 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Tony Levin 1",
+            "target": "Brad Paisley 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Tony Levin 1",
+            "target": "Tony Levin 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Tony Levin 1",
+            "target": "Rick Springfield 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Tony Levin 1",
+            "target": "Meat Loaf 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "tony levin/comments (Q216986) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Tony Levin 1",
+            "target": "James Ingram 4",
             "value": 0.005034825689312239
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Sheila E. 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Chaka Khan 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "metalicca (Q15920) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Metallica 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "los lobos (Q370400) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Los Lobos 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Glen Ballard 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Brad Paisley 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Tony Levin 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Rick Springfield 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "Meat Loaf 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "curse of fallen soul (Q938630) 1",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Dropkick Murphys 1",
+            "target": "James Ingram 4",
             "value": 0.004994922466689589
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "bernadette peters (Q231391) 3",
+            "source": "lead vocalist 2",
+            "target": "Bernadette Peters 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "john gielgud (Q204685) 3",
+            "source": "lead vocalist 2",
+            "target": "John Gielgud 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "daphne aguilera (Q367094) 3",
+            "source": "lead vocalist 2",
+            "target": "Andy Dick 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "richard lewis springthorpe (Q707446) 3",
+            "source": "lead vocalist 2",
+            "target": "Rick Springfield 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "stephen laurence \"steve\" winwood (Q314397) 3",
+            "source": "lead vocalist 2",
+            "target": "Steve Winwood 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "lewis a. reed (Q189080) 3",
+            "source": "lead vocalist 2",
+            "target": "Lou Reed 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "chris seefried (Q2964857) 3",
+            "source": "lead vocalist 2",
+            "target": "Chris Seefried 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "david grisman (Q1174604) 3",
+            "source": "lead vocalist 2",
+            "target": "David Grisman 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "ambeon (Q455959) 3",
+            "source": "lead vocalist 2",
+            "target": "Arjen Anthony Lucassen 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "frontman (Q1045845) 2",
-            "target": "niel young (Q633) 3",
+            "source": "lead vocalist 2",
+            "target": "Neil Young 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Sheila E. 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Chaka Khan 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Metallica 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Los Lobos 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Glen Ballard 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Brad Paisley 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Tony Levin 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Rick Springfield 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Bernadette Peters 3",
+            "target": "Meat Loaf 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "bernadette peters (Q231391) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Bernadette Peters 3",
+            "target": "James Ingram 4",
             "value": 0.009997560158426455
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "John Gielgud 3",
+            "target": "Sheila E. 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "John Gielgud 3",
+            "target": "Chaka Khan 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "John Gielgud 3",
+            "target": "Metallica 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "John Gielgud 3",
+            "target": "Los Lobos 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "John Gielgud 3",
+            "target": "Glen Ballard 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "John Gielgud 3",
+            "target": "Brad Paisley 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "John Gielgud 3",
+            "target": "Tony Levin 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "John Gielgud 3",
+            "target": "Rick Springfield 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "John Gielgud 3",
+            "target": "Meat Loaf 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "john gielgud (Q204685) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "John Gielgud 3",
+            "target": "James Ingram 4",
             "value": 0.009997309818923994
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Andy Dick 3",
+            "target": "Sheila E. 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Andy Dick 3",
+            "target": "Chaka Khan 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Andy Dick 3",
+            "target": "Metallica 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Andy Dick 3",
+            "target": "Los Lobos 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Andy Dick 3",
+            "target": "Glen Ballard 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Andy Dick 3",
+            "target": "Brad Paisley 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Andy Dick 3",
+            "target": "Tony Levin 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Andy Dick 3",
+            "target": "Rick Springfield 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Andy Dick 3",
+            "target": "Meat Loaf 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "daphne aguilera (Q367094) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Andy Dick 3",
+            "target": "James Ingram 4",
             "value": 0.009996254220688616
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Rick Springfield 3",
+            "target": "Sheila E. 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Rick Springfield 3",
+            "target": "Chaka Khan 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Rick Springfield 3",
+            "target": "Metallica 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Rick Springfield 3",
+            "target": "Los Lobos 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Rick Springfield 3",
+            "target": "Glen Ballard 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Rick Springfield 3",
+            "target": "Brad Paisley 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Rick Springfield 3",
+            "target": "Tony Levin 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Rick Springfield 3",
+            "target": "Rick Springfield 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Rick Springfield 3",
+            "target": "Meat Loaf 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "richard lewis springthorpe (Q707446) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Rick Springfield 3",
+            "target": "James Ingram 4",
             "value": 0.00440178295071908
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Steve Winwood 3",
+            "target": "Sheila E. 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Steve Winwood 3",
+            "target": "Chaka Khan 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Steve Winwood 3",
+            "target": "Metallica 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Steve Winwood 3",
+            "target": "Los Lobos 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Steve Winwood 3",
+            "target": "Glen Ballard 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Steve Winwood 3",
+            "target": "Brad Paisley 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Steve Winwood 3",
+            "target": "Tony Levin 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Steve Winwood 3",
+            "target": "Rick Springfield 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Steve Winwood 3",
+            "target": "Meat Loaf 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "stephen laurence \"steve\" winwood (Q314397) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Steve Winwood 3",
+            "target": "James Ingram 4",
             "value": 0.004376277527743333
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Lou Reed 3",
+            "target": "Sheila E. 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Lou Reed 3",
+            "target": "Chaka Khan 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Lou Reed 3",
+            "target": "Metallica 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Lou Reed 3",
+            "target": "Los Lobos 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Lou Reed 3",
+            "target": "Glen Ballard 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Lou Reed 3",
+            "target": "Brad Paisley 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Lou Reed 3",
+            "target": "Tony Levin 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Lou Reed 3",
+            "target": "Rick Springfield 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Lou Reed 3",
+            "target": "Meat Loaf 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "lewis a. reed (Q189080) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Lou Reed 3",
+            "target": "James Ingram 4",
             "value": 0.004333082936709753
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Chris Seefried 3",
+            "target": "Sheila E. 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Chris Seefried 3",
+            "target": "Chaka Khan 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Chris Seefried 3",
+            "target": "Metallica 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Chris Seefried 3",
+            "target": "Los Lobos 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Chris Seefried 3",
+            "target": "Glen Ballard 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Chris Seefried 3",
+            "target": "Brad Paisley 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Chris Seefried 3",
+            "target": "Tony Levin 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Chris Seefried 3",
+            "target": "Rick Springfield 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Chris Seefried 3",
+            "target": "Meat Loaf 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "chris seefried (Q2964857) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Chris Seefried 3",
+            "target": "James Ingram 4",
             "value": 0.004325999520882973
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "David Grisman 3",
+            "target": "Sheila E. 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "David Grisman 3",
+            "target": "Chaka Khan 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "David Grisman 3",
+            "target": "Metallica 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "David Grisman 3",
+            "target": "Los Lobos 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "David Grisman 3",
+            "target": "Glen Ballard 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "David Grisman 3",
+            "target": "Brad Paisley 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "David Grisman 3",
+            "target": "Tony Levin 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "David Grisman 3",
+            "target": "Rick Springfield 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "David Grisman 3",
+            "target": "Meat Loaf 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "david grisman (Q1174604) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "David Grisman 3",
+            "target": "James Ingram 4",
             "value": 0.004286258720913705
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Sheila E. 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Chaka Khan 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Metallica 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Los Lobos 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Glen Ballard 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Brad Paisley 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Tony Levin 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Rick Springfield 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "Meat Loaf 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "ambeon (Q455959) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Arjen Anthony Lucassen 3",
+            "target": "James Ingram 4",
             "value": 0.0042399462109816155
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "sheila escovedo (Q250905) 4",
+            "source": "Neil Young 3",
+            "target": "Sheila E. 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "chaka khan (Q229498) 4",
+            "source": "Neil Young 3",
+            "target": "Chaka Khan 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "metalicca (Q15920) 4",
+            "source": "Neil Young 3",
+            "target": "Metallica 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "los lobos (Q370400) 4",
+            "source": "Neil Young 3",
+            "target": "Los Lobos 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "glen ballard (Q920983) 4",
+            "source": "Neil Young 3",
+            "target": "Glen Ballard 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "brad douglas paisley (Q39639) 4",
+            "source": "Neil Young 3",
+            "target": "Brad Paisley 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "tony levin/comments (Q216986) 4",
+            "source": "Neil Young 3",
+            "target": "Tony Levin 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "richard lewis springthorpe (Q707446) 4",
+            "source": "Neil Young 3",
+            "target": "Rick Springfield 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "marvin lee aday (Q152929) 4",
+            "source": "Neil Young 3",
+            "target": "Meat Loaf 4",
             "value": 0.004233389998226089
         },
         {
-            "source": "niel young (Q633) 3",
-            "target": "james ingram/comments (Q435789) 4",
+            "source": "Neil Young 3",
+            "target": "James Ingram 4",
             "value": 0.004233389998226089
         }
     ],
@@ -1108,7 +1108,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "warner bros. nashville (Q843402) 0",
+            "name": "Warner Bros. Records 0",
             "url": "https://www.wikidata.org/wiki/Q843402",
             "value": 1.0
         },
@@ -1118,7 +1118,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sheila escovedo (Q250905) 1",
+            "name": "Sheila E. 1",
             "url": "https://www.wikidata.org/wiki/Q250905",
             "value": 1.0
         },
@@ -1128,7 +1128,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "xero (demo album) (Q261) 1",
+            "name": "Linkin Park 1",
             "url": "https://www.wikidata.org/wiki/Q261",
             "value": 0.9999998807907104
         },
@@ -1138,7 +1138,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "metalicca (Q15920) 1",
+            "name": "Metallica 1",
             "url": "https://www.wikidata.org/wiki/Q15920",
             "value": 0.9999998807907104
         },
@@ -1148,7 +1148,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "los lobos (Q370400) 1",
+            "name": "Los Lobos 1",
             "url": "https://www.wikidata.org/wiki/Q370400",
             "value": 0.5526288747787476
         },
@@ -1158,7 +1158,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "christian tritsch (Q544024) 1",
+            "name": "Gong 1",
             "url": "https://www.wikidata.org/wiki/Q544024",
             "value": 0.5453920960426331
         },
@@ -1168,7 +1168,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lotus (dir en grey song) (Q379852) 1",
+            "name": "Dir En Grey 1",
             "url": "https://www.wikidata.org/wiki/Q379852",
             "value": 0.5092942714691162
         },
@@ -1178,7 +1178,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "muesel (Q507863) 1",
+            "name": "Gwar 1",
             "url": "https://www.wikidata.org/wiki/Q507863",
             "value": 0.5092702507972717
         },
@@ -1188,7 +1188,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "the samshing pumpkins (Q184217) 1",
+            "name": "The Smashing Pumpkins 1",
             "url": "https://www.wikidata.org/wiki/Q184217",
             "value": 0.5045983195304871
         },
@@ -1198,7 +1198,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "tony levin/comments (Q216986) 1",
+            "name": "Tony Levin 1",
             "url": "https://www.wikidata.org/wiki/Q216986",
             "value": 0.5034825801849365
         },
@@ -1208,7 +1208,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "curse of fallen soul (Q938630) 1",
+            "name": "Dropkick Murphys 1",
             "url": "https://www.wikidata.org/wiki/Q938630",
             "value": 0.49949225783348083
         },
@@ -1218,7 +1218,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "frontman (Q1045845) 2",
+            "name": "lead vocalist 2",
             "url": "https://www.wikidata.org/wiki/Q1045845",
             "value": 1.0
         },
@@ -1228,7 +1228,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "bernadette peters (Q231391) 3",
+            "name": "Bernadette Peters 3",
             "url": "https://www.wikidata.org/wiki/Q231391",
             "value": 0.9997560381889343
         },
@@ -1238,7 +1238,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "john gielgud (Q204685) 3",
+            "name": "John Gielgud 3",
             "url": "https://www.wikidata.org/wiki/Q204685",
             "value": 0.9997310042381287
         },
@@ -1248,7 +1248,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "daphne aguilera (Q367094) 3",
+            "name": "Andy Dick 3",
             "url": "https://www.wikidata.org/wiki/Q367094",
             "value": 0.9996254444122314
         },
@@ -1258,7 +1258,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "richard lewis springthorpe (Q707446) 3",
+            "name": "Rick Springfield 3",
             "url": "https://www.wikidata.org/wiki/Q707446",
             "value": 0.4401783049106598
         },
@@ -1268,7 +1268,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "stephen laurence \"steve\" winwood (Q314397) 3",
+            "name": "Steve Winwood 3",
             "url": "https://www.wikidata.org/wiki/Q314397",
             "value": 0.43762776255607605
         },
@@ -1278,7 +1278,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lewis a. reed (Q189080) 3",
+            "name": "Lou Reed 3",
             "url": "https://www.wikidata.org/wiki/Q189080",
             "value": 0.43330830335617065
         },
@@ -1288,7 +1288,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chris seefried (Q2964857) 3",
+            "name": "Chris Seefried 3",
             "url": "https://www.wikidata.org/wiki/Q2964857",
             "value": 0.4325999617576599
         },
@@ -1298,7 +1298,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "david grisman (Q1174604) 3",
+            "name": "David Grisman 3",
             "url": "https://www.wikidata.org/wiki/Q1174604",
             "value": 0.4286258816719055
         },
@@ -1308,7 +1308,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "ambeon (Q455959) 3",
+            "name": "Arjen Anthony Lucassen 3",
             "url": "https://www.wikidata.org/wiki/Q455959",
             "value": 0.42399463057518005
         },
@@ -1318,7 +1318,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "niel young (Q633) 3",
+            "name": "Neil Young 3",
             "url": "https://www.wikidata.org/wiki/Q633",
             "value": 0.42333900928497314
         },
@@ -1328,7 +1328,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sheila escovedo (Q250905) 4",
+            "name": "Sheila E. 4",
             "url": "https://www.wikidata.org/wiki/Q250905",
             "value": 1.0
         },
@@ -1338,7 +1338,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "chaka khan (Q229498) 4",
+            "name": "Chaka Khan 4",
             "url": "https://www.wikidata.org/wiki/Q229498",
             "value": 1.0
         },
@@ -1348,7 +1348,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "metalicca (Q15920) 4",
+            "name": "Metallica 4",
             "url": "https://www.wikidata.org/wiki/Q15920",
             "value": 1.0
         },
@@ -1358,7 +1358,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "los lobos (Q370400) 4",
+            "name": "Los Lobos 4",
             "url": "https://www.wikidata.org/wiki/Q370400",
             "value": 0.6898907423019409
         },
@@ -1368,7 +1368,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "glen ballard (Q920983) 4",
+            "name": "Glen Ballard 4",
             "url": "https://www.wikidata.org/wiki/Q920983",
             "value": 0.6854161024093628
         },
@@ -1378,7 +1378,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "brad douglas paisley (Q39639) 4",
+            "name": "Brad Paisley 4",
             "url": "https://www.wikidata.org/wiki/Q39639",
             "value": 0.6816375851631165
         },
@@ -1388,7 +1388,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "tony levin/comments (Q216986) 4",
+            "name": "Tony Levin 4",
             "url": "https://www.wikidata.org/wiki/Q216986",
             "value": 0.680314838886261
         },
@@ -1398,7 +1398,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "richard lewis springthorpe (Q707446) 4",
+            "name": "Rick Springfield 4",
             "url": "https://www.wikidata.org/wiki/Q707446",
             "value": 0.676494836807251
         },
@@ -1408,7 +1408,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "marvin lee aday (Q152929) 4",
+            "name": "Meat Loaf 4",
             "url": "https://www.wikidata.org/wiki/Q152929",
             "value": 0.6751765608787537
         },
@@ -1418,7 +1418,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "james ingram/comments (Q435789) 4",
+            "name": "James Ingram 4",
             "url": "https://www.wikidata.org/wiki/Q435789",
             "value": 0.6732650995254517
         }

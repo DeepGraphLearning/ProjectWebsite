@@ -1,2153 +1,2153 @@
 {
     "edges": [
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 1",
+            "source": "defender 0",
+            "target": "Hannover 96 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "rasenballsport leipzig (Q702455) 1",
+            "source": "defender 0",
+            "target": "RB Leipzig 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "vizekusen (Q104761) 1",
+            "source": "defender 0",
+            "target": "Bayer 04 Leverkusen 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "belarusian national football team (Q186252) 1",
+            "source": "defender 0",
+            "target": "Belarus national football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "us lecce (Q13391) 1",
+            "source": "defender 0",
+            "target": "U.S. Lecce 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "a.c. cesena (Q6664) 1",
+            "source": "defender 0",
+            "target": "A.C. Cesena 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "fc torpedo-d moscow (Q324338) 1",
+            "source": "defender 0",
+            "target": "FC Torpedo Moscow 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "austrian national football team (Q163534) 1",
+            "source": "defender 0",
+            "target": "Austria national association football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "1. fc union berlin (Q141971) 1",
+            "source": "defender 0",
+            "target": "1. FC Union Berlin 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "leftwingback (Q336286) 0",
-            "target": "gold coast national football team (Q172014) 1",
+            "source": "defender 0",
+            "target": "Ghana national football team 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Hannover 96 1",
+            "target": "Hannover 96 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Hannover 96 1",
+            "target": "RB Leipzig 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Hannover 96 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Hannover 96 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Hannover 96 1",
+            "target": "Belarus national football team 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Hannover 96 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Hannover 96 1",
+            "target": "Croatia national association football team 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "Hannover 96 1",
+            "target": "Chile national football team 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "Hannover 96 1",
+            "target": "U.S. Lecce 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Hannover 96 1",
+            "target": "A.C. Cesena 4",
             "value": 0.009999384656562249
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "RB Leipzig 1",
+            "target": "Hannover 96 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "RB Leipzig 1",
+            "target": "RB Leipzig 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "RB Leipzig 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "RB Leipzig 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "RB Leipzig 1",
+            "target": "Belarus national football team 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "RB Leipzig 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "RB Leipzig 1",
+            "target": "Croatia national association football team 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "RB Leipzig 1",
+            "target": "Chile national football team 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "RB Leipzig 1",
+            "target": "U.S. Lecce 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "RB Leipzig 1",
+            "target": "A.C. Cesena 4",
             "value": 0.00999906994404487
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Hannover 96 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "RB Leipzig 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Belarus national football team 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Croatia national association football team 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "Chile national football team 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "U.S. Lecce 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "vizekusen (Q104761) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Bayer 04 Leverkusen 1",
+            "target": "A.C. Cesena 4",
             "value": 0.00999850369993216
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Belarus national football team 1",
+            "target": "Hannover 96 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Belarus national football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Belarus national football team 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Belarus national football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Belarus national football team 1",
+            "target": "Belarus national football team 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Belarus national football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Belarus national football team 1",
+            "target": "Croatia national association football team 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "Belarus national football team 1",
+            "target": "Chile national football team 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "Belarus national football team 1",
+            "target": "U.S. Lecce 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "belarusian national football team (Q186252) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Belarus national football team 1",
+            "target": "A.C. Cesena 4",
             "value": 0.0052665178790721745
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Hannover 96 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "U.S. Lecce 1",
+            "target": "RB Leipzig 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Belarus national football team 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Croatia national association football team 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "U.S. Lecce 1",
+            "target": "Chile national football team 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "U.S. Lecce 1",
+            "target": "U.S. Lecce 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "us lecce (Q13391) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "U.S. Lecce 1",
+            "target": "A.C. Cesena 4",
             "value": 0.005210751774666789
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Hannover 96 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "A.C. Cesena 1",
+            "target": "RB Leipzig 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Belarus national football team 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Croatia national association football team 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "A.C. Cesena 1",
+            "target": "Chile national football team 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "A.C. Cesena 1",
+            "target": "U.S. Lecce 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "a.c. cesena (Q6664) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "A.C. Cesena 1",
+            "target": "A.C. Cesena 4",
             "value": 0.005172546390312616
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Hannover 96 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "RB Leipzig 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Belarus national football team 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Croatia national association football team 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "Chile national football team 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "U.S. Lecce 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "FC Torpedo Moscow 1",
+            "target": "A.C. Cesena 4",
             "value": 0.0051607214250999345
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Austria national association football team 1",
+            "target": "Hannover 96 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Austria national association football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Austria national association football team 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Austria national association football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Austria national association football team 1",
+            "target": "Belarus national football team 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Austria national association football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Austria national association football team 1",
+            "target": "Croatia national association football team 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "Austria national association football team 1",
+            "target": "Chile national football team 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "Austria national association football team 1",
+            "target": "U.S. Lecce 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "austrian national football team (Q163534) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Austria national association football team 1",
+            "target": "A.C. Cesena 4",
             "value": 0.005150844339634975
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Hannover 96 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "RB Leipzig 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Belarus national football team 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Croatia national association football team 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "Chile national football team 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "U.S. Lecce 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "1. fc union berlin (Q141971) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "1. FC Union Berlin 1",
+            "target": "A.C. Cesena 4",
             "value": 0.005095054989418646
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Ghana national football team 1",
+            "target": "Hannover 96 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Ghana national football team 1",
+            "target": "RB Leipzig 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Ghana national football team 1",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Ghana national football team 1",
+            "target": "Bulgaria national football team 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Ghana national football team 1",
+            "target": "Belarus national football team 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Ghana national football team 1",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Ghana national football team 1",
+            "target": "Croatia national association football team 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "chile football team (Q172025) 4",
+            "source": "Ghana national football team 1",
+            "target": "Chile national football team 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "us lecce (Q13391) 4",
+            "source": "Ghana national football team 1",
+            "target": "U.S. Lecce 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "gold coast national football team (Q172014) 1",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Ghana national football team 1",
+            "target": "A.C. Cesena 4",
             "value": 0.005084702854945444
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "source": "midfielder 2",
+            "target": "Hannover 96 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "rasenballsport leipzig (Q702455) 3",
+            "source": "midfielder 2",
+            "target": "RB Leipzig 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "f.c. bayern m\u00fcnchen (Q15789) 3",
+            "source": "midfielder 2",
+            "target": "FC Bayern Munich 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "bulgarian national football team (Q180845) 3",
+            "source": "midfielder 2",
+            "target": "Bulgaria national football team 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "kazakhstan football team (Q183468) 3",
+            "source": "midfielder 2",
+            "target": "Kazakhstan national football team 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "france\u2013croatia football rivalry (Q134479) 3",
+            "source": "midfielder 2",
+            "target": "Croatia national association football team 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "chile football team (Q172025) 3",
+            "source": "midfielder 2",
+            "target": "Chile national football team 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "fc torpedo-d moscow (Q324338) 3",
+            "source": "midfielder 2",
+            "target": "FC Torpedo Moscow 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "e. cotbuss (Q107818) 3",
+            "source": "midfielder 2",
+            "target": "FC Energie Cottbus 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "right winger (football) (Q193592) 2",
-            "target": "a.f.c. wimbledon (Q48851) 3",
+            "source": "midfielder 2",
+            "target": "AFC Wimbledon 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Hannover 96 3",
+            "target": "Hannover 96 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Hannover 96 3",
+            "target": "RB Leipzig 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Hannover 96 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Hannover 96 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Hannover 96 3",
+            "target": "Belarus national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Hannover 96 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Hannover 96 3",
+            "target": "Croatia national association football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "Hannover 96 3",
+            "target": "Chile national football team 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "Hannover 96 3",
+            "target": "U.S. Lecce 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Hannover 96 3",
+            "target": "A.C. Cesena 4",
             "value": 0.009999402537955282
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "RB Leipzig 3",
+            "target": "Hannover 96 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "RB Leipzig 3",
+            "target": "RB Leipzig 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "RB Leipzig 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "RB Leipzig 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "RB Leipzig 3",
+            "target": "Belarus national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "RB Leipzig 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "RB Leipzig 3",
+            "target": "Croatia national association football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "RB Leipzig 3",
+            "target": "Chile national football team 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "RB Leipzig 3",
+            "target": "U.S. Lecce 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "RB Leipzig 3",
+            "target": "A.C. Cesena 4",
             "value": 0.00999862886968339
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Hannover 96 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "RB Leipzig 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Belarus national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Croatia national association football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "Chile national football team 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "U.S. Lecce 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "f.c. bayern m\u00fcnchen (Q15789) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "FC Bayern Munich 3",
+            "target": "A.C. Cesena 4",
             "value": 0.009998434558545766
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Hannover 96 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "RB Leipzig 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Belarus national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Croatia national association football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "Chile national football team 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "U.S. Lecce 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "bulgarian national football team (Q180845) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Bulgaria national football team 3",
+            "target": "A.C. Cesena 4",
             "value": 0.005284735442294131
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Hannover 96 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "RB Leipzig 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Belarus national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Croatia national association football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "Chile national football team 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "U.S. Lecce 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "kazakhstan football team (Q183468) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Kazakhstan national football team 3",
+            "target": "A.C. Cesena 4",
             "value": 0.005258470060114484
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Hannover 96 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Croatia national association football team 3",
+            "target": "RB Leipzig 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Belarus national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Croatia national association football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "Croatia national association football team 3",
+            "target": "Chile national football team 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "Croatia national association football team 3",
+            "target": "U.S. Lecce 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Croatia national association football team 3",
+            "target": "A.C. Cesena 4",
             "value": 0.005213193776908653
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "Chile national football team 3",
+            "target": "Hannover 96 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "Chile national football team 3",
+            "target": "RB Leipzig 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "Chile national football team 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "Chile national football team 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "Chile national football team 3",
+            "target": "Belarus national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "Chile national football team 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "Chile national football team 3",
+            "target": "Croatia national association football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "Chile national football team 3",
+            "target": "Chile national football team 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "Chile national football team 3",
+            "target": "U.S. Lecce 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "chile football team (Q172025) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "Chile national football team 3",
+            "target": "A.C. Cesena 4",
             "value": 0.0052095394162191555
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Hannover 96 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "RB Leipzig 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Belarus national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Croatia national association football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "Chile national football team 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "U.S. Lecce 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "fc torpedo-d moscow (Q324338) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "FC Torpedo Moscow 3",
+            "target": "A.C. Cesena 4",
             "value": 0.005177321318298844
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Hannover 96 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "RB Leipzig 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Belarus national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Croatia national association football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "Chile national football team 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "U.S. Lecce 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "e. cotbuss (Q107818) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "FC Energie Cottbus 3",
+            "target": "A.C. Cesena 4",
             "value": 0.005105932240800581
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Hannover 96 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "rasenballsport leipzig (Q702455) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "RB Leipzig 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "vizekusen (Q104761) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Bayer 04 Leverkusen 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "bulgarian national football team (Q180845) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Bulgaria national football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "belarusian national football team (Q186252) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Belarus national football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "kazakhstan football team (Q183468) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Kazakhstan national football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "france\u2013croatia football rivalry (Q134479) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Croatia national association football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "chile football team (Q172025) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "Chile national football team 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "us lecce (Q13391) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "U.S. Lecce 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "a.f.c. wimbledon (Q48851) 3",
-            "target": "a.c. cesena (Q6664) 4",
+            "source": "AFC Wimbledon 3",
+            "target": "A.C. Cesena 4",
             "value": 0.0051042460254375754
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Hannover 96 4",
+            "target": "Hannover 96 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Hannover 96 4",
+            "target": "RB Leipzig 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Hannover 96 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Hannover 96 4",
+            "target": "D.C. United 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Hannover 96 4",
+            "target": "F.C. Lorient 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Hannover 96 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Hannover 96 4",
+            "target": "Belarus national football team 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Hannover 96 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Hannover 96 4",
+            "target": "U.S. Lecce 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Hannover 96 4",
+            "target": "A.C. Cesena 7",
             "value": 0.009998787418034949
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "RB Leipzig 4",
+            "target": "Hannover 96 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "RB Leipzig 4",
+            "target": "RB Leipzig 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "RB Leipzig 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "RB Leipzig 4",
+            "target": "D.C. United 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "RB Leipzig 4",
+            "target": "F.C. Lorient 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "RB Leipzig 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "RB Leipzig 4",
+            "target": "Belarus national football team 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "RB Leipzig 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "RB Leipzig 4",
+            "target": "U.S. Lecce 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "RB Leipzig 4",
+            "target": "A.C. Cesena 7",
             "value": 0.009997699037245678
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "Hannover 96 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "RB Leipzig 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "D.C. United 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "F.C. Lorient 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "Belarus national football team 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "U.S. Lecce 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "vizekusen (Q104761) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Bayer 04 Leverkusen 4",
+            "target": "A.C. Cesena 7",
             "value": 0.009996574297623906
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "Hannover 96 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "RB Leipzig 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "D.C. United 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "F.C. Lorient 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "Belarus national football team 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "U.S. Lecce 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "bulgarian national football team (Q180845) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Bulgaria national football team 4",
+            "target": "A.C. Cesena 7",
             "value": 0.005281861902433738
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Belarus national football team 4",
+            "target": "Hannover 96 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Belarus national football team 4",
+            "target": "RB Leipzig 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Belarus national football team 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Belarus national football team 4",
+            "target": "D.C. United 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Belarus national football team 4",
+            "target": "F.C. Lorient 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Belarus national football team 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Belarus national football team 4",
+            "target": "Belarus national football team 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Belarus national football team 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Belarus national football team 4",
+            "target": "U.S. Lecce 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "belarusian national football team (Q186252) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Belarus national football team 4",
+            "target": "A.C. Cesena 7",
             "value": 0.005264873983006013
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "Hannover 96 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "RB Leipzig 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "D.C. United 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "F.C. Lorient 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "Belarus national football team 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "U.S. Lecce 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "kazakhstan football team (Q183468) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Kazakhstan national football team 4",
+            "target": "A.C. Cesena 7",
             "value": 0.005256534101295451
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Croatia national association football team 4",
+            "target": "Hannover 96 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Croatia national association football team 4",
+            "target": "RB Leipzig 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Croatia national association football team 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Croatia national association football team 4",
+            "target": "D.C. United 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Croatia national association football team 4",
+            "target": "F.C. Lorient 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Croatia national association football team 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Croatia national association football team 4",
+            "target": "Belarus national football team 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Croatia national association football team 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Croatia national association football team 4",
+            "target": "U.S. Lecce 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Croatia national association football team 4",
+            "target": "A.C. Cesena 7",
             "value": 0.00521200287613266
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Chile national football team 4",
+            "target": "Hannover 96 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Chile national football team 4",
+            "target": "RB Leipzig 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Chile national football team 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Chile national football team 4",
+            "target": "D.C. United 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Chile national football team 4",
+            "target": "F.C. Lorient 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Chile national football team 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Chile national football team 4",
+            "target": "Belarus national football team 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Chile national football team 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "Chile national football team 4",
+            "target": "U.S. Lecce 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "chile football team (Q172025) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Chile national football team 4",
+            "target": "A.C. Cesena 7",
             "value": 0.005207318547204465
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "U.S. Lecce 4",
+            "target": "Hannover 96 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "U.S. Lecce 4",
+            "target": "RB Leipzig 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "U.S. Lecce 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "U.S. Lecce 4",
+            "target": "D.C. United 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "U.S. Lecce 4",
+            "target": "F.C. Lorient 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "U.S. Lecce 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "U.S. Lecce 4",
+            "target": "Belarus national football team 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "U.S. Lecce 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "U.S. Lecce 4",
+            "target": "U.S. Lecce 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "us lecce (Q13391) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "U.S. Lecce 4",
+            "target": "A.C. Cesena 7",
             "value": 0.005205213907244488
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "A.C. Cesena 4",
+            "target": "Hannover 96 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "A.C. Cesena 4",
+            "target": "RB Leipzig 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "vizekusen (Q104761) 7",
+            "source": "A.C. Cesena 4",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "d.c. united (Q238593) 7",
+            "source": "A.C. Cesena 4",
+            "target": "D.C. United 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "fc lorient (Q48911) 7",
+            "source": "A.C. Cesena 4",
+            "target": "F.C. Lorient 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "A.C. Cesena 4",
+            "target": "Bulgaria national football team 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "A.C. Cesena 4",
+            "target": "Belarus national football team 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "A.C. Cesena 4",
+            "target": "Kazakhstan national football team 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "us lecce (Q13391) 7",
+            "source": "A.C. Cesena 4",
+            "target": "U.S. Lecce 7",
             "value": 0.0051698093450857074
         },
         {
-            "source": "a.c. cesena (Q6664) 4",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "A.C. Cesena 4",
+            "target": "A.C. Cesena 7",
             "value": 0.0051698093450857074
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "rasenballsport leipzig (Q702455) 6",
+            "target": "RB Leipzig 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "target": "Hannover 96 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "fc raketa gorky (Q643083) 6",
+            "target": "FC Volga Nizhny Novgorod 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "d.c. united (Q238593) 6",
+            "target": "D.C. United 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "fc lorient (Q48911) 6",
+            "target": "F.C. Lorient 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "coritiba foot ball club (Q478317) 6",
+            "target": "Coritiba F.C. 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "south africa football team (Q170327) 6",
+            "target": "South Africa national football team 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "france\u2013croatia football rivalry (Q134479) 6",
+            "target": "Croatia national association football team 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "suwon samsung bluewings f.c. (Q482449) 6",
+            "target": "Suwon Samsung Bluewings FC 6",
             "value": 0.009999999776482582
         },
         {
             "source": "/m/0dgrmp 5",
-            "target": "fussbal club luzern (Q223262) 6",
+            "target": "FC Luzern 6",
             "value": 0.009999999776482582
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "RB Leipzig 6",
+            "target": "Hannover 96 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "RB Leipzig 6",
+            "target": "RB Leipzig 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "RB Leipzig 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "RB Leipzig 6",
+            "target": "D.C. United 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "RB Leipzig 6",
+            "target": "F.C. Lorient 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "RB Leipzig 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "RB Leipzig 6",
+            "target": "Belarus national football team 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "RB Leipzig 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "RB Leipzig 6",
+            "target": "U.S. Lecce 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "rasenballsport leipzig (Q702455) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "RB Leipzig 6",
+            "target": "A.C. Cesena 7",
             "value": 0.00999990798533168
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Hannover 96 6",
+            "target": "Hannover 96 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Hannover 96 6",
+            "target": "RB Leipzig 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Hannover 96 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Hannover 96 6",
+            "target": "D.C. United 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Hannover 96 6",
+            "target": "F.C. Lorient 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Hannover 96 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Hannover 96 6",
+            "target": "Belarus national football team 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Hannover 96 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "Hannover 96 6",
+            "target": "U.S. Lecce 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "hannoverscher sportverein von 1896 (Q33748) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Hannover 96 6",
+            "target": "A.C. Cesena 7",
             "value": 0.009999811425809302
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "Hannover 96 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "RB Leipzig 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "D.C. United 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "F.C. Lorient 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "Belarus national football team 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "U.S. Lecce 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "fc raketa gorky (Q643083) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "FC Volga Nizhny Novgorod 6",
+            "target": "A.C. Cesena 7",
             "value": 0.009999804273252089
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "D.C. United 6",
+            "target": "Hannover 96 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "D.C. United 6",
+            "target": "RB Leipzig 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "D.C. United 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "D.C. United 6",
+            "target": "D.C. United 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "D.C. United 6",
+            "target": "F.C. Lorient 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "D.C. United 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "D.C. United 6",
+            "target": "Belarus national football team 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "D.C. United 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "D.C. United 6",
+            "target": "U.S. Lecce 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "d.c. united (Q238593) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "D.C. United 6",
+            "target": "A.C. Cesena 7",
             "value": 0.005345691323004109
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "F.C. Lorient 6",
+            "target": "Hannover 96 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "F.C. Lorient 6",
+            "target": "RB Leipzig 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "F.C. Lorient 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "F.C. Lorient 6",
+            "target": "D.C. United 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "F.C. Lorient 6",
+            "target": "F.C. Lorient 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "F.C. Lorient 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "F.C. Lorient 6",
+            "target": "Belarus national football team 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "F.C. Lorient 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "F.C. Lorient 6",
+            "target": "U.S. Lecce 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "fc lorient (Q48911) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "F.C. Lorient 6",
+            "target": "A.C. Cesena 7",
             "value": 0.0053008227355594295
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "Hannover 96 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "RB Leipzig 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "D.C. United 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "F.C. Lorient 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "Belarus national football team 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "U.S. Lecce 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "coritiba foot ball club (Q478317) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Coritiba F.C. 6",
+            "target": "A.C. Cesena 7",
             "value": 0.005202677133619549
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "South Africa national football team 6",
+            "target": "Hannover 96 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "South Africa national football team 6",
+            "target": "RB Leipzig 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "South Africa national football team 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "South Africa national football team 6",
+            "target": "D.C. United 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "South Africa national football team 6",
+            "target": "F.C. Lorient 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "South Africa national football team 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "South Africa national football team 6",
+            "target": "Belarus national football team 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "South Africa national football team 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "South Africa national football team 6",
+            "target": "U.S. Lecce 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "south africa football team (Q170327) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "South Africa national football team 6",
+            "target": "A.C. Cesena 7",
             "value": 0.005155562643209932
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Croatia national association football team 6",
+            "target": "Hannover 96 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Croatia national association football team 6",
+            "target": "RB Leipzig 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Croatia national association football team 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Croatia national association football team 6",
+            "target": "D.C. United 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Croatia national association football team 6",
+            "target": "F.C. Lorient 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Croatia national association football team 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Croatia national association football team 6",
+            "target": "Belarus national football team 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Croatia national association football team 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "Croatia national association football team 6",
+            "target": "U.S. Lecce 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "france\u2013croatia football rivalry (Q134479) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Croatia national association football team 6",
+            "target": "A.C. Cesena 7",
             "value": 0.005128866915504626
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "Hannover 96 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "RB Leipzig 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "D.C. United 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "F.C. Lorient 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "Belarus national football team 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "U.S. Lecce 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "suwon samsung bluewings f.c. (Q482449) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "Suwon Samsung Bluewings FC 6",
+            "target": "A.C. Cesena 7",
             "value": 0.0051231877850773655
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "source": "FC Luzern 6",
+            "target": "Hannover 96 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "rasenballsport leipzig (Q702455) 7",
+            "source": "FC Luzern 6",
+            "target": "RB Leipzig 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "vizekusen (Q104761) 7",
+            "source": "FC Luzern 6",
+            "target": "Bayer 04 Leverkusen 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "d.c. united (Q238593) 7",
+            "source": "FC Luzern 6",
+            "target": "D.C. United 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "fc lorient (Q48911) 7",
+            "source": "FC Luzern 6",
+            "target": "F.C. Lorient 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "bulgarian national football team (Q180845) 7",
+            "source": "FC Luzern 6",
+            "target": "Bulgaria national football team 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "belarusian national football team (Q186252) 7",
+            "source": "FC Luzern 6",
+            "target": "Belarus national football team 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "kazakhstan football team (Q183468) 7",
+            "source": "FC Luzern 6",
+            "target": "Kazakhstan national football team 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "us lecce (Q13391) 7",
+            "source": "FC Luzern 6",
+            "target": "U.S. Lecce 7",
             "value": 0.005119844560626641
         },
         {
-            "source": "fussbal club luzern (Q223262) 6",
-            "target": "a.c. cesena (Q6664) 7",
+            "source": "FC Luzern 6",
+            "target": "A.C. Cesena 7",
             "value": 0.005119844560626641
         }
     ],
@@ -2158,7 +2158,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "leftwingback (Q336286) 0",
+            "name": "defender 0",
             "url": "https://www.wikidata.org/wiki/Q336286",
             "value": 1.0
         },
@@ -2168,7 +2168,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 1",
+            "name": "Hannover 96 1",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.9999384880065918
         },
@@ -2178,7 +2178,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 1",
+            "name": "RB Leipzig 1",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9999070167541504
         },
@@ -2188,7 +2188,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "vizekusen (Q104761) 1",
+            "name": "Bayer 04 Leverkusen 1",
             "url": "https://www.wikidata.org/wiki/Q104761",
             "value": 0.9998503923416138
         },
@@ -2198,7 +2198,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "belarusian national football team (Q186252) 1",
+            "name": "Belarus national football team 1",
             "url": "https://www.wikidata.org/wiki/Q186252",
             "value": 0.5266517996788025
         },
@@ -2208,7 +2208,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "us lecce (Q13391) 1",
+            "name": "U.S. Lecce 1",
             "url": "https://www.wikidata.org/wiki/Q13391",
             "value": 0.5210751891136169
         },
@@ -2218,7 +2218,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "a.c. cesena (Q6664) 1",
+            "name": "A.C. Cesena 1",
             "url": "https://www.wikidata.org/wiki/Q6664",
             "value": 0.517254650592804
         },
@@ -2228,7 +2228,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc torpedo-d moscow (Q324338) 1",
+            "name": "FC Torpedo Moscow 1",
             "url": "https://www.wikidata.org/wiki/Q324338",
             "value": 0.516072154045105
         },
@@ -2238,7 +2238,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "austrian national football team (Q163534) 1",
+            "name": "Austria national association football team 1",
             "url": "https://www.wikidata.org/wiki/Q163534",
             "value": 0.515084445476532
         },
@@ -2248,7 +2248,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "1. fc union berlin (Q141971) 1",
+            "name": "1. FC Union Berlin 1",
             "url": "https://www.wikidata.org/wiki/Q141971",
             "value": 0.5095055103302002
         },
@@ -2258,7 +2258,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "gold coast national football team (Q172014) 1",
+            "name": "Ghana national football team 1",
             "url": "https://www.wikidata.org/wiki/Q172014",
             "value": 0.5084702968597412
         },
@@ -2268,7 +2268,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "right winger (football) (Q193592) 2",
+            "name": "midfielder 2",
             "url": "https://www.wikidata.org/wiki/Q193592",
             "value": 1.0
         },
@@ -2278,7 +2278,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 3",
+            "name": "Hannover 96 3",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.9999402761459351
         },
@@ -2288,7 +2288,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 3",
+            "name": "RB Leipzig 3",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9998629093170166
         },
@@ -2298,7 +2298,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "f.c. bayern m\u00fcnchen (Q15789) 3",
+            "name": "FC Bayern Munich 3",
             "url": "https://www.wikidata.org/wiki/Q15789",
             "value": 0.9998434782028198
         },
@@ -2308,7 +2308,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bulgarian national football team (Q180845) 3",
+            "name": "Bulgaria national football team 3",
             "url": "https://www.wikidata.org/wiki/Q180845",
             "value": 0.5284735560417175
         },
@@ -2318,7 +2318,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kazakhstan football team (Q183468) 3",
+            "name": "Kazakhstan national football team 3",
             "url": "https://www.wikidata.org/wiki/Q183468",
             "value": 0.5258470177650452
         },
@@ -2328,7 +2328,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "france\u2013croatia football rivalry (Q134479) 3",
+            "name": "Croatia national association football team 3",
             "url": "https://www.wikidata.org/wiki/Q134479",
             "value": 0.5213193893432617
         },
@@ -2338,7 +2338,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chile football team (Q172025) 3",
+            "name": "Chile national football team 3",
             "url": "https://www.wikidata.org/wiki/Q172025",
             "value": 0.5209539532661438
         },
@@ -2348,7 +2348,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc torpedo-d moscow (Q324338) 3",
+            "name": "FC Torpedo Moscow 3",
             "url": "https://www.wikidata.org/wiki/Q324338",
             "value": 0.5177321434020996
         },
@@ -2358,7 +2358,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "e. cotbuss (Q107818) 3",
+            "name": "FC Energie Cottbus 3",
             "url": "https://www.wikidata.org/wiki/Q107818",
             "value": 0.5105932354927063
         },
@@ -2368,7 +2368,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "a.f.c. wimbledon (Q48851) 3",
+            "name": "AFC Wimbledon 3",
             "url": "https://www.wikidata.org/wiki/Q48851",
             "value": 0.5104246139526367
         },
@@ -2378,7 +2378,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 4",
+            "name": "Hannover 96 4",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.9998787641525269
         },
@@ -2388,7 +2388,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 4",
+            "name": "RB Leipzig 4",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.999769926071167
         },
@@ -2398,7 +2398,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "vizekusen (Q104761) 4",
+            "name": "Bayer 04 Leverkusen 4",
             "url": "https://www.wikidata.org/wiki/Q104761",
             "value": 0.9996574521064758
         },
@@ -2408,7 +2408,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bulgarian national football team (Q180845) 4",
+            "name": "Bulgaria national football team 4",
             "url": "https://www.wikidata.org/wiki/Q180845",
             "value": 0.5281862020492554
         },
@@ -2418,7 +2418,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "belarusian national football team (Q186252) 4",
+            "name": "Belarus national football team 4",
             "url": "https://www.wikidata.org/wiki/Q186252",
             "value": 0.526487410068512
         },
@@ -2428,7 +2428,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kazakhstan football team (Q183468) 4",
+            "name": "Kazakhstan national football team 4",
             "url": "https://www.wikidata.org/wiki/Q183468",
             "value": 0.5256534218788147
         },
@@ -2438,7 +2438,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "france\u2013croatia football rivalry (Q134479) 4",
+            "name": "Croatia national association football team 4",
             "url": "https://www.wikidata.org/wiki/Q134479",
             "value": 0.5212002992630005
         },
@@ -2448,7 +2448,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chile football team (Q172025) 4",
+            "name": "Chile national football team 4",
             "url": "https://www.wikidata.org/wiki/Q172025",
             "value": 0.5207318663597107
         },
@@ -2458,7 +2458,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "us lecce (Q13391) 4",
+            "name": "U.S. Lecce 4",
             "url": "https://www.wikidata.org/wiki/Q13391",
             "value": 0.5205214023590088
         },
@@ -2468,7 +2468,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "a.c. cesena (Q6664) 4",
+            "name": "A.C. Cesena 4",
             "url": "https://www.wikidata.org/wiki/Q6664",
             "value": 0.5169809460639954
         },
@@ -2487,7 +2487,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 6",
+            "name": "RB Leipzig 6",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9999908208847046
         },
@@ -2497,7 +2497,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 6",
+            "name": "Hannover 96 6",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.999981164932251
         },
@@ -2507,7 +2507,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "fc raketa gorky (Q643083) 6",
+            "name": "FC Volga Nizhny Novgorod 6",
             "url": "https://www.wikidata.org/wiki/Q643083",
             "value": 0.9999804496765137
         },
@@ -2517,7 +2517,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "d.c. united (Q238593) 6",
+            "name": "D.C. United 6",
             "url": "https://www.wikidata.org/wiki/Q238593",
             "value": 0.5345691442489624
         },
@@ -2527,7 +2527,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc lorient (Q48911) 6",
+            "name": "F.C. Lorient 6",
             "url": "https://www.wikidata.org/wiki/Q48911",
             "value": 0.5300822854042053
         },
@@ -2537,7 +2537,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "coritiba foot ball club (Q478317) 6",
+            "name": "Coritiba F.C. 6",
             "url": "https://www.wikidata.org/wiki/Q478317",
             "value": 0.5202677249908447
         },
@@ -2547,7 +2547,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "south africa football team (Q170327) 6",
+            "name": "South Africa national football team 6",
             "url": "https://www.wikidata.org/wiki/Q170327",
             "value": 0.515556275844574
         },
@@ -2557,7 +2557,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "france\u2013croatia football rivalry (Q134479) 6",
+            "name": "Croatia national association football team 6",
             "url": "https://www.wikidata.org/wiki/Q134479",
             "value": 0.5128867030143738
         },
@@ -2567,7 +2567,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "suwon samsung bluewings f.c. (Q482449) 6",
+            "name": "Suwon Samsung Bluewings FC 6",
             "url": "https://www.wikidata.org/wiki/Q482449",
             "value": 0.5123187899589539
         },
@@ -2577,7 +2577,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fussbal club luzern (Q223262) 6",
+            "name": "FC Luzern 6",
             "url": "https://www.wikidata.org/wiki/Q223262",
             "value": 0.5119844675064087
         },
@@ -2587,7 +2587,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "hannoverscher sportverein von 1896 (Q33748) 7",
+            "name": "Hannover 96 7",
             "url": "https://www.wikidata.org/wiki/Q33748",
             "value": 0.9998599290847778
         },
@@ -2597,7 +2597,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "rasenballsport leipzig (Q702455) 7",
+            "name": "RB Leipzig 7",
             "url": "https://www.wikidata.org/wiki/Q702455",
             "value": 0.9997607469558716
         },
@@ -2607,7 +2607,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "vizekusen (Q104761) 7",
+            "name": "Bayer 04 Leverkusen 7",
             "url": "https://www.wikidata.org/wiki/Q104761",
             "value": 0.9995957016944885
         },
@@ -2617,7 +2617,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "d.c. united (Q238593) 7",
+            "name": "D.C. United 7",
             "url": "https://www.wikidata.org/wiki/Q238593",
             "value": 0.534087061882019
         },
@@ -2627,7 +2627,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "fc lorient (Q48911) 7",
+            "name": "F.C. Lorient 7",
             "url": "https://www.wikidata.org/wiki/Q48911",
             "value": 0.5296695828437805
         },
@@ -2637,7 +2637,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bulgarian national football team (Q180845) 7",
+            "name": "Bulgaria national football team 7",
             "url": "https://www.wikidata.org/wiki/Q180845",
             "value": 0.5281257033348083
         },
@@ -2647,7 +2647,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "belarusian national football team (Q186252) 7",
+            "name": "Belarus national football team 7",
             "url": "https://www.wikidata.org/wiki/Q186252",
             "value": 0.5264194011688232
         },
@@ -2657,7 +2657,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kazakhstan football team (Q183468) 7",
+            "name": "Kazakhstan national football team 7",
             "url": "https://www.wikidata.org/wiki/Q183468",
             "value": 0.5255768299102783
         },
@@ -2667,7 +2667,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "us lecce (Q13391) 7",
+            "name": "U.S. Lecce 7",
             "url": "https://www.wikidata.org/wiki/Q13391",
             "value": 0.5204910635948181
         },
@@ -2677,7 +2677,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "a.c. cesena (Q6664) 7",
+            "name": "A.C. Cesena 7",
             "url": "https://www.wikidata.org/wiki/Q6664",
             "value": 0.5169390439987183
         }

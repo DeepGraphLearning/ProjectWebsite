@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "cullum number (Q9219) 0 [rank = 1]",
+            "source": "United States Military Academy 0 [rank = 1]",
             "target": "/m/028rk 1 [rank = 1]",
             "value": 0.5
         },
         {
             "source": "/m/028rk 1 [rank = 1]",
-            "target": "usa space agency (Q23548) 2 [rank = 1]",
+            "target": "National Aeronautics and Space Administration 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "usa space agency (Q23548) 2 [rank = 1]",
-            "target": "usa space agency (Q23548) 5 [rank = 2]",
+            "source": "National Aeronautics and Space Administration 2 [rank = 1]",
+            "target": "National Aeronautics and Space Administration 5 [rank = 2]",
             "value": 0.5
         },
         {
-            "source": "buzz aldren (Q2252) 3 [rank = 1]",
-            "target": "usa space agency (Q23548) 4 [rank = 934]",
+            "source": "Buzz Aldrin 3 [rank = 1]",
+            "target": "National Aeronautics and Space Administration 4 [rank = 934]",
             "value": 0.5
         },
         {
-            "source": "usa space agency (Q23548) 4 [rank = 934]",
-            "target": "usa space agency (Q23548) 5 [rank = 2]",
+            "source": "National Aeronautics and Space Administration 4 [rank = 934]",
+            "target": "National Aeronautics and Space Administration 5 [rank = 2]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "cullum number (Q9219) 0 [rank = 1]",
+            "name": "United States Military Academy 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q9219",
             "value": 1
         },
@@ -52,7 +52,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "usa space agency (Q23548) 2 [rank = 1]",
+            "name": "National Aeronautics and Space Administration 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q23548",
             "value": 1
         },
@@ -62,7 +62,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "buzz aldren (Q2252) 3 [rank = 1]",
+            "name": "Buzz Aldrin 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2252",
             "value": 1
         },
@@ -72,7 +72,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "usa space agency (Q23548) 4 [rank = 934]",
+            "name": "National Aeronautics and Space Administration 4 [rank = 934]",
             "url": "https://www.wikidata.org/wiki/Q23548",
             "value": 1
         },
@@ -82,7 +82,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "usa space agency (Q23548) 5 [rank = 2]",
+            "name": "National Aeronautics and Space Administration 5 [rank = 2]",
             "url": "https://www.wikidata.org/wiki/Q23548",
             "value": 1
         }

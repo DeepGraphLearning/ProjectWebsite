@@ -2,22 +2,22 @@
     "edges": [
         {
             "source": "/m/0263cyj 0 [rank = 1]",
-            "target": "2004 march madness (Q3994980) 1 [rank = 1]",
+            "target": "2004 NCAA Men's Division I Basketball Tournament 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "2004 march madness (Q3994980) 1 [rank = 1]",
-            "target": "2004 march madness (Q3994980) 4 [rank = 11]",
+            "source": "2004 NCAA Men's Division I Basketball Tournament 1 [rank = 1]",
+            "target": "2004 NCAA Men's Division I Basketball Tournament 4 [rank = 11]",
             "value": 0.5
         },
         {
             "source": "/m/02q4ntp 2 [rank = 1]",
-            "target": "2004 march madness (Q3994980) 3 [rank = 4]",
+            "target": "2004 NCAA Men's Division I Basketball Tournament 3 [rank = 4]",
             "value": 0.5
         },
         {
-            "source": "2004 march madness (Q3994980) 3 [rank = 4]",
-            "target": "2004 march madness (Q3994980) 4 [rank = 11]",
+            "source": "2004 NCAA Men's Division I Basketball Tournament 3 [rank = 4]",
+            "target": "2004 NCAA Men's Division I Basketball Tournament 4 [rank = 11]",
             "value": 0.5
         }
     ],
@@ -37,7 +37,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "2004 march madness (Q3994980) 1 [rank = 1]",
+            "name": "2004 NCAA Men's Division I Basketball Tournament 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q3994980",
             "value": 1
         },
@@ -56,7 +56,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "2004 march madness (Q3994980) 3 [rank = 4]",
+            "name": "2004 NCAA Men's Division I Basketball Tournament 3 [rank = 4]",
             "url": "https://www.wikidata.org/wiki/Q3994980",
             "value": 1
         },
@@ -66,7 +66,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "2004 march madness (Q3994980) 4 [rank = 11]",
+            "name": "2004 NCAA Men's Division I Basketball Tournament 4 [rank = 11]",
             "url": "https://www.wikidata.org/wiki/Q3994980",
             "value": 1
         }

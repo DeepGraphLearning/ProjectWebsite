@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "dubs (Q157376) 0 [rank = 1]",
-            "target": "univ of fla (Q501758) 1 [rank = 7]",
+            "source": "Golden State Warriors 0 [rank = 1]",
+            "target": "University of Florida 1 [rank = 7]",
             "value": 0.5
         },
         {
-            "source": "univ of fla (Q501758) 1 [rank = 7]",
-            "target": "univ of fla (Q501758) 5 [rank = 401]",
+            "source": "University of Florida 1 [rank = 7]",
+            "target": "University of Florida 5 [rank = 401]",
             "value": 0.5
         },
         {
-            "source": "nba draft 06 (Q1471357) 2 [rank = 1]",
-            "target": "lsu (Q1521725) 3 [rank = 1]",
+            "source": "2006 NBA Draft 2 [rank = 1]",
+            "target": "Louisiana State University 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "lsu (Q1521725) 3 [rank = 1]",
-            "target": "univ of fla (Q501758) 4 [rank = 4]",
+            "source": "Louisiana State University 3 [rank = 1]",
+            "target": "University of Florida 4 [rank = 4]",
             "value": 0.5
         },
         {
-            "source": "univ of fla (Q501758) 4 [rank = 4]",
-            "target": "univ of fla (Q501758) 5 [rank = 401]",
+            "source": "University of Florida 4 [rank = 4]",
+            "target": "University of Florida 5 [rank = 401]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dubs (Q157376) 0 [rank = 1]",
+            "name": "Golden State Warriors 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q157376",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "univ of fla (Q501758) 1 [rank = 7]",
+            "name": "University of Florida 1 [rank = 7]",
             "url": "https://www.wikidata.org/wiki/Q501758",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "nba draft 06 (Q1471357) 2 [rank = 1]",
+            "name": "2006 NBA Draft 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1471357",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "lsu (Q1521725) 3 [rank = 1]",
+            "name": "Louisiana State University 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1521725",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "univ of fla (Q501758) 4 [rank = 4]",
+            "name": "University of Florida 4 [rank = 4]",
             "url": "https://www.wikidata.org/wiki/Q501758",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "univ of fla (Q501758) 5 [rank = 401]",
+            "name": "University of Florida 5 [rank = 401]",
             "url": "https://www.wikidata.org/wiki/Q501758",
             "value": 1
         }

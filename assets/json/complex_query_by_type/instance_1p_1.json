@@ -1,8 +1,8 @@
 {
     "edges": [
         {
-            "source": "amy irving (Q235020) 0 [rank = 1]",
-            "target": "terror in the aisles (Q3984794) 1 [rank = 3]",
+            "source": "Amy Irving 0 [rank = 1]",
+            "target": "Terror in the Aisles 1 [rank = 3]",
             "value": 0.5
         }
     ],
@@ -13,7 +13,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "amy irving (Q235020) 0 [rank = 1]",
+            "name": "Amy Irving 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q235020",
             "value": 1
         },
@@ -23,7 +23,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "terror in the aisles (Q3984794) 1 [rank = 3]",
+            "name": "Terror in the Aisles 1 [rank = 3]",
             "url": "https://www.wikidata.org/wiki/Q3984794",
             "value": 1
         }

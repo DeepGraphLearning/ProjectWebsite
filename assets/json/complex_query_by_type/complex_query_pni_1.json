@@ -1,1403 +1,1403 @@
 {
     "edges": [
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "colorectal cancer (Q188874) 1",
+            "source": "dyspnea 0",
+            "target": "colorectal cancer 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "causes of heart failure (Q181754) 1",
+            "source": "dyspnea 0",
+            "target": "heart failure 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "extrapulmonary (Q12204) 1",
+            "source": "dyspnea 0",
+            "target": "tuberculosis 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "bladder neoplasms (Q504775) 1",
+            "source": "dyspnea 0",
+            "target": "bladder cancer 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "tertian fever (Q12156) 1",
+            "source": "dyspnea 0",
+            "target": "malaria 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "hepatic insufficiency i (Q970208) 1",
+            "source": "dyspnea 0",
+            "target": "liver failure 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
+            "source": "dyspnea 0",
             "target": "/m/01n3bm 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "hepatitis antibodies (Q131742) 1",
+            "source": "dyspnea 0",
+            "target": "hepatitis 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
-            "target": "leukaemia (Q29496) 1",
+            "source": "dyspnea 0",
+            "target": "leukemia 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "dyspnoe (Q188008) 0",
+            "source": "dyspnea 0",
             "target": "/m/03p41 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "colorectal cancer 1",
+            "target": "Jessica Tandy 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "colorectal cancer 1",
+            "target": "George Washington 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "colorectal cancer 1",
+            "target": "June Allyson 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "colorectal cancer 1",
+            "target": "Truman Capote 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "colorectal cancer 1",
+            "target": "Telly Savalas 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "colorectal cancer 1",
+            "target": "Stan Winston 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "colorectal cancer 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "colorectal cancer 1",
+            "target": "David Watkin 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "colorectal cancer 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "colorectal cancer (Q188874) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "colorectal cancer 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.009999838843945286
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "heart failure 1",
+            "target": "Jessica Tandy 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "heart failure 1",
+            "target": "George Washington 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "heart failure 1",
+            "target": "June Allyson 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "heart failure 1",
+            "target": "Truman Capote 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "heart failure 1",
+            "target": "Telly Savalas 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "heart failure 1",
+            "target": "Stan Winston 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "heart failure 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "heart failure 1",
+            "target": "David Watkin 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "heart failure 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "causes of heart failure (Q181754) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "heart failure 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.009999735131865695
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "tuberculosis 1",
+            "target": "Jessica Tandy 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "tuberculosis 1",
+            "target": "George Washington 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "tuberculosis 1",
+            "target": "June Allyson 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "tuberculosis 1",
+            "target": "Truman Capote 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "tuberculosis 1",
+            "target": "Telly Savalas 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "tuberculosis 1",
+            "target": "Stan Winston 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "tuberculosis 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "tuberculosis 1",
+            "target": "David Watkin 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "tuberculosis 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "extrapulmonary (Q12204) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "tuberculosis 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.00999969817698676
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "bladder cancer 1",
+            "target": "Jessica Tandy 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "bladder cancer 1",
+            "target": "George Washington 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "bladder cancer 1",
+            "target": "June Allyson 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "bladder cancer 1",
+            "target": "Truman Capote 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "bladder cancer 1",
+            "target": "Telly Savalas 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "bladder cancer 1",
+            "target": "Stan Winston 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "bladder cancer 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "bladder cancer 1",
+            "target": "David Watkin 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "bladder cancer 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "bladder neoplasms (Q504775) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "bladder cancer 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.005300169468667293
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "malaria 1",
+            "target": "Jessica Tandy 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "malaria 1",
+            "target": "George Washington 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "malaria 1",
+            "target": "June Allyson 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "malaria 1",
+            "target": "Truman Capote 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "malaria 1",
+            "target": "Telly Savalas 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "malaria 1",
+            "target": "Stan Winston 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "malaria 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "malaria 1",
+            "target": "David Watkin 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "malaria 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "tertian fever (Q12156) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "malaria 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.005288061977444691
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "liver failure 1",
+            "target": "Jessica Tandy 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "liver failure 1",
+            "target": "George Washington 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "liver failure 1",
+            "target": "June Allyson 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "liver failure 1",
+            "target": "Truman Capote 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "liver failure 1",
+            "target": "Telly Savalas 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "liver failure 1",
+            "target": "Stan Winston 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "liver failure 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "liver failure 1",
+            "target": "David Watkin 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "liver failure 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.005222257258990615
         },
         {
-            "source": "hepatic insufficiency i (Q970208) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "liver failure 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.005222257258990615
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "jessica tandy (Q182104) 2",
+            "target": "Jessica Tandy 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "1st us president (Q23) 2",
+            "target": "George Washington 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "ella geisman (Q232863) 2",
+            "target": "June Allyson 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "truman persons (Q134180) 2",
+            "target": "Truman Capote 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "telly savalas (Q209471) 2",
+            "target": "Telly Savalas 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "stan winston (Q320211) 2",
+            "target": "Stan Winston 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "target": "Oliver Cromwell 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "target": "David Watkin 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "target": "Jorge Luis Borges 2",
             "value": 0.00516347694776631
         },
         {
             "source": "/m/01n3bm 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "target": "Shammi Kapoor 2",
             "value": 0.00516347694776631
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "hepatitis 1",
+            "target": "Jessica Tandy 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "hepatitis 1",
+            "target": "George Washington 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "hepatitis 1",
+            "target": "June Allyson 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "hepatitis 1",
+            "target": "Truman Capote 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "hepatitis 1",
+            "target": "Telly Savalas 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "hepatitis 1",
+            "target": "Stan Winston 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "hepatitis 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "hepatitis 1",
+            "target": "David Watkin 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "hepatitis 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "hepatitis antibodies (Q131742) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "hepatitis 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.005150706652908621
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "jessica tandy (Q182104) 2",
+            "source": "leukemia 1",
+            "target": "Jessica Tandy 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "1st us president (Q23) 2",
+            "source": "leukemia 1",
+            "target": "George Washington 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "ella geisman (Q232863) 2",
+            "source": "leukemia 1",
+            "target": "June Allyson 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "truman persons (Q134180) 2",
+            "source": "leukemia 1",
+            "target": "Truman Capote 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "telly savalas (Q209471) 2",
+            "source": "leukemia 1",
+            "target": "Telly Savalas 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "stan winston (Q320211) 2",
+            "source": "leukemia 1",
+            "target": "Stan Winston 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "source": "leukemia 1",
+            "target": "Oliver Cromwell 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "source": "leukemia 1",
+            "target": "David Watkin 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "source": "leukemia 1",
+            "target": "Jorge Luis Borges 2",
             "value": 0.005141489986893011
         },
         {
-            "source": "leukaemia (Q29496) 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "source": "leukemia 1",
+            "target": "Shammi Kapoor 2",
             "value": 0.005141489986893011
         },
         {
             "source": "/m/03p41 1",
-            "target": "jessica tandy (Q182104) 2",
+            "target": "Jessica Tandy 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "1st us president (Q23) 2",
+            "target": "George Washington 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "ella geisman (Q232863) 2",
+            "target": "June Allyson 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "truman persons (Q134180) 2",
+            "target": "Truman Capote 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "telly savalas (Q209471) 2",
+            "target": "Telly Savalas 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "stan winston (Q320211) 2",
+            "target": "Stan Winston 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "lord protector oliver cromwell (Q44279) 2",
+            "target": "Oliver Cromwell 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "david watkin (cinematographer) (Q1177096) 2",
+            "target": "David Watkin 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "horhe luis borhes (Q909) 2",
+            "target": "Jorge Luis Borges 2",
             "value": 0.005133947019265284
         },
         {
             "source": "/m/03p41 1",
-            "target": "shammi kapoor (Q334822) 2",
+            "target": "Shammi Kapoor 2",
             "value": 0.005133947019265284
         },
         {
-            "source": "jessica tandy (Q182104) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Jessica Tandy 2",
+            "target": "African popular music 3",
             "value": 0.009966141358774716
         },
         {
-            "source": "jessica tandy (Q182104) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Jessica Tandy 2",
+            "target": "cabaret 3",
             "value": 0.009966141358774716
         },
         {
-            "source": "jessica tandy (Q182104) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Jessica Tandy 2",
+            "target": "samba 3",
             "value": 0.009966141358774716
         },
         {
-            "source": "1st us president (Q23) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "George Washington 2",
+            "target": "African popular music 3",
             "value": 0.009959720746583023
         },
         {
-            "source": "1st us president (Q23) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "George Washington 2",
+            "target": "cabaret 3",
             "value": 0.009959720746583023
         },
         {
-            "source": "1st us president (Q23) 2",
-            "target": "samba (Q11403) 3",
+            "source": "George Washington 2",
+            "target": "samba 3",
             "value": 0.009959720746583023
         },
         {
-            "source": "ella geisman (Q232863) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "June Allyson 2",
+            "target": "African popular music 3",
             "value": 0.009958744422523425
         },
         {
-            "source": "ella geisman (Q232863) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "June Allyson 2",
+            "target": "cabaret 3",
             "value": 0.009958744422523425
         },
         {
-            "source": "ella geisman (Q232863) 2",
-            "target": "samba (Q11403) 3",
+            "source": "June Allyson 2",
+            "target": "samba 3",
             "value": 0.009958744422523425
         },
         {
-            "source": "truman persons (Q134180) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Truman Capote 2",
+            "target": "African popular music 3",
             "value": 0.004784246576184481
         },
         {
-            "source": "truman persons (Q134180) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Truman Capote 2",
+            "target": "cabaret 3",
             "value": 0.004784246576184481
         },
         {
-            "source": "truman persons (Q134180) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Truman Capote 2",
+            "target": "samba 3",
             "value": 0.004784246576184481
         },
         {
-            "source": "telly savalas (Q209471) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Telly Savalas 2",
+            "target": "African popular music 3",
             "value": 0.00476730216814647
         },
         {
-            "source": "telly savalas (Q209471) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Telly Savalas 2",
+            "target": "cabaret 3",
             "value": 0.00476730216814647
         },
         {
-            "source": "telly savalas (Q209471) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Telly Savalas 2",
+            "target": "samba 3",
             "value": 0.00476730216814647
         },
         {
-            "source": "stan winston (Q320211) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Stan Winston 2",
+            "target": "African popular music 3",
             "value": 0.0047546779046652166
         },
         {
-            "source": "stan winston (Q320211) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Stan Winston 2",
+            "target": "cabaret 3",
             "value": 0.0047546779046652166
         },
         {
-            "source": "stan winston (Q320211) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Stan Winston 2",
+            "target": "samba 3",
             "value": 0.0047546779046652166
         },
         {
-            "source": "lord protector oliver cromwell (Q44279) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Oliver Cromwell 2",
+            "target": "African popular music 3",
             "value": 0.004717179729405496
         },
         {
-            "source": "lord protector oliver cromwell (Q44279) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Oliver Cromwell 2",
+            "target": "cabaret 3",
             "value": 0.004717179729405496
         },
         {
-            "source": "lord protector oliver cromwell (Q44279) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Oliver Cromwell 2",
+            "target": "samba 3",
             "value": 0.004717179729405496
         },
         {
-            "source": "david watkin (cinematographer) (Q1177096) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "David Watkin 2",
+            "target": "African popular music 3",
             "value": 0.0046788295057677565
         },
         {
-            "source": "david watkin (cinematographer) (Q1177096) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "David Watkin 2",
+            "target": "cabaret 3",
             "value": 0.0046788295057677565
         },
         {
-            "source": "david watkin (cinematographer) (Q1177096) 2",
-            "target": "samba (Q11403) 3",
+            "source": "David Watkin 2",
+            "target": "samba 3",
             "value": 0.0046788295057677565
         },
         {
-            "source": "horhe luis borhes (Q909) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Jorge Luis Borges 2",
+            "target": "African popular music 3",
             "value": 0.004664166465457531
         },
         {
-            "source": "horhe luis borhes (Q909) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Jorge Luis Borges 2",
+            "target": "cabaret 3",
             "value": 0.004664166465457531
         },
         {
-            "source": "horhe luis borhes (Q909) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Jorge Luis Borges 2",
+            "target": "samba 3",
             "value": 0.004664166465457531
         },
         {
-            "source": "shammi kapoor (Q334822) 2",
-            "target": "afropop music (Q972634) 3",
+            "source": "Shammi Kapoor 2",
+            "target": "African popular music 3",
             "value": 0.004566868143524194
         },
         {
-            "source": "shammi kapoor (Q334822) 2",
-            "target": "cabaret (music) (Q131183) 3",
+            "source": "Shammi Kapoor 2",
+            "target": "cabaret 3",
             "value": 0.004566868143524194
         },
         {
-            "source": "shammi kapoor (Q334822) 2",
-            "target": "samba (Q11403) 3",
+            "source": "Shammi Kapoor 2",
+            "target": "samba 3",
             "value": 0.004566868143524194
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "ann curry (Q966379) 6",
+            "source": "African popular music 3",
+            "target": "Ann Curry 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "mario lopez (Q372559) 6",
+            "source": "African popular music 3",
+            "target": "Mario Lopez 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
+            "source": "African popular music 3",
             "target": "/m/0dvmd 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "African popular music 3",
+            "target": "Linda Cardellini 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "African popular music 3",
+            "target": "Carson Daly 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "African popular music 3",
+            "target": "Hayden Panettiere 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "African popular music 3",
+            "target": "Joe Jonas 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "luke wilson (Q107769) 6",
+            "source": "African popular music 3",
+            "target": "Luke Wilson 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "African popular music 3",
+            "target": "Minnie Driver 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "afropop music (Q972634) 3",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "African popular music 3",
+            "target": "Kevin Jonas 6",
             "value": 0.009999529495845816
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "ann curry (Q966379) 6",
+            "source": "cabaret 3",
+            "target": "Ann Curry 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "mario lopez (Q372559) 6",
+            "source": "cabaret 3",
+            "target": "Mario Lopez 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
+            "source": "cabaret 3",
             "target": "/m/0dvmd 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "cabaret 3",
+            "target": "Linda Cardellini 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "cabaret 3",
+            "target": "Carson Daly 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "cabaret 3",
+            "target": "Hayden Panettiere 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "cabaret 3",
+            "target": "Joe Jonas 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "luke wilson (Q107769) 6",
+            "source": "cabaret 3",
+            "target": "Luke Wilson 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "cabaret 3",
+            "target": "Minnie Driver 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "cabaret (music) (Q131183) 3",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "cabaret 3",
+            "target": "Kevin Jonas 6",
             "value": 0.009999503269802701
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "ann curry (Q966379) 6",
+            "source": "samba 3",
+            "target": "Ann Curry 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "mario lopez (Q372559) 6",
+            "source": "samba 3",
+            "target": "Mario Lopez 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
+            "source": "samba 3",
             "target": "/m/0dvmd 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "samba 3",
+            "target": "Linda Cardellini 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "samba 3",
+            "target": "Carson Daly 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "samba 3",
+            "target": "Hayden Panettiere 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "samba 3",
+            "target": "Joe Jonas 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "luke wilson (Q107769) 6",
+            "source": "samba 3",
+            "target": "Luke Wilson 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "samba 3",
+            "target": "Minnie Driver 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "samba (Q11403) 3",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "samba 3",
+            "target": "Kevin Jonas 6",
             "value": 0.00999928392471483
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "leslie zemeckis (Q187364) 5",
+            "source": "Catholicism 4",
+            "target": "Robert Zemeckis 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "laura flynn boyle (Q486103) 5",
+            "source": "Catholicism 4",
+            "target": "Lara Flynn Boyle 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "frank robert capra (Q51492) 5",
+            "source": "Catholicism 4",
+            "target": "Frank Capra 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "kennedy, edward (Q134549) 5",
+            "source": "Catholicism 4",
+            "target": "Ted Kennedy 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "john david, jr. dingell (Q600393) 5",
+            "source": "Catholicism 4",
+            "target": "John Dingell, Jr. 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "linda cardelini (Q234204) 5",
+            "source": "Catholicism 4",
+            "target": "Linda Cardellini 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "mastroianni, marcello (Q55469) 5",
+            "source": "Catholicism 4",
+            "target": "Marcello Mastroianni 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "cedric gibbons (Q727904) 5",
+            "source": "Catholicism 4",
+            "target": "Cedric Gibbons 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "dante spinotti (Q179657) 5",
+            "source": "Catholicism 4",
+            "target": "Dante Spinotti 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "catholic religion (Q1841) 4",
-            "target": "kevin jonas bio (Q210172) 5",
+            "source": "Catholicism 4",
+            "target": "Kevin Jonas 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Ann Curry 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Mario Lopez 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
+            "source": "Robert Zemeckis 5",
             "target": "/m/0dvmd 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Linda Cardellini 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Carson Daly 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Joe Jonas 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Luke Wilson 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Minnie Driver 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "leslie zemeckis (Q187364) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Robert Zemeckis 5",
+            "target": "Kevin Jonas 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Ann Curry 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Mario Lopez 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
+            "source": "Lara Flynn Boyle 5",
             "target": "/m/0dvmd 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Linda Cardellini 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Carson Daly 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Joe Jonas 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Luke Wilson 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Minnie Driver 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "laura flynn boyle (Q486103) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Lara Flynn Boyle 5",
+            "target": "Kevin Jonas 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Frank Capra 5",
+            "target": "Ann Curry 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Frank Capra 5",
+            "target": "Mario Lopez 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
+            "source": "Frank Capra 5",
             "target": "/m/0dvmd 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Frank Capra 5",
+            "target": "Linda Cardellini 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Frank Capra 5",
+            "target": "Carson Daly 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Frank Capra 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Frank Capra 5",
+            "target": "Joe Jonas 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Frank Capra 5",
+            "target": "Luke Wilson 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Frank Capra 5",
+            "target": "Minnie Driver 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "frank robert capra (Q51492) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Frank Capra 5",
+            "target": "Kevin Jonas 6",
             "value": 0.009999998584389713
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Ann Curry 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Mario Lopez 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
+            "source": "Ted Kennedy 5",
             "target": "/m/0dvmd 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Linda Cardellini 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Carson Daly 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Joe Jonas 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Luke Wilson 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Minnie Driver 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "kennedy, edward (Q134549) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Ted Kennedy 5",
+            "target": "Kevin Jonas 6",
             "value": 0.0056503550935457225
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Ann Curry 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Mario Lopez 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
+            "source": "John Dingell, Jr. 5",
             "target": "/m/0dvmd 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Linda Cardellini 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Carson Daly 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Joe Jonas 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Luke Wilson 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Minnie Driver 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "john david, jr. dingell (Q600393) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "John Dingell, Jr. 5",
+            "target": "Kevin Jonas 6",
             "value": 0.0054342548824640735
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Ann Curry 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Mario Lopez 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
+            "source": "Linda Cardellini 5",
             "target": "/m/0dvmd 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Linda Cardellini 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Carson Daly 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Joe Jonas 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Luke Wilson 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Minnie Driver 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "linda cardelini (Q234204) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Linda Cardellini 5",
+            "target": "Kevin Jonas 6",
             "value": 0.0053633354895561425
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Ann Curry 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Mario Lopez 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
+            "source": "Marcello Mastroianni 5",
             "target": "/m/0dvmd 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Linda Cardellini 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Carson Daly 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Joe Jonas 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Luke Wilson 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Minnie Driver 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "mastroianni, marcello (Q55469) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Marcello Mastroianni 5",
+            "target": "Kevin Jonas 6",
             "value": 0.005329539656723892
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Ann Curry 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Mario Lopez 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
+            "source": "Cedric Gibbons 5",
             "target": "/m/0dvmd 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Linda Cardellini 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Carson Daly 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Joe Jonas 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Luke Wilson 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Minnie Driver 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "cedric gibbons (Q727904) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Cedric Gibbons 5",
+            "target": "Kevin Jonas 6",
             "value": 0.005306722999213864
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Ann Curry 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Mario Lopez 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
+            "source": "Dante Spinotti 5",
             "target": "/m/0dvmd 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Linda Cardellini 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Carson Daly 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Joe Jonas 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Luke Wilson 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Minnie Driver 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "dante spinotti (Q179657) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Dante Spinotti 5",
+            "target": "Kevin Jonas 6",
             "value": 0.005289949656502535
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "ann curry (Q966379) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Ann Curry 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "mario lopez (Q372559) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Mario Lopez 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
+            "source": "Kevin Jonas 5",
             "target": "/m/0dvmd 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "linda cardelini (Q234204) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Linda Cardellini 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "carson jones daly (Q2739748) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Carson Daly 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "hayden pantierre (Q171571) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Hayden Panettiere 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "joseph adam \"joe\" jonas (Q191088) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Joe Jonas 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "luke wilson (Q107769) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Luke Wilson 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Minnie Driver 6",
             "value": 0.005217120530818686
         },
         {
-            "source": "kevin jonas bio (Q210172) 5",
-            "target": "kevin jonas bio (Q210172) 6",
+            "source": "Kevin Jonas 5",
+            "target": "Kevin Jonas 6",
             "value": 0.005217120530818686
         }
     ],
@@ -1408,7 +1408,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "dyspnoe (Q188008) 0",
+            "name": "dyspnea 0",
             "url": "https://www.wikidata.org/wiki/Q188008",
             "value": 1.0
         },
@@ -1418,7 +1418,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "colorectal cancer (Q188874) 1",
+            "name": "colorectal cancer 1",
             "url": "https://www.wikidata.org/wiki/Q188874",
             "value": 0.9999839067459106
         },
@@ -1428,7 +1428,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "causes of heart failure (Q181754) 1",
+            "name": "heart failure 1",
             "url": "https://www.wikidata.org/wiki/Q181754",
             "value": 0.9999735355377197
         },
@@ -1438,7 +1438,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "extrapulmonary (Q12204) 1",
+            "name": "tuberculosis 1",
             "url": "https://www.wikidata.org/wiki/Q12204",
             "value": 0.9999698400497437
         },
@@ -1448,7 +1448,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bladder neoplasms (Q504775) 1",
+            "name": "bladder cancer 1",
             "url": "https://www.wikidata.org/wiki/Q504775",
             "value": 0.5300169587135315
         },
@@ -1458,7 +1458,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "tertian fever (Q12156) 1",
+            "name": "malaria 1",
             "url": "https://www.wikidata.org/wiki/Q12156",
             "value": 0.528806209564209
         },
@@ -1468,7 +1468,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hepatic insufficiency i (Q970208) 1",
+            "name": "liver failure 1",
             "url": "https://www.wikidata.org/wiki/Q970208",
             "value": 0.5222257375717163
         },
@@ -1487,7 +1487,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hepatitis antibodies (Q131742) 1",
+            "name": "hepatitis 1",
             "url": "https://www.wikidata.org/wiki/Q131742",
             "value": 0.5150706768035889
         },
@@ -1497,7 +1497,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "leukaemia (Q29496) 1",
+            "name": "leukemia 1",
             "url": "https://www.wikidata.org/wiki/Q29496",
             "value": 0.514149010181427
         },
@@ -1516,7 +1516,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "jessica tandy (Q182104) 2",
+            "name": "Jessica Tandy 2",
             "url": "https://www.wikidata.org/wiki/Q182104",
             "value": 0.9966141581535339
         },
@@ -1526,7 +1526,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "1st us president (Q23) 2",
+            "name": "George Washington 2",
             "url": "https://www.wikidata.org/wiki/Q23",
             "value": 0.9959720969200134
         },
@@ -1536,7 +1536,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ella geisman (Q232863) 2",
+            "name": "June Allyson 2",
             "url": "https://www.wikidata.org/wiki/Q232863",
             "value": 0.9958744645118713
         },
@@ -1546,7 +1546,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "truman persons (Q134180) 2",
+            "name": "Truman Capote 2",
             "url": "https://www.wikidata.org/wiki/Q134180",
             "value": 0.47842466831207275
         },
@@ -1556,7 +1556,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "telly savalas (Q209471) 2",
+            "name": "Telly Savalas 2",
             "url": "https://www.wikidata.org/wiki/Q209471",
             "value": 0.47673022747039795
         },
@@ -1566,7 +1566,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "stan winston (Q320211) 2",
+            "name": "Stan Winston 2",
             "url": "https://www.wikidata.org/wiki/Q320211",
             "value": 0.4754678010940552
         },
@@ -1576,7 +1576,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lord protector oliver cromwell (Q44279) 2",
+            "name": "Oliver Cromwell 2",
             "url": "https://www.wikidata.org/wiki/Q44279",
             "value": 0.4717179834842682
         },
@@ -1586,7 +1586,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "david watkin (cinematographer) (Q1177096) 2",
+            "name": "David Watkin 2",
             "url": "https://www.wikidata.org/wiki/Q1177096",
             "value": 0.4678829610347748
         },
@@ -1596,7 +1596,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "horhe luis borhes (Q909) 2",
+            "name": "Jorge Luis Borges 2",
             "url": "https://www.wikidata.org/wiki/Q909",
             "value": 0.4664166569709778
         },
@@ -1606,7 +1606,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "shammi kapoor (Q334822) 2",
+            "name": "Shammi Kapoor 2",
             "url": "https://www.wikidata.org/wiki/Q334822",
             "value": 0.4566868245601654
         },
@@ -1616,7 +1616,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "afropop music (Q972634) 3",
+            "name": "African popular music 3",
             "url": "https://www.wikidata.org/wiki/Q972634",
             "value": 0.9999529719352722
         },
@@ -1626,7 +1626,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "cabaret (music) (Q131183) 3",
+            "name": "cabaret 3",
             "url": "https://www.wikidata.org/wiki/Q131183",
             "value": 0.9999503493309021
         },
@@ -1636,7 +1636,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "samba (Q11403) 3",
+            "name": "samba 3",
             "url": "https://www.wikidata.org/wiki/Q11403",
             "value": 0.9999284148216248
         },
@@ -1646,7 +1646,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "catholic religion (Q1841) 4",
+            "name": "Catholicism 4",
             "url": "https://www.wikidata.org/wiki/Q1841",
             "value": 1.0
         },
@@ -1656,7 +1656,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "leslie zemeckis (Q187364) 5",
+            "name": "Robert Zemeckis 5",
             "url": "https://www.wikidata.org/wiki/Q187364",
             "value": 0.9999998807907104
         },
@@ -1666,7 +1666,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "laura flynn boyle (Q486103) 5",
+            "name": "Lara Flynn Boyle 5",
             "url": "https://www.wikidata.org/wiki/Q486103",
             "value": 0.9999998807907104
         },
@@ -1676,7 +1676,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "frank robert capra (Q51492) 5",
+            "name": "Frank Capra 5",
             "url": "https://www.wikidata.org/wiki/Q51492",
             "value": 0.9999998807907104
         },
@@ -1686,7 +1686,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "kennedy, edward (Q134549) 5",
+            "name": "Ted Kennedy 5",
             "url": "https://www.wikidata.org/wiki/Q134549",
             "value": 0.5650355219841003
         },
@@ -1696,7 +1696,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "john david, jr. dingell (Q600393) 5",
+            "name": "John Dingell, Jr. 5",
             "url": "https://www.wikidata.org/wiki/Q600393",
             "value": 0.5434255003929138
         },
@@ -1706,7 +1706,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "linda cardelini (Q234204) 5",
+            "name": "Linda Cardellini 5",
             "url": "https://www.wikidata.org/wiki/Q234204",
             "value": 0.5363335609436035
         },
@@ -1716,7 +1716,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "mastroianni, marcello (Q55469) 5",
+            "name": "Marcello Mastroianni 5",
             "url": "https://www.wikidata.org/wiki/Q55469",
             "value": 0.5329539775848389
         },
@@ -1726,7 +1726,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "cedric gibbons (Q727904) 5",
+            "name": "Cedric Gibbons 5",
             "url": "https://www.wikidata.org/wiki/Q727904",
             "value": 0.5306723117828369
         },
@@ -1736,7 +1736,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "dante spinotti (Q179657) 5",
+            "name": "Dante Spinotti 5",
             "url": "https://www.wikidata.org/wiki/Q179657",
             "value": 0.5289949774742126
         },
@@ -1746,7 +1746,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kevin jonas bio (Q210172) 5",
+            "name": "Kevin Jonas 5",
             "url": "https://www.wikidata.org/wiki/Q210172",
             "value": 0.521712064743042
         },
@@ -1756,7 +1756,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ann curry (Q966379) 6",
+            "name": "Ann Curry 6",
             "url": "https://www.wikidata.org/wiki/Q966379",
             "value": 0.9789438247680664
         },
@@ -1766,7 +1766,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "mario lopez (Q372559) 6",
+            "name": "Mario Lopez 6",
             "url": "https://www.wikidata.org/wiki/Q372559",
             "value": 0.9665863513946533
         },
@@ -1785,7 +1785,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "linda cardelini (Q234204) 6",
+            "name": "Linda Cardellini 6",
             "url": "https://www.wikidata.org/wiki/Q234204",
             "value": 0.4824039041996002
         },
@@ -1795,7 +1795,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "carson jones daly (Q2739748) 6",
+            "name": "Carson Daly 6",
             "url": "https://www.wikidata.org/wiki/Q2739748",
             "value": 0.4798212945461273
         },
@@ -1805,7 +1805,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "hayden pantierre (Q171571) 6",
+            "name": "Hayden Panettiere 6",
             "url": "https://www.wikidata.org/wiki/Q171571",
             "value": 0.47150811553001404
         },
@@ -1815,7 +1815,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "joseph adam \"joe\" jonas (Q191088) 6",
+            "name": "Joe Jonas 6",
             "url": "https://www.wikidata.org/wiki/Q191088",
             "value": 0.46990618109703064
         },
@@ -1825,7 +1825,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "luke wilson (Q107769) 6",
+            "name": "Luke Wilson 6",
             "url": "https://www.wikidata.org/wiki/Q107769",
             "value": 0.4696126878261566
         },
@@ -1835,7 +1835,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "amelia fiona \"minnie\" driver (Q229056) 6",
+            "name": "Minnie Driver 6",
             "url": "https://www.wikidata.org/wiki/Q229056",
             "value": 0.46869415044784546
         },
@@ -1845,7 +1845,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kevin jonas bio (Q210172) 6",
+            "name": "Kevin Jonas 6",
             "url": "https://www.wikidata.org/wiki/Q210172",
             "value": 0.46317926049232483
         }

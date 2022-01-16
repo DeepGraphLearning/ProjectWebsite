@@ -1,1603 +1,1603 @@
 {
     "edges": [
         {
-            "source": "paris time (Q25989) 0",
-            "target": "transport in budapest (Q1781) 1",
+            "source": "Central European Time 0",
+            "target": "Budapest 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "eindhoven, north brabant (Q9832) 1",
+            "source": "Central European Time 0",
+            "target": "Eindhoven 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "tunis, tunisia (Q3572) 1",
+            "source": "Central European Time 0",
+            "target": "Tunis 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "history of valletta (Q23800) 1",
+            "source": "Central European Time 0",
+            "target": "Valletta 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "un/locode:chbrn (Q70) 1",
+            "source": "Central European Time 0",
+            "target": "Bern 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "padova (Q617) 1",
+            "source": "Central European Time 0",
+            "target": "Padua 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "kadum (Q41185) 1",
+            "source": "Central European Time 0",
+            "target": "Caen 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "pozsony (Q1780) 1",
+            "source": "Central European Time 0",
+            "target": "Bratislava 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "bruges (Q12994) 1",
+            "source": "Central European Time 0",
+            "target": "Bruges 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "paris time (Q25989) 0",
-            "target": "m\u00f2dna (Q279) 1",
+            "source": "Central European Time 0",
+            "target": "Modena 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Budapest 1",
+            "target": "Ravenna 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Budapest 1",
+            "target": "Ferrara 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Budapest 1",
+            "target": "University of Bologna 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Budapest 1",
+            "target": "Bologna 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Budapest 1",
+            "target": "Valletta 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Budapest 1",
+            "target": "Bern 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "padova (Q617) 4",
+            "source": "Budapest 1",
+            "target": "Padua 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Budapest 1",
+            "target": "Caen 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Budapest 1",
+            "target": "Bratislava 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "transport in budapest (Q1781) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Budapest 1",
+            "target": "Bruges 4",
             "value": 0.009999996200203976
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Eindhoven 1",
+            "target": "Ravenna 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Eindhoven 1",
+            "target": "Ferrara 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Eindhoven 1",
+            "target": "University of Bologna 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Eindhoven 1",
+            "target": "Bologna 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Eindhoven 1",
+            "target": "Valletta 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Eindhoven 1",
+            "target": "Bern 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "padova (Q617) 4",
+            "source": "Eindhoven 1",
+            "target": "Padua 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Eindhoven 1",
+            "target": "Caen 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Eindhoven 1",
+            "target": "Bratislava 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "eindhoven, north brabant (Q9832) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Eindhoven 1",
+            "target": "Bruges 4",
             "value": 0.009999995008111107
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Tunis 1",
+            "target": "Ravenna 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Tunis 1",
+            "target": "Ferrara 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Tunis 1",
+            "target": "University of Bologna 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Tunis 1",
+            "target": "Bologna 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Tunis 1",
+            "target": "Valletta 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Tunis 1",
+            "target": "Bern 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "padova (Q617) 4",
+            "source": "Tunis 1",
+            "target": "Padua 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Tunis 1",
+            "target": "Caen 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Tunis 1",
+            "target": "Bratislava 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "tunis, tunisia (Q3572) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Tunis 1",
+            "target": "Bruges 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Valletta 1",
+            "target": "Ravenna 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Valletta 1",
+            "target": "Ferrara 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Valletta 1",
+            "target": "University of Bologna 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Valletta 1",
+            "target": "Bologna 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Valletta 1",
+            "target": "Valletta 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Valletta 1",
+            "target": "Bern 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "padova (Q617) 4",
+            "source": "Valletta 1",
+            "target": "Padua 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Valletta 1",
+            "target": "Caen 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Valletta 1",
+            "target": "Bratislava 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "history of valletta (Q23800) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Valletta 1",
+            "target": "Bruges 4",
             "value": 0.00692560597675429
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Bern 1",
+            "target": "Ravenna 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Bern 1",
+            "target": "Ferrara 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Bern 1",
+            "target": "University of Bologna 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Bern 1",
+            "target": "Bologna 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Bern 1",
+            "target": "Valletta 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Bern 1",
+            "target": "Bern 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "padova (Q617) 4",
+            "source": "Bern 1",
+            "target": "Padua 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Bern 1",
+            "target": "Caen 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Bern 1",
+            "target": "Bratislava 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "un/locode:chbrn (Q70) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Bern 1",
+            "target": "Bruges 4",
             "value": 0.006683236807214388
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Padua 1",
+            "target": "Ravenna 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Padua 1",
+            "target": "Ferrara 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Padua 1",
+            "target": "University of Bologna 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Padua 1",
+            "target": "Bologna 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Padua 1",
+            "target": "Valletta 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Padua 1",
+            "target": "Bern 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "padova (Q617) 4",
+            "source": "Padua 1",
+            "target": "Padua 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Padua 1",
+            "target": "Caen 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Padua 1",
+            "target": "Bratislava 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "padova (Q617) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Padua 1",
+            "target": "Bruges 4",
             "value": 0.006432164763685355
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Caen 1",
+            "target": "Ravenna 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Caen 1",
+            "target": "Ferrara 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Caen 1",
+            "target": "University of Bologna 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Caen 1",
+            "target": "Bologna 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Caen 1",
+            "target": "Valletta 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Caen 1",
+            "target": "Bern 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "padova (Q617) 4",
+            "source": "Caen 1",
+            "target": "Padua 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Caen 1",
+            "target": "Caen 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Caen 1",
+            "target": "Bratislava 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "kadum (Q41185) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Caen 1",
+            "target": "Bruges 4",
             "value": 0.006374840593900366
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Bratislava 1",
+            "target": "Ravenna 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Bratislava 1",
+            "target": "Ferrara 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Bratislava 1",
+            "target": "University of Bologna 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Bratislava 1",
+            "target": "Bologna 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Bratislava 1",
+            "target": "Valletta 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Bratislava 1",
+            "target": "Bern 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "padova (Q617) 4",
+            "source": "Bratislava 1",
+            "target": "Padua 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Bratislava 1",
+            "target": "Caen 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Bratislava 1",
+            "target": "Bratislava 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "pozsony (Q1780) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Bratislava 1",
+            "target": "Bruges 4",
             "value": 0.006236284831845351
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Bruges 1",
+            "target": "Ravenna 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Bruges 1",
+            "target": "Ferrara 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Bruges 1",
+            "target": "University of Bologna 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Bruges 1",
+            "target": "Bologna 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Bruges 1",
+            "target": "Valletta 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Bruges 1",
+            "target": "Bern 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "padova (Q617) 4",
+            "source": "Bruges 1",
+            "target": "Padua 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Bruges 1",
+            "target": "Caen 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Bruges 1",
+            "target": "Bratislava 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "bruges (Q12994) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Bruges 1",
+            "target": "Bruges 4",
             "value": 0.006142244797745833
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Modena 1",
+            "target": "Ravenna 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Modena 1",
+            "target": "Ferrara 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Modena 1",
+            "target": "University of Bologna 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "bologna (Q1891) 4",
+            "source": "Modena 1",
+            "target": "Bologna 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Modena 1",
+            "target": "Valletta 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Modena 1",
+            "target": "Bern 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "padova (Q617) 4",
+            "source": "Modena 1",
+            "target": "Padua 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "kadum (Q41185) 4",
+            "source": "Modena 1",
+            "target": "Caen 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "pozsony (Q1780) 4",
+            "source": "Modena 1",
+            "target": "Bratislava 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "m\u00f2dna (Q279) 1",
-            "target": "bruges (Q12994) 4",
+            "source": "Modena 1",
+            "target": "Bruges 4",
             "value": 0.006051691635287737
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "parma (Q2683) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Parma 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "universit\u00e0 di bologna (Q131262) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "University of Bologna 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "history of ferrara (Q13362) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Ferrara 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "bologna (Q1891) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Bologna 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "szczecin port (Q393) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Szczecin 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "helsingborg (Q25411) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Helsingborg 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "names of trieste (Q546) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Trieste 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "un/locode:debre (Q24879) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Bremen 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "messina (Q13666) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Messina 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2",
-            "target": "quadratestadt (Q2119) 3",
+            "source": "Emilia-Romagna 2",
+            "target": "Mannheim 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Parma 3",
+            "target": "Ravenna 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Parma 3",
+            "target": "Ferrara 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Parma 3",
+            "target": "University of Bologna 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Parma 3",
+            "target": "Bologna 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Parma 3",
+            "target": "Valletta 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Parma 3",
+            "target": "Bern 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "padova (Q617) 4",
+            "source": "Parma 3",
+            "target": "Padua 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Parma 3",
+            "target": "Caen 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Parma 3",
+            "target": "Bratislava 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "parma (Q2683) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Parma 3",
+            "target": "Bruges 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "University of Bologna 3",
+            "target": "Ravenna 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "University of Bologna 3",
+            "target": "Ferrara 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "University of Bologna 3",
+            "target": "University of Bologna 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "University of Bologna 3",
+            "target": "Bologna 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "University of Bologna 3",
+            "target": "Valletta 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "University of Bologna 3",
+            "target": "Bern 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "padova (Q617) 4",
+            "source": "University of Bologna 3",
+            "target": "Padua 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "University of Bologna 3",
+            "target": "Caen 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "University of Bologna 3",
+            "target": "Bratislava 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "University of Bologna 3",
+            "target": "Bruges 4",
             "value": 0.009999997392296844
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Ferrara 3",
+            "target": "Ravenna 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Ferrara 3",
+            "target": "Ferrara 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Ferrara 3",
+            "target": "University of Bologna 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Ferrara 3",
+            "target": "Bologna 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Ferrara 3",
+            "target": "Valletta 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Ferrara 3",
+            "target": "Bern 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "padova (Q617) 4",
+            "source": "Ferrara 3",
+            "target": "Padua 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Ferrara 3",
+            "target": "Caen 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Ferrara 3",
+            "target": "Bratislava 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "history of ferrara (Q13362) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Ferrara 3",
+            "target": "Bruges 4",
             "value": 0.009999993816018238
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Bologna 3",
+            "target": "Ravenna 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Bologna 3",
+            "target": "Ferrara 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Bologna 3",
+            "target": "University of Bologna 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Bologna 3",
+            "target": "Bologna 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Bologna 3",
+            "target": "Valletta 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Bologna 3",
+            "target": "Bern 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "padova (Q617) 4",
+            "source": "Bologna 3",
+            "target": "Padua 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Bologna 3",
+            "target": "Caen 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Bologna 3",
+            "target": "Bratislava 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "bologna (Q1891) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Bologna 3",
+            "target": "Bruges 4",
             "value": 0.005816733111067118
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Szczecin 3",
+            "target": "Ravenna 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Szczecin 3",
+            "target": "Ferrara 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Szczecin 3",
+            "target": "University of Bologna 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Szczecin 3",
+            "target": "Bologna 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Szczecin 3",
+            "target": "Valletta 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Szczecin 3",
+            "target": "Bern 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "padova (Q617) 4",
+            "source": "Szczecin 3",
+            "target": "Padua 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Szczecin 3",
+            "target": "Caen 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Szczecin 3",
+            "target": "Bratislava 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "szczecin port (Q393) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Szczecin 3",
+            "target": "Bruges 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Helsingborg 3",
+            "target": "Ravenna 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Helsingborg 3",
+            "target": "Ferrara 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Helsingborg 3",
+            "target": "University of Bologna 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Helsingborg 3",
+            "target": "Bologna 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Helsingborg 3",
+            "target": "Valletta 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Helsingborg 3",
+            "target": "Bern 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "padova (Q617) 4",
+            "source": "Helsingborg 3",
+            "target": "Padua 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Helsingborg 3",
+            "target": "Caen 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Helsingborg 3",
+            "target": "Bratislava 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "helsingborg (Q25411) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Helsingborg 3",
+            "target": "Bruges 4",
             "value": 0.004043926506252737
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Trieste 3",
+            "target": "Ravenna 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Trieste 3",
+            "target": "Ferrara 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Trieste 3",
+            "target": "University of Bologna 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Trieste 3",
+            "target": "Bologna 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Trieste 3",
+            "target": "Valletta 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Trieste 3",
+            "target": "Bern 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "padova (Q617) 4",
+            "source": "Trieste 3",
+            "target": "Padua 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Trieste 3",
+            "target": "Caen 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Trieste 3",
+            "target": "Bratislava 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "names of trieste (Q546) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Trieste 3",
+            "target": "Bruges 4",
             "value": 0.003805793438722338
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Bremen 3",
+            "target": "Ravenna 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Bremen 3",
+            "target": "Ferrara 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Bremen 3",
+            "target": "University of Bologna 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Bremen 3",
+            "target": "Bologna 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Bremen 3",
+            "target": "Valletta 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Bremen 3",
+            "target": "Bern 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "padova (Q617) 4",
+            "source": "Bremen 3",
+            "target": "Padua 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Bremen 3",
+            "target": "Caen 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Bremen 3",
+            "target": "Bratislava 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "un/locode:debre (Q24879) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Bremen 3",
+            "target": "Bruges 4",
             "value": 0.0036691360845609866
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Messina 3",
+            "target": "Ravenna 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Messina 3",
+            "target": "Ferrara 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Messina 3",
+            "target": "University of Bologna 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Messina 3",
+            "target": "Bologna 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Messina 3",
+            "target": "Valletta 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Messina 3",
+            "target": "Bern 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "padova (Q617) 4",
+            "source": "Messina 3",
+            "target": "Padua 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Messina 3",
+            "target": "Caen 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Messina 3",
+            "target": "Bratislava 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "messina (Q13666) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Messina 3",
+            "target": "Bruges 4",
             "value": 0.0035791643653996785
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "classe, italy (Q13364) 4",
+            "source": "Mannheim 3",
+            "target": "Ravenna 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "history of ferrara (Q13362) 4",
+            "source": "Mannheim 3",
+            "target": "Ferrara 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "Mannheim 3",
+            "target": "University of Bologna 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "bologna (Q1891) 4",
+            "source": "Mannheim 3",
+            "target": "Bologna 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "history of valletta (Q23800) 4",
+            "source": "Mannheim 3",
+            "target": "Valletta 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "un/locode:chbrn (Q70) 4",
+            "source": "Mannheim 3",
+            "target": "Bern 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "padova (Q617) 4",
+            "source": "Mannheim 3",
+            "target": "Padua 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "kadum (Q41185) 4",
+            "source": "Mannheim 3",
+            "target": "Caen 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "pozsony (Q1780) 4",
+            "source": "Mannheim 3",
+            "target": "Bratislava 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "quadratestadt (Q2119) 3",
-            "target": "bruges (Q12994) 4",
+            "source": "Mannheim 3",
+            "target": "Bruges 4",
             "value": 0.002960875862221213
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Ravenna 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Ravenna 4",
+            "target": "Crown of Aragon 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Ravenna 4",
+            "target": "Dutch Republic 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Ravenna 4",
+            "target": "Malta 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Ravenna 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "svk (Q214) 5",
+            "source": "Ravenna 4",
+            "target": "Slovakia 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Ravenna 4",
+            "target": "public university 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
+            "source": "Ravenna 4",
             "target": "/m/07tf8 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Ravenna 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "classe, italy (Q13364) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Ravenna 4",
+            "target": "German Empire 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Ferrara 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Ferrara 4",
+            "target": "Crown of Aragon 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Ferrara 4",
+            "target": "Dutch Republic 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Ferrara 4",
+            "target": "Malta 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Ferrara 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "svk (Q214) 5",
+            "source": "Ferrara 4",
+            "target": "Slovakia 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Ferrara 4",
+            "target": "public university 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
+            "source": "Ferrara 4",
             "target": "/m/07tf8 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Ferrara 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "history of ferrara (Q13362) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Ferrara 4",
+            "target": "German Empire 5",
             "value": 0.009999999776482582
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "University of Bologna 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "University of Bologna 4",
+            "target": "Crown of Aragon 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "University of Bologna 4",
+            "target": "Dutch Republic 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "University of Bologna 4",
+            "target": "Malta 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "University of Bologna 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "svk (Q214) 5",
+            "source": "University of Bologna 4",
+            "target": "Slovakia 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "public university (Q875538) 5",
+            "source": "University of Bologna 4",
+            "target": "public university 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
+            "source": "University of Bologna 4",
             "target": "/m/07tf8 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "University of Bologna 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "universit\u00e0 di bologna (Q131262) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "University of Bologna 4",
+            "target": "German Empire 5",
             "value": 0.009999997988343279
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Bologna 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Bologna 4",
+            "target": "Crown of Aragon 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Bologna 4",
+            "target": "Dutch Republic 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Bologna 4",
+            "target": "Malta 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Bologna 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "svk (Q214) 5",
+            "source": "Bologna 4",
+            "target": "Slovakia 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Bologna 4",
+            "target": "public university 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
+            "source": "Bologna 4",
             "target": "/m/07tf8 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Bologna 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "bologna (Q1891) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Bologna 4",
+            "target": "German Empire 5",
             "value": 0.008340721539987883
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Valletta 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Valletta 4",
+            "target": "Crown of Aragon 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Valletta 4",
+            "target": "Dutch Republic 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Valletta 4",
+            "target": "Malta 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Valletta 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "svk (Q214) 5",
+            "source": "Valletta 4",
+            "target": "Slovakia 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Valletta 4",
+            "target": "public university 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
+            "source": "Valletta 4",
             "target": "/m/07tf8 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Valletta 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "history of valletta (Q23800) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Valletta 4",
+            "target": "German Empire 5",
             "value": 0.007092836340676922
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Bern 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Bern 4",
+            "target": "Crown of Aragon 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Bern 4",
+            "target": "Dutch Republic 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Bern 4",
+            "target": "Malta 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Bern 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "svk (Q214) 5",
+            "source": "Bern 4",
+            "target": "Slovakia 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Bern 4",
+            "target": "public university 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
+            "source": "Bern 4",
             "target": "/m/07tf8 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Bern 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "un/locode:chbrn (Q70) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Bern 4",
+            "target": "German Empire 5",
             "value": 0.006793657389424945
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Padua 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Padua 4",
+            "target": "Crown of Aragon 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Padua 4",
+            "target": "Dutch Republic 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Padua 4",
+            "target": "Malta 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Padua 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "svk (Q214) 5",
+            "source": "Padua 4",
+            "target": "Slovakia 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Padua 4",
+            "target": "public university 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
+            "source": "Padua 4",
             "target": "/m/07tf8 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Padua 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "padova (Q617) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Padua 4",
+            "target": "German Empire 5",
             "value": 0.006708183138634638
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Caen 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Caen 4",
+            "target": "Crown of Aragon 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Caen 4",
+            "target": "Dutch Republic 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Caen 4",
+            "target": "Malta 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Caen 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "svk (Q214) 5",
+            "source": "Caen 4",
+            "target": "Slovakia 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Caen 4",
+            "target": "public university 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
+            "source": "Caen 4",
             "target": "/m/07tf8 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Caen 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "kadum (Q41185) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Caen 4",
+            "target": "German Empire 5",
             "value": 0.006485890601145683
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Bratislava 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Bratislava 4",
+            "target": "Crown of Aragon 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Bratislava 4",
+            "target": "Dutch Republic 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Bratislava 4",
+            "target": "Malta 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Bratislava 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "svk (Q214) 5",
+            "source": "Bratislava 4",
+            "target": "Slovakia 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Bratislava 4",
+            "target": "public university 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
+            "source": "Bratislava 4",
             "target": "/m/07tf8 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Bratislava 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "pozsony (Q1780) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Bratislava 4",
+            "target": "German Empire 5",
             "value": 0.006441781972904903
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "kingdom of italy (1861-1946) (Q172579) 5",
+            "source": "Bruges 4",
+            "target": "Kingdom of Italy 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "casal d'arag\u00f3 (Q204920) 5",
+            "source": "Bruges 4",
+            "target": "Crown of Aragon 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "united dutch provinces (Q170072) 5",
+            "source": "Bruges 4",
+            "target": "Dutch Republic 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "republic of malta, g. c. (Q233) 5",
+            "source": "Bruges 4",
+            "target": "Malta 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "medieval hungary (Q171150) 5",
+            "source": "Bruges 4",
+            "target": "Kingdom of Hungary 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "svk (Q214) 5",
+            "source": "Bruges 4",
+            "target": "Slovakia 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "public university (Q875538) 5",
+            "source": "Bruges 4",
+            "target": "public university 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
+            "source": "Bruges 4",
             "target": "/m/07tf8 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "holy roman empire portal (Q12548) 5",
+            "source": "Bruges 4",
+            "target": "Holy Roman Empire 5",
             "value": 0.006369291401595811
         },
         {
-            "source": "bruges (Q12994) 4",
-            "target": "united germany (Q43287) 5",
+            "source": "Bruges 4",
+            "target": "German Empire 5",
             "value": 0.006369291401595811
         }
     ],
@@ -1608,7 +1608,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "paris time (Q25989) 0",
+            "name": "Central European Time 0",
             "url": "https://www.wikidata.org/wiki/Q25989",
             "value": 1.0
         },
@@ -1618,7 +1618,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "transport in budapest (Q1781) 1",
+            "name": "Budapest 1",
             "url": "https://www.wikidata.org/wiki/Q1781",
             "value": 0.9999996423721313
         },
@@ -1628,7 +1628,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "eindhoven, north brabant (Q9832) 1",
+            "name": "Eindhoven 1",
             "url": "https://www.wikidata.org/wiki/Q9832",
             "value": 0.9999995231628418
         },
@@ -1638,7 +1638,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "tunis, tunisia (Q3572) 1",
+            "name": "Tunis 1",
             "url": "https://www.wikidata.org/wiki/Q3572",
             "value": 0.9999994039535522
         },
@@ -1648,7 +1648,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "history of valletta (Q23800) 1",
+            "name": "Valletta 1",
             "url": "https://www.wikidata.org/wiki/Q23800",
             "value": 0.692560613155365
         },
@@ -1658,7 +1658,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "un/locode:chbrn (Q70) 1",
+            "name": "Bern 1",
             "url": "https://www.wikidata.org/wiki/Q70",
             "value": 0.6683236956596375
         },
@@ -1668,7 +1668,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "padova (Q617) 1",
+            "name": "Padua 1",
             "url": "https://www.wikidata.org/wiki/Q617",
             "value": 0.6432164907455444
         },
@@ -1678,7 +1678,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kadum (Q41185) 1",
+            "name": "Caen 1",
             "url": "https://www.wikidata.org/wiki/Q41185",
             "value": 0.637484073638916
         },
@@ -1688,7 +1688,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pozsony (Q1780) 1",
+            "name": "Bratislava 1",
             "url": "https://www.wikidata.org/wiki/Q1780",
             "value": 0.6236284971237183
         },
@@ -1698,7 +1698,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bruges (Q12994) 1",
+            "name": "Bruges 1",
             "url": "https://www.wikidata.org/wiki/Q12994",
             "value": 0.6142244935035706
         },
@@ -1708,7 +1708,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "m\u00f2dna (Q279) 1",
+            "name": "Modena 1",
             "url": "https://www.wikidata.org/wiki/Q279",
             "value": 0.6051691770553589
         },
@@ -1718,7 +1718,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "emilia\u2011romagna (Q1263) 2",
+            "name": "Emilia-Romagna 2",
             "url": "https://www.wikidata.org/wiki/Q1263",
             "value": 1.0
         },
@@ -1728,7 +1728,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "parma (Q2683) 3",
+            "name": "Parma 3",
             "url": "https://www.wikidata.org/wiki/Q2683",
             "value": 0.9999997615814209
         },
@@ -1738,7 +1738,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "universit\u00e0 di bologna (Q131262) 3",
+            "name": "University of Bologna 3",
             "url": "https://www.wikidata.org/wiki/Q131262",
             "value": 0.9999997615814209
         },
@@ -1748,7 +1748,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "history of ferrara (Q13362) 3",
+            "name": "Ferrara 3",
             "url": "https://www.wikidata.org/wiki/Q13362",
             "value": 0.9999994039535522
         },
@@ -1758,7 +1758,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bologna (Q1891) 3",
+            "name": "Bologna 3",
             "url": "https://www.wikidata.org/wiki/Q1891",
             "value": 0.5816733241081238
         },
@@ -1768,7 +1768,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "szczecin port (Q393) 3",
+            "name": "Szczecin 3",
             "url": "https://www.wikidata.org/wiki/Q393",
             "value": 0.40439265966415405
         },
@@ -1778,7 +1778,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "helsingborg (Q25411) 3",
+            "name": "Helsingborg 3",
             "url": "https://www.wikidata.org/wiki/Q25411",
             "value": 0.40439265966415405
         },
@@ -1788,7 +1788,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "names of trieste (Q546) 3",
+            "name": "Trieste 3",
             "url": "https://www.wikidata.org/wiki/Q546",
             "value": 0.3805793523788452
         },
@@ -1798,7 +1798,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "un/locode:debre (Q24879) 3",
+            "name": "Bremen 3",
             "url": "https://www.wikidata.org/wiki/Q24879",
             "value": 0.3669136166572571
         },
@@ -1808,7 +1808,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "messina (Q13666) 3",
+            "name": "Messina 3",
             "url": "https://www.wikidata.org/wiki/Q13666",
             "value": 0.3579164445400238
         },
@@ -1818,7 +1818,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "quadratestadt (Q2119) 3",
+            "name": "Mannheim 3",
             "url": "https://www.wikidata.org/wiki/Q2119",
             "value": 0.2960875928401947
         },
@@ -1828,7 +1828,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "classe, italy (Q13364) 4",
+            "name": "Ravenna 4",
             "url": "https://www.wikidata.org/wiki/Q13364",
             "value": 1.0
         },
@@ -1838,7 +1838,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "history of ferrara (Q13362) 4",
+            "name": "Ferrara 4",
             "url": "https://www.wikidata.org/wiki/Q13362",
             "value": 1.0
         },
@@ -1848,7 +1848,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "universit\u00e0 di bologna (Q131262) 4",
+            "name": "University of Bologna 4",
             "url": "https://www.wikidata.org/wiki/Q131262",
             "value": 0.9999998211860657
         },
@@ -1858,7 +1858,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bologna (Q1891) 4",
+            "name": "Bologna 4",
             "url": "https://www.wikidata.org/wiki/Q1891",
             "value": 0.8340721726417542
         },
@@ -1868,7 +1868,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "history of valletta (Q23800) 4",
+            "name": "Valletta 4",
             "url": "https://www.wikidata.org/wiki/Q23800",
             "value": 0.7092836499214172
         },
@@ -1878,7 +1878,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "un/locode:chbrn (Q70) 4",
+            "name": "Bern 4",
             "url": "https://www.wikidata.org/wiki/Q70",
             "value": 0.6793657541275024
         },
@@ -1888,7 +1888,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "padova (Q617) 4",
+            "name": "Padua 4",
             "url": "https://www.wikidata.org/wiki/Q617",
             "value": 0.6708183288574219
         },
@@ -1898,7 +1898,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kadum (Q41185) 4",
+            "name": "Caen 4",
             "url": "https://www.wikidata.org/wiki/Q41185",
             "value": 0.6485890746116638
         },
@@ -1908,7 +1908,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "pozsony (Q1780) 4",
+            "name": "Bratislava 4",
             "url": "https://www.wikidata.org/wiki/Q1780",
             "value": 0.6441782116889954
         },
@@ -1918,7 +1918,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bruges (Q12994) 4",
+            "name": "Bruges 4",
             "url": "https://www.wikidata.org/wiki/Q12994",
             "value": 0.6369291543960571
         },
@@ -1928,7 +1928,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "kingdom of italy (1861-1946) (Q172579) 5",
+            "name": "Kingdom of Italy 5",
             "url": "https://www.wikidata.org/wiki/Q172579",
             "value": 0.9954496026039124
         },
@@ -1938,7 +1938,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "casal d'arag\u00f3 (Q204920) 5",
+            "name": "Crown of Aragon 5",
             "url": "https://www.wikidata.org/wiki/Q204920",
             "value": 0.9942552447319031
         },
@@ -1948,7 +1948,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "united dutch provinces (Q170072) 5",
+            "name": "Dutch Republic 5",
             "url": "https://www.wikidata.org/wiki/Q170072",
             "value": 0.9929684996604919
         },
@@ -1958,7 +1958,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "republic of malta, g. c. (Q233) 5",
+            "name": "Malta 5",
             "url": "https://www.wikidata.org/wiki/Q233",
             "value": 0.4499041736125946
         },
@@ -1968,7 +1968,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "medieval hungary (Q171150) 5",
+            "name": "Kingdom of Hungary 5",
             "url": "https://www.wikidata.org/wiki/Q171150",
             "value": 0.3790135979652405
         },
@@ -1978,7 +1978,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "svk (Q214) 5",
+            "name": "Slovakia 5",
             "url": "https://www.wikidata.org/wiki/Q214",
             "value": 0.3565029203891754
         },
@@ -1988,7 +1988,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "public university (Q875538) 5",
+            "name": "public university 5",
             "url": "https://www.wikidata.org/wiki/Q875538",
             "value": 0.3402867317199707
         },
@@ -2007,7 +2007,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "holy roman empire portal (Q12548) 5",
+            "name": "Holy Roman Empire 5",
             "url": "https://www.wikidata.org/wiki/Q12548",
             "value": 0.3112218976020813
         },
@@ -2017,7 +2017,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "united germany (Q43287) 5",
+            "name": "German Empire 5",
             "url": "https://www.wikidata.org/wiki/Q43287",
             "value": 0.30288124084472656
         }

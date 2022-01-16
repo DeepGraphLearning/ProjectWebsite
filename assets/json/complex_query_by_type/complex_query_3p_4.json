@@ -1,338 +1,338 @@
 {
     "edges": [
         {
-            "source": "regions of alaska (Q797) 0",
-            "target": "sara palen (Q43144) 1",
+            "source": "Alaska 0",
+            "target": "Sarah Palin 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "sara palen (Q43144) 1",
-            "target": "state governor (Q132050) 2",
+            "source": "Sarah Palin 1",
+            "target": "governor 2",
             "value": 0.009999973550439467
         },
         {
-            "source": "sara palen (Q43144) 1",
-            "target": "acting mayor (Q30185) 2",
+            "source": "Sarah Palin 1",
+            "target": "mayor 2",
             "value": 0.009999973550439467
         },
         {
-            "source": "sara palen (Q43144) 1",
-            "target": "councilmember (Q708492) 2",
+            "source": "Sarah Palin 1",
+            "target": "council member 2",
             "value": 0.009999973550439467
         },
         {
-            "source": "sara palen (Q43144) 1",
-            "target": "atty. gen. (Q1501926) 2",
+            "source": "Sarah Palin 1",
+            "target": "attorney general 2",
             "value": 0.009999973550439467
         },
         {
-            "source": "sara palen (Q43144) 1",
-            "target": "presidential (Q30461) 2",
+            "source": "Sarah Palin 1",
+            "target": "president 2",
             "value": 0.009999973550439467
         },
         {
-            "source": "sara palen (Q43144) 1",
-            "target": "executive vice-president (Q42178) 2",
+            "source": "Sarah Palin 1",
+            "target": "vice president 2",
             "value": 0.009999973550439467
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "healthcare in south carolina (Q1456) 3",
+            "source": "governor 2",
+            "target": "South Carolina 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "transport in maine (Q724) 3",
+            "source": "governor 2",
+            "target": "Maine 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "ia (Q1546) 3",
+            "source": "governor 2",
+            "target": "Iowa 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "district of columbia county, dc (Q61) 3",
+            "source": "governor 2",
+            "target": "Washington, D.C. 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "philadelphi (Q1345) 3",
+            "source": "governor 2",
+            "target": "Philadelphia 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "culture of kansas (Q1558) 3",
+            "source": "governor 2",
+            "target": "Kansas 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "us-wi (Q1537) 3",
+            "source": "governor 2",
+            "target": "Wisconsin 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "colorado military facilities (Q1261) 3",
+            "source": "governor 2",
+            "target": "Colorado 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "ri (Q252) 3",
+            "source": "governor 2",
+            "target": "Indonesia 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "state governor (Q132050) 2",
-            "target": "rhode island (Q1387) 3",
+            "source": "governor 2",
+            "target": "Rhode Island 3",
             "value": 0.009984200969691548
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "healthcare in south carolina (Q1456) 3",
+            "source": "mayor 2",
+            "target": "South Carolina 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "transport in maine (Q724) 3",
+            "source": "mayor 2",
+            "target": "Maine 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "ia (Q1546) 3",
+            "source": "mayor 2",
+            "target": "Iowa 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "district of columbia county, dc (Q61) 3",
+            "source": "mayor 2",
+            "target": "Washington, D.C. 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "philadelphi (Q1345) 3",
+            "source": "mayor 2",
+            "target": "Philadelphia 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "culture of kansas (Q1558) 3",
+            "source": "mayor 2",
+            "target": "Kansas 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "us-wi (Q1537) 3",
+            "source": "mayor 2",
+            "target": "Wisconsin 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "colorado military facilities (Q1261) 3",
+            "source": "mayor 2",
+            "target": "Colorado 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "ri (Q252) 3",
+            "source": "mayor 2",
+            "target": "Indonesia 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "acting mayor (Q30185) 2",
-            "target": "rhode island (Q1387) 3",
+            "source": "mayor 2",
+            "target": "Rhode Island 3",
             "value": 0.009960574881123563
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "healthcare in south carolina (Q1456) 3",
+            "source": "council member 2",
+            "target": "South Carolina 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "transport in maine (Q724) 3",
+            "source": "council member 2",
+            "target": "Maine 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "ia (Q1546) 3",
+            "source": "council member 2",
+            "target": "Iowa 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "district of columbia county, dc (Q61) 3",
+            "source": "council member 2",
+            "target": "Washington, D.C. 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "philadelphi (Q1345) 3",
+            "source": "council member 2",
+            "target": "Philadelphia 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "culture of kansas (Q1558) 3",
+            "source": "council member 2",
+            "target": "Kansas 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "us-wi (Q1537) 3",
+            "source": "council member 2",
+            "target": "Wisconsin 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "colorado military facilities (Q1261) 3",
+            "source": "council member 2",
+            "target": "Colorado 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "ri (Q252) 3",
+            "source": "council member 2",
+            "target": "Indonesia 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "councilmember (Q708492) 2",
-            "target": "rhode island (Q1387) 3",
+            "source": "council member 2",
+            "target": "Rhode Island 3",
             "value": 0.009920107500550723
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "healthcare in south carolina (Q1456) 3",
+            "source": "attorney general 2",
+            "target": "South Carolina 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "transport in maine (Q724) 3",
+            "source": "attorney general 2",
+            "target": "Maine 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "ia (Q1546) 3",
+            "source": "attorney general 2",
+            "target": "Iowa 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "district of columbia county, dc (Q61) 3",
+            "source": "attorney general 2",
+            "target": "Washington, D.C. 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "philadelphi (Q1345) 3",
+            "source": "attorney general 2",
+            "target": "Philadelphia 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "culture of kansas (Q1558) 3",
+            "source": "attorney general 2",
+            "target": "Kansas 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "us-wi (Q1537) 3",
+            "source": "attorney general 2",
+            "target": "Wisconsin 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "colorado military facilities (Q1261) 3",
+            "source": "attorney general 2",
+            "target": "Colorado 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "ri (Q252) 3",
+            "source": "attorney general 2",
+            "target": "Indonesia 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "atty. gen. (Q1501926) 2",
-            "target": "rhode island (Q1387) 3",
+            "source": "attorney general 2",
+            "target": "Rhode Island 3",
             "value": 0.001298794717368601
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "healthcare in south carolina (Q1456) 3",
+            "source": "president 2",
+            "target": "South Carolina 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "transport in maine (Q724) 3",
+            "source": "president 2",
+            "target": "Maine 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "ia (Q1546) 3",
+            "source": "president 2",
+            "target": "Iowa 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "district of columbia county, dc (Q61) 3",
+            "source": "president 2",
+            "target": "Washington, D.C. 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "philadelphi (Q1345) 3",
+            "source": "president 2",
+            "target": "Philadelphia 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "culture of kansas (Q1558) 3",
+            "source": "president 2",
+            "target": "Kansas 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "us-wi (Q1537) 3",
+            "source": "president 2",
+            "target": "Wisconsin 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "colorado military facilities (Q1261) 3",
+            "source": "president 2",
+            "target": "Colorado 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "ri (Q252) 3",
+            "source": "president 2",
+            "target": "Indonesia 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "presidential (Q30461) 2",
-            "target": "rhode island (Q1387) 3",
+            "source": "president 2",
+            "target": "Rhode Island 3",
             "value": 0.0012856450389553964
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "healthcare in south carolina (Q1456) 3",
+            "source": "vice president 2",
+            "target": "South Carolina 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "transport in maine (Q724) 3",
+            "source": "vice president 2",
+            "target": "Maine 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "ia (Q1546) 3",
+            "source": "vice president 2",
+            "target": "Iowa 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "district of columbia county, dc (Q61) 3",
+            "source": "vice president 2",
+            "target": "Washington, D.C. 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "philadelphi (Q1345) 3",
+            "source": "vice president 2",
+            "target": "Philadelphia 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "culture of kansas (Q1558) 3",
+            "source": "vice president 2",
+            "target": "Kansas 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "us-wi (Q1537) 3",
+            "source": "vice president 2",
+            "target": "Wisconsin 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "colorado military facilities (Q1261) 3",
+            "source": "vice president 2",
+            "target": "Colorado 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "ri (Q252) 3",
+            "source": "vice president 2",
+            "target": "Indonesia 3",
             "value": 0.001107888644012317
         },
         {
-            "source": "executive vice-president (Q42178) 2",
-            "target": "rhode island (Q1387) 3",
+            "source": "vice president 2",
+            "target": "Rhode Island 3",
             "value": 0.001107888644012317
         }
     ],
@@ -343,7 +343,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "regions of alaska (Q797) 0",
+            "name": "Alaska 0",
             "url": "https://www.wikidata.org/wiki/Q797",
             "value": 1.0
         },
@@ -353,7 +353,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sara palen (Q43144) 1",
+            "name": "Sarah Palin 1",
             "url": "https://www.wikidata.org/wiki/Q43144",
             "value": 0.9999973773956299
         },
@@ -363,7 +363,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "state governor (Q132050) 2",
+            "name": "governor 2",
             "url": "https://www.wikidata.org/wiki/Q132050",
             "value": 0.9984201192855835
         },
@@ -373,7 +373,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "acting mayor (Q30185) 2",
+            "name": "mayor 2",
             "url": "https://www.wikidata.org/wiki/Q30185",
             "value": 0.9960575103759766
         },
@@ -383,7 +383,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "councilmember (Q708492) 2",
+            "name": "council member 2",
             "url": "https://www.wikidata.org/wiki/Q708492",
             "value": 0.992010772228241
         },
@@ -393,7 +393,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "atty. gen. (Q1501926) 2",
+            "name": "attorney general 2",
             "url": "https://www.wikidata.org/wiki/Q1501926",
             "value": 0.12987947463989258
         },
@@ -403,7 +403,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "presidential (Q30461) 2",
+            "name": "president 2",
             "url": "https://www.wikidata.org/wiki/Q30461",
             "value": 0.1285645067691803
         },
@@ -413,7 +413,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "executive vice-president (Q42178) 2",
+            "name": "vice president 2",
             "url": "https://www.wikidata.org/wiki/Q42178",
             "value": 0.11078886687755585
         },
@@ -423,7 +423,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "healthcare in south carolina (Q1456) 3",
+            "name": "South Carolina 3",
             "url": "https://www.wikidata.org/wiki/Q1456",
             "value": 0.9952449202537537
         },
@@ -433,7 +433,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "transport in maine (Q724) 3",
+            "name": "Maine 3",
             "url": "https://www.wikidata.org/wiki/Q724",
             "value": 0.9939950108528137
         },
@@ -443,7 +443,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "ia (Q1546) 3",
+            "name": "Iowa 3",
             "url": "https://www.wikidata.org/wiki/Q1546",
             "value": 0.9937973618507385
         },
@@ -453,7 +453,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "district of columbia county, dc (Q61) 3",
+            "name": "Washington, D.C. 3",
             "url": "https://www.wikidata.org/wiki/Q61",
             "value": 0.38104385137557983
         },
@@ -463,7 +463,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "philadelphi (Q1345) 3",
+            "name": "Philadelphia 3",
             "url": "https://www.wikidata.org/wiki/Q1345",
             "value": 0.35663267970085144
         },
@@ -473,7 +473,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "culture of kansas (Q1558) 3",
+            "name": "Kansas 3",
             "url": "https://www.wikidata.org/wiki/Q1558",
             "value": 0.34383681416511536
         },
@@ -483,7 +483,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "us-wi (Q1537) 3",
+            "name": "Wisconsin 3",
             "url": "https://www.wikidata.org/wiki/Q1537",
             "value": 0.33920228481292725
         },
@@ -493,7 +493,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "colorado military facilities (Q1261) 3",
+            "name": "Colorado 3",
             "url": "https://www.wikidata.org/wiki/Q1261",
             "value": 0.3350703716278076
         },
@@ -503,7 +503,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "ri (Q252) 3",
+            "name": "Indonesia 3",
             "url": "https://www.wikidata.org/wiki/Q252",
             "value": 0.33426928520202637
         },
@@ -513,7 +513,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "rhode island (Q1387) 3",
+            "name": "Rhode Island 3",
             "url": "https://www.wikidata.org/wiki/Q1387",
             "value": 0.33096054196357727
         }

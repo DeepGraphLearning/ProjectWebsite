@@ -1,33 +1,33 @@
 {
     "edges": [
         {
-            "source": "american actor (Q33999) 0 [rank = 1]",
-            "target": "american actor (Q33999) 1 [rank = 1]",
+            "source": "actor 0 [rank = 1]",
+            "target": "actor 1 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "american actor (Q33999) 1 [rank = 1]",
-            "target": "mark wahlberg (Q164119) 2 [rank = 1]",
+            "source": "actor 1 [rank = 1]",
+            "target": "Mark Wahlberg 2 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "mark wahlberg (Q164119) 2 [rank = 1]",
-            "target": "john maxwell coetzee (Q43293) 3 [rank = 3]",
+            "source": "Mark Wahlberg 2 [rank = 1]",
+            "target": "J. M. Coetzee 3 [rank = 3]",
             "value": 0.5
         },
         {
-            "source": "john maxwell coetzee (Q43293) 3 [rank = 3]",
-            "target": "john maxwell coetzee (Q43293) 6 [rank = 320]",
+            "source": "J. M. Coetzee 3 [rank = 3]",
+            "target": "J. M. Coetzee 6 [rank = 320]",
             "value": 0.5
         },
         {
-            "source": "vegitarianism (Q83364) 4 [rank = 1]",
-            "target": "john maxwell coetzee (Q43293) 5 [rank = 564]",
+            "source": "vegetarianism 4 [rank = 1]",
+            "target": "J. M. Coetzee 5 [rank = 564]",
             "value": 0.5
         },
         {
-            "source": "john maxwell coetzee (Q43293) 5 [rank = 564]",
-            "target": "john maxwell coetzee (Q43293) 6 [rank = 320]",
+            "source": "J. M. Coetzee 5 [rank = 564]",
+            "target": "J. M. Coetzee 6 [rank = 320]",
             "value": 0.5
         }
     ],
@@ -38,7 +38,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "american actor (Q33999) 0 [rank = 1]",
+            "name": "actor 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q33999",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "american actor (Q33999) 1 [rank = 1]",
+            "name": "actor 1 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q33999",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "mark wahlberg (Q164119) 2 [rank = 1]",
+            "name": "Mark Wahlberg 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q164119",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "john maxwell coetzee (Q43293) 3 [rank = 3]",
+            "name": "J. M. Coetzee 3 [rank = 3]",
             "url": "https://www.wikidata.org/wiki/Q43293",
             "value": 1
         },
@@ -78,7 +78,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "vegitarianism (Q83364) 4 [rank = 1]",
+            "name": "vegetarianism 4 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q83364",
             "value": 1
         },
@@ -88,7 +88,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "john maxwell coetzee (Q43293) 5 [rank = 564]",
+            "name": "J. M. Coetzee 5 [rank = 564]",
             "url": "https://www.wikidata.org/wiki/Q43293",
             "value": 1
         },
@@ -98,7 +98,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "john maxwell coetzee (Q43293) 6 [rank = 320]",
+            "name": "J. M. Coetzee 6 [rank = 320]",
             "url": "https://www.wikidata.org/wiki/Q43293",
             "value": 1
         }

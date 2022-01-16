@@ -1,163 +1,163 @@
 {
     "edges": [
         {
-            "source": "miriam weinstein (Q465449) 0",
-            "target": "managing directors (Q484876) 1",
+            "source": "Miramax 0",
+            "target": "chief executive officer 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "managing directors (Q484876) 1",
-            "target": "managing directors (Q484876) 4",
+            "source": "chief executive officer 1",
+            "target": "chief executive officer 4",
             "value": 0.009999892488124384
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "presidential (Q30461) 3",
+            "source": "WarnerMedia 2",
+            "target": "president 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "chief of operations (Q623279) 3",
+            "source": "WarnerMedia 2",
+            "target": "chief operating officer 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "managing directors (Q484876) 3",
+            "source": "WarnerMedia 2",
+            "target": "chief executive officer 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "chief scientist (title) (Q5287861) 3",
+            "source": "WarnerMedia 2",
+            "target": "chief technology officer 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "treasurers (Q388338) 3",
+            "source": "WarnerMedia 2",
+            "target": "treasurer 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "chief marketing officer (Q1072339) 3",
+            "source": "WarnerMedia 2",
+            "target": "chief marketing officer 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "general manager asia pacific (Q1210069) 3",
+            "source": "WarnerMedia 2",
+            "target": "general manager 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "chief administration officer (Q1072283) 3",
+            "source": "WarnerMedia 2",
+            "target": "chief administrative officer 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "executive vice-president (Q42178) 3",
+            "source": "WarnerMedia 2",
+            "target": "vice president 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "warner media, llc (Q191715) 2",
-            "target": "2nd line technical support (Q366580) 3",
+            "source": "WarnerMedia 2",
+            "target": "technical support 3",
             "value": 0.009999999776482582
         },
         {
-            "source": "presidential (Q30461) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "president 3",
+            "target": "chief executive officer 4",
             "value": 0.009999987855553893
         },
         {
-            "source": "chief of operations (Q623279) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "chief operating officer 3",
+            "target": "chief executive officer 4",
             "value": 0.009999966397882254
         },
         {
-            "source": "managing directors (Q484876) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "chief executive officer 3",
+            "target": "chief executive officer 4",
             "value": 0.009999940171839139
         },
         {
-            "source": "chief scientist (title) (Q5287861) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "chief technology officer 3",
+            "target": "chief executive officer 4",
             "value": 0.004353650711022672
         },
         {
-            "source": "treasurers (Q388338) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "treasurer 3",
+            "target": "chief executive officer 4",
             "value": 0.00373498610254408
         },
         {
-            "source": "chief marketing officer (Q1072339) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "chief marketing officer 3",
+            "target": "chief executive officer 4",
             "value": 0.0034533371749519426
         },
         {
-            "source": "general manager asia pacific (Q1210069) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "general manager 3",
+            "target": "chief executive officer 4",
             "value": 0.0034160187076922033
         },
         {
-            "source": "chief administration officer (Q1072283) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "chief administrative officer 3",
+            "target": "chief executive officer 4",
             "value": 0.0032316821091246117
         },
         {
-            "source": "executive vice-president (Q42178) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "vice president 3",
+            "target": "chief executive officer 4",
             "value": 0.003176602054165256
         },
         {
-            "source": "2nd line technical support (Q366580) 3",
-            "target": "managing directors (Q484876) 4",
+            "source": "technical support 3",
+            "target": "chief executive officer 4",
             "value": 0.0029969262406916997
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "miriam weinstein (Q465449) 5",
+            "source": "chief executive officer 4",
+            "target": "Miramax 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "new line cinemas (Q79202) 5",
+            "source": "chief executive officer 4",
+            "target": "New Line Cinema 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "lion's gate entertainment (Q515869) 5",
+            "source": "chief executive officer 4",
+            "target": "Lionsgate 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "ua/col (Q248713) 5",
+            "source": "chief executive officer 4",
+            "target": "KSA Network 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "dc national comics (Q2924461) 5",
+            "source": "chief executive officer 4",
+            "target": "DC Comics 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "espn hd (Q217776) 5",
+            "source": "chief executive officer 4",
+            "target": "ESPN 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "lucasarts entertainment company llc (Q216611) 5",
+            "source": "chief executive officer 4",
+            "target": "LucasArts 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "kapuso network (Q399643) 5",
+            "source": "chief executive officer 4",
+            "target": "GMA Network 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "spyglass entertainment (Q512858) 5",
+            "source": "chief executive officer 4",
+            "target": "Spyglass Media Group 5",
             "value": 0.009999832883480941
         },
         {
-            "source": "managing directors (Q484876) 4",
-            "target": "aspyr (Q738135) 5",
+            "source": "chief executive officer 4",
+            "target": "Aspyr 5",
             "value": 0.009999832883480941
         }
     ],
@@ -168,7 +168,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "miriam weinstein (Q465449) 0",
+            "name": "Miramax 0",
             "url": "https://www.wikidata.org/wiki/Q465449",
             "value": 1.0
         },
@@ -178,7 +178,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "managing directors (Q484876) 1",
+            "name": "chief executive officer 1",
             "url": "https://www.wikidata.org/wiki/Q484876",
             "value": 0.9999892711639404
         },
@@ -188,7 +188,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "warner media, llc (Q191715) 2",
+            "name": "WarnerMedia 2",
             "url": "https://www.wikidata.org/wiki/Q191715",
             "value": 1.0
         },
@@ -198,7 +198,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "presidential (Q30461) 3",
+            "name": "president 3",
             "url": "https://www.wikidata.org/wiki/Q30461",
             "value": 0.9999988079071045
         },
@@ -208,7 +208,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "chief of operations (Q623279) 3",
+            "name": "chief operating officer 3",
             "url": "https://www.wikidata.org/wiki/Q623279",
             "value": 0.9999966621398926
         },
@@ -218,7 +218,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "managing directors (Q484876) 3",
+            "name": "chief executive officer 3",
             "url": "https://www.wikidata.org/wiki/Q484876",
             "value": 0.9999940395355225
         },
@@ -228,7 +228,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chief scientist (title) (Q5287861) 3",
+            "name": "chief technology officer 3",
             "url": "https://www.wikidata.org/wiki/Q5287861",
             "value": 0.43536508083343506
         },
@@ -238,7 +238,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "treasurers (Q388338) 3",
+            "name": "treasurer 3",
             "url": "https://www.wikidata.org/wiki/Q388338",
             "value": 0.3734986186027527
         },
@@ -248,7 +248,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chief marketing officer (Q1072339) 3",
+            "name": "chief marketing officer 3",
             "url": "https://www.wikidata.org/wiki/Q1072339",
             "value": 0.3453337252140045
         },
@@ -258,7 +258,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "general manager asia pacific (Q1210069) 3",
+            "name": "general manager 3",
             "url": "https://www.wikidata.org/wiki/Q1210069",
             "value": 0.3416018784046173
         },
@@ -268,7 +268,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "chief administration officer (Q1072283) 3",
+            "name": "chief administrative officer 3",
             "url": "https://www.wikidata.org/wiki/Q1072283",
             "value": 0.32316821813583374
         },
@@ -278,7 +278,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "executive vice-president (Q42178) 3",
+            "name": "vice president 3",
             "url": "https://www.wikidata.org/wiki/Q42178",
             "value": 0.31766021251678467
         },
@@ -288,7 +288,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "2nd line technical support (Q366580) 3",
+            "name": "technical support 3",
             "url": "https://www.wikidata.org/wiki/Q366580",
             "value": 0.29969263076782227
         },
@@ -298,7 +298,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "managing directors (Q484876) 4",
+            "name": "chief executive officer 4",
             "url": "https://www.wikidata.org/wiki/Q484876",
             "value": 0.9999833106994629
         },
@@ -308,7 +308,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "miriam weinstein (Q465449) 5",
+            "name": "Miramax 5",
             "url": "https://www.wikidata.org/wiki/Q465449",
             "value": 0.9999996423721313
         },
@@ -318,7 +318,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "new line cinemas (Q79202) 5",
+            "name": "New Line Cinema 5",
             "url": "https://www.wikidata.org/wiki/Q79202",
             "value": 0.9999994039535522
         },
@@ -328,7 +328,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "lion's gate entertainment (Q515869) 5",
+            "name": "Lionsgate 5",
             "url": "https://www.wikidata.org/wiki/Q515869",
             "value": 0.9999992847442627
         },
@@ -338,7 +338,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "ua/col (Q248713) 5",
+            "name": "KSA Network 5",
             "url": "https://www.wikidata.org/wiki/Q248713",
             "value": 0.6146974563598633
         },
@@ -348,7 +348,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "dc national comics (Q2924461) 5",
+            "name": "DC Comics 5",
             "url": "https://www.wikidata.org/wiki/Q2924461",
             "value": 0.5832872986793518
         },
@@ -358,7 +358,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "espn hd (Q217776) 5",
+            "name": "ESPN 5",
             "url": "https://www.wikidata.org/wiki/Q217776",
             "value": 0.5750913619995117
         },
@@ -368,7 +368,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "lucasarts entertainment company llc (Q216611) 5",
+            "name": "LucasArts 5",
             "url": "https://www.wikidata.org/wiki/Q216611",
             "value": 0.5735734701156616
         },
@@ -378,7 +378,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kapuso network (Q399643) 5",
+            "name": "GMA Network 5",
             "url": "https://www.wikidata.org/wiki/Q399643",
             "value": 0.5714585185050964
         },
@@ -388,7 +388,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "spyglass entertainment (Q512858) 5",
+            "name": "Spyglass Media Group 5",
             "url": "https://www.wikidata.org/wiki/Q512858",
             "value": 0.5696936249732971
         },
@@ -398,7 +398,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "aspyr (Q738135) 5",
+            "name": "Aspyr 5",
             "url": "https://www.wikidata.org/wiki/Q738135",
             "value": 0.5673838257789612
         }

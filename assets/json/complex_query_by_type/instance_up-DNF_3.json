@@ -1,28 +1,28 @@
 {
     "edges": [
         {
-            "source": "paris time (Q25989) 0 [rank = 1]",
-            "target": "state of berlin (Q64) 1 [rank = 1257]",
+            "source": "Central European Time 0 [rank = 1]",
+            "target": "Berlin 1 [rank = 1257]",
             "value": 0.5
         },
         {
-            "source": "state of berlin (Q64) 1 [rank = 1257]",
-            "target": "state of berlin (Q64) 4 [rank = 1298]",
+            "source": "Berlin 1 [rank = 1257]",
+            "target": "Berlin 4 [rank = 1298]",
             "value": 0.5
         },
         {
-            "source": "emilia\u2011romagna (Q1263) 2 [rank = 1]",
-            "target": "parma (Q2683) 3 [rank = 1]",
+            "source": "Emilia-Romagna 2 [rank = 1]",
+            "target": "Parma 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "parma (Q2683) 3 [rank = 1]",
-            "target": "state of berlin (Q64) 4 [rank = 1298]",
+            "source": "Parma 3 [rank = 1]",
+            "target": "Berlin 4 [rank = 1298]",
             "value": 0.5
         },
         {
-            "source": "state of berlin (Q64) 4 [rank = 1298]",
-            "target": "united germany (Q43287) 5 [rank = 6]",
+            "source": "Berlin 4 [rank = 1298]",
+            "target": "German Empire 5 [rank = 6]",
             "value": 0.5
         }
     ],
@@ -33,7 +33,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "paris time (Q25989) 0 [rank = 1]",
+            "name": "Central European Time 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q25989",
             "value": 1
         },
@@ -43,7 +43,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "state of berlin (Q64) 1 [rank = 1257]",
+            "name": "Berlin 1 [rank = 1257]",
             "url": "https://www.wikidata.org/wiki/Q64",
             "value": 1
         },
@@ -53,7 +53,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "emilia\u2011romagna (Q1263) 2 [rank = 1]",
+            "name": "Emilia-Romagna 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1263",
             "value": 1
         },
@@ -63,7 +63,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "parma (Q2683) 3 [rank = 1]",
+            "name": "Parma 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q2683",
             "value": 1
         },
@@ -73,7 +73,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "state of berlin (Q64) 4 [rank = 1298]",
+            "name": "Berlin 4 [rank = 1298]",
             "url": "https://www.wikidata.org/wiki/Q64",
             "value": 1
         },
@@ -83,7 +83,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "united germany (Q43287) 5 [rank = 6]",
+            "name": "German Empire 5 [rank = 6]",
             "url": "https://www.wikidata.org/wiki/Q43287",
             "value": 1
         }

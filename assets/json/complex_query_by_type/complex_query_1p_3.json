@@ -1,38 +1,38 @@
 {
     "edges": [
         {
-            "source": "europaradet (Q8908) 0",
+            "source": "Council of Europe 0",
             "target": "/m/0177z 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "europaradet (Q8908) 0",
-            "target": "r\u012bga (Q1773) 1",
+            "source": "Council of Europe 0",
+            "target": "Riga 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "europaradet (Q8908) 0",
-            "target": "kbh (Q1748) 1",
+            "source": "Council of Europe 0",
+            "target": "Copenhagen 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "europaradet (Q8908) 0",
-            "target": "kyiw (Q1899) 1",
+            "source": "Council of Europe 0",
+            "target": "Kyiv 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "europaradet (Q8908) 0",
-            "target": "protestant rome (Q71) 1",
+            "source": "Council of Europe 0",
+            "target": "Geneva 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "europaradet (Q8908) 0",
-            "target": "bak\u0131 \u015f\u00e4h\u00e4ri, azerbaijan (Q9248) 1",
+            "source": "Council of Europe 0",
+            "target": "Baku 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "europaradet (Q8908) 0",
-            "target": "christiana, norway (Q585) 1",
+            "source": "Council of Europe 0",
+            "target": "Oslo 1",
             "value": 0.009999999776482582
         }
     ],
@@ -43,7 +43,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "europaradet (Q8908) 0",
+            "name": "Council of Europe 0",
             "url": "https://www.wikidata.org/wiki/Q8908",
             "value": 1.0
         },
@@ -62,7 +62,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "r\u012bga (Q1773) 1",
+            "name": "Riga 1",
             "url": "https://www.wikidata.org/wiki/Q1773",
             "value": 0.5580605864524841
         },
@@ -72,7 +72,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kbh (Q1748) 1",
+            "name": "Copenhagen 1",
             "url": "https://www.wikidata.org/wiki/Q1748",
             "value": 0.5454785823822021
         },
@@ -82,7 +82,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "kyiw (Q1899) 1",
+            "name": "Kyiv 1",
             "url": "https://www.wikidata.org/wiki/Q1899",
             "value": 0.44042447209358215
         },
@@ -92,7 +92,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "protestant rome (Q71) 1",
+            "name": "Geneva 1",
             "url": "https://www.wikidata.org/wiki/Q71",
             "value": 0.3728633522987366
         },
@@ -102,7 +102,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "bak\u0131 \u015f\u00e4h\u00e4ri, azerbaijan (Q9248) 1",
+            "name": "Baku 1",
             "url": "https://www.wikidata.org/wiki/Q9248",
             "value": 0.3681130111217499
         },
@@ -112,7 +112,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "christiana, norway (Q585) 1",
+            "name": "Oslo 1",
             "url": "https://www.wikidata.org/wiki/Q585",
             "value": 0.35352084040641785
         }

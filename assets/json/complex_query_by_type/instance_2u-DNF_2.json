@@ -1,23 +1,23 @@
 {
     "edges": [
         {
-            "source": "warner bros. nashville (Q843402) 0 [rank = 1]",
-            "target": "randy newman (Q318475) 1 [rank = 366]",
+            "source": "Warner Bros. Records 0 [rank = 1]",
+            "target": "Randy Newman 1 [rank = 366]",
             "value": 0.5
         },
         {
-            "source": "randy newman (Q318475) 1 [rank = 366]",
-            "target": "randy newman (Q318475) 4 [rank = 269]",
+            "source": "Randy Newman 1 [rank = 366]",
+            "target": "Randy Newman 4 [rank = 269]",
             "value": 0.5
         },
         {
-            "source": "frontman (Q1045845) 2 [rank = 1]",
-            "target": "eddie veder (Q221535) 3 [rank = 1]",
+            "source": "lead vocalist 2 [rank = 1]",
+            "target": "Eddie Vedder 3 [rank = 1]",
             "value": 0.5
         },
         {
-            "source": "eddie veder (Q221535) 3 [rank = 1]",
-            "target": "randy newman (Q318475) 4 [rank = 269]",
+            "source": "Eddie Vedder 3 [rank = 1]",
+            "target": "Randy Newman 4 [rank = 269]",
             "value": 0.5
         }
     ],
@@ -28,7 +28,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "warner bros. nashville (Q843402) 0 [rank = 1]",
+            "name": "Warner Bros. Records 0 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q843402",
             "value": 1
         },
@@ -38,7 +38,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "randy newman (Q318475) 1 [rank = 366]",
+            "name": "Randy Newman 1 [rank = 366]",
             "url": "https://www.wikidata.org/wiki/Q318475",
             "value": 1
         },
@@ -48,7 +48,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "frontman (Q1045845) 2 [rank = 1]",
+            "name": "lead vocalist 2 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q1045845",
             "value": 1
         },
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "eddie veder (Q221535) 3 [rank = 1]",
+            "name": "Eddie Vedder 3 [rank = 1]",
             "url": "https://www.wikidata.org/wiki/Q221535",
             "value": 1
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "randy newman (Q318475) 4 [rank = 269]",
+            "name": "Randy Newman 4 [rank = 269]",
             "url": "https://www.wikidata.org/wiki/Q318475",
             "value": 1
         }

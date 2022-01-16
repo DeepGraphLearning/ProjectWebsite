@@ -1,53 +1,53 @@
 {
     "edges": [
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "sand volleyball court (Q4543) 1",
+            "source": "Nicaragua 0",
+            "target": "beach volleyball 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
+            "source": "Nicaragua 0",
             "target": "/m/071t0 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "physics of rowing (Q159354) 1",
+            "source": "Nicaragua 0",
+            "target": "rowing 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "20 kilometres run (Q1934817) 1",
+            "source": "Nicaragua 0",
+            "target": "road running 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "outdoor track and field (Q3312129) 1",
+            "source": "Nicaragua 0",
+            "target": "track and field 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "juhdoh (Q11420) 1",
+            "source": "Nicaragua 0",
+            "target": "judo 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "tae kwan do (Q36389) 1",
+            "source": "Nicaragua 0",
+            "target": "taekwondo 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "fist fighting (Q32112) 1",
+            "source": "Nicaragua 0",
+            "target": "boxing 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
+            "source": "Nicaragua 0",
             "target": "/m/03hr1p 1",
             "value": 0.009999999776482582
         },
         {
-            "source": "republica de nicaragua (Q811) 0",
-            "target": "walking (sport) (Q202391) 1",
+            "source": "Nicaragua 0",
+            "target": "racewalking 1",
             "value": 0.009999999776482582
         }
     ],
@@ -58,7 +58,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "republica de nicaragua (Q811) 0",
+            "name": "Nicaragua 0",
             "url": "https://www.wikidata.org/wiki/Q811",
             "value": 1.0
         },
@@ -68,7 +68,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "sand volleyball court (Q4543) 1",
+            "name": "beach volleyball 1",
             "url": "https://www.wikidata.org/wiki/Q4543",
             "value": 0.9998394250869751
         },
@@ -87,7 +87,7 @@
                 "borderColor": "#1f77b4",
                 "color": "#1f77b4"
             },
-            "name": "physics of rowing (Q159354) 1",
+            "name": "rowing 1",
             "url": "https://www.wikidata.org/wiki/Q159354",
             "value": 0.9998056292533875
         },
@@ -97,7 +97,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "20 kilometres run (Q1934817) 1",
+            "name": "road running 1",
             "url": "https://www.wikidata.org/wiki/Q1934817",
             "value": 0.2447238564491272
         },
@@ -107,7 +107,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "outdoor track and field (Q3312129) 1",
+            "name": "track and field 1",
             "url": "https://www.wikidata.org/wiki/Q3312129",
             "value": 0.236956387758255
         },
@@ -117,7 +117,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "juhdoh (Q11420) 1",
+            "name": "judo 1",
             "url": "https://www.wikidata.org/wiki/Q11420",
             "value": 0.23649995028972626
         },
@@ -127,7 +127,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "tae kwan do (Q36389) 1",
+            "name": "taekwondo 1",
             "url": "https://www.wikidata.org/wiki/Q36389",
             "value": 0.22703610360622406
         },
@@ -137,7 +137,7 @@
                 "borderColor": "#2ca02c",
                 "color": "#2ca02c"
             },
-            "name": "fist fighting (Q32112) 1",
+            "name": "boxing 1",
             "url": "https://www.wikidata.org/wiki/Q32112",
             "value": 0.22201359272003174
         },
@@ -156,7 +156,7 @@
                 "borderColor": "#d62728",
                 "color": "#d62728"
             },
-            "name": "walking (sport) (Q202391) 1",
+            "name": "racewalking 1",
             "url": "https://www.wikidata.org/wiki/Q202391",
             "value": 0.1908770501613617
         }
