@@ -5,8 +5,8 @@ title: Wikidata5m
 image: /assets/images/wikidata5m.jpg
 papers:
   - title: "KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation"
-    authors: [Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhiyuan Liu, Juanzi Li, Jian Tang]
-    conference: TACL 2020
+    authors: [Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhengyan Zhag, Zhiyuan Liu, Juanzi Li, Jian Tang]
+    conference: TACL 2021
     links:
       arXiv: https://arxiv.org/pdf/1911.06136.pdf
       BibTeX: /bibtex/kepler.txt
