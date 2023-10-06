@@ -2,7 +2,7 @@
 layout: default
 permalink: ultra
 title: ULTRA
-image: /assets/images/ultra.jpg
+image: /assets/images/ultra.png
 papers:
   - title: "Towards Foundation Models for Knowledge Graph Reasoning"
     authors: [Mikhail Galkin, Xinyu Yuan, Hesham Mostafa, Jian Tang, Zhaocheng Zhu]
