@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: ultra
-title: ULTRA
+title: ULTRA - A Foundation Model for KG Reasoning
 image: /assets/images/ultra.png
 papers:
   - title: "Towards Foundation Models for Knowledge Graph Reasoning"
