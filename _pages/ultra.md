@@ -25,7 +25,7 @@ Fine-tuning further boosts the performance.
 Performance
 ----
 
-![](/assets/images/ultra_mainres.png)
+![](/project/assets/images/ultra_mainres.png)
 
 A single ULTRA model pre-trained on 3 standard KGs (FB15k237, WN18RR, Codex-Medium) outperforms supervised SOTA methods by relative 15% in terms of MRR and Hits@10 on 57 different KGs in the **zero-shot** regime, that is, seeing the new graphs at inference without any fine-tuning. Fine-tuning ULTRA brings further improvements and the overall gap increases to 22%.
 
@@ -45,7 +45,7 @@ Pre-training performance of ULTRA is put into the *fine-tuned* category by conve
 Scaling and Model Options
 ----
 
-![](/assets/images/ultra_num_graphs.png)
+![](/project/assets/images/ultra_num_graphs.png)
 
 We trained several variants of the 177k parameter ULTRA model on different mixtures of KGs in the pre-training set.
 
