@@ -33,7 +33,7 @@ Results on 51 KGs that have published baselines. 40 graphs were evaluated on the
 Pre-training performance of ULTRA is put into the *fine-tuned* category by convention. 
 
 | Model |   Inductive datasets (27), MRR | Transductive datasets (13), MRR    | Total Avg (40), MRR | Pretraining (3), MRR  | Inductive (8), Hits@10 (50 negatives)|
-|--------------|-------|------------|-----------|------------|--|
+|-----------------|:-----:|:------:|:------:|:-----:|:-----:|
 | Supervised SOTA | 0.342 | 0.348  | 0.344  | 0.439 | 0.731 |
 | ULTRA 0-shot    | 0.435 | 0.312  | 0.395  | -     | 0.859 |
 | ULTRA fine-tuned| 0.443 | 0.379  | 0.422  | 0.407 | 0.896 |
