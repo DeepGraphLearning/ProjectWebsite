@@ -7,8 +7,8 @@ papers:
   - title: "Towards Foundation Models for Knowledge Graph Reasoning"
     authors: [Mikhail Galkin, Xinyu Yuan, Hesham Mostafa, Jian Tang, Zhaocheng Zhu]
     links:
-      arXiv: https://arxiv.org/pdf/1911.06136.pdf
-      BibTeX: /bibtex/kepler.txt
+      arXiv: https://arxiv.org/pdf/2310.04562.pdf
+      BibTeX: /bibtex/ultra.txt
 ---
 
 Abstract
