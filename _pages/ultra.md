@@ -57,7 +57,9 @@ We trained several variants of the 177k parameter ULTRA model on different mixtu
 - 6 graphs: FB15k237, WN18RR, Codex-Medium, NELL-995, YAGO310, ConceptNet100k
 - 8 graphs: FB15k237, WN18RR, Codex-Medium, NELL-995, YAGO310, ConceptNet100k, DBpedia100k, AristoV4
 
-The checkpoints are rather small (a few MB), we will be releasing the weights.
+The checkpoints are rather small (a few MB), the weights and code are now available.
+
+[Data and Code on GitHub](https://github.com/DeepGraphLearning/ULTRA)
 
 
 Publications
